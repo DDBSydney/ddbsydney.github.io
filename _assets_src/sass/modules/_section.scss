@@ -62,8 +62,8 @@ $section_padding: (
 @function get-section--padding($mult: 1, $key: "default") {
   // throw a warning and error if the key is invalid
   @if not map-has-key($section_padding, $key) {
-    @warn "$key not found for @mixin section--padding($key)";
-    @error "$key not found for @mixin section--padding($key)";
+    @warn "$key not found for @function get-section--padding($key)";
+    @error "$key not found for @function get-section--padding($key)";
   } 
   
   // return the correct padding if the key is valid
@@ -155,8 +155,8 @@ $section_margin: (
 @function get-section--margin($mult: 1, $key: "default") {
   // throw a warning and error if the key is invalid
   @if not map-has-key($section_margin, $key) {
-    @warn "$key not found for @mixin section--margin($key)";
-    @error "$key not found for @mixin section--margin($key)";
+    @warn "$key not found for @function get-section--margin($key)";
+    @error "$key not found for @function get-section--margin($key)";
   } 
   
   // return the correct margin if the key is valid
@@ -241,6 +241,7 @@ section { @extend %section; }
 
     width: 100vw;
     height: auto;
+    max-width: 100vw;
     min-width: $base_html_w_min;
   }
 

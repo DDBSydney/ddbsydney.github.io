@@ -11,6 +11,7 @@
 // -------------------------------------
 //   Typography - Font Size
 // -------------------------------------
+// based on tags
 // font size - h1
 $font_size_h1:     42px; // base 
 $font_size_h1_tab: 38px; // tablet
@@ -41,18 +42,21 @@ $font_size_p:     14px; // base
 $font_size_p_tab: 13px; // tablet
 $font_size_p_mob: 12px; // mobile
 
+// based on size
 // font size - xs
-$font_size_xs:     12px; // base 
-$font_size_xs_tab: 11px; // tablet
-$font_size_xs_mob: 10px; // mobile
+$font_size_xs:     $font_size_p * 0.85;     // base 
+$font_size_xs_tab: $font_size_p_tab * 0.85; // tablet
+$font_size_xs_mob: $font_size_p_mob * 0.85; // mobile
+
+// font size - lg
+$font_size_lg:     $font_size_h1 * 1.28;     // base 
+$font_size_lg_tab: $font_size_h1_tab * 1.28; // tablet
+$font_size_lg_mob: $font_size_h1_mob * 1.28; // mobile
 
 // map of available
 // typography sizes
 $font-size: (
-  "none":     0, // base
-  "none_tab": 0, // tablet
-  "none_mob": 0, // mobile
-
+  // based on tags
   "h1":     $font_size_h1,     // base
   "h1_tab": $font_size_h1_tab, // tablet
   "h1_mob": $font_size_h1_mob, // mobile
@@ -76,10 +80,15 @@ $font-size: (
   "p":     $font_size_p,     // base
   "p_tab": $font_size_p_tab, // tablet
   "p_mob": $font_size_p_mob, // mobile
-
+  
+  // based on size
   "xs":     $font_size_xs,     // base
   "xs_tab": $font_size_xs_tab, // tablet
-  "xs_mob": $font_size_xs_mob  // mobile
+  "xs_mob": $font_size_xs_mob, // mobile
+
+  "lg":     $font_size_lg,     // base
+  "lg_tab": $font_size_lg_tab, // tablet
+  "lg_mob": $font_size_lg_mob  // mobile
 );
 
 // function to get the font size
@@ -87,8 +96,8 @@ $font-size: (
 @function get-font--size($key: "p") {
   // throw a warning and error if the key is invalid
   @if not map-has-key($font-size, $key) {
-    @warn "$key not found for @mixin font--size($key)";
-    @error "$key not found for @mixin font--size($key)";
+    @warn "$key not found for @function get-font--size($key)";
+    @error "$key not found for @function get-font--size($key)";
   } 
   
   // return the correct padding if the key is valid
@@ -96,12 +105,258 @@ $font-size: (
 }
 
 // -------------------------------------
-//   Font Size - Mixins
+//   Typography - Line Height
+// -------------------------------------
+// based on tags
+$line_height_h1: 1.26em;
+$line_height_h2: 1.26em;
+$line_height_h3: 1.33em;
+$line_height_h4: 1.33em;
+$line_height_h5: 1.72em;
+$line_height_p:  1.72em;
+
+// based on size
+$line_height_xs: $line_height_p;
+$line_height_lg: $line_height_h1;
+
+// map of available
+// typography heights
+$line-height: (
+  // based on tags
+  "h1": $line_height_h1, "h2": $line_height_h2,
+  "h3": $line_height_h3, "h4": $line_height_h4,
+  "h5": $line_height_h5, "p" : $line_height_p,
+  
+  // based on size
+  "xs": $line_height_xs, "lg": $line_height_lg
+);
+
+// function to get the line height
+// for the given key ( default otherwise )
+@function get-line--height($key: "p") {
+  // throw a warning and error if the key is invalid
+  @if not map-has-key($line-height, $key) {
+    @warn "$key not found for @function get-line--height($key)";
+    @error "$key not found for @function get-line--height($key)";
+  } 
+  
+  // return the correct padding if the key is valid
+  @return map-get($line-height, $key);
+}
+
+// -------------------------------------
+//   Typography - Font Family
+// -------------------------------------
+// based on tags
+$font_family_h1: "Helvetica Neue", Helvetica, sans-serif;
+$font_family_h2: "Helvetica Neue", Helvetica, sans-serif;
+$font_family_h3: "Helvetica Neue", Helvetica, sans-serif;
+$font_family_h4: "Helvetica Neue", Helvetica, sans-serif;
+$font_family_h5: "Helvetica Neue", Helvetica, sans-serif;
+$font_family_p:  "Helvetica Neue", Helvetica, sans-serif;
+
+// based on size
+$font_family_xs: $font_family_p;
+$font_family_lg: $font_family_h1;
+
+// map of available
+// typography families
+$font-family: (
+  // based on tags
+  "h1": $font_family_h1, "h2": $font_family_h2,
+  "h3": $font_family_h3, "h4": $font_family_h4,
+  "h5": $font_family_h5, "p" : $font_family_p,
+  
+  // based on size
+  "xs": $font_family_xs, "lg": $font_family_lg
+);
+
+// function to get the font family
+// for the given key ( default otherwise )
+@function get-font--family($key: "p") {
+  // throw a warning and error if the key is invalid
+  @if not map-has-key($font-family, $key) {
+    @warn "$key not found for @function get-font--family($key)";
+    @error "$key not found for @function get-font--family($key)";
+  } 
+  
+  // return the correct padding if the key is valid
+  @return map-get($font-family, $key);
+}
+
+// -------------------------------------
+//   Typography - Font Weights
+// -------------------------------------
+$font_weight_bold   : 700;
+$font_weight_sbold  : 600;
+$font_weight_medium : 500;
+$font_weight_regular: 400;
+$font_weight_light  : 300;
+$font_weight_thin   : 200;
+
+// based on tags
+$font_weight_h1: $font_weight_bold;
+$font_weight_h2: $font_weight_medium;
+$font_weight_h3: $font_weight_regular;
+$font_weight_h4: $font_weight_regular;
+$font_weight_h5: $font_weight_regular;
+$font_weight_p : $font_weight_regular;
+
+// based on size
+$font_weight_xs: $font_weight_regular;
+$font_weight_lg: $font_weight_bold;
+
+// map of available
+// typography weights
+$font-weight: (
+  // based on tags
+  "h1": $font_weight_h1, "h2": $font_weight_h2,
+  "h3": $font_weight_h3, "h4": $font_weight_h4,
+  "h5": $font_weight_h5, "p" : $font_weight_p,
+  
+  // based on size
+  "xs": $font_weight_xs, "lg": $font_weight_lg
+);
+
+// function to get the font weight
+// for the given key ( default otherwise )
+@function get-font--weight($key: "p") {
+  // throw a warning and error if the key is invalid
+  @if not map-has-key($font-weight, $key) {
+    @warn "$key not found for @function get-font--weight($key)";
+    @error "$key not found for @function get-font--weight($key)";
+  } 
+  
+  // return the correct padding if the key is valid
+  @return map-get($font-weight, $key);
+}
+
+// -------------------------------------
+//   Typography - Letter Spacing
+// -------------------------------------
+// based on tags
+$letter_spacing_h1: normal;
+$letter_spacing_h2: normal;
+$letter_spacing_h3: normal;
+$letter_spacing_h4: normal;
+$letter_spacing_h5: normal;
+$letter_spacing_p : normal;
+
+// based on size
+$letter_spacing_xs: $letter_spacing_p;
+$letter_spacing_lg: $letter_spacing_h1;
+
+// map of available
+// typography spacings
+$letter-spacing: (
+  // based on tags
+  "h1": $letter_spacing_h1, "h2": $letter_spacing_h2,
+  "h3": $letter_spacing_h3, "h4": $letter_spacing_h4,
+  "h5": $letter_spacing_h5, "p" : $letter_spacing_p,
+  
+  // based on size
+  "xs": $letter_spacing_xs, "lg": $letter_spacing_lg
+);
+
+// function to get the letter spacing
+// for the given key ( default otherwise )
+@function get-letter--spacing($key: "p") {
+  // throw a warning and error if the key is invalid
+  @if not map-has-key($letter-spacing, $key) {
+    @warn "$key not found for @function get-letter--spacing($key)";
+    @error "$key not found for @function get-letter--spacing($key)";
+  } 
+  
+  // return the correct padding if the key is valid
+  @return map-get($letter-spacing, $key);
+}
+
 // ------------------------------------
-// mixin - font size
+//   Typography - Mixins
+// ------------------------------------
+// mixin - font - size
 @mixin font--size($size: "p") {
   font-size: get-font--size($size);
   @include tablet { font-size: get-font--size(#{$size + "_tab"}); }
   @include mobile { font-size: get-font--size(#{$size + "_mob"}); }
 }
+
+// mixin - line - height
+@mixin line--height($size: "p") {
+  line-height: get-line--height($size);
+}
+
+// mixin - font - family
+@mixin font--family($size: "p") {
+  font-family: get-font--family($size);
+}
+
+// mixin - font - weight
+@mixin font--weight($size: "p") {
+  font-weight: get-font--weight($size);
+}
+
+// mixin - letter - spacing
+@mixin letter--spacing($size: "p") {
+  letter-spacing: get-letter--spacing($size);
+}
+
+// mixin - font - style
+@mixin font--style($size: "p") {
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: antialiased;
+
+  @include font--size($size); @include line--height($size);
+  @include font--family($size); @include font--weight($size);
+  @include letter--spacing($size); color: white;
+}
+
+// ------------------------------------
+//   Typography - Tags
+// ------------------------------------
+h1 { @include font--style("h1"); }
+h2 { @include font--style("h2"); }
+h3 { @include font--style("h3"); }
+h4 { @include font--style("h4"); }
+h5 { @include font--style("h5"); }
+
+html, body, ul, ol, li,
+p, a { @include font--style("p"); }
+
+span, i {
+  font-size: inherit; line-height: inherit;
+  font-family: inherit; font-weight: inherit;
+  letter-spacing: inherit; color: inherit;
+}
+
+h1, h2, h3, h4, h5, ul, ol, li, p, a {
+  &:first-child { margin-top: 0; }
+  &:last-child  { margin-bottom: 0; }
+}
+
+ul, ol {
+  padding-left: 1em;
+
+  li {
+    margin-top: 0.25em;
+    padding-left: 0.25em;
+    &:first-child { margin-top: 0; }
+    &:last-child  { margin-bottom: 0; }
+  }
+}
+
+a {
+  @include transitions(color);
+  text-decoration: none;
+  outline: 0;
+
+  &:hover, &:active, { color: white; }
+  &:hover, &:focus, &:active { outline: 0; }
+}
+
+
+
+
+
 
