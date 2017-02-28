@@ -12,7 +12,7 @@
 //   Article Tile
 // -------------------------------------
 $art_tile_h_min:     35vw;
-$art_tile_h_min_tab: 45vw;
+$art_tile_h_min_tab: 35vw;
 $art_tile_h_min_mob: 55vw;
 
 .article-tile {
@@ -70,6 +70,6 @@ $art_tile_content_inner_w_max_mob: 50%;
     @include mobile    { max-width: $art_tile_content_inner_w_max_mob; }
   }
   
-  > h4 { margin: 0; }
-  > a  { margin-top: 1em; }
+  h4 { margin: 0; }
+  h4 + a { margin-top: 1em; }
 }

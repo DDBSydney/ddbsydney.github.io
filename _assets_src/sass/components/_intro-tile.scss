@@ -8,22 +8,21 @@
 
 .intro-tile {
   @extend %section;
-  position: fixed;
-  height: 100vh;
-  width: 100vw;
+  height: 100vh; width: 100vw;
+  min-width: $base_html_w_min;
+  min-height: $base_html_w_min;
 }
 
 // -------------------------------------
 //   Intro Tile - Links
 // -------------------------------------
 .intro-tile__links {
-  @extend %transform-center;
+  @include transform-center;
   text-align: center;
 
   > a {
-    @extend %font-size-h2;
-    line-height: $line_height_head;
-    @include section--padding-top(0.5);
-    &:first-child { padding-top: 0 !important; }
+    @include font--style("h2");
+    @include section--margin-top("sm");
+    &:first-child { margin-top: 0 !important; }
   }
 }

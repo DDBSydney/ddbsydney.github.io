@@ -901,11 +901,11 @@
                 {
                   "headline": {
                     "type": "Text",
-                    "value": "Case study work tile"
+                    "value": "Case study work tile - headline"
                   },
                   "copy": {
                     "type": "Text",
-                    "value": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                    "value": "Case study work tile - copy"
                   },
                   "image": {
                     "type": "Image",
@@ -952,18 +952,6 @@
               "type": "content-tile",
               "value": [
                 {
-                  "headline": {
-                    "type": "Text",
-                    "value": "Content tile - Headline"
-                  },
-                  "subline": {
-                    "type": "Text",
-                    "value": "Content tile - Subline"
-                  },
-                  "copy": {
-                    "type": "Text",
-                    "value": "Content tile - Copy"
-                  },
                   "image": {
                     "type": "Image",
                     "value": {
@@ -997,6 +985,18 @@
                         }
                       }
                     }
+                  },
+                  "headline": {
+                    "type": "Text",
+                    "value": "Content tile - Headline"
+                  },
+                  "subline": {
+                    "type": "Text",
+                    "value": "Content tile - Subline"
+                  },
+                  "copy": {
+                    "type": "Text",
+                    "value": "Content tile - Copy"
                   }
                 }
               ]
@@ -2141,7 +2141,7 @@
                   },
                   "copy": {
                     "type": "Text",
-                    "value": "We needed to get more people inside <br>the Sydney Opera House during summer."
+                    "value": "We needed to get more people inside the Sydney Opera House during summer."
                   },
                   "image": {
                     "type": "Image",
@@ -2281,7 +2281,7 @@
                   },
                   "copy": {
                     "type": "Text",
-                    "value": "When is a car more <br>than a car?"
+                    "value": "When is a car more than a car?"
                   },
                   "image": {
                     "type": "Image",
@@ -2761,7 +2761,7 @@
                 {
                   "headline": {
                     "type": "Text",
-                    "value": "Feeling\n<br/>\n<span>conquers</span>\n<br/>\nthinking"
+                    "value": "Feeling\n<br class=\"mobile\"/><span>conquers</span><br class=\"mobile\"/>\nthinking"
                   },
                   "list": {
                     "type": "StructuredText",
@@ -3051,7 +3051,7 @@
                   },
                   "copy": {
                     "type": "Text",
-                    "value": "When is a car more <br>than a car?"
+                    "value": "When is a car more than a car?"
                   },
                   "image": {
                     "type": "Image",
@@ -3181,7 +3181,7 @@
                   },
                   "copy": {
                     "type": "Text",
-                    "value": "We needed to get more people inside <br>the Sydney Opera House during summer."
+                    "value": "We needed to get more people inside the Sydney Opera House during summer."
                   },
                   "image": {
                     "type": "Image",
@@ -3607,18 +3607,9 @@
                         },
                         "alt": null,
                         "copyright": null,
-                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/abc9760c9e6eb2e0fc7b7c8fa988ce56b98166ce_layout_960x825_000000.png"
+                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/7d707d3645937b3c7cbe6b55c85cd7c0bafc9e73_layout_960x825_191919.png"
                       },
                       "views": {
-                        "mobile": {
-                          "dimensions": {
-                            "width": 800,
-                            "height": 820
-                          },
-                          "alt": null,
-                          "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/d1e72507553c2f8f6481a3a8d048e1d8aac432b5_placeholder-800x820-000000.png"
-                        },
                         "desktop": {
                           "dimensions": {
                             "width": 960,
@@ -3626,7 +3617,16 @@
                           },
                           "alt": null,
                           "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/abc9760c9e6eb2e0fc7b7c8fa988ce56b98166ce_layout_960x825_000000.png"
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/7d707d3645937b3c7cbe6b55c85cd7c0bafc9e73_layout_960x825_191919.png"
+                        },
+                        "mobile": {
+                          "dimensions": {
+                            "width": 800,
+                            "height": 820
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/52af91158493f4a7cbf59c80992628cfb467a313_placeholder-800x820-191919.png"
                         }
                       }
                     }
@@ -3743,18 +3743,9 @@
                         },
                         "alt": null,
                         "copyright": null,
-                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/abc9760c9e6eb2e0fc7b7c8fa988ce56b98166ce_layout_960x825_000000.png"
+                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/7d707d3645937b3c7cbe6b55c85cd7c0bafc9e73_layout_960x825_191919.png"
                       },
                       "views": {
-                        "mobile": {
-                          "dimensions": {
-                            "width": 800,
-                            "height": 820
-                          },
-                          "alt": null,
-                          "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/d1e72507553c2f8f6481a3a8d048e1d8aac432b5_placeholder-800x820-000000.png"
-                        },
                         "desktop": {
                           "dimensions": {
                             "width": 960,
@@ -3762,7 +3753,16 @@
                           },
                           "alt": null,
                           "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/abc9760c9e6eb2e0fc7b7c8fa988ce56b98166ce_layout_960x825_000000.png"
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/7d707d3645937b3c7cbe6b55c85cd7c0bafc9e73_layout_960x825_191919.png"
+                        },
+                        "mobile": {
+                          "dimensions": {
+                            "width": 800,
+                            "height": 820
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/52af91158493f4a7cbf59c80992628cfb467a313_placeholder-800x820-191919.png"
                         }
                       }
                     }

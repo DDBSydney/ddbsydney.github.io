@@ -7,7 +7,7 @@
   <div class="video">
 
     <!-- video layout - desktop -->
-    <img class="video__layout video__layout--desktop" src="/assets/images/layout_1920x900.png" alt="">
+    <img class="video__layout video__layout--desktop" src="/assets/images/layout_1920x1080.png" alt="">
 
     <!-- video layout - mobile -->
     <img class="video__layout video__layout--mobile" src="/assets/images/layout_800x820.png" alt="">
@@ -32,14 +32,14 @@
   </div><!-- video end -->
 
   <!-- content -->
-  <div class="promo-video__content" data-align="fullCenter">
+  <div class="promo-video__content" data-align="center">
     {% if tile.headline.value %}
       <h1>{{ tile.headline.value }}</h1>
     {% endif %}
   </div><!-- content end -->
 
   {% comment %}
-  <!-- Unused scrolling header
+  <!--
   <div class="promo-video__content" data-align="left">
     <h1>
       {% if tile.list.value %}
@@ -55,10 +55,5 @@
   </div>
   -->
   {% endcomment %}
-
-  <!-- scroll down -->
-  <a class="promo-video__scroll" href="#scroll-down" title="Scroll down"><!--
-    --><i class="icon icon-chevron-down"></i><!--
-  --></a>
 
 </div><!-- promo video end -->

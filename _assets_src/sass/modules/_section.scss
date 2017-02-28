@@ -11,27 +11,27 @@
 // -------------------------------------
 // small padding
 // ( also used for margins )
-$section_pad_sm:     40px; // base
-$section_pad_sm_tab: 30px; // tablet
-$section_pad_sm_mob: 20px; // mobile
+$section_padding_sm:     40px; // base
+$section_padding_sm_tab: 30px; // tablet
+$section_padding_sm_mob: 20px; // mobile
 
 // default padding
 // ( also used for margins )
 $section_pad:     60px; // base
-$section_pad_tab: 40px; // tablet
-$section_pad_mob: 20px; // mobile
+$section_padding_tab: 40px; // tablet
+$section_padding_mob: 20px; // mobile
 
 // medium padding
 // ( also used for margins )
-$section_pad_md:     120px; // base
-$section_pad_md_tab:  80px; // tablet
-$section_pad_md_mob:  40px; // mobile
+$section_padding_md:     120px; // base
+$section_padding_md_tab:  80px; // tablet
+$section_padding_md_mob:  40px; // mobile
 
 // large padding
 // ( also used for margins )
-$section_pad_lg:     180px; // base
-$section_pad_lg_tab: 120px; // tablet
-$section_pad_lg_mob:  60px; // mobile
+$section_padding_lg:     180px; // base
+$section_padding_lg_tab: 120px; // tablet
+$section_padding_lg_mob:  60px; // mobile
 
 // map of available
 // section paddings
@@ -40,26 +40,26 @@ $section_padding: (
   "none_tab": 0, // tablet
   "none_mob": 0, // mobile
 
-  "sm":     $section_pad_sm,     // base
-  "sm_tab": $section_pad_sm_tab, // tablet
-  "sm_mob": $section_pad_sm_mob, // mobile
+  "sm":     $section_padding_sm,     // base
+  "sm_tab": $section_padding_sm_tab, // tablet
+  "sm_mob": $section_padding_sm_mob, // mobile
 
   "default":     $section_pad,     // base
-  "default_tab": $section_pad_tab, // tablet
-  "default_mob": $section_pad_mob, // mobile
+  "default_tab": $section_padding_tab, // tablet
+  "default_mob": $section_padding_mob, // mobile
 
-  "md":     $section_pad_md,     // base
-  "md_tab": $section_pad_md_tab, // tablet
-  "md_mob": $section_pad_md_mob, // mobile
+  "md":     $section_padding_md,     // base
+  "md_tab": $section_padding_md_tab, // tablet
+  "md_mob": $section_padding_md_mob, // mobile
 
-  "lg":     $section_pad_lg,     // base
-  "lg_tab": $section_pad_lg_tab, // tablet
-  "lg_mob": $section_pad_lg_mob  // mobile
+  "lg":     $section_padding_lg,     // base
+  "lg_tab": $section_padding_lg_tab, // tablet
+  "lg_mob": $section_padding_lg_mob  // mobile
 );
 
 // function to get the section padding
 // for the given key ( default otherwise )
-@function get-section--padding($mult: 1, $key: "default") {
+@function get-section--padding($key: "default", $mult: 1) {
   // throw a warning and error if the key is invalid
   @if not map-has-key($section_padding, $key) {
     @warn "$key not found for @function get-section--padding($key)";
@@ -74,58 +74,79 @@ $section_padding: (
 //   Section - Padding - Mixins
 // -------------------------------------
 // mixin - padding - top
-@mixin section--padding-top($mult: 1, $size: "default") {
+@mixin section--padding-top($size: "default", $mult: 1) {
   box-sizing: border-box;
-  padding-top: get-section--padding($mult, $size);
-  @include tablet { padding-top: get-section--padding($mult, #{$size + "_tab"}); }
-  @include mobile { padding-top: get-section--padding($mult, #{$size + "_mob"}); }
+  padding-top: get-section--padding($size, $mult);
+  @include tablet { padding-top: get-section--padding(#{$size + "_tab"}, $mult); }
+  @include mobile { padding-top: get-section--padding(#{$size + "_mob"}, $mult); }
 }
 
 // mixin - padding - right
-@mixin section--padding-right($mult: 1, $size: "default") {
+@mixin section--padding-right($size: "default", $mult: 1) {
   box-sizing: border-box;
-  padding-right: get-section--padding($mult, $size);
-  @include tablet { padding-right: get-section--padding($mult, #{$size + "_tab"}); }
-  @include mobile { padding-right: get-section--padding($mult, #{$size + "_mob"}); }
+  padding-right: get-section--padding($size, $mult);
+  @include tablet { padding-right: get-section--padding(#{$size + "_tab"}, $mult); }
+  @include mobile { padding-right: get-section--padding(#{$size + "_mob"}, $mult); }
 }
 
 // mixin - padding - bottom
-@mixin section--padding-bottom($mult: 1, $size: "default") {
+@mixin section--padding-bottom($size: "default", $mult: 1) {
   box-sizing: border-box;
-  padding-bottom: get-section--padding($mult, $size);
-  @include tablet { padding-bottom: get-section--padding($mult, #{$size + "_tab"}); }
-  @include mobile { padding-bottom: get-section--padding($mult, #{$size + "_mob"}); }
+  padding-bottom: get-section--padding($size, $mult);
+  @include tablet { padding-bottom: get-section--padding(#{$size + "_tab"}, $mult); }
+  @include mobile { padding-bottom: get-section--padding(#{$size + "_mob"}, $mult); }
 }
 
 // mixin - padding - left
-@mixin section--padding-left($mult: 1, $size: "default") {
+@mixin section--padding-left($size: "default", $mult: 1) {
   box-sizing: border-box;
-  padding-left: get-section--padding($mult, $size);
-  @include tablet { padding-left: get-section--padding($mult, #{$size + "_tab"}); }
-  @include mobile { padding-left: get-section--padding($mult, #{$size + "_mob"}); }
+  padding-left: get-section--padding($size, $mult);
+  @include tablet { padding-left: get-section--padding(#{$size + "_tab"}, $mult); }
+  @include mobile { padding-left: get-section--padding(#{$size + "_mob"}, $mult); }
 }
 
 // mixin - padding - vertical
-@mixin section--padding-v($mult: 1, $size: "default") {
-  @include section--padding-top($mult, $size);
-  @include section--padding-bottom($mult, $size);
+@mixin section--padding-v($size: "default", $mult: 1) {
+  @include section--padding-top($size, $mult);
+  @include section--padding-bottom($size, $mult);
 }
 
 // mixin - padding - horizontal
-@mixin section--padding-h($mult: 1, $size: "default") {
-  @include section--padding-left($mult, $size);
-  @include section--padding-right($mult, $size);
+@mixin section--padding-h($size: "default", $mult: 1) {
+  @include section--padding-left($size, $mult);
+  @include section--padding-right($size, $mult);
 }
 
 // mixin - padding
-@mixin section--padding($mult: 1, $size: "default") {
-  @include section--padding-v($mult, $size);
-  @include section--padding-h($mult, $size);
+@mixin section--padding($size: "default", $mult: 1) {
+  @include section--padding-v($size, $mult);
+  @include section--padding-h($size, $mult);
 }
 
 // -------------------------------------
 //   Section - Margin
 // -------------------------------------
+// small margin
+$section_margin_sm:     $section_padding_sm;     // base
+$section_margin_sm_tab: $section_padding_sm_tab; // tablet
+$section_margin_sm_mob: $section_padding_sm_mob; // mobile
+
+// default margin
+// ( also used for margins )
+$section_margin:     $section_pad;     // base
+$section_margin_tab: $section_padding_tab; // tablet
+$section_margin_mob: $section_padding_mob; // mobile
+
+// medium margin
+$section_margin_md:     $section_padding_md;     // base
+$section_margin_md_tab: $section_padding_md_tab; // tablet
+$section_margin_md_mob: $section_padding_md_mob; // mobile
+
+// large margin
+$section_margin_lg:     $section_padding_lg;     // base
+$section_margin_lg_tab: $section_padding_lg_tab; // tablet
+$section_margin_lg_mob: $section_padding_lg_mob; // mobile
+
 // map of available
 // section margins
 $section_margin: (
@@ -133,26 +154,26 @@ $section_margin: (
   "none_tab": 0, // tablet
   "none_mob": 0, // mobile
 
-  "sm":     $section_pad_sm,     // base
-  "sm_tab": $section_pad_sm_tab, // tablet
-  "sm_mob": $section_pad_sm_mob, // mobile
+  "sm":     $section_margin_sm,     // base
+  "sm_tab": $section_margin_sm_tab, // tablet
+  "sm_mob": $section_margin_sm_mob, // mobile
 
-  "default":     $section_pad,     // base
-  "default_tab": $section_pad_tab, // tablet
-  "default_mob": $section_pad_mob, // mobile
+  "default":     $section_margin,     // base
+  "default_tab": $section_margin_tab, // tablet
+  "default_mob": $section_margin_mob, // mobile
 
-  "md":     $section_pad_md,     // base
-  "md_tab": $section_pad_md_tab, // tablet
-  "md_mob": $section_pad_md_mob, // mobile
+  "md":     $section_margin_md,     // base
+  "md_tab": $section_margin_md_tab, // tablet
+  "md_mob": $section_margin_md_mob, // mobile
 
-  "lg":     $section_pad_lg,     // base
-  "lg_tab": $section_pad_lg_tab, // tablet
-  "lg_mob": $section_pad_lg_mob  // mobile
+  "lg":     $section_margin_lg,     // base
+  "lg_tab": $section_margin_lg_tab, // tablet
+  "lg_mob": $section_margin_lg_mob  // mobile
 );
 
 // function to get the section margin
 // for the given key ( default otherwise )
-@function get-section--margin($mult: 1, $key: "default") {
+@function get-section--margin($key: "default", $mult: 1) {
   // throw a warning and error if the key is invalid
   @if not map-has-key($section_margin, $key) {
     @warn "$key not found for @function get-section--margin($key)";
@@ -167,49 +188,49 @@ $section_margin: (
 //   Section - Margin - Mixins
 // -------------------------------------
 // mixin - margin - top
-@mixin section--margin-top($mult: 1, $size: "default") {
-  margin-top: get-section--margin($mult, $size);
-  @include tablet { margin-top: get-section--margin($mult, #{$size + "_tab"}); }
-  @include mobile { margin-top: get-section--margin($mult, #{$size + "_mob"}); }
+@mixin section--margin-top($size: "default", $mult: 1) {
+  margin-top: get-section--margin($size, $mult);
+  @include tablet { margin-top: get-section--margin(#{$size + "_tab"}, $mult); }
+  @include mobile { margin-top: get-section--margin(#{$size + "_mob"}, $mult); }
 }
 
 // mixin - margin - right
-@mixin section--margin-right($mult: 1, $size: "default") {
-  margin-right: get-section--margin($mult, $size);
-  @include tablet { margin-right: get-section--margin($mult, #{$size + "_tab"}); }
-  @include mobile { margin-right: get-section--margin($mult, #{$size + "_mob"}); }
+@mixin section--margin-right($size: "default", $mult: 1) {
+  margin-right: get-section--margin($size, $mult);
+  @include tablet { margin-right: get-section--margin(#{$size + "_tab"}, $mult); }
+  @include mobile { margin-right: get-section--margin(#{$size + "_mob"}, $mult); }
 }
 
 // mixin - margin - bottom
-@mixin section--margin-bottom($mult: 1, $size: "default") {
-  margin-bottom: get-section--margin($mult, $size);
-  @include tablet { margin-bottom: get-section--margin($mult, #{$size + "_tab"}); }
-  @include mobile { margin-bottom: get-section--margin($mult, #{$size + "_mob"}); }
+@mixin section--margin-bottom($size: "default", $mult: 1) {
+  margin-bottom: get-section--margin($size, $mult);
+  @include tablet { margin-bottom: get-section--margin(#{$size + "_tab"}, $mult); }
+  @include mobile { margin-bottom: get-section--margin(#{$size + "_mob"}, $mult); }
 }
 
 // mixin - margin - left
-@mixin section--margin-left($mult: 1, $size: "default") {
-  margin-left: get-section--margin($mult, $size);
-  @include tablet { margin-left: get-section--margin($mult, #{$size + "_tab"}); }
-  @include mobile { margin-left: get-section--margin($mult, #{$size + "_mob"}); }
+@mixin section--margin-left($size: "default", $mult: 1) {
+  margin-left: get-section--margin($size, $mult);
+  @include tablet { margin-left: get-section--margin(#{$size + "_tab"}, $mult); }
+  @include mobile { margin-left: get-section--margin(#{$size + "_mob"}, $mult); }
 }
 
 // mixin - margin - vertical
-@mixin section--margin-v($mult: 1, $size: "default") {
-  @include section--margin-bottom($mult, $size);
-  @include section--margin-top($mult, $size);
+@mixin section--margin-v($size: "default", $mult: 1) {
+  @include section--margin-bottom($size, $mult);
+  @include section--margin-top($size, $mult);
 }
 
 // mixin - margin - horizontal
-@mixin section--margin-h($mult: 1, $size: "default") {
-  @include section--margin-right($mult, $size);
-  @include section--margin-left($mult, $size);
+@mixin section--margin-h($size: "default", $mult: 1) {
+  @include section--margin-right($size, $mult);
+  @include section--margin-left($size, $mult);
 }
 
 // mixin - margin
-@mixin section--margin($mult: 1, $size: "default") {
-  @include section--margin-h($mult, $size);
-  @include section--margin-v($mult, $size);
+@mixin section--margin($size: "default", $mult: 1) {
+  @include section--margin-h($size, $mult);
+  @include section--margin-v($size, $mult);
 }
 
 // -------------------------------------
@@ -239,10 +260,9 @@ section { @extend %section; }
     z-index: $zi_header;
     display: block;
 
-    width: 100vw;
-    height: auto;
-    max-width: 100vw;
+    width: 100%; height: auto;
     min-width: $base_html_w_min;
+    overflow-x: hidden;
   }
 
   &--first  { /* empty block */ }

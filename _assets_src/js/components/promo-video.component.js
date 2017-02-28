@@ -39,14 +39,12 @@ var CONFIG = require("../config");
     // ---------------------------------------------
     var _el = { // reference to the DOM element
       main: null,    // the main parent DOM element
-      scroll: null,  // the scroll child DOM element
       content: null, // the content child DOM element
       headers: []    // reference to the content headers
     };
 
     var _class = { // the classes that need to be applied
       main: "promo-video",   // to the main parent DOM element
-      scroll: "promo-video__scroll", // to the scroll child DOM element
       content: "promo-video__content" // to the content child DOM element
     };
 
@@ -196,7 +194,6 @@ var CONFIG = require("../config");
     _el.main = options.element;
 
     // get all the child elements
-    _el.scroll = query("." + _class.scroll, _el.main)[0];
     _el.content = query("." + _class.content, _el.main)[0];
     _el.headers = query("span", _el.content);
 
