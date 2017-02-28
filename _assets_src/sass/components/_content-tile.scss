@@ -6,35 +6,31 @@
   * @desc Styles for the content tile component.
 **/
 
+$content_tile_h_min: 66vw;
+$content_tile_h_mob_mob: 66vw;
+
 .content-tile {
   @extend %flex--row;
-  min-height: 70vw;
-
-  &.test:hover {
-    background-color: rgba(white, 0.02);
-    outline: 1px solid rgba(white, 0.1);
-  }
+  min-height: $content_tile_h_min;
 
   .content-tile__content {
-    @include section--padding(3.5);
+    @extend %flex--col;
+    align-self: center;
+    @include section--padding("lg");
 
     @include mobile {
-      @include section--padding-v(4);
-      @include section--padding-h(1);
+      @include section--padding-h;
 
-      .content-tile__content--subline + .content-tile__content--copy {
-        @include section--padding-h(2);
+      &--subline + &--copy {
+        @include section--padding-h("md");
       }
     }
-
-    align-self: center;
-    vertical-align: middle;
-
+    
     *:first-child { margin-top: 0; }
-    *:last-child { margin-bottom: 0; }
+    *:last-child  { margin-bottom: 0; }
 
     .content-tile__content--copy {
-      @extend %font-size-h3;
+      @include font--style("h3");
     }
 
     .content-tile__content--headline,
@@ -56,47 +52,49 @@
 
       margin: 0;
       padding: 0;
-      @include section--padding-h(1);
+      @include section--padding-h;
 
       .content-tile__listitem {
         @extend %flex--col;
 
         margin: 0;
-        @include section--margin-top(0.5);
+        @include section--margin-top("sm");
 
         padding: 0;
-        @include section--padding-h(0.5);
+        @include section--padding-h("sm");
 
-        @extend %font-size-h5;
+        @include font--style("h5");
         list-style: none;
         text-align: left;
         flex-basis: 50%;
       }
 
       @include mobile {
-        @include section--padding-h(0);
-        @include section--margin-top(2);
+        @include section--margin-top("md");
+        padding-left: 0; padding-right: 0;
 
         .content-tile__listitem {
-          @include section--padding-h(3);
+          @include section--padding-h("lg");
 
           &:not(:first-child) {
-            @include section--margin-top(2);
+            @include section--margin-top("md");
           }
 
           flex-basis: 100%;
-          @include font-size-h4(false);
+          @include font--style("h4");
         }
       }
     }
 
     .content-tile__image {
-      @include section--margin-top(3);
-      @include section--margin-bottom(0);
-
       &.top {
-        @include section--margin-top(0);
-        @include section--margin-bottom(3);
+        @include section--margin-bottom("lg");
+        margin-top: 0;
+      }
+
+      &:not(.top) {
+        @include section--margin-top("lg");
+        margin-bottom: 0;
       }
 
       img {

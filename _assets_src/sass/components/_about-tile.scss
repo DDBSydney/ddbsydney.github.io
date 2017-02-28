@@ -5,13 +5,15 @@
   * @name about-tile
   * @desc Styles for the about tile component.
 **/
+$about_tile_h_min: 56vw;
+$about_tile_h_min_mob: 50vh; 
 
 .about-tile {
   @extend %flex--row;
-  min-height: 55vw;
+  min-height: $about_tile_h_min;
 
   background-color: black;
-  @include mobile { min-height: 50vh; }
+  @include mobile { min-height: $about_tile_h_min_mob; }
 
   .about-tile__content {
     @include section--padding;
@@ -23,42 +25,11 @@
 
     > h1 {
       @include font--style("lg");
+      @include font--highlight;
+
       display: inline-block;
-      
-      color: white;
       text-align: left;
-
-      span {
-        @include line--height("h1");
-        display: inline-block;
-
-        padding: 0 $promov_content_padding;
-        padding-bottom: ($promov_content_padding / 2);
-
-        color: black;
-        background-color: $color_yellow_ddb;
-      }
-
-      br + span { 
-        margin: $promov_content_margin (-$promov_content_margin) 0;
-        @include tablet-sm { margin: 0; }
-        @include mobile    { margin: 0; }
-      }
-
-      br.tablet + span {
-        @include tablet-sm { margin: $promov_content_margin (-$promov_content_margin) 0; }
-        @include mobile    { margin: 0; }
-      }
-
-      br.mobile + span { 
-        @include mobile { margin: $promov_content_margin (-$promov_content_margin) 0; }
-      }
-
-      br.all + span { 
-        margin: 0 -$promov_content_margin;
-        @include tablet-sm { margin: $promov_content_margin (-$promov_content_margin) 0; }
-        @include mobile    { margin: $promov_content_margin (-$promov_content_margin) 0; }
-      }
+      color: white;
     }
   }
 }

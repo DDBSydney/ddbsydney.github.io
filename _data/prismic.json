@@ -581,7 +581,7 @@
                   },
                   "subline": {
                     "type": "Text",
-                    "value": "Custom software uses computer vision to identify photos of the  famous sails along with geo-location to find ones posted in close proximity. An on-site response team picks an Instagram user for an experience and quickly film and posts a video response inviting them inside."
+                    "value": "Custom software uses computer vision to identify photos of the famous sails along with geo-location to find ones posted in close proximity. An on-site response team picks an Instagram user for an experience and quickly film and posts a video response inviting them inside."
                   },
                   "imageDesktop": {
                     "type": "Image",
@@ -649,7 +649,7 @@
                       },
                       {
                         "type": "paragraph",
-                        "text": "17 million impressions generated. ",
+                        "text": "17 million impressions generated.",
                         "spans": [
 
                         ]

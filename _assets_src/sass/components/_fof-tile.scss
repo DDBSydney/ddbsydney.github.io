@@ -16,13 +16,14 @@
     @include section--padding;
     @include transform-center;
     text-align: center;
+    width: 100%;
 
     h1 {
       margin: 0;
-      line-height: 1em;
+      display: block;
       font-size: get-vw-desktop(200px);
-      @include tablet { font-size: get-vw-tablet(100px); }
-      @include mobile { font-size: get-vw-mobile(50px);  }
+      @include tablet { font-size: get-vw-tablet(150px); }
+      @include mobile { font-size: get-vw-mobile(100px);  }
     }
 
     p {

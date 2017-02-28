@@ -374,6 +374,49 @@ a {
   &:hover, &:focus, &:active { outline: 0; }
 }
 
+// ------------------------------------
+//   Typography - Highlight
+// ------------------------------------
+$font_highlight_padding: 0.15em;
+$font_highlight_margin:  0.15em;
+
+// mixin to include styles to 
+// highlight the nested span tags
+// ( also used in other components )
+@mixin font--highlight($bgcolor: $color_yellow_ddb, $color: black) {
+
+  span {
+    display: inline-block;
+    padding: 0 $font_highlight_padding;
+    padding-bottom: ($font_highlight_padding / 2);
+
+    color: $color;
+    background-color: $bgcolor;
+    @include line--height("h1");
+  }
+
+  br + span { 
+    margin: $font_highlight_margin (-$font_highlight_margin) 0;
+    @include tablet-sm { margin: 0; }
+    @include mobile    { margin: 0; }
+  }
+
+  br.tablet + span {
+    @include tablet-sm { margin: $font_highlight_margin (-$font_highlight_margin) 0; }
+    @include mobile    { margin: 0; }
+  }
+
+  br.mobile + span { 
+    @include mobile { margin: $font_highlight_margin (-$font_highlight_margin) 0; }
+  }
+
+  br.all + span { 
+    margin: 0 -$font_highlight_margin;
+    @include tablet-sm { margin: $font_highlight_margin (-$font_highlight_margin) 0; }
+    @include mobile    { margin: $font_highlight_margin (-$font_highlight_margin) 0; }
+  }
+}
+
 
 
 
