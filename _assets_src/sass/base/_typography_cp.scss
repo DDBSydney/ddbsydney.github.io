@@ -1,0 +1,293 @@
+// -------------------------------------
+//   Base - Typography
+// -------------------------------------
+/**
+  * @name typography
+  * @desc Used for setting various font properties
+          used with common elements that spread
+          across the entire app.
+**/
+
+// -------------------------------------
+//   Typography - Mixins - Font Sizes
+// -------------------------------------
+// mixin to create the font-size-root placeholder
+// to overcome when used inside media queries
+// e.g. @input @include font-size-root(false);
+// e.g. @output ..content of @else block comes here..
+@mixin font-size-root($extend: true) {
+  @if $extend { @extend %font-size-root; }
+
+  @else {
+    font-size: 15px; // 15px
+    @include tablet    { font-size: 14px; } // 14px
+    /* @include tablet-sm { font-size: 13px; } */ // 13px
+    @include mobile    { font-size: 12px; } // 12px
+  }
+}
+
+// mixin to create the font-size-h1 placeholder
+// to overcome when used inside media queries
+// e.g. @input @include font-size-h1(false);
+// e.g. @output ..content of @else block comes here..
+@mixin font-size-h1($extend: true) {
+  @if $extend { @extend %font-size-h1; }
+
+  @else {
+    font-size: get-vw-desktop(45px); // 45px
+    @include tablet    { font-size: get-vw-tablet(42px);    } // 42px
+    /* @include tablet-sm { font-size: get-vw-tablet-sm(39px); } */ // 39px
+    @include mobile    { font-size: get-vw-mobile(36px);    } // 36px
+  }
+}
+
+// mixin to create the font-size-h2 placeholder
+// to overcome when used inside media queries
+// e.g. @input @include font-size-h2(false);
+// e.g. @output ..content of @else block comes here..
+@mixin font-size-h2($extend: true) {
+  @if $extend { @extend %font-size-h2; }
+
+  @else {
+    font-size: get-vw-desktop(35px); // 35px
+    @include tablet    { font-size: get-vw-tablet(32px);    } // 32px
+    /* @include tablet-sm { font-size: get-vw-tablet-sm(27px); } */ // 27px
+    @include mobile    { font-size: get-vw-mobile(24px);    } // 24px
+  }
+}
+
+// mixin to generate the font-size-h3 placeholder
+// to overcome when used inside media queries
+// e.g. @input @include font-size-h3(false);
+// e.g. @output ..content of @else block comes here..
+@mixin font-size-h3($extend: true) {
+  @if $extend { @extend %font-size-h3; }
+
+  @else {
+    font-size: get-vw-desktop(31px); // 31px
+    @include tablet    { font-size: get-vw-tablet(28px);    } // 28px
+    /* @include tablet-sm { font-size: get-vw-tablet-sm(25px); } */ // 25px
+    @include mobile    { font-size: get-vw-mobile(22px);    } // 22px
+  }
+}
+
+// mixin to create the font-size-h4 placeholder
+// to overcome when used inside media queries
+// e.g. @input @include font-size-h4(false);
+// e.g. @output ..content of @else block comes here..
+@mixin font-size-h4($extend: true) {
+  @if $extend { @extend %font-size-h4; }
+
+  @else {
+    font-size: get-vw-desktop(25px); // 25px
+    @include tablet    { font-size: get-vw-tablet(22px);    } // 22px
+    /* @include tablet-sm { font-size: get-vw-tablet-sm(19px); } */ // 19px
+    @include mobile    { font-size: get-vw-mobile(16px);    } // 16px
+  }
+}
+
+// mixin to create the font-size-h5 placeholder
+// to overcome when used inside media queries
+// e.g. @input @include font-size-h5(false);
+// e.g. @output ..content of @else block comes here..
+@mixin font-size-h5($extend: true) {
+  @if $extend { @extend %font-size-h5; }
+
+  @else {
+    font-size: get-vw-desktop(20px); // 20px
+    @include tablet    { font-size: get-vw-tablet(18px);    } // 18px
+    /* @include tablet-sm { font-size: get-vw-tablet-sm(16px); } */ // 16px
+    @include mobile    { font-size: get-vw-mobile(14px);    } // 14px
+  }
+}
+
+// mixin to create the font-size-p placeholder
+// to overcome when used inside media queries
+// e.g. @input @include font-size-p(false);
+// e.g. @output ..content of @else block comes here..
+@mixin font-size-p($extend: true) {
+  @if $extend { @extend %font-size-p; }
+
+  @else {
+    font-size: get-vw-desktop(15px); // 15px
+    @include tablet    { font-size: get-vw-tablet(14px);    } // 14px
+    /* @include tablet-sm { font-size: get-vw-tablet-sm(13px); } */ // 13px
+    @include mobile    { font-size: get-vw-mobile(12px);    } // 12px
+  }
+}
+
+// mixin to create the font-size-p-s placeholder
+// to overcome when used inside media queries
+// e.g. @input @include font-size-p-s(false);
+// e.g. @output ..content of @else block comes here..
+@mixin font-size-p-xs($extend: true) {
+  @if $extend { @extend %font-size-p; }
+
+  @else {
+    font-size: get-vw-desktop(12px); // 12px
+    @include tablet    { font-size: get-vw-tablet(11px);    } // 11px
+    /* @include tablet-sm { font-size: get-vw-tablet-sm(10px); } */ // 10px
+    @include mobile    { font-size: get-vw-mobile(9px);    } // 9px
+  }
+}
+
+%font-size-root  { @include font-size-root (false); }
+%font-size-h1 { @include font-size-h1(false); }
+%font-size-h2 { @include font-size-h2(false); }
+%font-size-h3 { @include font-size-h3(false); }
+%font-size-h4 { @include font-size-h4(false); }
+%font-size-h5 { @include font-size-h5(false); }
+
+%font-size-p    { @include font-size-p (false);    }
+%font-size-p-xs { @include font-size-p-xs (false); }
+
+// -------------------------------------
+//   Typography - Font Sizes, Colors
+// -------------------------------------
+$line_height_root: 1.5625em;
+$line_height_copy: 1.46em;
+$line_height_head: 1.12em;
+$line_height_sub:  1.25em;
+
+html, body {
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  line-height: $line_height_root;
+  color: white;
+}
+
+html { @extend %font-size-root; }
+body { @extend %font-size-root; }
+h1 { @extend %font-size-h1; }
+h2 { @extend %font-size-h2; }
+h3 { @extend %font-size-h3; }
+h4 { @extend %font-size-h4; }
+h5 { @extend %font-size-h5; }
+
+h1, h2     { line-height: $line_height_head; }
+h3, h4, h5 { line-height: $line_height_sub;  }
+ul, ol, li, a, p { line-height: $line_height_copy; }
+
+h1, h2, h3, h4, h5 {
+  color: white;
+
+  &:first-child { margin-top: 0; }
+  &:last-child  { margin-bottom: 0; }
+}
+
+ul, ol, li, p, a {
+  @extend %font-size-p;
+  &:first-child { margin-top: 0; }
+  &:last-child  { margin-bottom: 0; }
+}
+
+ul, ol {
+  padding-left: 1em;
+
+  li {
+    margin-top: 0.25em;
+    padding-left: 0.25em;
+    &:first-child { margin-top: 0; }
+    &:last-child  { margin-bottom: 0; }
+  }
+}
+
+a {
+  text-decoration: none;
+  @include transitions(color);
+
+  color: white;
+  outline: 0;
+
+  &:hover, &:active, { color: white; }
+  &:hover, &:focus, &:active { outline: 0; }
+}
+
+// -------------------------------------
+//   Typography - Icons
+// -------------------------------------
+$icon_spacing_content: 0.65em;
+$icon_spacing_header: 0.5em;
+
+i, .icon {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+h1, h2, h3,
+h4, h5, li, p, a {
+  span, a, i, .icon {
+    font-size: inherit;
+    line-height: inherit;
+  }
+
+  span, a {
+    font-family: inherit;
+    font-weight: inherit;
+  }
+}
+
+
+h1, h2, h3, h4, h5 {
+  span, a {
+    & + i, & + .icon {
+      margin-left: $icon_spacing_header;
+
+      @include mobile {
+        display: block;
+        margin-left: 0;
+        margin-top: $icon_spacing_header;
+      }
+    }
+  }
+
+  i, .icon {
+    & + a, & + span {
+      margin-left: $icon_spacing_header;
+
+      @include mobile {
+        display: block;
+        margin-left: 0;
+        margin-top: $icon_spacing_header;
+      }
+    }
+  }
+}
+
+
+li, p, a {
+  span, a {
+    & + i, & + .icon {
+      margin-left: $icon_spacing_content;
+    }
+  }
+
+  i, .icon {
+    @include transitions(color);
+
+    & + a, & + span {
+      margin-left: $icon_spacing_content;
+    }
+  }
+}
+
+// -------------------------------------
+//   Typography - Font Families, Weight
+// -------------------------------------
+$font_wt_bold: 700;
+$font_wt_sbold: 600;
+$font_wt_medium: 500;
+$font_wt_regular: 400;
+
+h1, h2, h3,
+h4, h5, li, p, a {
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: antialiased;
+}
+
+h1, { font-family: inherit; font-weight: $font_wt_bold; }
+h2  { font-family: inherit; font-weight: $font_wt_medium; }
+
+h3, h4, h5 { font-family: inherit; font-weight: $font_wt_regular; }
+li, p, a   { font-family: inherit; font-weight: $font_wt_regular; }
+

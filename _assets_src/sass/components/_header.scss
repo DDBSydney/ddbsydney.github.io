@@ -11,23 +11,22 @@
   @include section--padding;
 
   text-align: center;
+  width: 100vw; height: auto;
+  min-width: $base_html_w_min;
   @include mobile { min-height: 0; }
 
   @include mobile-up {
     transition: none !important;
     background-color: transparent;
-    @include section--padding-v(3/4);
+    @include section--padding-v("sm");
   }
 
   a   {
-    @extend %font-size-h5; color: white;
-    @include mobile { @include font-size-h2(false); }
+    @include font--style("h6"); color: white;
+    @include mobile { @include font--style("h2"); }
   }
 
-  a i {
-    @extend %font-size-h3; line-height: 1em !important;
-    @include mobile { @include font-size-h2(false); }
-  }
+  a i { @include font--style("h4"); }
 
   &__back, &__logo,
   &__menu, &__nav {
@@ -111,12 +110,12 @@
 
   > a {
     @extend %flex--col;
-    align-self: flex-end;
+    &.link { align-self: flex-end; }
 
     @include mobile {
       display: block;
-      padding: ($section_pad_mob / 1.5) 0;
-      &.link--active { padding-bottom: $section_pad_mob; }
+      padding: ($section_padding_mob / 1.5) 0;
+      &.link--active { padding-bottom: $section_padding_mob; }
     }
   }
 }
@@ -139,23 +138,25 @@
 // -------------------------------------
 //   Header - Logo
 // -------------------------------------
-.header__logo {
-  &--desktop {
-    align-self: center;
-    padding-bottom: $link_pad_vert;
-    @include mobile { display: none !important; }
-  }
+$header_logo_w_max: 60px;
+$header_logo_w_max_tab: 50px;
+$header_logo_w_max_mob: 50px;
 
-  &--mobile  {
-    align-self: flex-start;
-    padding-top: $link_pad_vert / 2;
-    @include mobile-up { display: none; }
-  }
+$header_logo_padding: 0.5em;
+$header_logo_padding_sm: 0.25em;
+
+.header__logo {
+  align-self: flex-start;
+  padding: $header_logo_padding 0;
+  @include tablet { padding-top: $header_logo_padding_sm; }
+
+  &--desktop { @include mobile { display: none !important; }}
+  &--mobile  { @include mobile-up { display: none !important; }}
 
   > img {
     @extend %center;
-    max-width: 5vw;
-    @include tablet { max-width: 6vw; }
-    @include mobile { max-width: 16vw; }
+    max-width: $header_logo_w_max;
+    @include tablet { max-width: $header_logo_w_max_tab; }
+    @include mobile { max-width: $header_logo_w_max_mob; }
   }
 }

@@ -7,7 +7,6 @@
 **/
 
 .content-tile {
-  @extend %section;
   @extend %flex--row;
   min-height: 70vw;
 

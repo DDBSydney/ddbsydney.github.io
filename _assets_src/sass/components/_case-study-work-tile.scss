@@ -11,30 +11,6 @@
 // -------------------------------------
 //   Case Study Work - Content
 // -------------------------------------
-// taken from base/_case-study-work.scss
-$csw_content_margin_mob: $cs_content_margin_first; // 20vw
-
 .case-study-work-tile__content {
   @extend .case-study-tile__content;
-  @include mobile { top: $csw_content_margin_mob !important; }
-}
-
-// -------------------------------------
-//   Case Study Work - Scroll
-// -------------------------------------
-$csw_scroll_margin: 0.5em;
-
-.case-study-work-tile__scroll {
-  // disabled for sprint one
-  // to prevent click events
-  pointer-events: none;
-  visibility: hidden;
-
-  @extend %transform-center-h;
-  @extend %font-size-h1;
-
-  &:last-child {
-    bottom: 0;
-    margin-bottom: $csw_scroll_margin;
-  }
 }

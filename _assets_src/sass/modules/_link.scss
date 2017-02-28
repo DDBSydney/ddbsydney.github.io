@@ -6,8 +6,8 @@
   * @desc Styles for the link module.
 **/
 
-$link_pad_vert: 0.46em;
-$link_pad_horz: 0.46em;
+$link_padding_vert: 0.46em;
+$link_padding_horz: 0.46em;
 $link_line_h: 2px;
 
 // link
@@ -23,7 +23,7 @@ $link_line_h: 2px;
     position: relative;
     z-index: 0;
 
-    padding-bottom: $link_pad_vert;
+    padding-bottom: $link_padding_vert;
     color: white;
 
     &:before {
@@ -69,14 +69,13 @@ $link_line_h: 2px;
   span {
     display: inline;
     position: relative;
-    padding-bottom: $link_pad_vert;
+    padding-bottom: $link_padding_vert;
 
     color: white;
-    line-height: $line_height_copy + ($link_pad_vert * 1.25);
-
     border-bottom-style: solid;
     border-bottom-color: white;
     border-bottom-width: $link_line_h;
+    /* line-height: $line_height_p + ($link_padding_vert * 1.25); */
   }
 }
 

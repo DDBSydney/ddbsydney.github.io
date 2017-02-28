@@ -56,7 +56,6 @@
 
   // modifiers for switching of 
   // responsive images with CSS
-  // desktop and mobile
   &--desktop { @extend %image__layout--desktop; }
   &--mobile  { @extend %image__layout--mobile;  }
 }
@@ -64,6 +63,9 @@
 // -------------------------------------
 //   Image - Cover
 // -------------------------------------
+$image_overlay_color: black;
+$image_overlay_opacity: 0.25;
+
 // images used purely for the purpose of
 // covering an entrire parent element in 
 // html ( used along with layout images )
@@ -94,6 +96,12 @@
   }
 }
 
+// modifer - overlay
+%image__cover--overlay {
+  opacity: $image_overlay_opacity;
+  background-color: $image_overlay_color;
+}
+
 // image - cover
 .image__cover {
   @extend %image__cover;
@@ -102,4 +110,5 @@
   // responsive images with CSS
   &--desktop { @extend %image__cover--desktop; }
   &--mobile  { @extend %image__cover--mobile;  }
+  &--overlay { @extend %image__cover--overlay; }
 }

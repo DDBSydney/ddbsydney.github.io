@@ -33,25 +33,11 @@ html, body {
   min-width: $base_html_w_min;
   min-height: $base_html_h_min;
   
-  box-sizing: border-box;
+  color: white;
   background-color: black;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   &[data-scroll="disabled"] { overflow: hidden !important; }
 }
-
-// animate fade the page into view
-// ( a temporary placeholder until
-// image load times are improved )
-/*
-body { 
-  opacity: 0;
-  @extend %animation-fade-in;
-
-  animation-delay: ($anim_delay * 1.5);
-  animation-duration: ($anim_time_slow * 1.0);
-  animation-timing-function: $ease_in_out_quad;
-}
-*/
 
 // image
 img {

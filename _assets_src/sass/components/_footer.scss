@@ -7,10 +7,11 @@
 **/
 
 .footer {
+  width: 100%;
+  max-width: 100%;
   @extend %flex--row;
-
-  @include section--padding-v(2);
-  @include section--padding-h(0.5);
+  @include section--padding-v("md");
+  @include section--padding-h("default", 0.5);
 
   background-color: black;
 }
@@ -23,7 +24,7 @@ $footer_span_padding: (0.25em / 4);
 
 .footer__col {
   @extend %flex--col;
-  @include section--padding-h(0.5);
+  @include section--padding-h("default", 0.5);
 
   .footer__mob-copy { display: none;  }
   .footer__des-copy { display: block; }
@@ -42,10 +43,7 @@ $footer_span_padding: (0.25em / 4);
         display: inline-block;
         margin-top: $footer_span_margin;
         padding-bottom: $footer_span_padding;
-
         border-bottom: $link_line_h solid white;
-        line-height: $line_height_root;
-        font-weight: $font_wt_regular;
       }
 
       &:first-child {
@@ -56,14 +54,9 @@ $footer_span_padding: (0.25em / 4);
     }
   }
 
-  ul ~ ul { @include section--padding-top(0.5); }
-  p, span { @include font-size-h5(false); }
-
-  p {
-    @include section--padding-bottom;
-    line-height: $line_height_root;
-    margin: 0;
-  }
+  p, span { margin: 0; @include font--style("h6"); }
+  ul ~ ul { @include section--padding-top; }
+  p { @include section--padding-bottom; }
 
   @include mobile {
     &.footer__col--contact,
@@ -78,19 +71,20 @@ $footer_span_padding: (0.25em / 4);
 
     &.footer__col--empty,
     &.footer__col--ddb {
-      @include section--padding-top;
+      @include section--padding-top("md");
       align-self: flex-end;
     }
 
-    .footer__mob-copy { display: block; }
-    .footer__des-copy { display: none;  }
-    &:last-child { text-align: left; }
+    .footer__des-copy { display: none;    }
+    .footer__mob-copy { display: block;   }
+    &:last-child      { text-align: left; }
 
-    ul ~ ul { @include section--padding-top(1.5); }
-    ul li span { margin-top: $footer_span_margin; }
+    ul li span  { margin-top: $footer_span_margin; }
+    ul ~ ul { @include section--padding-top("md"); }
+    p { @include section--padding-bottom("md"); }
 
     .footer__smaller-text {
-      @include font-size-p(false);
+      @include font--style("p");
       padding: 0;
     }
 

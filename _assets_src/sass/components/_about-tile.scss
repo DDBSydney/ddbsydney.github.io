@@ -7,47 +7,57 @@
 **/
 
 .about-tile {
-  @extend %section;
   @extend %flex--row;
+  min-height: 55vw;
 
-  min-height: 100vh;
-  box-sizing: border-box;
-  background-color: #000;
+  background-color: black;
   @include mobile { min-height: 50vh; }
 
   .about-tile__content {
-    @include section--padding(3.5)
-    @include section--padding-top(4.5);
+    @include section--padding;
 
-    @include mobile {
-      @include section--padding-h(1);
-      @include section--padding-top(6);
-      @include section--padding-bottom(4);
-    }
-
-    flex: 1;
+    @extend %flex--col;
     align-self: center;
     text-align: center;
+    max-width: 100%;
 
-    h1 {
+    > h1 {
+      @include font--style("lg");
       display: inline-block;
-
-      color: #fff;
+      
+      color: white;
       text-align: left;
-      line-height: $line_height_root;
-
-      font-size: get-vw-desktop(60px);
-      @include tablet { font-size: get-vw-tablet(54px); }
-      @include mobile { font-size: get-vw-mobile(42px); }
 
       span {
+        @include line--height("h1");
         display: inline-block;
-        padding-right: 15px;
-        padding-left: 15px;
-        margin-left: -15px;
 
-        color: #000;
+        padding: 0 $promov_content_padding;
+        padding-bottom: ($promov_content_padding / 2);
+
+        color: black;
         background-color: $color_yellow_ddb;
+      }
+
+      br + span { 
+        margin: $promov_content_margin (-$promov_content_margin) 0;
+        @include tablet-sm { margin: 0; }
+        @include mobile    { margin: 0; }
+      }
+
+      br.tablet + span {
+        @include tablet-sm { margin: $promov_content_margin (-$promov_content_margin) 0; }
+        @include mobile    { margin: 0; }
+      }
+
+      br.mobile + span { 
+        @include mobile { margin: $promov_content_margin (-$promov_content_margin) 0; }
+      }
+
+      br.all + span { 
+        margin: 0 -$promov_content_margin;
+        @include tablet-sm { margin: $promov_content_margin (-$promov_content_margin) 0; }
+        @include mobile    { margin: $promov_content_margin (-$promov_content_margin) 0; }
       }
     }
   }
