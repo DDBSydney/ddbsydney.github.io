@@ -6,45 +6,44 @@
   * @desc Styles for the quote tile component.
 **/
 
+$quote_margin:  0.25em;
+$author_margin: 0.25em;
+
 .quote-tile {
   @extend %flex--row;
   min-height: 70vw;
 
-  &.test:hover {
-    background-color: rgba(#fff, 0.02);
-    outline: 1px solid rgba(#fff, 0.1);
-  }
-
   .quote-tile__content {
-    @include section--padding(3.5);
+    @extend %flex--col;
+    @include section--padding("lg");
 
     @include mobile {
-      @include section--padding-v(4);
-      @include section--padding-h(1);
+      @include section--padding-h;
     }
 
     align-self: center;
-    vertical-align: middle;
     text-align: center;
 
     .quote-tile__text {
       display: inline-block;
       text-align: left;
 
-      p:first-child { margin-top: 0; }
-      p:last-child { margin-bottom: 0; }
+      p:first-child { margin-top: 0;    }
+      p:last-child  { margin-bottom: 0; }
 
-      .quote-tile__quote  { margin-bottom: 0.25em; }
-      .quote-tile__author { margin-top: 0.25em;    }
+      .quote-tile__quote  { margin-bottom: $quote_margin; }
+      .quote-tile__author { margin-top: $author_margin;   }
     }
 
     .quote-tile__image {
-      @include section--margin-top(3);
-      @include section--margin-bottom(0);
-
       &.top {
-        @include section--margin-top(0);
-        @include section--margin-bottom(3);
+        @include section--margin-bottom("lg");
+        margin-top: 0;
+      }
+      
+      &:not(.top) {
+        @include section--margin-top("lg");
+        margin-bottom: 0;
       }
 
       img {
