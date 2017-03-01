@@ -36,11 +36,7 @@ html, body {
   color: white;
   background-color: black;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-
-  &[data-scroll="disabled"] { 
-    overflow: hidden !important;
-    -webkit-overflow-scrolling: auto !important;
-  }
+  &[data-scroll="disabled"] { overflow: hidden !important; }
 }
 
 // image

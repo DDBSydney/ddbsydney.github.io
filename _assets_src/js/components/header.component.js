@@ -188,6 +188,32 @@ var CONFIG = require("../config");
       link.classList.remove(_class.modifier.active);
     }
 
+    // @name _disablePageScroll
+    // @desc function to disable page scroll
+    function _disablePageScroll() {
+      // disable scroll on the html and body
+      _elHtml.setAttribute("data-scroll", "disabled");
+      _elBody.setAttribute("data-scroll", "disabled");
+
+      // disable scrolling on touch devices
+      if(CONFIG.device.isMobile) {
+        document.ontouchmove = function(e){ e.preventDefault(); }
+      }
+    }
+
+    // @name _enablePageScroll
+    // @desc function to enable page scroll
+    function _enablePageScroll() {
+      // enable scroll on the html and body
+      _elHtml.removeAttribute("data-scroll");
+      _elBody.removeAttribute("data-scroll");
+
+      // enable scrolling on touch devices
+      if(CONFIG.device.isMobile) {
+        document.ontouchmove = function(e){ return true; }
+      }
+    }
+
     // ---------------------------------------------
     //   Public methods
     // ---------------------------------------------
@@ -206,11 +232,9 @@ var CONFIG = require("../config");
       }
 
       // set the menu open flag
+      // and disable page scroll
       _isMenuOpen = true;
-
-      // disable scroll on the html and body
-      _elHtml.setAttribute("data-scroll", "disabled");
-      _elBody.setAttribute("data-scroll", "disabled");
+      _disablePageScroll();
 
       // make sure the nav is hidden
       // add add, remove the modifiers
@@ -250,11 +274,9 @@ var CONFIG = require("../config");
       }
 
       // reset the menu open flag
+      // and enable page scroll
       _isMenuOpen = false;
-
-      // enable scroll on the html and body
-      _elHtml.removeAttribute("data-scroll");
-      _elBody.removeAttribute("data-scroll");
+      _enablePageScroll();
 
       // clear any previously set timers
       if(_menuTimer != null) {
