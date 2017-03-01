@@ -58,6 +58,7 @@
 
   // modifer - open
   &--open {
+    overflow: auto; // to prevent scrolling on the page
     @include transitions(min-height, background-color);
     transition-timing-function: $ease_in_out_quad;
 
