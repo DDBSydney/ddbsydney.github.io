@@ -11,7 +11,8 @@ $author_margin: 0.25em;
 
 .quote-tile {
   @extend %flex--row;
-  min-height: 70vw;
+  min-height: $content_tile_h_min;
+  @include mobile { min-height: $content_tile_h_min_mob; }
 
   .quote-tile__content {
     @extend %flex--col;

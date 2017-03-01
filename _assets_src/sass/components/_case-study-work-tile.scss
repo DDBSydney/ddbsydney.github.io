@@ -6,7 +6,14 @@
   * @desc Styles for the case study work component.
 **/
 
-.case-study-work-tile { @extend .case-study-tile; }
+$csw_tile_h_max: auto;
+$csw_tile_h_max_mob: 80vh;
+
+.case-study-work-tile { 
+	@extend .case-study-tile;
+	max-height: $csw_tile_h_max;
+	@include mobile { max-height: $csw_tile_h_max_mob; }
+}
 
 // -------------------------------------
 //   Case Study Work - Content

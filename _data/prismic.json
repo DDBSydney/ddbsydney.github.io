@@ -127,7 +127,7 @@
                   },
                   "copy": {
                     "type": "Text",
-                    "value": "Can we sell a Golf to town that doesn’t need its city technology?"
+                    "value": "Can we sell a Golf to town <br>that doesn’t need its city technology?"
                   },
                   "image": {
                     "type": "Image",
@@ -176,7 +176,7 @@
                   },
                   "subline": {
                     "type": "Text",
-                    "value": "The job was to raise the consideration of the new model Golf, boost understanding of its advanced tech features and deliver more test-drives to Volkswagen dealers."
+                    "value": "The job was to raise the consideration of the new model Golf, <br>boost understanding of its advanced tech features and deliver <br>more test-drives to Volkswagen dealers."
                   }
                 }
               ]
@@ -232,7 +232,7 @@
                   },
                   "subline": {
                     "type": "Text",
-                    "value": "We developed an online series about a Volkswagen dealer given an impossible task. The premise was to sell the ultimate city car in an outback town filled with folks with no want or need for it."
+                    "value": "We developed an online series about a Volkswagen dealer given an <br>impossible task. The premise was to sell the ultimate city car in <br>an outback town filled with folks with no want or need for it."
                   }
                 }
               ]
@@ -260,7 +260,7 @@
                   },
                   "subline": {
                     "type": "Text",
-                    "value": "Our rep Tom, made a grand total of zero sales in the town but on Facebook where the series was shown, viewers loved every awkward minute."
+                    "value": "Our rep Tom, made a grand total of zero sales in the town but on Facebook <br>where the series was shown, viewers loved every awkward minute."
                   }
                 }
               ]
@@ -288,7 +288,7 @@
                   },
                   "subline": {
                     "type": "Text",
-                    "value": "We turned Facebook into our broadcast channel, so we could directly target potential buyers with the 6-month series."
+                    "value": "We turned Facebook into our broadcast channel, so we could <br>directly target potential buyers with the 6-month series."
                   }
                 }
               ]
@@ -366,7 +366,7 @@
                   },
                   "copy": {
                     "type": "Text",
-                    "value": "Live response social, powered by a smart application of technology."
+                    "value": "Live response social, powered <br>by a smart application of technology."
                   },
                   "image": {
                     "type": "Image",
@@ -411,7 +411,7 @@
                 {
                   "copy": {
                     "type": "Text",
-                    "value": "We needed to get more people inside the Sydney Opera House during summer."
+                    "value": "We needed to get more people inside the <br/>Sydney Opera House during summer."
                   }
                 }
               ]
@@ -435,11 +435,11 @@
                 {
                   "subline": {
                     "type": "Text",
-                    "value": "8.2 million people visit the site of the Sydney Opera House every year."
+                    "value": "8.2 million people visit the site of the <br>Sydney Opera House every year."
                   },
                   "copy": {
                     "type": "Text",
-                    "value": "Most take photo if the outside and move on, making it the most Instagrammed icon in Australia. People were a stick away. We selected photos using computer vision, inviting them inside with Instagram."
+                    "value": "Most take photo if the outside and move on, <br>making it the most Instagrammed icon in Australia. <br>People were a stick away. We selected photos using <br>computer vision, inviting them inside with Instagram."
                   }
                 }
               ]
@@ -467,7 +467,7 @@
                   },
                   "subline": {
                     "type": "Text",
-                    "value": "Turn photos of the Sydney Opera House on Instagram into incredible experiences inside by inviting users to #comeonin."
+                    "value": "Turn photos of the Sydney Opera House on Instagram into <br>incredible experiences inside by inviting users to #comeonin."
                   }
                 }
               ]
@@ -532,7 +532,7 @@
               "type": "content-tile",
               "value": [
                 {
-                  "subline": {
+                  "copy": {
                     "type": "Text",
                     "value": "126 unsuspecting Instagrammers invited to #comeonin."
                   },
@@ -581,7 +581,7 @@
                   },
                   "subline": {
                     "type": "Text",
-                    "value": "Custom software uses computer vision to identify photos of the famous sails along with geo-location to find ones posted in close proximity. An on-site response team picks an Instagram user for an experience and quickly film and posts a video response inviting them inside."
+                    "value": "Custom software uses computer vision to identify photos of the <br>famous sails along with geo-location to find ones posted in close proximity. <br>An on-site response team picks an Instagram user for an experience and quickly <br>film and posts a video response inviting them inside."
                   },
                   "imageDesktop": {
                     "type": "Image",
@@ -628,7 +628,7 @@
                   },
                   "subline": {
                     "type": "Text",
-                    "value": "In 4 weeks, over 5 million people saw a new side to the Sydney Opera House: the inside."
+                    "value": "In 4 weeks, over 5 million people saw a new side to the <br>Sydney Opera House: the inside."
                   },
                   "list": {
                     "type": "StructuredText",
@@ -799,7 +799,7 @@
                 {
                   "copy": {
                     "type": "Text",
-                    "value": "As the brand name suggests, this is the people’s car – a legacy that transcends sheet metal and machinery. This was the thinking that gave rise to the campaign line “When is a car more than a car? When it’s a Volkswagen.”"
+                    "value": "As the brand name suggests, this is the people’s car <br>– a legacy that transcends sheet metal and machinery. <br>This was the thinking that gave rise to the campaign line <br>“When is a car more than a car? When it’s a Volkswagen.”"
                   }
                 }
               ]
@@ -851,7 +851,7 @@
                 {
                   "copy": {
                     "type": "Text",
-                    "value": "But for the message to really hit home, it couldn’t come from us. We reached out to real Volkswagen owners and asked them to share what made their cars more than a car. The result; a joyous and honest celebration of life in a Volkswagen."
+                    "value": "But for the message to really hit home, it couldn’t come from us. <br>We reached out to real Volkswagen owners and asked them to <br>share what made their cars more than a car.The result; <br>a joyous and honest celebration of life in a Volkswagen."
                   }
                 }
               ]
@@ -1590,7 +1590,7 @@
                   },
                   "subline": {
                     "type": "Text",
-                    "value": "How do we launch Macca’s new Loaded Fries in a fun way that will get Aussies excited to try them?"
+                    "value": "How do we launch Macca’s new Loaded Fries in a <br>fun way that will get Aussies excited to try them?"
                   }
                 }
               ]
@@ -1646,7 +1646,7 @@
                   },
                   "subline": {
                     "type": "Text",
-                    "value": "Literally “Bring Fries to Life” (just like the range of sauces does) through a combination of macro videography and the voices of a handful of hilarious comedians."
+                    "value": "Literally “Bring Fries to Life” (just like the range of sauces does) <br>through a combination of macro videography and the voices of a <br>handful of hilarious comedians."
                   }
                 }
               ]
@@ -1674,7 +1674,7 @@
                   },
                   "subline": {
                     "type": "Text",
-                    "value": "We assembled a group of hilarious actors and set them loose in the recording booth with our scripts and direction"
+                    "value": "We assembled a group of hilarious actors and set them <br>loose in the recording booth with our scripts and direction."
                   }
                 }
               ]
@@ -1702,7 +1702,7 @@
                   },
                   "subline": {
                     "type": "Text",
-                    "value": "Videos were shown on television and online, as well as special pre-roll and cinema placements. These placements were supported by a range of OOH and digital placements that drove people to the films."
+                    "value": "Videos were shown on television and online, as well as special pre-roll <br>and cinema placements. These placements were supported by a range of <br>OOH and digital placements that drove people to the films."
                   }
                 }
               ]
@@ -1825,7 +1825,7 @@
                 {
                   "copy": {
                     "type": "Text",
-                    "value": "The Amarok’s sleek European styling led people to believe that it was too precious to handle tough Australian conditions"
+                    "value": "The Amarok’s sleek European styling led people to believe <br>that it was too precious to handle tough Australian conditions"
                   }
                 }
               ]
@@ -1881,7 +1881,7 @@
                   },
                   "subline": {
                     "type": "Text",
-                    "value": "We Stripped the Amarok of everything that identified it, forcing critics to judge it on performance alone."
+                    "value": "We Stripped the Amarok of everything that identified it, <br>forcing critics to judge it on performance alone."
                   }
                 }
               ]
@@ -1933,7 +1933,7 @@
                 {
                   "subline": {
                     "type": "Text",
-                    "value": "We asked some of the Amarok’s greatest sceptics to guess what it was, while the public guessed along with them."
+                    "value": "We asked some of the Amarok’s greatest sceptics to guess <br>what it was, while the public guessed along with them."
                   }
                 }
               ]
@@ -1957,7 +1957,7 @@
                 {
                   "subline": {
                     "type": "Text",
-                    "value": "We then revealed that the tough Naked Ute was actually the Volkswagen Amarok challenging their prejudices, perceptions and outdated opinions on how the Amarok really performs."
+                    "value": "We then revealed that the tough Naked Ute was actually the <br>Volkswagen Amarok challenging their prejudices, perceptions <br>and outdated opinions on how the Amarok really performs."
                   }
                 }
               ]
@@ -2013,7 +2013,7 @@
                   },
                   "subline": {
                     "type": "Text",
-                    "value": "A total reach of 7.7 million with 125,000 unique visitors to our unbranded website, more than 24,000 guesses an an immediate uplift in sales."
+                    "value": "A total reach of 7.7 million with 125,000 unique <br>visitors to our unbranded website, more than 24,000 <br>guesses an an immediate uplift in sales."
                   }
                 }
               ]
@@ -2421,7 +2421,7 @@
                   },
                   "copy": {
                     "type": "Text",
-                    "value": "Can we sell a Golf to town that doesn’t need its city technology?"
+                    "value": "Can we sell a Golf to town <br>that doesn’t need its city technology?"
                   },
                   "image": {
                     "type": "Image",
@@ -3441,7 +3441,7 @@
                   },
                   "copy": {
                     "type": "Text",
-                    "value": "Can we sell a Golf to town that doesn’t need its city technology?"
+                    "value": "Can we sell a Golf to town <br>that doesn’t need its city technology?"
                   },
                   "image": {
                     "type": "Image",

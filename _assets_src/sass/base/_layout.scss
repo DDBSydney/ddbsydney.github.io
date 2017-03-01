@@ -64,11 +64,11 @@ template { display: none !important; }
 // explicitly specified
 br {
   &:not(.mobile):not(.tablet):not(.all) {
-      @include tablet-sm { display: none; }
+      @include tablet { display: none; }
   }
 
   &.tablet:not(.all) {
-      @include tablet-sm-up { display: none; }
+      @include tablet-up { display: none; }
       @include mobile { display: none; }
   }
 

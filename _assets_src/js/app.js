@@ -117,8 +117,8 @@ console.log(CONFIG);
       requestAnimationFrame(function() {
         $(_elBody).velocity("transition.fadeIn", {
           easing: "easeInOutQuad",
-          delay: CONFIG.animation.delay,
-          duration: CONFIG.animation.durationSlow
+          delay: CONFIG.animation.delay / 2,
+          duration: CONFIG.animation.duration
         });
       });
     }

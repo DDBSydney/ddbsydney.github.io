@@ -7,11 +7,15 @@
 **/
 
 $content_tile_h_min: 66vw;
-$content_tile_h_mob_mob: 66vw;
+$content_tile_h_min_mob: 66vw;
+
+$content_tile_list_w_max: 980px;
+$content_tile_list_w_max_mob: 460px;
 
 .content-tile {
   @extend %flex--row;
   min-height: $content_tile_h_min;
+  @include mobile { min-height: $content_tile_h_min_mob; }
 
   .content-tile__content {
     @extend %flex--col;
@@ -25,43 +29,42 @@ $content_tile_h_mob_mob: 66vw;
         @include section--padding-h("md");
       }
     }
-    
-    *:first-child { margin-top: 0; }
-    *:last-child  { margin-bottom: 0; }
 
-    .content-tile__content--copy {
-      @include font--style("h3");
+
+    &--copy {
+      @include font--style("h2");
+      font-weight: $font_weight_medium;
     }
 
-    .content-tile__content--headline,
-    .content-tile__content--subline,
-    .content-tile__content--copy {
+    &--subline {
+      font-weight: $font_weight_medium;
+    }
+
+    &--headline,
+    &--subline,
+    &--copy {
+      margin-top: 0;
+      margin-bottom: 1em;
+      &:last-child { margin-bottom: 0; }
+
       &[data-align="left"]   { text-align: left;   }
       &[data-align="right"]  { text-align: right;  }
       &[data-align="center"] { text-align: center; }
-
-      overflow-wrap: break-word;
-      word-wrap: break-word;
-
-      -ms-word-break: break-all;
-      word-break: break-word;
     }
 
     .content-tile__list {
       @extend %flex--row;
-
-      margin: 0;
-      padding: 0;
       @include section--padding-h;
 
-      .content-tile__listitem {
+      padding: 0; margin: 0 auto; 
+      max-width: $content_tile_list_w_max;
+
+      &item {
         @extend %flex--col;
 
-        margin: 0;
-        @include section--margin-top("sm");
-
-        padding: 0;
+        padding: 0; margin: 0 auto; 
         @include section--padding-h("sm");
+        @include section--margin-top("sm");
 
         @include font--style("h5");
         list-style: none;
@@ -71,17 +74,16 @@ $content_tile_h_mob_mob: 66vw;
 
       @include mobile {
         @include section--margin-top("md");
+
         padding-left: 0; padding-right: 0;
+        max-width: $content_tile_list_w_max_mob;
 
-        .content-tile__listitem {
+        &item {
           @include section--padding-h("lg");
-
-          &:not(:first-child) {
-            @include section--margin-top("md");
-          }
-
           flex-basis: 100%;
-          @include font--style("h4");
+
+          @include section--margin-top("md");
+          &:first-child { margin-top: 0; }
         }
       }
     }
@@ -102,8 +104,8 @@ $content_tile_h_mob_mob: 66vw;
         margin: auto;
       }
 
-      .content-tile__image--desktop { display: block; }
-      .content-tile__image--mobile  { display: none;  }
+      &--desktop { display: block; }
+      &--mobile  { display: none;  }
 
       @include mobile {
         text-align: center;
@@ -112,8 +114,9 @@ $content_tile_h_mob_mob: 66vw;
           max-width: 100%;
           width: auto;
         }
-        .content-tile__image--desktop { display: none;  }
-        .content-tile__image--mobile  { display: block; }
+
+        &--desktop { display: none;  }
+        &--mobile  { display: block; }
       }
     }
   }

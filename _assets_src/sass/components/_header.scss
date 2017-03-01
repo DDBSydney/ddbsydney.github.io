@@ -115,7 +115,7 @@
     &.link { 
       align-self: flex-end;
       font-weight: $font_weight_bold;
-      &--active { pointer-events: none; }
+      /* &--active { pointer-events: none; } */
     }
 
     @include mobile {

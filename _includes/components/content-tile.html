@@ -65,7 +65,7 @@
     {% endif %}
 
     {% if tile.subline.value %}
-      <h2 class="content-tile__content--subline" data-align="{{ tile.alignSubline.value | default: 'center' }}"{{ fgCol | normalize_whitespace }}>{{ tile.subline.value }}</h2>
+      <h4 class="content-tile__content--subline" data-align="{{ tile.alignSubline.value | default: 'center' }}"{{ fgCol | normalize_whitespace }}>{{ tile.subline.value }}</h4>
     {% endif %}
 
     {% if tile.copy.value %}
