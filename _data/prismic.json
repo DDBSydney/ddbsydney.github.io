@@ -439,7 +439,7 @@
                   },
                   "copy": {
                     "type": "Text",
-                    "value": "Most take photo if the outside and move on, <br>making it the most Instagrammed icon in Australia. <br>People were a stick away. We selected photos using <br>computer vision, inviting them inside with Instagram."
+                    "value": "Most take photo if the outside and move on, making it the most <br>Instagrammed icon in Australia. People were a stick away. <br>We selected photos using computer vision, inviting <br>them inside with Instagram."
                   }
                 }
               ]
@@ -2579,7 +2579,7 @@
               "type": "content-tile",
               "value": [
                 {
-                  "copy": {
+                  "headline": {
                     "type": "Text",
                     "value": "<b>How do brands and businesses actually grow?</b>\n\n<br class=\"all\"/>\n<br class=\"all\"/>\n\nWe have long assumed that growth was anchored on a consumer who behaved logically and rationally to advance their lifestyle.\n\n<br class=\"all\"/>\n<br class=\"all\"/>\n\nNew evidence from the behavioral sciences refutes this. Far from being reasonable and rational, humans are emotional and often behave in a fashion that defies logic. Leading the debate is Nobel Prize winning Psychologist Daniel Kahneman who writes:\n\n<br class=\"all\"/>\n<br class=\"all\"/>\n\n<i>“We are feeling beings who can think, not thinking beings who can feel.”</i>"
                   },
@@ -2615,7 +2615,7 @@
                       }
                     }
                   },
-                  "alignCopy": {
+                  "alignHeadline": {
                     "type": "Select",
                     "value": "left"
                   },
@@ -2634,11 +2634,11 @@
               "type": "content-tile",
               "value": [
                 {
-                  "copy": {
+                  "headline": {
                     "type": "Text",
                     "value": "<b>A Challenge to Conventional Business Thinking</b>\n\n<br class=\"all\"/>\n<br class=\"all\"/>\n\nThese revelations demand that we reappraise our long held beliefs and force us to challenge conventional business thinking. There are three main culprits that stand in the way of growth.\n\n<br class=\"all\"/>\n<br class=\"all\"/>\n\nThe belief that we need to win our <b>category</b>.\n\n<br class=\"all\"/>\n\nOur determination to win the <b>mind</b> of the consumer.\n\n<br class=\"all\"/>\n\nThe pressure to win <b>today</b>.\n\n<br class=\"all\"/>\n<br class=\"all\"/>\n\nThis is legacy thinking grounded in the fallacious, rational mind models of positioning, persuasion, and the unique selling proposition."
                   },
-                  "alignCopy": {
+                  "alignHeadline": {
                     "type": "Select",
                     "value": "left"
                   },
@@ -2657,7 +2657,7 @@
               "type": "content-tile",
               "value": [
                 {
-                  "copy": {
+                  "headline": {
                     "type": "Text",
                     "value": "We propose new rules of growth that are sympathetic to the latest evidence of the primacy of the emotional mind:\n\n<br class=\"all\"/>\n<br class=\"all\"/>\n\n<b>Fame dwarfs category.</b>\n\n<br class=\"all\"/>\n\n<b>Feeling conquers thinking.</b>\n\n<br class=\"all\"/>\n\n<b>Long term Fluency beats short term wins.</b>"
                   },
@@ -2693,7 +2693,7 @@
                       }
                     }
                   },
-                  "alignCopy": {
+                  "alignHeadline": {
                     "type": "Select",
                     "value": "left"
                   },
@@ -2708,11 +2708,11 @@
               "type": "content-tile",
               "value": [
                 {
-                  "copy": {
+                  "headline": {
                     "type": "Text",
                     "value": "<b>Unreasonable Growth in Practice</b>\n\n<br class=\"all\"/>\n<br class=\"all\"/>\n\nThis has been validated in findings from the IPA in the UK and the Ehrenberg Bass Institute for Marketing Science.\n\n<br class=\"all\"/>\n<br class=\"all\"/>\n\nWe have turned these new rules into a simple, measurable and actionable approach for business growth and are having success with clients as diverse as Volkswagen, Expedia and MARS. Our tools and workshop practices help clients optimise their Fame, Feeling and Fluency and our partnership with the worlds leading System 1 research agency Brainjuicer means we are able to measure and benchmark a company’s performance against the three F’s."
                   },
-                  "alignCopy": {
+                  "alignHeadline": {
                     "type": "Select",
                     "value": "left"
                   },

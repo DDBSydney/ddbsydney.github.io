@@ -90,12 +90,12 @@ $content_tile_list_w_max_mob: 460px;
 
     .content-tile__image {
       &.top {
-        @include section--margin-bottom("lg");
+        @include section--margin-bottom("md");
         margin-top: 0;
       }
 
       &:not(.top) {
-        @include section--margin-top("lg");
+        @include section--margin-top("md");
         margin-bottom: 0;
       }
 
