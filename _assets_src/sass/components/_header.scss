@@ -110,12 +110,22 @@
 
   > a {
     @extend %flex--col;
-    &.link { align-self: flex-end; }
+
+    &.link { 
+      align-self: flex-end;
+      font-weight: $font_weight_bold;
+      &--active { pointer-events: none; }
+    }
 
     @include mobile {
       display: block;
       padding: ($section_padding_mob / 1.5) 0;
-      &.link--active { padding-bottom: $section_padding_mob; }
+
+      &.link--active { 
+        font-style: italic;
+        padding-bottom: $section_padding_mob;
+        span:before { width: 0 !important; }
+      }
     }
   }
 }
