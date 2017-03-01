@@ -6,7 +6,6 @@
 /** 
   * @plugins
   * require("jquery");
-  * require("velocity");
 **/
 
 // base
@@ -38,21 +37,14 @@ var CONFIG = require("../config");
     //   Private members
     // ---------------------------------------------
     var _el = { // reference to the DOM element
-      main: null,    // the main parent DOM element
-      content: null, // the content child DOM element
-      headers: []    // reference to the content headers
+      main: null, // the main parent DOM element
+      video: null // the video child DOM element
     };
 
     var _class = { // the classes that need to be applied
-      main: "promo-video",   // to the main parent DOM element
-      content: "promo-video__content" // to the content child DOM element
+      main: "promo-video",  // to the main parent DOM element
+      video: "video__cover" // to the video child DOM element
     };
-
-    var _index = 0; // reference to the current active index
-
-    var _timeout = 1500; // reference to the header content animatimation timeout
-    var _interval = 5000; // reference to the header content animatimation interval
-    var _isContentAnimating = false; // flag to indicate if the header content is animating
 
     // ---------------------------------------------
     //   Public members
@@ -62,122 +54,12 @@ var CONFIG = require("../config");
     // ---------------------------------------------
     //   Private methods
     // ---------------------------------------------
-    // @name show
-    // @desc function to animate and show the given header content
-    // @param {DOM} content - the header content to be animated into view
-    // @param {String} direction - the direction of the required animation
-    // @return {Promise(Boolean)} - the promise with resolve as true or false
-    function _show(content, direction) {
-      return new Promise(function(resolve) { try {
-        if(_isContentAnimating) {
-          console.log("promo-video.component.js: Cannot show content while other contents are still animating.")
-          return false;
-        }
-
-        // set the animating flag as true
-        _isContentAnimating = true;
-
-        // animate the given content into view
-        requestAnimationFrame(function() {
-          // finish any animations currently
-          // being performed on the content
-          $(content).velocity("finish");
-
-          // perform the new animation
-          $(content).velocity(
-            direction == "left" ? 
-            "transition.slideLeftIn" : 
-            "transition.slideRightIn", {
-
-              easing: "easeInOutQuad", 
-              delay: CONFIG.animation.delay / 4,
-              duration: CONFIG.animation.durationSlow,
-
-              // reset the animation flag on complete and resolve the promise
-              complete: function() { _isContentAnimating = false; return resolve(true); }
-          });
-        });
-
-        // resolve promimse immediately on error
-        } catch(error) { console.log(error); return resolve(true); }
-      });
-    }
-
-    // @name show
-    // @desc function to animate and hide the given header content
-    // @param {DOM} content - the header content to be animated out of view
-    // @param {String} direction - the direction of the required animation
-    // @return {Promise(Boolean)} - the promise with resolve as true or false
-    function _hide(content, direction) {
-      return new Promise(function(resolve) { try {
-        if(_isContentAnimating) {
-          console.log("promo-video.component.js: Cannot hide content while other contents are still animating.")
-          return false;
-        }
-
-        // set the animating flag as true
-        _isContentAnimating = true;
-
-        // animate the given content out of view
-        requestAnimationFrame(function() {
-          // finish any animations currently
-          // being performed on the content
-          $(content).velocity("finish");
-
-          // perform the new animation
-          $(content).velocity(
-            direction == "right" ? 
-            "transition.slideRightOut" : 
-            "transition.slideLeftOut", {
-
-              easing: "easeInOutQuad", delay: 0,
-              duration: CONFIG.animation.durationSlow,
-
-              // reset the animation flag on complete and resolve the promise
-              complete: function() { _isContentAnimating = false; return resolve(true); }
-          });
-        });
-        
-        // resolve promimse immediately on error
-        } catch(error) { console.log(error); return resolve(true); }
-      });
-    }
+    /* empy block */
 
     // ---------------------------------------------
     //   Public methods
     // ---------------------------------------------
-    // @name next
-    // @desc function to show the next header content
-    function next() {
-      var currIndex = _index; // get the current active index
-      var nextIndex = _index + 1; // get the next active index
-
-      // check if this the last header content
-      if(nextIndex >= _el.headers.length ) {
-         // reset the active index
-         // to the start of the list
-          nextIndex = 0;
-      } 
-
-      // get the corresponding header contents
-      var elCurrContent = _el.headers; // get all contents
-      var elNextContent = _el.headers[nextIndex];
-
-      // animate the current content out of view
-      _hide(elCurrContent, "left").then(
-
-        // animate the next content into view
-        function(isSuccess) {_show( elNextContent, "right"); },
-        function(isError)   { /* empty block */ }
-
-      );
-
-      _index = nextIndex;
-    }
-
-    // @name prev
-    // @desc function to show the previous header content
-    function prev() { /* empty block */ }
+    /* empy block */
 
     // ---------------------------------------------
     //   Constructor block
@@ -193,31 +75,26 @@ var CONFIG = require("../config");
     // get the main parent element
     _el.main = options.element;
 
-    // get all the child elements
-    _el.content = query("." + _class.content, _el.main)[0];
-    _el.headers = query("span", _el.content);
+    // get all the child video elements
+    _el.videos = query("." + _class.video, _el.main);
 
-    // show the next header content 
-    // once on initial component load 
-    /* requestAnimationFrame(function() {
-      setTimeout(function() {  
-        next(); 
+    // loop through each of the child video elements
+    _el.videos.forEach(function(video, index) {
+        // get the video's data-src attribute
+        var src = video.getAttribute("data-src");
 
-        // and create a loop 
-        // with a set interval
-        requestAnimationFrame(function() { 
-          setInterval(next, _interval); 
-        });
-      }, _timeout);
-    }); */
+        // set the src attribute for the video 
+        // only if this is not a mobile device
+        if(!CONFIG.device.isMobile
+          && src != null && src.length > 1) {
+            video.setAttribute("src", src);
+        }
+    });
 
     // ---------------------------------------------
     //   Instance block
     // ---------------------------------------------
-    return {
-      next: next, // function to show the next header content
-      prev: prev  // function to show the previous header content
-    };
+    return { };
   }
 
   // ---------------------------------------------
