@@ -14,16 +14,12 @@
 
     <!-- video cover - desktop -->
     {% if tile.video.value.url or tile.image.value.views.desktop.url %}
-      <video class="video__cover video__cover--desktop" poster="/assets/images/layout_1920x900.png" style="background-image: url('{{ tile.image.value.views.desktop.url }}');" muted loop autoplay playsinline>
-        {% if tile.video.value.url %}
-          <source src="{{ tile.video.value.url }}" type="video/mp4">
-        {% endif %}
-      </video>
+      <video class="video__cover video__cover--desktop" poster="/assets/images/layout_1920x900.png" style="background-image: url('{{ tile.image.value.views.desktop.url }}');" data-src="{{ tile.video.value.url }}" muted loop autoplay playsinline></video>
     {% endif %}
 
     <!-- video cover - mobile -->
     {% if tile.image.value.views.mobile.url %}
-      <video class="video__cover video__cover--mobile" poster="/assets/images/layout_800x820.png" muted loop autoplay playsinline style="background-image: url('{{ tile.image.value.views.mobile.url }}');"></video>
+      <video class="video__cover video__cover--mobile" poster="/assets/images/layout_800x820.png" data-src="{{ tile.video.value.url }}" style="background-image: url('{{ tile.image.value.views.mobile.url }}');" muted loop autoplay playsinline></video>
     {% endif %}
 
     <!-- video cover - overlay -->
@@ -37,23 +33,5 @@
       <h1>{{ tile.headline.value }}</h1>
     {% endif %}
   </div><!-- content end -->
-
-  {% comment %}
-  <!--
-  <div class="promo-video__content" data-align="left">
-    <h1>
-      {% if tile.list.value %}
-        {% for item in tile.list.value %}
-          {% if forloop.first == true %}
-            <span>{{ item.text }}</span>
-          {% else %}
-            <span style="display: none; opacity: 0;">{{ item.text }}</span>
-          {% endif %}
-        {% endfor %}
-      {% endif %}
-    </h1>
-  </div>
-  -->
-  {% endcomment %}
 
 </div><!-- promo video end -->

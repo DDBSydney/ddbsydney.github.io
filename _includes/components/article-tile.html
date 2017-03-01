@@ -6,7 +6,7 @@
   {% for tile in tiles %}
 
     <!-- tile -->
-    <div class="article-tile"{% if tile.style.value %} data-style="{{ tile.style.value }}"{% endif %}>
+    <div clickable-tile class="article-tile"{% if tile.style.value %} data-style="{{ tile.style.value }}"{% endif %}>
 
       <!-- content -->
       <div class="article-tile__content">

@@ -37,11 +37,11 @@
       {% endif %}
 
       {% if tile.phone1.value %}
-        <a class="ulink" href="tel:{{ tile.phone1.value | normalize_whitespace }}"><span> Tel: {{ tile.phone1.value }} </span></a>
+        <a class="ulink" href="tel:{{ tile.phone1.value | normalize_whitespace }}" title="{{ tile.phone1.value | normalize_whitespace }}"><span> Tel: {{ tile.phone1.value }} </span></a>
       {% endif %}
 
       {% if tile.mail1.value %}
-        <a class="ulink" href="mailto:{{ tile.mail1.value | normalize_whitespace }}"><span> {{ tile.mail1.value }} </span></a>
+        <a class="ulink" href="mailto:{{ tile.mail1.value | normalize_whitespace }}" title="{{ tile.mail1.value | normalize_whitespace }}"><span> {{ tile.mail1.value }} </span></a>
       {% endif %}
       
       {% if (tile.linkUrl1.value.url || tile.linkText1.value ) %}
@@ -57,11 +57,11 @@
       {% endif %}
 
       {% if tile.phone2.value %}
-        <a class="ulink" href="tel:{{ tile.phone2.value | normalize_whitespace }}"><span> Tel: {{ tile.phone2.value }} </span></a>
+        <a class="ulink" href="tel:{{ tile.phone2.value | normalize_whitespace }}" title="{{ tile.phone2.value | normalize_whitespace }}"><span> Tel: {{ tile.phone2.value }} </span></a>
       {% endif %}
 
       {% if tile.mail2.value %}
-        <a class="ulink" href="mailto:{{ tile.mail2.value | normalize_whitespace }}"><span> {{ tile.mail2.value }} </span></a>
+        <a class="ulink" href="mailto:{{ tile.mail2.value | normalize_whitespace }}" title="{{ tile.mail2.value | normalize_whitespace }}"><span> {{ tile.mail2.value }} </span></a>
       {% endif %}
 
       {% if (tile.linkUrl2.value.url || tile.linkText2.value ) %}

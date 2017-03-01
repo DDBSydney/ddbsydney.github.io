@@ -22,11 +22,11 @@ require("./base/template");
 /* empty block */
 
 // directives
-/* empty block */
+var ClickableTile = require("./directives/clickable-tile.directive");
 
 // components
 var Header = require("./components/header.component");
-// var PromoVideo = require("./components/promo-video.component");
+var PromoVideo = require("./components/promo-video.component");
 
 // controllers
 /* empty block */
@@ -61,7 +61,7 @@ console.log(CONFIG);
     var _elBody = null; // reference to the body DOM element
 
     var _header = null; // object to hold a refernce for the header component
-    // var _promoVideos = []; // array of objects to hold references for the the promo video components
+    var _promoVideos = []; // array of objects to hold references for the the promo video components
     var _hasFastClickAttached = false; // flag to indicate if fast click was attached
 
     // ---------------------------------------------
@@ -100,13 +100,18 @@ console.log(CONFIG);
         _hasFastClickAttached = true; // set attached flag as true
       }
 
-      // create the header
+      // initialise the clickable tile directive
+      query("[clickable-tile]").forEach(function(element, index) {
+        new ClickableTile({ element: element });
+      });
+
+      // create and intialise the header component
       _header = new Header({ element: query(".header")[0] });
 
-      // // create the promo videos
-      // query(".promo-video").forEach(function(element, index){
-      //   _promoVideos.push(new PromoVideo({ element: element }));
-      // });
+      // create and intialise the promo video components
+      query(".promo-video").forEach(function(element, index){
+        _promoVideos.push(new PromoVideo({ element: element }));
+      });
 
       // animate fade the current page into view
       requestAnimationFrame(function() {
