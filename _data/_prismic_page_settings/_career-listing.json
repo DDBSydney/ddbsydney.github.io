@@ -117,7 +117,7 @@
                     "type" : "Link",
                     "config" : {
                       "label" : "LinkedIn",
-                      "placeholder" : "https://www.linkedin.com/jobs/view/xxxxxxxxx"
+                      "placeholder" : "https://www.linkedin.com/jobs/view/xxxxxxxxx/"
                     }
                   }
                 }
