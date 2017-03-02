@@ -36,20 +36,25 @@
 
   <!-- body -->
   <body style="opacity: 0;{% if page_data.backgroundColor.value %} background-color: {{ page_data.backgroundColor.value }}{% endif %}">
+    
+    <!-- main -->
+    <main>
 
-    {% unless page_data.header.value == 'hidden' %}
+      {% unless page_data.header.value == 'hidden' %}
       <section class="section section--header">
-      {% include components/header.html %}
+        {% include components/header.html %}
       </section>
-    {% endunless %}
+      {% endunless %}
 
-    {{ content }}
+      {{ content }}
 
-    {% unless page_data.footer.value == 'hidden' %}
+      {% unless page_data.footer.value == 'hidden' %}
       <section class="section section--footer">
-      {% include components/footer.html %}
+        {% include components/footer.html %}
       </section>
-    {% endunless %}
+      {% endunless %}
+    
+    </main><!-- main end -->
 
   </body><!-- body end -->
 

@@ -11,7 +11,7 @@
       "id": "WK4T9ikAAL4opdjb",
       "uid": "test-vw",
       "type": "case-studies",
-      "href": "http://ddb-website.cdn.prismic.io/api/documents/search?ref=WLdubysAANIBy8c8&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WK4T9ikAAL4opdjb%22%29+%5D%5D",
+      "href": "http://ddb-website.cdn.prismic.io/api/documents/search?ref=WLefVysAAM8BzJ5g&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WK4T9ikAAL4opdjb%22%29+%5D%5D",
       "tags": [
 
       ],
@@ -133,7 +133,7 @@
       "id": "WKEQFSUAAEUiq5ZX",
       "uid": "work",
       "type": "work",
-      "href": "http://ddb-website.cdn.prismic.io/api/documents/search?ref=WLdubysAANIBy8c8&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WKEQFSUAAEUiq5ZX%22%29+%5D%5D",
+      "href": "http://ddb-website.cdn.prismic.io/api/documents/search?ref=WLefVysAAM8BzJ5g&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WKEQFSUAAEUiq5ZX%22%29+%5D%5D",
       "tags": [
 
       ],
@@ -679,7 +679,7 @@
       "id": "WK0GeCkAACgAoTc8",
       "uid": "volkswagen-tough-sell",
       "type": "case-studies",
-      "href": "http://ddb-website.cdn.prismic.io/api/documents/search?ref=WLdubysAANIBy8c8&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WK0GeCkAACgAoTc8%22%29+%5D%5D",
+      "href": "http://ddb-website.cdn.prismic.io/api/documents/search?ref=WLefVysAAM8BzJ5g&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WK0GeCkAACgAoTc8%22%29+%5D%5D",
       "tags": [
 
       ],
@@ -980,7 +980,7 @@
       "id": "WK-uuiEAAGgA2z5I",
       "uid": "intro",
       "type": "intro",
-      "href": "http://ddb-website.cdn.prismic.io/api/documents/search?ref=WLdubysAANIBy8c8&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WK-uuiEAAGgA2z5I%22%29+%5D%5D",
+      "href": "http://ddb-website.cdn.prismic.io/api/documents/search?ref=WLefVysAAM8BzJ5g&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WK-uuiEAAGgA2z5I%22%29+%5D%5D",
       "tags": [
 
       ],
@@ -1027,7 +1027,7 @@
       "id": "WKpzRigAACgAOzbM",
       "uid": "the-sydney-opera-house",
       "type": "case-studies",
-      "href": "http://ddb-website.cdn.prismic.io/api/documents/search?ref=WLdubysAANIBy8c8&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WKpzRigAACgAOzbM%22%29+%5D%5D",
+      "href": "http://ddb-website.cdn.prismic.io/api/documents/search?ref=WLefVysAAM8BzJ5g&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WKpzRigAACgAOzbM%22%29+%5D%5D",
       "tags": [
 
       ],
@@ -1432,12 +1432,12 @@
       "id": "WLdjLysAAO8Dy5W2",
       "uid": "pod-internship",
       "type": "career-listings",
-      "href": "http://ddb-website.cdn.prismic.io/api/documents/search?ref=WLdubysAANIBy8c8&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WLdjLysAAO8Dy5W2%22%29+%5D%5D",
+      "href": "http://ddb-website.cdn.prismic.io/api/documents/search?ref=WLefVysAAM8BzJ5g&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WLdjLysAAO8Dy5W2%22%29+%5D%5D",
       "tags": [
 
       ],
       "first_publication_date": "2017-03-02T00:12:13+0000",
-      "last_publication_date": "2017-03-02T00:59:27+0000",
+      "last_publication_date": "2017-03-02T04:28:07+0000",
       "slugs": [
         "pod-internship--careers--ddb",
         "career--ddb-pod-internship"
@@ -1450,6 +1450,14 @@
           "meta-title": {
             "type": "Text",
             "value": "POD Internship | Careers | DDB"
+          },
+          "foregroundColor": {
+            "type": "Color",
+            "value": "#000000"
+          },
+          "backgroundColor": {
+            "type": "Color",
+            "value": "#ffffff"
           },
           "sections": {
             "type": "SliceZone",
@@ -1503,6 +1511,38 @@
                     }
                   ]
                 }
+              },
+              {
+                "type": "Slice",
+                "slice_type": "career-detail",
+                "slice_label": null,
+                "value": {
+                  "type": "Group",
+                  "value": [
+                    {
+                      "headline": {
+                        "type": "Text",
+                        "value": "Career detail headline"
+                      },
+                      "copy": {
+                        "type": "Text",
+                        "value": "<b> Career detail copy </b><br class=\"all\"><br class=\"all\">\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec velit ac sapien fermentum blandit a vel tellus. Aliquam varius nulla viverra, tincidunt mauris rhoncus, tincidunt sapien. Curabitur congue velit ut massa aliquam, vel congue purus posuere. Sed a risus eget mi lobortis tincidunt. Pellentesque nec lectus risus. Sed volutpat nulla sed ex consectetur molestie. Etiam ut maximus enim. Etiam quis malesuada orci, in tristique sapien. Maecenas sed cursus leo, vel maximus risus. Donec lobortis a libero non lacinia.<br class=\"all\"><br class=\"all\">\n\n<b> Career detail copy </b><br class=\"all\"><br class=\"all\">\nQuisque et mollis dolor. Donec sed bibendum tortor. Quisque pretium aliquam turpis id fringilla. Integer nec efficitur leo, ut pharetra risus. Nam non augue vitae urna condimentum condimentum. Etiam molestie enim sed dui fermentum volutpat. Cras nec augue bibendum, posuere arcu elementum, fringilla erat. Vivamus feugiat eros massa, et porta dolor pharetra ac.\n\n<b> Career detail copy </b><br class=\"all\"><br class=\"all\">\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec velit ac sapien fermentum blandit a vel tellus. Aliquam varius nulla viverra, tincidunt mauris rhoncus, tincidunt sapien. Curabitur congue velit ut massa aliquam, vel congue purus posuere. Sed a risus eget mi lobortis tincidunt. Pellentesque nec lectus risus. Sed volutpat nulla sed ex consectetur molestie. Etiam ut maximus enim. Etiam quis malesuada orci, in tristique sapien. Maecenas sed cursus leo, vel maximus risus. Donec lobortis a libero non lacinia.<br class=\"all\"><br class=\"all\">\n\n<b> Career detail copy </b><br class=\"all\"><br class=\"all\">\nQuisque et mollis dolor. Donec sed bibendum tortor. Quisque pretium aliquam turpis id fringilla. Integer nec efficitur leo, ut pharetra risus. Nam non augue vitae urna condimentum condimentum. Etiam molestie enim sed dui fermentum volutpat. Cras nec augue bibendum, posuere arcu elementum, fringilla erat. Vivamus feugiat eros massa, et porta dolor pharetra ac.\n\n<b> Career detail copy </b><br class=\"all\"><br class=\"all\">\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec velit ac sapien fermentum blandit a vel tellus. Aliquam varius nulla viverra, tincidunt mauris rhoncus, tincidunt sapien. Curabitur congue velit ut massa aliquam, vel congue purus posuere. Sed a risus eget mi lobortis tincidunt. Pellentesque nec lectus risus. Sed volutpat nulla sed ex consectetur molestie. Etiam ut maximus enim. Etiam quis malesuada orci, in tristique sapien. Maecenas sed cursus leo, vel maximus risus. Donec lobortis a libero non lacinia.<br class=\"all\"><br class=\"all\">\n\n<b> Career detail copy </b><br class=\"all\"><br class=\"all\">\nQuisque et mollis dolor. Donec sed bibendum tortor. Quisque pretium aliquam turpis id fringilla. Integer nec efficitur leo, ut pharetra risus. Nam non augue vitae urna condimentum condimentum. Etiam molestie enim sed dui fermentum volutpat. Cras nec augue bibendum, posuere arcu elementum, fringilla erat. Vivamus feugiat eros massa, et porta dolor pharetra ac."
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "Slice",
+                "slice_type": "career-content",
+                "slice_label": null,
+                "value": {
+                  "type": "Group",
+                  "value": [
+                    {
+                    }
+                  ]
+                }
               }
             ]
           }
@@ -1513,7 +1553,7 @@
       "id": "WK0SfSkAACoAoWxH",
       "uid": "volkswagen-brand-love",
       "type": "case-studies",
-      "href": "http://ddb-website.cdn.prismic.io/api/documents/search?ref=WLdubysAANIBy8c8&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WK0SfSkAACoAoWxH%22%29+%5D%5D",
+      "href": "http://ddb-website.cdn.prismic.io/api/documents/search?ref=WLefVysAAM8BzJ5g&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WK0SfSkAACoAoWxH%22%29+%5D%5D",
       "tags": [
 
       ],
@@ -1767,7 +1807,7 @@
       "id": "WKEQcCUAAKomq5fv",
       "uid": "test",
       "type": "case-studies",
-      "href": "http://ddb-website.cdn.prismic.io/api/documents/search?ref=WLdubysAANIBy8c8&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WKEQcCUAAKomq5fv%22%29+%5D%5D",
+      "href": "http://ddb-website.cdn.prismic.io/api/documents/search?ref=WLefVysAAM8BzJ5g&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WKEQcCUAAKomq5fv%22%29+%5D%5D",
       "tags": [
 
       ],
@@ -2513,7 +2553,7 @@
       "id": "WK0L2SkAACsAoU7x",
       "uid": "mcdonalds-loaded-fries",
       "type": "case-studies",
-      "href": "http://ddb-website.cdn.prismic.io/api/documents/search?ref=WLdubysAANIBy8c8&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WK0L2SkAACsAoU7x%22%29+%5D%5D",
+      "href": "http://ddb-website.cdn.prismic.io/api/documents/search?ref=WLefVysAAM8BzJ5g&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WK0L2SkAACsAoU7x%22%29+%5D%5D",
       "tags": [
 
       ],
@@ -2822,7 +2862,7 @@
       "id": "WKoxNCgAACsAOhPa",
       "uid": "about",
       "type": "about",
-      "href": "http://ddb-website.cdn.prismic.io/api/documents/search?ref=WLdubysAANIBy8c8&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WKoxNCgAACsAOhPa%22%29+%5D%5D",
+      "href": "http://ddb-website.cdn.prismic.io/api/documents/search?ref=WLefVysAAM8BzJ5g&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WKoxNCgAACsAOhPa%22%29+%5D%5D",
       "tags": [
 
       ],
@@ -3081,7 +3121,7 @@
       "id": "WKEP8CUAAOgdq5Ww",
       "uid": "latest",
       "type": "latest",
-      "href": "http://ddb-website.cdn.prismic.io/api/documents/search?ref=WLdubysAANIBy8c8&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WKEP8CUAAOgdq5Ww%22%29+%5D%5D",
+      "href": "http://ddb-website.cdn.prismic.io/api/documents/search?ref=WLefVysAAM8BzJ5g&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WKEP8CUAAOgdq5Ww%22%29+%5D%5D",
       "tags": [
 
       ],
@@ -4075,7 +4115,7 @@
       "id": "WK0ZFykAACsAoYlk",
       "uid": "volkswagen-naked-ute",
       "type": "case-studies",
-      "href": "http://ddb-website.cdn.prismic.io/api/documents/search?ref=WLdubysAANIBy8c8&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WK0ZFykAACsAoYlk%22%29+%5D%5D",
+      "href": "http://ddb-website.cdn.prismic.io/api/documents/search?ref=WLefVysAAM8BzJ5g&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WK0ZFykAACsAoYlk%22%29+%5D%5D",
       "tags": [
 
       ],
@@ -4429,7 +4469,7 @@
       "id": "WKoxZSgAACgAOhS1",
       "uid": "contact",
       "type": "contact",
-      "href": "http://ddb-website.cdn.prismic.io/api/documents/search?ref=WLdubysAANIBy8c8&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WKoxZSgAACgAOhS1%22%29+%5D%5D",
+      "href": "http://ddb-website.cdn.prismic.io/api/documents/search?ref=WLefVysAAM8BzJ5g&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WKoxZSgAACgAOhS1%22%29+%5D%5D",
       "tags": [
 
       ],

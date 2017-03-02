@@ -1,0 +1,24 @@
+{% assign component = include.data[0] %}
+
+<!-- career detail -->
+<div class="career-detail"{% if include.color %} style="color: {{ include.color }}"{% endif %}>
+    
+  <!-- container -->
+  {% if component.headline.value || component.subline.value || component.copy.value %}
+  <div class="container">
+    
+    {% if component.headline.value %}
+    <h2> {{component.headline.value}} </h2>
+    {% endif %}
+    
+    {% if component.subline.value %}
+    <h4> {{ component.subline.value }} </h4>
+    {% endif %}
+    
+    {% if component.copy.value %}
+    <p> {{ component.copy.value }} </p>
+    {% endif %}
+
+  </div>{% endif %}<!-- container end -->
+
+</div><!-- career detail end -->

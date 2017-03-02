@@ -1,0 +1,30 @@
+// -------------------------------------
+//   Component - Career Detail
+// -------------------------------------
+/**
+  * @name career-detail
+  * @desc Styles for the career detail component.
+**/
+
+.career-detail { 
+  @extend %section; 
+  @include section--padding("lg");
+  @include section--padding-top;
+}
+
+// -------------------------------------
+//   Career Content - Content
+// -------------------------------------
+.career-detail {
+  h2, h4, p { color: inherit; }
+  h2, h4 { text-align: center; }
+
+  p { 
+    @include font--style("h6");
+    text-align: left;
+  }
+
+  h2 + p, h4 + p {
+    @include section--margin-top;
+  }
+}

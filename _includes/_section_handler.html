@@ -1,7 +1,7 @@
 {% for section in include.data %}
 
   <!-- section -->
-  <section class="section{% if forloop.first %} section--first{% endif %}{% if forloop.last %} section--last{% endif %}" >
+  <section class="section{% if forloop.first %} section--first{% endif %}{% if forloop.last %} section--last{% endif %}">
 
     {% case section.type %}
 
@@ -67,6 +67,9 @@
 
       {% when "career-intro" %}
         {% include components/career-intro.html data=section.value %}
+
+      {% when "career-detail" %}
+        {% include components/career-detail.html data=section.value color=include.color %}
 
     {% endcase %}
 
