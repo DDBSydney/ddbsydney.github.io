@@ -89,7 +89,7 @@
                       {
                         "name": "Desktop",
                         "width": "1920",
-                        "height": "900"
+                        "height": "1080"
                       },
                       {
                         "name": "Mobile",
@@ -740,7 +740,48 @@
                 }
               }
             }
-          }
+          },
+
+
+
+          "career-intro" : {
+              "type" : "Group",
+              "config" : {
+                "label" : "Career Intro",
+                "repeat" : false,
+                "fields" : {
+                  "image" : {
+                    "type" : "Image",
+                    "config" : {
+                      "label" : "Image",
+                      "constraint" : {
+                        "width" : null,
+                        "height" : null
+                      },
+                      "thumbnails": [
+                        {
+                          "name": "Desktop",
+                          "width": "1920",
+                          "height": "1080"
+                        },
+                        {
+                          "name": "Mobile",
+                          "width": "800",
+                          "height": "820"
+                        }
+                      ]
+                    }
+                  },
+                  "copy" : {
+                    "type" : "Text",
+                    "config" : {
+                      "label" : "Copy",
+                      "placeholder" : "Copy text"
+                    }
+                  }
+                }
+              }
+            }
 
 
 

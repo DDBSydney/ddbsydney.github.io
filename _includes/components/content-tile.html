@@ -36,14 +36,14 @@
 {% capture imageHtml %}
 
   {% if tile.imageDesktop.value.main.url or tile.imageMobile.value.main.url %}
-  <div class="content-tile__image{{ tile.alignImage.value | prepend: ' ' }}">
+  <div class="image content-tile__image{{ tile.alignImage.value | prepend: ' ' }}">
 
     {% if tile.imageDesktop.value.main.url %}
-    <img class="content-tile__image--desktop" src="{{ tile.imageDesktop.value.main.url }}" alt="">
+     <img class="content-tile__image--desktop" src="{{ tile.imageDesktop.value.main.url }}" alt="">
     {% endif %}
 
     {% if tile.imageMobile.value.main.url %}
-    <img class="content-tile__image--mobile" src="{{ tile.imageMobile.value.main.url }}" alt="">
+     <img class="content-tile__image--mobile" src="{{ tile.imageMobile.value.main.url }}" alt="">
     {% endif %}
 
   </div>
@@ -53,26 +53,30 @@
 
 <!-- content tile -->
 <div class="content-tile{{ page.page_data.uid | prepend: ' ' }}"{{ bgCol | normalize_whitespace | prepend: ' ' }}>
-
+  
+  <!-- content -->
   <div class="content-tile__content">
+    
+    <!-- container -->
+    <div class="container">
 
-    {% if alignTop %}
-      {{ imageHtml }}
-    {% endif %}
-
-    {% if tile.headline.value %}
+      {% if alignTop %}
+        {{ imageHtml }}
+      {% endif %}
+    
+      {% if tile.headline.value %}
       <h5 class="content-tile__content--headline" data-align="{{ tile.alignHeadline.value | default: 'center' }}"{{ fgCol | normalize_whitespace }}>{{ tile.headline.value }}</h5>
-    {% endif %}
+      {% endif %}
 
-    {% if tile.subline.value %}
+      {% if tile.subline.value %}
       <h4 class="content-tile__content--subline" data-align="{{ tile.alignSubline.value | default: 'center' }}"{{ fgCol | normalize_whitespace }}>{{ tile.subline.value }}</h4>
-    {% endif %}
+      {% endif %}
 
-    {% if tile.copy.value %}
+      {% if tile.copy.value %}
       <p class="content-tile__content--copy" data-align="{{ tile.alignCopy.value | default: 'center' }}"{{ fgCol | normalize_whitespace }}>{{ tile.copy.value }}</p>
-    {% endif %}
+      {% endif %}
 
-    {% if tile.list.value %}
+      {% if tile.list.value %}
       <ul class="content-tile__list">
         {% for item in tile.list.value %}
         <li class="content-tile__listitem"{{ fgCol | normalize_whitespace }}>
@@ -80,12 +84,14 @@
         </li>
         {% endfor %}
       </ul>
-    {% endif %}
+      {% endif %}
 
     {% if alignTop != true %}
       {{ imageHtml }}
     {% endif %}
 
-  </div>
+    </div><!-- container end -->
+
+  </div><!-- content end -->
 
 </div><!-- content tile end -->

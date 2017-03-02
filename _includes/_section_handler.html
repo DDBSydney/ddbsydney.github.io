@@ -63,6 +63,11 @@
 
 
 
+      {% comment %} <!-- Careers Page --> {% endcomment %}
+
+      {% when "career-intro" %}
+        {% include components/career-intro.html data=section.value %}
+
     {% endcase %}
 
   </section><!-- section end -->

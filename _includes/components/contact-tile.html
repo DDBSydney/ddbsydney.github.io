@@ -29,43 +29,43 @@
     <div class="contact-tile__content__inner"><!-- content inner -->
 
       {% if tile.headline1.value %}
-        <h6>{{ tile.headline1.value }}</h6>
+      <h6>{{ tile.headline1.value }}</h6>
       {% endif %}
 
       {% if tile.copy1.value %}
-        <p>{{ tile.copy1.value }}</p>
+      <p>{{ tile.copy1.value }}</p>
       {% endif %}
 
       {% if tile.phone1.value %}
-        <a class="ulink" href="tel:{{ tile.phone1.value | normalize_whitespace }}" title="{{ tile.phone1.value | normalize_whitespace }}"><span> Tel: {{ tile.phone1.value }} </span></a>
+      <a class="ulink" href="tel:{{ tile.phone1.value | normalize_whitespace }}" title="{{ tile.phone1.value | normalize_whitespace }}"><span> Tel: {{ tile.phone1.value }} </span></a>
       {% endif %}
 
       {% if tile.mail1.value %}
-        <a class="ulink" href="mailto:{{ tile.mail1.value | normalize_whitespace }}" title="{{ tile.mail1.value | normalize_whitespace }}"><span> {{ tile.mail1.value }} </span></a>
+      <a class="ulink" href="mailto:{{ tile.mail1.value | normalize_whitespace }}" title="{{ tile.mail1.value | normalize_whitespace }}"><span> {{ tile.mail1.value }} </span></a>
       {% endif %}
       
       {% if (tile.linkUrl1.value.url || tile.linkText1.value ) %}
-        <a class="ulink" href="{{ tile.linkUrl1.value.url | normalize_whitespace }}" target="_blank" title="{{ tile.linkText1.value | normalize_whitespace }}"><span> {{ tile.linkText1.value }} </span></a>
+      <a class="ulink" href="{{ tile.linkUrl1.value.url | normalize_whitespace }}" target="_blank" title="{{ tile.linkText1.value | normalize_whitespace }}"><span> {{ tile.linkText1.value }} </span></a>
       {% endif %}
 
       {% if tile.headline2.value %}
-        <h6>{{ tile.headline2.value }}</h6>
+      <h6>{{ tile.headline2.value }}</h6>
       {% endif %}
 
       {% if tile.copy2.value %}
-        <p>{{ tile.copy3.value }}</p>
+      <p>{{ tile.copy3.value }}</p>
       {% endif %}
 
       {% if tile.phone2.value %}
-        <a class="ulink" href="tel:{{ tile.phone2.value | normalize_whitespace }}" title="{{ tile.phone2.value | normalize_whitespace }}"><span> Tel: {{ tile.phone2.value }} </span></a>
+      <a class="ulink" href="tel:{{ tile.phone2.value | normalize_whitespace }}" title="{{ tile.phone2.value | normalize_whitespace }}"><span> Tel: {{ tile.phone2.value }} </span></a>
       {% endif %}
 
       {% if tile.mail2.value %}
-        <a class="ulink" href="mailto:{{ tile.mail2.value | normalize_whitespace }}" title="{{ tile.mail2.value | normalize_whitespace }}"><span> {{ tile.mail2.value }} </span></a>
+      <a class="ulink" href="mailto:{{ tile.mail2.value | normalize_whitespace }}" title="{{ tile.mail2.value | normalize_whitespace }}"><span> {{ tile.mail2.value }} </span></a>
       {% endif %}
 
       {% if (tile.linkUrl2.value.url || tile.linkText2.value ) %}
-        <a class="ulink" href="{{ tile.linkUrl2.value.url | normalize_whitespace }}" target="_blank" title="{{ tile.linkText2.value | normalize_whitespace }}"><span> {{ tile.linkText2.value }} </span></a>
+      <a class="ulink" href="{{ tile.linkUrl2.value.url | normalize_whitespace }}" target="_blank" title="{{ tile.linkText2.value | normalize_whitespace }}"><span> {{ tile.linkText2.value }} </span></a>
       {% endif %}
 
     </div><!-- content inner end -->

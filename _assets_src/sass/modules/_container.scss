@@ -1,0 +1,24 @@
+// -------------------------------------
+//   Module - Container
+// -------------------------------------
+/**
+  * @name container
+  * @desc Styles for the container module.
+**/
+
+// container
+%container {
+  display: block;
+  position: relative;
+
+  width: 100%;
+  height: auto;
+
+  @extend %center;
+  box-sizing: border-box;
+
+  max-width: $tablet_w_sm;
+  @include mobile { max-width: $mobile_w_sm; }
+}
+
+.container { @extend %container; }

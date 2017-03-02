@@ -12,14 +12,15 @@
       <div class="article-tile__content">
 
         {% if tile.headline.value %}
-          <p>{{ tile.headline.value }}</p>
+        <p>{{ tile.headline.value }}</p>
         {% endif %}
 
         {% if tile.copy.value %}
-          <h4>{{ tile.copy.value }}</h4>
+        <h4>{{ tile.copy.value }}</h4>
         {% endif %}
 
         {% if tile.linkUrl.value %}
+
           {% if tile.linkUrl.type == "Link.web" %}
             {% include modules/button.html link=tile.linkUrl label=tile.linkText.value %}
           {% else %}

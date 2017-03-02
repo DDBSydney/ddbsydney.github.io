@@ -4,6 +4,7 @@
 <div class="video-tile">
 
   {% if tile.video.value.url %}
+  
     {% assign segs = tile.video.value.url | split: "/" %}
     {% assign isYoutube = false %}
     {% assign isVimeo = false %}
@@ -30,6 +31,7 @@
           <iframe type="text/html" src="{{ youtubeUrl }}?modestbranding=1&controls=1&iv_load_policy=3&rel=0&showinfo=0" frameborder="0"></iframe>
         </div>
       </div>
+
     {% elsif isVimeo == true %}
       {% assign vimeoUrl = tile.video.value.url | replace_first: "//vimeo.com/", "//player.vimeo.com/video/" %}
       <div class="video-tile__outer">
@@ -37,12 +39,14 @@
           <iframe src="{{ vimeoUrl }}" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
         </div>
       </div>
+
     {% else %}
       <video controls>
         <source src="{{ tile.video.value.url }}" type="video/mp4">
         Your browser does not support the video tag.
       </video>
     {% endif %}
+
   {% endif %}
 
 </div><!-- video tile end -->

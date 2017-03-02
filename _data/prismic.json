@@ -2515,6 +2515,67 @@
       }
     }
   ],
+  "career-listings": [
+    {
+      "uid": "pod-internship",
+      "data": {
+        "meta-title": {
+          "type": "Text",
+          "value": "POD Internship | Careers | DDB"
+        },
+        "sections": {
+          "type": "SectionList",
+          "value": [
+            {
+              "type": "career-intro",
+              "value": [
+                {
+                  "image": {
+                    "type": "Image",
+                    "value": {
+                      "main": {
+                        "dimensions": {
+                          "width": 1920,
+                          "height": 1080
+                        },
+                        "alt": null,
+                        "copyright": null,
+                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/f3260740b98b73135b7afc3aff06acf85fc6998f_layout_1920x1080_979797_4a4a4a.png"
+                      },
+                      "views": {
+                        "mobile": {
+                          "dimensions": {
+                            "width": 800,
+                            "height": 820
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/a5c215b65b2bb148ac819588cc6958db0173938c_layout_800x820_979797_4a4a4a.png"
+                        },
+                        "desktop": {
+                          "dimensions": {
+                            "width": 1920,
+                            "height": 1080
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/f3260740b98b73135b7afc3aff06acf85fc6998f_layout_1920x1080_979797_4a4a4a.png"
+                        }
+                      }
+                    }
+                  },
+                  "copy": {
+                    "type": "Text",
+                    "value": "If you are a young creative thinker who wants <br>to solve big problems, with radical technology <br>solutions we have a place for you in POD."
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ],
   "about": [
     {
       "uid": "about",

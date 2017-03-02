@@ -1,0 +1,30 @@
+// -------------------------------------
+//   Component - Career Intro
+// -------------------------------------
+/**
+  * @name career-intro
+  * @desc Styles for the career intro component.
+**/
+
+.career-intro { @extend %section; }
+
+// -------------------------------------
+//   Career Intro - Content
+// -------------------------------------
+$career_font_mx: 0.9375;
+
+.career-intro__content {
+  @include transform-center;
+  @include section--padding;
+  width: 100%; height: auto;
+
+  &__copy { 
+    text-align: center;
+    @include font--style("h2", $career_font_mx);
+
+    @include mobile { 
+      text-align: left;
+      @include font--style("h5", $career_font_mx); 
+    }
+  }
+}
