@@ -9,14 +9,19 @@
 .career-detail { 
   @extend %section; 
   @include section--padding("lg");
-  @include section--padding-top;
+  @include section--padding-top("md");
+
+  @include mobile {
+    @include section--padding-top("lg");
+    @include section--padding-h; 
+  }
 }
 
 // -------------------------------------
 //   Career Content - Content
 // -------------------------------------
 .career-detail {
-  h2, h4, p { color: inherit; }
+  h2, h4, p { color: inherit;  }
   h2, h4 { text-align: center; }
 
   p { 
@@ -26,5 +31,6 @@
 
   h2 + p, h4 + p {
     @include section--margin-top;
+    @include mobile { @include section--margin-top("md"); }
   }
 }
