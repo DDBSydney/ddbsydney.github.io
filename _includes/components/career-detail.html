@@ -4,7 +4,7 @@
 <div class="career-detail"{% if include.color %} style="color: {{ include.color }}"{% endif %}>
     
   <!-- container -->
-  {% if component.headline.value || component.subline.value || component.copy.value %}
+  {% if component.headline.value or component.subline.value or component.copy.value %}
   <div class="container">
     
     {% if component.headline.value %}
@@ -17,6 +17,12 @@
     
     {% if component.copy.value %}
     <p> {{ component.copy.value }} </p>
+    {% endif %}
+    
+    {% if component.linkedin.value.url %}
+    <a class="button" href="{{ component.linkedin.value.url }}" target="_blank" title="Apply on LinkedIn"><span>
+      Apply on <i class="icon icon-linkedin-logo"></i>
+    </span></a>
     {% endif %}
 
   </div>{% endif %}<!-- container end -->

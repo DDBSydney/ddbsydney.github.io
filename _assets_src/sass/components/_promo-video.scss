@@ -6,7 +6,11 @@
   * @desc Styles for the promo video component.
 **/
 
-.promo-video { @extend %section; }
+.promo-video { 
+  @extend %section;
+  overflow: hidden;
+  max-width: 100%;
+}
 
 // -------------------------------------
 //   Promo Video - Content

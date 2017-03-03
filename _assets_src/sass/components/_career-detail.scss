@@ -33,4 +33,9 @@
     @include section--margin-top;
     @include mobile { @include section--margin-top("md"); }
   }
+
+  .button { 
+    @extend %button--black;
+    margin-top: 1em;
+  }
 }

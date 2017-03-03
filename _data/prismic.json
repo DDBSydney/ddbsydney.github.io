@@ -1,4 +1,425 @@
 {
+  "career-listings": [
+    {
+      "uid": "account-manager",
+      "data": {
+        "meta-title": {
+          "type": "Text",
+          "value": "Account Manager | Careers | DDB"
+        },
+        "foregroundColor": {
+          "type": "Color",
+          "value": "#000000"
+        },
+        "backgroundColor": {
+          "type": "Color",
+          "value": "#ffffff"
+        },
+        "sections": {
+          "type": "SectionList",
+          "value": [
+            {
+              "type": "career-intro",
+              "value": [
+                {
+                  "image": {
+                    "type": "Image",
+                    "value": {
+                      "main": {
+                        "dimensions": {
+                          "width": 1023,
+                          "height": 575
+                        },
+                        "alt": null,
+                        "copyright": null,
+                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/25f16188163313279d735ab465873aab87c07651_jobs.jpeg"
+                      },
+                      "views": {
+                        "desktop": {
+                          "dimensions": {
+                            "width": 1920,
+                            "height": 1080
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/06e8264c51a66a6f65dfed162cdf4e7f9ea54036_jobs.jpeg"
+                        },
+                        "mobile": {
+                          "dimensions": {
+                            "width": 800,
+                            "height": 820
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/f1df8d64d09b009431f5ee12b32883baa2486779_jobs.jpeg"
+                        }
+                      }
+                    }
+                  },
+                  "copy": {
+                    "type": "Text",
+                    "value": "DDB Sydney is looking for an Account Manager to join the team."
+                  }
+                }
+              ]
+            },
+            {
+              "type": "career-detail",
+              "value": [
+                {
+                  "headline": {
+                    "type": "Text",
+                    "value": "Account Manager"
+                  },
+                  "copy": {
+                    "type": "Text",
+                    "value": "We are looking for someone who is passionate about getting the job done. You are, in fact, the ultimate project manager, firing on all cylinders all the time. You assist in the execution of all marketing activities and you are able to anticipate the entire process, from who is involved, to what needs to get done, and how it all fits together.<br class=\"all\"><br class=\"all\">\n\nAs an Account Managers you contribute to your client’s business through your strong understanding of the creative product and your role in its creation. You have a thirst for learning and can quickly pick up an in-depth understanding of the client, the client’s business and their consumer. You act and think creatively and strategically, contributing to the team, but also owning your projects and integrating around ideas.<br class=\"all\"><br class=\"all\"><br class=\"all\">"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "uid": "accout-director",
+      "data": {
+        "meta-title": {
+          "type": "Text",
+          "value": "Accout Director | Careers | DDB"
+        },
+        "foregroundColor": {
+          "type": "Color",
+          "value": "#000000"
+        },
+        "backgroundColor": {
+          "type": "Color",
+          "value": "#ffffff"
+        },
+        "sections": {
+          "type": "SectionList",
+          "value": [
+            {
+              "type": "career-intro",
+              "value": [
+                {
+                  "image": {
+                    "type": "Image",
+                    "value": {
+                      "main": {
+                        "dimensions": {
+                          "width": 1023,
+                          "height": 575
+                        },
+                        "alt": null,
+                        "copyright": null,
+                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/25f16188163313279d735ab465873aab87c07651_jobs.jpeg"
+                      },
+                      "views": {
+                        "desktop": {
+                          "dimensions": {
+                            "width": 1920,
+                            "height": 1080
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/06e8264c51a66a6f65dfed162cdf4e7f9ea54036_jobs.jpeg"
+                        },
+                        "mobile": {
+                          "dimensions": {
+                            "width": 800,
+                            "height": 820
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/f1df8d64d09b009431f5ee12b32883baa2486779_jobs.jpeg"
+                        }
+                      }
+                    }
+                  },
+                  "copy": {
+                    "type": "Text",
+                    "value": "DDB is looking for an established Account Director to join the team working on an exciting and fast paced account."
+                  }
+                }
+              ]
+            },
+            {
+              "type": "career-detail",
+              "value": [
+                {
+                  "headline": {
+                    "type": "Text",
+                    "value": "Account Director"
+                  },
+                  "copy": {
+                    "type": "Text",
+                    "value": "We are looking for an Account Director with exceptional client service experience across everything from TV to Digital/Content and Print. You are also a strong people manager able to coach and inspire your team.<br class=\"all\"><br class=\"all\">\n\nAccount Directors at DDB are solution-oriented, always thinking about their business, anticipating issues, and implementing their vision to produce superior results. They lead, facilitate and look for opportunities to expand into other disciplines.<br class=\"all\"><br class=\"all\"><br class=\"all\">"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "uid": "pod-internship",
+      "data": {
+        "meta-title": {
+          "type": "Text",
+          "value": "POD Internship | Careers | DDB"
+        },
+        "foregroundColor": {
+          "type": "Color",
+          "value": "#000000"
+        },
+        "backgroundColor": {
+          "type": "Color",
+          "value": "#ffffff"
+        },
+        "sections": {
+          "type": "SectionList",
+          "value": [
+            {
+              "type": "career-intro",
+              "value": [
+                {
+                  "image": {
+                    "type": "Image",
+                    "value": {
+                      "main": {
+                        "dimensions": {
+                          "width": 1920,
+                          "height": 1080
+                        },
+                        "alt": null,
+                        "copyright": null,
+                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/f3260740b98b73135b7afc3aff06acf85fc6998f_layout_1920x1080_979797_4a4a4a.png"
+                      },
+                      "views": {
+                        "mobile": {
+                          "dimensions": {
+                            "width": 800,
+                            "height": 820
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/a5c215b65b2bb148ac819588cc6958db0173938c_layout_800x820_979797_4a4a4a.png"
+                        },
+                        "desktop": {
+                          "dimensions": {
+                            "width": 1920,
+                            "height": 1080
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/f3260740b98b73135b7afc3aff06acf85fc6998f_layout_1920x1080_979797_4a4a4a.png"
+                        }
+                      }
+                    }
+                  },
+                  "copy": {
+                    "type": "Text",
+                    "value": "If you are a young creative thinker who wants <br>to solve big problems, with radical technology <br>solutions we have a place for you in POD."
+                  }
+                }
+              ]
+            },
+            {
+              "type": "career-detail",
+              "value": [
+                {
+                  "headline": {
+                    "type": "Text",
+                    "value": "Career detail headline"
+                  },
+                  "copy": {
+                    "type": "Text",
+                    "value": "<b> Career detail copy </b><br class=\"all\"><br class=\"all\">\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec velit ac sapien fermentum blandit a vel tellus. Aliquam varius nulla viverra, tincidunt mauris rhoncus, tincidunt sapien. Curabitur congue velit ut massa aliquam, vel congue purus posuere. Sed a risus eget mi lobortis tincidunt. Pellentesque nec lectus risus. Sed volutpat nulla sed ex consectetur molestie. Etiam ut maximus enim. Etiam quis malesuada orci, in tristique sapien. Maecenas sed cursus leo, vel maximus risus. Donec lobortis a libero non lacinia.<br class=\"all\"><br class=\"all\">\n\nQuisque et mollis dolor. Donec sed bibendum tortor. Quisque pretium aliquam turpis id fringilla. Integer nec efficitur leo, ut pharetra risus. Nam non augue vitae urna condimentum condimentum. Etiam molestie enim sed dui fermentum volutpat. Cras nec augue bibendum, posuere arcu elementum, fringilla erat. Vivamus feugiat eros massa, et porta dolor pharetra ac.<br class=\"all\"><br class=\"all\"><br class=\"all\">\n\n<b> Career detail copy </b><br class=\"all\"><br class=\"all\">\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec velit ac sapien fermentum blandit a vel tellus. Aliquam varius nulla viverra, tincidunt mauris rhoncus, tincidunt sapien. Curabitur congue velit ut massa aliquam, vel congue purus posuere. Sed a risus eget mi lobortis tincidunt. Pellentesque nec lectus risus. Sed volutpat nulla sed ex consectetur molestie. Etiam ut maximus enim. Etiam quis malesuada orci, in tristique sapien. Maecenas sed cursus leo, vel maximus risus. Donec lobortis a libero non lacinia.<br class=\"all\"><br class=\"all\">\n\nQuisque et mollis dolor. Donec sed bibendum tortor. Quisque pretium aliquam turpis id fringilla. Integer nec efficitur leo, ut pharetra risus. Nam non augue vitae urna condimentum condimentum. Etiam molestie enim sed dui fermentum volutpat. Cras nec augue bibendum, posuere arcu elementum, fringilla erat. Vivamus feugiat eros massa, et porta dolor pharetra ac.<br class=\"all\"><br class=\"all\"><br class=\"all\">\n\n<b> Career detail copy </b><br class=\"all\"><br class=\"all\">\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec velit ac sapien fermentum blandit a vel tellus. Aliquam varius nulla viverra, tincidunt mauris rhoncus, tincidunt sapien. Curabitur congue velit ut massa aliquam, vel congue purus posuere. Sed a risus eget mi lobortis tincidunt. Pellentesque nec lectus risus. Sed volutpat nulla sed ex consectetur molestie. Etiam ut maximus enim. Etiam quis malesuada orci, in tristique sapien. Maecenas sed cursus leo, vel maximus risus. Donec lobortis a libero non lacinia.<br class=\"all\"><br class=\"all\">\n\nQuisque et mollis dolor. Donec sed bibendum tortor. Quisque pretium aliquam turpis id fringilla. Integer nec efficitur leo, ut pharetra risus. Nam non augue vitae urna condimentum condimentum. Etiam molestie enim sed dui fermentum volutpat. Cras nec augue bibendum, posuere arcu elementum, fringilla erat. Vivamus feugiat eros massa, et porta dolor pharetra ac."
+                  },
+                  "linkedin": {
+                    "type": "Link.web",
+                    "value": {
+                      "url": "https://www.linkedin.com/company/ddb"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "career-content",
+              "value": [
+                {
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "uid": "senior-account-manager",
+      "data": {
+        "meta-title": {
+          "type": "Text",
+          "value": "Senior Account Manager | Careers | DDB"
+        },
+        "backgroundColor": {
+          "type": "Color",
+          "value": "#ffffff"
+        },
+        "sections": {
+          "type": "SectionList",
+          "value": [
+            {
+              "type": "career-intro",
+              "value": [
+                {
+                  "image": {
+                    "type": "Image",
+                    "value": {
+                      "main": {
+                        "dimensions": {
+                          "width": 1023,
+                          "height": 575
+                        },
+                        "alt": null,
+                        "copyright": null,
+                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/25f16188163313279d735ab465873aab87c07651_jobs.jpeg"
+                      },
+                      "views": {
+                        "desktop": {
+                          "dimensions": {
+                            "width": 1920,
+                            "height": 1080
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/06e8264c51a66a6f65dfed162cdf4e7f9ea54036_jobs.jpeg"
+                        },
+                        "mobile": {
+                          "dimensions": {
+                            "width": 800,
+                            "height": 820
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/f1df8d64d09b009431f5ee12b32883baa2486779_jobs.jpeg"
+                        }
+                      }
+                    }
+                  },
+                  "copy": {
+                    "type": "Text",
+                    "value": "DDB is looking for a Senior Account Manager to join the team working on a brilliant integrated\n\naccount."
+                  }
+                }
+              ]
+            },
+            {
+              "type": "career-detail",
+              "value": [
+                {
+                  "headline": {
+                    "type": "Text",
+                    "value": "Senior Account Manager"
+                  },
+                  "copy": {
+                    "type": "Text",
+                    "value": "We are looking for a Senior Account Manager with strong integrated experience across everything from TV to Digital/Content and Print.<br class=\"all\"><br class=\"all\">\n\nIf you are an organised and buttoned down suit with a knack for building exceptionally strong relationships - we would love to hear from you!<br class=\"all\"><br class=\"all\"><br class=\"all\">"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "uid": "creatives",
+      "data": {
+        "meta-title": {
+          "type": "Text",
+          "value": "Creatives  | Careers | DDB"
+        },
+        "foregroundColor": {
+          "type": "Color",
+          "value": "#000000"
+        },
+        "backgroundColor": {
+          "type": "Color",
+          "value": "#ffffff"
+        },
+        "sections": {
+          "type": "SectionList",
+          "value": [
+            {
+              "type": "career-intro",
+              "value": [
+                {
+                  "image": {
+                    "type": "Image",
+                    "value": {
+                      "main": {
+                        "dimensions": {
+                          "width": 1023,
+                          "height": 575
+                        },
+                        "alt": null,
+                        "copyright": null,
+                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/25f16188163313279d735ab465873aab87c07651_jobs.jpeg"
+                      },
+                      "views": {
+                        "desktop": {
+                          "dimensions": {
+                            "width": 1920,
+                            "height": 1080
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/06e8264c51a66a6f65dfed162cdf4e7f9ea54036_jobs.jpeg"
+                        },
+                        "mobile": {
+                          "dimensions": {
+                            "width": 800,
+                            "height": 820
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/f1df8d64d09b009431f5ee12b32883baa2486779_jobs.jpeg"
+                        }
+                      }
+                    }
+                  },
+                  "copy": {
+                    "type": "Text",
+                    "value": "DDB is currently looking for a range of creatives to join DDB on the back of some significant and exciting business growth."
+                  }
+                }
+              ]
+            },
+            {
+              "type": "career-detail",
+              "value": [
+                {
+                  "headline": {
+                    "type": "Text",
+                    "value": "Creatives"
+                  },
+                  "copy": {
+                    "type": "Text",
+                    "value": "We are looking for creatives who have a passion for breakthrough creative ideas, contemporary thinking and execution plus a desire to learn and grow.<br class=\"all\"><br class=\"all\">\n\nIf you are interested in exploring these opportunities please send your folio to our Talent Directorb Sarah Crabbe  sarah.crabbe@syd.ddb.com<br class=\"all\"><br class=\"all\"><br class=\"all\">"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ],
   "case-studies": [
     {
       "uid": "test-vw",
@@ -2505,97 +2926,6 @@
           "value": [
             {
               "type": "intro-tile",
-              "value": [
-                {
-                }
-              ]
-            }
-          ]
-        }
-      }
-    }
-  ],
-  "career-listings": [
-    {
-      "uid": "pod-internship",
-      "data": {
-        "meta-title": {
-          "type": "Text",
-          "value": "POD Internship | Careers | DDB"
-        },
-        "foregroundColor": {
-          "type": "Color",
-          "value": "#000000"
-        },
-        "backgroundColor": {
-          "type": "Color",
-          "value": "#ffffff"
-        },
-        "sections": {
-          "type": "SectionList",
-          "value": [
-            {
-              "type": "career-intro",
-              "value": [
-                {
-                  "image": {
-                    "type": "Image",
-                    "value": {
-                      "main": {
-                        "dimensions": {
-                          "width": 1920,
-                          "height": 1080
-                        },
-                        "alt": null,
-                        "copyright": null,
-                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/f3260740b98b73135b7afc3aff06acf85fc6998f_layout_1920x1080_979797_4a4a4a.png"
-                      },
-                      "views": {
-                        "mobile": {
-                          "dimensions": {
-                            "width": 800,
-                            "height": 820
-                          },
-                          "alt": null,
-                          "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/a5c215b65b2bb148ac819588cc6958db0173938c_layout_800x820_979797_4a4a4a.png"
-                        },
-                        "desktop": {
-                          "dimensions": {
-                            "width": 1920,
-                            "height": 1080
-                          },
-                          "alt": null,
-                          "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/f3260740b98b73135b7afc3aff06acf85fc6998f_layout_1920x1080_979797_4a4a4a.png"
-                        }
-                      }
-                    }
-                  },
-                  "copy": {
-                    "type": "Text",
-                    "value": "If you are a young creative thinker who wants <br>to solve big problems, with radical technology <br>solutions we have a place for you in POD."
-                  }
-                }
-              ]
-            },
-            {
-              "type": "career-detail",
-              "value": [
-                {
-                  "headline": {
-                    "type": "Text",
-                    "value": "Career detail headline"
-                  },
-                  "copy": {
-                    "type": "Text",
-                    "value": "<b> Career detail copy </b><br class=\"all\"><br class=\"all\">\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec velit ac sapien fermentum blandit a vel tellus. Aliquam varius nulla viverra, tincidunt mauris rhoncus, tincidunt sapien. Curabitur congue velit ut massa aliquam, vel congue purus posuere. Sed a risus eget mi lobortis tincidunt. Pellentesque nec lectus risus. Sed volutpat nulla sed ex consectetur molestie. Etiam ut maximus enim. Etiam quis malesuada orci, in tristique sapien. Maecenas sed cursus leo, vel maximus risus. Donec lobortis a libero non lacinia.<br class=\"all\"><br class=\"all\">\n\nQuisque et mollis dolor. Donec sed bibendum tortor. Quisque pretium aliquam turpis id fringilla. Integer nec efficitur leo, ut pharetra risus. Nam non augue vitae urna condimentum condimentum. Etiam molestie enim sed dui fermentum volutpat. Cras nec augue bibendum, posuere arcu elementum, fringilla erat. Vivamus feugiat eros massa, et porta dolor pharetra ac.<br class=\"all\"><br class=\"all\"><br class=\"all\">\n\n<b> Career detail copy </b><br class=\"all\"><br class=\"all\">\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec velit ac sapien fermentum blandit a vel tellus. Aliquam varius nulla viverra, tincidunt mauris rhoncus, tincidunt sapien. Curabitur congue velit ut massa aliquam, vel congue purus posuere. Sed a risus eget mi lobortis tincidunt. Pellentesque nec lectus risus. Sed volutpat nulla sed ex consectetur molestie. Etiam ut maximus enim. Etiam quis malesuada orci, in tristique sapien. Maecenas sed cursus leo, vel maximus risus. Donec lobortis a libero non lacinia.<br class=\"all\"><br class=\"all\">\n\nQuisque et mollis dolor. Donec sed bibendum tortor. Quisque pretium aliquam turpis id fringilla. Integer nec efficitur leo, ut pharetra risus. Nam non augue vitae urna condimentum condimentum. Etiam molestie enim sed dui fermentum volutpat. Cras nec augue bibendum, posuere arcu elementum, fringilla erat. Vivamus feugiat eros massa, et porta dolor pharetra ac.<br class=\"all\"><br class=\"all\"><br class=\"all\">\n\n<b> Career detail copy </b><br class=\"all\"><br class=\"all\">\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec velit ac sapien fermentum blandit a vel tellus. Aliquam varius nulla viverra, tincidunt mauris rhoncus, tincidunt sapien. Curabitur congue velit ut massa aliquam, vel congue purus posuere. Sed a risus eget mi lobortis tincidunt. Pellentesque nec lectus risus. Sed volutpat nulla sed ex consectetur molestie. Etiam ut maximus enim. Etiam quis malesuada orci, in tristique sapien. Maecenas sed cursus leo, vel maximus risus. Donec lobortis a libero non lacinia.<br class=\"all\"><br class=\"all\">\n\nQuisque et mollis dolor. Donec sed bibendum tortor. Quisque pretium aliquam turpis id fringilla. Integer nec efficitur leo, ut pharetra risus. Nam non augue vitae urna condimentum condimentum. Etiam molestie enim sed dui fermentum volutpat. Cras nec augue bibendum, posuere arcu elementum, fringilla erat. Vivamus feugiat eros massa, et porta dolor pharetra ac."
-                  }
-                }
-              ]
-            },
-            {
-              "type": "career-content",
               "value": [
                 {
                 }

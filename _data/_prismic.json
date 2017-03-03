@@ -1,17 +1,126 @@
 {
   "page": 1,
   "results_per_page": 100,
-  "results_size": 13,
-  "total_results_size": 13,
+  "results_size": 17,
+  "total_results_size": 17,
   "total_pages": 1,
   "next_page": null,
   "prev_page": null,
   "results": [
     {
+      "id": "WLjjUx8AAH4IVCL5",
+      "uid": "account-manager",
+      "type": "career-listings",
+      "href": "http://ddb-website.cdn.prismic.io/api/documents/search?ref=WLj6Wx8AAH4IVIhm&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WLjjUx8AAH4IVCL5%22%29+%5D%5D",
+      "tags": [
+
+      ],
+      "first_publication_date": "2017-03-03T03:30:34+0000",
+      "last_publication_date": "2017-03-03T04:53:01+0000",
+      "slugs": [
+        "account-manager--careers--ddb",
+        "account-manager"
+      ],
+      "linked_documents": [
+
+      ],
+      "data": {
+        "career-listings": {
+          "meta-title": {
+            "type": "Text",
+            "value": "Account Manager | Careers | DDB"
+          },
+          "foregroundColor": {
+            "type": "Color",
+            "value": "#000000"
+          },
+          "backgroundColor": {
+            "type": "Color",
+            "value": "#ffffff"
+          },
+          "sections": {
+            "type": "SliceZone",
+            "value": [
+              {
+                "type": "Slice",
+                "slice_type": "career-intro",
+                "slice_label": null,
+                "value": {
+                  "type": "Group",
+                  "value": [
+                    {
+                      "image": {
+                        "type": "Image",
+                        "value": {
+                          "main": {
+                            "dimensions": {
+                              "width": 1023,
+                              "height": 575
+                            },
+                            "alt": null,
+                            "copyright": null,
+                            "url": "http://ddb-website.cdn.prismic.io/ddb-website/25f16188163313279d735ab465873aab87c07651_jobs.jpeg"
+                          },
+                          "views": {
+                            "desktop": {
+                              "dimensions": {
+                                "width": 1920,
+                                "height": 1080
+                              },
+                              "alt": null,
+                              "copyright": null,
+                              "url": "http://ddb-website.cdn.prismic.io/ddb-website/06e8264c51a66a6f65dfed162cdf4e7f9ea54036_jobs.jpeg"
+                            },
+                            "mobile": {
+                              "dimensions": {
+                                "width": 800,
+                                "height": 820
+                              },
+                              "alt": null,
+                              "copyright": null,
+                              "url": "http://ddb-website.cdn.prismic.io/ddb-website/f1df8d64d09b009431f5ee12b32883baa2486779_jobs.jpeg"
+                            }
+                          }
+                        }
+                      },
+                      "copy": {
+                        "type": "Text",
+                        "value": "DDB Sydney is looking for an Account Manager to join the team."
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "Slice",
+                "slice_type": "career-detail",
+                "slice_label": null,
+                "value": {
+                  "type": "Group",
+                  "value": [
+                    {
+                      "headline": {
+                        "type": "Text",
+                        "value": "Account Manager"
+                      },
+                      "copy": {
+                        "type": "Text",
+                        "value": "We are looking for someone who is passionate about getting the job done. You are, in fact, the ultimate project manager, firing on all cylinders all the time. You assist in the execution of all marketing activities and you are able to anticipate the entire process, from who is involved, to what needs to get done, and how it all fits together.<br class=\"all\"><br class=\"all\">\n\nAs an Account Managers you contribute to your client’s business through your strong understanding of the creative product and your role in its creation. You have a thirst for learning and can quickly pick up an in-depth understanding of the client, the client’s business and their consumer. You act and think creatively and strategically, contributing to the team, but also owning your projects and integrating around ideas.<br class=\"all\"><br class=\"all\"><br class=\"all\">"
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
       "id": "WK4T9ikAAL4opdjb",
       "uid": "test-vw",
       "type": "case-studies",
-      "href": "http://ddb-website.cdn.prismic.io/api/documents/search?ref=WLexfSsAAAUEzO4_&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WK4T9ikAAL4opdjb%22%29+%5D%5D",
+      "href": "http://ddb-website.cdn.prismic.io/api/documents/search?ref=WLj6Wx8AAH4IVIhm&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WK4T9ikAAL4opdjb%22%29+%5D%5D",
       "tags": [
 
       ],
@@ -133,7 +242,7 @@
       "id": "WKEQFSUAAEUiq5ZX",
       "uid": "work",
       "type": "work",
-      "href": "http://ddb-website.cdn.prismic.io/api/documents/search?ref=WLexfSsAAAUEzO4_&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WKEQFSUAAEUiq5ZX%22%29+%5D%5D",
+      "href": "http://ddb-website.cdn.prismic.io/api/documents/search?ref=WLj6Wx8AAH4IVIhm&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WKEQFSUAAEUiq5ZX%22%29+%5D%5D",
       "tags": [
 
       ],
@@ -676,10 +785,119 @@
       }
     },
     {
+      "id": "WLjnjB8AAH0IVDWZ",
+      "uid": "accout-director",
+      "type": "career-listings",
+      "href": "http://ddb-website.cdn.prismic.io/api/documents/search?ref=WLj6Wx8AAH4IVIhm&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WLjnjB8AAH0IVDWZ%22%29+%5D%5D",
+      "tags": [
+
+      ],
+      "first_publication_date": "2017-03-03T03:48:34+0000",
+      "last_publication_date": "2017-03-03T04:55:24+0000",
+      "slugs": [
+        "accout-director--careers--ddb",
+        "accout-director"
+      ],
+      "linked_documents": [
+
+      ],
+      "data": {
+        "career-listings": {
+          "meta-title": {
+            "type": "Text",
+            "value": "Accout Director | Careers | DDB"
+          },
+          "foregroundColor": {
+            "type": "Color",
+            "value": "#000000"
+          },
+          "backgroundColor": {
+            "type": "Color",
+            "value": "#ffffff"
+          },
+          "sections": {
+            "type": "SliceZone",
+            "value": [
+              {
+                "type": "Slice",
+                "slice_type": "career-intro",
+                "slice_label": null,
+                "value": {
+                  "type": "Group",
+                  "value": [
+                    {
+                      "image": {
+                        "type": "Image",
+                        "value": {
+                          "main": {
+                            "dimensions": {
+                              "width": 1023,
+                              "height": 575
+                            },
+                            "alt": null,
+                            "copyright": null,
+                            "url": "http://ddb-website.cdn.prismic.io/ddb-website/25f16188163313279d735ab465873aab87c07651_jobs.jpeg"
+                          },
+                          "views": {
+                            "desktop": {
+                              "dimensions": {
+                                "width": 1920,
+                                "height": 1080
+                              },
+                              "alt": null,
+                              "copyright": null,
+                              "url": "http://ddb-website.cdn.prismic.io/ddb-website/06e8264c51a66a6f65dfed162cdf4e7f9ea54036_jobs.jpeg"
+                            },
+                            "mobile": {
+                              "dimensions": {
+                                "width": 800,
+                                "height": 820
+                              },
+                              "alt": null,
+                              "copyright": null,
+                              "url": "http://ddb-website.cdn.prismic.io/ddb-website/f1df8d64d09b009431f5ee12b32883baa2486779_jobs.jpeg"
+                            }
+                          }
+                        }
+                      },
+                      "copy": {
+                        "type": "Text",
+                        "value": "DDB is looking for an established Account Director to join the team working on an exciting and fast paced account."
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "Slice",
+                "slice_type": "career-detail",
+                "slice_label": null,
+                "value": {
+                  "type": "Group",
+                  "value": [
+                    {
+                      "headline": {
+                        "type": "Text",
+                        "value": "Account Director"
+                      },
+                      "copy": {
+                        "type": "Text",
+                        "value": "We are looking for an Account Director with exceptional client service experience across everything from TV to Digital/Content and Print. You are also a strong people manager able to coach and inspire your team.<br class=\"all\"><br class=\"all\">\n\nAccount Directors at DDB are solution-oriented, always thinking about their business, anticipating issues, and implementing their vision to produce superior results. They lead, facilitate and look for opportunities to expand into other disciplines.<br class=\"all\"><br class=\"all\"><br class=\"all\">"
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
       "id": "WK0GeCkAACgAoTc8",
       "uid": "volkswagen-tough-sell",
       "type": "case-studies",
-      "href": "http://ddb-website.cdn.prismic.io/api/documents/search?ref=WLexfSsAAAUEzO4_&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WK0GeCkAACgAoTc8%22%29+%5D%5D",
+      "href": "http://ddb-website.cdn.prismic.io/api/documents/search?ref=WLj6Wx8AAH4IVIhm&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WK0GeCkAACgAoTc8%22%29+%5D%5D",
       "tags": [
 
       ],
@@ -980,7 +1198,7 @@
       "id": "WK-uuiEAAGgA2z5I",
       "uid": "intro",
       "type": "intro",
-      "href": "http://ddb-website.cdn.prismic.io/api/documents/search?ref=WLexfSsAAAUEzO4_&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WK-uuiEAAGgA2z5I%22%29+%5D%5D",
+      "href": "http://ddb-website.cdn.prismic.io/api/documents/search?ref=WLj6Wx8AAH4IVIhm&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WK-uuiEAAGgA2z5I%22%29+%5D%5D",
       "tags": [
 
       ],
@@ -1027,7 +1245,7 @@
       "id": "WKpzRigAACgAOzbM",
       "uid": "the-sydney-opera-house",
       "type": "case-studies",
-      "href": "http://ddb-website.cdn.prismic.io/api/documents/search?ref=WLexfSsAAAUEzO4_&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WKpzRigAACgAOzbM%22%29+%5D%5D",
+      "href": "http://ddb-website.cdn.prismic.io/api/documents/search?ref=WLj6Wx8AAH4IVIhm&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WKpzRigAACgAOzbM%22%29+%5D%5D",
       "tags": [
 
       ],
@@ -1432,12 +1650,12 @@
       "id": "WLdjLysAAO8Dy5W2",
       "uid": "pod-internship",
       "type": "career-listings",
-      "href": "http://ddb-website.cdn.prismic.io/api/documents/search?ref=WLexfSsAAAUEzO4_&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WLdjLysAAO8Dy5W2%22%29+%5D%5D",
+      "href": "http://ddb-website.cdn.prismic.io/api/documents/search?ref=WLj6Wx8AAH4IVIhm&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WLdjLysAAO8Dy5W2%22%29+%5D%5D",
       "tags": [
 
       ],
       "first_publication_date": "2017-03-02T00:12:13+0000",
-      "last_publication_date": "2017-03-02T05:45:33+0000",
+      "last_publication_date": "2017-03-03T05:08:43+0000",
       "slugs": [
         "pod-internship--careers--ddb",
         "career--ddb-pod-internship"
@@ -1527,6 +1745,12 @@
                       "copy": {
                         "type": "Text",
                         "value": "<b> Career detail copy </b><br class=\"all\"><br class=\"all\">\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec velit ac sapien fermentum blandit a vel tellus. Aliquam varius nulla viverra, tincidunt mauris rhoncus, tincidunt sapien. Curabitur congue velit ut massa aliquam, vel congue purus posuere. Sed a risus eget mi lobortis tincidunt. Pellentesque nec lectus risus. Sed volutpat nulla sed ex consectetur molestie. Etiam ut maximus enim. Etiam quis malesuada orci, in tristique sapien. Maecenas sed cursus leo, vel maximus risus. Donec lobortis a libero non lacinia.<br class=\"all\"><br class=\"all\">\n\nQuisque et mollis dolor. Donec sed bibendum tortor. Quisque pretium aliquam turpis id fringilla. Integer nec efficitur leo, ut pharetra risus. Nam non augue vitae urna condimentum condimentum. Etiam molestie enim sed dui fermentum volutpat. Cras nec augue bibendum, posuere arcu elementum, fringilla erat. Vivamus feugiat eros massa, et porta dolor pharetra ac.<br class=\"all\"><br class=\"all\"><br class=\"all\">\n\n<b> Career detail copy </b><br class=\"all\"><br class=\"all\">\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec velit ac sapien fermentum blandit a vel tellus. Aliquam varius nulla viverra, tincidunt mauris rhoncus, tincidunt sapien. Curabitur congue velit ut massa aliquam, vel congue purus posuere. Sed a risus eget mi lobortis tincidunt. Pellentesque nec lectus risus. Sed volutpat nulla sed ex consectetur molestie. Etiam ut maximus enim. Etiam quis malesuada orci, in tristique sapien. Maecenas sed cursus leo, vel maximus risus. Donec lobortis a libero non lacinia.<br class=\"all\"><br class=\"all\">\n\nQuisque et mollis dolor. Donec sed bibendum tortor. Quisque pretium aliquam turpis id fringilla. Integer nec efficitur leo, ut pharetra risus. Nam non augue vitae urna condimentum condimentum. Etiam molestie enim sed dui fermentum volutpat. Cras nec augue bibendum, posuere arcu elementum, fringilla erat. Vivamus feugiat eros massa, et porta dolor pharetra ac.<br class=\"all\"><br class=\"all\"><br class=\"all\">\n\n<b> Career detail copy </b><br class=\"all\"><br class=\"all\">\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec velit ac sapien fermentum blandit a vel tellus. Aliquam varius nulla viverra, tincidunt mauris rhoncus, tincidunt sapien. Curabitur congue velit ut massa aliquam, vel congue purus posuere. Sed a risus eget mi lobortis tincidunt. Pellentesque nec lectus risus. Sed volutpat nulla sed ex consectetur molestie. Etiam ut maximus enim. Etiam quis malesuada orci, in tristique sapien. Maecenas sed cursus leo, vel maximus risus. Donec lobortis a libero non lacinia.<br class=\"all\"><br class=\"all\">\n\nQuisque et mollis dolor. Donec sed bibendum tortor. Quisque pretium aliquam turpis id fringilla. Integer nec efficitur leo, ut pharetra risus. Nam non augue vitae urna condimentum condimentum. Etiam molestie enim sed dui fermentum volutpat. Cras nec augue bibendum, posuere arcu elementum, fringilla erat. Vivamus feugiat eros massa, et porta dolor pharetra ac."
+                      },
+                      "linkedin": {
+                        "type": "Link.web",
+                        "value": {
+                          "url": "https://www.linkedin.com/company/ddb"
+                        }
                       }
                     }
                   ]
@@ -1553,7 +1777,7 @@
       "id": "WK0SfSkAACoAoWxH",
       "uid": "volkswagen-brand-love",
       "type": "case-studies",
-      "href": "http://ddb-website.cdn.prismic.io/api/documents/search?ref=WLexfSsAAAUEzO4_&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WK0SfSkAACoAoWxH%22%29+%5D%5D",
+      "href": "http://ddb-website.cdn.prismic.io/api/documents/search?ref=WLj6Wx8AAH4IVIhm&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WK0SfSkAACoAoWxH%22%29+%5D%5D",
       "tags": [
 
       ],
@@ -1804,10 +2028,115 @@
       }
     },
     {
+      "id": "WLjlpR8AAH0IVC02",
+      "uid": "senior-account-manager",
+      "type": "career-listings",
+      "href": "http://ddb-website.cdn.prismic.io/api/documents/search?ref=WLj6Wx8AAH4IVIhm&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WLjlpR8AAH0IVC02%22%29+%5D%5D",
+      "tags": [
+
+      ],
+      "first_publication_date": "2017-03-03T03:40:25+0000",
+      "last_publication_date": "2017-03-03T05:06:14+0000",
+      "slugs": [
+        "senior-account-manager--careers--ddb",
+        "senior-account-manager"
+      ],
+      "linked_documents": [
+
+      ],
+      "data": {
+        "career-listings": {
+          "meta-title": {
+            "type": "Text",
+            "value": "Senior Account Manager | Careers | DDB"
+          },
+          "backgroundColor": {
+            "type": "Color",
+            "value": "#ffffff"
+          },
+          "sections": {
+            "type": "SliceZone",
+            "value": [
+              {
+                "type": "Slice",
+                "slice_type": "career-intro",
+                "slice_label": null,
+                "value": {
+                  "type": "Group",
+                  "value": [
+                    {
+                      "image": {
+                        "type": "Image",
+                        "value": {
+                          "main": {
+                            "dimensions": {
+                              "width": 1023,
+                              "height": 575
+                            },
+                            "alt": null,
+                            "copyright": null,
+                            "url": "http://ddb-website.cdn.prismic.io/ddb-website/25f16188163313279d735ab465873aab87c07651_jobs.jpeg"
+                          },
+                          "views": {
+                            "desktop": {
+                              "dimensions": {
+                                "width": 1920,
+                                "height": 1080
+                              },
+                              "alt": null,
+                              "copyright": null,
+                              "url": "http://ddb-website.cdn.prismic.io/ddb-website/06e8264c51a66a6f65dfed162cdf4e7f9ea54036_jobs.jpeg"
+                            },
+                            "mobile": {
+                              "dimensions": {
+                                "width": 800,
+                                "height": 820
+                              },
+                              "alt": null,
+                              "copyright": null,
+                              "url": "http://ddb-website.cdn.prismic.io/ddb-website/f1df8d64d09b009431f5ee12b32883baa2486779_jobs.jpeg"
+                            }
+                          }
+                        }
+                      },
+                      "copy": {
+                        "type": "Text",
+                        "value": "DDB is looking for a Senior Account Manager to join the team working on a brilliant integrated\n\naccount."
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "Slice",
+                "slice_type": "career-detail",
+                "slice_label": null,
+                "value": {
+                  "type": "Group",
+                  "value": [
+                    {
+                      "headline": {
+                        "type": "Text",
+                        "value": "Senior Account Manager"
+                      },
+                      "copy": {
+                        "type": "Text",
+                        "value": "We are looking for a Senior Account Manager with strong integrated experience across everything from TV to Digital/Content and Print.<br class=\"all\"><br class=\"all\">\n\nIf you are an organised and buttoned down suit with a knack for building exceptionally strong relationships - we would love to hear from you!<br class=\"all\"><br class=\"all\"><br class=\"all\">"
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
       "id": "WKEQcCUAAKomq5fv",
       "uid": "test",
       "type": "case-studies",
-      "href": "http://ddb-website.cdn.prismic.io/api/documents/search?ref=WLexfSsAAAUEzO4_&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WKEQcCUAAKomq5fv%22%29+%5D%5D",
+      "href": "http://ddb-website.cdn.prismic.io/api/documents/search?ref=WLj6Wx8AAH4IVIhm&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WKEQcCUAAKomq5fv%22%29+%5D%5D",
       "tags": [
 
       ],
@@ -2553,7 +2882,7 @@
       "id": "WK0L2SkAACsAoU7x",
       "uid": "mcdonalds-loaded-fries",
       "type": "case-studies",
-      "href": "http://ddb-website.cdn.prismic.io/api/documents/search?ref=WLexfSsAAAUEzO4_&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WK0L2SkAACsAoU7x%22%29+%5D%5D",
+      "href": "http://ddb-website.cdn.prismic.io/api/documents/search?ref=WLj6Wx8AAH4IVIhm&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WK0L2SkAACsAoU7x%22%29+%5D%5D",
       "tags": [
 
       ],
@@ -2862,7 +3191,7 @@
       "id": "WKoxNCgAACsAOhPa",
       "uid": "about",
       "type": "about",
-      "href": "http://ddb-website.cdn.prismic.io/api/documents/search?ref=WLexfSsAAAUEzO4_&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WKoxNCgAACsAOhPa%22%29+%5D%5D",
+      "href": "http://ddb-website.cdn.prismic.io/api/documents/search?ref=WLj6Wx8AAH4IVIhm&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WKoxNCgAACsAOhPa%22%29+%5D%5D",
       "tags": [
 
       ],
@@ -3121,7 +3450,7 @@
       "id": "WKEP8CUAAOgdq5Ww",
       "uid": "latest",
       "type": "latest",
-      "href": "http://ddb-website.cdn.prismic.io/api/documents/search?ref=WLexfSsAAAUEzO4_&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WKEP8CUAAOgdq5Ww%22%29+%5D%5D",
+      "href": "http://ddb-website.cdn.prismic.io/api/documents/search?ref=WLj6Wx8AAH4IVIhm&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WKEP8CUAAOgdq5Ww%22%29+%5D%5D",
       "tags": [
 
       ],
@@ -4112,10 +4441,119 @@
       }
     },
     {
+      "id": "WLjpIB8AAH0IVDyO",
+      "uid": "creatives",
+      "type": "career-listings",
+      "href": "http://ddb-website.cdn.prismic.io/api/documents/search?ref=WLj6Wx8AAH4IVIhm&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WLjpIB8AAH0IVDyO%22%29+%5D%5D",
+      "tags": [
+
+      ],
+      "first_publication_date": "2017-03-03T03:55:16+0000",
+      "last_publication_date": "2017-03-03T04:54:56+0000",
+      "slugs": [
+        "creatives---careers--ddb",
+        "creatives"
+      ],
+      "linked_documents": [
+
+      ],
+      "data": {
+        "career-listings": {
+          "meta-title": {
+            "type": "Text",
+            "value": "Creatives  | Careers | DDB"
+          },
+          "foregroundColor": {
+            "type": "Color",
+            "value": "#000000"
+          },
+          "backgroundColor": {
+            "type": "Color",
+            "value": "#ffffff"
+          },
+          "sections": {
+            "type": "SliceZone",
+            "value": [
+              {
+                "type": "Slice",
+                "slice_type": "career-intro",
+                "slice_label": null,
+                "value": {
+                  "type": "Group",
+                  "value": [
+                    {
+                      "image": {
+                        "type": "Image",
+                        "value": {
+                          "main": {
+                            "dimensions": {
+                              "width": 1023,
+                              "height": 575
+                            },
+                            "alt": null,
+                            "copyright": null,
+                            "url": "http://ddb-website.cdn.prismic.io/ddb-website/25f16188163313279d735ab465873aab87c07651_jobs.jpeg"
+                          },
+                          "views": {
+                            "desktop": {
+                              "dimensions": {
+                                "width": 1920,
+                                "height": 1080
+                              },
+                              "alt": null,
+                              "copyright": null,
+                              "url": "http://ddb-website.cdn.prismic.io/ddb-website/06e8264c51a66a6f65dfed162cdf4e7f9ea54036_jobs.jpeg"
+                            },
+                            "mobile": {
+                              "dimensions": {
+                                "width": 800,
+                                "height": 820
+                              },
+                              "alt": null,
+                              "copyright": null,
+                              "url": "http://ddb-website.cdn.prismic.io/ddb-website/f1df8d64d09b009431f5ee12b32883baa2486779_jobs.jpeg"
+                            }
+                          }
+                        }
+                      },
+                      "copy": {
+                        "type": "Text",
+                        "value": "DDB is currently looking for a range of creatives to join DDB on the back of some significant and exciting business growth."
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "Slice",
+                "slice_type": "career-detail",
+                "slice_label": null,
+                "value": {
+                  "type": "Group",
+                  "value": [
+                    {
+                      "headline": {
+                        "type": "Text",
+                        "value": "Creatives"
+                      },
+                      "copy": {
+                        "type": "Text",
+                        "value": "We are looking for creatives who have a passion for breakthrough creative ideas, contemporary thinking and execution plus a desire to learn and grow.<br class=\"all\"><br class=\"all\">\n\nIf you are interested in exploring these opportunities please send your folio to our Talent Directorb Sarah Crabbe  sarah.crabbe@syd.ddb.com<br class=\"all\"><br class=\"all\"><br class=\"all\">"
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
       "id": "WK0ZFykAACsAoYlk",
       "uid": "volkswagen-naked-ute",
       "type": "case-studies",
-      "href": "http://ddb-website.cdn.prismic.io/api/documents/search?ref=WLexfSsAAAUEzO4_&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WK0ZFykAACsAoYlk%22%29+%5D%5D",
+      "href": "http://ddb-website.cdn.prismic.io/api/documents/search?ref=WLj6Wx8AAH4IVIhm&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WK0ZFykAACsAoYlk%22%29+%5D%5D",
       "tags": [
 
       ],
@@ -4469,7 +4907,7 @@
       "id": "WKoxZSgAACgAOhS1",
       "uid": "contact",
       "type": "contact",
-      "href": "http://ddb-website.cdn.prismic.io/api/documents/search?ref=WLexfSsAAAUEzO4_&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WKoxZSgAACgAOhS1%22%29+%5D%5D",
+      "href": "http://ddb-website.cdn.prismic.io/api/documents/search?ref=WLj6Wx8AAH4IVIhm&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WKoxZSgAACgAOhS1%22%29+%5D%5D",
       "tags": [
 
       ],
@@ -4719,6 +5157,6 @@
       }
     }
   ],
-  "version": "41d2af1",
+  "version": "ad5f32e",
   "license": "All Rights Reserved"
 }
