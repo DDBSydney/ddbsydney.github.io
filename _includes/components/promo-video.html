@@ -43,12 +43,11 @@
   </div><!-- video end -->
 
   <!-- content -->
+  {% if tile.headline.value %}
   <div class="promo-video__content" data-align="center">
 
-    {% if tile.headline.value %}
     <h1>{{ tile.headline.value }}</h1>
-    {% endif %}
     
-  </div><!-- content end -->
+  </div>{% endif %}<!-- content end -->
 
 </div><!-- promo video end -->
