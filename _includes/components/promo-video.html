@@ -11,15 +11,30 @@
 
     <!-- video layout - mobile -->
     <img class="video__layout video__layout--mobile" src="/assets/images/layout_800x820.png" alt="">
+    
+    {% if tile.video.value.url %}
+      <!-- video cover - desktop -->
+      {% if tile.image.value.views.desktop.url %}
+      <video class="video__cover video__cover--desktop" poster="/assets/images/layout_1920x900.png" style="background-image: url('{{ tile.image.value.views.desktop.url }}');" data-src="{{ tile.video.value.url }}" muted loop autoplay playsinline></video>
+      {% endif %}
 
-    <!-- video cover - desktop -->
-    {% if tile.video.value.url or tile.image.value.views.desktop.url %}
-    <video class="video__cover video__cover--desktop" poster="/assets/images/layout_1920x900.png" style="background-image: url('{{ tile.image.value.views.desktop.url }}');" data-src="{{ tile.video.value.url }}" muted loop autoplay playsinline></video>
+
+      <!-- video cover - mobile -->
+      {% if tile.image.value.views.mobile.url %}
+      <video class="video__cover video__cover--mobile" poster="/assets/images/layout_800x820.png" style="background-image: url('{{ tile.image.value.views.mobile.url }}');" data-src="{{ tile.video.value.url }}" muted loop autoplay playsinline></video>
+      {% endif %}
     {% endif %}
+    
+    {% if tile.video.value.file.url %}
+      <!-- video cover - desktop -->
+      {% if tile.image.value.views.desktop.url %}
+      <video class="video__cover video__cover--desktop" poster="/assets/images/layout_1920x900.png" style="background-image: url('{{ tile.image.value.views.desktop.url }}');" data-src="{{ tile.video.value.file.url }}" muted loop autoplay playsinline></video>
+      {% endif %}
 
-    <!-- video cover - mobile -->
-    {% if tile.image.value.views.mobile.url %}
-    <video class="video__cover video__cover--mobile" poster="/assets/images/layout_800x820.png" data-src="{{ tile.video.value.url }}" style="background-image: url('{{ tile.image.value.views.mobile.url }}');" muted loop autoplay playsinline></video>
+      <!-- video cover - mobile -->
+      {% if tile.image.value.views.mobile.url %}
+      <video class="video__cover video__cover--mobile" poster="/assets/images/layout_800x820.png" style="background-image: url('{{ tile.image.value.views.mobile.url }}');" data-src="{{ tile.video.value.file.url }}" muted loop autoplay playsinline></video>
+      {% endif %}
     {% endif %}
 
     <!-- video cover - overlay -->

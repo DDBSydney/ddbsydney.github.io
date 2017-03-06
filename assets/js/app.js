@@ -1171,6 +1171,9 @@ var CONFIG = require("../config");
           && src != null && src.length > 1) {
             video.setAttribute("src", src);
         }
+
+        // remove the data-src attribute
+        video.removeAttribute("data-src");
     });
 
     // ---------------------------------------------

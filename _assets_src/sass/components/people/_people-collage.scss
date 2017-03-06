@@ -1,0 +1,22 @@
+// -------------------------------------
+//   Component - People Collage
+// -------------------------------------
+/**
+  * @name people collage
+  * @desc Styles for the people-collage component.
+**/
+
+.people-collage { 
+  @extend %flex--row;
+}
+
+// -------------------------------------
+//   People Collage - Person
+// -------------------------------------
+.people-collage__person {
+  @extend %flex--col;
+  flex-grow: 1;
+  flex-shrink: 0;
+  flex-basis: (100% / 8);
+  @include mobile { flex-basis: (100% / 4); }
+}

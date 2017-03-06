@@ -49,13 +49,13 @@
 // -------------------------------------
 @import "components/header";
 @import "components/footer";
-@import "components/intro-tile";
 @import "components/fof-tile";
 
+@import "components/intro-tile";
 @import "components/case-study-tile";
 @import "components/case-study-work-tile";
-@import "components/promo-video";
 
+@import "components/promo-video";
 @import "components/image-tile";
 @import "components/video-tile";
 
@@ -66,5 +66,7 @@
 @import "components/contact-tile";
 @import "components/about-tile";
 
-@import "components/career-intro";
-@import "components/career-detail";
+@import "components/career/career-intro";
+@import "components/career/career-detail";
+
+@import "components/people/people-collage";

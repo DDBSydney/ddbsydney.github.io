@@ -1,0 +1,120 @@
+{
+  "Page" : {
+    "uid" : {
+      "type" : "UID",
+      "config" : {
+        "placeholder" : "unique-identifier-for-page-url"
+      }
+    },
+    "meta-title" : {
+      "type" : "Text",
+      "config" : {
+        "label" : "Meta: Title",
+        "placeholder" : "Page title"
+      }
+    },
+    "meta-description" : {
+      "type" : "Text",
+      "config" : {
+        "label" : "Meta: Description",
+        "placeholder" : "Page description"
+      }
+    },
+    "foregroundColor": {
+      "type": "Color",
+      "config": {
+        "label": "Foreground Colour"
+      }
+    },
+    "backgroundColor": {
+      "type": "Color",
+      "config": {
+        "label": "Background Colour"
+      }
+    }
+  },
+
+
+
+  "Content" : {
+    "sections" : {
+      "fieldset" : "Sections",
+      "type" : "Slices",
+      "config" : {
+        "choices" : {
+
+
+
+          "promo-video" : {
+            "type" : "Group",
+            "config" : {
+              "label" : "Promo video",
+              "repeat" : false,
+              "fields" : {
+                "headline" : {
+                  "type" : "Text",
+                  "config" : {
+                    "label" : "Headline",
+                    "placeholder" : "Headline text"
+                  }
+                },
+                "image" : {
+                  "type" : "Image",
+                  "config" : {
+                    "label" : "Image",
+                    "constraint" : {
+                      "width" : null,
+                      "height" : null
+                    },
+                    "thumbnails": [
+                      {
+                        "name": "Desktop",
+                        "width": "1920",
+                        "height": "1080"
+                      },
+                      {
+                        "name": "Mobile",
+                        "width": "800",
+                        "height": "820"
+                      }
+                    ]
+                  }
+                },
+                "video" : {
+                  "type" : "Link",
+                  "config" : {
+                    "label" : "Video"
+                  }
+                }
+              }
+            }
+          },
+
+
+          "people-collage" : {
+            "type" : "Group",
+            "config" : {
+              "label" : "People collage",
+              "repeat" : true,
+              "fields" : {
+                "image" : {
+                  "type" : "Image",
+                  "config" : {
+                    "label" : "Image",
+                    "constraint" : {
+                      "width" : 360,
+                      "height" : 388
+                    }
+                  }
+                }
+              }
+            }
+          }
+
+
+
+        }
+      }
+    }
+  }
+}

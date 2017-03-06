@@ -70,13 +70,6 @@
                     "placeholder" : "Headline text"
                   }
                 },
-                "list": {
-                  "type": "StructuredText",
-                  "config": {
-                    "label": "List",
-                    "multi": "list-item, o-list-item"
-                  }
-                },
                 "image" : {
                   "type" : "Image",
                   "config" : {

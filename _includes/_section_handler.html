@@ -14,7 +14,7 @@
 
 
 
-      {% comment %} <!-- Latest & Work Page --> {% endcomment %}
+      {% comment %} <!-- Latest & Work Pages --> {% endcomment %}
 
       {% when "promo-video" %}
         {% include components/promo-video.html data=section.value %}
@@ -66,10 +66,17 @@
       {% comment %} <!-- Careers Page --> {% endcomment %}
 
       {% when "career-intro" %}
-        {% include components/career-intro.html data=section.value %}
+        {% include components/career/_career-intro.html data=section.value %}
 
       {% when "career-detail" %}
-        {% include components/career-detail.html data=section.value color=include.color %}
+        {% include components/career/_career-detail.html data=section.value color=include.color %}
+
+
+
+      {% comment %} <!-- People Page --> {% endcomment %}
+
+      {% when "people-collage" %}
+        {% include components/people/_people-collage.html data=section.value %}
 
     {% endcase %}
 

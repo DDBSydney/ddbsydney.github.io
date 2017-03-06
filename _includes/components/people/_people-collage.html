@@ -1,0 +1,25 @@
+{% assign components = include.data %}
+
+<!-- people collage -->
+<div class="people-collage">
+    
+  {% for component in components %}
+
+    <!-- person -->
+    {% if component.image.value.main.url %}
+    <div class="people-collage__person">
+
+      <!-- image -->
+      <div class="image">
+        <!-- image layout -->
+        <img class="image__layout" src="{{base}}/assets/images/layout_360x388.png" alt="">
+
+        <!-- image cover -->
+        <div class="image__cover" style="background-image: url('{{ component.image.value.main.url }}');"></div>
+      </div><!-- image end -->
+
+    </div>{% endif %}<!-- person end -->
+
+  {% endfor %}
+
+</div><!-- people collage end -->
