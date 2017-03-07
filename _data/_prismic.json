@@ -11,7 +11,7 @@
       "id": "WLjjUx8AAH4IVCL5",
       "uid": "account-manager",
       "type": "career-listings",
-      "href": "http://ddb-website.cdn.prismic.io/api/documents/search?ref=WLy81h8AAME_ZRNl&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WLjjUx8AAH4IVCL5%22%29+%5D%5D",
+      "href": "http://ddb-website.cdn.prismic.io/api/documents/search?ref=WL4_GSQAAJsJd-pK&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WLjjUx8AAH4IVCL5%22%29+%5D%5D",
       "tags": [
 
       ],
@@ -120,12 +120,12 @@
       "id": "WLyrmB8AAMVCZMdj",
       "uid": "people",
       "type": "peopl",
-      "href": "http://ddb-website.cdn.prismic.io/api/documents/search?ref=WLy81h8AAME_ZRNl&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WLyrmB8AAMVCZMdj%22%29+%5D%5D",
+      "href": "http://ddb-website.cdn.prismic.io/api/documents/search?ref=WL4_GSQAAJsJd-pK&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WLyrmB8AAMVCZMdj%22%29+%5D%5D",
       "tags": [
 
       ],
       "first_publication_date": "2017-03-06T00:21:47+0000",
-      "last_publication_date": "2017-03-06T01:35:18+0000",
+      "last_publication_date": "2017-03-06T04:54:23+0000",
       "slugs": [
         "people--ddb-sydney",
         "people--ddb"
@@ -154,10 +154,6 @@
                   "type": "Group",
                   "value": [
                     {
-                      "headline": {
-                        "type": "Text",
-                        "value": "We're all <br class=\"mobile\"><span>human.</span>"
-                      },
                       "image": {
                         "type": "Image",
                         "value": {
@@ -658,7 +654,7 @@
       "id": "WK4T9ikAAL4opdjb",
       "uid": "test-vw",
       "type": "case-studies",
-      "href": "http://ddb-website.cdn.prismic.io/api/documents/search?ref=WLy81h8AAME_ZRNl&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WK4T9ikAAL4opdjb%22%29+%5D%5D",
+      "href": "http://ddb-website.cdn.prismic.io/api/documents/search?ref=WL4_GSQAAJsJd-pK&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WK4T9ikAAL4opdjb%22%29+%5D%5D",
       "tags": [
 
       ],
@@ -780,7 +776,7 @@
       "id": "WKEQFSUAAEUiq5ZX",
       "uid": "work",
       "type": "work",
-      "href": "http://ddb-website.cdn.prismic.io/api/documents/search?ref=WLy81h8AAME_ZRNl&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WKEQFSUAAEUiq5ZX%22%29+%5D%5D",
+      "href": "http://ddb-website.cdn.prismic.io/api/documents/search?ref=WL4_GSQAAJsJd-pK&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WKEQFSUAAEUiq5ZX%22%29+%5D%5D",
       "tags": [
 
       ],
@@ -1326,7 +1322,7 @@
       "id": "WLjnjB8AAH0IVDWZ",
       "uid": "accout-director",
       "type": "career-listings",
-      "href": "http://ddb-website.cdn.prismic.io/api/documents/search?ref=WLy81h8AAME_ZRNl&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WLjnjB8AAH0IVDWZ%22%29+%5D%5D",
+      "href": "http://ddb-website.cdn.prismic.io/api/documents/search?ref=WL4_GSQAAJsJd-pK&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WLjnjB8AAH0IVDWZ%22%29+%5D%5D",
       "tags": [
 
       ],
@@ -1441,7 +1437,7 @@
       "id": "WK0GeCkAACgAoTc8",
       "uid": "volkswagen-tough-sell",
       "type": "case-studies",
-      "href": "http://ddb-website.cdn.prismic.io/api/documents/search?ref=WLy81h8AAME_ZRNl&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WK0GeCkAACgAoTc8%22%29+%5D%5D",
+      "href": "http://ddb-website.cdn.prismic.io/api/documents/search?ref=WL4_GSQAAJsJd-pK&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WK0GeCkAACgAoTc8%22%29+%5D%5D",
       "tags": [
 
       ],
@@ -1742,7 +1738,7 @@
       "id": "WK-uuiEAAGgA2z5I",
       "uid": "intro",
       "type": "intro",
-      "href": "http://ddb-website.cdn.prismic.io/api/documents/search?ref=WLy81h8AAME_ZRNl&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WK-uuiEAAGgA2z5I%22%29+%5D%5D",
+      "href": "http://ddb-website.cdn.prismic.io/api/documents/search?ref=WL4_GSQAAJsJd-pK&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WK-uuiEAAGgA2z5I%22%29+%5D%5D",
       "tags": [
 
       ],
@@ -1789,7 +1785,7 @@
       "id": "WKpzRigAACgAOzbM",
       "uid": "the-sydney-opera-house",
       "type": "case-studies",
-      "href": "http://ddb-website.cdn.prismic.io/api/documents/search?ref=WLy81h8AAME_ZRNl&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WKpzRigAACgAOzbM%22%29+%5D%5D",
+      "href": "http://ddb-website.cdn.prismic.io/api/documents/search?ref=WL4_GSQAAJsJd-pK&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WKpzRigAACgAOzbM%22%29+%5D%5D",
       "tags": [
 
       ],
@@ -2194,7 +2190,7 @@
       "id": "WLdjLysAAO8Dy5W2",
       "uid": "pod-internship",
       "type": "career-listings",
-      "href": "http://ddb-website.cdn.prismic.io/api/documents/search?ref=WLy81h8AAME_ZRNl&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WLdjLysAAO8Dy5W2%22%29+%5D%5D",
+      "href": "http://ddb-website.cdn.prismic.io/api/documents/search?ref=WL4_GSQAAJsJd-pK&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WLdjLysAAO8Dy5W2%22%29+%5D%5D",
       "tags": [
 
       ],
@@ -2321,7 +2317,7 @@
       "id": "WK0SfSkAACoAoWxH",
       "uid": "volkswagen-brand-love",
       "type": "case-studies",
-      "href": "http://ddb-website.cdn.prismic.io/api/documents/search?ref=WLy81h8AAME_ZRNl&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WK0SfSkAACoAoWxH%22%29+%5D%5D",
+      "href": "http://ddb-website.cdn.prismic.io/api/documents/search?ref=WL4_GSQAAJsJd-pK&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WK0SfSkAACoAoWxH%22%29+%5D%5D",
       "tags": [
 
       ],
@@ -2575,7 +2571,7 @@
       "id": "WLjlpR8AAH0IVC02",
       "uid": "senior-account-manager",
       "type": "career-listings",
-      "href": "http://ddb-website.cdn.prismic.io/api/documents/search?ref=WLy81h8AAME_ZRNl&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WLjlpR8AAH0IVC02%22%29+%5D%5D",
+      "href": "http://ddb-website.cdn.prismic.io/api/documents/search?ref=WL4_GSQAAJsJd-pK&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WLjlpR8AAH0IVC02%22%29+%5D%5D",
       "tags": [
 
       ],
@@ -2686,7 +2682,7 @@
       "id": "WKEQcCUAAKomq5fv",
       "uid": "test",
       "type": "case-studies",
-      "href": "http://ddb-website.cdn.prismic.io/api/documents/search?ref=WLy81h8AAME_ZRNl&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WKEQcCUAAKomq5fv%22%29+%5D%5D",
+      "href": "http://ddb-website.cdn.prismic.io/api/documents/search?ref=WL4_GSQAAJsJd-pK&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WKEQcCUAAKomq5fv%22%29+%5D%5D",
       "tags": [
 
       ],
@@ -3432,7 +3428,7 @@
       "id": "WK0L2SkAACsAoU7x",
       "uid": "mcdonalds-loaded-fries",
       "type": "case-studies",
-      "href": "http://ddb-website.cdn.prismic.io/api/documents/search?ref=WLy81h8AAME_ZRNl&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WK0L2SkAACsAoU7x%22%29+%5D%5D",
+      "href": "http://ddb-website.cdn.prismic.io/api/documents/search?ref=WL4_GSQAAJsJd-pK&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WK0L2SkAACsAoU7x%22%29+%5D%5D",
       "tags": [
 
       ],
@@ -3741,12 +3737,12 @@
       "id": "WKoxNCgAACsAOhPa",
       "uid": "about",
       "type": "about",
-      "href": "http://ddb-website.cdn.prismic.io/api/documents/search?ref=WLy81h8AAME_ZRNl&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WKoxNCgAACsAOhPa%22%29+%5D%5D",
+      "href": "http://ddb-website.cdn.prismic.io/api/documents/search?ref=WL4_GSQAAJsJd-pK&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WKoxNCgAACsAOhPa%22%29+%5D%5D",
       "tags": [
 
       ],
       "first_publication_date": "2017-02-19T23:58:50+0000",
-      "last_publication_date": "2017-03-01T11:37:39+0000",
+      "last_publication_date": "2017-03-07T05:03:21+0000",
       "slugs": [
         "about--ddb-sydney",
         "about--ddb",
@@ -3830,6 +3826,10 @@
                       "headline": {
                         "type": "Text",
                         "value": "<b>How do brands and businesses actually grow?</b>\n\n<br class=\"all\"/>\n<br class=\"all\"/>\n\nWe have long assumed that growth was anchored on a consumer who behaved logically and rationally to advance their lifestyle.\n\n<br class=\"all\"/>\n<br class=\"all\"/>\n\nNew evidence from the behavioral sciences refutes this. Far from being reasonable and rational, humans are emotional and often behave in a fashion that defies logic. Leading the debate is Nobel Prize winning Psychologist Daniel Kahneman who writes:\n\n<br class=\"all\"/>\n<br class=\"all\"/>\n\n<i>“We are feeling beings who can think, not thinking beings who can feel.”</i>"
+                      },
+                      "text": {
+                        "type": "Text",
+                        "value": "Thinking Fast, and Slow.\n<br class=\"all\">- Daniel Kahneman"
                       },
                       "imageDesktop": {
                         "type": "Image",
@@ -4000,7 +4000,7 @@
       "id": "WKEP8CUAAOgdq5Ww",
       "uid": "latest",
       "type": "latest",
-      "href": "http://ddb-website.cdn.prismic.io/api/documents/search?ref=WLy81h8AAME_ZRNl&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WKEP8CUAAOgdq5Ww%22%29+%5D%5D",
+      "href": "http://ddb-website.cdn.prismic.io/api/documents/search?ref=WL4_GSQAAJsJd-pK&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WKEP8CUAAOgdq5Ww%22%29+%5D%5D",
       "tags": [
 
       ],
@@ -4968,7 +4968,7 @@
       "id": "WLjpIB8AAH0IVDyO",
       "uid": "creatives",
       "type": "career-listings",
-      "href": "http://ddb-website.cdn.prismic.io/api/documents/search?ref=WLy81h8AAME_ZRNl&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WLjpIB8AAH0IVDyO%22%29+%5D%5D",
+      "href": "http://ddb-website.cdn.prismic.io/api/documents/search?ref=WL4_GSQAAJsJd-pK&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WLjpIB8AAH0IVDyO%22%29+%5D%5D",
       "tags": [
 
       ],
@@ -5077,7 +5077,7 @@
       "id": "WK0ZFykAACsAoYlk",
       "uid": "volkswagen-naked-ute",
       "type": "case-studies",
-      "href": "http://ddb-website.cdn.prismic.io/api/documents/search?ref=WLy81h8AAME_ZRNl&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WK0ZFykAACsAoYlk%22%29+%5D%5D",
+      "href": "http://ddb-website.cdn.prismic.io/api/documents/search?ref=WL4_GSQAAJsJd-pK&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WK0ZFykAACsAoYlk%22%29+%5D%5D",
       "tags": [
 
       ],
@@ -5431,7 +5431,7 @@
       "id": "WKoxZSgAACgAOhS1",
       "uid": "contact",
       "type": "contact",
-      "href": "http://ddb-website.cdn.prismic.io/api/documents/search?ref=WLy81h8AAME_ZRNl&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WKoxZSgAACgAOhS1%22%29+%5D%5D",
+      "href": "http://ddb-website.cdn.prismic.io/api/documents/search?ref=WL4_GSQAAJsJd-pK&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WKoxZSgAACgAOhS1%22%29+%5D%5D",
       "tags": [
 
       ],
@@ -5681,6 +5681,6 @@
       }
     }
   ],
-  "version": "ad5f32e",
+  "version": "4ce9070",
   "license": "All Rights Reserved"
 }

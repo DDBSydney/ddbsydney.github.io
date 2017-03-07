@@ -39,11 +39,17 @@
   <div class="image content-tile__image{{ tile.alignImage.value | prepend: ' ' }}">
 
     {% if tile.imageDesktop.value.main.url %}
-     <img class="content-tile__image--desktop" src="{{ tile.imageDesktop.value.main.url }}" alt="">
+    <img class="content-tile__image--desktop" src="{{ tile.imageDesktop.value.main.url }}" alt="">
     {% endif %}
 
     {% if tile.imageMobile.value.main.url %}
-     <img class="content-tile__image--mobile" src="{{ tile.imageMobile.value.main.url }}" alt="">
+    <img class="content-tile__image--mobile" src="{{ tile.imageMobile.value.main.url }}" alt="">
+    {% endif %}
+    
+    {% if tile.text.value %}
+    <p {{ fgCol | normalize_whitespace }}> 
+      {{ tile.text.value }}
+    </p>
     {% endif %}
 
   </div>
@@ -52,7 +58,7 @@
 {% endcapture %}
 
 <!-- content tile -->
-<div class="content-tile{{ page.page_data.uid | prepend: ' ' }}"{{ bgCol | normalize_whitespace | prepend: ' ' }}>
+<div class="content-tile" {{ bgCol | normalize_whitespace }}>
   
   <!-- content -->
   <div class="content-tile__content">
@@ -65,15 +71,15 @@
       {% endif %}
     
       {% if tile.headline.value %}
-      <h5 class="content-tile__content--headline" data-align="{{ tile.alignHeadline.value | default: 'center' }}"{{ fgCol | normalize_whitespace }}>{{ tile.headline.value }}</h5>
+      <h5 class="content-tile__content--headline" data-align="{{ tile.alignHeadline.value | default: 'center' }}" {{ fgCol | normalize_whitespace }}>{{ tile.headline.value }}</h5>
       {% endif %}
 
       {% if tile.subline.value %}
-      <h4 class="content-tile__content--subline" data-align="{{ tile.alignSubline.value | default: 'center' }}"{{ fgCol | normalize_whitespace }}>{{ tile.subline.value }}</h4>
+      <h4 class="content-tile__content--subline" data-align="{{ tile.alignSubline.value | default: 'center' }}" {{ fgCol | normalize_whitespace }}>{{ tile.subline.value }}</h4>
       {% endif %}
 
       {% if tile.copy.value %}
-      <p class="content-tile__content--copy" data-align="{{ tile.alignCopy.value | default: 'center' }}"{{ fgCol | normalize_whitespace }}>{{ tile.copy.value }}</p>
+      <p class="content-tile__content--copy" data-align="{{ tile.alignCopy.value | default: 'center' }}" {{ fgCol | normalize_whitespace }}>{{ tile.copy.value }}</p>
       {% endif %}
 
       {% if tile.list.value %}

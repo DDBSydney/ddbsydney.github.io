@@ -458,6 +458,13 @@
                     "placeholder" : "Copy text"
                   }
                 },
+                "text" : {
+                  "type" : "Text",
+                  "config" : {
+                    "label" : "Text",
+                    "placeholder" : "Image text"
+                  }
+                },
                 "list": {
                   "type": "StructuredText",
                   "config": {

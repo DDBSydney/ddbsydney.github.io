@@ -26,7 +26,7 @@
     @include mobile { @include font--style("h2"); }
   }
 
-  a i { @include font--style("h4"); }
+  a i { @include font--style("h3"); }
 
   &__back, &__logo,
   &__menu, &__nav {
