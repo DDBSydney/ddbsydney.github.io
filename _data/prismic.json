@@ -451,10 +451,6 @@
               "type": "promo-video",
               "value": [
                 {
-                  "headline": {
-                    "type": "Text",
-                    "value": "We're all <br class=\"mobile\"><span>human.</span>"
-                  },
                   "image": {
                     "type": "Image",
                     "value": {
@@ -3528,6 +3524,10 @@
                   "headline": {
                     "type": "Text",
                     "value": "<b>How do brands and businesses actually grow?</b>\n\n<br class=\"all\"/>\n<br class=\"all\"/>\n\nWe have long assumed that growth was anchored on a consumer who behaved logically and rationally to advance their lifestyle.\n\n<br class=\"all\"/>\n<br class=\"all\"/>\n\nNew evidence from the behavioral sciences refutes this. Far from being reasonable and rational, humans are emotional and often behave in a fashion that defies logic. Leading the debate is Nobel Prize winning Psychologist Daniel Kahneman who writes:\n\n<br class=\"all\"/>\n<br class=\"all\"/>\n\n<i>“We are feeling beings who can think, not thinking beings who can feel.”</i>"
+                  },
+                  "text": {
+                    "type": "Text",
+                    "value": "Thinking Fast, and Slow.\n<br class=\"all\">- Daniel Kahneman"
                   },
                   "imageDesktop": {
                     "type": "Image",
