@@ -13,7 +13,6 @@
   text-align: center;
   width: 100vw; height: auto;
   min-width: $base_html_w_min;
-  @include mobile { min-height: 0; }
 
   @include mobile-up {
     transition: none !important;
@@ -22,8 +21,9 @@
   }
 
   a   {
-    @include font--style("h6"); color: white;
-    @include mobile { @include font--style("h2"); }
+    color: white;
+    @include font--style("h2");
+    @include mobile-up { @include font--style("h6"); }
   }
 
   a i { @include font--style("h1"); }
@@ -49,21 +49,21 @@
 
   // modifer - closed
   &--closed {
-    @include transitions(min-height, background-color);
+    @include transitions(height, min-height, background-color);
     transition-timing-function: $ease_in_out_quad;
 
     background-color: transparent;
-    @include mobile { min-height: 0; }
+    @include mobile { height: 85px; min-height: 0; }
   }
 
   // modifer - open
   &--open {
     overflow: auto; // to prevent scrolling on the page
-    @include transitions(min-height, background-color);
+    @include transitions(height, min-height, background-color);
     transition-timing-function: $ease_in_out_quad;
 
     background-color: black;
-    @include mobile { min-height: 100vh; }
+    @include mobile { height: 100vh; min-height: 100vh; }
   }
 
   // modifer - basic
