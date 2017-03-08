@@ -1,4 +1,3025 @@
 {
+  "case-studies": [
+    {
+      "uid": "volkswagen-amarok---korama",
+      "data": {
+        "meta-title": {
+          "type": "Text",
+          "value": "Volkswagen Amarok - ‘Korama’"
+        },
+        "sections": {
+          "type": "SectionList",
+          "value": [
+            {
+              "type": "case-study-work-tile",
+              "value": [
+                {
+                  "headline": {
+                    "type": "Text",
+                    "value": "Volkswagen Amarok - ‘Korama’"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "content-tile",
+              "value": [
+                {
+                  "headline": {
+                    "type": "Text",
+                    "value": "BRIEF"
+                  },
+                  "copy": {
+                    "type": "Text",
+                    "value": "The Volkswagen Amarok is a tough, award-winning ute, but as a newcomer with posh European styling, the Amarok was a long way from winning the trust of Australian tradesmen who rely heavily on their vehicles. \n\nBut the introduction of a new, extremely powerful V6 variant made the Amarok the most powerful ute in its class. This gave us the opportunity to challenge perceptions. \n\nOur objective was two-fold;\n\n1. As the only V6 ute we need to announce our news and claim category leadership. Pick-up considerers needed to know that the Volkswagen Amarok is changing the ute market in Australia.\n2 - We also needed to get people excited, the power of a V6 is nothing short of extraordinary and we needed the communications to deliver on that and make them feel the thrill of the V6."
+                  }
+                }
+              ]
+            },
+            {
+              "type": "content-tile",
+              "value": [
+                {
+                  "headline": {
+                    "type": "Text",
+                    "value": "Solution / strategy"
+                  },
+                  "copy": {
+                    "type": "Text",
+                    "value": "We challenged preconceptions. If Aussie drivers were judging our pick-up by its cover, we needed to change the cover. We enlisted the help of Mad Max concept designer, Peter Pound, and built a completely new shell for the Amarok V6. It oozed performance and now looked just as mean as the V6 engine that powered it."
+                  }
+                }
+              ]
+            },
+            {
+              "type": "content-tile",
+              "value": [
+                {
+                  "headline": {
+                    "type": "Text",
+                    "value": "Media"
+                  },
+                  "copy": {
+                    "type": "Text",
+                    "value": "We then leaked spy shots to popular automotive sites. Editorial media channels spread the word and soon news of a mystery prototype being tested in the Australian bush appeared on blogs, forums and spy sites across the globe. Debate ignited as car fans guessed which company was behind the tough new vehicle.\n\nThen, in partnership with Australia’s most popular Spy Shot website, we were able to retarget everyone who engaged with our campaign, revealing that the powerful mystery prototype was in fact an Amarok V6 in disguise."
+                  }
+                }
+              ]
+            },
+            {
+              "type": "content-tile",
+              "value": [
+                {
+                  "headline": {
+                    "type": "Text",
+                    "value": "Activation"
+                  },
+                  "copy": {
+                    "type": "Text",
+                    "value": "To prove our capabilities we invited four unsuspecting performance enthusiasts to put the prototype to the test. With no preconceptions holding them back, the drivers were amazed by its power but were even more surprised when we revealed that this mean off-roader was actually the Amarok V6 in disguise."
+                  }
+                }
+              ]
+            },
+            {
+              "type": "content-tile",
+              "value": [
+                {
+                  "headline": {
+                    "type": "Text",
+                    "value": "OUTCOME/RESULTS"
+                  },
+                  "copy": {
+                    "type": "Text",
+                    "value": "Provide evidence of how successfully your objectives were achieved; what was the response rate and how was it measured? (3000 characters max).\n\nNot only did we announce the launch of the new Amarok V6, generating a significant amount of intrigue and excitement but we also sold some utes. The Amarok V6 model made up 38% of the Amarok sales in the first month and has broken Amarok sales records every month since launch. \n\nIn Australia, the word “ute” refers to a pick-up truck, mostly used by tradesmen. \nThe Amarok is the newest model in this category and out audience is skeptical about its credentials."
+                  }
+                }
+              ]
+            },
+            {
+              "type": "content-tile",
+              "value": [
+                {
+                  "headline": {
+                    "type": "Text",
+                    "value": "LOCATION/PLATFORM (PR):"
+                  },
+                  "copy": {
+                    "type": "Text",
+                    "value": "Our strategy was to spread the news of our ‘mystery prototype’ through platforms where enthusiasts were already debating the origin of secret camouflaged prototypes. As we leaked spy footage and images, the enthusiasts leapt at the chance to give their opinion as to what this ‘thing’ was.  \nOn these platforms, they engaged and shared our campaign organically. From Manchester to Moscow, the world was talking about a prototype that wasn’t actually a prototype. \n\nThen, by retargeting our audience on various other channels, including YouTube and Facebook, we revealed that the powerful mystery prototype was actually an Amarok V6 in disguise."
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "uid": "test-vw",
+      "data": {
+        "meta-title": {
+          "type": "Text",
+          "value": "Test Case Study VW | DDB"
+        },
+        "meta-description": {
+          "type": "Text",
+          "value": "Case study for testing"
+        },
+        "foregroundColor": {
+          "type": "Color",
+          "value": "#ffffff"
+        },
+        "backgroundColor": {
+          "type": "Color",
+          "value": "#000000"
+        },
+        "sections": {
+          "type": "SectionList",
+          "value": [
+            {
+              "type": "promo-video",
+              "value": [
+                {
+                  "list": {
+                    "type": "StructuredText",
+                    "value": [
+                      {
+                        "type": "paragraph",
+                        "text": "Lorem, ",
+                        "spans": [
+
+                        ]
+                      },
+                      {
+                        "type": "paragraph",
+                        "text": "Ipsum,",
+                        "spans": [
+
+                        ]
+                      },
+                      {
+                        "type": "paragraph",
+                        "text": "Dolar.",
+                        "spans": [
+
+                        ]
+                      }
+                    ]
+                  },
+                  "image": {
+                    "type": "Image",
+                    "value": {
+                      "main": {
+                        "dimensions": {
+                          "width": 1920,
+                          "height": 900
+                        },
+                        "alt": null,
+                        "copyright": null,
+                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/796cd2b8996f4705e419ab2b997a174f7d6ce732_vw-brand-love-2.jpg"
+                      },
+                      "views": {
+                        "desktop": {
+                          "dimensions": {
+                            "width": 1920,
+                            "height": 900
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/796cd2b8996f4705e419ab2b997a174f7d6ce732_vw-brand-love-2.jpg"
+                        },
+                        "mobile": {
+                          "dimensions": {
+                            "width": 800,
+                            "height": 820
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/1b1d16a69232fd6cfb870092a62c0c7b01ea0b0a_vw-brand-love-2.jpg"
+                        }
+                      }
+                    }
+                  },
+                  "video": {
+                    "type": "Link.web",
+                    "value": {
+                      "url": "http://content.volkswagen-commercial.com.au/Amarok/Content/videos/VW_The_Naked_Reveal_Loop.mp4"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "uid": "volkswagen-tough-sell",
+      "data": {
+        "meta-title": {
+          "type": "Text",
+          "value": "Volkswagen Tough Sell | DDB"
+        },
+        "foregroundColor": {
+          "type": "Color",
+          "value": "#000000"
+        },
+        "backgroundColor": {
+          "type": "Color",
+          "value": "#ffffff"
+        },
+        "sections": {
+          "type": "SectionList",
+          "value": [
+            {
+              "type": "case-study-work-tile",
+              "value": [
+                {
+                  "headline": {
+                    "type": "Text",
+                    "value": "Volkswagen"
+                  },
+                  "copy": {
+                    "type": "Text",
+                    "value": "Can we sell a Golf to town <br>that doesn’t need its city technology?"
+                  },
+                  "image": {
+                    "type": "Image",
+                    "value": {
+                      "main": {
+                        "dimensions": {
+                          "width": 1920,
+                          "height": 1201
+                        },
+                        "alt": null,
+                        "copyright": null,
+                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/8b60104ff46d4cdc7a975e68342d633cd2d50dd3_vw0.jpg"
+                      },
+                      "views": {
+                        "mobile": {
+                          "dimensions": {
+                            "width": 840,
+                            "height": 1350
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/d2ee676df4b1a2ff764a682ef9f42f8532952a9f_vw0.jpg"
+                        },
+                        "desktop": {
+                          "dimensions": {
+                            "width": 1920,
+                            "height": 900
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/1515c66099db2fd1148a4e551e17efb948e62eac_vw0.jpg"
+                        }
+                      }
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "content-tile",
+              "value": [
+                {
+                  "headline": {
+                    "type": "Text",
+                    "value": "So what was the brief then?"
+                  },
+                  "subline": {
+                    "type": "Text",
+                    "value": "The job was to raise the consideration of the new model Golf, <br>boost understanding of its advanced tech features and deliver <br>more test-drives to Volkswagen dealers."
+                  }
+                }
+              ]
+            },
+            {
+              "type": "image-tile",
+              "value": [
+                {
+                  "image": {
+                    "type": "Image",
+                    "value": {
+                      "main": {
+                        "dimensions": {
+                          "width": 1920,
+                          "height": 900
+                        },
+                        "alt": null,
+                        "copyright": null,
+                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/8196dd39edfbd6d6318789ca3e36ca9b3043011a_tough-sell-1.jpg"
+                      },
+                      "views": {
+                        "desktop": {
+                          "dimensions": {
+                            "width": 1920,
+                            "height": 900
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/8196dd39edfbd6d6318789ca3e36ca9b3043011a_tough-sell-1.jpg"
+                        },
+                        "mobile": {
+                          "dimensions": {
+                            "width": 800,
+                            "height": 820
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/6097e57ef9cbf2523343d5bc18437295576b252b_tough-sell-1.jpg"
+                        }
+                      }
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "content-tile",
+              "value": [
+                {
+                  "headline": {
+                    "type": "Text",
+                    "value": "An idea that was destined to fail…"
+                  },
+                  "subline": {
+                    "type": "Text",
+                    "value": "We developed an online series about a Volkswagen dealer given an <br>impossible task. The premise was to sell the ultimate city car in <br>an outback town filled with folks with no want or need for it."
+                  }
+                }
+              ]
+            },
+            {
+              "type": "video-tile",
+              "value": [
+                {
+                  "video": {
+                    "type": "Link.web",
+                    "value": {
+                      "url": "https://www.youtube.com/watch?v=6wEFjop9mEY"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "content-tile",
+              "value": [
+                {
+                  "headline": {
+                    "type": "Text",
+                    "value": "Just as we expected…"
+                  },
+                  "subline": {
+                    "type": "Text",
+                    "value": "Our rep Tom, made a grand total of zero sales in the town but on Facebook <br>where the series was shown, viewers loved every awkward minute."
+                  }
+                }
+              ]
+            },
+            {
+              "type": "video-tile",
+              "value": [
+                {
+                  "video": {
+                    "type": "Link.web",
+                    "value": {
+                      "url": "https://www.youtube.com/watch?v=6wEFjop9mEY"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "content-tile",
+              "value": [
+                {
+                  "headline": {
+                    "type": "Text",
+                    "value": "Facebook becomes a broadcast channel"
+                  },
+                  "subline": {
+                    "type": "Text",
+                    "value": "We turned Facebook into our broadcast channel, so we could <br>directly target potential buyers with the 6-month series."
+                  }
+                }
+              ]
+            },
+            {
+              "type": "image-tile",
+              "value": [
+                {
+                  "image": {
+                    "type": "Image",
+                    "value": {
+                      "main": {
+                        "dimensions": {
+                          "width": 1023,
+                          "height": 512
+                        },
+                        "alt": null,
+                        "copyright": null,
+                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/adee8d5da4aa3252d9afeb5d72ddea5f4df82093_vw2.jpg"
+                      },
+                      "views": {
+                        "desktop": {
+                          "dimensions": {
+                            "width": 1920,
+                            "height": 900
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/4f927f0c7f588ebce34f0ac738edeeaff2000931_vw2.jpg"
+                        },
+                        "mobile": {
+                          "dimensions": {
+                            "width": 800,
+                            "height": 820
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/ba040845e661883acac51dfa1dec92650a431f4d_vw2.jpg"
+                        }
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "uid": "skoda-octavia",
+      "data": {
+        "meta-title": {
+          "type": "Text",
+          "value": "ŠKODA Octavia"
+        },
+        "sections": {
+          "type": "SectionList",
+          "value": [
+            {
+              "type": "case-study-work-tile",
+              "value": [
+                {
+                  "headline": {
+                    "type": "Text",
+                    "value": "ŠKODA Octavia"
+                  },
+                  "copy": {
+                    "type": "Text",
+                    "value": "For those that buy the car, not the ad."
+                  }
+                }
+              ]
+            },
+            {
+              "type": "content-tile",
+              "value": [
+                {
+                  "headline": {
+                    "type": "Text",
+                    "value": "The Problem"
+                  },
+                  "copy": {
+                    "type": "Text",
+                    "value": "As a relative newcomer to the Australian automotive landscape the ŠKODA Octavia lacked awareness, it did however deliver on quality, design and engineering.\nHow could we get car buyers to open their eyes to the ŠKODA Octavia?"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "content-tile",
+              "value": [
+                {
+                  "headline": {
+                    "type": "Text",
+                    "value": "The Solution"
+                  },
+                  "copy": {
+                    "type": "Text",
+                    "value": "We set about calling out all the traditional car advertising clichés, challenging buyers to look behind the curtain. What they discovered was a brand determined to sell them a quality car vs. a clichéd image."
+                  }
+                }
+              ]
+            },
+            {
+              "type": "content-tile",
+              "value": [
+                {
+                  "headline": {
+                    "type": "Text",
+                    "value": "The Results"
+                  },
+                  "copy": {
+                    "type": "Text",
+                    "value": "Sales for the Octavia have continued to strengthen since the campaign launched but more importantly awareness and saliency of the brand has a had a noticeable uplift."
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "uid": "bump",
+      "data": {
+        "meta-title": {
+          "type": "Text",
+          "value": "Bump"
+        },
+        "sections": {
+          "type": "SectionList",
+          "value": [
+            {
+              "type": "case-study-work-tile",
+              "value": [
+                {
+                  "headline": {
+                    "type": "Text",
+                    "value": "Bump"
+                  },
+                  "copy": {
+                    "type": "Text",
+                    "value": "*need a short punchy line to click through from homepage*"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "content-tile",
+              "value": [
+                {
+                  "copy": {
+                    "type": "Text",
+                    "value": "To establish the new identity ‘Proud supporters of you’ we leveraged the brand’s key sponsorship program – the Westpac Lifesaver Rescue Helicopter."
+                  }
+                }
+              ]
+            },
+            {
+              "type": "content-tile",
+              "value": [
+                {
+                  "headline": {
+                    "type": "Text",
+                    "value": "The Task"
+                  },
+                  "copy": {
+                    "type": "Text",
+                    "value": "Encourage the next generation to open their first bank account with Westpac."
+                  }
+                }
+              ]
+            },
+            {
+              "type": "content-tile",
+              "value": [
+                {
+                  "headline": {
+                    "type": "Text",
+                    "value": "The Insight"
+                  },
+                  "copy": {
+                    "type": "Text",
+                    "value": "Stats say you’re more likely to get divorced than change bank accounts, so it’s vital to start a relationship with customers from an early age."
+                  }
+                }
+              ]
+            },
+            {
+              "type": "content-tile",
+              "value": [
+                {
+                  "headline": {
+                    "type": "Text",
+                    "value": "The Solution"
+                  },
+                  "copy": {
+                    "type": "Text",
+                    "value": "On January 1, 2017, we created a new kind of bank account, only exclusively available to unborn babies."
+                  }
+                }
+              ]
+            },
+            {
+              "type": "content-tile",
+              "value": [
+                {
+                  "copy": {
+                    "type": "Text",
+                    "value": "The Bump Account is a savings account open to all babies born in 2017."
+                  }
+                }
+              ]
+            },
+            {
+              "type": "content-tile",
+              "value": [
+                {
+                  "copy": {
+                    "type": "Text",
+                    "value": "But rather than being a short-term grab for new customers, the idea was to set the next generation of kids up for the future – so every account came with a $200 deposit, which can’t be accessed until the child’s 16th birthday."
+                  }
+                }
+              ]
+            },
+            {
+              "type": "content-tile",
+              "value": [
+                {
+                  "copy": {
+                    "type": "Text",
+                    "value": "Family and friends were encouraged to set up regular contributions on birthdays and at Christmas, as we showed how much small deposits could add up to over time, allowing them to save for university, a house deposit or a world trip."
+                  }
+                }
+              ]
+            },
+            {
+              "type": "content-tile",
+              "value": [
+                {
+                  "copy": {
+                    "type": "Text",
+                    "value": "The results were phenomenal, in just the first week alone:\n- In one week the campaign generated 1.5million in PR.\n- 16,220 accounts had been registered.\n- 58% of those being non-Westpac customers."
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "uid": "the-sydney-opera-house",
+      "data": {
+        "meta-title": {
+          "type": "Text",
+          "value": "The Sydney Opera House | DDB"
+        },
+        "foregroundColor": {
+          "type": "Color",
+          "value": "#ffffff"
+        },
+        "backgroundColor": {
+          "type": "Color",
+          "value": "#afc9e2"
+        },
+        "sections": {
+          "type": "SectionList",
+          "value": [
+            {
+              "type": "case-study-work-tile",
+              "value": [
+                {
+                  "headline": {
+                    "type": "Text",
+                    "value": "The Sydney Opera House"
+                  },
+                  "copy": {
+                    "type": "Text",
+                    "value": "Live response social, powered <br>by a smart application of technology."
+                  },
+                  "image": {
+                    "type": "Image",
+                    "value": {
+                      "main": {
+                        "dimensions": {
+                          "width": 1024,
+                          "height": 666
+                        },
+                        "alt": null,
+                        "copyright": null,
+                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/0c604664e2287e8951d7a2f7606b4435809820a8_opera1.jpg"
+                      },
+                      "views": {
+                        "mobile": {
+                          "dimensions": {
+                            "width": 800,
+                            "height": 820
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/704ddfebc5ad809883d35673596ba63d05ca03c8_opera1.jpg"
+                        },
+                        "desktop": {
+                          "dimensions": {
+                            "width": 1920,
+                            "height": 900
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/5fcad86e5e1657b150a3614c734a16c649f8c025_opera1.jpg"
+                        }
+                      }
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "content-tile",
+              "value": [
+                {
+                  "copy": {
+                    "type": "Text",
+                    "value": "We needed to get more people inside the <br/>Sydney Opera House during summer."
+                  }
+                }
+              ]
+            },
+            {
+              "type": "video-tile",
+              "value": [
+                {
+                  "video": {
+                    "type": "Link.web",
+                    "value": {
+                      "url": "https://www.youtube.com/watch?v=KjoEFnQJE3s"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "content-tile",
+              "value": [
+                {
+                  "subline": {
+                    "type": "Text",
+                    "value": "8.2 million people visit the site of the <br>Sydney Opera House every year."
+                  },
+                  "copy": {
+                    "type": "Text",
+                    "value": "Most take photo if the outside and move on, making it the most <br>Instagrammed icon in Australia. People were a stick away. <br>We selected photos using computer vision, inviting <br>them inside with Instagram."
+                  }
+                }
+              ]
+            },
+            {
+              "type": "video-tile",
+              "value": [
+                {
+                  "video": {
+                    "type": "Link.web",
+                    "value": {
+                      "url": "https://www.youtube.com/watch?v=KjoEFnQJE3s"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "content-tile",
+              "value": [
+                {
+                  "headline": {
+                    "type": "Text",
+                    "value": "Solution"
+                  },
+                  "subline": {
+                    "type": "Text",
+                    "value": "Turn photos of the Sydney Opera House on Instagram into <br>incredible experiences inside by inviting users to #comeonin."
+                  }
+                }
+              ]
+            },
+            {
+              "type": "image-tile",
+              "value": [
+                {
+                  "image": {
+                    "type": "Image",
+                    "value": {
+                      "main": {
+                        "dimensions": {
+                          "width": 1024,
+                          "height": 530
+                        },
+                        "alt": null,
+                        "copyright": null,
+                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/7392edcd706cd474b4bc0be49e52fba9a0e012ac_opera4.jpg"
+                      },
+                      "views": {
+                        "desktop": {
+                          "dimensions": {
+                            "width": 1920,
+                            "height": 900
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/78a8f4f308fff64ac01d329b6d2c2501670cce3d_opera4.jpg"
+                        },
+                        "mobile": {
+                          "dimensions": {
+                            "width": 800,
+                            "height": 820
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/67a34f18365fa2ab3cdd4328f012b6c7a01441e7_opera4.jpg"
+                        }
+                      }
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "quote-tile",
+              "value": [
+                {
+                  "quote": {
+                    "type": "Text",
+                    "value": "Have a look inside, because this is where it all happens"
+                  },
+                  "author": {
+                    "type": "Text",
+                    "value": "Jan Utzon, Architect"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "content-tile",
+              "value": [
+                {
+                  "copy": {
+                    "type": "Text",
+                    "value": "126 unsuspecting Instagrammers invited to #comeonin."
+                  },
+                  "imageDesktop": {
+                    "type": "Image",
+                    "value": {
+                      "main": {
+                        "dimensions": {
+                          "width": 900,
+                          "height": 302
+                        },
+                        "alt": null,
+                        "copyright": null,
+                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/59c5c119e21c999e7d28de0ef729529d20a06ad5_opera5.png"
+                      },
+                      "views": {
+                      }
+                    }
+                  },
+                  "imageMobile": {
+                    "type": "Image",
+                    "value": {
+                      "main": {
+                        "dimensions": {
+                          "width": 900,
+                          "height": 302
+                        },
+                        "alt": null,
+                        "copyright": null,
+                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/59c5c119e21c999e7d28de0ef729529d20a06ad5_opera5.png"
+                      },
+                      "views": {
+                      }
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "content-tile",
+              "value": [
+                {
+                  "headline": {
+                    "type": "Text",
+                    "value": "How we found the photos"
+                  },
+                  "subline": {
+                    "type": "Text",
+                    "value": "Custom software uses computer vision to identify photos of the <br>famous sails along with geo-location to find ones posted in close proximity. <br>An on-site response team picks an Instagram user for an experience and quickly <br>film and posts a video response inviting them inside."
+                  },
+                  "imageDesktop": {
+                    "type": "Image",
+                    "value": {
+                      "main": {
+                        "dimensions": {
+                          "width": 781,
+                          "height": 220
+                        },
+                        "alt": null,
+                        "copyright": null,
+                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/ab43a91c6fdf470a5ee7dab142e4442e47ddb736_opera6.png"
+                      },
+                      "views": {
+                      }
+                    }
+                  },
+                  "imageMobile": {
+                    "type": "Image",
+                    "value": {
+                      "main": {
+                        "dimensions": {
+                          "width": 781,
+                          "height": 220
+                        },
+                        "alt": null,
+                        "copyright": null,
+                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/ab43a91c6fdf470a5ee7dab142e4442e47ddb736_opera6.png"
+                      },
+                      "views": {
+                      }
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "content-tile",
+              "value": [
+                {
+                  "headline": {
+                    "type": "Text",
+                    "value": "Results"
+                  },
+                  "subline": {
+                    "type": "Text",
+                    "value": "In 4 weeks, over 5 million people saw a new side to the <br>Sydney Opera House: the inside."
+                  },
+                  "list": {
+                    "type": "StructuredText",
+                    "value": [
+                      {
+                        "type": "paragraph",
+                        "text": "126 unsuspecting Instagrammers invited to #comeonin.",
+                        "spans": [
+
+                        ]
+                      },
+                      {
+                        "type": "paragraph",
+                        "text": "Social engagement up 30% from campaign launch",
+                        "spans": [
+
+                        ]
+                      },
+                      {
+                        "type": "paragraph",
+                        "text": "17 million impressions generated.",
+                        "spans": [
+
+                        ]
+                      },
+                      {
+                        "type": "paragraph",
+                        "text": "Social engagement up 30% from campaign launch",
+                        "spans": [
+
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "uid": "westpac-chopper",
+      "data": {
+        "meta-title": {
+          "type": "Text",
+          "value": "Westpac Chopper"
+        },
+        "sections": {
+          "type": "SectionList",
+          "value": [
+            {
+              "type": "case-study-work-tile",
+              "value": [
+                {
+                  "headline": {
+                    "type": "Text",
+                    "value": "Westpac Chopper"
+                  },
+                  "copy": {
+                    "type": "Text",
+                    "value": "*need a short punchy line to click through from homepage**"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "content-tile",
+              "value": [
+                {
+                  "copy": {
+                    "type": "Text",
+                    "value": "To establish the new identity ‘Proud supporters of you’ we leveraged the brand’s key sponsorship program – the Westpac Lifesaver Rescue Helicopter."
+                  }
+                }
+              ]
+            },
+            {
+              "type": "image-tile",
+              "value": [
+                {
+                  "image": {
+                    "type": "Image",
+                    "value": {
+                      "main": {
+                        "dimensions": {
+                          "width": 458,
+                          "height": 199
+                        },
+                        "alt": null,
+                        "copyright": null,
+                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/9b535a72999c043e6766bb451ed37c933c4efe04_jiji.png"
+                      },
+                      "views": {
+                        "mobile": {
+                          "dimensions": {
+                            "width": 800,
+                            "height": 820
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/68472ce7a36fc6708a72b9e31726fea9390b42a2_jiji.png"
+                        },
+                        "desktop": {
+                          "dimensions": {
+                            "width": 1920,
+                            "height": 900
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/0840bed6b8719a475a866cdb8a734c03c9596f58_jiji.png"
+                        }
+                      }
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "content-tile",
+              "value": [
+                {
+                  "copy": {
+                    "type": "Text",
+                    "value": "Through an epic, single-take, the film tells the story of a man and his son floating helplessly in the ocean beside their upturned yacht. They drift, totally at the mercy of the elements, only to be plucked from danger by the arrival of the chopper."
+                  }
+                }
+              ]
+            },
+            {
+              "type": "image-tile",
+              "value": [
+                {
+                  "image": {
+                    "type": "Image",
+                    "value": {
+                      "main": {
+                        "dimensions": {
+                          "width": 458,
+                          "height": 181
+                        },
+                        "alt": null,
+                        "copyright": null,
+                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/d448f3a794cbab16e943ecd02f09d49f05a91920_blu.png"
+                      },
+                      "views": {
+                        "mobile": {
+                          "dimensions": {
+                            "width": 800,
+                            "height": 820
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/68671b6fe676e6dde7fe8a9eacf4b34ca5b11153_blu.png"
+                        },
+                        "desktop": {
+                          "dimensions": {
+                            "width": 1920,
+                            "height": 900
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/9ac6c11126e59fc25dad071fe0a7b7d0ebc7e2ca_blu.png"
+                        }
+                      }
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "content-tile",
+              "value": [
+                {
+                  "copy": {
+                    "type": "Text",
+                    "value": "Meanwhile, a voiceover expresses the key message that Westpac is there for all Australians, regardless of who they bank with."
+                  }
+                }
+              ]
+            },
+            {
+              "type": "image-tile",
+              "value": [
+                {
+                  "image": {
+                    "type": "Image",
+                    "value": {
+                      "main": {
+                        "dimensions": {
+                          "width": 475,
+                          "height": 201
+                        },
+                        "alt": null,
+                        "copyright": null,
+                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/01a743c392ff762eb42f213134368c2099e6c856_uu.png"
+                      },
+                      "views": {
+                        "desktop": {
+                          "dimensions": {
+                            "width": 1920,
+                            "height": 900
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/a54c4403a86742e8e570e4fadfc3bf74dbab87c6_uu.png"
+                        },
+                        "mobile": {
+                          "dimensions": {
+                            "width": 800,
+                            "height": 820
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/1088345820046944e9a401128838f3a353ed1c1e_uu.png"
+                        }
+                      }
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "content-tile",
+              "value": [
+                {
+                  "copy": {
+                    "type": "Text",
+                    "value": "In just two weeks 80% of people could spontaneously attribute the campaign to Westpac and best of all, it resonated most with our toughest audience, millennials."
+                  }
+                }
+              ]
+            },
+            {
+              "type": "video-tile",
+              "value": [
+                {
+                  "video": {
+                    "type": "Link.web",
+                    "value": {
+                      "url": "https://www.youtube.com/watch?v=I4tFNfROlqk"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "image-tile",
+              "value": [
+                {
+                  "image": {
+                    "type": "Image",
+                    "value": {
+                      "main": {
+                        "dimensions": {
+                          "width": 440,
+                          "height": 246
+                        },
+                        "alt": null,
+                        "copyright": null,
+                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/51ec826135c9badf68b98fcf7443bfb1a85de611_yy.png"
+                      },
+                      "views": {
+                        "desktop": {
+                          "dimensions": {
+                            "width": 1920,
+                            "height": 900
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/18115213cfa1c8f078aa394bca961bf2fa901d94_yy.png"
+                        },
+                        "mobile": {
+                          "dimensions": {
+                            "width": 800,
+                            "height": 820
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/67a757f8ed712b1f9eb36a3e0522d1bb36aef922_yy.png"
+                        }
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "uid": "volkswagen-brand-love",
+      "data": {
+        "meta-title": {
+          "type": "Text",
+          "value": "Volkswagen Brand Love | DDB"
+        },
+        "foregroundColor": {
+          "type": "Color",
+          "value": "#ffffff"
+        },
+        "backgroundColor": {
+          "type": "Color",
+          "value": "#000000"
+        },
+        "sections": {
+          "type": "SectionList",
+          "value": [
+            {
+              "type": "case-study-work-tile",
+              "value": [
+                {
+                  "headline": {
+                    "type": "Text",
+                    "value": "Volkswagen"
+                  },
+                  "copy": {
+                    "type": "Text",
+                    "value": "When is a car more than a car?"
+                  },
+                  "image": {
+                    "type": "Image",
+                    "value": {
+                      "main": {
+                        "dimensions": {
+                          "width": 1920,
+                          "height": 900
+                        },
+                        "alt": null,
+                        "copyright": null,
+                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/1741f1f0e467c15cf8d5b06cdf3bd74399523afc_vw-brand-love-1.jpg"
+                      },
+                      "views": {
+                        "desktop": {
+                          "dimensions": {
+                            "width": 1920,
+                            "height": 900
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/1741f1f0e467c15cf8d5b06cdf3bd74399523afc_vw-brand-love-1.jpg"
+                        },
+                        "mobile": {
+                          "dimensions": {
+                            "width": 840,
+                            "height": 1350
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/b7549b89914745585c3b341b69d28bed8e86c7a1_vw-brand-love-1.jpg"
+                        }
+                      }
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "content-tile",
+              "value": [
+                {
+                  "subline": {
+                    "type": "Text",
+                    "value": "We needed to remind people that Volkswagen is entrenched in Aussie culture."
+                  },
+                  "copy": {
+                    "type": "Text",
+                    "value": "We asked when is a car more than a car? →"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "image-tile",
+              "value": [
+                {
+                  "image": {
+                    "type": "Image",
+                    "value": {
+                      "main": {
+                        "dimensions": {
+                          "width": 887,
+                          "height": 382
+                        },
+                        "alt": null,
+                        "copyright": null,
+                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/a261d5ea06943187699aacdcbafd28515ff4c29d_screen-shot-2017-02-22-at-3.20.09-pm.png"
+                      },
+                      "views": {
+                        "desktop": {
+                          "dimensions": {
+                            "width": 1920,
+                            "height": 900
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/9961341464cfa9da2c99e8ec8e8fb503f62dd359_screen-shot-2017-02-22-at-3.20.09-pm.png"
+                        },
+                        "mobile": {
+                          "dimensions": {
+                            "width": 800,
+                            "height": 820
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/d6573ebd0ad56467615f2195ce14393d1068603f_screen-shot-2017-02-22-at-3.20.09-pm.png"
+                        }
+                      }
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "content-tile",
+              "value": [
+                {
+                  "copy": {
+                    "type": "Text",
+                    "value": "As the brand name suggests, this is the people’s car <br>– a legacy that transcends sheet metal and machinery. <br>This was the thinking that gave rise to the campaign line <br>“When is a car more than a car? When it’s a Volkswagen.”"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "image-tile",
+              "value": [
+                {
+                  "image": {
+                    "type": "Image",
+                    "value": {
+                      "main": {
+                        "dimensions": {
+                          "width": 1920,
+                          "height": 900
+                        },
+                        "alt": null,
+                        "copyright": null,
+                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/796cd2b8996f4705e419ab2b997a174f7d6ce732_vw-brand-love-2.jpg"
+                      },
+                      "views": {
+                        "mobile": {
+                          "dimensions": {
+                            "width": 800,
+                            "height": 820
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/1b1d16a69232fd6cfb870092a62c0c7b01ea0b0a_vw-brand-love-2.jpg"
+                        },
+                        "desktop": {
+                          "dimensions": {
+                            "width": 1920,
+                            "height": 900
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/796cd2b8996f4705e419ab2b997a174f7d6ce732_vw-brand-love-2.jpg"
+                        }
+                      }
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "content-tile",
+              "value": [
+                {
+                  "copy": {
+                    "type": "Text",
+                    "value": "But for the message to really hit home, it couldn’t come from us. <br>We reached out to real Volkswagen owners and asked them to <br>share what made their cars more than a car.The result; <br>a joyous and honest celebration of life in a Volkswagen."
+                  }
+                }
+              ]
+            },
+            {
+              "type": "video-tile",
+              "value": [
+                {
+                  "video": {
+                    "type": "Link.web",
+                    "value": {
+                      "url": "https://www.youtube.com/watch?v=_-Eu5mF3Fqc"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "uid": "test",
+      "data": {
+        "meta-title": {
+          "type": "Text",
+          "value": "Test Case Study | DDB"
+        },
+        "meta-description": {
+          "type": "Text",
+          "value": "Case study for testing"
+        },
+        "foregroundColor": {
+          "type": "Color",
+          "value": "#ffffff"
+        },
+        "backgroundColor": {
+          "type": "Color",
+          "value": "#444444"
+        },
+        "sections": {
+          "type": "SectionList",
+          "value": [
+            {
+              "type": "case-study-work-tile",
+              "value": [
+                {
+                  "headline": {
+                    "type": "Text",
+                    "value": "Case study work tile - headline"
+                  },
+                  "copy": {
+                    "type": "Text",
+                    "value": "Case study work tile - copy"
+                  },
+                  "image": {
+                    "type": "Image",
+                    "value": {
+                      "main": {
+                        "dimensions": {
+                          "width": 1920,
+                          "height": 900
+                        },
+                        "alt": null,
+                        "copyright": null,
+                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/661b5836861bc7eaaf4f45f0879eeb8c2a6dbb1e_placeholder-1920x900-000000.png"
+                      },
+                      "views": {
+                        "mobile": {
+                          "dimensions": {
+                            "width": 800,
+                            "height": 820
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/c74dada68467c8e09a98ba16362f239b91969993_layout_840x1350_000000.png"
+                        },
+                        "desktop": {
+                          "dimensions": {
+                            "width": 1920,
+                            "height": 900
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/661b5836861bc7eaaf4f45f0879eeb8c2a6dbb1e_placeholder-1920x900-000000.png"
+                        }
+                      }
+                    }
+                  },
+                  "align": {
+                    "type": "Select",
+                    "value": "center"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "content-tile",
+              "value": [
+                {
+                  "image": {
+                    "type": "Image",
+                    "value": {
+                      "main": {
+                        "dimensions": {
+                          "width": 1023,
+                          "height": 512
+                        },
+                        "alt": null,
+                        "copyright": null,
+                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/a8fd843b4572f294a0754363b0eb2e2635d6b858_vw2.jpg"
+                      },
+                      "views": {
+                        "desktop": {
+                          "dimensions": {
+                            "width": 1920,
+                            "height": 900
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/f21567514a6848315255db8d1830ed07cf998b13_vw2.jpg"
+                        },
+                        "mobile": {
+                          "dimensions": {
+                            "width": 800,
+                            "height": 820
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/cec3370d8d089d2a633d000d8b36f877d5f00321_vw2.jpg"
+                        }
+                      }
+                    }
+                  },
+                  "headline": {
+                    "type": "Text",
+                    "value": "Content tile - Headline"
+                  },
+                  "subline": {
+                    "type": "Text",
+                    "value": "Content tile - Subline"
+                  },
+                  "copy": {
+                    "type": "Text",
+                    "value": "Content tile - Copy"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "image-tile",
+              "value": [
+                {
+                  "image": {
+                    "type": "Image",
+                    "value": {
+                      "main": {
+                        "dimensions": {
+                          "width": 1662,
+                          "height": 900
+                        },
+                        "alt": null,
+                        "copyright": null,
+                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/592c78ebdfecdd8f841943163e15e80f02df75e3_vw3.jpg"
+                      },
+                      "views": {
+                        "mobile": {
+                          "dimensions": {
+                            "width": 800,
+                            "height": 820
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/0b606231ef418f5673066ee3f4527a77b3b18803_vw3.jpg"
+                        },
+                        "desktop": {
+                          "dimensions": {
+                            "width": 1920,
+                            "height": 900
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/f7d543d2e270b839a54d5cf12e1ee38d59f8717c_vw3.jpg"
+                        }
+                      }
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "content-tile",
+              "value": [
+                {
+                  "copy": {
+                    "type": "Text",
+                    "value": "The following is an HTML video:"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "video-tile",
+              "value": [
+                {
+                  "video": {
+                    "type": "Link.web",
+                    "value": {
+                      "url": "http://content.volkswagen-commercial.com.au/Amarok/Content/videos/VW_The_Naked_Reveal_Loop.mp4"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "content-tile",
+              "value": [
+                {
+                  "headline": {
+                    "type": "Text",
+                    "value": "Youtube video 1"
+                  },
+                  "copy": {
+                    "type": "Text",
+                    "value": "This is a [https://youtu.be/_____] video"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "video-tile",
+              "value": [
+                {
+                  "video": {
+                    "type": "Link.web",
+                    "value": {
+                      "url": "https://youtu.be/Nxm3S6bjb9U"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "content-tile",
+              "value": [
+                {
+                  "headline": {
+                    "type": "Text",
+                    "value": "Youtube video 2"
+                  },
+                  "copy": {
+                    "type": "Text",
+                    "value": "This is a [www.youtube.com/embed/____] video:"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "video-tile",
+              "value": [
+                {
+                  "video": {
+                    "type": "Link.web",
+                    "value": {
+                      "url": "https://www.youtube.com/embed/65OV30_Oy-0"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "content-tile",
+              "value": [
+                {
+                  "headline": {
+                    "type": "Text",
+                    "value": "Youtube video 3"
+                  },
+                  "copy": {
+                    "type": "Text",
+                    "value": "This is a normal [youtube.com/watch?____] video:"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "video-tile",
+              "value": [
+                {
+                  "video": {
+                    "type": "Link.web",
+                    "value": {
+                      "url": "https://www.youtube.com/watch?v=QgM4hkAkeY0"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "quote-tile",
+              "value": [
+                {
+                  "textColor": {
+                    "type": "Color",
+                    "value": "#ffffff"
+                  },
+                  "image": {
+                    "type": "Image",
+                    "value": {
+                      "main": {
+                        "dimensions": {
+                          "width": 1662,
+                          "height": 900
+                        },
+                        "alt": null,
+                        "copyright": null,
+                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/592c78ebdfecdd8f841943163e15e80f02df75e3_vw3.jpg"
+                      },
+                      "views": {
+                        "mobile": {
+                          "dimensions": {
+                            "width": 800,
+                            "height": 820
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/60c2a62ae52ac4e92dfa8a4e90b317f696ad4689_vw3.jpg"
+                        },
+                        "desktop": {
+                          "dimensions": {
+                            "width": 1920,
+                            "height": 900
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/f7d543d2e270b839a54d5cf12e1ee38d59f8717c_vw3.jpg"
+                        }
+                      }
+                    }
+                  },
+                  "quote": {
+                    "type": "Text",
+                    "value": "This is a Quote."
+                  },
+                  "author": {
+                    "type": "Text",
+                    "value": "This is the Author"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "content-tile",
+              "value": [
+                {
+                  "headline": {
+                    "type": "Text",
+                    "value": "Vimeo video 1"
+                  },
+                  "copy": {
+                    "type": "Text",
+                    "value": "This is a [vimeo.com/____] video"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "video-tile",
+              "value": [
+                {
+                  "video": {
+                    "type": "Link.web",
+                    "value": {
+                      "url": "https://vimeo.com/38409143"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "content-tile",
+              "value": [
+                {
+                  "headline": {
+                    "type": "Text",
+                    "value": "Vimeo video 2"
+                  },
+                  "copy": {
+                    "type": "Text",
+                    "value": "This is a [player.vimeo.com/video/____] video"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "video-tile",
+              "value": [
+                {
+                  "video": {
+                    "type": "Link.web",
+                    "value": {
+                      "url": "https://player.vimeo.com/video/38409143"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "content-tile",
+              "value": [
+                {
+                  "headline": {
+                    "type": "Text",
+                    "value": "Headline text"
+                  },
+                  "subline": {
+                    "type": "Text",
+                    "value": "Subline text"
+                  },
+                  "copy": {
+                    "type": "Text",
+                    "value": "Copy text"
+                  },
+                  "list": {
+                    "type": "StructuredText",
+                    "value": [
+                      {
+                        "type": "paragraph",
+                        "text": "list1",
+                        "spans": [
+
+                        ]
+                      },
+                      {
+                        "type": "paragraph",
+                        "text": "list2",
+                        "spans": [
+
+                        ]
+                      },
+                      {
+                        "type": "paragraph",
+                        "text": "list3",
+                        "spans": [
+
+                        ]
+                      },
+                      {
+                        "type": "paragraph",
+                        "text": "list4",
+                        "spans": [
+
+                        ]
+                      },
+                      {
+                        "type": "paragraph",
+                        "text": "list5",
+                        "spans": [
+
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "type": "content-tile",
+              "value": [
+                {
+                  "headline": {
+                    "type": "Text",
+                    "value": "Donec blandit efficitur ligula vestibulum dignissim."
+                  },
+                  "subline": {
+                    "type": "Text",
+                    "value": "Quisque sit amet ex et metus pulvinar aliquam. Ut suscipit, ipsum non ornare rhoncus, dui neque aliquam mi, nec aliquam lorem ligula quis eros. Sed dapibus libero eros, ac faucibus erat viverra sit amet."
+                  },
+                  "copy": {
+                    "type": "Text",
+                    "value": "Phasellus in tempus lorem. Praesent aliquam cursus risus sit amet elementum. Sed consectetur sit amet urna in tincidunt. Curabitur volutpat augue sed lorem placerat, ut efficitur nulla sagittis. Maecenas id pulvinar lorem."
+                  },
+                  "list": {
+                    "type": "StructuredText",
+                    "value": [
+                      {
+                        "type": "paragraph",
+                        "text": "<b>Lorem</b><br class=\"all\"/><br class=\"all\"/>Mauris lectus orci, tincidunt sed egestas quis, eleifend lobortis justo.",
+                        "spans": [
+
+                        ]
+                      },
+                      {
+                        "type": "paragraph",
+                        "text": "Sed sit amet tincidunt massa.",
+                        "spans": [
+
+                        ]
+                      },
+                      {
+                        "type": "paragraph",
+                        "text": "Morbi et mattis est, vel gravida lectus.",
+                        "spans": [
+
+                        ]
+                      },
+                      {
+                        "type": "paragraph",
+                        "text": "<b>Ipsum</b><br class=\"all\"/><br class=\"all\"/>Cras suscipit convallis tincidunt.",
+                        "spans": [
+
+                        ]
+                      },
+                      {
+                        "type": "paragraph",
+                        "text": "Fusce turpis lacus, porta sit amet ligula ut, volutpat tempus leo.",
+                        "spans": [
+
+                        ]
+                      },
+                      {
+                        "type": "paragraph",
+                        "text": "Maecenas viverra turpis vel velit fermentum, a malesuada diam lacinia.",
+                        "spans": [
+
+                        ]
+                      }
+                    ]
+                  },
+                  "imageDesktop": {
+                    "type": "Image",
+                    "value": {
+                      "main": {
+                        "dimensions": {
+                          "width": 1023,
+                          "height": 512
+                        },
+                        "alt": null,
+                        "copyright": null,
+                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/a8fd843b4572f294a0754363b0eb2e2635d6b858_vw2.jpg"
+                      },
+                      "views": {
+                      }
+                    }
+                  },
+                  "imageMobile": {
+                    "type": "Image",
+                    "value": {
+                      "main": {
+                        "dimensions": {
+                          "width": 532,
+                          "height": 512
+                        },
+                        "alt": null,
+                        "copyright": null,
+                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/0e6cb497b9eec719d25ebbc9c5df02b6f7ee2983_vw2.jpg"
+                      },
+                      "views": {
+                      }
+                    }
+                  },
+                  "alignCopy": {
+                    "type": "Select",
+                    "value": "left"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "quote-tile",
+              "value": [
+                {
+                  "image": {
+                    "type": "Image",
+                    "value": {
+                      "main": {
+                        "dimensions": {
+                          "width": 1023,
+                          "height": 512
+                        },
+                        "alt": null,
+                        "copyright": null,
+                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/a8fd843b4572f294a0754363b0eb2e2635d6b858_vw2.jpg"
+                      },
+                      "views": {
+                        "desktop": {
+                          "dimensions": {
+                            "width": 1920,
+                            "height": 900
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/f21567514a6848315255db8d1830ed07cf998b13_vw2.jpg"
+                        },
+                        "mobile": {
+                          "dimensions": {
+                            "width": 800,
+                            "height": 820
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/cec3370d8d089d2a633d000d8b36f877d5f00321_vw2.jpg"
+                        }
+                      }
+                    }
+                  },
+                  "quote": {
+                    "type": "Text",
+                    "value": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Deinde dolorem quem maximum?"
+                  },
+                  "author": {
+                    "type": "Text",
+                    "value": "Lorem ipsum"
+                  },
+                  "imageDesktop": {
+                    "type": "Image",
+                    "value": {
+                      "main": {
+                        "dimensions": {
+                          "width": 1662,
+                          "height": 900
+                        },
+                        "alt": null,
+                        "copyright": null,
+                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/592c78ebdfecdd8f841943163e15e80f02df75e3_vw3.jpg"
+                      },
+                      "views": {
+                      }
+                    }
+                  },
+                  "imageMobile": {
+                    "type": "Image",
+                    "value": {
+                      "main": {
+                        "dimensions": {
+                          "width": 1023,
+                          "height": 512
+                        },
+                        "alt": null,
+                        "copyright": null,
+                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/a8fd843b4572f294a0754363b0eb2e2635d6b858_vw2.jpg"
+                      },
+                      "views": {
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "uid": "mcdonalds-loaded-fries",
+      "data": {
+        "meta-title": {
+          "type": "Text",
+          "value": "McDonalds Loaded Fries | DDB"
+        },
+        "meta-description": {
+          "type": "Text",
+          "value": "Case Study McDonalds Loaded Fries"
+        },
+        "foregroundColor": {
+          "type": "Color",
+          "value": "#000000"
+        },
+        "backgroundColor": {
+          "type": "Color",
+          "value": "#ffffff"
+        },
+        "sections": {
+          "type": "SectionList",
+          "value": [
+            {
+              "type": "case-study-work-tile",
+              "value": [
+                {
+                  "headline": {
+                    "type": "Text",
+                    "value": "McDonalds"
+                  },
+                  "copy": {
+                    "type": "Text",
+                    "value": "Macca’s fries are as iconic as the red and yellow packaging they come in."
+                  },
+                  "image": {
+                    "type": "Image",
+                    "value": {
+                      "main": {
+                        "dimensions": {
+                          "width": 1920,
+                          "height": 900
+                        },
+                        "alt": null,
+                        "copyright": null,
+                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/453f6c0a83abf7497e5d40eb7c6846fdf0e5f964_mcd1.jpg"
+                      },
+                      "views": {
+                        "mobile": {
+                          "dimensions": {
+                            "width": 840,
+                            "height": 1350
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/5273f51eb8b5bc0fa415f697c9b690d914c56702_mcd1.jpg"
+                        },
+                        "desktop": {
+                          "dimensions": {
+                            "width": 1920,
+                            "height": 900
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/453f6c0a83abf7497e5d40eb7c6846fdf0e5f964_mcd1.jpg"
+                        }
+                      }
+                    }
+                  },
+                  "align": {
+                    "type": "Select",
+                    "value": "center"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "image-tile",
+              "value": [
+                {
+                  "image": {
+                    "type": "Image",
+                    "value": {
+                      "main": {
+                        "dimensions": {
+                          "width": 383,
+                          "height": 215
+                        },
+                        "alt": null,
+                        "copyright": null,
+                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/03fea3ca5dc217fb9a796003678b260474e4a301_picture1.png"
+                      },
+                      "views": {
+                        "desktop": {
+                          "dimensions": {
+                            "width": 1920,
+                            "height": 900
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/05ccf27251dedf9312cc7bf76b53f2897e33481a_picture1.png"
+                        },
+                        "mobile": {
+                          "dimensions": {
+                            "width": 800,
+                            "height": 820
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/b05080d1df49a69cdfe9cd7d006dae6f70057786_picture1.png"
+                        }
+                      }
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "content-tile",
+              "value": [
+                {
+                  "copy": {
+                    "type": "Text",
+                    "value": "But even the most loved icons must continue to reinvent themselves to remain relevant."
+                  }
+                }
+              ]
+            },
+            {
+              "type": "image-tile",
+              "value": [
+                {
+                  "image": {
+                    "type": "Image",
+                    "value": {
+                      "main": {
+                        "dimensions": {
+                          "width": 346,
+                          "height": 195
+                        },
+                        "alt": null,
+                        "copyright": null,
+                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/1b2dd15aa63ddeddc1cd47d744fcdacef336eb65_picture2.png"
+                      },
+                      "views": {
+                        "mobile": {
+                          "dimensions": {
+                            "width": 800,
+                            "height": 820
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/724b141c08c2eb4da2f4ed8609d4e00099f5d200_picture2.png"
+                        },
+                        "desktop": {
+                          "dimensions": {
+                            "width": 1920,
+                            "height": 900
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/b7a94310c868469be5207c0713eea3cf88fc41a1_picture2.png"
+                        }
+                      }
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "content-tile",
+              "value": [
+                {
+                  "copy": {
+                    "type": "Text",
+                    "value": "Based on the insight that Aussies like to do things their own way and aren’t afraid to bend the rules, Macca’s personified their fries, showing them to be full of new life and flavour."
+                  }
+                }
+              ]
+            },
+            {
+              "type": "image-tile",
+              "value": [
+                {
+                  "image": {
+                    "type": "Image",
+                    "value": {
+                      "main": {
+                        "dimensions": {
+                          "width": 346,
+                          "height": 191
+                        },
+                        "alt": null,
+                        "copyright": null,
+                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/a4a4814f309d0db732a74bd7c3e34f5ff29ae242_picture41.png"
+                      },
+                      "views": {
+                        "mobile": {
+                          "dimensions": {
+                            "width": 800,
+                            "height": 820
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/d7fbbe64fd452925bcafcc53738f02e5d9f4e4b8_picture41.png"
+                        },
+                        "desktop": {
+                          "dimensions": {
+                            "width": 1920,
+                            "height": 900
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/8b0347478ad7d9649124b93f130d53571909f061_picture41.png"
+                        }
+                      }
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "content-tile",
+              "value": [
+                {
+                  "headline": {
+                    "type": "Text",
+                    "value": "By Bringing Fries to Life"
+                  },
+                  "subline": {
+                    "type": "Text",
+                    "value": ""
+                  },
+                  "copy": {
+                    "type": "Text",
+                    "value": "After a successful launch we had to generate a second burst of conversation, so we created a pop-up ‘Fries Only’ restaurant to celebrate the Macca’s icon and experiment with a few potential new flavours."
+                  }
+                }
+              ]
+            },
+            {
+              "type": "image-tile",
+              "value": [
+                {
+                  "image": {
+                    "type": "Image",
+                    "value": {
+                      "main": {
+                        "dimensions": {
+                          "width": 421,
+                          "height": 308
+                        },
+                        "alt": null,
+                        "copyright": null,
+                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/3a68aa6ecf0abe5a84d690887507710d5d72d8fa_fff.png"
+                      },
+                      "views": {
+                        "mobile": {
+                          "dimensions": {
+                            "width": 800,
+                            "height": 820
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/9c5e354cf6bab341c74be3bc1ea45af7734cdc6f_fff.png"
+                        },
+                        "desktop": {
+                          "dimensions": {
+                            "width": 1920,
+                            "height": 900
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/367fe031a4696944628a15e0fd1b6cfe30628090_fff.png"
+                        }
+                      }
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "content-tile",
+              "value": [
+                {
+                  "subline": {
+                    "type": "Text",
+                    "value": ""
+                  },
+                  "copy": {
+                    "type": "Text",
+                    "value": "The unanimous fan favourite was Sweet Chilli and Sour Cream. This became the focus of our summer campaign."
+                  }
+                }
+              ]
+            },
+            {
+              "type": "content-tile",
+              "value": [
+                {
+                  "headline": {
+                    "type": "Text",
+                    "value": "RESULTS"
+                  },
+                  "copy": {
+                    "type": "Text",
+                    "value": "The Loaded Fries platform illustrates its ability to remain on the menu long term. Now let’s let the fries do the talking…."
+                  }
+                }
+              ]
+            },
+            {
+              "type": "video-tile",
+              "value": [
+                {
+                  "video": {
+                    "type": "Link.web",
+                    "value": {
+                      "url": "https://www.youtube.com/watch?v=FEJT84r3Fkk"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "image-tile",
+              "value": [
+                {
+                  "image": {
+                    "type": "Image",
+                    "value": {
+                      "main": {
+                        "dimensions": {
+                          "width": 383,
+                          "height": 218
+                        },
+                        "alt": null,
+                        "copyright": null,
+                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/43b223f581db9e804ca5dc8a7971bdd5ad34756f_tgt.png"
+                      },
+                      "views": {
+                        "desktop": {
+                          "dimensions": {
+                            "width": 1920,
+                            "height": 900
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/e25980f4a04693c2b80004d4c552dd055585dc8b_tgt.png"
+                        },
+                        "mobile": {
+                          "dimensions": {
+                            "width": 800,
+                            "height": 820
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/7e71c1c93953223a115624bbd73497f59b45f5b2_tgt.png"
+                        }
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "uid": "mcdonalds-cyt-father-daughter",
+      "data": {
+        "meta-title": {
+          "type": "Text",
+          "value": "McDonald’s CYT Father Daughter"
+        },
+        "sections": {
+          "type": "SectionList",
+          "value": [
+            {
+              "type": "case-study-work-tile",
+              "value": [
+                {
+                  "headline": {
+                    "type": "Text",
+                    "value": "McDonald’s"
+                  },
+                  "copy": {
+                    "type": "Text",
+                    "value": "How do you prove to mums and dads that they can love Maccas too?"
+                  },
+                  "image": {
+                    "type": "Image",
+                    "value": {
+                      "main": {
+                        "dimensions": {
+                          "width": 383,
+                          "height": 216
+                        },
+                        "alt": null,
+                        "copyright": null,
+                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/2a82505cb8ef56b23b9c282ccc4332411d70de1a_tttt.png"
+                      },
+                      "views": {
+                        "mobile": {
+                          "dimensions": {
+                            "width": 840,
+                            "height": 1350
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/2bce794fbdf147204940b4f247f1ae25f98a2f91_tttt.png"
+                        },
+                        "desktop": {
+                          "dimensions": {
+                            "width": 1920,
+                            "height": 900
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/d635bb39a529f36046ef26d5eba9dd8d0f47e7cb_tttt.png"
+                        }
+                      }
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "content-tile",
+              "value": [
+                {
+                  "copy": {
+                    "type": "Text",
+                    "value": "Parents are always putting their children first, which can often lead to compromising on what satisfies their own tastes and comfort, to keep the kids happy."
+                  }
+                }
+              ]
+            },
+            {
+              "type": "image-tile",
+              "value": [
+                {
+                  "image": {
+                    "type": "Image",
+                    "value": {
+                      "main": {
+                        "dimensions": {
+                          "width": 383,
+                          "height": 216
+                        },
+                        "alt": null,
+                        "copyright": null,
+                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/2a82505cb8ef56b23b9c282ccc4332411d70de1a_tttt.png"
+                      },
+                      "views": {
+                        "mobile": {
+                          "dimensions": {
+                            "width": 800,
+                            "height": 820
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/d2a5ba832767e7c0ad6ffd07731a504a85bc66f0_tttt.png"
+                        },
+                        "desktop": {
+                          "dimensions": {
+                            "width": 1920,
+                            "height": 900
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/d635bb39a529f36046ef26d5eba9dd8d0f47e7cb_tttt.png"
+                        }
+                      }
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "content-tile",
+              "value": [
+                {
+                  "copy": {
+                    "type": "Text",
+                    "value": "That’s why up until Create Your Taste came along, a trip to Macca’s was usually just for those those little rascals in the back seat."
+                  }
+                }
+              ]
+            },
+            {
+              "type": "image-tile",
+              "value": [
+                {
+                  "image": {
+                    "type": "Image",
+                    "value": {
+                      "main": {
+                        "dimensions": {
+                          "width": 383,
+                          "height": 214
+                        },
+                        "alt": null,
+                        "copyright": null,
+                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/e495705a88cd93ba60766a4d71d90d9e39dcc199_ggg.png"
+                      },
+                      "views": {
+                        "desktop": {
+                          "dimensions": {
+                            "width": 1920,
+                            "height": 900
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/5b46090535bb469cdceb2966d5787f9e2d51212d_ggg.png"
+                        },
+                        "mobile": {
+                          "dimensions": {
+                            "width": 800,
+                            "height": 820
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/c6b28ad211a7b95a24a13d740c4ed24b01a87dc9_ggg.png"
+                        }
+                      }
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "content-tile",
+              "value": [
+                {
+                  "copy": {
+                    "type": "Text",
+                    "value": "But in this Create Your Taste campaign, we celebrated the fact that (just for a moment), parents can now enjoy a little grown-up pleasure when they take the family for a meal at Macca’s…"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "image-tile",
+              "value": [
+                {
+                  "image": {
+                    "type": "Image",
+                    "value": {
+                      "main": {
+                        "dimensions": {
+                          "width": 346,
+                          "height": 195
+                        },
+                        "alt": null,
+                        "copyright": null,
+                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/1b2dd15aa63ddeddc1cd47d744fcdacef336eb65_picture2.png"
+                      },
+                      "views": {
+                        "mobile": {
+                          "dimensions": {
+                            "width": 800,
+                            "height": 820
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/724b141c08c2eb4da2f4ed8609d4e00099f5d200_picture2.png"
+                        },
+                        "desktop": {
+                          "dimensions": {
+                            "width": 1920,
+                            "height": 900
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/b7a94310c868469be5207c0713eea3cf88fc41a1_picture2.png"
+                        }
+                      }
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "content-tile",
+              "value": [
+                {
+                  "copy": {
+                    "type": "Text",
+                    "value": "… and amplified the notion that parents will do anything for love."
+                  }
+                }
+              ]
+            },
+            {
+              "type": "video-tile",
+              "value": [
+                {
+                  "video": {
+                    "type": "Link.web",
+                    "value": {
+                      "url": "https://www.youtube.com/watch?v=I4tFNfROlqk"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "content-tile",
+              "value": [
+                {
+                  "copy": {
+                    "type": "Text",
+                    "value": "Gourmet Burgers have changed the way people think about Maccas…etc etc. We achieved XX sales, etc ect."
+                  }
+                }
+              ]
+            },
+            {
+              "type": "image-tile",
+              "value": [
+                {
+                  "image": {
+                    "type": "Image",
+                    "value": {
+                      "main": {
+                        "dimensions": {
+                          "width": 552,
+                          "height": 216
+                        },
+                        "alt": null,
+                        "copyright": null,
+                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/108378df19b017e7ea283f83364370e41329ff66_hh.png"
+                      },
+                      "views": {
+                        "desktop": {
+                          "dimensions": {
+                            "width": 1920,
+                            "height": 900
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/4c007ea5fdd6f70501c9de7f071063cfb583aa31_hh.png"
+                        },
+                        "mobile": {
+                          "dimensions": {
+                            "width": 800,
+                            "height": 820
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/aac19a2877ee3a1bc4226db04f7079e5e11f63d0_hh.png"
+                        }
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "uid": "volkswagen-naked-ute",
+      "data": {
+        "meta-title": {
+          "type": "Text",
+          "value": "Volkswagen Naked Ute | DDB"
+        },
+        "foregroundColor": {
+          "type": "Color",
+          "value": "#ffffff"
+        },
+        "sections": {
+          "type": "SectionList",
+          "value": [
+            {
+              "type": "case-study-work-tile",
+              "value": [
+                {
+                  "headline": {
+                    "type": "Text",
+                    "value": "Volkswagen"
+                  },
+                  "copy": {
+                    "type": "Text",
+                    "value": "Aussie blokes were judging the Amarok by its cover, so we removed it."
+                  },
+                  "image": {
+                    "type": "Image",
+                    "value": {
+                      "main": {
+                        "dimensions": {
+                          "width": 1662,
+                          "height": 900
+                        },
+                        "alt": null,
+                        "copyright": null,
+                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/592c78ebdfecdd8f841943163e15e80f02df75e3_vw3.jpg"
+                      },
+                      "views": {
+                        "mobile": {
+                          "dimensions": {
+                            "width": 840,
+                            "height": 1350
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/41225aec26ec6ea1cf2e6660aa877fe36e3e85df_vw3.jpg"
+                        },
+                        "desktop": {
+                          "dimensions": {
+                            "width": 1920,
+                            "height": 900
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/f7d543d2e270b839a54d5cf12e1ee38d59f8717c_vw3.jpg"
+                        }
+                      }
+                    }
+                  },
+                  "align": {
+                    "type": "Select",
+                    "value": "right"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "content-tile",
+              "value": [
+                {
+                  "copy": {
+                    "type": "Text",
+                    "value": "The Amarok’s sleek European styling led people to believe <br>that it was too precious to handle tough Australian conditions"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "image-tile",
+              "value": [
+                {
+                  "image": {
+                    "type": "Image",
+                    "value": {
+                      "main": {
+                        "dimensions": {
+                          "width": 1043,
+                          "height": 445
+                        },
+                        "alt": null,
+                        "copyright": null,
+                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/1dfff8c07af75652bb12403c0316a5d9f3337cfe_screen-shot-2017-02-22-at-3.43.14-pm.png"
+                      },
+                      "views": {
+                        "mobile": {
+                          "dimensions": {
+                            "width": 800,
+                            "height": 820
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/2683012cc6a938c67a6360e00bc3d9f06698ac2d_screen-shot-2017-02-22-at-3.43.14-pm.png"
+                        },
+                        "desktop": {
+                          "dimensions": {
+                            "width": 1920,
+                            "height": 900
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/ba2b62ef35e03cc2e465480f64b8653782185e3f_screen-shot-2017-02-22-at-3.43.14-pm.png"
+                        }
+                      }
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "content-tile",
+              "value": [
+                {
+                  "headline": {
+                    "type": "Text",
+                    "value": "Solution"
+                  },
+                  "subline": {
+                    "type": "Text",
+                    "value": "We Stripped the Amarok of everything that identified it, <br>forcing critics to judge it on performance alone."
+                  }
+                }
+              ]
+            },
+            {
+              "type": "image-tile",
+              "value": [
+                {
+                  "image": {
+                    "type": "Image",
+                    "value": {
+                      "main": {
+                        "dimensions": {
+                          "width": 782,
+                          "height": 361
+                        },
+                        "alt": null,
+                        "copyright": null,
+                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/d4413bf1bfd6df594aebea86a7184f5c5c3c610a_screen-shot-2017-02-22-at-3.38.40-pm.png"
+                      },
+                      "views": {
+                        "desktop": {
+                          "dimensions": {
+                            "width": 1920,
+                            "height": 900
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/a3c6a9c2ee3563849edfc6f06c5fea86c9587f22_screen-shot-2017-02-22-at-3.38.40-pm.png"
+                        },
+                        "mobile": {
+                          "dimensions": {
+                            "width": 800,
+                            "height": 820
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/938aba1facb6ee718679a7491a20f04e78895c90_screen-shot-2017-02-22-at-3.38.40-pm.png"
+                        }
+                      }
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "content-tile",
+              "value": [
+                {
+                  "subline": {
+                    "type": "Text",
+                    "value": "We asked some of the Amarok’s greatest sceptics to guess <br>what it was, while the public guessed along with them."
+                  }
+                }
+              ]
+            },
+            {
+              "type": "video-tile",
+              "value": [
+                {
+                  "video": {
+                    "type": "Link.web",
+                    "value": {
+                      "url": "https://www.youtube.com/watch?v=rWjyPfEbiyg"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "content-tile",
+              "value": [
+                {
+                  "subline": {
+                    "type": "Text",
+                    "value": "We then revealed that the tough Naked Ute was actually the <br>Volkswagen Amarok challenging their prejudices, perceptions <br>and outdated opinions on how the Amarok really performs."
+                  }
+                }
+              ]
+            },
+            {
+              "type": "image-tile",
+              "value": [
+                {
+                  "image": {
+                    "type": "Image",
+                    "value": {
+                      "main": {
+                        "dimensions": {
+                          "width": 777,
+                          "height": 425
+                        },
+                        "alt": null,
+                        "copyright": null,
+                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/8ee6bc85cfe26fad23521f649afc6edea55078f2_screen-shot-2017-02-22-at-3.50.15-pm.png"
+                      },
+                      "views": {
+                        "desktop": {
+                          "dimensions": {
+                            "width": 1920,
+                            "height": 900
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/94dab273beae6238cb0afadcd5f61e8f891a7b2b_screen-shot-2017-02-22-at-3.50.15-pm.png"
+                        },
+                        "mobile": {
+                          "dimensions": {
+                            "width": 800,
+                            "height": 820
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/2982f50073a37024f7d646370256e5747ddff549_screen-shot-2017-02-22-at-3.50.15-pm.png"
+                        }
+                      }
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "content-tile",
+              "value": [
+                {
+                  "headline": {
+                    "type": "Text",
+                    "value": "Results"
+                  },
+                  "subline": {
+                    "type": "Text",
+                    "value": "A total reach of 7.7 million with 125,000 unique <br>visitors to our unbranded website, more than 24,000 <br>guesses an an immediate uplift in sales."
+                  }
+                }
+              ]
+            },
+            {
+              "type": "video-tile",
+              "value": [
+                {
+                  "video": {
+                    "type": "Link.web",
+                    "value": {
+                      "url": "https://www.youtube.com/watch?v=OFk-oFd6aa8"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ],
   "career-listings": [
     {
       "uid": "account-manager",
@@ -941,2043 +3962,6 @@
       }
     }
   ],
-  "case-studies": [
-    {
-      "uid": "test-vw",
-      "data": {
-        "meta-title": {
-          "type": "Text",
-          "value": "Test Case Study VW | DDB"
-        },
-        "meta-description": {
-          "type": "Text",
-          "value": "Case study for testing"
-        },
-        "foregroundColor": {
-          "type": "Color",
-          "value": "#ffffff"
-        },
-        "backgroundColor": {
-          "type": "Color",
-          "value": "#000000"
-        },
-        "sections": {
-          "type": "SectionList",
-          "value": [
-            {
-              "type": "promo-video",
-              "value": [
-                {
-                  "list": {
-                    "type": "StructuredText",
-                    "value": [
-                      {
-                        "type": "paragraph",
-                        "text": "Lorem, ",
-                        "spans": [
-
-                        ]
-                      },
-                      {
-                        "type": "paragraph",
-                        "text": "Ipsum,",
-                        "spans": [
-
-                        ]
-                      },
-                      {
-                        "type": "paragraph",
-                        "text": "Dolar.",
-                        "spans": [
-
-                        ]
-                      }
-                    ]
-                  },
-                  "image": {
-                    "type": "Image",
-                    "value": {
-                      "main": {
-                        "dimensions": {
-                          "width": 1920,
-                          "height": 900
-                        },
-                        "alt": null,
-                        "copyright": null,
-                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/796cd2b8996f4705e419ab2b997a174f7d6ce732_vw-brand-love-2.jpg"
-                      },
-                      "views": {
-                        "desktop": {
-                          "dimensions": {
-                            "width": 1920,
-                            "height": 900
-                          },
-                          "alt": null,
-                          "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/796cd2b8996f4705e419ab2b997a174f7d6ce732_vw-brand-love-2.jpg"
-                        },
-                        "mobile": {
-                          "dimensions": {
-                            "width": 800,
-                            "height": 820
-                          },
-                          "alt": null,
-                          "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/1b1d16a69232fd6cfb870092a62c0c7b01ea0b0a_vw-brand-love-2.jpg"
-                        }
-                      }
-                    }
-                  },
-                  "video": {
-                    "type": "Link.web",
-                    "value": {
-                      "url": "http://content.volkswagen-commercial.com.au/Amarok/Content/videos/VW_The_Naked_Reveal_Loop.mp4"
-                    }
-                  }
-                }
-              ]
-            }
-          ]
-        }
-      }
-    },
-    {
-      "uid": "volkswagen-tough-sell",
-      "data": {
-        "meta-title": {
-          "type": "Text",
-          "value": "Volkswagen Tough Sell | DDB"
-        },
-        "foregroundColor": {
-          "type": "Color",
-          "value": "#000000"
-        },
-        "backgroundColor": {
-          "type": "Color",
-          "value": "#ffffff"
-        },
-        "sections": {
-          "type": "SectionList",
-          "value": [
-            {
-              "type": "case-study-work-tile",
-              "value": [
-                {
-                  "headline": {
-                    "type": "Text",
-                    "value": "Volkswagen"
-                  },
-                  "copy": {
-                    "type": "Text",
-                    "value": "Can we sell a Golf to town <br>that doesn’t need its city technology?"
-                  },
-                  "image": {
-                    "type": "Image",
-                    "value": {
-                      "main": {
-                        "dimensions": {
-                          "width": 1920,
-                          "height": 1201
-                        },
-                        "alt": null,
-                        "copyright": null,
-                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/8b60104ff46d4cdc7a975e68342d633cd2d50dd3_vw0.jpg"
-                      },
-                      "views": {
-                        "mobile": {
-                          "dimensions": {
-                            "width": 840,
-                            "height": 1350
-                          },
-                          "alt": null,
-                          "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/d2ee676df4b1a2ff764a682ef9f42f8532952a9f_vw0.jpg"
-                        },
-                        "desktop": {
-                          "dimensions": {
-                            "width": 1920,
-                            "height": 900
-                          },
-                          "alt": null,
-                          "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/1515c66099db2fd1148a4e551e17efb948e62eac_vw0.jpg"
-                        }
-                      }
-                    }
-                  }
-                }
-              ]
-            },
-            {
-              "type": "content-tile",
-              "value": [
-                {
-                  "headline": {
-                    "type": "Text",
-                    "value": "So what was the brief then?"
-                  },
-                  "subline": {
-                    "type": "Text",
-                    "value": "The job was to raise the consideration of the new model Golf, <br>boost understanding of its advanced tech features and deliver <br>more test-drives to Volkswagen dealers."
-                  }
-                }
-              ]
-            },
-            {
-              "type": "image-tile",
-              "value": [
-                {
-                  "image": {
-                    "type": "Image",
-                    "value": {
-                      "main": {
-                        "dimensions": {
-                          "width": 1920,
-                          "height": 900
-                        },
-                        "alt": null,
-                        "copyright": null,
-                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/8196dd39edfbd6d6318789ca3e36ca9b3043011a_tough-sell-1.jpg"
-                      },
-                      "views": {
-                        "desktop": {
-                          "dimensions": {
-                            "width": 1920,
-                            "height": 900
-                          },
-                          "alt": null,
-                          "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/8196dd39edfbd6d6318789ca3e36ca9b3043011a_tough-sell-1.jpg"
-                        },
-                        "mobile": {
-                          "dimensions": {
-                            "width": 800,
-                            "height": 820
-                          },
-                          "alt": null,
-                          "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/6097e57ef9cbf2523343d5bc18437295576b252b_tough-sell-1.jpg"
-                        }
-                      }
-                    }
-                  }
-                }
-              ]
-            },
-            {
-              "type": "content-tile",
-              "value": [
-                {
-                  "headline": {
-                    "type": "Text",
-                    "value": "An idea that was destined to fail…"
-                  },
-                  "subline": {
-                    "type": "Text",
-                    "value": "We developed an online series about a Volkswagen dealer given an <br>impossible task. The premise was to sell the ultimate city car in <br>an outback town filled with folks with no want or need for it."
-                  }
-                }
-              ]
-            },
-            {
-              "type": "video-tile",
-              "value": [
-                {
-                  "video": {
-                    "type": "Link.web",
-                    "value": {
-                      "url": "https://www.youtube.com/watch?v=6wEFjop9mEY"
-                    }
-                  }
-                }
-              ]
-            },
-            {
-              "type": "content-tile",
-              "value": [
-                {
-                  "headline": {
-                    "type": "Text",
-                    "value": "Just as we expected…"
-                  },
-                  "subline": {
-                    "type": "Text",
-                    "value": "Our rep Tom, made a grand total of zero sales in the town but on Facebook <br>where the series was shown, viewers loved every awkward minute."
-                  }
-                }
-              ]
-            },
-            {
-              "type": "video-tile",
-              "value": [
-                {
-                  "video": {
-                    "type": "Link.web",
-                    "value": {
-                      "url": "https://www.youtube.com/watch?v=6wEFjop9mEY"
-                    }
-                  }
-                }
-              ]
-            },
-            {
-              "type": "content-tile",
-              "value": [
-                {
-                  "headline": {
-                    "type": "Text",
-                    "value": "Facebook becomes a broadcast channel"
-                  },
-                  "subline": {
-                    "type": "Text",
-                    "value": "We turned Facebook into our broadcast channel, so we could <br>directly target potential buyers with the 6-month series."
-                  }
-                }
-              ]
-            },
-            {
-              "type": "image-tile",
-              "value": [
-                {
-                  "image": {
-                    "type": "Image",
-                    "value": {
-                      "main": {
-                        "dimensions": {
-                          "width": 1023,
-                          "height": 512
-                        },
-                        "alt": null,
-                        "copyright": null,
-                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/adee8d5da4aa3252d9afeb5d72ddea5f4df82093_vw2.jpg"
-                      },
-                      "views": {
-                        "desktop": {
-                          "dimensions": {
-                            "width": 1920,
-                            "height": 900
-                          },
-                          "alt": null,
-                          "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/4f927f0c7f588ebce34f0ac738edeeaff2000931_vw2.jpg"
-                        },
-                        "mobile": {
-                          "dimensions": {
-                            "width": 800,
-                            "height": 820
-                          },
-                          "alt": null,
-                          "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/ba040845e661883acac51dfa1dec92650a431f4d_vw2.jpg"
-                        }
-                      }
-                    }
-                  }
-                }
-              ]
-            }
-          ]
-        }
-      }
-    },
-    {
-      "uid": "the-sydney-opera-house",
-      "data": {
-        "meta-title": {
-          "type": "Text",
-          "value": "The Sydney Opera House | DDB"
-        },
-        "foregroundColor": {
-          "type": "Color",
-          "value": "#ffffff"
-        },
-        "backgroundColor": {
-          "type": "Color",
-          "value": "#afc9e2"
-        },
-        "sections": {
-          "type": "SectionList",
-          "value": [
-            {
-              "type": "case-study-work-tile",
-              "value": [
-                {
-                  "headline": {
-                    "type": "Text",
-                    "value": "The Sydney Opera House"
-                  },
-                  "copy": {
-                    "type": "Text",
-                    "value": "Live response social, powered <br>by a smart application of technology."
-                  },
-                  "image": {
-                    "type": "Image",
-                    "value": {
-                      "main": {
-                        "dimensions": {
-                          "width": 1024,
-                          "height": 666
-                        },
-                        "alt": null,
-                        "copyright": null,
-                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/0c604664e2287e8951d7a2f7606b4435809820a8_opera1.jpg"
-                      },
-                      "views": {
-                        "mobile": {
-                          "dimensions": {
-                            "width": 800,
-                            "height": 820
-                          },
-                          "alt": null,
-                          "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/704ddfebc5ad809883d35673596ba63d05ca03c8_opera1.jpg"
-                        },
-                        "desktop": {
-                          "dimensions": {
-                            "width": 1920,
-                            "height": 900
-                          },
-                          "alt": null,
-                          "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/5fcad86e5e1657b150a3614c734a16c649f8c025_opera1.jpg"
-                        }
-                      }
-                    }
-                  }
-                }
-              ]
-            },
-            {
-              "type": "content-tile",
-              "value": [
-                {
-                  "copy": {
-                    "type": "Text",
-                    "value": "We needed to get more people inside the <br/>Sydney Opera House during summer."
-                  }
-                }
-              ]
-            },
-            {
-              "type": "video-tile",
-              "value": [
-                {
-                  "video": {
-                    "type": "Link.web",
-                    "value": {
-                      "url": "https://www.youtube.com/watch?v=KjoEFnQJE3s"
-                    }
-                  }
-                }
-              ]
-            },
-            {
-              "type": "content-tile",
-              "value": [
-                {
-                  "subline": {
-                    "type": "Text",
-                    "value": "8.2 million people visit the site of the <br>Sydney Opera House every year."
-                  },
-                  "copy": {
-                    "type": "Text",
-                    "value": "Most take photo if the outside and move on, making it the most <br>Instagrammed icon in Australia. People were a stick away. <br>We selected photos using computer vision, inviting <br>them inside with Instagram."
-                  }
-                }
-              ]
-            },
-            {
-              "type": "video-tile",
-              "value": [
-                {
-                  "video": {
-                    "type": "Link.web",
-                    "value": {
-                      "url": "https://www.youtube.com/watch?v=KjoEFnQJE3s"
-                    }
-                  }
-                }
-              ]
-            },
-            {
-              "type": "content-tile",
-              "value": [
-                {
-                  "headline": {
-                    "type": "Text",
-                    "value": "Solution"
-                  },
-                  "subline": {
-                    "type": "Text",
-                    "value": "Turn photos of the Sydney Opera House on Instagram into <br>incredible experiences inside by inviting users to #comeonin."
-                  }
-                }
-              ]
-            },
-            {
-              "type": "image-tile",
-              "value": [
-                {
-                  "image": {
-                    "type": "Image",
-                    "value": {
-                      "main": {
-                        "dimensions": {
-                          "width": 1024,
-                          "height": 530
-                        },
-                        "alt": null,
-                        "copyright": null,
-                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/7392edcd706cd474b4bc0be49e52fba9a0e012ac_opera4.jpg"
-                      },
-                      "views": {
-                        "desktop": {
-                          "dimensions": {
-                            "width": 1920,
-                            "height": 900
-                          },
-                          "alt": null,
-                          "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/78a8f4f308fff64ac01d329b6d2c2501670cce3d_opera4.jpg"
-                        },
-                        "mobile": {
-                          "dimensions": {
-                            "width": 800,
-                            "height": 820
-                          },
-                          "alt": null,
-                          "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/67a34f18365fa2ab3cdd4328f012b6c7a01441e7_opera4.jpg"
-                        }
-                      }
-                    }
-                  }
-                }
-              ]
-            },
-            {
-              "type": "quote-tile",
-              "value": [
-                {
-                  "quote": {
-                    "type": "Text",
-                    "value": "Have a look inside, because this is where it all happens"
-                  },
-                  "author": {
-                    "type": "Text",
-                    "value": "Jan Utzon, Architect"
-                  }
-                }
-              ]
-            },
-            {
-              "type": "content-tile",
-              "value": [
-                {
-                  "copy": {
-                    "type": "Text",
-                    "value": "126 unsuspecting Instagrammers invited to #comeonin."
-                  },
-                  "imageDesktop": {
-                    "type": "Image",
-                    "value": {
-                      "main": {
-                        "dimensions": {
-                          "width": 900,
-                          "height": 302
-                        },
-                        "alt": null,
-                        "copyright": null,
-                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/59c5c119e21c999e7d28de0ef729529d20a06ad5_opera5.png"
-                      },
-                      "views": {
-                      }
-                    }
-                  },
-                  "imageMobile": {
-                    "type": "Image",
-                    "value": {
-                      "main": {
-                        "dimensions": {
-                          "width": 900,
-                          "height": 302
-                        },
-                        "alt": null,
-                        "copyright": null,
-                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/59c5c119e21c999e7d28de0ef729529d20a06ad5_opera5.png"
-                      },
-                      "views": {
-                      }
-                    }
-                  }
-                }
-              ]
-            },
-            {
-              "type": "content-tile",
-              "value": [
-                {
-                  "headline": {
-                    "type": "Text",
-                    "value": "How we found the photos"
-                  },
-                  "subline": {
-                    "type": "Text",
-                    "value": "Custom software uses computer vision to identify photos of the <br>famous sails along with geo-location to find ones posted in close proximity. <br>An on-site response team picks an Instagram user for an experience and quickly <br>film and posts a video response inviting them inside."
-                  },
-                  "imageDesktop": {
-                    "type": "Image",
-                    "value": {
-                      "main": {
-                        "dimensions": {
-                          "width": 781,
-                          "height": 220
-                        },
-                        "alt": null,
-                        "copyright": null,
-                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/ab43a91c6fdf470a5ee7dab142e4442e47ddb736_opera6.png"
-                      },
-                      "views": {
-                      }
-                    }
-                  },
-                  "imageMobile": {
-                    "type": "Image",
-                    "value": {
-                      "main": {
-                        "dimensions": {
-                          "width": 781,
-                          "height": 220
-                        },
-                        "alt": null,
-                        "copyright": null,
-                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/ab43a91c6fdf470a5ee7dab142e4442e47ddb736_opera6.png"
-                      },
-                      "views": {
-                      }
-                    }
-                  }
-                }
-              ]
-            },
-            {
-              "type": "content-tile",
-              "value": [
-                {
-                  "headline": {
-                    "type": "Text",
-                    "value": "Results"
-                  },
-                  "subline": {
-                    "type": "Text",
-                    "value": "In 4 weeks, over 5 million people saw a new side to the <br>Sydney Opera House: the inside."
-                  },
-                  "list": {
-                    "type": "StructuredText",
-                    "value": [
-                      {
-                        "type": "paragraph",
-                        "text": "126 unsuspecting Instagrammers invited to #comeonin.",
-                        "spans": [
-
-                        ]
-                      },
-                      {
-                        "type": "paragraph",
-                        "text": "Social engagement up 30% from campaign launch",
-                        "spans": [
-
-                        ]
-                      },
-                      {
-                        "type": "paragraph",
-                        "text": "17 million impressions generated.",
-                        "spans": [
-
-                        ]
-                      },
-                      {
-                        "type": "paragraph",
-                        "text": "Social engagement up 30% from campaign launch",
-                        "spans": [
-
-                        ]
-                      }
-                    ]
-                  }
-                }
-              ]
-            }
-          ]
-        }
-      }
-    },
-    {
-      "uid": "volkswagen-brand-love",
-      "data": {
-        "meta-title": {
-          "type": "Text",
-          "value": "Volkswagen Brand Love | DDB"
-        },
-        "foregroundColor": {
-          "type": "Color",
-          "value": "#ffffff"
-        },
-        "backgroundColor": {
-          "type": "Color",
-          "value": "#000000"
-        },
-        "sections": {
-          "type": "SectionList",
-          "value": [
-            {
-              "type": "case-study-work-tile",
-              "value": [
-                {
-                  "headline": {
-                    "type": "Text",
-                    "value": "Volkswagen"
-                  },
-                  "copy": {
-                    "type": "Text",
-                    "value": "When is a car more than a car?"
-                  },
-                  "image": {
-                    "type": "Image",
-                    "value": {
-                      "main": {
-                        "dimensions": {
-                          "width": 1920,
-                          "height": 900
-                        },
-                        "alt": null,
-                        "copyright": null,
-                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/1741f1f0e467c15cf8d5b06cdf3bd74399523afc_vw-brand-love-1.jpg"
-                      },
-                      "views": {
-                        "desktop": {
-                          "dimensions": {
-                            "width": 1920,
-                            "height": 900
-                          },
-                          "alt": null,
-                          "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/1741f1f0e467c15cf8d5b06cdf3bd74399523afc_vw-brand-love-1.jpg"
-                        },
-                        "mobile": {
-                          "dimensions": {
-                            "width": 840,
-                            "height": 1350
-                          },
-                          "alt": null,
-                          "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/b7549b89914745585c3b341b69d28bed8e86c7a1_vw-brand-love-1.jpg"
-                        }
-                      }
-                    }
-                  }
-                }
-              ]
-            },
-            {
-              "type": "content-tile",
-              "value": [
-                {
-                  "subline": {
-                    "type": "Text",
-                    "value": "We needed to remind people that Volkswagen is entrenched in Aussie culture."
-                  },
-                  "copy": {
-                    "type": "Text",
-                    "value": "We asked when is a car more than a car? →"
-                  }
-                }
-              ]
-            },
-            {
-              "type": "image-tile",
-              "value": [
-                {
-                  "image": {
-                    "type": "Image",
-                    "value": {
-                      "main": {
-                        "dimensions": {
-                          "width": 887,
-                          "height": 382
-                        },
-                        "alt": null,
-                        "copyright": null,
-                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/a261d5ea06943187699aacdcbafd28515ff4c29d_screen-shot-2017-02-22-at-3.20.09-pm.png"
-                      },
-                      "views": {
-                        "desktop": {
-                          "dimensions": {
-                            "width": 1920,
-                            "height": 900
-                          },
-                          "alt": null,
-                          "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/9961341464cfa9da2c99e8ec8e8fb503f62dd359_screen-shot-2017-02-22-at-3.20.09-pm.png"
-                        },
-                        "mobile": {
-                          "dimensions": {
-                            "width": 800,
-                            "height": 820
-                          },
-                          "alt": null,
-                          "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/d6573ebd0ad56467615f2195ce14393d1068603f_screen-shot-2017-02-22-at-3.20.09-pm.png"
-                        }
-                      }
-                    }
-                  }
-                }
-              ]
-            },
-            {
-              "type": "content-tile",
-              "value": [
-                {
-                  "copy": {
-                    "type": "Text",
-                    "value": "As the brand name suggests, this is the people’s car <br>– a legacy that transcends sheet metal and machinery. <br>This was the thinking that gave rise to the campaign line <br>“When is a car more than a car? When it’s a Volkswagen.”"
-                  }
-                }
-              ]
-            },
-            {
-              "type": "image-tile",
-              "value": [
-                {
-                  "image": {
-                    "type": "Image",
-                    "value": {
-                      "main": {
-                        "dimensions": {
-                          "width": 1920,
-                          "height": 900
-                        },
-                        "alt": null,
-                        "copyright": null,
-                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/796cd2b8996f4705e419ab2b997a174f7d6ce732_vw-brand-love-2.jpg"
-                      },
-                      "views": {
-                        "mobile": {
-                          "dimensions": {
-                            "width": 800,
-                            "height": 820
-                          },
-                          "alt": null,
-                          "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/1b1d16a69232fd6cfb870092a62c0c7b01ea0b0a_vw-brand-love-2.jpg"
-                        },
-                        "desktop": {
-                          "dimensions": {
-                            "width": 1920,
-                            "height": 900
-                          },
-                          "alt": null,
-                          "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/796cd2b8996f4705e419ab2b997a174f7d6ce732_vw-brand-love-2.jpg"
-                        }
-                      }
-                    }
-                  }
-                }
-              ]
-            },
-            {
-              "type": "content-tile",
-              "value": [
-                {
-                  "copy": {
-                    "type": "Text",
-                    "value": "But for the message to really hit home, it couldn’t come from us. <br>We reached out to real Volkswagen owners and asked them to <br>share what made their cars more than a car.The result; <br>a joyous and honest celebration of life in a Volkswagen."
-                  }
-                }
-              ]
-            },
-            {
-              "type": "video-tile",
-              "value": [
-                {
-                  "video": {
-                    "type": "Link.web",
-                    "value": {
-                      "url": "https://www.youtube.com/watch?v=_-Eu5mF3Fqc"
-                    }
-                  }
-                }
-              ]
-            }
-          ]
-        }
-      }
-    },
-    {
-      "uid": "test",
-      "data": {
-        "meta-title": {
-          "type": "Text",
-          "value": "Test Case Study | DDB"
-        },
-        "meta-description": {
-          "type": "Text",
-          "value": "Case study for testing"
-        },
-        "foregroundColor": {
-          "type": "Color",
-          "value": "#ffffff"
-        },
-        "backgroundColor": {
-          "type": "Color",
-          "value": "#444444"
-        },
-        "sections": {
-          "type": "SectionList",
-          "value": [
-            {
-              "type": "case-study-work-tile",
-              "value": [
-                {
-                  "headline": {
-                    "type": "Text",
-                    "value": "Case study work tile - headline"
-                  },
-                  "copy": {
-                    "type": "Text",
-                    "value": "Case study work tile - copy"
-                  },
-                  "image": {
-                    "type": "Image",
-                    "value": {
-                      "main": {
-                        "dimensions": {
-                          "width": 1920,
-                          "height": 900
-                        },
-                        "alt": null,
-                        "copyright": null,
-                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/661b5836861bc7eaaf4f45f0879eeb8c2a6dbb1e_placeholder-1920x900-000000.png"
-                      },
-                      "views": {
-                        "mobile": {
-                          "dimensions": {
-                            "width": 800,
-                            "height": 820
-                          },
-                          "alt": null,
-                          "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/c74dada68467c8e09a98ba16362f239b91969993_layout_840x1350_000000.png"
-                        },
-                        "desktop": {
-                          "dimensions": {
-                            "width": 1920,
-                            "height": 900
-                          },
-                          "alt": null,
-                          "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/661b5836861bc7eaaf4f45f0879eeb8c2a6dbb1e_placeholder-1920x900-000000.png"
-                        }
-                      }
-                    }
-                  },
-                  "align": {
-                    "type": "Select",
-                    "value": "center"
-                  }
-                }
-              ]
-            },
-            {
-              "type": "content-tile",
-              "value": [
-                {
-                  "image": {
-                    "type": "Image",
-                    "value": {
-                      "main": {
-                        "dimensions": {
-                          "width": 1023,
-                          "height": 512
-                        },
-                        "alt": null,
-                        "copyright": null,
-                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/a8fd843b4572f294a0754363b0eb2e2635d6b858_vw2.jpg"
-                      },
-                      "views": {
-                        "desktop": {
-                          "dimensions": {
-                            "width": 1920,
-                            "height": 900
-                          },
-                          "alt": null,
-                          "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/f21567514a6848315255db8d1830ed07cf998b13_vw2.jpg"
-                        },
-                        "mobile": {
-                          "dimensions": {
-                            "width": 800,
-                            "height": 820
-                          },
-                          "alt": null,
-                          "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/cec3370d8d089d2a633d000d8b36f877d5f00321_vw2.jpg"
-                        }
-                      }
-                    }
-                  },
-                  "headline": {
-                    "type": "Text",
-                    "value": "Content tile - Headline"
-                  },
-                  "subline": {
-                    "type": "Text",
-                    "value": "Content tile - Subline"
-                  },
-                  "copy": {
-                    "type": "Text",
-                    "value": "Content tile - Copy"
-                  }
-                }
-              ]
-            },
-            {
-              "type": "image-tile",
-              "value": [
-                {
-                  "image": {
-                    "type": "Image",
-                    "value": {
-                      "main": {
-                        "dimensions": {
-                          "width": 1662,
-                          "height": 900
-                        },
-                        "alt": null,
-                        "copyright": null,
-                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/592c78ebdfecdd8f841943163e15e80f02df75e3_vw3.jpg"
-                      },
-                      "views": {
-                        "mobile": {
-                          "dimensions": {
-                            "width": 800,
-                            "height": 820
-                          },
-                          "alt": null,
-                          "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/0b606231ef418f5673066ee3f4527a77b3b18803_vw3.jpg"
-                        },
-                        "desktop": {
-                          "dimensions": {
-                            "width": 1920,
-                            "height": 900
-                          },
-                          "alt": null,
-                          "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/f7d543d2e270b839a54d5cf12e1ee38d59f8717c_vw3.jpg"
-                        }
-                      }
-                    }
-                  }
-                }
-              ]
-            },
-            {
-              "type": "content-tile",
-              "value": [
-                {
-                  "copy": {
-                    "type": "Text",
-                    "value": "The following is an HTML video:"
-                  }
-                }
-              ]
-            },
-            {
-              "type": "video-tile",
-              "value": [
-                {
-                  "video": {
-                    "type": "Link.web",
-                    "value": {
-                      "url": "http://content.volkswagen-commercial.com.au/Amarok/Content/videos/VW_The_Naked_Reveal_Loop.mp4"
-                    }
-                  }
-                }
-              ]
-            },
-            {
-              "type": "content-tile",
-              "value": [
-                {
-                  "headline": {
-                    "type": "Text",
-                    "value": "Youtube video 1"
-                  },
-                  "copy": {
-                    "type": "Text",
-                    "value": "This is a [https://youtu.be/_____] video"
-                  }
-                }
-              ]
-            },
-            {
-              "type": "video-tile",
-              "value": [
-                {
-                  "video": {
-                    "type": "Link.web",
-                    "value": {
-                      "url": "https://youtu.be/Nxm3S6bjb9U"
-                    }
-                  }
-                }
-              ]
-            },
-            {
-              "type": "content-tile",
-              "value": [
-                {
-                  "headline": {
-                    "type": "Text",
-                    "value": "Youtube video 2"
-                  },
-                  "copy": {
-                    "type": "Text",
-                    "value": "This is a [www.youtube.com/embed/____] video:"
-                  }
-                }
-              ]
-            },
-            {
-              "type": "video-tile",
-              "value": [
-                {
-                  "video": {
-                    "type": "Link.web",
-                    "value": {
-                      "url": "https://www.youtube.com/embed/65OV30_Oy-0"
-                    }
-                  }
-                }
-              ]
-            },
-            {
-              "type": "content-tile",
-              "value": [
-                {
-                  "headline": {
-                    "type": "Text",
-                    "value": "Youtube video 3"
-                  },
-                  "copy": {
-                    "type": "Text",
-                    "value": "This is a normal [youtube.com/watch?____] video:"
-                  }
-                }
-              ]
-            },
-            {
-              "type": "video-tile",
-              "value": [
-                {
-                  "video": {
-                    "type": "Link.web",
-                    "value": {
-                      "url": "https://www.youtube.com/watch?v=QgM4hkAkeY0"
-                    }
-                  }
-                }
-              ]
-            },
-            {
-              "type": "quote-tile",
-              "value": [
-                {
-                  "textColor": {
-                    "type": "Color",
-                    "value": "#ffffff"
-                  },
-                  "image": {
-                    "type": "Image",
-                    "value": {
-                      "main": {
-                        "dimensions": {
-                          "width": 1662,
-                          "height": 900
-                        },
-                        "alt": null,
-                        "copyright": null,
-                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/592c78ebdfecdd8f841943163e15e80f02df75e3_vw3.jpg"
-                      },
-                      "views": {
-                        "mobile": {
-                          "dimensions": {
-                            "width": 800,
-                            "height": 820
-                          },
-                          "alt": null,
-                          "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/60c2a62ae52ac4e92dfa8a4e90b317f696ad4689_vw3.jpg"
-                        },
-                        "desktop": {
-                          "dimensions": {
-                            "width": 1920,
-                            "height": 900
-                          },
-                          "alt": null,
-                          "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/f7d543d2e270b839a54d5cf12e1ee38d59f8717c_vw3.jpg"
-                        }
-                      }
-                    }
-                  },
-                  "quote": {
-                    "type": "Text",
-                    "value": "This is a Quote."
-                  },
-                  "author": {
-                    "type": "Text",
-                    "value": "This is the Author"
-                  }
-                }
-              ]
-            },
-            {
-              "type": "content-tile",
-              "value": [
-                {
-                  "headline": {
-                    "type": "Text",
-                    "value": "Vimeo video 1"
-                  },
-                  "copy": {
-                    "type": "Text",
-                    "value": "This is a [vimeo.com/____] video"
-                  }
-                }
-              ]
-            },
-            {
-              "type": "video-tile",
-              "value": [
-                {
-                  "video": {
-                    "type": "Link.web",
-                    "value": {
-                      "url": "https://vimeo.com/38409143"
-                    }
-                  }
-                }
-              ]
-            },
-            {
-              "type": "content-tile",
-              "value": [
-                {
-                  "headline": {
-                    "type": "Text",
-                    "value": "Vimeo video 2"
-                  },
-                  "copy": {
-                    "type": "Text",
-                    "value": "This is a [player.vimeo.com/video/____] video"
-                  }
-                }
-              ]
-            },
-            {
-              "type": "video-tile",
-              "value": [
-                {
-                  "video": {
-                    "type": "Link.web",
-                    "value": {
-                      "url": "https://player.vimeo.com/video/38409143"
-                    }
-                  }
-                }
-              ]
-            },
-            {
-              "type": "content-tile",
-              "value": [
-                {
-                  "headline": {
-                    "type": "Text",
-                    "value": "Headline text"
-                  },
-                  "subline": {
-                    "type": "Text",
-                    "value": "Subline text"
-                  },
-                  "copy": {
-                    "type": "Text",
-                    "value": "Copy text"
-                  },
-                  "list": {
-                    "type": "StructuredText",
-                    "value": [
-                      {
-                        "type": "paragraph",
-                        "text": "list1",
-                        "spans": [
-
-                        ]
-                      },
-                      {
-                        "type": "paragraph",
-                        "text": "list2",
-                        "spans": [
-
-                        ]
-                      },
-                      {
-                        "type": "paragraph",
-                        "text": "list3",
-                        "spans": [
-
-                        ]
-                      },
-                      {
-                        "type": "paragraph",
-                        "text": "list4",
-                        "spans": [
-
-                        ]
-                      },
-                      {
-                        "type": "paragraph",
-                        "text": "list5",
-                        "spans": [
-
-                        ]
-                      }
-                    ]
-                  }
-                }
-              ]
-            },
-            {
-              "type": "content-tile",
-              "value": [
-                {
-                  "headline": {
-                    "type": "Text",
-                    "value": "Donec blandit efficitur ligula vestibulum dignissim."
-                  },
-                  "subline": {
-                    "type": "Text",
-                    "value": "Quisque sit amet ex et metus pulvinar aliquam. Ut suscipit, ipsum non ornare rhoncus, dui neque aliquam mi, nec aliquam lorem ligula quis eros. Sed dapibus libero eros, ac faucibus erat viverra sit amet."
-                  },
-                  "copy": {
-                    "type": "Text",
-                    "value": "Phasellus in tempus lorem. Praesent aliquam cursus risus sit amet elementum. Sed consectetur sit amet urna in tincidunt. Curabitur volutpat augue sed lorem placerat, ut efficitur nulla sagittis. Maecenas id pulvinar lorem."
-                  },
-                  "list": {
-                    "type": "StructuredText",
-                    "value": [
-                      {
-                        "type": "paragraph",
-                        "text": "<b>Lorem</b><br class=\"all\"/><br class=\"all\"/>Mauris lectus orci, tincidunt sed egestas quis, eleifend lobortis justo.",
-                        "spans": [
-
-                        ]
-                      },
-                      {
-                        "type": "paragraph",
-                        "text": "Sed sit amet tincidunt massa.",
-                        "spans": [
-
-                        ]
-                      },
-                      {
-                        "type": "paragraph",
-                        "text": "Morbi et mattis est, vel gravida lectus.",
-                        "spans": [
-
-                        ]
-                      },
-                      {
-                        "type": "paragraph",
-                        "text": "<b>Ipsum</b><br class=\"all\"/><br class=\"all\"/>Cras suscipit convallis tincidunt.",
-                        "spans": [
-
-                        ]
-                      },
-                      {
-                        "type": "paragraph",
-                        "text": "Fusce turpis lacus, porta sit amet ligula ut, volutpat tempus leo.",
-                        "spans": [
-
-                        ]
-                      },
-                      {
-                        "type": "paragraph",
-                        "text": "Maecenas viverra turpis vel velit fermentum, a malesuada diam lacinia.",
-                        "spans": [
-
-                        ]
-                      }
-                    ]
-                  },
-                  "imageDesktop": {
-                    "type": "Image",
-                    "value": {
-                      "main": {
-                        "dimensions": {
-                          "width": 1023,
-                          "height": 512
-                        },
-                        "alt": null,
-                        "copyright": null,
-                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/a8fd843b4572f294a0754363b0eb2e2635d6b858_vw2.jpg"
-                      },
-                      "views": {
-                      }
-                    }
-                  },
-                  "imageMobile": {
-                    "type": "Image",
-                    "value": {
-                      "main": {
-                        "dimensions": {
-                          "width": 532,
-                          "height": 512
-                        },
-                        "alt": null,
-                        "copyright": null,
-                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/0e6cb497b9eec719d25ebbc9c5df02b6f7ee2983_vw2.jpg"
-                      },
-                      "views": {
-                      }
-                    }
-                  },
-                  "alignCopy": {
-                    "type": "Select",
-                    "value": "left"
-                  }
-                }
-              ]
-            },
-            {
-              "type": "quote-tile",
-              "value": [
-                {
-                  "image": {
-                    "type": "Image",
-                    "value": {
-                      "main": {
-                        "dimensions": {
-                          "width": 1023,
-                          "height": 512
-                        },
-                        "alt": null,
-                        "copyright": null,
-                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/a8fd843b4572f294a0754363b0eb2e2635d6b858_vw2.jpg"
-                      },
-                      "views": {
-                        "desktop": {
-                          "dimensions": {
-                            "width": 1920,
-                            "height": 900
-                          },
-                          "alt": null,
-                          "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/f21567514a6848315255db8d1830ed07cf998b13_vw2.jpg"
-                        },
-                        "mobile": {
-                          "dimensions": {
-                            "width": 800,
-                            "height": 820
-                          },
-                          "alt": null,
-                          "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/cec3370d8d089d2a633d000d8b36f877d5f00321_vw2.jpg"
-                        }
-                      }
-                    }
-                  },
-                  "quote": {
-                    "type": "Text",
-                    "value": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Deinde dolorem quem maximum?"
-                  },
-                  "author": {
-                    "type": "Text",
-                    "value": "Lorem ipsum"
-                  },
-                  "imageDesktop": {
-                    "type": "Image",
-                    "value": {
-                      "main": {
-                        "dimensions": {
-                          "width": 1662,
-                          "height": 900
-                        },
-                        "alt": null,
-                        "copyright": null,
-                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/592c78ebdfecdd8f841943163e15e80f02df75e3_vw3.jpg"
-                      },
-                      "views": {
-                      }
-                    }
-                  },
-                  "imageMobile": {
-                    "type": "Image",
-                    "value": {
-                      "main": {
-                        "dimensions": {
-                          "width": 1023,
-                          "height": 512
-                        },
-                        "alt": null,
-                        "copyright": null,
-                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/a8fd843b4572f294a0754363b0eb2e2635d6b858_vw2.jpg"
-                      },
-                      "views": {
-                      }
-                    }
-                  }
-                }
-              ]
-            }
-          ]
-        }
-      }
-    },
-    {
-      "uid": "mcdonalds-loaded-fries",
-      "data": {
-        "meta-title": {
-          "type": "Text",
-          "value": "McDonalds Loaded Fries | DDB"
-        },
-        "meta-description": {
-          "type": "Text",
-          "value": "Case Study McDonalds Loaded Fries"
-        },
-        "foregroundColor": {
-          "type": "Color",
-          "value": "#000000"
-        },
-        "backgroundColor": {
-          "type": "Color",
-          "value": "#ffffff"
-        },
-        "sections": {
-          "type": "SectionList",
-          "value": [
-            {
-              "type": "case-study-work-tile",
-              "value": [
-                {
-                  "headline": {
-                    "type": "Text",
-                    "value": "McDonalds"
-                  },
-                  "copy": {
-                    "type": "Text",
-                    "value": "McDonald’s was modifying their famous, golden Fries for the first time in their history."
-                  },
-                  "image": {
-                    "type": "Image",
-                    "value": {
-                      "main": {
-                        "dimensions": {
-                          "width": 1920,
-                          "height": 900
-                        },
-                        "alt": null,
-                        "copyright": null,
-                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/453f6c0a83abf7497e5d40eb7c6846fdf0e5f964_mcd1.jpg"
-                      },
-                      "views": {
-                        "mobile": {
-                          "dimensions": {
-                            "width": 840,
-                            "height": 1350
-                          },
-                          "alt": null,
-                          "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/dcbea10e9b15663015ee5758c025224cc8068fa5_mcd1.jpg"
-                        },
-                        "desktop": {
-                          "dimensions": {
-                            "width": 1920,
-                            "height": 900
-                          },
-                          "alt": null,
-                          "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/453f6c0a83abf7497e5d40eb7c6846fdf0e5f964_mcd1.jpg"
-                        }
-                      }
-                    }
-                  },
-                  "align": {
-                    "type": "Select",
-                    "value": "center"
-                  }
-                }
-              ]
-            },
-            {
-              "type": "content-tile",
-              "value": [
-                {
-                  "headline": {
-                    "type": "Text",
-                    "value": "Problem"
-                  },
-                  "subline": {
-                    "type": "Text",
-                    "value": "How do we launch Macca’s new Loaded Fries in a <br>fun way that will get Aussies excited to try them?"
-                  }
-                }
-              ]
-            },
-            {
-              "type": "image-tile",
-              "value": [
-                {
-                  "image": {
-                    "type": "Image",
-                    "value": {
-                      "main": {
-                        "dimensions": {
-                          "width": 1920,
-                          "height": 900
-                        },
-                        "alt": null,
-                        "copyright": null,
-                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/45e2eba3a59ae55921a42ec44ec5953b952759b7_mcd3.jpg"
-                      },
-                      "views": {
-                        "desktop": {
-                          "dimensions": {
-                            "width": 1920,
-                            "height": 900
-                          },
-                          "alt": null,
-                          "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/45e2eba3a59ae55921a42ec44ec5953b952759b7_mcd3.jpg"
-                        },
-                        "mobile": {
-                          "dimensions": {
-                            "width": 800,
-                            "height": 820
-                          },
-                          "alt": null,
-                          "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/a2af8f7037c9c9933dd59f3edfc5a73662b32403_mcd3.jpg"
-                        }
-                      }
-                    }
-                  }
-                }
-              ]
-            },
-            {
-              "type": "content-tile",
-              "value": [
-                {
-                  "headline": {
-                    "type": "Text",
-                    "value": "Solution"
-                  },
-                  "subline": {
-                    "type": "Text",
-                    "value": "Literally “Bring Fries to Life” (just like the range of sauces does) <br>through a combination of macro videography and the voices of a <br>handful of hilarious comedians."
-                  }
-                }
-              ]
-            },
-            {
-              "type": "video-tile",
-              "value": [
-                {
-                  "video": {
-                    "type": "Link.web",
-                    "value": {
-                      "url": "https://www.youtube.com/watch?v=FEJT84r3Fkk"
-                    }
-                  }
-                }
-              ]
-            },
-            {
-              "type": "content-tile",
-              "value": [
-                {
-                  "headline": {
-                    "type": "Text",
-                    "value": "The recording process"
-                  },
-                  "subline": {
-                    "type": "Text",
-                    "value": "We assembled a group of hilarious actors and set them <br>loose in the recording booth with our scripts and direction."
-                  }
-                }
-              ]
-            },
-            {
-              "type": "video-tile",
-              "value": [
-                {
-                  "video": {
-                    "type": "Link.web",
-                    "value": {
-                      "url": "https://www.youtube.com/watch?v=sqKI_ZteLyc"
-                    }
-                  }
-                }
-              ]
-            },
-            {
-              "type": "content-tile",
-              "value": [
-                {
-                  "headline": {
-                    "type": "Text",
-                    "value": "Where were they seen?"
-                  },
-                  "subline": {
-                    "type": "Text",
-                    "value": "Videos were shown on television and online, as well as special pre-roll <br>and cinema placements. These placements were supported by a range of <br>OOH and digital placements that drove people to the films."
-                  }
-                }
-              ]
-            },
-            {
-              "type": "image-tile",
-              "value": [
-                {
-                  "image": {
-                    "type": "Image",
-                    "value": {
-                      "main": {
-                        "dimensions": {
-                          "width": 1920,
-                          "height": 900
-                        },
-                        "alt": null,
-                        "copyright": null,
-                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/db334b9d02fa5af8e7cfa77062272c3bfeb9c329_mcd4.jpg"
-                      },
-                      "views": {
-                        "desktop": {
-                          "dimensions": {
-                            "width": 1920,
-                            "height": 900
-                          },
-                          "alt": null,
-                          "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/db334b9d02fa5af8e7cfa77062272c3bfeb9c329_mcd4.jpg"
-                        },
-                        "mobile": {
-                          "dimensions": {
-                            "width": 800,
-                            "height": 820
-                          },
-                          "alt": null,
-                          "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/1b343196cda7d006a0040fdc0f3ad771621ebde7_mcd4.jpg"
-                        }
-                      }
-                    }
-                  }
-                }
-              ]
-            }
-          ]
-        }
-      }
-    },
-    {
-      "uid": "volkswagen-naked-ute",
-      "data": {
-        "meta-title": {
-          "type": "Text",
-          "value": "Volkswagen Naked Ute | DDB"
-        },
-        "foregroundColor": {
-          "type": "Color",
-          "value": "#ffffff"
-        },
-        "sections": {
-          "type": "SectionList",
-          "value": [
-            {
-              "type": "case-study-work-tile",
-              "value": [
-                {
-                  "headline": {
-                    "type": "Text",
-                    "value": "Volkswagen"
-                  },
-                  "copy": {
-                    "type": "Text",
-                    "value": "Aussie blokes were judging the Amarok by its cover, so we removed it."
-                  },
-                  "image": {
-                    "type": "Image",
-                    "value": {
-                      "main": {
-                        "dimensions": {
-                          "width": 1662,
-                          "height": 900
-                        },
-                        "alt": null,
-                        "copyright": null,
-                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/592c78ebdfecdd8f841943163e15e80f02df75e3_vw3.jpg"
-                      },
-                      "views": {
-                        "mobile": {
-                          "dimensions": {
-                            "width": 840,
-                            "height": 1350
-                          },
-                          "alt": null,
-                          "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/41225aec26ec6ea1cf2e6660aa877fe36e3e85df_vw3.jpg"
-                        },
-                        "desktop": {
-                          "dimensions": {
-                            "width": 1920,
-                            "height": 900
-                          },
-                          "alt": null,
-                          "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/f7d543d2e270b839a54d5cf12e1ee38d59f8717c_vw3.jpg"
-                        }
-                      }
-                    }
-                  },
-                  "align": {
-                    "type": "Select",
-                    "value": "right"
-                  }
-                }
-              ]
-            },
-            {
-              "type": "content-tile",
-              "value": [
-                {
-                  "copy": {
-                    "type": "Text",
-                    "value": "The Amarok’s sleek European styling led people to believe <br>that it was too precious to handle tough Australian conditions"
-                  }
-                }
-              ]
-            },
-            {
-              "type": "image-tile",
-              "value": [
-                {
-                  "image": {
-                    "type": "Image",
-                    "value": {
-                      "main": {
-                        "dimensions": {
-                          "width": 1043,
-                          "height": 445
-                        },
-                        "alt": null,
-                        "copyright": null,
-                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/1dfff8c07af75652bb12403c0316a5d9f3337cfe_screen-shot-2017-02-22-at-3.43.14-pm.png"
-                      },
-                      "views": {
-                        "mobile": {
-                          "dimensions": {
-                            "width": 800,
-                            "height": 820
-                          },
-                          "alt": null,
-                          "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/2683012cc6a938c67a6360e00bc3d9f06698ac2d_screen-shot-2017-02-22-at-3.43.14-pm.png"
-                        },
-                        "desktop": {
-                          "dimensions": {
-                            "width": 1920,
-                            "height": 900
-                          },
-                          "alt": null,
-                          "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/ba2b62ef35e03cc2e465480f64b8653782185e3f_screen-shot-2017-02-22-at-3.43.14-pm.png"
-                        }
-                      }
-                    }
-                  }
-                }
-              ]
-            },
-            {
-              "type": "content-tile",
-              "value": [
-                {
-                  "headline": {
-                    "type": "Text",
-                    "value": "Solution"
-                  },
-                  "subline": {
-                    "type": "Text",
-                    "value": "We Stripped the Amarok of everything that identified it, <br>forcing critics to judge it on performance alone."
-                  }
-                }
-              ]
-            },
-            {
-              "type": "image-tile",
-              "value": [
-                {
-                  "image": {
-                    "type": "Image",
-                    "value": {
-                      "main": {
-                        "dimensions": {
-                          "width": 782,
-                          "height": 361
-                        },
-                        "alt": null,
-                        "copyright": null,
-                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/d4413bf1bfd6df594aebea86a7184f5c5c3c610a_screen-shot-2017-02-22-at-3.38.40-pm.png"
-                      },
-                      "views": {
-                        "desktop": {
-                          "dimensions": {
-                            "width": 1920,
-                            "height": 900
-                          },
-                          "alt": null,
-                          "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/a3c6a9c2ee3563849edfc6f06c5fea86c9587f22_screen-shot-2017-02-22-at-3.38.40-pm.png"
-                        },
-                        "mobile": {
-                          "dimensions": {
-                            "width": 800,
-                            "height": 820
-                          },
-                          "alt": null,
-                          "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/938aba1facb6ee718679a7491a20f04e78895c90_screen-shot-2017-02-22-at-3.38.40-pm.png"
-                        }
-                      }
-                    }
-                  }
-                }
-              ]
-            },
-            {
-              "type": "content-tile",
-              "value": [
-                {
-                  "subline": {
-                    "type": "Text",
-                    "value": "We asked some of the Amarok’s greatest sceptics to guess <br>what it was, while the public guessed along with them."
-                  }
-                }
-              ]
-            },
-            {
-              "type": "video-tile",
-              "value": [
-                {
-                  "video": {
-                    "type": "Link.web",
-                    "value": {
-                      "url": "https://www.youtube.com/watch?v=rWjyPfEbiyg"
-                    }
-                  }
-                }
-              ]
-            },
-            {
-              "type": "content-tile",
-              "value": [
-                {
-                  "subline": {
-                    "type": "Text",
-                    "value": "We then revealed that the tough Naked Ute was actually the <br>Volkswagen Amarok challenging their prejudices, perceptions <br>and outdated opinions on how the Amarok really performs."
-                  }
-                }
-              ]
-            },
-            {
-              "type": "image-tile",
-              "value": [
-                {
-                  "image": {
-                    "type": "Image",
-                    "value": {
-                      "main": {
-                        "dimensions": {
-                          "width": 777,
-                          "height": 425
-                        },
-                        "alt": null,
-                        "copyright": null,
-                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/8ee6bc85cfe26fad23521f649afc6edea55078f2_screen-shot-2017-02-22-at-3.50.15-pm.png"
-                      },
-                      "views": {
-                        "desktop": {
-                          "dimensions": {
-                            "width": 1920,
-                            "height": 900
-                          },
-                          "alt": null,
-                          "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/94dab273beae6238cb0afadcd5f61e8f891a7b2b_screen-shot-2017-02-22-at-3.50.15-pm.png"
-                        },
-                        "mobile": {
-                          "dimensions": {
-                            "width": 800,
-                            "height": 820
-                          },
-                          "alt": null,
-                          "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/2982f50073a37024f7d646370256e5747ddff549_screen-shot-2017-02-22-at-3.50.15-pm.png"
-                        }
-                      }
-                    }
-                  }
-                }
-              ]
-            },
-            {
-              "type": "content-tile",
-              "value": [
-                {
-                  "headline": {
-                    "type": "Text",
-                    "value": "Results"
-                  },
-                  "subline": {
-                    "type": "Text",
-                    "value": "A total reach of 7.7 million with 125,000 unique <br>visitors to our unbranded website, more than 24,000 <br>guesses an an immediate uplift in sales."
-                  }
-                }
-              ]
-            },
-            {
-              "type": "video-tile",
-              "value": [
-                {
-                  "video": {
-                    "type": "Link.web",
-                    "value": {
-                      "url": "https://www.youtube.com/watch?v=OFk-oFd6aa8"
-                    }
-                  }
-                }
-              ]
-            }
-          ]
-        }
-      }
-    }
-  ],
   "work": [
     {
       "uid": "work",
@@ -3535,11 +4519,11 @@
                       "main": {
                         "dimensions": {
                           "width": 800,
-                          "height": 312
+                          "height": 260
                         },
                         "alt": null,
                         "copyright": null,
-                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/647bdccacbe30177df6ee7269366b192d23c3ad4_thinking_fast_and_slow_desktop.png"
+                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/9a12163256a47a427c82dadf886e07fb82619633_book_desktop.png"
                       },
                       "views": {
                       }
@@ -3551,11 +4535,11 @@
                       "main": {
                         "dimensions": {
                           "width": 174,
-                          "height": 312
+                          "height": 260
                         },
                         "alt": null,
                         "copyright": null,
-                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/438fca144896f1b6c215a027e0e548c4a4c8d384_thinking_fast_and_slow.png"
+                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/09a41accf29c87c0f723fcbca3b11df27fa893a2_book_mobile.png"
                       },
                       "views": {
                       }

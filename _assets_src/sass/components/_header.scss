@@ -26,7 +26,7 @@
     @include mobile { @include font--style("h2"); }
   }
 
-  a i { @include font--style("h3"); }
+  a i { @include font--style("h1"); }
 
   &__back, &__logo,
   &__menu, &__nav {
@@ -149,25 +149,35 @@
 // -------------------------------------
 //   Header - Logo
 // -------------------------------------
-$header_logo_w_max: 60px;
-$header_logo_w_max_tab: 50px;
-$header_logo_w_max_mob: 50px;
+$header_logo_w: 60px;
+$header_logo_h: 22px;
 
-$header_logo_padding: 0.5em;
-$header_logo_padding_sm: 0.25em;
+$header_logo_w_mob: 50px;
+$header_logo_h_mob: 20px;
 
 .header__logo {
-  align-self: flex-start;
-  padding: $header_logo_padding 0;
-  @include tablet { padding-top: $header_logo_padding_sm; }
+  margin-top: 1em;
+  @include mobile { margin-top: 0.35em; }
 
-  &--desktop { @include mobile { display: none !important; }}
-  &--mobile  { @include mobile-up { display: none !important; }}
+  &--desktop { 
+    @include mobile { display: none !important; }
+    height: $header_logo_h;
+    width: $header_logo_w;
+    align-self: center;
+  }
 
-  > img {
-    @extend %center;
-    max-width: $header_logo_w_max;
-    @include tablet { max-width: $header_logo_w_max_tab; }
-    @include mobile { max-width: $header_logo_w_max_mob; }
+  &--mobile  { 
+    @include mobile-up { display: none !important; }
+    height: $header_logo_h_mob;
+    width: $header_logo_w_mob;
+    align-self: flex-start;
+  }
+
+  > img { 
+    height: auto;
+    width: $header_logo_w;
+    @extend %transform-center-h;
+    @include tablet { width: $header_logo_w_mob; }
+
   }
 }
