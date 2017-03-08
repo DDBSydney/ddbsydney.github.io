@@ -10,10 +10,11 @@ $about_tile_h_min_mob: 50vh;
 
 .about-tile {
   @extend %flex--row;
-  min-height: $about_tile_h_min;
+  height: $about_tile_h_min;
+  min-height: $base_html_w_min;
 
   background-color: black;
-  @include mobile { min-height: $about_tile_h_min_mob; }
+  @include mobile { height: $about_tile_h_min_mob; }
 
   .about-tile__content {
     @include section--padding;

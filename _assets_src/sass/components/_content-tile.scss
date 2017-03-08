@@ -13,13 +13,14 @@ $content_tile_list_w_max: 980px;
 $content_tile_list_w_max_mob: 460px;
 
 .content-tile {
-  @extend %flex--row;
+  @extend %table;
   min-height: $content_tile_h_min;
   @include mobile { min-height: $content_tile_h_min_mob; }
 
   .content-tile__content {
-    @extend %flex--col;
-    align-self: center;
+   @extend %table--col;
+    display: table-cell;
+    vertical-align: middle;
     @include section--padding("lg");
 
     @include mobile {

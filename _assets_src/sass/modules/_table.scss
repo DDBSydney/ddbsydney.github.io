@@ -1,0 +1,31 @@
+// -------------------------------------
+//   Module - Table
+// -------------------------------------
+/**
+  * @name table
+  * @desc Styles for the table module.
+**/
+
+// table
+%table {
+  width: 100%;
+  display: table;
+  position: relative;
+  box-sizing: border-box;
+}
+
+// modifier - row
+%table--row {
+  width: 100%;
+  display: table-row;
+  position: relative;
+  box-sizing: border-box;
+}
+
+// modifier - col
+%table--col {
+  width: 100%;
+  display: table-cell;
+  position: relative;
+  box-sizing: border-box;
+}
