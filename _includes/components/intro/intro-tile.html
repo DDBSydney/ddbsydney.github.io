@@ -1,0 +1,57 @@
+{% assign tile = include.data[0] %}
+
+<!-- intro tile -->
+<div class="intro-tile">
+
+  <!-- image -->
+  <div class="image">
+
+    <div data-link-image="sydney" class="intro-tile__image-section">
+      <!-- image cover - desktop -->
+      {% if tile.imageSydney.value.views.desktop.url %}
+      <div class="image__cover image__cover--desktop" style="background-image: url('{{ tile.imageSydney.value.views.desktop.url }}');"></div>
+      {% endif %}
+
+      <!-- image cover - mobile -->
+      {% if tile.imageSydney.value.views.mobile.url %}
+      <div class="image__cover image__cover--mobile" style="background-image: url('{{ tile.imageSydney.value.views.mobile.url }}');"></div>
+      {% endif %}
+    </div>
+
+    <div data-link-image="melbourne" class="intro-tile__image-section">
+      <!-- image cover - desktop -->
+      {% if tile.imageMelbourne.value.views.desktop.url %}
+      <div class="image__cover image__cover--desktop" style="background-image: url('{{ tile.imageMelbourne.value.views.desktop.url }}');"></div>
+      {% endif %}
+
+      <!-- image cover - mobile -->
+      {% if tile.imageMelbourne.value.views.mobile.url %}
+      <div class="image__cover image__cover--mobile" style="background-image: url('{{ tile.imageMelbourne.value.views.mobile.url }}');"></div>
+      {% endif %}
+    </div>
+
+    <div data-link-image="group" class="intro-tile__image-section">
+      <!-- image cover - desktop -->
+      {% if tile.imageGroup.value.views.desktop.url %}
+      <div class="image__cover image__cover--desktop" style="background-image: url('{{ tile.imageGroup.value.views.desktop.url }}');"></div>
+      {% endif %}
+
+      <!-- image cover - mobile -->
+      {% if tile.imageGroup.value.views.mobile.url %}
+      <div class="image__cover image__cover--mobile" style="background-image: url('{{ tile.imageGroup.value.views.mobile.url }}');"></div>
+      {% endif %}
+    </div>
+
+    <!-- image cover - overlay -->
+    <div class="image__cover image__cover--overlay"></div>
+
+  </div><!-- image end -->
+
+  <!-- links -->
+  <div class="intro-tile__links">
+    <a data-link-anchor="sydney" class="link" href="/sydney"><span> Sydney </span></a><br class="all">
+    <a data-link-anchor="melbourne" class="link" href="http://ddbmelbourne.com"><span> Melbourne </span></a><br class="all">
+    <a data-link-anchor="group" class="link" href="/sydney/people#group"><span> Group </span></a><br class="all">
+  </div><!-- links -->
+
+</div><!-- intro tile end -->

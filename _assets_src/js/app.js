@@ -27,6 +27,7 @@ var ClickableTile = require("./directives/clickable-tile.directive");
 // components
 var Header = require("./components/header.component");
 var PromoVideo = require("./components/promo-video.component");
+var IntroTile = require("./components/intro/intro-tile.component");
 
 // controllers
 /* empty block */
@@ -61,6 +62,7 @@ console.log(CONFIG);
     var _elBody = null; // reference to the body DOM element
 
     var _header = null; // object to hold a refernce for the header component
+    var _introTile = null; // object to hold a refernce for the intro-tile component
     var _promoVideos = []; // array of objects to hold references for the the promo video components
     var _hasFastClickAttached = false; // flag to indicate if fast click was attached
 
@@ -107,6 +109,9 @@ console.log(CONFIG);
 
       // create and intialise the header component
       _header = new Header({ element: query(".header")[0] });
+
+      // create and initialise the intro-tile component
+      _introTile = new IntroTile({ element: query(".intro-tile")[0] });
 
       // create and intialise the promo video components
       query(".promo-video").forEach(function(element, index){

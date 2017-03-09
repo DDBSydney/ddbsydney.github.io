@@ -10,7 +10,7 @@
       {% comment %} <!-- Intro Page --> {% endcomment %}
 
       {% when "intro-tile" %}
-        {% include components/intro-tile.html data=section.value %}
+        {% include components/intro/intro-tile.html data=section.value %}
 
 
 
@@ -77,6 +77,8 @@
 
       {% when "people-collage" %}
         {% include components/people/_people-collage.html data=section.value %}
+
+
 
     {% endcase %}
 
