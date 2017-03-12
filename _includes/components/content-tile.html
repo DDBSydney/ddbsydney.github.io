@@ -45,9 +45,9 @@
     {% if tile.imageMobile.value.main.url %}
     <img class="content-tile__image--mobile" src="{{ tile.imageMobile.value.main.url }}" alt="">
     {% endif %}
-    
+
     {% if tile.text.value %}
-    <p {{ fgCol | normalize_whitespace }}> 
+    <p {{ fgCol | normalize_whitespace }}>
       {{ tile.text.value }}
     </p>
     {% endif %}
@@ -59,17 +59,17 @@
 
 <!-- content tile -->
 <div class="content-tile" {{ bgCol | normalize_whitespace }}>
-  
+
   <!-- content -->
   <div class="content-tile__content">
-    
+
     <!-- container -->
     <div class="container">
 
       {% if alignTop %}
         {{ imageHtml }}
       {% endif %}
-    
+
       {% if tile.headline.value %}
       <h5 class="content-tile__content--headline" data-align="{{ tile.alignHeadline.value | default: 'center' }}" {{ fgCol | normalize_whitespace }}>{{ tile.headline.value }}</h5>
       {% endif %}
@@ -86,7 +86,7 @@
       <ul class="content-tile__list">
         {% for item in tile.list.value %}
         <li class="content-tile__listitem"{{ fgCol | normalize_whitespace }}>
-          {{ item.text }}
+          <div>{{ item.text }}</div>
         </li>
         {% endfor %}
       </ul>
