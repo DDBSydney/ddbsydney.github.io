@@ -28,6 +28,7 @@ var ClickableTile = require("./directives/clickable-tile.directive");
 // components
 var Header = require("./components/header.component");
 var PromoVideo = require("./components/promo-video.component");
+var IntroTile = require("./components/intro/intro-tile.component");
 
 // controllers
 /* empty block */
@@ -62,6 +63,7 @@ console.log(CONFIG);
     var _elBody = null; // reference to the body DOM element
 
     var _header = null; // object to hold a refernce for the header component
+    var _introTile = null; // object to hold a refernce for the intro-tile component
     var _promoVideos = []; // array of objects to hold references for the the promo video components
     var _hasFastClickAttached = false; // flag to indicate if fast click was attached
 
@@ -109,6 +111,9 @@ console.log(CONFIG);
       // create and intialise the header component
       _header = new Header({ element: query(".header")[0] });
 
+      // create and initialise the intro-tile component
+      _introTile = new IntroTile({ element: query(".intro-tile")[0] });
+
       // create and intialise the promo video components
       query(".promo-video").forEach(function(element, index){
         _promoVideos.push(new PromoVideo({ element: element }));
@@ -154,7 +159,7 @@ console.log(CONFIG);
 
 })();
 
-},{"./base/debounce":2,"./base/print":3,"./base/promise":4,"./base/query":5,"./base/raf":6,"./base/template":7,"./components/header.component":8,"./components/promo-video.component":9,"./config":10,"./directives/clickable-tile.directive":11}],2:[function(require,module,exports){
+},{"./base/debounce":2,"./base/print":3,"./base/promise":4,"./base/query":5,"./base/raf":6,"./base/template":7,"./components/header.component":8,"./components/intro/intro-tile.component":9,"./components/promo-video.component":10,"./config":11,"./directives/clickable-tile.directive":12}],2:[function(require,module,exports){
 "use strict";
 
 // -------------------------------------
@@ -706,7 +711,7 @@ console.log(CONFIG);
 // -------------------------------------
 //   Dependencies
 // -------------------------------------
-/** 
+/**
   * @plugins
   * require("jquery");
   * require("velocity");
@@ -722,7 +727,7 @@ var CONFIG = require("../config");
 // -------------------------------------
 //   Component - Header
 // -------------------------------------
-/** 
+/**
   * @name header.component
   * @desc The header component for the app.
 **/
@@ -730,7 +735,7 @@ var CONFIG = require("../config");
 (function($){
   console.log("components/header.component.js loaded.");
 
-  /** 
+  /**
     * @name Header
     * @desc the main class for the component
     * @param {Object} options - options for the component
@@ -873,9 +878,9 @@ var CONFIG = require("../config");
       if(href && href.length > 1) {
         if(_isPageParent()) { return path.endsWith(href); }
         else { return _parentPath.endsWith(href); }
-      } 
+      }
 
-      else { return false; }} 
+      else { return false; }}
       catch(error) { return false; }
     }
 
@@ -952,11 +957,11 @@ var CONFIG = require("../config");
 
         // perform the new animation
         $(_el.nav).velocity("transition.slideUpIn", {
-          easing: "easeInOutQuad", 
+          easing: "easeInOutQuad",
           delay: CONFIG.animation.delay,
           duration: CONFIG.animation.durationFast
         });
-      }); 
+      });
 
       // add the window resize listener
       _addWindowResizeListener();
@@ -1019,7 +1024,7 @@ var CONFIG = require("../config");
     // ---------------------------------------------
     // check if the header has valid options
     // element - should be a valid DOM element
-    if(!options || !options.element 
+    if(!options || !options.element
       || !options.element.nodeName || !options.element.nodeType) {
       console.log("header.component.js: Cannot create header with invalid options.");
       return null;  // return null if invalid
@@ -1039,26 +1044,58 @@ var CONFIG = require("../config");
 
     // loop through all the nav links and check if any of them are active
     query(".link", _el.nav).forEach(function(link, index) {
-      if(_isLinkActive(link)) { _setLinkAsActive(link); } 
+      if(_isLinkActive(link)) { _setLinkAsActive(link); }
       else { _setLinkAsInactive(link); }
     });
 
-    // add click event listeners for 
+    // add click event listeners for
     // the menu open and close links
     _addOpenClickListener();
     _addCloseClickListener();
 
+    // Add event for managing sticky header on scroll
+    var prevScroll = document.body.scrollTop;
+    var headSeg = query(".section--header")[0];
+    window.addEventListener("scroll",  function(event) {
+      var newScroll = document.body.scrollTop;
+      console.log("wut wut: ", newScroll);
+      var diffScroll = prevScroll - newScroll;
+      prevScroll = newScroll;
+      if (newScroll <= 0) {
+        if (headSeg.classList.contains("header-not-at-top")) {
+          headSeg.classList.remove("header-not-at-top");
+        }
+        if (headSeg.classList.contains("header-hide")) {
+          headSeg.classList.remove("header-hide");
+        }
+      }
+      else {
+        if (!headSeg.classList.contains("header-not-at-top")) {
+          headSeg.classList.add("header-not-at-top");
+        }
+        if (diffScroll > 0) {
+          if (headSeg.classList.contains("header-hide")) {
+            headSeg.classList.remove("header-hide");
+          }
+        } else {
+          if (!headSeg.classList.contains("header-hide")) {
+            headSeg.classList.add("header-hide");
+          }
+        }
+      }
+    });
+
     // check if this is a parent page
-    if(_isPageParent()) { 
+    if(_isPageParent()) {
       // hide the back link if it is a parent
-      _el.back.style.visibility = "hidden"; 
+      _el.back.style.visibility = "hidden";
     }
 
-    else { 
+    else {
       // show the back link if it is a child
-      // and set the href atttribute of the 
+      // and set the href atttribute of the
       // back link to point to the page page
-      _el.back.style.visibility = "visible"; 
+      _el.back.style.visibility = "visible";
       query("a", _el.back)[0].setAttribute("href", _getPageParent());
     }
 
@@ -1079,7 +1116,84 @@ var CONFIG = require("../config");
 })(jQuery);
 
 
-},{"../base/promise":4,"../base/query":5,"../config":10}],9:[function(require,module,exports){
+},{"../base/promise":4,"../base/query":5,"../config":11}],9:[function(require,module,exports){
+"use strict";
+
+require("../../base/query");
+require("../../base/promise");
+
+var CONFIG = require("../../config");
+
+(function($){
+  console.log("components/intro-tile.component.js loaded.");
+
+  function IntroTile(options) {
+
+    // Create base variables
+    var _el = {
+      images: {
+        sydney: null,
+        melbourne: null,
+        group: null
+      },
+      anchors: {
+        sydney: null,
+        melbourne: null,
+        group: null
+      }
+    };
+
+    // Check if component exists
+    if(!options || !options.element
+      || !options.element.nodeName || !options.element.nodeType) {
+      console.log("intro-tile.component.js: Cannot create intro-tile with invalid options.");
+      return null;  // return null if invalid
+    }
+
+    // Get elements
+    _el.images.sydney =    options.element.querySelector("[data-link-image=sydney]")
+    _el.images.melbourne = options.element.querySelector("[data-link-image=melbourne]")
+    _el.images.group =     options.element.querySelector("[data-link-image=group]")
+
+    _el.anchors.sydney =    options.element.querySelector("[data-link-anchor=sydney]")
+    _el.anchors.melbourne = options.element.querySelector("[data-link-anchor=melbourne]")
+    _el.anchors.group =     options.element.querySelector("[data-link-anchor=group]")
+
+    // Set up anchor mouseover hooks
+    function _onAnchorHover(image) {
+      var clName = "intro-tile__image-section--visible";
+
+      if (_el.images.sydney.classList.contains(clName)) {
+        _el.images.sydney.classList.remove(clName)
+      }
+
+      if (_el.images.melbourne.classList.contains(clName)) {
+        _el.images.melbourne.classList.remove(clName)
+      }
+
+      if (_el.images.group.classList.contains(clName)) {
+        _el.images.group.classList.remove(clName)
+      }
+
+      if (!_el.images.group.classList.contains(clName)) {
+        image.classList.add(clName);
+      }
+    }
+
+    _el.anchors.sydney.addEventListener(   "mouseover", function(){ _onAnchorHover(_el.images.sydney) })
+    _el.anchors.melbourne.addEventListener("mouseover", function(){ _onAnchorHover(_el.images.melbourne) })
+    _el.anchors.group.addEventListener(    "mouseover", function(){ _onAnchorHover(_el.images.group) })
+
+    //
+    return { };
+  }
+
+  module.exports = IntroTile;
+
+})(jQuery);
+
+
+},{"../../base/promise":4,"../../base/query":5,"../../config":11}],10:[function(require,module,exports){
 "use strict";
 
 // -------------------------------------
@@ -1190,7 +1304,7 @@ var CONFIG = require("../config");
 })(jQuery);
 
 
-},{"../base/promise":4,"../base/query":5,"../config":10}],10:[function(require,module,exports){
+},{"../base/promise":4,"../base/query":5,"../config":11}],11:[function(require,module,exports){
 "use strict";
 
 // -------------------------------------
@@ -1580,7 +1694,7 @@ var CONFIG = require("../config");
   module.exports = new CONFIG();
 
 })();
-},{}],11:[function(require,module,exports){
+},{}],12:[function(require,module,exports){
 "use strict";
 
 // -------------------------------------
