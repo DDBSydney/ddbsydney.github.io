@@ -3,7 +3,7 @@
 // -------------------------------------
 //   Dependencies
 // -------------------------------------
-/** 
+/**
   * @plugins
   * require("jquery");
   * require("velocity");
@@ -19,7 +19,7 @@ var CONFIG = require("../config");
 // -------------------------------------
 //   Component - Header
 // -------------------------------------
-/** 
+/**
   * @name header.component
   * @desc The header component for the app.
 **/
@@ -27,7 +27,7 @@ var CONFIG = require("../config");
 (function($){
   console.log("components/header.component.js loaded.");
 
-  /** 
+  /**
     * @name Header
     * @desc the main class for the component
     * @param {Object} options - options for the component
@@ -170,9 +170,9 @@ var CONFIG = require("../config");
       if(href && href.length > 1) {
         if(_isPageParent()) { return path.endsWith(href); }
         else { return _parentPath.endsWith(href); }
-      } 
+      }
 
-      else { return false; }} 
+      else { return false; }}
       catch(error) { return false; }
     }
 
@@ -249,11 +249,11 @@ var CONFIG = require("../config");
 
         // perform the new animation
         $(_el.nav).velocity("transition.slideUpIn", {
-          easing: "easeInOutQuad", 
+          easing: "easeInOutQuad",
           delay: CONFIG.animation.delay,
           duration: CONFIG.animation.durationFast
         });
-      }); 
+      });
 
       // add the window resize listener
       _addWindowResizeListener();
@@ -316,7 +316,7 @@ var CONFIG = require("../config");
     // ---------------------------------------------
     // check if the header has valid options
     // element - should be a valid DOM element
-    if(!options || !options.element 
+    if(!options || !options.element
       || !options.element.nodeName || !options.element.nodeType) {
       console.log("header.component.js: Cannot create header with invalid options.");
       return null;  // return null if invalid
@@ -336,26 +336,58 @@ var CONFIG = require("../config");
 
     // loop through all the nav links and check if any of them are active
     query(".link", _el.nav).forEach(function(link, index) {
-      if(_isLinkActive(link)) { _setLinkAsActive(link); } 
+      if(_isLinkActive(link)) { _setLinkAsActive(link); }
       else { _setLinkAsInactive(link); }
     });
 
-    // add click event listeners for 
+    // add click event listeners for
     // the menu open and close links
     _addOpenClickListener();
     _addCloseClickListener();
 
+    // Add event for managing sticky header on scroll
+    var prevScroll = document.body.scrollTop;
+    var headSeg = query(".section--header")[0];
+    window.addEventListener("scroll",  function(event) {
+      var newScroll = document.body.scrollTop;
+      console.log("wut wut: ", newScroll);
+      var diffScroll = prevScroll - newScroll;
+      prevScroll = newScroll;
+      if (newScroll <= 0) {
+        if (headSeg.classList.contains("header-not-at-top")) {
+          headSeg.classList.remove("header-not-at-top");
+        }
+        if (headSeg.classList.contains("header-hide")) {
+          headSeg.classList.remove("header-hide");
+        }
+      }
+      else {
+        if (!headSeg.classList.contains("header-not-at-top")) {
+          headSeg.classList.add("header-not-at-top");
+        }
+        if (diffScroll > 0) {
+          if (headSeg.classList.contains("header-hide")) {
+            headSeg.classList.remove("header-hide");
+          }
+        } else {
+          if (!headSeg.classList.contains("header-hide")) {
+            headSeg.classList.add("header-hide");
+          }
+        }
+      }
+    });
+
     // check if this is a parent page
-    if(_isPageParent()) { 
+    if(_isPageParent()) {
       // hide the back link if it is a parent
-      _el.back.style.visibility = "hidden"; 
+      _el.back.style.visibility = "hidden";
     }
 
-    else { 
+    else {
       // show the back link if it is a child
-      // and set the href atttribute of the 
+      // and set the href atttribute of the
       // back link to point to the page page
-      _el.back.style.visibility = "visible"; 
+      _el.back.style.visibility = "visible";
       query("a", _el.back)[0].setAttribute("href", _getPageParent());
     }
 
