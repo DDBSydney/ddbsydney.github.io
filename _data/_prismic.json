@@ -1,8 +1,8 @@
 {
   "page": 1,
   "results_per_page": 100,
-  "results_size": 25,
-  "total_results_size": 25,
+  "results_size": 24,
+  "total_results_size": 24,
   "total_pages": 1,
   "next_page": null,
   "prev_page": null,
@@ -11,7 +11,7 @@
       "id": "WL82KSQAACIbfCy4",
       "uid": "volkswagen-amarok-korama",
       "type": "case-studies",
-      "href": "http://ddb-website.cdn.prismic.io/api/documents/search?ref=WMYRCScAALINxyTJ&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WL82KSQAACIbfCy4%22%29+%5D%5D",
+      "href": "http://ddb-website.cdn.prismic.io/api/documents/search?ref=WMYZQCcAALINx0j6&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WL82KSQAACIbfCy4%22%29+%5D%5D",
       "tags": [
 
       ],
@@ -198,7 +198,7 @@
       "id": "WLjjUx8AAH4IVCL5",
       "uid": "account-manager",
       "type": "career-listings",
-      "href": "http://ddb-website.cdn.prismic.io/api/documents/search?ref=WMYRCScAALINxyTJ&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WLjjUx8AAH4IVCL5%22%29+%5D%5D",
+      "href": "http://ddb-website.cdn.prismic.io/api/documents/search?ref=WMYZQCcAALINx0j6&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WLjjUx8AAH4IVCL5%22%29+%5D%5D",
       "tags": [
 
       ],
@@ -304,544 +304,10 @@
       }
     },
     {
-      "id": "WLyrmB8AAMVCZMdj",
-      "uid": "people",
-      "type": "peopl",
-      "href": "http://ddb-website.cdn.prismic.io/api/documents/search?ref=WMYRCScAALINxyTJ&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WLyrmB8AAMVCZMdj%22%29+%5D%5D",
-      "tags": [
-
-      ],
-      "first_publication_date": "2017-03-06T00:21:47+0000",
-      "last_publication_date": "2017-03-06T04:54:23+0000",
-      "slugs": [
-        "people--ddb-sydney",
-        "people--ddb"
-      ],
-      "linked_documents": [
-
-      ],
-      "data": {
-        "peopl": {
-          "meta-title": {
-            "type": "Text",
-            "value": "People | DDB Sydney"
-          },
-          "meta-description": {
-            "type": "Text",
-            "value": "Our people at DDB Sydney."
-          },
-          "sections": {
-            "type": "SliceZone",
-            "value": [
-              {
-                "type": "Slice",
-                "slice_type": "promo-video",
-                "slice_label": null,
-                "value": {
-                  "type": "Group",
-                  "value": [
-                    {
-                      "image": {
-                        "type": "Image",
-                        "value": {
-                          "main": {
-                            "dimensions": {
-                              "width": 1920,
-                              "height": 1080
-                            },
-                            "alt": null,
-                            "copyright": null,
-                            "url": "http://ddb-website.cdn.prismic.io/ddb-website/933b9e9c51c32e377c0332b387a236afd685f0b9_layout_1920x1080_000000.png"
-                          },
-                          "views": {
-                            "desktop": {
-                              "dimensions": {
-                                "width": 1920,
-                                "height": 1080
-                              },
-                              "alt": null,
-                              "copyright": null,
-                              "url": "http://ddb-website.cdn.prismic.io/ddb-website/933b9e9c51c32e377c0332b387a236afd685f0b9_layout_1920x1080_000000.png"
-                            },
-                            "mobile": {
-                              "dimensions": {
-                                "width": 800,
-                                "height": 820
-                              },
-                              "alt": null,
-                              "copyright": null,
-                              "url": "http://ddb-website.cdn.prismic.io/ddb-website/d1e72507553c2f8f6481a3a8d048e1d8aac432b5_placeholder-800x820-000000.png"
-                            }
-                          }
-                        }
-                      },
-                      "video": {
-                        "type": "Link.file",
-                        "value": {
-                          "file": {
-                            "name": "Placeholder Video.mp4",
-                            "kind": "document",
-                            "url": "http://ddb-website.cdn.prismic.io/ddb-website%2F1ea6ea9a-d93c-4488-98c2-f5d2502b6933_placeholder+video.mp4",
-                            "size": "4307599"
-                          }
-                        }
-                      }
-                    }
-                  ]
-                }
-              },
-              {
-                "type": "Slice",
-                "slice_type": "people-collage",
-                "slice_label": null,
-                "value": {
-                  "type": "Group",
-                  "value": [
-                    {
-                      "image": {
-                        "type": "Image",
-                        "value": {
-                          "main": {
-                            "dimensions": {
-                              "width": 360,
-                              "height": 388
-                            },
-                            "alt": null,
-                            "copyright": null,
-                            "url": "http://ddb-website.cdn.prismic.io/ddb-website/6eeaada1f6191e68076471170637c27c30029dad_people_1.png"
-                          },
-                          "views": {
-                          }
-                        }
-                      }
-                    },
-                    {
-                      "image": {
-                        "type": "Image",
-                        "value": {
-                          "main": {
-                            "dimensions": {
-                              "width": 360,
-                              "height": 388
-                            },
-                            "alt": null,
-                            "copyright": null,
-                            "url": "http://ddb-website.cdn.prismic.io/ddb-website/c8d48bc54650662b4206a75e55ff8089a5c4cc1c_people_2.png"
-                          },
-                          "views": {
-                          }
-                        }
-                      }
-                    },
-                    {
-                      "image": {
-                        "type": "Image",
-                        "value": {
-                          "main": {
-                            "dimensions": {
-                              "width": 360,
-                              "height": 388
-                            },
-                            "alt": null,
-                            "copyright": null,
-                            "url": "http://ddb-website.cdn.prismic.io/ddb-website/6eeaada1f6191e68076471170637c27c30029dad_people_1.png"
-                          },
-                          "views": {
-                          }
-                        }
-                      }
-                    },
-                    {
-                      "image": {
-                        "type": "Image",
-                        "value": {
-                          "main": {
-                            "dimensions": {
-                              "width": 360,
-                              "height": 388
-                            },
-                            "alt": null,
-                            "copyright": null,
-                            "url": "http://ddb-website.cdn.prismic.io/ddb-website/c8d48bc54650662b4206a75e55ff8089a5c4cc1c_people_2.png"
-                          },
-                          "views": {
-                          }
-                        }
-                      }
-                    },
-                    {
-                      "image": {
-                        "type": "Image",
-                        "value": {
-                          "main": {
-                            "dimensions": {
-                              "width": 360,
-                              "height": 388
-                            },
-                            "alt": null,
-                            "copyright": null,
-                            "url": "http://ddb-website.cdn.prismic.io/ddb-website/c133a5cb7328d2cafbee515abed9782cb77d7ac0_people_3.png"
-                          },
-                          "views": {
-                          }
-                        }
-                      }
-                    },
-                    {
-                      "image": {
-                        "type": "Image",
-                        "value": {
-                          "main": {
-                            "dimensions": {
-                              "width": 360,
-                              "height": 388
-                            },
-                            "alt": null,
-                            "copyright": null,
-                            "url": "http://ddb-website.cdn.prismic.io/ddb-website/6eeaada1f6191e68076471170637c27c30029dad_people_1.png"
-                          },
-                          "views": {
-                          }
-                        }
-                      }
-                    },
-                    {
-                      "image": {
-                        "type": "Image",
-                        "value": {
-                          "main": {
-                            "dimensions": {
-                              "width": 360,
-                              "height": 388
-                            },
-                            "alt": null,
-                            "copyright": null,
-                            "url": "http://ddb-website.cdn.prismic.io/ddb-website/c133a5cb7328d2cafbee515abed9782cb77d7ac0_people_3.png"
-                          },
-                          "views": {
-                          }
-                        }
-                      }
-                    },
-                    {
-                      "image": {
-                        "type": "Image",
-                        "value": {
-                          "main": {
-                            "dimensions": {
-                              "width": 360,
-                              "height": 388
-                            },
-                            "alt": null,
-                            "copyright": null,
-                            "url": "http://ddb-website.cdn.prismic.io/ddb-website/6eeaada1f6191e68076471170637c27c30029dad_people_1.png"
-                          },
-                          "views": {
-                          }
-                        }
-                      }
-                    },
-                    {
-                      "image": {
-                        "type": "Image",
-                        "value": {
-                          "main": {
-                            "dimensions": {
-                              "width": 360,
-                              "height": 388
-                            },
-                            "alt": null,
-                            "copyright": null,
-                            "url": "http://ddb-website.cdn.prismic.io/ddb-website/c8d48bc54650662b4206a75e55ff8089a5c4cc1c_people_2.png"
-                          },
-                          "views": {
-                          }
-                        }
-                      }
-                    },
-                    {
-                      "image": {
-                        "type": "Image",
-                        "value": {
-                          "main": {
-                            "dimensions": {
-                              "width": 360,
-                              "height": 388
-                            },
-                            "alt": null,
-                            "copyright": null,
-                            "url": "http://ddb-website.cdn.prismic.io/ddb-website/c133a5cb7328d2cafbee515abed9782cb77d7ac0_people_3.png"
-                          },
-                          "views": {
-                          }
-                        }
-                      }
-                    },
-                    {
-                      "image": {
-                        "type": "Image",
-                        "value": {
-                          "main": {
-                            "dimensions": {
-                              "width": 360,
-                              "height": 388
-                            },
-                            "alt": null,
-                            "copyright": null,
-                            "url": "http://ddb-website.cdn.prismic.io/ddb-website/c8d48bc54650662b4206a75e55ff8089a5c4cc1c_people_2.png"
-                          },
-                          "views": {
-                          }
-                        }
-                      }
-                    },
-                    {
-                      "image": {
-                        "type": "Image",
-                        "value": {
-                          "main": {
-                            "dimensions": {
-                              "width": 360,
-                              "height": 388
-                            },
-                            "alt": null,
-                            "copyright": null,
-                            "url": "http://ddb-website.cdn.prismic.io/ddb-website/c133a5cb7328d2cafbee515abed9782cb77d7ac0_people_3.png"
-                          },
-                          "views": {
-                          }
-                        }
-                      }
-                    },
-                    {
-                      "image": {
-                        "type": "Image",
-                        "value": {
-                          "main": {
-                            "dimensions": {
-                              "width": 360,
-                              "height": 388
-                            },
-                            "alt": null,
-                            "copyright": null,
-                            "url": "http://ddb-website.cdn.prismic.io/ddb-website/6eeaada1f6191e68076471170637c27c30029dad_people_1.png"
-                          },
-                          "views": {
-                          }
-                        }
-                      }
-                    },
-                    {
-                      "image": {
-                        "type": "Image",
-                        "value": {
-                          "main": {
-                            "dimensions": {
-                              "width": 360,
-                              "height": 388
-                            },
-                            "alt": null,
-                            "copyright": null,
-                            "url": "http://ddb-website.cdn.prismic.io/ddb-website/c8d48bc54650662b4206a75e55ff8089a5c4cc1c_people_2.png"
-                          },
-                          "views": {
-                          }
-                        }
-                      }
-                    },
-                    {
-                      "image": {
-                        "type": "Image",
-                        "value": {
-                          "main": {
-                            "dimensions": {
-                              "width": 360,
-                              "height": 388
-                            },
-                            "alt": null,
-                            "copyright": null,
-                            "url": "http://ddb-website.cdn.prismic.io/ddb-website/6eeaada1f6191e68076471170637c27c30029dad_people_1.png"
-                          },
-                          "views": {
-                          }
-                        }
-                      }
-                    },
-                    {
-                      "image": {
-                        "type": "Image",
-                        "value": {
-                          "main": {
-                            "dimensions": {
-                              "width": 360,
-                              "height": 388
-                            },
-                            "alt": null,
-                            "copyright": null,
-                            "url": "http://ddb-website.cdn.prismic.io/ddb-website/c8d48bc54650662b4206a75e55ff8089a5c4cc1c_people_2.png"
-                          },
-                          "views": {
-                          }
-                        }
-                      }
-                    },
-                    {
-                      "image": {
-                        "type": "Image",
-                        "value": {
-                          "main": {
-                            "dimensions": {
-                              "width": 360,
-                              "height": 388
-                            },
-                            "alt": null,
-                            "copyright": null,
-                            "url": "http://ddb-website.cdn.prismic.io/ddb-website/c133a5cb7328d2cafbee515abed9782cb77d7ac0_people_3.png"
-                          },
-                          "views": {
-                          }
-                        }
-                      }
-                    },
-                    {
-                      "image": {
-                        "type": "Image",
-                        "value": {
-                          "main": {
-                            "dimensions": {
-                              "width": 360,
-                              "height": 388
-                            },
-                            "alt": null,
-                            "copyright": null,
-                            "url": "http://ddb-website.cdn.prismic.io/ddb-website/6eeaada1f6191e68076471170637c27c30029dad_people_1.png"
-                          },
-                          "views": {
-                          }
-                        }
-                      }
-                    },
-                    {
-                      "image": {
-                        "type": "Image",
-                        "value": {
-                          "main": {
-                            "dimensions": {
-                              "width": 360,
-                              "height": 388
-                            },
-                            "alt": null,
-                            "copyright": null,
-                            "url": "http://ddb-website.cdn.prismic.io/ddb-website/c133a5cb7328d2cafbee515abed9782cb77d7ac0_people_3.png"
-                          },
-                          "views": {
-                          }
-                        }
-                      }
-                    },
-                    {
-                      "image": {
-                        "type": "Image",
-                        "value": {
-                          "main": {
-                            "dimensions": {
-                              "width": 360,
-                              "height": 388
-                            },
-                            "alt": null,
-                            "copyright": null,
-                            "url": "http://ddb-website.cdn.prismic.io/ddb-website/6eeaada1f6191e68076471170637c27c30029dad_people_1.png"
-                          },
-                          "views": {
-                          }
-                        }
-                      }
-                    },
-                    {
-                      "image": {
-                        "type": "Image",
-                        "value": {
-                          "main": {
-                            "dimensions": {
-                              "width": 360,
-                              "height": 388
-                            },
-                            "alt": null,
-                            "copyright": null,
-                            "url": "http://ddb-website.cdn.prismic.io/ddb-website/c8d48bc54650662b4206a75e55ff8089a5c4cc1c_people_2.png"
-                          },
-                          "views": {
-                          }
-                        }
-                      }
-                    },
-                    {
-                      "image": {
-                        "type": "Image",
-                        "value": {
-                          "main": {
-                            "dimensions": {
-                              "width": 360,
-                              "height": 388
-                            },
-                            "alt": null,
-                            "copyright": null,
-                            "url": "http://ddb-website.cdn.prismic.io/ddb-website/c133a5cb7328d2cafbee515abed9782cb77d7ac0_people_3.png"
-                          },
-                          "views": {
-                          }
-                        }
-                      }
-                    },
-                    {
-                      "image": {
-                        "type": "Image",
-                        "value": {
-                          "main": {
-                            "dimensions": {
-                              "width": 360,
-                              "height": 388
-                            },
-                            "alt": null,
-                            "copyright": null,
-                            "url": "http://ddb-website.cdn.prismic.io/ddb-website/c8d48bc54650662b4206a75e55ff8089a5c4cc1c_people_2.png"
-                          },
-                          "views": {
-                          }
-                        }
-                      }
-                    },
-                    {
-                      "image": {
-                        "type": "Image",
-                        "value": {
-                          "main": {
-                            "dimensions": {
-                              "width": 360,
-                              "height": 388
-                            },
-                            "alt": null,
-                            "copyright": null,
-                            "url": "http://ddb-website.cdn.prismic.io/ddb-website/c133a5cb7328d2cafbee515abed9782cb77d7ac0_people_3.png"
-                          },
-                          "views": {
-                          }
-                        }
-                      }
-                    }
-                  ]
-                }
-              }
-            ]
-          }
-        }
-      }
-    },
-    {
       "id": "WK4T9ikAAL4opdjb",
       "uid": "test-vw",
       "type": "case-studies",
-      "href": "http://ddb-website.cdn.prismic.io/api/documents/search?ref=WMYRCScAALINxyTJ&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WK4T9ikAAL4opdjb%22%29+%5D%5D",
+      "href": "http://ddb-website.cdn.prismic.io/api/documents/search?ref=WMYZQCcAALINx0j6&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WK4T9ikAAL4opdjb%22%29+%5D%5D",
       "tags": [
 
       ],
@@ -963,7 +429,7 @@
       "id": "WKEQFSUAAEUiq5ZX",
       "uid": "work",
       "type": "work",
-      "href": "http://ddb-website.cdn.prismic.io/api/documents/search?ref=WMYRCScAALINxyTJ&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WKEQFSUAAEUiq5ZX%22%29+%5D%5D",
+      "href": "http://ddb-website.cdn.prismic.io/api/documents/search?ref=WMYZQCcAALINx0j6&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WKEQFSUAAEUiq5ZX%22%29+%5D%5D",
       "tags": [
 
       ],
@@ -1671,7 +1137,7 @@
       "id": "WLjnjB8AAH0IVDWZ",
       "uid": "accout-director",
       "type": "career-listings",
-      "href": "http://ddb-website.cdn.prismic.io/api/documents/search?ref=WMYRCScAALINxyTJ&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WLjnjB8AAH0IVDWZ%22%29+%5D%5D",
+      "href": "http://ddb-website.cdn.prismic.io/api/documents/search?ref=WMYZQCcAALINx0j6&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WLjnjB8AAH0IVDWZ%22%29+%5D%5D",
       "tags": [
 
       ],
@@ -1786,7 +1252,7 @@
       "id": "WK0GeCkAACgAoTc8",
       "uid": "volkswagen-tough-sell",
       "type": "case-studies",
-      "href": "http://ddb-website.cdn.prismic.io/api/documents/search?ref=WMYRCScAALINxyTJ&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WK0GeCkAACgAoTc8%22%29+%5D%5D",
+      "href": "http://ddb-website.cdn.prismic.io/api/documents/search?ref=WMYZQCcAALINx0j6&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WK0GeCkAACgAoTc8%22%29+%5D%5D",
       "tags": [
 
       ],
@@ -2087,7 +1553,7 @@
       "id": "WK-uuiEAAGgA2z5I",
       "uid": "intro",
       "type": "intro",
-      "href": "http://ddb-website.cdn.prismic.io/api/documents/search?ref=WMYRCScAALINxyTJ&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WK-uuiEAAGgA2z5I%22%29+%5D%5D",
+      "href": "http://ddb-website.cdn.prismic.io/api/documents/search?ref=WMYZQCcAALINx0j6&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WK-uuiEAAGgA2z5I%22%29+%5D%5D",
       "tags": [
 
       ],
@@ -2236,7 +1702,7 @@
       "id": "WMXzzycAAEgYxqP5",
       "uid": "principles",
       "type": "about-pages",
-      "href": "http://ddb-website.cdn.prismic.io/api/documents/search?ref=WMYRCScAALINxyTJ&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WMXzzycAAEgYxqP5%22%29+%5D%5D",
+      "href": "http://ddb-website.cdn.prismic.io/api/documents/search?ref=WMYZQCcAALINx0j6&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WMXzzycAAEgYxqP5%22%29+%5D%5D",
       "tags": [
 
       ],
@@ -2462,7 +1928,7 @@
       "id": "WL80WCQAAD0bfCS8",
       "uid": "skoda-octavia",
       "type": "case-studies",
-      "href": "http://ddb-website.cdn.prismic.io/api/documents/search?ref=WMYRCScAALINxyTJ&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WL80WCQAAD0bfCS8%22%29+%5D%5D",
+      "href": "http://ddb-website.cdn.prismic.io/api/documents/search?ref=WMYZQCcAALINx0j6&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WL80WCQAAD0bfCS8%22%29+%5D%5D",
       "tags": [
 
       ],
@@ -2572,7 +2038,7 @@
       "id": "WL5JOCQAAC8DeBbk",
       "uid": "westpac-bump",
       "type": "case-studies",
-      "href": "http://ddb-website.cdn.prismic.io/api/documents/search?ref=WMYRCScAALINxyTJ&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WL5JOCQAAC8DeBbk%22%29+%5D%5D",
+      "href": "http://ddb-website.cdn.prismic.io/api/documents/search?ref=WMYZQCcAALINx0j6&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WL5JOCQAAC8DeBbk%22%29+%5D%5D",
       "tags": [
 
       ],
@@ -2797,7 +2263,7 @@
       "id": "WKpzRigAACgAOzbM",
       "uid": "the-sydney-opera-house",
       "type": "case-studies",
-      "href": "http://ddb-website.cdn.prismic.io/api/documents/search?ref=WMYRCScAALINxyTJ&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WKpzRigAACgAOzbM%22%29+%5D%5D",
+      "href": "http://ddb-website.cdn.prismic.io/api/documents/search?ref=WMYZQCcAALINx0j6&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WKpzRigAACgAOzbM%22%29+%5D%5D",
       "tags": [
 
       ],
@@ -3202,7 +2668,7 @@
       "id": "WLdjLysAAO8Dy5W2",
       "uid": "pod-internship",
       "type": "career-listings",
-      "href": "http://ddb-website.cdn.prismic.io/api/documents/search?ref=WMYRCScAALINxyTJ&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WLdjLysAAO8Dy5W2%22%29+%5D%5D",
+      "href": "http://ddb-website.cdn.prismic.io/api/documents/search?ref=WMYZQCcAALINx0j6&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WLdjLysAAO8Dy5W2%22%29+%5D%5D",
       "tags": [
 
       ],
@@ -3329,7 +2795,7 @@
       "id": "WL5LISQAADADeB9R",
       "uid": "westpac-chopper",
       "type": "case-studies",
-      "href": "http://ddb-website.cdn.prismic.io/api/documents/search?ref=WMYRCScAALINxyTJ&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WL5LISQAADADeB9R%22%29+%5D%5D",
+      "href": "http://ddb-website.cdn.prismic.io/api/documents/search?ref=WMYZQCcAALINx0j6&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WL5LISQAADADeB9R%22%29+%5D%5D",
       "tags": [
 
       ],
@@ -3633,7 +3099,7 @@
       "id": "WK0SfSkAACoAoWxH",
       "uid": "volkswagen-brand-love",
       "type": "case-studies",
-      "href": "http://ddb-website.cdn.prismic.io/api/documents/search?ref=WMYRCScAALINxyTJ&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WK0SfSkAACoAoWxH%22%29+%5D%5D",
+      "href": "http://ddb-website.cdn.prismic.io/api/documents/search?ref=WMYZQCcAALINx0j6&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WK0SfSkAACoAoWxH%22%29+%5D%5D",
       "tags": [
 
       ],
@@ -3887,7 +3353,7 @@
       "id": "WLjlpR8AAH0IVC02",
       "uid": "senior-account-manager",
       "type": "career-listings",
-      "href": "http://ddb-website.cdn.prismic.io/api/documents/search?ref=WMYRCScAALINxyTJ&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WLjlpR8AAH0IVC02%22%29+%5D%5D",
+      "href": "http://ddb-website.cdn.prismic.io/api/documents/search?ref=WMYZQCcAALINx0j6&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WLjlpR8AAH0IVC02%22%29+%5D%5D",
       "tags": [
 
       ],
@@ -3998,7 +3464,7 @@
       "id": "WKEQcCUAAKomq5fv",
       "uid": "test",
       "type": "case-studies",
-      "href": "http://ddb-website.cdn.prismic.io/api/documents/search?ref=WMYRCScAALINxyTJ&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WKEQcCUAAKomq5fv%22%29+%5D%5D",
+      "href": "http://ddb-website.cdn.prismic.io/api/documents/search?ref=WMYZQCcAALINx0j6&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WKEQcCUAAKomq5fv%22%29+%5D%5D",
       "tags": [
 
       ],
@@ -4744,7 +4210,7 @@
       "id": "WMX0dScAAMwVxqbV",
       "uid": "people",
       "type": "about-pages",
-      "href": "http://ddb-website.cdn.prismic.io/api/documents/search?ref=WMYRCScAALINxyTJ&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WMX0dScAAMwVxqbV%22%29+%5D%5D",
+      "href": "http://ddb-website.cdn.prismic.io/api/documents/search?ref=WMYZQCcAALINx0j6&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WMX0dScAAMwVxqbV%22%29+%5D%5D",
       "tags": [
 
       ],
@@ -5277,7 +4743,7 @@
       "id": "WK0L2SkAACsAoU7x",
       "uid": "mcdonalds-loaded-fries",
       "type": "case-studies",
-      "href": "http://ddb-website.cdn.prismic.io/api/documents/search?ref=WMYRCScAALINxyTJ&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WK0L2SkAACsAoU7x%22%29+%5D%5D",
+      "href": "http://ddb-website.cdn.prismic.io/api/documents/search?ref=WMYZQCcAALINx0j6&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WK0L2SkAACsAoU7x%22%29+%5D%5D",
       "tags": [
 
       ],
@@ -5631,7 +5097,7 @@
       "id": "WL5FeyQAAMcLeAZr",
       "uid": "mcdonalds-cyt-father-daughter",
       "type": "case-studies",
-      "href": "http://ddb-website.cdn.prismic.io/api/documents/search?ref=WMYRCScAALINxyTJ&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WL5FeyQAAMcLeAZr%22%29+%5D%5D",
+      "href": "http://ddb-website.cdn.prismic.io/api/documents/search?ref=WMYZQCcAALINx0j6&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WL5FeyQAAMcLeAZr%22%29+%5D%5D",
       "tags": [
 
       ],
@@ -5998,12 +5464,12 @@
       "id": "WKoxNCgAACsAOhPa",
       "uid": "about",
       "type": "about",
-      "href": "http://ddb-website.cdn.prismic.io/api/documents/search?ref=WMYRCScAALINxyTJ&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WKoxNCgAACsAOhPa%22%29+%5D%5D",
+      "href": "http://ddb-website.cdn.prismic.io/api/documents/search?ref=WMYZQCcAALINx0j6&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WKoxNCgAACsAOhPa%22%29+%5D%5D",
       "tags": [
 
       ],
       "first_publication_date": "2017-02-19T23:58:50+0000",
-      "last_publication_date": "2017-03-07T05:38:53+0000",
+      "last_publication_date": "2017-03-13T03:56:29+0000",
       "slugs": [
         "about--ddb-sydney",
         "about--ddb",
@@ -6011,7 +5477,22 @@
         "about---tribal-ddb"
       ],
       "linked_documents": [
+        {
+          "id": "WMX0dScAAMwVxqbV",
+          "tags": [
 
+          ],
+          "type": "about-pages",
+          "slug": "about-people--ddb-sydney"
+        },
+        {
+          "id": "WMXzzycAAEgYxqP5",
+          "tags": [
+
+          ],
+          "type": "about-pages",
+          "slug": "about-principles--ddb-sydney"
+        }
       ],
       "data": {
         "about": {
@@ -6042,35 +5523,135 @@
                   "type": "Group",
                   "value": [
                     {
-                      "list": {
-                        "type": "StructuredText",
-                        "value": [
-                          {
-                            "type": "paragraph",
-                            "text": "Creating",
-                            "spans": [
+                      "image": {
+                        "type": "Image",
+                        "value": {
+                          "main": {
+                            "dimensions": {
+                              "width": 662,
+                              "height": 499
+                            },
+                            "alt": null,
+                            "copyright": null,
+                            "url": "http://ddb-website.cdn.prismic.io/ddb-website/3a1796b7dd1692c6b5f689a9f7b1fd337b6559e7_about-people.jpg"
+                          },
+                          "views": {
+                            "mobile": {
+                              "dimensions": {
+                                "width": 800,
+                                "height": 820
+                              },
+                              "alt": null,
+                              "copyright": null,
+                              "url": "http://ddb-website.cdn.prismic.io/ddb-website/490b2c460166c607a744c4e8398687e5a5123bf9_about-people.jpg"
+                            },
+                            "desktop": {
+                              "dimensions": {
+                                "width": 960,
+                                "height": 825
+                              },
+                              "alt": null,
+                              "copyright": null,
+                              "url": "http://ddb-website.cdn.prismic.io/ddb-website/ea75a8a8a3c47ffdbde84eaea9be27be041cd380_about-people.jpg"
+                            }
+                          }
+                        }
+                      },
+                      "headline": {
+                        "type": "Text",
+                        "value": "Out people & their culture."
+                      },
+                      "linkUrl": {
+                        "type": "Link.document",
+                        "value": {
+                          "document": {
+                            "id": "WMX0dScAAMwVxqbV",
+                            "type": "about-pages",
+                            "tags": [
 
-                            ]
+                            ],
+                            "slug": "about-people--ddb-sydney",
+                            "uid": "people"
                           },
-                          {
-                            "type": "paragraph",
-                            "text": "<span>Unreasonable</span>",
-                            "spans": [
+                          "isBroken": false
+                        }
+                      },
+                      "linkText": {
+                        "type": "Text",
+                        "value": "Meet the team"
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "Slice",
+                "slice_type": "about-tile",
+                "slice_label": null,
+                "value": {
+                  "type": "Group",
+                  "value": [
+                    {
+                      "image": {
+                        "type": "Image",
+                        "value": {
+                          "main": {
+                            "dimensions": {
+                              "width": 660,
+                              "height": 500
+                            },
+                            "alt": null,
+                            "copyright": null,
+                            "url": "http://ddb-website.cdn.prismic.io/ddb-website/0f7c91b4001b3c84d5a8c0715a69a2e73cbad766_about-principles.png"
+                          },
+                          "views": {
+                            "mobile": {
+                              "dimensions": {
+                                "width": 800,
+                                "height": 820
+                              },
+                              "alt": null,
+                              "copyright": null,
+                              "url": "http://ddb-website.cdn.prismic.io/ddb-website/7ef6181ec2f6bcaf59c38454e2f9fbdc12428cb2_about-principles.png"
+                            },
+                            "desktop": {
+                              "dimensions": {
+                                "width": 960,
+                                "height": 825
+                              },
+                              "alt": null,
+                              "copyright": null,
+                              "url": "http://ddb-website.cdn.prismic.io/ddb-website/566a085059a6e8fd3e83ce741aa3eb2cccfa07f5_about-principles.png"
+                            }
+                          }
+                        }
+                      },
+                      "headline": {
+                        "type": "Text",
+                        "value": "Creating Unreasonable Growth"
+                      },
+                      "linkUrl": {
+                        "type": "Link.document",
+                        "value": {
+                          "document": {
+                            "id": "WMXzzycAAEgYxqP5",
+                            "type": "about-pages",
+                            "tags": [
 
-                            ]
+                            ],
+                            "slug": "about-principles--ddb-sydney",
+                            "uid": "principles"
                           },
-                          {
-                            "type": "paragraph",
-                            "text": "Growth",
-                            "spans": [
-
-                            ]
-                          }
-                        ]
+                          "isBroken": false
+                        }
                       },
-                      "headline": {
+                      "linkText": {
                         "type": "Text",
-                        "value": "Creating\n<br class=\"all\"/>\n<span>Unreasonable</span>\n<br class=\"all\"/>\nGrowth"
+                        "value": "View our principles"
+                      },
+                      "align": {
+                        "type": "Select",
+                        "value": "left"
                       }
                     }
                   ]
@@ -6078,175 +5659,53 @@
               },
               {
                 "type": "Slice",
-                "slice_type": "content-tile",
+                "slice_type": "about-tile",
                 "slice_label": null,
                 "value": {
                   "type": "Group",
                   "value": [
                     {
-                      "headline": {
-                        "type": "Text",
-                        "value": "<b>How do brands and businesses actually grow?</b>\n\n<br class=\"all\"/>\n<br class=\"all\"/>\n\nWe have long assumed that growth was anchored on a consumer who behaved logically and rationally to advance their lifestyle.\n\n<br class=\"all\"/>\n<br class=\"all\"/>\n\nNew evidence from the behavioral sciences refutes this. Far from being reasonable and rational, humans are emotional and often behave in a fashion that defies logic. Leading the debate is Nobel Prize winning Psychologist Daniel Kahneman who writes:\n\n<br class=\"all\"/>\n<br class=\"all\"/>\n\n<i>“We are feeling beings who can think, not thinking beings who can feel.”</i>"
-                      },
-                      "text": {
-                        "type": "Text",
-                        "value": "Thinking Fast, and Slow.\n<br class=\"all\">- Daniel Kahneman"
-                      },
-                      "imageDesktop": {
+                      "image": {
                         "type": "Image",
                         "value": {
                           "main": {
                             "dimensions": {
-                              "width": 800,
-                              "height": 260
+                              "width": 662,
+                              "height": 500
                             },
                             "alt": null,
                             "copyright": null,
-                            "url": "http://ddb-website.cdn.prismic.io/ddb-website/9a12163256a47a427c82dadf886e07fb82619633_book_desktop.png"
+                            "url": "http://ddb-website.cdn.prismic.io/ddb-website/1e43b18a189b817b8194ab0078fafeee4c2a7b7b_about-group.jpg"
                           },
                           "views": {
-                          }
-                        }
-                      },
-                      "imageMobile": {
-                        "type": "Image",
-                        "value": {
-                          "main": {
-                            "dimensions": {
-                              "width": 174,
-                              "height": 260
+                            "desktop": {
+                              "dimensions": {
+                                "width": 960,
+                                "height": 825
+                              },
+                              "alt": null,
+                              "copyright": null,
+                              "url": "http://ddb-website.cdn.prismic.io/ddb-website/c542b03d119d7370eef3490bf19c4b89c293ae5f_about-group.jpg"
                             },
-                            "alt": null,
-                            "copyright": null,
-                            "url": "http://ddb-website.cdn.prismic.io/ddb-website/09a41accf29c87c0f723fcbca3b11df27fa893a2_book_mobile.png"
-                          },
-                          "views": {
+                            "mobile": {
+                              "dimensions": {
+                                "width": 800,
+                                "height": 820
+                              },
+                              "alt": null,
+                              "copyright": null,
+                              "url": "http://ddb-website.cdn.prismic.io/ddb-website/b5cab37fae35d96773ded7bd140193bd9511c18d_about-group.jpg"
+                            }
                           }
                         }
                       },
-                      "alignHeadline": {
-                        "type": "Select",
-                        "value": "left"
-                      },
-                      "foregroundColor": {
-                        "type": "Color",
-                        "value": "#000000"
-                      },
-                      "backgroundColor": {
-                        "type": "Color",
-                        "value": "#ffd107"
-                      }
-                    }
-                  ]
-                }
-              },
-              {
-                "type": "Slice",
-                "slice_type": "content-tile",
-                "slice_label": null,
-                "value": {
-                  "type": "Group",
-                  "value": [
-                    {
                       "headline": {
                         "type": "Text",
-                        "value": "<b>A Challenge to Conventional Business Thinking</b>\n\n<br class=\"all\"/>\n<br class=\"all\"/>\n\nThese revelations demand that we reappraise our long held beliefs and force us to challenge conventional business thinking. There are three main culprits that stand in the way of growth.\n\n<br class=\"all\"/>\n<br class=\"all\"/>\n\nThe belief that we need to win our <b>category</b>.\n\n<br class=\"all\"/>\n\nOur determination to win the <b>mind</b> of the consumer.\n\n<br class=\"all\"/>\n\nThe pressure to win <b>today</b>.\n\n<br class=\"all\"/>\n<br class=\"all\"/>\n\nThis is legacy thinking grounded in the fallacious, rational mind models of positioning, persuasion, and the unique selling proposition."
+                        "value": "We are a group of specialist agencies."
                       },
-                      "alignHeadline": {
-                        "type": "Select",
-                        "value": "left"
-                      },
-                      "foregroundColor": {
-                        "type": "Color",
-                        "value": "#000000"
-                      },
-                      "backgroundColor": {
-                        "type": "Color",
-                        "value": "#ffffff"
-                      }
-                    }
-                  ]
-                }
-              },
-              {
-                "type": "Slice",
-                "slice_type": "content-tile",
-                "slice_label": null,
-                "value": {
-                  "type": "Group",
-                  "value": [
-                    {
-                      "headline": {
+                      "linkText": {
                         "type": "Text",
-                        "value": "We propose new rules of growth that are sympathetic to the latest evidence of the primacy of the emotional mind:\n\n<br class=\"all\"/>\n<br class=\"all\"/>\n\n<b>Fame dwarfs category.</b>\n\n<br class=\"all\"/>\n\n<b>Feeling conquers thinking.</b>\n\n<br class=\"all\"/>\n\n<b>Long term Fluency beats short term wins.</b>"
-                      },
-                      "imageDesktop": {
-                        "type": "Image",
-                        "value": {
-                          "main": {
-                            "dimensions": {
-                              "width": 800,
-                              "height": 280
-                            },
-                            "alt": null,
-                            "copyright": null,
-                            "url": "http://ddb-website.cdn.prismic.io/ddb-website/f41e4b799921e2372a205b78c357382e66e6ca87_fame_feeling_fluency_desktop.png"
-                          },
-                          "views": {
-                          }
-                        }
-                      },
-                      "imageMobile": {
-                        "type": "Image",
-                        "value": {
-                          "main": {
-                            "dimensions": {
-                              "width": 379,
-                              "height": 280
-                            },
-                            "alt": null,
-                            "copyright": null,
-                            "url": "http://ddb-website.cdn.prismic.io/ddb-website/4988ba783d92431a58a710ad29325fcd8932646d_fame_feeling_fluency.png"
-                          },
-                          "views": {
-                          }
-                        }
-                      },
-                      "alignHeadline": {
-                        "type": "Select",
-                        "value": "left"
-                      },
-                      "alignImage": {
-                        "type": "Select",
-                        "value": "top"
-                      }
-                    }
-                  ]
-                }
-              },
-              {
-                "type": "Slice",
-                "slice_type": "content-tile",
-                "slice_label": null,
-                "value": {
-                  "type": "Group",
-                  "value": [
-                    {
-                      "headline": {
-                        "type": "Text",
-                        "value": "<b>Unreasonable Growth in Practice</b>\n\n<br class=\"all\"/>\n<br class=\"all\"/>\n\nThis has been validated in findings from the IPA in the UK and the Ehrenberg Bass Institute for Marketing Science.\n\n<br class=\"all\"/>\n<br class=\"all\"/>\n\nWe have turned these new rules into a simple, measurable and actionable approach for business growth and are having success with clients as diverse as Volkswagen, Expedia and MARS. Our tools and workshop practices help clients optimise their Fame, Feeling and Fluency and our partnership with the worlds leading System 1 research agency Brainjuicer means we are able to measure and benchmark a company’s performance against the three F’s."
-                      },
-                      "alignHeadline": {
-                        "type": "Select",
-                        "value": "left"
-                      },
-                      "foregroundColor": {
-                        "type": "Color",
-                        "value": "#000000"
-                      },
-                      "backgroundColor": {
-                        "type": "Color",
-                        "value": "#ffd107"
+                        "value": "Meet the group"
                       }
                     }
                   ]
@@ -6261,7 +5720,7 @@
       "id": "WKEP8CUAAOgdq5Ww",
       "uid": "latest",
       "type": "latest",
-      "href": "http://ddb-website.cdn.prismic.io/api/documents/search?ref=WMYRCScAALINxyTJ&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WKEP8CUAAOgdq5Ww%22%29+%5D%5D",
+      "href": "http://ddb-website.cdn.prismic.io/api/documents/search?ref=WMYZQCcAALINx0j6&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WKEP8CUAAOgdq5Ww%22%29+%5D%5D",
       "tags": [
 
       ],
@@ -7229,7 +6688,7 @@
       "id": "WLjpIB8AAH0IVDyO",
       "uid": "creatives",
       "type": "career-listings",
-      "href": "http://ddb-website.cdn.prismic.io/api/documents/search?ref=WMYRCScAALINxyTJ&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WLjpIB8AAH0IVDyO%22%29+%5D%5D",
+      "href": "http://ddb-website.cdn.prismic.io/api/documents/search?ref=WMYZQCcAALINx0j6&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WLjpIB8AAH0IVDyO%22%29+%5D%5D",
       "tags": [
 
       ],
@@ -7338,7 +6797,7 @@
       "id": "WK0ZFykAACsAoYlk",
       "uid": "volkswagen-naked-ute",
       "type": "case-studies",
-      "href": "http://ddb-website.cdn.prismic.io/api/documents/search?ref=WMYRCScAALINxyTJ&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WK0ZFykAACsAoYlk%22%29+%5D%5D",
+      "href": "http://ddb-website.cdn.prismic.io/api/documents/search?ref=WMYZQCcAALINx0j6&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WK0ZFykAACsAoYlk%22%29+%5D%5D",
       "tags": [
 
       ],
@@ -7692,7 +7151,7 @@
       "id": "WKoxZSgAACgAOhS1",
       "uid": "contact",
       "type": "contact",
-      "href": "http://ddb-website.cdn.prismic.io/api/documents/search?ref=WMYRCScAALINxyTJ&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WKoxZSgAACgAOhS1%22%29+%5D%5D",
+      "href": "http://ddb-website.cdn.prismic.io/api/documents/search?ref=WMYZQCcAALINx0j6&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WKoxZSgAACgAOhS1%22%29+%5D%5D",
       "tags": [
 
       ],

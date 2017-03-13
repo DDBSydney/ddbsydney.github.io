@@ -29,15 +29,11 @@
     <div class="about-tile__content__inner"><!-- content inner -->
 
       {% if tile.headline.value %}
-      <h6>{{ tile.headline.value }}</h6>
+      <h4>{{ tile.headline.value }}</h4>
       {% endif %}
 
-      {% if tile.copy.value %}
-      <p>{{ tile.copy.value }}</p>
-      {% endif %}
-
-      {% if (tile.linkUrl.value.url || tile.linkText.value ) %}
-      <a class="ulink" href="{{ tile.linkUrl.value.url | normalize_whitespace }}" target="_blank" title="{{ tile.linkText.value | normalize_whitespace }}"><span> {{ tile.linkText.value }} </span></a>
+      {% if tile.linkUrl.value %}
+        {% include modules/link.html link=tile.linkUrl label=tile.linkText.value style="ulink" %}
       {% endif %}
 
     </div><!-- content inner end -->

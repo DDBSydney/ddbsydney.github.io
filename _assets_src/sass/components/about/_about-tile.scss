@@ -16,13 +16,11 @@
   &[data-style="yellow"] { color: black; background-color: $color_yellow_ddb; }
 }
 
-// -------------------------------------
-//   About Tile - Image
-// -------------------------------------
 .about-tile__image {
   @extend %flex--col;
-  @include section--padding("md");
-  @include section--padding-right("lg", 1.5);
+  @include section--padding("lg");
+  @include section--padding-v("lg", 1.5);
+  @include section--padding-right("lg", 2.5);
   @include mobile { display: block; padding: 0; }
 }
 
@@ -44,26 +42,20 @@
     @include mobile    { @include section--padding-right; }
   }
 
-  h6, p { color: inherit; }
-  p, a  { @include font--style("h6"); }
-  h6    { margin: 0; font-weight: $font_weight_bold; }
-
-  a {
-    margin-top: 1em;
-    &:first-child { margin-top: 0; }
-    &:last-child  { margin-bottom: 0; }
+  h4 {
+    color: inherit;
+    margin: 0;
+    font-weight: $font_weight_bold;
   }
 
+  a {
+    @include font--style("h6");
+    margin-top: 1em;
+  }
 
-  h6 + a,
-  p + a { margin-top: 0; }
-  a + a { margin: 0.75em 75% 0 0; }
-
-  h6, p, a {
-    + h6 {
-      @include section--margin-top;
-      @include mobile { @include section--margin-top("md"); }
-    }
+  h4, a {
+    &:first-child { margin-top: 0; }
+    &:last-child  { margin-bottom: 0; }
   }
 
   [data-align="left"] & { order: -1; }
