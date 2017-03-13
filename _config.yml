@@ -47,6 +47,10 @@ exclude:
   - package.json
   - readme.md
 page_gen:
+  - data: prismic.custom-pages
+    template: data_page_gen
+    name: uid
+    dir: sydney/pages
   - data: prismic.case-studies
     template: data_page_gen
     name: uid
@@ -55,10 +59,10 @@ page_gen:
     template: data_page_gen
     name: uid
     dir: sydney/careers
-  - data: prismic.custom-pages
+  - data: prismic.about-pages
     template: data_page_gen
     name: uid
-    dir: sydney/pages
+    dir: sydney/about
 page_gen-dirs: true
 jekyll_tidy:
   exclude: []

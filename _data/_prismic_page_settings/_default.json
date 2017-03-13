@@ -665,10 +665,10 @@
 
 
 
-          "about-tile" : {
+          "title-tile" : {
             "type" : "Group",
             "config" : {
-              "label" : "About tile",
+              "label" : "Title tile",
               "repeat" : false,
               "fields" : {
                 "headline" : {

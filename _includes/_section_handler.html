@@ -48,8 +48,11 @@
 
       {% comment %} <!-- About Page --> {% endcomment %}
 
+      {% when "title-tile" %}
+        {% include components/about/title-tile.html data=section.value %}
+
       {% when "about-tile" %}
-        {% include components/about-tile.html data=section.value %}
+        {% include components/about/about-tile.html data=section.value %}
 
 
 

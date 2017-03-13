@@ -65,7 +65,9 @@
 
 @import "components/article-tiles";
 @import "components/contact-tile";
-@import "components/about-tile";
+
+@import "components/about/about-tile";
+@import "components/about/title-tile";
 
 @import "components/career/career-intro";
 @import "components/career/career-detail";
