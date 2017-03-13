@@ -315,25 +315,6 @@
 
 
 
-          "about-tile" : {
-            "type" : "Group",
-            "config" : {
-              "label" : "About tile",
-              "repeat" : false,
-              "fields" : {
-                "headline" : {
-                  "type" : "Text",
-                  "config" : {
-                    "label" : "Headline",
-                    "placeholder" : "Headline text"
-                  }
-                }
-              }
-            }
-          },
-
-
-
           "people-collage" : {
             "type" : "Group",
             "config" : {
