@@ -7,19 +7,34 @@
 **/
 
 .section--header {
-  transition: top 350ms, background-color 350ms;
+  position: fixed;
+  @include transitions(top, background-color);
+  background-color: rgba(0,0,0,0);
   top: 0%;
 
-  &.header-hide {
-    top: -100%;
-  }
-
   &.header-not-at-top {
-    position: fixed;
-    transition-delay: 350ms;
     // background: linear-gradient(to bottom, rgba(0,0,0,0.5) 0%,rgba(0,0,0,0.15) 100%);
     background-color: rgba(0,0,0,0.25);
+
+    @include mobile-up {
+      .header__nav {
+        height: 45px;
+      }
+
+      .header__logo {
+        margin-top: 0.5em;
+      }
+
+      .header {
+        @include section--padding-v("sm", 0.25);
+      }
+    }
   }
+
+  // &.header-hidden {
+  //   top: -100%;
+  //   background-color: rgba(0,0,0,0);
+  // }
 }
 
 .header {
@@ -31,7 +46,8 @@
   min-width: $base_html_w_min;
 
   @include mobile-up {
-    transition: none !important;
+    // transition: none !important;
+    @include transitions(padding);  // Used by .header-not-at-top
     background-color: transparent;
     @include section--padding-v("sm");
   }
@@ -65,7 +81,7 @@
 
   // modifer - closed
   &--closed {
-    @include transitions(height, min-height, background-color);
+    @include transitions(padding, height, min-height, background-color);
     transition-timing-function: $ease_in_out_quad;
 
     background-color: transparent;
@@ -75,7 +91,7 @@
   // modifer - open
   &--open {
     overflow: auto; // to prevent scrolling on the page
-    @include transitions(height, min-height, background-color);
+    @include transitions(padding, height, min-height, background-color);
     transition-timing-function: $ease_in_out_quad;
 
     background-color: black;
@@ -120,7 +136,9 @@
   }
 
   @include mobile-up {
-    transform: none !important;
+    height: 50px;
+    // transform: none !important;
+    @include transitions(height);  // Used by .header-not-at-top
     display: flex !important;
     opacity: 1 !important;
   }
@@ -174,6 +192,9 @@ $header_logo_h_mob: 20px;
 .header__logo {
   margin-top: 1em;
   @include mobile { margin-top: 0.35em; }
+  @include mobile-up {
+    @include transitions(margin);  // Used by .header-not-at-top
+  }
 
   &--desktop {
     @include mobile { display: none !important; }
