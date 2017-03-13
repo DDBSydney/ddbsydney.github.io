@@ -1019,6 +1019,37 @@ var CONFIG = require("../config");
       _removeWindowResizeListener();
     }
 
+    // @name sticky
+    // @desc function to manage sticky header styling
+    function sticky(event) {
+      var newScroll = document.body.scrollTop;
+      var diffScroll = prevScroll - newScroll;
+      prevScroll = newScroll;
+
+      if (newScroll <= 0) {
+        if (headSeg.classList.contains("header-not-at-top")) {
+          headSeg.classList.remove("header-not-at-top");
+        }
+        if (headSeg.classList.contains("header-hidden")) {
+          headSeg.classList.remove("header-hidden");
+        }
+      }
+      else {
+        if (!headSeg.classList.contains("header-not-at-top")) {
+          headSeg.classList.add("header-not-at-top");
+        }
+        if (diffScroll > 0) {
+          if (headSeg.classList.contains("header-hidden")) {
+            headSeg.classList.remove("header-hidden");
+          }
+        } else {
+          if (!headSeg.classList.contains("header-hidden")) {
+            headSeg.classList.add("header-hidden");
+          }
+        }
+      }
+    }
+
     // ---------------------------------------------
     //   Constructor block
     // ---------------------------------------------
@@ -1056,34 +1087,8 @@ var CONFIG = require("../config");
     // Add event for managing sticky header on scroll
     var prevScroll = document.body.scrollTop;
     var headSeg = query(".section--header")[0];
-    window.addEventListener("scroll",  function(event) {
-      var newScroll = document.body.scrollTop;
-      console.log("wut wut: ", newScroll);
-      var diffScroll = prevScroll - newScroll;
-      prevScroll = newScroll;
-      if (newScroll <= 0) {
-        if (headSeg.classList.contains("header-not-at-top")) {
-          headSeg.classList.remove("header-not-at-top");
-        }
-        if (headSeg.classList.contains("header-hide")) {
-          headSeg.classList.remove("header-hide");
-        }
-      }
-      else {
-        if (!headSeg.classList.contains("header-not-at-top")) {
-          headSeg.classList.add("header-not-at-top");
-        }
-        if (diffScroll > 0) {
-          if (headSeg.classList.contains("header-hide")) {
-            headSeg.classList.remove("header-hide");
-          }
-        } else {
-          if (!headSeg.classList.contains("header-hide")) {
-            headSeg.classList.add("header-hide");
-          }
-        }
-      }
-    });
+    sticky();
+    window.addEventListener("scroll", sticky);
 
     // check if this is a parent page
     if(_isPageParent()) {
