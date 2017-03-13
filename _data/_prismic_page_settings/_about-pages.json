@@ -143,13 +143,6 @@
                     "placeholder" : "Headline text"
                   }
                 },
-                "copy" : {
-                  "type" : "Text",
-                  "config" : {
-                    "label": "Copy",
-                    "placeholder" : "Copy text"
-                  }
-                },
                 "linkUrl" : {
                   "type" : "Link",
                   "config" : {

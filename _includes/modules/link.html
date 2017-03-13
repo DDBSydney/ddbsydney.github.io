@@ -1,5 +1,6 @@
 {% assign link = include.link %}
 {% assign label = include.label %}
+{% assign style = include.style %}
 
 {% if link.value %}
 
@@ -48,7 +49,7 @@
   {% endcapture %}
 
   <!-- link -->
-  <a class="link" href="{{ linkUrl | normalize_whitespace }}" {{ linkTarget | normalize_whitespace }} {{ linkLabel | normalize_whitespace }}>
+  <a class="{{ style || default: 'link' }}" href="{{ linkUrl | normalize_whitespace }}" {{ linkTarget | normalize_whitespace }} {{ linkLabel | normalize_whitespace }}>
     <span> {{ label | default: "View" }} </span>
   </a><!-- link end -->
 
