@@ -51,8 +51,8 @@
 @import "components/header";
 @import "components/footer";
 @import "components/fof-tile";
+@import "components/intro/intro-tile";
 
-@import "components/intro-tile";
 @import "components/case-study-tile";
 @import "components/case-study-work-tile";
 
@@ -65,7 +65,9 @@
 
 @import "components/article-tiles";
 @import "components/contact-tile";
-@import "components/about-tile";
+
+@import "components/about/about-tile";
+@import "components/about/title-tile";
 
 @import "components/career/career-intro";
 @import "components/career/career-detail";

@@ -1,22 +1,22 @@
 // -------------------------------------
-//   Component - About Tile
+//   Component - Title Tile
 // -------------------------------------
 /**
-  * @name about-tile
-  * @desc Styles for the about tile component.
+  * @name title-tile
+  * @desc Styles for the title tile component.
 **/
-$about_tile_h_min: 56vw;
-$about_tile_h_min_mob: 50vh; 
+$title_tile_h_min: 56vw;
+$title_tile_h_min_mob: 50vh;
 
-.about-tile {
+.title-tile {
   @extend %flex--row;
-  height: $about_tile_h_min;
+  height: $title_tile_h_min;
   min-height: $base_html_w_min;
 
   background-color: black;
-  @include mobile { height: $about_tile_h_min_mob; }
+  @include mobile { height: $title_tile_h_min_mob; }
 
-  .about-tile__content {
+  .title-tile__content {
     @include section--padding;
 
     @extend %flex--col;

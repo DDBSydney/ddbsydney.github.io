@@ -1,0 +1,363 @@
+{
+  "Page" : {
+    "uid" : {
+      "type" : "UID",
+      "config" : {
+        "placeholder" : "unique-identifier-for-page-url"
+      }
+    },
+    "meta-title" : {
+      "type" : "Text",
+      "config" : {
+        "label" : "Meta: Title",
+        "placeholder" : "Page title"
+      }
+    },
+    "meta-description" : {
+      "type" : "Text",
+      "config" : {
+        "label" : "Meta: Description",
+        "placeholder" : "Page description"
+      }
+    },
+    "foregroundColor": {
+      "type": "Color",
+      "config": {
+        "label": "Foreground Colour"
+      }
+    },
+    "backgroundColor": {
+      "type": "Color",
+      "config": {
+        "label": "Background Colour"
+      }
+    }
+  },
+
+
+
+  "Content" : {
+    "sections" : {
+      "fieldset" : "Sections",
+      "type" : "Slices",
+      "config" : {
+        "choices" : {
+
+
+
+          "promo-video" : {
+            "type" : "Group",
+            "config" : {
+              "label" : "Promo video",
+              "repeat" : false,
+              "fields" : {
+                "headline" : {
+                  "type" : "Text",
+                  "config" : {
+                    "label" : "Headline",
+                    "placeholder" : "Headline text"
+                  }
+                },
+                "image" : {
+                  "type" : "Image",
+                  "config" : {
+                    "label" : "Image",
+                    "constraint" : {
+                      "width" : null,
+                      "height" : null
+                    },
+                    "thumbnails": [
+                      {
+                        "name": "Desktop",
+                        "width": "1920",
+                        "height": "1080"
+                      },
+                      {
+                        "name": "Mobile",
+                        "width": "800",
+                        "height": "820"
+                      }
+                    ]
+                  }
+                },
+                "video" : {
+                  "type" : "Link",
+                  "config" : {
+                    "label" : "Video"
+                  }
+                }
+              }
+            }
+          },
+
+
+
+          "title-tile" : {
+            "type" : "Group",
+            "config" : {
+              "label" : "Title tile",
+              "repeat" : false,
+              "fields" : {
+                "headline" : {
+                  "type" : "Text",
+                  "config" : {
+                    "label" : "Headline",
+                    "placeholder" : "Headline text"
+                  }
+                }
+              }
+            }
+          },
+
+
+
+          "about-tile" : {
+            "type" : "Group",
+            "config" : {
+              "label" : "About tile",
+              "repeat" : false,
+              "fields" : {
+                "image" : {
+                  "type" : "Image",
+                  "config" : {
+                    "label" : "Image",
+                    "constraint" : {
+                      "width" : null,
+                      "height" : null
+                    },
+                    "thumbnails" : [ {
+                      "name" : "Desktop",
+                      "width" : "960",
+                      "height" : "825"
+                    }, {
+                      "name" : "Mobile",
+                      "width" : "800",
+                      "height" : "820"
+                    } ]
+                  }
+                },
+                "headline" : {
+                  "type" : "Text",
+                  "config" : {
+                    "label": "Headline",
+                    "placeholder" : "Headline text"
+                  }
+                },
+                "copy" : {
+                  "type" : "Text",
+                  "config" : {
+                    "label": "Copy",
+                    "placeholder" : "Copy text"
+                  }
+                },
+                "linkUrl" : {
+                  "type" : "Link",
+                  "config" : {
+                    "label" : "Link URL",
+                    "placeholder" : "Link URL"
+                  }
+                },
+                "linkText" : {
+                  "type" : "Text",
+                  "config" : {
+                    "label": "Link Text",
+                    "placeholder" : "Link text"
+                  }
+                },
+                "align" : {
+                  "type" : "Select",
+                  "config" : {
+                    "label" : "Alignment (text)",
+                    "placeholder" : "right",
+                    "options" : [
+                      "left"
+                    ]
+                  }
+                },
+                "style" : {
+                  "type" : "Select",
+                   "config" : {
+                    "label" : "Style (background)",
+                    "placeholder" : "black",
+                    "options" : [
+                      "yellow",
+                      "grey"
+                    ]
+                  }
+                }
+              }
+            }
+          },
+
+
+
+          "content-tile" : {
+            "type" : "Group",
+            "config" : {
+              "label" : "Content tile",
+              "repeat" : false,
+              "fields" : {
+                "headline" : {
+                  "type" : "Text",
+                  "config" : {
+                    "label" : "Headline",
+                    "placeholder" : "Headline text"
+                  }
+                },
+                "subline" : {
+                  "type" : "Text",
+                  "config" : {
+                    "label" : "Subline",
+                    "placeholder" : "Subline text"
+                  }
+                },
+                "copy" : {
+                  "type" : "Text",
+                  "config" : {
+                    "label" : "Copy",
+                    "placeholder" : "Copy text"
+                  }
+                },
+                "text" : {
+                  "type" : "Text",
+                  "config" : {
+                    "label" : "Text",
+                    "placeholder" : "Image text"
+                  }
+                },
+                "list": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "List",
+                    "multi": "list-item, o-list-item"
+                  }
+                },
+                "imageDesktop" : {
+                  "type" : "Image",
+                  "config" : {
+                    "label" : "Image (Desktop)",
+                    "constraint" : {
+                      "width" : null,
+                      "height" : null
+                    },
+                    "thumbnails": [ ]
+                  }
+                },
+                "imageMobile" : {
+                  "type" : "Image",
+                  "config" : {
+                    "label" : "Image (Mobile)",
+                    "constraint" : {
+                      "width" : null,
+                      "height" : null
+                    },
+                    "thumbnails": [ ]
+                  }
+                },
+                "alignHeadline" : {
+                  "type" : "Select",
+                  "config" : {
+                    "label" : "Alignment (headline)",
+                    "placeholder" : "center",
+                    "options" : [
+                      "left",
+                      "right"
+                    ]
+                  }
+                },
+                "alignSubline" : {
+                  "type" : "Select",
+                  "config" : {
+                    "label" : "Alignment (subline)",
+                    "placeholder" : "center",
+                    "options" : [
+                      "left",
+                      "right"
+                    ]
+                  }
+                },
+                "alignCopy" : {
+                  "type" : "Select",
+                  "config" : {
+                    "label" : "Alignment (copy)",
+                    "placeholder" : "center",
+                    "options" : [
+                      "left",
+                      "right"
+                    ]
+                  }
+                },
+                "alignImage" : {
+                  "type" : "Select",
+                  "config" : {
+                    "label" : "Alignment (image)",
+                    "placeholder" : "bottom",
+                    "options" : [
+                      "top"
+                    ]
+                  }
+                },
+                "foregroundColor": {
+                  "type": "Color",
+                  "config": {
+                    "label": "Foreground Colour (optional)"
+                  }
+                },
+                "backgroundColor": {
+                  "type": "Color",
+                  "config": {
+                    "label": "Background Colour (optional)"
+                  }
+                }
+              }
+            }
+          },
+
+
+
+          "about-tile" : {
+            "type" : "Group",
+            "config" : {
+              "label" : "About tile",
+              "repeat" : false,
+              "fields" : {
+                "headline" : {
+                  "type" : "Text",
+                  "config" : {
+                    "label" : "Headline",
+                    "placeholder" : "Headline text"
+                  }
+                }
+              }
+            }
+          },
+
+
+
+          "people-collage" : {
+            "type" : "Group",
+            "config" : {
+              "label" : "People collage",
+              "repeat" : true,
+              "fields" : {
+                "image" : {
+                  "type" : "Image",
+                  "config" : {
+                    "label" : "Image",
+                    "constraint" : {
+                      "width" : 360,
+                      "height" : 388
+                    }
+                  }
+                }
+              }
+            }
+          }
+
+
+
+        }
+      }
+    }
+  }
+}

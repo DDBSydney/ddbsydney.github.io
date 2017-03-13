@@ -9,9 +9,6 @@
 $content_tile_h_min: 66vw;
 $content_tile_h_min_mob: 66vw;
 
-$content_tile_list_w_max: 980px;
-$content_tile_list_w_max_mob: 460px;
-
 .content-tile {
   @extend %table;
   min-height: $content_tile_h_min;
@@ -57,34 +54,44 @@ $content_tile_list_w_max_mob: 460px;
       @extend %flex--row;
       @include section--padding-h;
 
-      padding: 0; margin: 0 auto; 
-      max-width: $content_tile_list_w_max;
+      padding: 0;
+      margin: 0 auto;
+      max-width: 100%;
 
       &item {
         @extend %flex--col;
 
-        padding: 0; margin: 0 auto; 
-        @include section--padding-h("sm");
+        padding: 0;
+        margin: 0 auto;
         @include section--margin-top("sm");
 
         @include font--style("h5");
         list-style: none;
         text-align: left;
         flex-basis: 50%;
+        max-width: 50%;
+
+        & > div {
+          @include section--padding-h("sm");
+        }
       }
 
       @include mobile {
         @include section--margin-top("md");
 
-        padding-left: 0; padding-right: 0;
-        max-width: $content_tile_list_w_max_mob;
+        padding-left: 0;
+        padding-right: 0;
 
         &item {
-          @include section--padding-h("lg");
           flex-basis: 100%;
+          max-width: 100%;
 
           @include section--margin-top("md");
           &:first-child { margin-top: 0; }
+
+          & > div {
+            @include section--padding-h("lg");
+          }
         }
       }
     }
@@ -106,7 +113,7 @@ $content_tile_list_w_max_mob: 460px;
       margin-bottom: 0;
     }
 
-    img { 
+    img {
       width: 100%;
       max-width: 100%;
       @include mobile { width: auto; }

@@ -14,6 +14,19 @@
 }
 
 // -------------------------------------
+//   Intro Tile - Images
+// -------------------------------------
+
+.intro-tile__image-section {
+  opacity: 0;
+  transition: 350ms opacity;
+
+  &.intro-tile__image-section--visible {
+    opacity: 1;
+  }
+}
+
+// -------------------------------------
 //   Intro Tile - Links
 // -------------------------------------
 .intro-tile__links {

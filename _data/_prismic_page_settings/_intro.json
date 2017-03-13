@@ -45,23 +45,16 @@
 
 
 
-          "promo-video" : {
+          "intro-tile" : {
             "type" : "Group",
             "config" : {
-              "label" : "Promo video",
+              "label" : "Intro tile",
               "repeat" : false,
               "fields" : {
-                "headline" : {
-                  "type" : "Text",
-                  "config" : {
-                    "label" : "Headline",
-                    "placeholder" : "Headline text"
-                  }
-                },
-                "image" : {
+                "imageSydney" : {
                   "type" : "Image",
                   "config" : {
-                    "label" : "Image",
+                    "label" : "Image (Sydney)",
                     "constraint" : {
                       "width" : null,
                       "height" : null
@@ -80,31 +73,48 @@
                     ]
                   }
                 },
-                "video" : {
-                  "type" : "Link",
-                  "config" : {
-                    "label" : "Video"
-                  }
-                }
-              }
-            }
-          },
-
-
-          "people-collage" : {
-            "type" : "Group",
-            "config" : {
-              "label" : "People collage",
-              "repeat" : true,
-              "fields" : {
-                "image" : {
+                "imageMelbourne" : {
                   "type" : "Image",
                   "config" : {
-                    "label" : "Image",
+                    "label" : "Image (Melbourne)",
                     "constraint" : {
-                      "width" : 360,
-                      "height" : 388
-                    }
+                      "width" : null,
+                      "height" : null
+                    },
+                    "thumbnails": [
+                      {
+                        "name": "Desktop",
+                        "width": "1920",
+                        "height": "1080"
+                      },
+                      {
+                        "name": "Mobile",
+                        "width": "800",
+                        "height": "820"
+                      }
+                    ]
+                  }
+                },
+                "imageGroup" : {
+                  "type" : "Image",
+                  "config" : {
+                    "label" : "Image (Group)",
+                    "constraint" : {
+                      "width" : null,
+                      "height" : null
+                    },
+                    "thumbnails": [
+                      {
+                        "name": "Desktop",
+                        "width": "1920",
+                        "height": "1080"
+                      },
+                      {
+                        "name": "Mobile",
+                        "width": "800",
+                        "height": "820"
+                      }
+                    ]
                   }
                 }
               }

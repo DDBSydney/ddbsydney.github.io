@@ -45,18 +45,6 @@
 
 
 
-          "intro-tile" : {
-            "type" : "Group",
-            "config" : {
-              "label" : "Intro tile",
-              "repeat" : false,
-              "fields" : {
-              }
-            }
-          },
-
-
-
           "promo-video" : {
             "type" : "Group",
             "config" : {
@@ -677,10 +665,10 @@
 
 
 
-          "about-tile" : {
+          "title-tile" : {
             "type" : "Group",
             "config" : {
-              "label" : "About tile",
+              "label" : "Title tile",
               "repeat" : false,
               "fields" : {
                 "headline" : {
