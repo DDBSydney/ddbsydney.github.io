@@ -1133,7 +1133,7 @@ var CONFIG = require("../config");
     // @name sticky
     // @desc function to manage sticky header styling
     function sticky(event) {
-      var newScroll = document.body.scrollTop;
+      var newScroll = (document.documentElement.scrollTop||document.body.scrollTop);
       var diffScroll = prevScroll - newScroll;
       prevScroll = newScroll;
 
