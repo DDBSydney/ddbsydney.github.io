@@ -6,7 +6,7 @@ require("../../base/promise");
 var CONFIG = require("../../config");
 
 (function($){
-  console.log("components/intro-tile.component.js loaded.");
+  console.log("components/intro/intro-tile.component.js loaded.");
 
   function IntroTile(options) {
 

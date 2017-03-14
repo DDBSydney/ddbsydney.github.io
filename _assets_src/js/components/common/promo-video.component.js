@@ -3,30 +3,30 @@
 // -------------------------------------
 //   Dependencies
 // -------------------------------------
-/** 
+/**
   * @plugins
   * require("jquery");
 **/
 
 // base
-require("../base/query");
-require("../base/promise");
+require("../../base/query");
+require("../../base/promise");
 
 // config
-var CONFIG = require("../config");
+var CONFIG = require("../../config");
 
 // -------------------------------------
 //   Component - Promo Video
 // -------------------------------------
-/** 
+/**
   * @name promo-video.component
   * @desc The promo video component for the app.
 **/
 
 (function($){
-  console.log("components/promo-video.component.js loaded.");
+  console.log("components/work/promo-video.component.js loaded.");
 
-  /** 
+  /**
     * @name PromoVideo
     * @desc the main class for the component
     * @param {Object} options - options for the component
@@ -66,7 +66,7 @@ var CONFIG = require("../config");
     // ---------------------------------------------
     // check if the promo video has valid options
     // element - should be a valid DOM element
-    if(!options || !options.element 
+    if(!options || !options.element
       || !options.element.nodeName || !options.element.nodeType) {
       console.log("promo-video.component.js: Cannot create promo video with invalid options.");
       return null;  // return null if invalid
@@ -83,7 +83,7 @@ var CONFIG = require("../config");
         // get the video's data-src attribute
         var src = video.getAttribute("data-src");
 
-        // set the src attribute for the video 
+        // set the src attribute for the video
         // only if this is not a mobile device
         if(!CONFIG.device.isMobile
           && src != null && src.length > 1) {

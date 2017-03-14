@@ -16,70 +16,70 @@
 
       {% comment %} <!-- Latest & Work Pages --> {% endcomment %}
 
-      {% when "promo-video" %}
-        {% include components/promo-video.html data=section.value %}
+      {% when "article-tile" %}
+        {% include components/work/article-tile.html data=section.value %}
 
       {% when "case-study-tile" %}
-        {% include components/case-study-tile.html data=section.value %}
-
-      {% when "article-tile" %}
-        {% include components/article-tile.html data=section.value %}
+        {% include components/work/case-study-tile.html data=section.value %}
 
 
 
       {% comment %} <!-- Case Study Pages --> {% endcomment %}
 
       {% when "case-study-work-tile" %}
-        {% include components/case-study-work-tile.html data=section.value %}
-
-      {% when "content-tile" %}
-        {% include components/content-tile.html data=section.value %}
-
-      {% when "quote-tile" %}
-        {% include components/quote-tile.html data=section.value %}
-
-      {% when "image-tile" %}
-        {% include components/image-tile.html data=section.value %}
-
-      {% when "video-tile" %}
-        {% include components/video-tile.html data=section.value %}
+        {% include components/case-studies/case-study-work-tile.html data=section.value %}
 
 
 
       {% comment %} <!-- About Page --> {% endcomment %}
 
-      {% when "title-tile" %}
-        {% include components/about/title-tile.html data=section.value %}
-
       {% when "about-tile" %}
         {% include components/about/about-tile.html data=section.value %}
+
+      {% when "people-collage" %}
+        {% include components/about/people-collage.html data=section.value %}
 
 
 
       {% comment %} <!-- Contact Page --> {% endcomment %}
 
       {% when "contact-tile" %}
-        {% include components/contact-tile.html data=section.value %}
+        {% include components/contact/contact-tile.html data=section.value %}
 
       {% when "rules-tile" %}
-        {% include components/rules-tile.html data=section.value %}
+        {% include components/contact/rules-tile.html data=section.value %}
 
 
 
       {% comment %} <!-- Careers Page --> {% endcomment %}
 
       {% when "career-intro" %}
-        {% include components/career/_career-intro.html data=section.value %}
+        {% include components/careers/career-intro.html data=section.value %}
 
       {% when "career-detail" %}
-        {% include components/career/_career-detail.html data=section.value color=include.color %}
+        {% include components/careers/career-detail.html data=section.value color=include.color %}
 
 
 
-      {% comment %} <!-- People Page --> {% endcomment %}
+      {% comment %} <!-- Common Components --> {% endcomment %}
 
-      {% when "people-collage" %}
-        {% include components/people/_people-collage.html data=section.value %}
+      {% when "content-tile" %}
+        {% include components/common/content-tile.html data=section.value %}
+
+      {% when "image-tile" %}
+        {% include components/common/image-tile.html data=section.value %}
+
+      {% when "promo-video" %}
+        {% include components/common/promo-video.html data=section.value %}
+
+      {% when "quote-tile" %}
+        {% include components/common/quote-tile.html data=section.value %}
+
+      {% when "title-tile" %}
+        {% include components/common/title-tile.html data=section.value %}
+
+      {% when "video-tile" %}
+        {% include components/common/video-tile.html data=section.value %}
 
 
 

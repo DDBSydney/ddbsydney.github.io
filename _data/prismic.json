@@ -570,22 +570,13 @@
                       "main": {
                         "dimensions": {
                           "width": 1920,
-                          "height": 900
+                          "height": 1200
                         },
                         "alt": null,
                         "copyright": null,
-                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/e6286ce7f7554fe88cc19b1e96ac1e3ebc81b426_bump1.jpg"
+                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/19bd4584721f3660d7f84dbabe7cc45ad972bc1a_screen-shot-2017-03-08-at-3.02.04-pm-2.png"
                       },
                       "views": {
-                        "desktop": {
-                          "dimensions": {
-                            "width": 1920,
-                            "height": 900
-                          },
-                          "alt": null,
-                          "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/e6286ce7f7554fe88cc19b1e96ac1e3ebc81b426_bump1.jpg"
-                        },
                         "mobile": {
                           "dimensions": {
                             "width": 840,
@@ -593,7 +584,16 @@
                           },
                           "alt": null,
                           "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/e9e9b2adab51c5ba2d30ee4ec5533bcbdea22850_bump1.jpg"
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/ac35b7c35efdfa283d6d03f4e5a0dda011d16166_screen-shot-2017-03-08-at-3.02.04-pm-2.png"
+                        },
+                        "desktop": {
+                          "dimensions": {
+                            "width": 1920,
+                            "height": 900
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/c71bff61785577c140625991221836e2e13315c0_screen-shot-2017-03-08-at-3.02.04-pm-2.png"
                         }
                       }
                     }
@@ -608,6 +608,47 @@
                   "copy": {
                     "type": "Text",
                     "value": "To establish the new identity ‘Proud supporters of you’ we leveraged the brand’s key sponsorship program – the Westpac Lifesaver Rescue Helicopter."
+                  }
+                }
+              ]
+            },
+            {
+              "type": "image-tile",
+              "value": [
+                {
+                  "image": {
+                    "type": "Image",
+                    "value": {
+                      "main": {
+                        "dimensions": {
+                          "width": 1920,
+                          "height": 1200
+                        },
+                        "alt": null,
+                        "copyright": null,
+                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/fe38015bfaed392ece0208ebe0c122e883d04504_screen-shot-2017-03-08-at-3.02.12-pm-2.png"
+                      },
+                      "views": {
+                        "desktop": {
+                          "dimensions": {
+                            "width": 1920,
+                            "height": 900
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/3910a60e2e0e9d0910a4a164b5d628a5ec96f083_screen-shot-2017-03-08-at-3.02.12-pm-2.png"
+                        },
+                        "mobile": {
+                          "dimensions": {
+                            "width": 800,
+                            "height": 820
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/1b2f87b4b7477717aa8f4451e95e43f131780d33_screen-shot-2017-03-08-at-3.02.12-pm-2.png"
+                        }
+                      }
+                    }
                   }
                 }
               ]
@@ -628,6 +669,47 @@
               ]
             },
             {
+              "type": "image-tile",
+              "value": [
+                {
+                  "image": {
+                    "type": "Image",
+                    "value": {
+                      "main": {
+                        "dimensions": {
+                          "width": 1920,
+                          "height": 1200
+                        },
+                        "alt": null,
+                        "copyright": null,
+                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/a8945adb3fc8cf7cd7ddeafcec0ff3ea2367a16c_screen-shot-2017-03-08-at-3.02.41-pm-2.png"
+                      },
+                      "views": {
+                        "desktop": {
+                          "dimensions": {
+                            "width": 1920,
+                            "height": 900
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/db01232b6a555de1f3bdb3c9b607a79d17733a59_screen-shot-2017-03-08-at-3.02.41-pm-2.png"
+                        },
+                        "mobile": {
+                          "dimensions": {
+                            "width": 800,
+                            "height": 820
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/23a13a14a4f397c176ceb01c443463ac1caf160b_screen-shot-2017-03-08-at-3.02.41-pm-2.png"
+                        }
+                      }
+                    }
+                  }
+                }
+              ]
+            },
+            {
               "type": "content-tile",
               "value": [
                 {
@@ -643,6 +725,47 @@
               ]
             },
             {
+              "type": "image-tile",
+              "value": [
+                {
+                  "image": {
+                    "type": "Image",
+                    "value": {
+                      "main": {
+                        "dimensions": {
+                          "width": 1920,
+                          "height": 1200
+                        },
+                        "alt": null,
+                        "copyright": null,
+                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/00735b849f49bf36e1c997e02628b5e3119d725f_screen-shot-2017-03-08-at-3.03.00-pm-2.png"
+                      },
+                      "views": {
+                        "mobile": {
+                          "dimensions": {
+                            "width": 800,
+                            "height": 820
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/a6e4e33e424812596a4e92bb3111beb078b3f0ad_screen-shot-2017-03-08-at-3.03.00-pm-2.png"
+                        },
+                        "desktop": {
+                          "dimensions": {
+                            "width": 1920,
+                            "height": 900
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/1e169fa8e06189fd8b5bb7120417e6e06ffab3ee_screen-shot-2017-03-08-at-3.03.00-pm-2.png"
+                        }
+                      }
+                    }
+                  }
+                }
+              ]
+            },
+            {
               "type": "content-tile",
               "value": [
                 {
@@ -653,6 +776,19 @@
                   "copy": {
                     "type": "Text",
                     "value": "On January 1, 2017, we created a new kind of bank account, only exclusively available to unborn babies."
+                  }
+                }
+              ]
+            },
+            {
+              "type": "video-tile",
+              "value": [
+                {
+                  "video": {
+                    "type": "Link.web",
+                    "value": {
+                      "url": "https://vimeo.com/204975716"
+                    }
                   }
                 }
               ]
@@ -697,6 +833,47 @@
                   "copy": {
                     "type": "Text",
                     "value": "The results were phenomenal, in just the first week alone:\n- In one week the campaign generated 1.5million in PR.\n- 16,220 accounts had been registered.\n- 58% of those being non-Westpac customers."
+                  }
+                }
+              ]
+            },
+            {
+              "type": "image-tile",
+              "value": [
+                {
+                  "image": {
+                    "type": "Image",
+                    "value": {
+                      "main": {
+                        "dimensions": {
+                          "width": 1920,
+                          "height": 1200
+                        },
+                        "alt": null,
+                        "copyright": null,
+                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/499cf17ad0d911f9b5950382ae914b9fbc49b691_screen-shot-2017-03-08-at-3.03.27-pm-2.png"
+                      },
+                      "views": {
+                        "desktop": {
+                          "dimensions": {
+                            "width": 1920,
+                            "height": 900
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/79a02fc79674aaedfb3d5c49aaa23b177d7063ec_screen-shot-2017-03-08-at-3.03.27-pm-2.png"
+                        },
+                        "mobile": {
+                          "dimensions": {
+                            "width": 800,
+                            "height": 820
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/9d3c9b77dfdca82e5a28a60be54d232c64d7235e_screen-shot-2017-03-08-at-3.03.27-pm-2.png"
+                        }
+                      }
+                    }
                   }
                 }
               ]

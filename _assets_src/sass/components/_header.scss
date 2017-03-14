@@ -6,6 +6,10 @@
   * @desc Styles for the header component.
 **/
 
+// -------------------------------------
+//   Header - Sticky & Transition
+// -------------------------------------
+
 .section--header {
   position: fixed;
   @include transitions(top, background-color);
@@ -19,6 +23,14 @@
     @include mobile-up {
       .header__nav {
         height: 45px;
+
+        > a.link > span:before {
+          bottom: 3px;
+        }
+      }
+
+      .header__back > a {
+        transform: translateY(5%);
       }
 
       .header__logo {
@@ -26,7 +38,26 @@
       }
 
       .header {
-        @include section--padding-v("sm", 0.25);
+        @include section--padding-v("sm", 0);
+      }
+    }
+
+    @include tablet-up {
+      .header__nav {
+        > a.link > span {
+          padding-bottom: 0.2em;
+        }
+
+        > a.link > span:before {
+          bottom: 0;
+        }
+      }
+    }
+
+    @include mobile {
+      .header {
+        height: 40px;
+        @include section--padding-v("sm", 0);
       }
     }
   }
@@ -37,10 +68,15 @@
   // }
 }
 
+// -------------------------------------
+//   Header
+// -------------------------------------
+
 .header {
   @extend %flex--row;
   @include section--padding;
 
+  overflow: hidden;
   text-align: center;
   width: 100vw; height: auto;
   min-width: $base_html_w_min;
@@ -117,6 +153,18 @@
 
   > a   { display: inline-block; }
   > a i { display: inline-block; }
+
+  > a {
+    @include transitions(transform);  // Used by .header-not-at-top
+
+    @include mobile-up {
+      transform: translateY(18%);
+    }
+
+    @include tablet-up {
+      transform: translateY(7%);
+    }
+  }
 }
 
 // -------------------------------------
@@ -137,7 +185,7 @@
 
   @include mobile-up {
     height: 50px;
-    // transform: none !important;
+    transform: none !important;
     @include transitions(height);  // Used by .header-not-at-top
     display: flex !important;
     opacity: 1 !important;
@@ -150,6 +198,9 @@
       align-self: flex-end;
       font-weight: $font_weight_bold;
       /* &--active { pointer-events: none; } */
+      & > span {
+        @include transitions(padding);  // Used by .header-not-at-top
+      }
     }
 
     @include mobile {
@@ -192,6 +243,7 @@ $header_logo_h_mob: 20px;
 .header__logo {
   margin-top: 1em;
   @include mobile { margin-top: 0.35em; }
+
   @include mobile-up {
     @include transitions(margin);  // Used by .header-not-at-top
   }
@@ -215,6 +267,6 @@ $header_logo_h_mob: 20px;
     width: $header_logo_w;
     @extend %transform-center-h;
     @include tablet { width: $header_logo_w_mob; }
-
+    @include transitions(width, height);  // Used by .header-not-at-top
   }
 }
