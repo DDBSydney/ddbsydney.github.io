@@ -62,10 +62,10 @@
     }
   }
 
-  // &.header-hidden {
-  //   top: -100%;
-  //   background-color: rgba(0,0,0,0);
-  // }
+  &.header-hidden {
+    top: -100%;
+    background-color: rgba(0,0,0,0);
+  }
 }
 
 // -------------------------------------

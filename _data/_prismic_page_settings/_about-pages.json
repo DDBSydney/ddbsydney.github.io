@@ -60,6 +60,155 @@
                       "height" : 388
                     }
                   }
+                },
+                "name" : {
+                  "type" : "Text",
+                  "config" : {
+                    "label" : "Name",
+                    "placeholder" : "Name of persion"
+                  }
+                },
+                "job" : {
+                  "type" : "Text",
+                  "config" : {
+                    "label" : "Job/Position",
+                    "placeholder" : "Job or position of person"
+                  }
+                }
+              }
+            }
+          },
+
+
+
+          "about-content-tile" : {
+            "type" : "Group",
+            "config" : {
+              "label" : "About: Content tile",
+              "repeat" : false,
+              "fields" : {
+                "headline" : {
+                  "type" : "Text",
+                  "config" : {
+                    "label" : "Headline",
+                    "placeholder" : "Headline text"
+                  }
+                },
+                "copy" : {
+                  "type" : "Text",
+                  "config" : {
+                    "label" : "Copy",
+                    "placeholder" : "Copy text"
+                  }
+                },
+                "layout" : {
+                  "type" : "Select",
+                   "config" : {
+                    "label" : "Layout",
+                    "placeholder" : "Default",
+                    "options" : [
+                      "pretext"
+                    ]
+                  }
+                },
+                "style" : {
+                  "type" : "Select",
+                   "config" : {
+                    "label" : "Style (background)",
+                    "placeholder" : "None",
+                    "options" : [
+                      "yellow",
+                      "white",
+                      "black",
+                      "grey"
+                    ]
+                  }
+                }
+              }
+            }
+          },
+
+
+
+          "about-behaviour-tile" : {
+            "type" : "Group",
+            "config" : {
+              "label" : "About: Behaviour tile",
+              "repeat" : false,
+              "fields" : {
+                "image" : {
+                  "type" : "Image",
+                  "config" : {
+                    "label" : "Image",
+                    "constraint" : {
+                      "width" : null,
+                      "height" : null
+                    },
+                    "thumbnails" : [ {
+                      "name" : "Desktop",
+                      "width" : "960",
+                      "height" : "825"
+                    }, {
+                      "name" : "Mobile",
+                      "width" : "800",
+                      "height" : "820"
+                    } ]
+                  }
+                },
+                "headline" : {
+                  "type" : "Text",
+                  "config" : {
+                    "label": "Headline",
+                    "placeholder" : "Headline text"
+                  }
+                },
+                "copy" : {
+                  "type" : "Text",
+                  "config" : {
+                    "label" : "Copy",
+                    "placeholder" : "Copy text"
+                  }
+                },
+                "style" : {
+                  "type" : "Select",
+                   "config" : {
+                    "label" : "Style (background)",
+                    "placeholder" : "None",
+                    "options" : [
+                      "white",
+                      "yellow"
+                    ]
+                  }
+                }
+              }
+            }
+          },
+
+
+
+          "about-group-tile" : {
+            "type" : "Group",
+            "config" : {
+              "label" : "About: Group tiles",
+              "repeat" : true,
+              "fields" : {
+                "image" : {
+                  "type" : "Image",
+                  "config" : {
+                    "label" : "Image",
+                    "constraint" : {
+                      "width" : null,
+                      "height" : null
+                    },
+                    "thumbnails" : [ ]
+                  }
+                },
+                "copy" : {
+                  "type" : "Text",
+                  "config" : {
+                    "label": "Copy",
+                    "placeholder" : "Copy text"
+                  }
                 }
               }
             }

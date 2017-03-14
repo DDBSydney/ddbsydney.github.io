@@ -4504,6 +4504,14 @@
           "type": "Text",
           "value": "The people at DDB Sydney."
         },
+        "foregroundColor": {
+          "type": "Color",
+          "value": "#ffffff"
+        },
+        "backgroundColor": {
+          "type": "Color",
+          "value": "#191919"
+        },
         "sections": {
           "type": "SectionList",
           "value": [
@@ -4555,6 +4563,25 @@
                         "size": "4307599"
                       }
                     }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "about-content-tile",
+              "value": [
+                {
+                  "headline": {
+                    "type": "Text",
+                    "value": "Our people"
+                  },
+                  "copy": {
+                    "type": "Text",
+                    "value": "Here's a handful of the new DDBers whose impact we're already feeling, across IT, Engineering, Creative, Production, and Business Management."
+                  },
+                  "layout": {
+                    "type": "Select",
+                    "value": "pretext"
                   }
                 }
               ]
@@ -4992,6 +5019,189 @@
                       "views": {
                       }
                     }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "about-content-tile",
+              "value": [
+                {
+                  "headline": {
+                    "type": "Text",
+                    "value": "Our culture"
+                  },
+                  "copy": {
+                    "type": "Text",
+                    "value": "Celebrating our humanity in all its diversity lies at the heart of DDB's creative culture.\n\n<br class=\"all\">\n<br class=\"all\">\n\nIt goes back to Bill Bernbach’s policy of hiring ‘nice and talented’ people.\n\n<br class=\"all\">\n<br class=\"all\">\n\nIt defines the way we behave and the way we treat each other. And in a very old human tradition we have a list of 10 behaviours to remind us – after all, to err is human."
+                  }
+                }
+              ]
+            },
+            {
+              "type": "about-behaviour-tile",
+              "value": [
+                {
+                  "headline": {
+                    "type": "Text",
+                    "value": "No. 1"
+                  },
+                  "copy": {
+                    "type": "Text",
+                    "value": "We don’t pretend to be perfect. We don’t know it all, we strive to learn more."
+                  },
+                  "style": {
+                    "type": "Select",
+                    "value": "yellow"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "about-behaviour-tile",
+              "value": [
+                {
+                  "headline": {
+                    "type": "Text",
+                    "value": "No. 2"
+                  },
+                  "copy": {
+                    "type": "Text",
+                    "value": "We see each other’s strengths rather than pick at weaknesses."
+                  },
+                  "style": {
+                    "type": "Select",
+                    "value": "white"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "about-behaviour-tile",
+              "value": [
+                {
+                  "headline": {
+                    "type": "Text",
+                    "value": "No. 3"
+                  },
+                  "copy": {
+                    "type": "Text",
+                    "value": "We talk each other up, never down."
+                  },
+                  "style": {
+                    "type": "Select",
+                    "value": "yellow"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "about-behaviour-tile",
+              "value": [
+                {
+                  "headline": {
+                    "type": "Text",
+                    "value": "No. 4"
+                  },
+                  "copy": {
+                    "type": "Text",
+                    "value": "We don’t blame, or take all the credit – we share responsibility for the highs and lows."
+                  },
+                  "style": {
+                    "type": "Select",
+                    "value": "white"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "about-behaviour-tile",
+              "value": [
+                {
+                  "headline": {
+                    "type": "Text",
+                    "value": "No. 5"
+                  },
+                  "copy": {
+                    "type": "Text",
+                    "value": "We try to be honest  and authentic."
+                  },
+                  "style": {
+                    "type": "Select",
+                    "value": "yellow"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "about-behaviour-tile",
+              "value": [
+                {
+                  "headline": {
+                    "type": "Text",
+                    "value": "No. 6"
+                  },
+                  "copy": {
+                    "type": "Text",
+                    "value": "We speak as human beings – no jargon, no bullshit."
+                  },
+                  "style": {
+                    "type": "Select",
+                    "value": "white"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "about-content-tile",
+              "value": [
+                {
+                  "headline": {
+                    "type": "Text",
+                    "value": "Our group"
+                  },
+                  "copy": {
+                    "type": "Text",
+                    "value": "Quid maioritat omnim doluptis doloreperume endi custo verecum inia que voluptatat."
+                  },
+                  "layout": {
+                    "type": "Select",
+                    "value": "pretext"
+                  },
+                  "style": {
+                    "type": "Select",
+                    "value": "yellow"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "about-group-tile",
+              "value": [
+                {
+                },
+                {
+                  "copy": {
+                    "type": "Text",
+                    "value": "Mango"
+                  }
+                },
+                {
+                  "copy": {
+                    "type": "Text",
+                    "value": "Track"
+                  }
+                },
+                {
+                  "copy": {
+                    "type": "Text",
+                    "value": "DDB Remedy"
+                  }
+                },
+                {
+                  "copy": {
+                    "type": "Text",
+                    "value": "Tribal Worldwide"
                   }
                 }
               ]
