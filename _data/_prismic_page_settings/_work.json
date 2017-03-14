@@ -1,0 +1,133 @@
+{
+  "Page" : {
+    "uid" : {
+      "type" : "UID",
+      "config" : {
+        "placeholder" : "unique-identifier-for-page-url"
+      }
+    },
+    "meta-title" : {
+      "type" : "Text",
+      "config" : {
+        "label" : "Meta: Title",
+        "placeholder" : "Page title"
+      }
+    },
+    "meta-description" : {
+      "type" : "Text",
+      "config" : {
+        "label" : "Meta: Description",
+        "placeholder" : "Page description"
+      }
+    },
+    "foregroundColor": {
+      "type": "Color",
+      "config": {
+        "label": "Foreground Colour"
+      }
+    },
+    "backgroundColor": {
+      "type": "Color",
+      "config": {
+        "label": "Background Colour"
+      }
+    }
+  },
+
+
+
+  "Content" : {
+    "sections" : {
+      "fieldset" : "Sections",
+      "type" : "Slices",
+      "config" : {
+        "choices" : {
+
+
+
+          "case-study-tile" : {
+            "type" : "Group",
+            "config" : {
+              "label" : "Case Study tile",
+              "repeat" : false,
+              "fields" : {
+                "headline" : {
+                  "type" : "Text",
+                  "config" : {
+                    "label" : "Headline",
+                    "placeholder" : "Headline text"
+                  }
+                },
+                "copy" : {
+                  "type" : "Text",
+                  "config" : {
+                    "label" : "Copy",
+                    "placeholder" : "Copy text"
+                  }
+                },
+                "image" : {
+                  "type" : "Image",
+                  "config" : {
+                    "label" : "Image",
+                    "constraint" : {
+                      "width" : null,
+                      "height" : null
+                    },
+                    "thumbnails": [
+                      {
+                        "name": "Desktop",
+                        "width": "1920",
+                        "height": "900"
+                      },
+                      {
+                        "name": "Mobile",
+                        "width": "800",
+                        "height": "820"
+                      }
+                    ]
+                  }
+                },
+                "linkUrl" : {
+                  "type" : "Link",
+                  "config" : {
+                    "label" : "Link URL",
+                    "placeholder" : "Link URL"
+                  }
+                },
+                "linkText" : {
+                  "type" : "Text",
+                  "config" : {
+                    "label" : "Link Text",
+                    "placeholder" : "Link text"
+                  }
+                },
+                "align" : {
+                  "type" : "Select",
+                  "config" : {
+                    "label" : "Alignment",
+                    "placeholder" : "left",
+                    "options" : [
+                      "center",
+                      "right",
+                      "",
+                      "topLeft",
+                      "topCenter",
+                      "topRight",
+                      "",
+                      "bottomLeft",
+                      "bottomCenter",
+                      "bottomRight"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+
+
+
+        }
+      }
+    }
+  }
+}

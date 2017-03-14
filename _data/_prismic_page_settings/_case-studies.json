@@ -45,20 +45,57 @@
 
 
 
-          "people-collage" : {
+          "case-study-work-tile" : {
             "type" : "Group",
             "config" : {
-              "label" : "People collage",
-              "repeat" : true,
+              "label" : "Case Study work tile",
+              "repeat" : false,
               "fields" : {
+                "headline" : {
+                  "type" : "Text",
+                  "config" : {
+                    "label" : "Headline",
+                    "placeholder" : "Headline text"
+                  }
+                },
+                "copy" : {
+                  "type" : "Text",
+                  "config" : {
+                    "label" : "Copy",
+                    "placeholder" : "Copy text"
+                  }
+                },
                 "image" : {
                   "type" : "Image",
                   "config" : {
                     "label" : "Image",
                     "constraint" : {
-                      "width" : 360,
-                      "height" : 388
-                    }
+                      "width" : null,
+                      "height" : null
+                    },
+                    "thumbnails": [
+                      {
+                        "name": "Desktop",
+                        "width": "1920",
+                        "height": "900"
+                      },
+                      {
+                        "name": "Mobile",
+                        "width": "840",
+                        "height": "1350"
+                      }
+                    ]
+                  }
+                },
+                "align" : {
+                  "type" : "Select",
+                  "config" : {
+                    "label" : "Alignment",
+                    "placeholder" : "left",
+                    "options" : [
+                      "center",
+                      "right"
+                    ]
                   }
                 }
               }

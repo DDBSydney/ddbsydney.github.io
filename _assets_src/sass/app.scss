@@ -48,28 +48,28 @@
 // -------------------------------------
 //   App - Components
 // -------------------------------------
+@import "components/fof-tile";
 @import "components/header";
 @import "components/footer";
-@import "components/fof-tile";
+
 @import "components/intro/intro-tile";
 
-@import "components/case-study-tile";
-@import "components/case-study-work-tile";
+@import "components/work/article-tiles";
+@import "components/work/case-study-tile";
 
-@import "components/promo-video";
-@import "components/image-tile";
-@import "components/video-tile";
-
-@import "components/content-tile";
-@import "components/quote-tile";
-
-@import "components/article-tiles";
-@import "components/contact-tile";
+@import "components/case-studies/case-study-work-tile";
 
 @import "components/about/about-tile";
-@import "components/about/title-tile";
+@import "components/about/people-collage";
 
-@import "components/career/career-intro";
-@import "components/career/career-detail";
+@import "components/contact/contact-tile";
 
-@import "components/people/people-collage";
+@import "components/careers/career-detail";
+@import "components/careers/career-intro";
+
+@import "components/common/content-tile";
+@import "components/common/image-tile";
+@import "components/common/promo-video";
+@import "components/common/quote-tile";
+@import "components/common/title-tile";
+@import "components/common/video-tile";

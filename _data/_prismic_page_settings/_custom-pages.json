@@ -45,31 +45,6 @@
 
 
 
-          "people-collage" : {
-            "type" : "Group",
-            "config" : {
-              "label" : "People collage",
-              "repeat" : true,
-              "fields" : {
-                "image" : {
-                  "type" : "Image",
-                  "config" : {
-                    "label" : "Image",
-                    "constraint" : {
-                      "width" : 360,
-                      "height" : 388
-                    }
-                  }
-                }
-              }
-            }
-          },
-
-
-
-
-
-
           "content-tile" : {
             "type" : "Group",
             "config" : {

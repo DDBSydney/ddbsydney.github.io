@@ -26,7 +26,7 @@ var ClickableTile = require("./directives/clickable-tile.directive");
 
 // components
 var Header = require("./components/header.component");
-var PromoVideo = require("./components/promo-video.component");
+var PromoVideo = require("./components/common/promo-video.component");
 var IntroTile = require("./components/intro/intro-tile.component");
 
 // controllers

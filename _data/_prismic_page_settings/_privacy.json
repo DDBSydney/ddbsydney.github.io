@@ -1,0 +1,78 @@
+{
+  "Page" : {
+    "uid" : {
+      "type" : "UID",
+      "config" : {
+        "placeholder" : "unique-identifier-for-page-url"
+      }
+    },
+    "meta-title" : {
+      "type" : "Text",
+      "config" : {
+        "label" : "Meta: Title",
+        "placeholder" : "Page title"
+      }
+    },
+    "meta-description" : {
+      "type" : "Text",
+      "config" : {
+        "label" : "Meta: Description",
+        "placeholder" : "Page description"
+      }
+    },
+    "foregroundColor": {
+      "type": "Color",
+      "config": {
+        "label": "Foreground Colour"
+      }
+    },
+    "backgroundColor": {
+      "type": "Color",
+      "config": {
+        "label": "Background Colour"
+      }
+    }
+  },
+
+
+
+  "Content" : {
+    "sections" : {
+      "fieldset" : "Sections",
+      "type" : "Slices",
+      "config" : {
+        "choices" : {
+
+
+
+          "privacy-tile" : {
+            "type" : "Group",
+            "config" : {
+              "label" : "Privacy tile",
+              "repeat" : false,
+              "fields" : {
+                "headline" : {
+                  "type" : "Text",
+                  "config" : {
+                    "label": "Headline",
+                    "placeholder" : "Headline text"
+                  }
+                },
+                "copy" : {
+                  "type" : "Text",
+                  "config" : {
+                    "label" : "Copy",
+                    "placeholder" : "Copy text"
+                  }
+                }
+              }
+            }
+          }
+
+
+
+        }
+      }
+    }
+  }
+}
