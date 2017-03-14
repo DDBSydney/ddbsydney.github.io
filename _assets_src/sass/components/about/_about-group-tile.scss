@@ -1,0 +1,35 @@
+// -------------------------------------
+//   Component - About: Group Tile
+// -------------------------------------
+/**
+  * @name about-group-tile
+  * @desc Styles for the about-group-tile component.
+**/
+
+.about-group-tiles {
+  @extend %table;
+
+  color: black;
+  background-color: $color_yellow_ddb;
+
+  vertical-align: middle;
+  @include section--padding-h("lg");
+  @include section--padding-top("lg", 0);
+  @include section--padding-bottom("lg", 1.25);
+
+  @include mobile {
+    @include section--padding-h;
+    @include section--padding-top("lg", 0);
+    @include section--padding-bottom("lg", 1.25);
+  }
+
+  .about-group-tile {
+    .about-group-tile__content {
+      p {
+        color: inherit;
+        @include font--style("h4");
+        font-weight: $font_weight_medium;
+      }
+    }
+  }
+}

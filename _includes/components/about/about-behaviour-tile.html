@@ -1,0 +1,24 @@
+{% assign tile = include.data[0] %}
+
+<!-- about-behaviour tile -->
+<div class="about-behaviour-tile" data-style="{{ tile.style.value }}">
+
+  <!-- about-behaviour -->
+  <div class="about-behaviour-tile__content">
+
+    <!-- container -->
+    <div class="container">
+
+      {% if tile.headline.value %}
+      <h6 class="about-behaviour-tile__content--headline" data-align="left">{{ tile.headline.value }}</h6>
+      {% endif %}
+
+      {% if tile.copy.value %}
+      <p class="about-behaviour-tile__content--copy" data-align="left">{{ tile.copy.value }}</p>
+      {% endif %}
+
+    </div><!-- container end -->
+
+  </div><!-- about-behaviour end -->
+
+</div><!-- about-behaviour tile end -->

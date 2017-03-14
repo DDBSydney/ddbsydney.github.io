@@ -1,0 +1,57 @@
+// -------------------------------------
+//   Component - About: Content Tile
+// -------------------------------------
+/**
+  * @name about-content-tile
+  * @desc Styles for the about-content-tile component.
+**/
+
+.about-content-tile {
+  @extend %table;
+
+  &[data-style="yellow"] { color: black; background-color: $color_yellow_ddb; }
+  &[data-style="grey"]   { color: white; background-color: $color_grey_night; }
+  &[data-style="white"]  { color: black; background-color: white; }
+  &[data-style="black"]  { color: white; background-color: black; }
+
+  .about-content-tile__content {
+   @extend %table--col;
+    display: table-cell;
+    vertical-align: middle;
+    @include section--padding("lg");
+
+    @include mobile {
+      @include section--padding-h;
+    }
+
+    > .container {
+      width: 60%;
+      margin-left: 0;
+
+      @include mobile {
+        width: 100%;
+        margin-left: auto;
+      }
+    }
+
+    &--copy {
+      @include font--style("h5");
+      font-weight: $font_weight_medium;
+    }
+
+    &--headline,
+    &--copy {
+      color: inherit;
+      margin-top: 0;
+      margin-bottom: 1em;
+      &:last-child { margin-bottom: 0; }
+    }
+  }
+
+  &[data-layout="pretext"]  {
+    .about-content-tile__content {
+      @include section--padding-top("lg", 1.25);
+      @include section--padding-bottom("lg", 0.75);
+    }
+  }
+}

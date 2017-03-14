@@ -1,0 +1,53 @@
+// -------------------------------------
+//   Component - About: Behaviour Tile
+// -------------------------------------
+/**
+  * @name about-behaviour-tile
+  * @desc Styles for the about-behaviour-tile component.
+**/
+
+$about_behaviour_tile_h_min: 66vw;
+$about_behaviour_tile_h_min_mob: 66vw;
+
+.about-behaviour-tile {
+  @extend %table;
+  min-height: $about_behaviour_tile_h_min;
+  @include mobile { min-height: $about_behaviour_tile_h_min_mob; }
+
+  &[data-style="white"]  { color: black; background-color: white; }
+  &[data-style="yellow"] { color: black; background-color: $color_yellow_ddb; }
+
+  .about-behaviour-tile__content {
+   @extend %table--col;
+    display: table-cell;
+    vertical-align: middle;
+    @include section--padding("lg");
+
+    @include mobile {
+      @include section--padding-h;
+    }
+
+    > .container {
+      width: 60%;
+      margin-left: 0;
+
+      @include mobile {
+        width: 100%;
+        margin-left: auto;
+      }
+    }
+
+    &--copy {
+      @include font--style("h4");
+      font-weight: $font_weight_medium;
+    }
+
+    &--headline,
+    &--copy {
+      color: inherit;
+      margin-top: 0;
+      margin-bottom: 1em;
+      &:last-child { margin-bottom: 0; }
+    }
+  }
+}

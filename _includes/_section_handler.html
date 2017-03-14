@@ -33,6 +33,15 @@
 
       {% comment %} <!-- About Page --> {% endcomment %}
 
+      {% when "about-behaviour-tile" %}
+        {% include components/about/about-behaviour-tile.html data=section.value %}
+
+      {% when "about-content-tile" %}
+        {% include components/about/about-content-tile.html data=section.value %}
+
+      {% when "about-group-tile" %}
+        {% include components/about/about-group-tile.html data=section.value %}
+
       {% when "about-tile" %}
         {% include components/about/about-tile.html data=section.value %}
 

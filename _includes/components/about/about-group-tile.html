@@ -1,0 +1,24 @@
+{% assign tiles = include.data %}
+
+<!-- about-group tiles -->
+<div class="about-group-tiles">
+
+  {% for tile in tiles %}
+
+    <!-- tile -->
+    <div class="about-group-tile">
+
+      <!-- content -->
+      <div class="about-group-tile__content">
+
+        {% if tile.copy.value %}
+        <p>{{ tile.copy.value }}</p>
+        {% endif %}
+
+      </div><!-- content end -->
+
+    </div><!-- tile end -->
+
+  {% endfor %}
+
+</div><!-- about-group tiles end -->
