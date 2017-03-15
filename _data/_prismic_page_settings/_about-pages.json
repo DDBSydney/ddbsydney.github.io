@@ -87,6 +87,13 @@
               "label" : "About: Content tile",
               "repeat" : false,
               "fields" : {
+                "id" : {
+                  "type" : "Text",
+                  "config" : {
+                    "label" : "ID (anchor linking)",
+                    "placeholder" : "ID name (no spaces or special characters)"
+                  }
+                },
                 "headline" : {
                   "type" : "Text",
                   "config" : {

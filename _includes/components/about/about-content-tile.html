@@ -1,7 +1,7 @@
 {% assign tile = include.data[0] %}
 
 <!-- about-content tile -->
-<div class="about-content-tile" data-style="{{ tile.style.value }}" data-layout="{{ tile.layout.value }}">
+<div{% if tile.id.value %} id="{{tile.id.value}}"{% endif %} class="about-content-tile" data-style="{{ tile.style.value }}" data-layout="{{ tile.layout.value }}">
 
   <!-- about-content -->
   <div class="about-content-tile__content">
