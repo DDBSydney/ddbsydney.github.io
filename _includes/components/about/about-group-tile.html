@@ -11,10 +11,6 @@
           {% if tile.image.value %}
           <img src="{{ tile.image.value.main.url }}" />
           {% endif %}
-
-          {% if tile.copy.value %}
-          <p>{{ tile.copy.value }}</p>
-          {% endif %}
         </div>
       </div>
     {% endcapture %}
@@ -24,21 +20,21 @@
         {{ groupTile }}
       </div>
 
-      <table class="group-diagram-lineart group-diagram-lineart--top">
-        <tr>
-          <td class="left-col"></td>
-          <td class="right-col"></td>
-        <tr>
-      </table>
-
-      <table class="group-diagram-lineart group-diagram-lineart--bottom">
-        <tr>
+      <table class="group-diagram-lineart">
+        <tr class="top-row">
           {% for bit in tiles %}
             {% if forloop.first == false and forloop.last == false %}
               <td class="middle-col"></td>
             {% endif %}
           {% endfor %}
-        <tr>
+        </tr>
+        <tr class="bottom-row">
+          {% for bit in tiles %}
+            {% if forloop.first == false and forloop.last == false %}
+              <td class="middle-col"></td>
+            {% endif %}
+          {% endfor %}
+        </tr>
       </table>
 
       <div class="group-diagram-container">

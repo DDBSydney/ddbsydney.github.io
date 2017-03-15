@@ -3216,7 +3216,7 @@
                   },
                   "copy": {
                     "type": "Text",
-                    "value": "DDB Sydney is looking for an Account Manager to join the team."
+                    "value": "When Bill Bernbach started this agency, he had in mind precisely the kind of people he wanted to work here. \nThere were two requirements: You had to be talented and you had to be nice.\nIf you were nice but without talent, sorry but you just wouldn’t do. \nIf you were a great talent but not a nice person, he had no hesitation in saying ‘No.’\nThis is still our philosopyhy. So if you’re both, get in touch."
                   }
                 }
               ]
@@ -5207,12 +5207,12 @@
                     "value": {
                       "main": {
                         "dimensions": {
-                          "width": 360,
-                          "height": 388
+                          "width": 300,
+                          "height": 76
                         },
                         "alt": null,
                         "copyright": null,
-                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/42df236e1460d759241391ea0146bbe8ecca84f6_pradeep_thumbnail.jpg"
+                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/3a49015c5c5d3870d19ea7df78bbbe0c7ebb47a9_group-parent-2x.png"
                       },
                       "views": {
                       }
@@ -5225,12 +5225,12 @@
                     "value": {
                       "main": {
                         "dimensions": {
-                          "width": 360,
-                          "height": 388
+                          "width": 300,
+                          "height": 56
                         },
                         "alt": null,
                         "copyright": null,
-                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/42df236e1460d759241391ea0146bbe8ecca84f6_pradeep_thumbnail.jpg"
+                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/a71837182405679eddf5fec68e766137fa3be316_group-mango-2x.png"
                       },
                       "views": {
                       }
@@ -5247,12 +5247,12 @@
                     "value": {
                       "main": {
                         "dimensions": {
-                          "width": 360,
-                          "height": 388
+                          "width": 300,
+                          "height": 46
                         },
                         "alt": null,
                         "copyright": null,
-                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/42df236e1460d759241391ea0146bbe8ecca84f6_pradeep_thumbnail.jpg"
+                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/964997d4b2a4dac7b733b56cb03b8709cc58bf93_group-track-2x.png"
                       },
                       "views": {
                       }
@@ -5269,12 +5269,12 @@
                     "value": {
                       "main": {
                         "dimensions": {
-                          "width": 360,
-                          "height": 388
+                          "width": 300,
+                          "height": 60
                         },
                         "alt": null,
                         "copyright": null,
-                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/42df236e1460d759241391ea0146bbe8ecca84f6_pradeep_thumbnail.jpg"
+                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/5b947ddc57bc67af4324b28110afb27cbc4c6ee2_group-remedy-2x.png"
                       },
                       "views": {
                       }
@@ -5291,34 +5291,12 @@
                     "value": {
                       "main": {
                         "dimensions": {
-                          "width": 360,
-                          "height": 388
+                          "width": 300,
+                          "height": 54
                         },
                         "alt": null,
                         "copyright": null,
-                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/42df236e1460d759241391ea0146bbe8ecca84f6_pradeep_thumbnail.jpg"
-                      },
-                      "views": {
-                      }
-                    }
-                  },
-                  "copy": {
-                    "type": "Text",
-                    "value": "Tribal Worldwide"
-                  }
-                },
-                {
-                  "image": {
-                    "type": "Image",
-                    "value": {
-                      "main": {
-                        "dimensions": {
-                          "width": 360,
-                          "height": 388
-                        },
-                        "alt": null,
-                        "copyright": null,
-                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/42df236e1460d759241391ea0146bbe8ecca84f6_pradeep_thumbnail.jpg"
+                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/37f5dc043ceeecf63aa91d38c306dd0faf343fec_group-ddb-2x.png"
                       },
                       "views": {
                       }
@@ -5327,6 +5305,28 @@
                   "copy": {
                     "type": "Text",
                     "value": "DDB"
+                  }
+                },
+                {
+                  "image": {
+                    "type": "Image",
+                    "value": {
+                      "main": {
+                        "dimensions": {
+                          "width": 300,
+                          "height": 142
+                        },
+                        "alt": null,
+                        "copyright": null,
+                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/7d9404370c566f28e7d49eee2fd4867f350dceb1_group-tribal-2x.png"
+                      },
+                      "views": {
+                      }
+                    }
+                  },
+                  "copy": {
+                    "type": "Text",
+                    "value": "Tribal Worldwide"
                   }
                 }
               ]
