@@ -3235,6 +3235,25 @@
                   }
                 }
               ]
+            },
+            {
+              "type": "career-detail",
+              "value": [
+                {
+                  "headline": {
+                    "type": "Text",
+                    "value": "Account Director"
+                  },
+                  "subline": {
+                    "type": "Text",
+                    "value": "blah"
+                  },
+                  "copy": {
+                    "type": "Text",
+                    "value": "Description"
+                  }
+                }
+              ]
             }
           ]
         }
@@ -5286,6 +5305,28 @@
                   "copy": {
                     "type": "Text",
                     "value": "Tribal Worldwide"
+                  }
+                },
+                {
+                  "image": {
+                    "type": "Image",
+                    "value": {
+                      "main": {
+                        "dimensions": {
+                          "width": 360,
+                          "height": 388
+                        },
+                        "alt": null,
+                        "copyright": null,
+                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/42df236e1460d759241391ea0146bbe8ecca84f6_pradeep_thumbnail.jpg"
+                      },
+                      "views": {
+                      }
+                    }
+                  },
+                  "copy": {
+                    "type": "Text",
+                    "value": "DDB"
                   }
                 }
               ]
