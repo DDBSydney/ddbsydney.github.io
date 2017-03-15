@@ -32,18 +32,48 @@
 
     .group-diagram-tile {
       @extend %flex--col;
-      flex-basis: 25%;
-      width: 25%;
-      max-width: 25%;
+      flex-basis: 20%;
+      width: 20%;
+      max-width: 20%;
       flex-grow: 1;
       align-self: flex-start;
 
+      &:not(:only-child) { @include section--margin-top("sm"); }
+      &:only-child { @include section--margin-bottom("sm"); }
+
+      @include tablet-sm {
+        flex-basis: 50%;
+        width: 50%;
+        max-width: 50%;
+
+        &:not(:only-child) { @include section--margin-top("sm", 2.5); }
+        &:only-child { @include section--margin-bottom("sm", 2.5); }
+      }
+
+      @include mobile {
+        flex-basis: 50%;
+        width: 50%;
+        max-width: 50%;
+
+        &:not(:only-child) { @include section--margin-top("sm", 4); }
+        &:only-child { @include section--margin-bottom("sm", 4); }
+      }
+
+      @include mobile-sm {
+        flex-basis: 100%;
+        width: 100%;
+        max-width: 100%;
+
+        &:only-child { @include section--margin-bottom("sm", 2); }
+        &:first-child:not(:only-child) { @include section--margin-top("sm", 2); }
+      }
+
       .group-diagram-tile-content {
-        @include section--padding-h("sm");
+        @include section--padding-h("sm", 0.5);
+        text-align: center;
 
         img {
-          width: 100%;
-          height: auto;
+          width: auto;
           max-width: 100%;
           margin: 0 auto;
         }
@@ -59,10 +89,36 @@
         }
       }
 
-      &:only-child {
-        img {
-          transform: scaleX(-1);
-          filter: sepia(50%);
+      @include mobile {
+        &:only-child {
+          .group-diagram-tile-content {
+            @include section--padding("sm", 0);
+          }
+        }
+
+        &:nth-child(odd):not(:only-child):not(:last-child) {
+          .group-diagram-tile-content {
+            @include section--padding-left("sm", 0);
+            @include section--padding-right("sm", 0.5);
+          }
+        }
+
+        &:nth-child(even):not(:only-child) {
+          .group-diagram-tile-content {
+            @include section--padding-left("sm", 0.5);
+            @include section--padding-right("sm", 0);
+          }
+        }
+      }
+
+      @include mobile-sm {
+        &:only-child,
+        &:nth-child(odd):not(:only-child):not(:last-child),
+        &:nth-child(even):not(:only-child),
+        &:last-child {
+          .group-diagram-tile-content {
+            @include section--padding("sm", 0);
+          }
         }
       }
     }
@@ -72,35 +128,72 @@
     width: 100%;
     border-collapse: collapse;
     margin: 0 auto;
-    width: 75%;
+    width: 80%;
+    @include tablet-sm { width: 50%; }
+    @include mobile    { width: 50%; }
+    @include mobile-sm { width: 80%; }
 
-    tr {
-      td {
-        width: 50%;
-        height: 20px;
-      }
-      .left-col {
-        border-right: 1px solid black;
-        border-bottom: 1px solid black;
-      }
-      .right-col {
-        border-left: 1px solid black;
-        border-bottom: 1px solid black;
-      }
+    // $about_group_tile_line_colour: #414142;  // sketch colour
+    $about_group_tile_line_colour: #a08304;
+
+    .middle-col {
+      height: 20px;
+      width: 25%;
+      @include tablet-sm { width: 50%; }
+    }
+
+    .top-row {
       .middle-col {
-        width: 33%;
-        border-right: 1px solid black;
-        border-left: 1px solid black;
-        border-top: 1px solid black;
+        border-bottom: 1px solid $about_group_tile_line_colour;
+      }
+
+      .middle-col:nth-child(2) {
+        border-right: 1px solid $about_group_tile_line_colour;
+      }
+
+      .middle-col:nth-child(3) {
+        border-left: 1px solid $about_group_tile_line_colour;
+      }
+
+      @include tablet-sm {
+        .middle-col:not(:first-child):not(:last-child) {
+          display: none;
+        };
+
+        .middle-col:first-child {
+          border-left: none;
+          border-right: 1px solid $about_group_tile_line_colour;
+        };
+
+        .middle-col:last-child {
+          border-right: none;
+          border-left: 1px solid $about_group_tile_line_colour;
+        };
       }
     }
 
-    &--top {
-      @include section--margin-top("sm");
-    }
+    .bottom-row {
+      .middle-col {
+        border-right: 1px solid $about_group_tile_line_colour;
+        border-left: 1px solid $about_group_tile_line_colour;
+        border-top: 1px solid $about_group_tile_line_colour;
+      }
 
-    &--bottom {
-      @include section--margin-bottom("sm");
+      @include tablet-sm {
+        .middle-col:not(:first-child):not(:last-child) {
+          display: none;
+        };
+
+        .middle-col:first-child {
+          border-right: none;
+          border-left: 1px solid $about_group_tile_line_colour;
+        };
+
+        .middle-col:last-child {
+          border-left: none;
+          border-right: 1px solid $about_group_tile_line_colour;
+        };
+      }
     }
   }
 }
