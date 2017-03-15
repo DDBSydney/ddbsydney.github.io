@@ -23,13 +23,84 @@
     @include section--padding-bottom("lg", 1.25);
   }
 
-  .about-group-tile {
-    .about-group-tile__content {
-      p {
-        color: inherit;
-        @include font--style("h4");
-        font-weight: $font_weight_medium;
+  .group-diagram-container {
+    @extend %flex--row;
+    max-width: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+
+    .group-diagram-tile {
+      @extend %flex--col;
+      flex-basis: 25%;
+      width: 25%;
+      max-width: 25%;
+      flex-grow: 1;
+      align-self: flex-start;
+
+      .group-diagram-tile-content {
+        @include section--padding-h("sm");
+
+        img {
+          width: 100%;
+          height: auto;
+          max-width: 100%;
+          margin: 0 auto;
+        }
+
+        p {
+          color: inherit;
+          @include font--style("h4");
+          font-weight: $font_weight_medium;
+        }
+
+        img + p {
+          @include section--margin-top("sm");
+        }
       }
+
+      &:only-child {
+        img {
+          transform: scaleX(-1);
+          filter: sepia(50%);
+        }
+      }
+    }
+  }
+
+  .group-diagram-lineart {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
+    width: 75%;
+
+    tr {
+      td {
+        width: 50%;
+        height: 20px;
+      }
+      .left-col {
+        border-right: 1px solid black;
+        border-bottom: 1px solid black;
+      }
+      .right-col {
+        border-left: 1px solid black;
+        border-bottom: 1px solid black;
+      }
+      .middle-col {
+        width: 33%;
+        border-right: 1px solid black;
+        border-left: 1px solid black;
+        border-top: 1px solid black;
+      }
+    }
+
+    &--top {
+      @include section--margin-top("sm");
+    }
+
+    &--bottom {
+      @include section--margin-bottom("sm");
     }
   }
 }

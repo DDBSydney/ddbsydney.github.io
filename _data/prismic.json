@@ -4313,7 +4313,7 @@
       "data": {
         "meta-title": {
           "type": "Text",
-          "value": "About: Principles | DDB Sydney"
+          "value": "About our Principles | DDB Sydney"
         },
         "meta-description": {
           "type": "Text",
@@ -4498,7 +4498,7 @@
       "data": {
         "meta-title": {
           "type": "Text",
-          "value": "About: People | DDB Sydney"
+          "value": "About our People | DDB Sydney"
         },
         "meta-description": {
           "type": "Text",
@@ -5156,6 +5156,10 @@
               "type": "about-content-tile",
               "value": [
                 {
+                  "id": {
+                    "type": "Text",
+                    "value": "group"
+                  },
                   "headline": {
                     "type": "Text",
                     "value": "Our group"
@@ -5179,26 +5183,106 @@
               "type": "about-group-tile",
               "value": [
                 {
+                  "image": {
+                    "type": "Image",
+                    "value": {
+                      "main": {
+                        "dimensions": {
+                          "width": 360,
+                          "height": 388
+                        },
+                        "alt": null,
+                        "copyright": null,
+                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/42df236e1460d759241391ea0146bbe8ecca84f6_pradeep_thumbnail.jpg"
+                      },
+                      "views": {
+                      }
+                    }
+                  }
                 },
                 {
+                  "image": {
+                    "type": "Image",
+                    "value": {
+                      "main": {
+                        "dimensions": {
+                          "width": 360,
+                          "height": 388
+                        },
+                        "alt": null,
+                        "copyright": null,
+                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/42df236e1460d759241391ea0146bbe8ecca84f6_pradeep_thumbnail.jpg"
+                      },
+                      "views": {
+                      }
+                    }
+                  },
                   "copy": {
                     "type": "Text",
                     "value": "Mango"
                   }
                 },
                 {
+                  "image": {
+                    "type": "Image",
+                    "value": {
+                      "main": {
+                        "dimensions": {
+                          "width": 360,
+                          "height": 388
+                        },
+                        "alt": null,
+                        "copyright": null,
+                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/42df236e1460d759241391ea0146bbe8ecca84f6_pradeep_thumbnail.jpg"
+                      },
+                      "views": {
+                      }
+                    }
+                  },
                   "copy": {
                     "type": "Text",
                     "value": "Track"
                   }
                 },
                 {
+                  "image": {
+                    "type": "Image",
+                    "value": {
+                      "main": {
+                        "dimensions": {
+                          "width": 360,
+                          "height": 388
+                        },
+                        "alt": null,
+                        "copyright": null,
+                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/42df236e1460d759241391ea0146bbe8ecca84f6_pradeep_thumbnail.jpg"
+                      },
+                      "views": {
+                      }
+                    }
+                  },
                   "copy": {
                     "type": "Text",
                     "value": "DDB Remedy"
                   }
                 },
                 {
+                  "image": {
+                    "type": "Image",
+                    "value": {
+                      "main": {
+                        "dimensions": {
+                          "width": 360,
+                          "height": 388
+                        },
+                        "alt": null,
+                        "copyright": null,
+                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/42df236e1460d759241391ea0146bbe8ecca84f6_pradeep_thumbnail.jpg"
+                      },
+                      "views": {
+                      }
+                    }
+                  },
                   "copy": {
                     "type": "Text",
                     "value": "Tribal Worldwide"
@@ -5285,7 +5369,7 @@
                         "tags": [
 
                         ],
-                        "slug": "about-people--ddb-sydney",
+                        "slug": "about-our-people--ddb-sydney",
                         "uid": "people"
                       },
                       "isBroken": false
@@ -5349,7 +5433,7 @@
                         "tags": [
 
                         ],
-                        "slug": "about-principles--ddb-sydney",
+                        "slug": "about-our-principles--ddb-sydney",
                         "uid": "principles"
                       },
                       "isBroken": false
