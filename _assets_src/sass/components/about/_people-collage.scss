@@ -19,10 +19,4 @@
   flex-shrink: 0;
   flex-basis: (100% / 8);
   @include mobile { flex-basis: (100% / 4); }
-
-  &:nth-child(2n) { filter: saturate(8); }
-  &:nth-child(3n) { transform: scaleX(-1); }
-  &:nth-child(6n) { filter: sepia(33%); }
-  &:nth-child(7n) { filter: blur(2px); }
-  &:nth-child(13n) { transform: rotate(-180deg); }
 }
