@@ -51,9 +51,13 @@ var CONFIG = require("../config");
       menu: "header__menu--mobile", // the header menu DOM element
 
       modifier: { // applied modifier classes
-        open: "header--open", // when the menu is open
-        active: "link--active", // when the link is active
-        closed: "header--closed" // when the menu is closed
+        open: "header--open", // on header when the menu is open
+        closed: "header--closed", // on header when the menu is closed
+
+        sticky: "section--header-sticky", // on section when the header is sticky
+        hidden: "section--header-hidden", // on section when the header is hidden
+
+        active: "link--active" // on menu when the link is active
       }
     };
 
@@ -65,6 +69,9 @@ var CONFIG = require("../config");
 
     var _menuTimer = null; // timer used when opening (or) closing the menu
     var _isMenuOpen = false; // flag to indicate if the header menu is open
+
+    var _section = null; // the parent section wrapping the header component
+    var _prevScroll = 0; // the previous position offset of the page scroll bar
 
     // ---------------------------------------------
     //   Public members
@@ -214,11 +221,58 @@ var CONFIG = require("../config");
       }
     }
 
+    // @name _sticky
+    // @desc function to manage sticky header styling on scroll
+    // @param {Event} - the event that triggerred the function
+    function _sticky(event) {
+      // calculte the new scroll position and the difference from previous
+      var newScroll  = (document.documentElement.scrollTop || document.body.scrollTop);
+      var diffScroll = _prevScroll - newScroll;
+      _prevScroll = newScroll;
+
+      // if the new scroll is less than 0
+      // remove both the modifier classes
+      if (newScroll <= 0) {
+        _section.classList.remove(_class.modifier.sticky);
+        _section.classList.remove(_class.modifier.hidden);
+      }
+
+      // if the new scroll is greater than 0
+      else {
+        // add the sticky modifer class
+         _section.classList.add(_class.modifier.sticky);
+
+        // check if the scroll difference is less than 0
+        if (diffScroll <= 0) {
+          // add the hidden modifier class if is
+          _section.classList.add(_class.modifier.hidden);
+        } 
+
+        else {
+          // remove the hidden modifier class if is not
+          _section.classList.remove(_class.modifier.hidden);
+        }
+      }
+    }
+
+    // @name _addWindowScrollListener
+    // @desc function to add the window scroll event listener
+    function _addWindowScrollListener() {
+      window.addEventListener("scroll", _sticky);
+    }
+
+    // @name _removeWindowResizeListener
+    // @desc function to remove the window scroll event listener
+    function _removeWindowScrollListener() {
+      window.removeEventListener("scroll", _sticky);
+    }
+
     // ---------------------------------------------
     //   Public methods
     // ---------------------------------------------
     // @name open
     // @desc function to open the header menu
+    // @param {Event} - the event that triggerred the function
     function open(event) {
       if(_isMenuOpen) {
         console.log("header.component.js: The header menu is already open.");
@@ -231,7 +285,10 @@ var CONFIG = require("../config");
         event.stopPropagation();
       }
 
-      // set the menu open flag
+      // remove the window scroll listener
+      _removeWindowScrollListener();
+
+      // set the menu open flag 
       // and disable page scroll
       _isMenuOpen = true;
       _disablePageScroll();
@@ -261,6 +318,7 @@ var CONFIG = require("../config");
 
     // @name close
     // @desc function to close the header menu
+    // @param {Event} - the event that triggerred the function
     function close(event) {
       if(!_isMenuOpen) {
         console.log("header.component.js: The header menu is already closed.");
@@ -303,43 +361,15 @@ var CONFIG = require("../config");
         // perform the new animation
         $(_el.nav).velocity("transition.slideDownOut", {
           easing: "easeInOutQuad", delay: 0,
-          duration: CONFIG.animation.durationFast
+          duration: CONFIG.animation.durationFast,
+
+          // add the window scroll listener on complete
+          complete: function() { _addWindowScrollListener(); }
         });
       });
 
       // remove the window resize listener
       _removeWindowResizeListener();
-    }
-
-    // @name sticky
-    // @desc function to manage sticky header styling
-    function sticky(event) {
-      var newScroll = (document.documentElement.scrollTop||document.body.scrollTop);
-      var diffScroll = prevScroll - newScroll;
-      prevScroll = newScroll;
-
-      if (newScroll <= 0) {
-        if (headSeg.classList.contains("header-not-at-top")) {
-          headSeg.classList.remove("header-not-at-top");
-        }
-        if (headSeg.classList.contains("header-hidden")) {
-          headSeg.classList.remove("header-hidden");
-        }
-      }
-      else {
-        if (!headSeg.classList.contains("header-not-at-top")) {
-          headSeg.classList.add("header-not-at-top");
-        }
-        if (diffScroll > 0) {
-          if (headSeg.classList.contains("header-hidden")) {
-            headSeg.classList.remove("header-hidden");
-          }
-        } else {
-          if (!headSeg.classList.contains("header-hidden")) {
-            headSeg.classList.add("header-hidden");
-          }
-        }
-      }
     }
 
     // ---------------------------------------------
@@ -376,11 +406,14 @@ var CONFIG = require("../config");
     _addOpenClickListener();
     _addCloseClickListener();
 
-    // Add event for managing sticky header on scroll
-    var prevScroll = document.body.scrollTop;
-    var headSeg = query(".section--header")[0];
-    sticky();
-    window.addEventListener("scroll", sticky);
+    // get the wrapping header section 
+    // and the current page scroll offset
+    _section = query(".section--header")[0];
+    _prevScroll = document.body.scrollTop;
+
+     // trigger stricky header once on load
+     // and add the window scroll listener
+    _sticky(); _addWindowScrollListener();
 
     // check if this is a parent page
     if(_isPageParent()) {

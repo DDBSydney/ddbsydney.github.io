@@ -13,6 +13,7 @@
 // base
 require("./base/raf");
 require("./base/print");
+require("./base/event");
 require("./base/query");
 require("./base/promise");
 require("./base/debounce");

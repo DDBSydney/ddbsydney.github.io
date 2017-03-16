@@ -153,12 +153,12 @@
                     },
                     "thumbnails" : [ {
                       "name" : "Desktop",
-                      "width" : "960",
-                      "height" : "825"
+                      "width" : "750",
+                      "height" : "700"
                     }, {
                       "name" : "Mobile",
-                      "width" : "800",
-                      "height" : "820"
+                      "width" : "750",
+                      "height" : "600"
                     } ]
                   }
                 },
