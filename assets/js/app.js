@@ -14,6 +14,7 @@
 // base
 require("./base/raf");
 require("./base/print");
+require("./base/event");
 require("./base/query");
 require("./base/promise");
 require("./base/debounce");
@@ -159,7 +160,7 @@ console.log(CONFIG);
 
 })();
 
-},{"./base/debounce":2,"./base/print":3,"./base/promise":4,"./base/query":5,"./base/raf":6,"./base/template":7,"./components/common/promo-video.component":8,"./components/header.component":9,"./components/intro/intro-tile.component":10,"./config":11,"./directives/clickable-tile.directive":12}],2:[function(require,module,exports){
+},{"./base/debounce":2,"./base/event":3,"./base/print":4,"./base/promise":5,"./base/query":6,"./base/raf":7,"./base/template":8,"./components/common/promo-video.component":9,"./components/header.component":10,"./components/intro/intro-tile.component":11,"./config":12,"./directives/clickable-tile.directive":13}],2:[function(require,module,exports){
 "use strict";
 
 // -------------------------------------
@@ -221,6 +222,51 @@ console.log(CONFIG);
 **/
 
 // -------------------------------------
+//   Base - Event
+// -------------------------------------
+/** 
+  * @name event
+  * @desc A base module that is used to create an event 
+          interface that represents events initialized 
+          by an app for any purpose.
+**/
+
+(function() {
+  console.log("base/event.js loaded.");
+
+  // @name CustomEvent
+  // @desc the main function for the base
+  // @param {String} event - the name of the event
+  // @param {Object} params - the options for the event
+  // @param {Event} - the created custom event object
+  function CustomEvent ( event, params ) {
+    params = params || { bubbles: false, cancelable: false, detail: undefined };
+    var evt = document.createEvent("CustomEvent");
+    evt.initCustomEvent( event, params.bubbles, params.cancelable, params.detail );
+    return evt;
+  }
+
+  // ---------------------------------------------
+  //   Export block
+  // ---------------------------------------------
+  if (typeof window.CustomEvent != "function") {
+    CustomEvent.prototype = window.Event.prototype; 
+    window.CustomEvent = CustomEvent;
+  }
+
+})();
+
+},{}],4:[function(require,module,exports){
+"use strict";
+
+// -------------------------------------
+//   Dependencies
+// -------------------------------------
+/** 
+  * @plugins
+**/
+
+// -------------------------------------
 //   Base - Print
 // -------------------------------------
 /** 
@@ -261,7 +307,7 @@ console.log(CONFIG);
   window.print = print;
     
 })();
-},{}],4:[function(require,module,exports){
+},{}],5:[function(require,module,exports){
 "use strict";
 
 // -------------------------------------
@@ -523,7 +569,7 @@ console.log(CONFIG);
   }
 
 })();
-},{}],5:[function(require,module,exports){
+},{}],6:[function(require,module,exports){
 "use strict";
 
 // -------------------------------------
@@ -585,7 +631,7 @@ console.log(CONFIG);
   window.query = query;
     
 })();
-},{}],6:[function(require,module,exports){
+},{}],7:[function(require,module,exports){
 "use strict";
 
 // -------------------------------------
@@ -650,7 +696,7 @@ console.log(CONFIG);
   }
     
 })();
-},{}],7:[function(require,module,exports){
+},{}],8:[function(require,module,exports){
 "use strict";
 
 // -------------------------------------
@@ -705,7 +751,7 @@ console.log(CONFIG);
 
 })();
 
-},{}],8:[function(require,module,exports){
+},{}],9:[function(require,module,exports){
 "use strict";
 
 // -------------------------------------
@@ -816,7 +862,7 @@ var CONFIG = require("../../config");
 })(jQuery);
 
 
-},{"../../base/promise":4,"../../base/query":5,"../../config":11}],9:[function(require,module,exports){
+},{"../../base/promise":5,"../../base/query":6,"../../config":12}],10:[function(require,module,exports){
 "use strict";
 
 // -------------------------------------
@@ -870,9 +916,13 @@ var CONFIG = require("../config");
       menu: "header__menu--mobile", // the header menu DOM element
 
       modifier: { // applied modifier classes
-        open: "header--open", // when the menu is open
-        active: "link--active", // when the link is active
-        closed: "header--closed" // when the menu is closed
+        open: "header--open", // on header when the menu is open
+        closed: "header--closed", // on header when the menu is closed
+
+        sticky: "section--header-sticky", // on section when the header is sticky
+        hidden: "section--header-hidden", // on section when the header is hidden
+
+        active: "link--active" // on menu when the link is active
       }
     };
 
@@ -884,6 +934,9 @@ var CONFIG = require("../config");
 
     var _menuTimer = null; // timer used when opening (or) closing the menu
     var _isMenuOpen = false; // flag to indicate if the header menu is open
+
+    var _section = null; // the parent section wrapping the header component
+    var _prevScroll = 0; // the previous position offset of the page scroll bar
 
     // ---------------------------------------------
     //   Public members
@@ -1033,11 +1086,58 @@ var CONFIG = require("../config");
       }
     }
 
+    // @name _sticky
+    // @desc function to manage sticky header styling on scroll
+    // @param {Event} - the event that triggerred the function
+    function _sticky(event) {
+      // calculte the new scroll position and the difference from previous
+      var newScroll  = (document.documentElement.scrollTop || document.body.scrollTop);
+      var diffScroll = _prevScroll - newScroll;
+      _prevScroll = newScroll;
+
+      // if the new scroll is less than 0
+      // remove both the modifier classes
+      if (newScroll <= 0) {
+        _section.classList.remove(_class.modifier.sticky);
+        _section.classList.remove(_class.modifier.hidden);
+      }
+
+      // if the new scroll is greater than 0
+      else {
+        // add the sticky modifer class
+         _section.classList.add(_class.modifier.sticky);
+
+        // check if the scroll difference is less than 0
+        if (diffScroll <= 0) {
+          // add the hidden modifier class if is
+          _section.classList.add(_class.modifier.hidden);
+        } 
+
+        else {
+          // remove the hidden modifier class if is not
+          _section.classList.remove(_class.modifier.hidden);
+        }
+      }
+    }
+
+    // @name _addWindowScrollListener
+    // @desc function to add the window scroll event listener
+    function _addWindowScrollListener() {
+      window.addEventListener("scroll", _sticky);
+    }
+
+    // @name _removeWindowResizeListener
+    // @desc function to remove the window scroll event listener
+    function _removeWindowScrollListener() {
+      window.removeEventListener("scroll", _sticky);
+    }
+
     // ---------------------------------------------
     //   Public methods
     // ---------------------------------------------
     // @name open
     // @desc function to open the header menu
+    // @param {Event} - the event that triggerred the function
     function open(event) {
       if(_isMenuOpen) {
         console.log("header.component.js: The header menu is already open.");
@@ -1050,7 +1150,10 @@ var CONFIG = require("../config");
         event.stopPropagation();
       }
 
-      // set the menu open flag
+      // remove the window scroll listener
+      _removeWindowScrollListener();
+
+      // set the menu open flag 
       // and disable page scroll
       _isMenuOpen = true;
       _disablePageScroll();
@@ -1080,6 +1183,7 @@ var CONFIG = require("../config");
 
     // @name close
     // @desc function to close the header menu
+    // @param {Event} - the event that triggerred the function
     function close(event) {
       if(!_isMenuOpen) {
         console.log("header.component.js: The header menu is already closed.");
@@ -1122,43 +1226,15 @@ var CONFIG = require("../config");
         // perform the new animation
         $(_el.nav).velocity("transition.slideDownOut", {
           easing: "easeInOutQuad", delay: 0,
-          duration: CONFIG.animation.durationFast
+          duration: CONFIG.animation.durationFast,
+
+          // add the window scroll listener on complete
+          complete: function() { _addWindowScrollListener(); }
         });
       });
 
       // remove the window resize listener
       _removeWindowResizeListener();
-    }
-
-    // @name sticky
-    // @desc function to manage sticky header styling
-    function sticky(event) {
-      var newScroll = (document.documentElement.scrollTop||document.body.scrollTop);
-      var diffScroll = prevScroll - newScroll;
-      prevScroll = newScroll;
-
-      if (newScroll <= 0) {
-        if (headSeg.classList.contains("header-not-at-top")) {
-          headSeg.classList.remove("header-not-at-top");
-        }
-        if (headSeg.classList.contains("header-hidden")) {
-          headSeg.classList.remove("header-hidden");
-        }
-      }
-      else {
-        if (!headSeg.classList.contains("header-not-at-top")) {
-          headSeg.classList.add("header-not-at-top");
-        }
-        if (diffScroll > 0) {
-          if (headSeg.classList.contains("header-hidden")) {
-            headSeg.classList.remove("header-hidden");
-          }
-        } else {
-          if (!headSeg.classList.contains("header-hidden")) {
-            headSeg.classList.add("header-hidden");
-          }
-        }
-      }
     }
 
     // ---------------------------------------------
@@ -1195,11 +1271,14 @@ var CONFIG = require("../config");
     _addOpenClickListener();
     _addCloseClickListener();
 
-    // Add event for managing sticky header on scroll
-    var prevScroll = document.body.scrollTop;
-    var headSeg = query(".section--header")[0];
-    sticky();
-    window.addEventListener("scroll", sticky);
+    // get the wrapping header section 
+    // and the current page scroll offset
+    _section = query(".section--header")[0];
+    _prevScroll = document.body.scrollTop;
+
+     // trigger stricky header once on load
+     // and add the window scroll listener
+    _sticky(); _addWindowScrollListener();
 
     // check if this is a parent page
     if(_isPageParent()) {
@@ -1232,11 +1311,11 @@ var CONFIG = require("../config");
 })(jQuery);
 
 
-},{"../base/promise":4,"../base/query":5,"../config":11}],10:[function(require,module,exports){
+},{"../base/promise":5,"../base/query":6,"../config":12}],11:[function(require,module,exports){
 "use strict";
 
 require("../../base/query");
-require("../../base/promise");
+require("../../base/event");
 
 var CONFIG = require("../../config");
 
@@ -1245,35 +1324,35 @@ var CONFIG = require("../../config");
 
   function IntroTile(options) {
 
-    // Create base variables
+    // create base variables
     var _el = {
       images: {
-        sydney: null,
+        sydney:    null,
         melbourne: null,
-        group: null
+        group:     null
       },
       anchors: {
-        sydney: null,
+        sydney:    null,
         melbourne: null,
-        group: null
+        group:     null
       }
     };
 
-    // Check if component exists
+    // check if component exists
     if(!options || !options.element
       || !options.element.nodeName || !options.element.nodeType) {
       console.log("intro-tile.component.js: Cannot create intro-tile with invalid options.");
       return null;  // return null if invalid
     }
 
-    // Get elements
-    _el.images.sydney =    options.element.querySelector("[data-link-image=sydney]")
-    _el.images.melbourne = options.element.querySelector("[data-link-image=melbourne]")
-    _el.images.group =     options.element.querySelector("[data-link-image=group]")
+    // get elements
+    _el.images.sydney    = options.element.querySelector("[data-link-image=sydney]");
+    _el.images.melbourne = options.element.querySelector("[data-link-image=melbourne]");
+    _el.images.group     = options.element.querySelector("[data-link-image=group]");
 
-    _el.anchors.sydney =    options.element.querySelector("[data-link-anchor=sydney]")
-    _el.anchors.melbourne = options.element.querySelector("[data-link-anchor=melbourne]")
-    _el.anchors.group =     options.element.querySelector("[data-link-anchor=group]")
+    _el.anchors.sydney    = options.element.querySelector("[data-link-anchor=sydney]");
+    _el.anchors.melbourne = options.element.querySelector("[data-link-anchor=melbourne]");
+    _el.anchors.group     = options.element.querySelector("[data-link-anchor=group]");
 
     // Set up anchor mouseover hooks
     function _onAnchorHover(image) {
@@ -1296,11 +1375,18 @@ var CONFIG = require("../../config");
       }
     }
 
-    _el.anchors.sydney.addEventListener(   "mouseover", function(){ _onAnchorHover(_el.images.sydney) })
-    _el.anchors.melbourne.addEventListener("mouseover", function(){ _onAnchorHover(_el.images.melbourne) })
-    _el.anchors.group.addEventListener(    "mouseover", function(){ _onAnchorHover(_el.images.group) })
+    _el.anchors.sydney.addEventListener("mouseover",    function() { _onAnchorHover(_el.images.sydney)    });
+    _el.anchors.melbourne.addEventListener("mouseover", function() { _onAnchorHover(_el.images.melbourne) });
+    _el.anchors.group.addEventListener("mouseover",     function() { _onAnchorHover(_el.images.group)     });
 
-    //
+    // create a default mouseover event on load
+    var eventMouseOver = new CustomEvent("mouseover");
+
+    // dispatch athedefault mouseover event on load
+    requestAnimationFrame(function() {
+      _el.anchors.sydney.dispatchEvent(eventMouseOver);
+    });
+
     return { };
   }
 
@@ -1309,7 +1395,7 @@ var CONFIG = require("../../config");
 })(jQuery);
 
 
-},{"../../base/promise":4,"../../base/query":5,"../../config":11}],11:[function(require,module,exports){
+},{"../../base/event":3,"../../base/query":6,"../../config":12}],12:[function(require,module,exports){
 "use strict";
 
 // -------------------------------------
@@ -1699,7 +1785,7 @@ var CONFIG = require("../../config");
   module.exports = new CONFIG();
 
 })();
-},{}],12:[function(require,module,exports){
+},{}],13:[function(require,module,exports){
 "use strict";
 
 // -------------------------------------
@@ -1846,4 +1932,4 @@ require("../base/query");
 })(jQuery);
 
 
-},{"../base/query":5}]},{},[1]);
+},{"../base/query":6}]},{},[1]);

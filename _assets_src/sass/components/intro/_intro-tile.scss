@@ -19,7 +19,7 @@
 
 .intro-tile__image-section {
   opacity: 0;
-  transition: 350ms opacity;
+  @include transitions(opacity);
 
   &.intro-tile__image-section--visible {
     opacity: 1;

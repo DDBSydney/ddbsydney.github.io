@@ -5061,6 +5061,40 @@
               "type": "about-behaviour-tile",
               "value": [
                 {
+                  "image": {
+                    "type": "Image",
+                    "value": {
+                      "main": {
+                        "dimensions": {
+                          "width": 920,
+                          "height": 865
+                        },
+                        "alt": null,
+                        "copyright": null,
+                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/e6895d67dd71a19e8266d69c52b8064ffe37f34c_behaviour-peacock.png"
+                      },
+                      "views": {
+                        "mobile": {
+                          "dimensions": {
+                            "width": 640,
+                            "height": 600
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/5f9384f2b258aa5983a7310eb0a815c005e46d98_behaviour-peacock.png"
+                        },
+                        "desktop": {
+                          "dimensions": {
+                            "width": 920,
+                            "height": 865
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/e6895d67dd71a19e8266d69c52b8064ffe37f34c_behaviour-peacock.png"
+                        }
+                      }
+                    }
+                  },
                   "headline": {
                     "type": "Text",
                     "value": "No. 1"
@@ -5080,6 +5114,40 @@
               "type": "about-behaviour-tile",
               "value": [
                 {
+                  "image": {
+                    "type": "Image",
+                    "value": {
+                      "main": {
+                        "dimensions": {
+                          "width": 920,
+                          "height": 865
+                        },
+                        "alt": null,
+                        "copyright": null,
+                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/6ff8f9c1fee14e9aa8d107a2b01ed54a8093431b_behaviour-thunder.png"
+                      },
+                      "views": {
+                        "desktop": {
+                          "dimensions": {
+                            "width": 920,
+                            "height": 865
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/6ff8f9c1fee14e9aa8d107a2b01ed54a8093431b_behaviour-thunder.png"
+                        },
+                        "mobile": {
+                          "dimensions": {
+                            "width": 640,
+                            "height": 600
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/2690b8a4267444bea91449a13dbec197db607d1d_behaviour-thunder.png"
+                        }
+                      }
+                    }
+                  },
                   "headline": {
                     "type": "Text",
                     "value": "No. 2"
@@ -5099,6 +5167,40 @@
               "type": "about-behaviour-tile",
               "value": [
                 {
+                  "image": {
+                    "type": "Image",
+                    "value": {
+                      "main": {
+                        "dimensions": {
+                          "width": 200,
+                          "height": 200
+                        },
+                        "alt": null,
+                        "copyright": null,
+                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/399c358480c31b7fd2fd1852e611b90c1404bc2b_prads-thumbs.png"
+                      },
+                      "views": {
+                        "mobile": {
+                          "dimensions": {
+                            "width": 640,
+                            "height": 600
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/35d8923241c991d8fea27e49df40d9f5ae2f1081_prads-thumbs.png"
+                        },
+                        "desktop": {
+                          "dimensions": {
+                            "width": 920,
+                            "height": 865
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/c26284c38e2eb1eb8bbeae19e01e91df7c0a924d_prads-thumbs.png"
+                        }
+                      }
+                    }
+                  },
                   "headline": {
                     "type": "Text",
                     "value": "No. 3"
@@ -5118,6 +5220,40 @@
               "type": "about-behaviour-tile",
               "value": [
                 {
+                  "image": {
+                    "type": "Image",
+                    "value": {
+                      "main": {
+                        "dimensions": {
+                          "width": 200,
+                          "height": 200
+                        },
+                        "alt": null,
+                        "copyright": null,
+                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/cfa362f077da3cc18dca69a7ddefd57ecaba5ac7_prads.png"
+                      },
+                      "views": {
+                        "mobile": {
+                          "dimensions": {
+                            "width": 640,
+                            "height": 600
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/5b07420115c79e921ff36e87ce2a1502433a3c8e_prads.png"
+                        },
+                        "desktop": {
+                          "dimensions": {
+                            "width": 920,
+                            "height": 865
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/dd027f938a523678dc3fdbef5c8bb2e1992d9848_prads.png"
+                        }
+                      }
+                    }
+                  },
                   "headline": {
                     "type": "Text",
                     "value": "No. 4"
@@ -5137,6 +5273,40 @@
               "type": "about-behaviour-tile",
               "value": [
                 {
+                  "image": {
+                    "type": "Image",
+                    "value": {
+                      "main": {
+                        "dimensions": {
+                          "width": 200,
+                          "height": 200
+                        },
+                        "alt": null,
+                        "copyright": null,
+                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/399c358480c31b7fd2fd1852e611b90c1404bc2b_prads-thumbs.png"
+                      },
+                      "views": {
+                        "mobile": {
+                          "dimensions": {
+                            "width": 640,
+                            "height": 600
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/35d8923241c991d8fea27e49df40d9f5ae2f1081_prads-thumbs.png"
+                        },
+                        "desktop": {
+                          "dimensions": {
+                            "width": 920,
+                            "height": 865
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/c26284c38e2eb1eb8bbeae19e01e91df7c0a924d_prads-thumbs.png"
+                        }
+                      }
+                    }
+                  },
                   "headline": {
                     "type": "Text",
                     "value": "No. 5"
@@ -5156,6 +5326,40 @@
               "type": "about-behaviour-tile",
               "value": [
                 {
+                  "image": {
+                    "type": "Image",
+                    "value": {
+                      "main": {
+                        "dimensions": {
+                          "width": 200,
+                          "height": 200
+                        },
+                        "alt": null,
+                        "copyright": null,
+                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/cfa362f077da3cc18dca69a7ddefd57ecaba5ac7_prads.png"
+                      },
+                      "views": {
+                        "mobile": {
+                          "dimensions": {
+                            "width": 640,
+                            "height": 600
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/5b07420115c79e921ff36e87ce2a1502433a3c8e_prads.png"
+                        },
+                        "desktop": {
+                          "dimensions": {
+                            "width": 920,
+                            "height": 865
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/dd027f938a523678dc3fdbef5c8bb2e1992d9848_prads.png"
+                        }
+                      }
+                    }
+                  },
                   "headline": {
                     "type": "Text",
                     "value": "No. 6"
