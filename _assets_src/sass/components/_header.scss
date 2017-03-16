@@ -222,7 +222,7 @@ $header_logo_h_mob: 20px;
   transform: translateY(0);
 
   &-sticky {
-    background-color: rgba(black, 0.25);
+    background-color: rgba(black, 0.15);
 
     @include mobile-up {
       .header__nav {
