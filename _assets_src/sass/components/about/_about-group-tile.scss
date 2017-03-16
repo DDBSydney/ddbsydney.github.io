@@ -9,6 +9,8 @@
 .about-group-tiles {
   @extend %table;
 
+  margin-top: -1px;  // mobile 'line' fix
+
   color: black;
   background-color: $color_yellow_ddb;
 
