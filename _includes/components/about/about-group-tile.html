@@ -8,8 +8,16 @@
     {% capture groupTile %}
       <div class="group-diagram-tile">
         <div class="group-diagram-tile-content">
-          {% if tile.image.value %}
-          <img src="{{ tile.image.value.main.url }}" />
+          <div class="group-diagram-tile-content__image-container">
+            {% if tile.image.value %}
+            <div class="group-diagram-tile-content__image">
+              <img src="{{ tile.image.value.main.url }}" />
+            </div>
+            {% endif %}
+          </div>
+
+          {% if tile.copy.value %}
+          <p>{{ tile.copy.value }}</p>
           {% endif %}
         </div>
       </div>

@@ -15,12 +15,12 @@
   vertical-align: middle;
   @include section--padding-h("lg");
   @include section--padding-top("lg", 0);
-  @include section--padding-bottom("lg", 1.25);
+  @include section--padding-bottom("lg");
 
   @include mobile {
     @include section--padding-h;
-    @include section--padding-top("lg", 0);
-    @include section--padding-bottom("lg", 1.25);
+    @include section--padding-top("lg");
+    @include section--padding-bottom("lg");
   }
 
   .group-diagram-container {
@@ -41,13 +41,37 @@
       &:not(:only-child) { @include section--margin-top("sm"); }
       &:only-child { @include section--margin-bottom("sm"); }
 
+      @include tablet-sm-up {
+        &:not(:only-child) {
+          .group-diagram-tile-content {
+            .group-diagram-tile-content__image-container {
+              position: relative;
+              padding-bottom: 48%;  // tallest image is 300:142
+              height: 0;
+
+              .group-diagram-tile-content__image {
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                left: 0;
+                right: 0;
+              }
+            }
+
+            p {
+              @include font--style("h5");
+            }
+          }
+        }
+      }
+
       @include tablet-sm {
         flex-basis: 50%;
         width: 50%;
         max-width: 50%;
 
-        &:not(:only-child) { @include section--margin-top("sm", 2.5); }
-        &:only-child { @include section--margin-bottom("sm", 2.5); }
+        &:not(:only-child) { @include section--margin-top("md"); }
+        &:only-child { @include section--margin-bottom("md"); }
       }
 
       @include mobile {
@@ -55,8 +79,8 @@
         width: 50%;
         max-width: 50%;
 
-        &:not(:only-child) { @include section--margin-top("sm", 4); }
-        &:only-child { @include section--margin-bottom("sm", 4); }
+        &:not(:only-child) { @include section--margin-top("lg"); }
+        &:only-child { @include section--margin-bottom("lg"); }
       }
 
       @include mobile-sm {
@@ -64,8 +88,8 @@
         width: 100%;
         max-width: 100%;
 
-        &:only-child { @include section--margin-bottom("sm", 2); }
-        &:first-child:not(:only-child) { @include section--margin-top("sm", 2); }
+        &:only-child { @include section--margin-bottom("md"); }
+        &:first-child:not(:only-child) { @include section--margin-top("md"); }
       }
 
       .group-diagram-tile-content {
