@@ -1,24 +1,38 @@
 {% assign tile = include.data[0] %}
 
 <!-- about-behaviour tile -->
-<div class="about-behaviour-tile" data-style="{{ tile.style.value }}">
+<div class="about-behaviour-tile" data-align="left" data-style="{{ tile.style.value | default: 'white' }}" data-text-width="{{ tile.style.text-width | default: '40%' }}">
 
-  <!-- about-behaviour -->
+  <!-- content -->
   <div class="about-behaviour-tile__content">
+    <div class="about-behaviour-tile__content__inner"><!-- content inner -->
 
-    <!-- container -->
-    <div class="container">
+      <div class="container">
+        {% if tile.headline.value %}
+        <h6>{{ tile.headline.value }}</h6>
+        {% endif %}
 
-      {% if tile.headline.value %}
-      <h6 class="about-behaviour-tile__content--headline" data-align="left">{{ tile.headline.value }}</h6>
-      {% endif %}
+        {% if tile.copy.value %}
+        <p>{{ tile.copy.value }}</p>
+        {% endif %}
+      </div>
 
-      {% if tile.copy.value %}
-      <p class="about-behaviour-tile__content--copy" data-align="left">{{ tile.copy.value }}</p>
-      {% endif %}
+    </div><!-- content inner end -->
+  </div><!-- content end -->
 
-    </div><!-- container end -->
+  <!-- image -->
+  <div class="image about-behaviour-tile__image">
 
-  </div><!-- about-behaviour end -->
+    <!-- image cover - desktop -->
+    {% if tile.image.value.views.desktop.url %}
+    <div class="image__cover image__cover--desktop" style="background-image: url('{{ tile.image.value.views.desktop.url }}');"></div>
+    {% endif %}
+
+    <!-- image cover - mobile -->
+    {% if tile.image.value.views.mobile.url %}
+    <div class="image__cover image__cover--mobile" style="background-image: url('{{ tile.image.value.views.mobile.url }}');"></div>
+    {% endif %}
+
+  </div><!-- image end -->
 
 </div><!-- about-behaviour tile end -->

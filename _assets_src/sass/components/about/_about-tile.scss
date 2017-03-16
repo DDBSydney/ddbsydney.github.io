@@ -6,9 +6,17 @@
   * @desc Styles for the about tile component.
 **/
 
+$about_tile_h_min: 66vw;
+$about_tile_h_min_mob: 66vw;
+
 .about-tile {
   @extend %flex--row;
-  @include mobile { display: block; }
+  min-height: $about_tile_h_min;
+
+  @include mobile {
+    display: block;
+    min-height: $about_tile_h_min_mob;
+  }
 
   color: white;
   background-color: black;

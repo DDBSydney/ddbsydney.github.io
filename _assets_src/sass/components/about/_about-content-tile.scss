@@ -51,7 +51,7 @@
   &[data-layout="pretext"]  {
     .about-content-tile__content {
       @include section--padding-top("lg", 1.25);
-      @include section--padding-bottom("lg", 0.75);
+      @include section--padding-bottom("md");
     }
   }
 }

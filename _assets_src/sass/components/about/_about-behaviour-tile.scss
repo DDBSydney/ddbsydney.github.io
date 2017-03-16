@@ -3,51 +3,98 @@
 // -------------------------------------
 /**
   * @name about-behaviour-tile
-  * @desc Styles for the about-behaviour-tile component.
+  * @desc Styles for the about tile component.
 **/
 
-$about_behaviour_tile_h_min: 66vw;
-$about_behaviour_tile_h_min_mob: 66vw;
+$about_tile_h_min: 66vw;
+$about_tile_h_min_mob: 66vw;
 
 .about-behaviour-tile {
-  @extend %table;
-  min-height: $about_behaviour_tile_h_min;
-  @include mobile { min-height: $about_behaviour_tile_h_min_mob; }
+  @extend %flex--row;
+  min-height: $about_tile_h_min;
+
+  @include mobile {
+    display: block;
+    min-height: $about_tile_h_min_mob;
+  }
 
   &[data-style="white"]  { color: black; background-color: white; }
   &[data-style="yellow"] { color: black; background-color: $color_yellow_ddb; }
+}
 
-  .about-behaviour-tile__content {
-   @extend %table--col;
-    display: table-cell;
-    vertical-align: middle;
-    @include section--padding("lg");
+.about-behaviour-tile__image {
+  @extend %flex--col;
+  flex-shrink: 1;
+  flex-grow: 1;
+  align-self: end;
+  -ms-flex-negative: 1;
+  -ms-flex-positive: 1;
 
-    @include mobile {
-      @include section--padding-h;
-    }
+  @include section--padding-top("lg");
 
-    > .container {
-      width: 60%;
-      margin-left: 0;
+  .image__cover {
+    background-size: contain;
+    background-position: bottom;
+  }
 
-      @include mobile {
-        width: 100%;
-        margin-left: auto;
-      }
-    }
-
-    &--copy {
-      @include font--style("h4");
-      font-weight: $font_weight_medium;
-    }
-
-    &--headline,
-    &--copy {
-      color: inherit;
-      margin-top: 0;
-      margin-bottom: 1em;
-      &:last-child { margin-bottom: 0; }
+  @include mobile-up {
+    .image__cover {
+      position: static;
     }
   }
+
+  @include mobile {
+    display: block;
+    width: 100%;
+    min-height: 55vw;
+    padding: 0;
+  }
+}
+
+.about-behaviour-tile__content {
+  @extend %flex--col;
+
+  .about-behaviour-tile__content__inner {
+    @include section--padding("lg");
+    @include section--padding-right("lg", 0);
+  }
+
+  position: relative;
+  align-self: start;
+  max-width: 40%;
+  width: 40%;
+  flex-basis: 40%;
+
+  @include tablet-sm {
+    display: block;
+    max-width: 50%;
+    width: 50%;
+    flex-basis: 50%;
+  }
+
+  @include mobile {
+    display: block;
+    max-width: 100%;
+    width: 100%;
+    flex-basis: 100%;
+
+    .about-behaviour-tile__content__inner {
+      @include section--padding;
+      @include section--padding-v("md");
+    }
+  }
+
+  h6 {
+    color: inherit;
+    margin: 0;
+  }
+
+  p {
+    color: inherit;
+    @include font--style("h4");
+    margin-top: 0.5em;
+  }
+
+  [data-align="left"] & { order: -1; }
+  [data-style="yellow"] & { a { @extend %ulink--black; } }
 }

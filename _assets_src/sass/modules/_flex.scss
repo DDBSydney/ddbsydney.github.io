@@ -9,6 +9,7 @@
 // flex
 %flex {
   display: flex;
+  -ms-flex-negative: 1;  // MS default is 0, spec default is 1
   flex-wrap: wrap;
   position: relative;
 }
@@ -26,7 +27,7 @@
 %flex--col {
   flex-basis: 100%;
   position: relative;
-  
+
   box-sizing: border-box;
   @include mobile-up { flex: 1; }
 }
