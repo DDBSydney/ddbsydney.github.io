@@ -70,4 +70,4 @@ page_gen:
 page_gen-dirs: true
 jekyll_tidy:
   exclude: []
-  compress_html: false
+  compress_html: true
