@@ -148,18 +148,9 @@
                   "config" : {
                     "label" : "Image",
                     "constraint" : {
-                      "width" : null,
-                      "height" : null
-                    },
-                    "thumbnails" : [ {
-                      "name" : "Desktop",
-                      "width" : "750",
-                      "height" : "700"
-                    }, {
-                      "name" : "Mobile",
-                      "width" : "750",
-                      "height" : "600"
-                    } ]
+                      "width" : 1050,
+                      "height" : 900
+                    }
                   }
                 },
                 "headline" : {

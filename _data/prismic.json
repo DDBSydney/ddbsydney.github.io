@@ -5033,7 +5033,7 @@
                         },
                         "alt": null,
                         "copyright": null,
-                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/42df236e1460d759241391ea0146bbe8ecca84f6_pradeep_thumbnail.jpg"
+                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/7eeaa9731994ac48185b591cfc7b1217e83bd977_tom_chillcott_tribal_executiveproducer.jpg"
                       },
                       "views": {
                       }
@@ -5066,32 +5066,14 @@
                     "value": {
                       "main": {
                         "dimensions": {
-                          "width": 750,
-                          "height": 700
+                          "width": 1050,
+                          "height": 900
                         },
                         "alt": null,
                         "copyright": null,
-                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/f0724bbbcf1a1669da743edb8525ccb791cf38e2_behaviour-peacock.png"
+                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/73db6af4c2745a2bafb90b137ec905c49c7f31a1_behaviour-peacock.png"
                       },
                       "views": {
-                        "mobile": {
-                          "dimensions": {
-                            "width": 750,
-                            "height": 600
-                          },
-                          "alt": null,
-                          "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/f6244134cf74c5b5512dc7d23e839f77386bfbd4_behaviour-peacock.png"
-                        },
-                        "desktop": {
-                          "dimensions": {
-                            "width": 750,
-                            "height": 700
-                          },
-                          "alt": null,
-                          "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/f0724bbbcf1a1669da743edb8525ccb791cf38e2_behaviour-peacock.png"
-                        }
                       }
                     }
                   },
@@ -5119,32 +5101,14 @@
                     "value": {
                       "main": {
                         "dimensions": {
-                          "width": 750,
-                          "height": 700
+                          "width": 1050,
+                          "height": 900
                         },
                         "alt": null,
                         "copyright": null,
-                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/a82acd9a42fe106f1c45c51aaac1488a4ac34ade_behaviour-thunder.png"
+                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/f5c39107df06c4ba570708fae25a232f2114bf40_behaviour-thunder.png"
                       },
                       "views": {
-                        "mobile": {
-                          "dimensions": {
-                            "width": 750,
-                            "height": 600
-                          },
-                          "alt": null,
-                          "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/53d2c6413baa424be3ddbfce11117f4933d9c7b2_behaviour-thunder.png"
-                        },
-                        "desktop": {
-                          "dimensions": {
-                            "width": 750,
-                            "height": 700
-                          },
-                          "alt": null,
-                          "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/a82acd9a42fe106f1c45c51aaac1488a4ac34ade_behaviour-thunder.png"
-                        }
                       }
                     }
                   },
