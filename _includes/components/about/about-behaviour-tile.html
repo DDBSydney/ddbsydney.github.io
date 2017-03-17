@@ -24,13 +24,8 @@
   <div class="image about-behaviour-tile__image">
 
     <!-- image cover - desktop -->
-    {% if tile.image.value.views.desktop.url %}
-    <div class="image__cover image__cover--desktop" style="background-image: url('{{ tile.image.value.views.desktop.url }}');"></div>
-    {% endif %}
-
-    <!-- image cover - mobile -->
-    {% if tile.image.value.views.mobile.url %}
-    <div class="image__cover image__cover--mobile" style="background-image: url('{{ tile.image.value.views.mobile.url }}');"></div>
+    {% if tile.image.value.main.url %}
+    <div class="image__cover" style="background-image: url('{{ tile.image.value.main.url }}');"></div>
     {% endif %}
 
   </div><!-- image end -->
