@@ -269,5 +269,27 @@ $header_logo_h_mob: 20px;
   &-hidden {
     transform: translateY(-100%);
   }
-} 
+}
 */
+
+// -------------------------------------
+//   Header - Legacy Fixes
+// -------------------------------------
+// to fix issues with older browsers
+.header--fallback {
+
+  // fixes for the header logo
+  .header__logo {
+    > img {
+      // remove the absolute
+      // positioning on image
+      position: relative;
+
+      // an manually center it
+      // using margin spacing
+      margin-top: 1em;
+      @include tablet { margin-top: 1.25em; }
+      @include mobile { margin-top: 0.5em;  }
+    }
+  }
+}

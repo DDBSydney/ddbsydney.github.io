@@ -12,6 +12,9 @@
 require("../../base/query");
 require("../../base/event");
 
+// config
+var CONFIG = require("../../config");
+
 // -------------------------------------
 //   Directive - Intro Tile
 // -------------------------------------
