@@ -27,9 +27,9 @@ require("./base/template");
 var ClickableTile = require("./directives/clickable-tile.directive");
 
 // components
-var Header = require("./components/header.component");
+var Header     = require("./components/header.component");
+var IntroTile  = require("./components/intro/intro-tile.component");
 var PromoVideo = require("./components/common/promo-video.component");
-var IntroTile = require("./components/intro/intro-tile.component");
 
 // controllers
 /* empty block */
@@ -48,7 +48,7 @@ console.log(CONFIG);
           run options and functions for the app.
 **/
 
-(function() {
+(function($) {
   console.log("app.js loaded.");
 
   /**
@@ -124,8 +124,8 @@ console.log(CONFIG);
       requestAnimationFrame(function() {
         $(_elBody).velocity("transition.fadeIn", {
           easing: "easeInOutQuad",
-          delay: CONFIG.animation.delay / 2,
-          duration: CONFIG.animation.duration
+          delay: CONFIG.animation.delay,
+          duration: CONFIG.animation.durationSlow
         });
       });
     }
@@ -158,7 +158,7 @@ console.log(CONFIG);
   // ---------------------------------------------
   ddbWebsite.init(); // initiate the created app
 
-})();
+})(jQuery);
 
 },{"./base/debounce":2,"./base/event":3,"./base/print":4,"./base/promise":5,"./base/query":6,"./base/raf":7,"./base/template":8,"./components/common/promo-video.component":9,"./components/header.component":10,"./components/intro/intro-tile.component":11,"./config":12,"./directives/clickable-tile.directive":13}],2:[function(require,module,exports){
 "use strict";
@@ -778,7 +778,7 @@ var CONFIG = require("../../config");
 **/
 
 (function($){
-  console.log("components/work/promo-video.component.js loaded.");
+  console.log("components/common/promo-video.component.js loaded.");
 
   /**
     * @name PromoVideo
@@ -1009,8 +1009,9 @@ var CONFIG = require("../config");
       // create string representation of the parent path
       _parentPath = "/"; // reset the hierarchy name
       _hierarchy.forEach(function(name, index) {
-        if(index < (_hierarchy.length - 1)) {
-          _parentPath += (name + "/");
+        if(index < (_hierarchy.length - 1)
+           && name != "careers") {
+            _parentPath += (name + "/");
         }
       });
 
@@ -1111,7 +1112,7 @@ var CONFIG = require("../config");
         if (diffScroll <= 0) {
           // add the hidden modifier class if is
           _section.classList.add(_class.modifier.hidden);
-        } 
+        }
 
         else {
           // remove the hidden modifier class if is not
@@ -1153,7 +1154,7 @@ var CONFIG = require("../config");
       // remove the window scroll listener
       _removeWindowScrollListener();
 
-      // set the menu open flag 
+      // set the menu open flag
       // and disable page scroll
       _isMenuOpen = true;
       _disablePageScroll();
@@ -1271,7 +1272,7 @@ var CONFIG = require("../config");
     _addOpenClickListener();
     _addCloseClickListener();
 
-    // get the wrapping header section 
+    // get the wrapping header section
     // and the current page scroll offset
     _section = query(".section--header")[0];
     _prevScroll = document.body.scrollTop;
@@ -1314,16 +1315,39 @@ var CONFIG = require("../config");
 },{"../base/promise":5,"../base/query":6,"../config":12}],11:[function(require,module,exports){
 "use strict";
 
+// -------------------------------------
+//   Dependencies
+// -------------------------------------
+/**
+  * @plugins
+  * require("jquery");
+**/
+
+// base
 require("../../base/query");
 require("../../base/event");
 
-var CONFIG = require("../../config");
+// -------------------------------------
+//   Directive - Intro Tile
+// -------------------------------------
+/**
+  * @name intro-tile.component
+  * @desc he intro tile component for the app.
+**/
 
 (function($){
   console.log("components/intro/intro-tile.component.js loaded.");
 
+  /**
+    * @name IntroTile
+    * @desc the main class for the component
+    * @param {Object} options - options for the component
+    * @return {Object} - the instance of the component class
+  **/
   function IntroTile(options) {
-
+    // ---------------------------------------------
+    //   Private members
+    // ---------------------------------------------
     // create base variables
     var _el = {
       images: {
@@ -1338,7 +1362,26 @@ var CONFIG = require("../../config");
       }
     };
 
-    // check if component exists
+    // ---------------------------------------------
+    //   Public members
+    // ---------------------------------------------
+    /* empy block */
+
+    // ---------------------------------------------
+    //   Private methods
+    // ---------------------------------------------
+    /* empy block */
+
+    // ---------------------------------------------
+    //   Public methods
+    // ---------------------------------------------
+    /* empy block */
+
+    // ---------------------------------------------
+    //   Constructor block
+    // ---------------------------------------------
+    // check if the promo video has valid options
+    // element - should be a valid DOM element
     if(!options || !options.element
       || !options.element.nodeName || !options.element.nodeType) {
       console.log("intro-tile.component.js: Cannot create intro-tile with invalid options.");
@@ -1346,15 +1389,17 @@ var CONFIG = require("../../config");
     }
 
     // get elements
+    _el.images.group     = options.element.querySelector("[data-link-image=group]");
     _el.images.sydney    = options.element.querySelector("[data-link-image=sydney]");
     _el.images.melbourne = options.element.querySelector("[data-link-image=melbourne]");
-    _el.images.group     = options.element.querySelector("[data-link-image=group]");
 
+    _el.anchors.group     = options.element.querySelector("[data-link-anchor=group]");
     _el.anchors.sydney    = options.element.querySelector("[data-link-anchor=sydney]");
     _el.anchors.melbourne = options.element.querySelector("[data-link-anchor=melbourne]");
-    _el.anchors.group     = options.element.querySelector("[data-link-anchor=group]");
 
-    // Set up anchor mouseover hooks
+    // @name _onAnchorHover
+    // @desc function to set up anchor mouseover hooks
+    // @param {DOM} image - the image that needs to be set on hover
     function _onAnchorHover(image) {
       var clName = "intro-tile__image-section--visible";
 
@@ -1375,9 +1420,10 @@ var CONFIG = require("../../config");
       }
     }
 
+    // add event listeners ofr on anchor hover / mouseover
+    _el.anchors.group.addEventListener("mouseover",     function() { _onAnchorHover(_el.images.group)     });
     _el.anchors.sydney.addEventListener("mouseover",    function() { _onAnchorHover(_el.images.sydney)    });
     _el.anchors.melbourne.addEventListener("mouseover", function() { _onAnchorHover(_el.images.melbourne) });
-    _el.anchors.group.addEventListener("mouseover",     function() { _onAnchorHover(_el.images.group)     });
 
     // create a default mouseover event on load
     var eventMouseOver = new CustomEvent("mouseover");
@@ -1387,21 +1433,27 @@ var CONFIG = require("../../config");
       _el.anchors.sydney.dispatchEvent(eventMouseOver);
     });
 
+    // ---------------------------------------------
+    //   Instance block
+    // ---------------------------------------------
     return { };
   }
 
+  // ---------------------------------------------
+  //   Export block
+  // ---------------------------------------------
   module.exports = IntroTile;
 
 })(jQuery);
 
 
-},{"../../base/event":3,"../../base/query":6,"../../config":12}],12:[function(require,module,exports){
+},{"../../base/event":3,"../../base/query":6}],12:[function(require,module,exports){
 "use strict";
 
 // -------------------------------------
 //   Dependencies
 // -------------------------------------
-/** 
+/**
   * @plugins
 **/
 
@@ -1411,15 +1463,15 @@ var CONFIG = require("../../config");
 // -------------------------------------
 //   Config
 // -------------------------------------
-/** 
+/**
   * @name config
-  * @desc The main js file that contains the 
+  * @desc The main js file that contains the
           config options and functions for the app.
 **/
-(function() {
+(function($) {
   console.log("config.js loaded.");
 
-  /** 
+  /**
     * @name BuildDetect
     * @desc Class to detect the current build.
     * @param {String} host - the window location host
@@ -1471,7 +1523,7 @@ var CONFIG = require("../../config");
     bd.isDesktop = isDesktop(); // to detect desktop build
   }
 
-  /** 
+  /**
     * @name BreakpointDetect
     * @desc Class to detect the current breakpoint.
     * @return {Object} - the instance of the breakpoint class
@@ -1496,13 +1548,13 @@ var CONFIG = require("../../config");
     // ---------------------------------------------
     //   Private methods
     // ---------------------------------------------
-    // @name _isMobileSmall, _isMobilem _isTabletSmall, 
+    // @name _isMobileSmall, _isMobilem _isTabletSmall,
     // @name _isTablet, _isDesktop, _isDesktopLarge
     // @desc to detect various browser breakpoints
     // @return {Boolean} - true or false
     function _isDesktopLarge() { return  br.value == "desktop-lg-up"; }
     function _isDesktop()      { return  _isDesktopLarge() || br.value == "desktop"; }
-    
+
     function _isTablet()       { return  _isTabletSmall() || br.value == "tablet"; }
     function _isTabletSmall()  { return  br.value == "tablet-sm"; }
 
@@ -1531,11 +1583,11 @@ var CONFIG = require("../../config");
     //   Public methods
     // ---------------------------------------------
     /* empty block */
-    
+
     // ---------------------------------------------
     //   Constructor block
     // ---------------------------------------------
-    // add window resize event listener 
+    // add window resize event listener
     // to update the breakpoint value and fals
     window.addEventListener("resize", function(event) {
       _updateValues();
@@ -1551,7 +1603,7 @@ var CONFIG = require("../../config");
     /* empty block */
   }
 
-  /** 
+  /**
     * @name CONFIG
     * @desc Constant that contains the config options and values for the app
     * @return {Object} - all the possible config options and values for the app
@@ -1649,16 +1701,16 @@ var CONFIG = require("../../config");
     // @name isLocalHost
     // @desc functions to check for the server host environment
     // @return {Boolean} - returns true or false based on environment
-    function isLocalHost() { 
-      return (window.location.host).indexOf(":8000") != -1 
-          || (window.location.host).indexOf(":4000") != -1; 
+    function isLocalHost() {
+      return (window.location.host).indexOf(":8000") != -1
+          || (window.location.host).indexOf(":4000") != -1;
     }
 
     // @name isAmazonHost
     // @desc functions to check for the server host environment
     // @return {Boolean} - returns true or false based on environment
-    function isAmazonHost() { 
-      return (window.location.host).indexOf("amazonaws") != -1; 
+    function isAmazonHost() {
+      return (window.location.host).indexOf("amazonaws") != -1;
     }
 
     // @name getViewsPath
@@ -1705,11 +1757,11 @@ var CONFIG = require("../../config");
     //   Constructor block
     // ---------------------------------------------
     // if app is in deployment mode
-    if(_bd.isDeploy) { 
+    if(_bd.isDeploy) {
         // all paths are the same
         _src = _dist = _deploy;
     }
-        
+
     // ---------------------------------------------
     //   Instance block
     // ---------------------------------------------
@@ -1742,7 +1794,7 @@ var CONFIG = require("../../config");
       environment: {
         isProd: _bd.isProd,     // functions to check for the server host environment
         isDeploy: _bd.isDeploy, // functions to check for the server host environment
-        
+
         isLocalHost: isLocalHost(),   // functions to check for the server host environment
         isAmazonHost: isAmazonHost(), // functions to check for the server host environment
       },
@@ -1751,7 +1803,7 @@ var CONFIG = require("../../config");
       path: {
         views: getViewsPath(),         // function to get the path for views
         templates: getTemplatesPath(), // function to get the path for templates
-        
+
         data: getDataPath(),     // function to get the path for data
         images: getImagesPath(), // function to get the path for images
         videos: getVideosPath()  // function to get the path for videos
@@ -1759,7 +1811,7 @@ var CONFIG = require("../../config");
 
       // animation
       animation: {
-        // duration and delay 
+        // duration and delay
         // used in js animations
         delay: 250,   // delay in ms
         duration: 500, // duration in ms
@@ -1770,7 +1822,7 @@ var CONFIG = require("../../config");
 
       // timeout
       timeout: {
-        // timeouts used for 
+        // timeouts used for
         // manual scope and
         // animation updates
         scope: 275,    // timeout scope in ms
@@ -1784,7 +1836,8 @@ var CONFIG = require("../../config");
   // ---------------------------------------------
   module.exports = new CONFIG();
 
-})();
+})(jQuery);
+
 },{}],13:[function(require,module,exports){
 "use strict";
 
