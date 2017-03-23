@@ -7,16 +7,20 @@
 **/
 
 .people-collage {
-  @extend %flex--row;
+    @extend %flex--row;
+    justify-content: center;
 }
 
 // -------------------------------------
 //   People Collage - Person
 // -------------------------------------
 .people-collage__person {
-  @extend %flex--col;
-  flex-grow: 1;
-  flex-shrink: 0;
-  flex-basis: (100% / 8);
-  @include mobile { flex-basis: (100% / 4); }
+    @extend %flex--col;
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: (100% / 8);
+
+    @include mobile {
+        flex-basis: (100% / 4);
+    }
 }

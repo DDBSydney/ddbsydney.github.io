@@ -26,9 +26,9 @@ require("./base/template");
 var ClickableTile = require("./directives/clickable-tile.directive");
 
 // components
-var Header = require("./components/header.component");
+var Header     = require("./components/header.component");
+var IntroTile  = require("./components/intro/intro-tile.component");
 var PromoVideo = require("./components/common/promo-video.component");
-var IntroTile = require("./components/intro/intro-tile.component");
 
 // controllers
 /* empty block */
@@ -47,7 +47,7 @@ console.log(CONFIG);
           run options and functions for the app.
 **/
 
-(function() {
+(function($) {
   console.log("app.js loaded.");
 
   /**
@@ -123,8 +123,8 @@ console.log(CONFIG);
       requestAnimationFrame(function() {
         $(_elBody).velocity("transition.fadeIn", {
           easing: "easeInOutQuad",
-          delay: CONFIG.animation.delay / 2,
-          duration: CONFIG.animation.duration
+          delay: CONFIG.animation.delay,
+          duration: CONFIG.animation.durationSlow
         });
       });
     }
@@ -157,4 +157,4 @@ console.log(CONFIG);
   // ---------------------------------------------
   ddbWebsite.init(); // initiate the created app
 
-})();
+})(jQuery);

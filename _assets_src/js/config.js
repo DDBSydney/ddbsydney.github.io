@@ -3,7 +3,7 @@
 // -------------------------------------
 //   Dependencies
 // -------------------------------------
-/** 
+/**
   * @plugins
 **/
 
@@ -13,15 +13,15 @@
 // -------------------------------------
 //   Config
 // -------------------------------------
-/** 
+/**
   * @name config
-  * @desc The main js file that contains the 
+  * @desc The main js file that contains the
           config options and functions for the app.
 **/
-(function() {
+(function($) {
   console.log("config.js loaded.");
 
-  /** 
+  /**
     * @name BuildDetect
     * @desc Class to detect the current build.
     * @param {String} host - the window location host
@@ -73,7 +73,7 @@
     bd.isDesktop = isDesktop(); // to detect desktop build
   }
 
-  /** 
+  /**
     * @name BreakpointDetect
     * @desc Class to detect the current breakpoint.
     * @return {Object} - the instance of the breakpoint class
@@ -98,13 +98,13 @@
     // ---------------------------------------------
     //   Private methods
     // ---------------------------------------------
-    // @name _isMobileSmall, _isMobilem _isTabletSmall, 
+    // @name _isMobileSmall, _isMobilem _isTabletSmall,
     // @name _isTablet, _isDesktop, _isDesktopLarge
     // @desc to detect various browser breakpoints
     // @return {Boolean} - true or false
     function _isDesktopLarge() { return  br.value == "desktop-lg-up"; }
     function _isDesktop()      { return  _isDesktopLarge() || br.value == "desktop"; }
-    
+
     function _isTablet()       { return  _isTabletSmall() || br.value == "tablet"; }
     function _isTabletSmall()  { return  br.value == "tablet-sm"; }
 
@@ -133,11 +133,11 @@
     //   Public methods
     // ---------------------------------------------
     /* empty block */
-    
+
     // ---------------------------------------------
     //   Constructor block
     // ---------------------------------------------
-    // add window resize event listener 
+    // add window resize event listener
     // to update the breakpoint value and fals
     window.addEventListener("resize", function(event) {
       _updateValues();
@@ -153,7 +153,7 @@
     /* empty block */
   }
 
-  /** 
+  /**
     * @name CONFIG
     * @desc Constant that contains the config options and values for the app
     * @return {Object} - all the possible config options and values for the app
@@ -251,16 +251,16 @@
     // @name isLocalHost
     // @desc functions to check for the server host environment
     // @return {Boolean} - returns true or false based on environment
-    function isLocalHost() { 
-      return (window.location.host).indexOf(":8000") != -1 
-          || (window.location.host).indexOf(":4000") != -1; 
+    function isLocalHost() {
+      return (window.location.host).indexOf(":8000") != -1
+          || (window.location.host).indexOf(":4000") != -1;
     }
 
     // @name isAmazonHost
     // @desc functions to check for the server host environment
     // @return {Boolean} - returns true or false based on environment
-    function isAmazonHost() { 
-      return (window.location.host).indexOf("amazonaws") != -1; 
+    function isAmazonHost() {
+      return (window.location.host).indexOf("amazonaws") != -1;
     }
 
     // @name getViewsPath
@@ -307,11 +307,11 @@
     //   Constructor block
     // ---------------------------------------------
     // if app is in deployment mode
-    if(_bd.isDeploy) { 
+    if(_bd.isDeploy) {
         // all paths are the same
         _src = _dist = _deploy;
     }
-        
+
     // ---------------------------------------------
     //   Instance block
     // ---------------------------------------------
@@ -344,7 +344,7 @@
       environment: {
         isProd: _bd.isProd,     // functions to check for the server host environment
         isDeploy: _bd.isDeploy, // functions to check for the server host environment
-        
+
         isLocalHost: isLocalHost(),   // functions to check for the server host environment
         isAmazonHost: isAmazonHost(), // functions to check for the server host environment
       },
@@ -353,7 +353,7 @@
       path: {
         views: getViewsPath(),         // function to get the path for views
         templates: getTemplatesPath(), // function to get the path for templates
-        
+
         data: getDataPath(),     // function to get the path for data
         images: getImagesPath(), // function to get the path for images
         videos: getVideosPath()  // function to get the path for videos
@@ -361,7 +361,7 @@
 
       // animation
       animation: {
-        // duration and delay 
+        // duration and delay
         // used in js animations
         delay: 250,   // delay in ms
         duration: 500, // duration in ms
@@ -372,7 +372,7 @@
 
       // timeout
       timeout: {
-        // timeouts used for 
+        // timeouts used for
         // manual scope and
         // animation updates
         scope: 275,    // timeout scope in ms
@@ -386,4 +386,4 @@
   // ---------------------------------------------
   module.exports = new CONFIG();
 
-})();
+})(jQuery);
