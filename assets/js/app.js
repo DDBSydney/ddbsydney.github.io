@@ -918,6 +918,7 @@ var CONFIG = require("../config");
       modifier: { // applied modifier classes
         open: "header--open", // on header when the menu is open
         closed: "header--closed", // on header when the menu is closed
+        fallback: "header--fallback", // on header to fix old browser issues
 
         sticky: "section--header-sticky", // on section when the header is sticky
         hidden: "section--header-hidden", // on section when the header is hidden
@@ -1261,6 +1262,11 @@ var CONFIG = require("../config");
     _elHtml = query("html")[0];
     _elBody = query("body")[0];
 
+    // add browser specific class for older browsers
+    if(CONFIG.browser.isIE && CONFIG.browser.isIEOld) {
+      _el.main.classList.add(_class.modifier.fallback);
+    }
+
     // loop through all the nav links and check if any of them are active
     query(".link", _el.nav).forEach(function(link, index) {
       if(_isLinkActive(link)) { _setLinkAsActive(link); }
@@ -1326,6 +1332,9 @@ var CONFIG = require("../config");
 // base
 require("../../base/query");
 require("../../base/event");
+
+// config
+var CONFIG = require("../../config");
 
 // -------------------------------------
 //   Directive - Intro Tile
@@ -1447,7 +1456,7 @@ require("../../base/event");
 })(jQuery);
 
 
-},{"../../base/event":3,"../../base/query":6}],12:[function(require,module,exports){
+},{"../../base/event":3,"../../base/query":6,"../../config":12}],12:[function(require,module,exports){
 "use strict";
 
 // -------------------------------------
@@ -1768,23 +1777,25 @@ require("../../base/event");
     return {
       // device
       device: {
-        isPhone: isPhone(), // functions to detect mobile device and os
+        isPhone:  isPhone(),  // functions to detect mobile device and os
         isTablet: isTablet(), // functions to detect mobile device and os
         isMobile: isMobile(), // functions to detect mobile device and os
 
-        isIOS: isIOS(), // functions to detect mobile device and os
+        isIOS:     isIOS(),     // functions to detect mobile device and os
         isAndroid: isAndroid(), // functions to detect mobile device and os
 
-        isIOSOld: isIOSOld(), // functions to detect mobile device and os
+        isIOSOld:     isIOSOld(),    // functions to detect mobile device and os
         isAndroidOld: isAndroidOld() // functions to detect mobile device and os
       },
 
       // browser
       browser: {
-        isFirefox: isFirefox(),
-        isSafari: isSafari(),
-        isChrome: isChrome(),
-        isIE: isIE()
+        isFirefox: isFirefox(), // function to detect firefox
+        isSafari:  isSafari(),  // function to detect safari
+        isChrome:  isChrome(),  // function to detect chrome
+
+        isIE:    isIE(),   // function to detect ie
+        isIEOld: isIEOld() // function to detect old ie
       },
 
       // breakpoint
