@@ -318,23 +318,25 @@
     return {
       // device
       device: {
-        isPhone: isPhone(), // functions to detect mobile device and os
+        isPhone:  isPhone(),  // functions to detect mobile device and os
         isTablet: isTablet(), // functions to detect mobile device and os
         isMobile: isMobile(), // functions to detect mobile device and os
 
-        isIOS: isIOS(), // functions to detect mobile device and os
+        isIOS:     isIOS(),     // functions to detect mobile device and os
         isAndroid: isAndroid(), // functions to detect mobile device and os
 
-        isIOSOld: isIOSOld(), // functions to detect mobile device and os
+        isIOSOld:     isIOSOld(),    // functions to detect mobile device and os
         isAndroidOld: isAndroidOld() // functions to detect mobile device and os
       },
 
       // browser
       browser: {
-        isFirefox: isFirefox(),
-        isSafari: isSafari(),
-        isChrome: isChrome(),
-        isIE: isIE()
+        isFirefox: isFirefox(), // function to detect firefox
+        isSafari:  isSafari(),  // function to detect safari
+        isChrome:  isChrome(),  // function to detect chrome
+
+        isIE:    isIE(),   // function to detect ie
+        isIEOld: isIEOld() // function to detect old ie
       },
 
       // breakpoint

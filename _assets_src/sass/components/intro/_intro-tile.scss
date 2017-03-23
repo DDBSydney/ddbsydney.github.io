@@ -20,6 +20,7 @@
 .intro-tile__image-section {
   opacity: 0;
   @include transitions(opacity);
+  transition-duration: $trans_time_slow;
 
   &.intro-tile__image-section--visible {
     opacity: 1;

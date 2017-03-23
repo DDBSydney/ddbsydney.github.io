@@ -53,6 +53,7 @@ var CONFIG = require("../config");
       modifier: { // applied modifier classes
         open: "header--open", // on header when the menu is open
         closed: "header--closed", // on header when the menu is closed
+        fallback: "header--fallback", // on header to fix old browser issues
 
         sticky: "section--header-sticky", // on section when the header is sticky
         hidden: "section--header-hidden", // on section when the header is hidden
@@ -395,6 +396,11 @@ var CONFIG = require("../config");
     // get the html and body DOM elements
     _elHtml = query("html")[0];
     _elBody = query("body")[0];
+
+    // add browser specific class for older browsers
+    if(CONFIG.browser.isIE && CONFIG.browser.isIEOld) {
+      _el.main.classList.add(_class.modifier.fallback);
+    }
 
     // loop through all the nav links and check if any of them are active
     query(".link", _el.nav).forEach(function(link, index) {
