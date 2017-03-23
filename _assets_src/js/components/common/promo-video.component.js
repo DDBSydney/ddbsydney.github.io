@@ -24,7 +24,7 @@ var CONFIG = require("../../config");
 **/
 
 (function($){
-  console.log("components/work/promo-video.component.js loaded.");
+  console.log("components/common/promo-video.component.js loaded.");
 
   /**
     * @name PromoVideo

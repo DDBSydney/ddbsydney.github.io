@@ -144,8 +144,9 @@ var CONFIG = require("../config");
       // create string representation of the parent path
       _parentPath = "/"; // reset the hierarchy name
       _hierarchy.forEach(function(name, index) {
-        if(index < (_hierarchy.length - 1)) {
-          _parentPath += (name + "/");
+        if(index < (_hierarchy.length - 1)
+           && name != "careers") {
+            _parentPath += (name + "/");
         }
       });
 
@@ -246,7 +247,7 @@ var CONFIG = require("../config");
         if (diffScroll <= 0) {
           // add the hidden modifier class if is
           _section.classList.add(_class.modifier.hidden);
-        } 
+        }
 
         else {
           // remove the hidden modifier class if is not
@@ -288,7 +289,7 @@ var CONFIG = require("../config");
       // remove the window scroll listener
       _removeWindowScrollListener();
 
-      // set the menu open flag 
+      // set the menu open flag
       // and disable page scroll
       _isMenuOpen = true;
       _disablePageScroll();
@@ -406,7 +407,7 @@ var CONFIG = require("../config");
     _addOpenClickListener();
     _addCloseClickListener();
 
-    // get the wrapping header section 
+    // get the wrapping header section
     // and the current page scroll offset
     _section = query(".section--header")[0];
     _prevScroll = document.body.scrollTop;
