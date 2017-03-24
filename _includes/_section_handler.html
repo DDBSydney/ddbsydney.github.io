@@ -1,7 +1,7 @@
 {% for section in include.data %}
 
   <!-- section -->
-  <section class="section{% if forloop.first %} section--first{% endif %}{% if forloop.last %} section--last{% endif %}">
+  <section class="section{% if forloop.first %} section--first{% endif %}{% if section.type == 'news-title' %} section--news-title{% endif %}{% if section.type == 'news-content' %} section--news-content{% endif %}{% if forloop.last %} section--last{% endif %}">
 
     {% case section.type %}
 
@@ -75,9 +75,6 @@
       {% when "content-tile" %}
         {% include components/common/content-tile.html data=section.value %}
 
-      {% when "image-tile" %}
-        {% include components/common/image-tile.html data=section.value %}
-
       {% when "promo-video" %}
         {% include components/common/promo-video.html data=section.value %}
 
@@ -90,12 +87,27 @@
       {% when "video-tile" %}
         {% include components/common/video-tile.html data=section.value %}
 
+      {% when "image-tile" %}
+        {% include components/common/image-tile/image-tile.html data=section.value %}
+
+      {% when "image-tile-small" %}
+        {% include components/common/image-tile/image-tile-small.html data=section.value %}
+
+      {% when "image-tile-large" %}
+        {% include components/common/image-tile/image-tile-large.html data=section.value %}
+
 
 
       {% comment %} <!-- News Page --> {% endcomment %}
 
       {% when "news-tile" %}
         {% include components/news/news-tile.html data=section.value %}
+
+      {% when "news-title" %}
+        {% include components/news/news-title.html data=section.value %}
+
+      {% when "news-content" %}
+        {% include components/news/news-content.html data=section.value %}
 
 
 

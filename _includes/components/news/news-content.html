@@ -1,0 +1,23 @@
+{% assign component = include.data[0] %}
+
+<!-- news content -->
+<div class="news-content" data-style="{{ component.style.value | default: 'page' }}">
+
+    <!-- container -->
+    <div class="container news-content__container">
+
+        {% if component.copy.value %}
+        <p class="news-content__copy">{{ component.copy.value }}</p>
+        {% endif %}
+
+        {% if component.quote.value %}
+        <p class="news-content__quote">{{ component.copy.value }}</p>
+        {% endif %}
+
+        {% if component.quote.value %}
+        <p class="news-content__footer">{{ if component.footer.value }}</p>
+        {% endif %}
+
+    </div><!-- container end -->
+
+</div><!-- news content end -->

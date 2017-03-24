@@ -86,3 +86,10 @@ $news_quote_margin: 2em;
     &[data-style="white"]  { background-color: white; }
     &[data-style="yellow"] { background-color: $color_yellow_ddb; }
 }
+
+// ------------------------------------------
+//   News Content - Section - Title
+// ------------------------------------------
+.section--news-title + .section--news-content {
+    .news-content:first-child { padding-top: 0 !important; }
+}

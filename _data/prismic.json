@@ -6511,6 +6511,271 @@
       }
     }
   ],
+  "news-pages": [
+    {
+      "uid": "sample",
+      "data": {
+        "meta-title": {
+          "type": "Text",
+          "value": "Sample News | DDB Sydney"
+        },
+        "meta-description": {
+          "type": "Text",
+          "value": "Sample News for DDB Sydney"
+        },
+        "foregroundColor": {
+          "type": "Color",
+          "value": "#ffffff"
+        },
+        "sections": {
+          "type": "SectionList",
+          "value": [
+            {
+              "type": "news-title",
+              "value": [
+                {
+                  "date": {
+                    "type": "Text",
+                    "value": "Mar 24, 2017"
+                  },
+                  "headline": {
+                    "type": "Text",
+                    "value": "News title with style set <br class=\"all\">as default (page), or black."
+                  }
+                }
+              ]
+            },
+            {
+              "type": "news-title",
+              "value": [
+                {
+                  "date": {
+                    "type": "Text",
+                    "value": "Mar 24, 2017"
+                  },
+                  "headline": {
+                    "type": "Text",
+                    "value": "News title with style set <br class=\"all\">as white."
+                  },
+                  "style": {
+                    "type": "Select",
+                    "value": "white"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "news-title",
+              "value": [
+                {
+                  "date": {
+                    "type": "Text",
+                    "value": "Mar 24, 2017"
+                  },
+                  "headline": {
+                    "type": "Text",
+                    "value": "News title with style set <br class=\"all\">as yellow."
+                  },
+                  "style": {
+                    "type": "Select",
+                    "value": "yellow"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "news-content",
+              "value": [
+                {
+                  "copy": {
+                    "type": "Text",
+                    "value": "News content copy ipsum dolor sit amet, consectetur adipiscing elit. Proin neque orci, gravida ut semper et, cursus eget sem. Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br class=\"all\"><br class=\"all\">\nAenean imperdiet arcu in velit fringilla vulputate. Suspendisse laoreet facilisis orci efficitur tempor. Nullam vel tortor vel ex sollicitudin venenatis."
+                  },
+                  "quote": {
+                    "type": "Text",
+                    "value": "News content quote ipsum dolor sit amet, consectetur adipiscing elit. Proin neque orci, gravida ut semper et, cursus eget sem. Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br class=\"all\"><br class=\"all\">\n Aenean imperdiet arcu in velit fringilla vulputate. Suspendisse laoreet facilisis orci efficitur tempor. Nullam vel tortor vel ex sollicitudin venenatis."
+                  },
+                  "footer": {
+                    "type": "Text",
+                    "value": "News content footer ipsum."
+                  },
+                  "style": {
+                    "type": "Select",
+                    "value": "yellow"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "news-content",
+              "value": [
+                {
+                  "copy": {
+                    "type": "Text",
+                    "value": "News content copy ipsum dolor sit amet, consectetur adipiscing elit. Proin neque orci, gravida ut semper et, cursus eget sem. Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br class=\"all\"><br class=\"all\">\nAenean imperdiet arcu in velit fringilla vulputate. Suspendisse laoreet facilisis orci efficitur tempor. Nullam vel tortor vel ex sollicitudin venenatis."
+                  },
+                  "quote": {
+                    "type": "Text",
+                    "value": "News content quote ipsum dolor sit amet, consectetur adipiscing elit. Proin neque orci, gravida ut semper et, cursus eget sem. Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br class=\"all\"><br class=\"all\">\n Aenean imperdiet arcu in velit fringilla vulputate. Suspendisse laoreet facilisis orci efficitur tempor. Nullam vel tortor vel ex sollicitudin venenatis."
+                  },
+                  "footer": {
+                    "type": "Text",
+                    "value": "News content footer ipsum."
+                  }
+                }
+              ]
+            },
+            {
+              "type": "news-content",
+              "value": [
+                {
+                  "copy": {
+                    "type": "Text",
+                    "value": "News content copy ipsum dolor sit amet, consectetur adipiscing elit. Proin neque orci, gravida ut semper et, cursus eget sem. Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br class=\"all\"><br class=\"all\">\nAenean imperdiet arcu in velit fringilla vulputate. Suspendisse laoreet facilisis orci efficitur tempor. Nullam vel tortor vel ex sollicitudin venenatis."
+                  },
+                  "quote": {
+                    "type": "Text",
+                    "value": "News content quote ipsum dolor sit amet, consectetur adipiscing elit. Proin neque orci, gravida ut semper et, cursus eget sem. Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br class=\"all\"><br class=\"all\">\n Aenean imperdiet arcu in velit fringilla vulputate. Suspendisse laoreet facilisis orci efficitur tempor. Nullam vel tortor vel ex sollicitudin venenatis."
+                  },
+                  "footer": {
+                    "type": "Text",
+                    "value": "News content footer ipsum."
+                  },
+                  "style": {
+                    "type": "Select",
+                    "value": "white"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "image-tile-small",
+              "value": [
+                {
+                  "image": {
+                    "type": "Image",
+                    "value": {
+                      "main": {
+                        "dimensions": {
+                          "width": 1920,
+                          "height": 768
+                        },
+                        "alt": null,
+                        "copyright": null,
+                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/bc1412775d9c6806fd64a75ae5d4ee295c9a8278_image-tile-small-desktop.png"
+                      },
+                      "views": {
+                        "mobile": {
+                          "dimensions": {
+                            "width": 800,
+                            "height": 700
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/0d245c2099875d30091d8ffc96d53aa6b5d01405_image-tile-small-mobile.png"
+                        },
+                        "desktop": {
+                          "dimensions": {
+                            "width": 1920,
+                            "height": 768
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/bc1412775d9c6806fd64a75ae5d4ee295c9a8278_image-tile-small-desktop.png"
+                        }
+                      }
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "image-tile",
+              "value": [
+                {
+                  "image": {
+                    "type": "Image",
+                    "value": {
+                      "main": {
+                        "dimensions": {
+                          "width": 1920,
+                          "height": 900
+                        },
+                        "alt": null,
+                        "copyright": null,
+                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/3bd29d12989fcaaa445ce05815dcbfc844651a5e_image-tile-default-desktop.png"
+                      },
+                      "views": {
+                        "desktop": {
+                          "dimensions": {
+                            "width": 1920,
+                            "height": 900
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/3bd29d12989fcaaa445ce05815dcbfc844651a5e_image-tile-default-desktop.png"
+                        },
+                        "mobile": {
+                          "dimensions": {
+                            "width": 800,
+                            "height": 820
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/c375510616fd3c4844fc1cb2d4229f8af5125ef1_image-tile-default-mobile.png"
+                        }
+                      }
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "image-tile-large",
+              "value": [
+                {
+                  "image": {
+                    "type": "Image",
+                    "value": {
+                      "main": {
+                        "dimensions": {
+                          "width": 1920,
+                          "height": 1440
+                        },
+                        "alt": null,
+                        "copyright": null,
+                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/fa343e548233a9be41f5b34a0380751e9ee62ac6_image-tile-large-desktop.png"
+                      },
+                      "views": {
+                        "mobile": {
+                          "dimensions": {
+                            "width": 800,
+                            "height": 1320
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/1393701a5e0d4d6a99f585c7beb3bd126644354c_image-tile-large-mobile.png"
+                        },
+                        "desktop": {
+                          "dimensions": {
+                            "width": 1920,
+                            "height": 1440
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/fa343e548233a9be41f5b34a0380751e9ee62ac6_image-tile-large-desktop.png"
+                        }
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ],
   "news": [
     {
       "uid": "news",
