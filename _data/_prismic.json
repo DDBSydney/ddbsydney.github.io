@@ -1,8 +1,8 @@
 {
   "page": 1,
   "results_per_page": 100,
-  "results_size": 24,
-  "total_results_size": 24,
+  "results_size": 25,
+  "total_results_size": 25,
   "total_pages": 1,
   "next_page": null,
   "prev_page": null,
@@ -11,12 +11,12 @@
       "id": "WL82KSQAACIbfCy4",
       "uid": "volkswagen-amarok-korama",
       "type": "case-studies",
-      "href": "http://ddb-website.cdn.prismic.io/api/documents/search?ref=WNNN_R4AANhxmbd4&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WL82KSQAACIbfCy4%22%29+%5D%5D",
+      "href": "http://ddb-website.cdn.prismic.io/api/documents/search?ref=WNSeZiEAAB4HQtm2&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WL82KSQAACIbfCy4%22%29+%5D%5D",
       "tags": [
 
       ],
       "first_publication_date": "2017-03-07T22:37:35+0000",
-      "last_publication_date": "2017-03-21T04:22:03+0000",
+      "last_publication_date": "2017-03-23T06:22:55+0000",
       "slugs": [
         "volkswagen-amarok---korama--ddb-sydney",
         "volkswagen-amarok---korama"
@@ -55,11 +55,11 @@
                           "main": {
                             "dimensions": {
                               "width": 1920,
-                              "height": 1200
+                              "height": 1080
                             },
                             "alt": null,
                             "copyright": null,
-                            "url": "http://ddb-website.cdn.prismic.io/ddb-website/fd1a10f8e0d6de871ce054b230fbe7ea11db0fb4_screen-shot-2017-03-08-at-2.50.03-pm-2.png"
+                            "url": "http://ddb-website.cdn.prismic.io/ddb-website/62b97b499c87703edf80ca5b83fcb404f70cc96b_8-video.jpg"
                           },
                           "views": {
                             "desktop": {
@@ -69,7 +69,7 @@
                               },
                               "alt": null,
                               "copyright": null,
-                              "url": "http://ddb-website.cdn.prismic.io/ddb-website/fa14932237d1f297598ea2c2f2ae06e378eb0a9d_screen-shot-2017-03-08-at-2.50.03-pm-2.png"
+                              "url": "http://ddb-website.cdn.prismic.io/ddb-website/f031dc153fea2ba654f051b57540e8b32b500511_8-video.jpg"
                             },
                             "mobile": {
                               "dimensions": {
@@ -78,14 +78,14 @@
                               },
                               "alt": null,
                               "copyright": null,
-                              "url": "http://ddb-website.cdn.prismic.io/ddb-website/13e67f7b67d764e95568d16edb981855c72dd2cf_screen-shot-2017-03-08-at-2.50.03-pm-2.png"
+                              "url": "http://ddb-website.cdn.prismic.io/ddb-website/3ce88502cc46481bd53166eec3524e680b6e5e83_8-video.jpg"
                             }
                           }
                         }
                       },
                       "align": {
                         "type": "Select",
-                        "value": "right"
+                        "value": "center"
                       }
                     }
                   ]
@@ -122,7 +122,7 @@
                       "video": {
                         "type": "Link.web",
                         "value": {
-                          "url": "https://vimeo.com/207242421/f7580fd26d"
+                          "url": "https://player.vimeo.com/video/207366577"
                         }
                       }
                     }
@@ -163,22 +163,13 @@
                           "main": {
                             "dimensions": {
                               "width": 1920,
-                              "height": 1200
+                              "height": 1080
                             },
                             "alt": null,
                             "copyright": null,
-                            "url": "http://ddb-website.cdn.prismic.io/ddb-website/4b558a9af49dd83e17ea484d05036420171b58d8_screen-shot-2017-03-08-at-2.45.48-pm-2.png"
+                            "url": "http://ddb-website.cdn.prismic.io/ddb-website/96dcbc1af717fe4d87ca5a7549bf6a735eeb81c7_2-text.jpg"
                           },
                           "views": {
-                            "desktop": {
-                              "dimensions": {
-                                "width": 1920,
-                                "height": 900
-                              },
-                              "alt": null,
-                              "copyright": null,
-                              "url": "http://ddb-website.cdn.prismic.io/ddb-website/2173bfe5d6ac1d21781e7e4dcd315ffa3bcd5958_screen-shot-2017-03-08-at-2.45.48-pm-2.png"
-                            },
                             "mobile": {
                               "dimensions": {
                                 "width": 800,
@@ -186,7 +177,16 @@
                               },
                               "alt": null,
                               "copyright": null,
-                              "url": "http://ddb-website.cdn.prismic.io/ddb-website/c45610e9f8aca66ff4fcccb7172b2a121e60570d_screen-shot-2017-03-08-at-2.45.48-pm-2.png"
+                              "url": "http://ddb-website.cdn.prismic.io/ddb-website/ea550dedf0248f1388c0acbb61b95f9cecc948d3_2-text.jpg"
+                            },
+                            "desktop": {
+                              "dimensions": {
+                                "width": 1920,
+                                "height": 900
+                              },
+                              "alt": null,
+                              "copyright": null,
+                              "url": "http://ddb-website.cdn.prismic.io/ddb-website/3f2fb94c1b6b0f57e163d63bbe6225f54a2a359f_2-text.jpg"
                             }
                           }
                         }
@@ -205,7 +205,183 @@
                     {
                       "copy": {
                         "type": "Text",
-                        "value": "1. CREATING THE PROTOTYPE\n<br>So we built a completely new shell for the Amarok V6 that made it look as mean as the V6 engine that powered it.\n<br><br>\n2. LEAKING THE PROTOTYPE\n<br>Next, we leaked spy shots of the 'mystery prototype' to editorial media channels, igniting excitement and debate amongst performance enthusiasts.\n<br><br>\n3. TESTING THE PROTOTYPE\n<br>While the debate continued, we invited four unsuspecting performance enthusiasts to put the prototype to the test. With no preconceptions holding them back, the drivers were amazed by its raw power.\n<br><br>\n4. REVEALING THE PROTOTYPE\n<br>We then revealed the identity of the prototype by retargeting our audience online, changing the conversation from a powerful prototype to the powerful Amarok V6."
+                        "value": "1. CREATING THE PROTOTYPE\n<br>So we built a completely new shell for the Amarok V6 that made it look as mean as the V6 engine that powered it."
+                      },
+                      "imageDesktop": {
+                        "type": "Image",
+                        "value": {
+                          "main": {
+                            "dimensions": {
+                              "width": 1257,
+                              "height": 375
+                            },
+                            "alt": null,
+                            "copyright": null,
+                            "url": "http://ddb-website.cdn.prismic.io/ddb-website/fb98fe45d6c69bdac6b03c3323c6773d85ea2a72_7a-creating.jpg"
+                          },
+                          "views": {
+                          }
+                        }
+                      },
+                      "imageMobile": {
+                        "type": "Image",
+                        "value": {
+                          "main": {
+                            "dimensions": {
+                              "width": 1257,
+                              "height": 375
+                            },
+                            "alt": null,
+                            "copyright": null,
+                            "url": "http://ddb-website.cdn.prismic.io/ddb-website/fb98fe45d6c69bdac6b03c3323c6773d85ea2a72_7a-creating.jpg"
+                          },
+                          "views": {
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "Slice",
+                "slice_type": "content-tile",
+                "slice_label": null,
+                "value": {
+                  "type": "Group",
+                  "value": [
+                    {
+                      "copy": {
+                        "type": "Text",
+                        "value": "2. LEAKING THE PROTOTYPE\n<br>Next, we leaked spy shots of the 'mystery prototype' to editorial media channels, igniting excitement and debate amongst performance enthusiasts."
+                      },
+                      "imageDesktop": {
+                        "type": "Image",
+                        "value": {
+                          "main": {
+                            "dimensions": {
+                              "width": 1257,
+                              "height": 375
+                            },
+                            "alt": null,
+                            "copyright": null,
+                            "url": "http://ddb-website.cdn.prismic.io/ddb-website/4f6c38fde7bc298a3616de54c552d916efc45a25_7b-leaking.jpg"
+                          },
+                          "views": {
+                          }
+                        }
+                      },
+                      "imageMobile": {
+                        "type": "Image",
+                        "value": {
+                          "main": {
+                            "dimensions": {
+                              "width": 1257,
+                              "height": 375
+                            },
+                            "alt": null,
+                            "copyright": null,
+                            "url": "http://ddb-website.cdn.prismic.io/ddb-website/d06a79b9a7a27924842d96089137328db632d5ba_7b-leaking.jpg"
+                          },
+                          "views": {
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "Slice",
+                "slice_type": "content-tile",
+                "slice_label": null,
+                "value": {
+                  "type": "Group",
+                  "value": [
+                    {
+                      "copy": {
+                        "type": "Text",
+                        "value": "3. TESTING THE PROTOTYPE\n<br>While the debate continued, we invited four unsuspecting performance enthusiasts to put the prototype to the test. With no preconceptions holding them back, the drivers were amazed by its raw power."
+                      },
+                      "imageDesktop": {
+                        "type": "Image",
+                        "value": {
+                          "main": {
+                            "dimensions": {
+                              "width": 1257,
+                              "height": 375
+                            },
+                            "alt": null,
+                            "copyright": null,
+                            "url": "http://ddb-website.cdn.prismic.io/ddb-website/b6b52d420f536a796e28071762cb564ef7c494c0_7c-testing.jpg"
+                          },
+                          "views": {
+                          }
+                        }
+                      },
+                      "imageMobile": {
+                        "type": "Image",
+                        "value": {
+                          "main": {
+                            "dimensions": {
+                              "width": 1257,
+                              "height": 375
+                            },
+                            "alt": null,
+                            "copyright": null,
+                            "url": "http://ddb-website.cdn.prismic.io/ddb-website/b6b52d420f536a796e28071762cb564ef7c494c0_7c-testing.jpg"
+                          },
+                          "views": {
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "Slice",
+                "slice_type": "content-tile",
+                "slice_label": null,
+                "value": {
+                  "type": "Group",
+                  "value": [
+                    {
+                      "copy": {
+                        "type": "Text",
+                        "value": "4. REVEALING THE PROTOTYPE\n<br>We then revealed the identity of the prototype by retargeting our audience online, changing the conversation from a powerful prototype to the powerful Amarok V6."
+                      },
+                      "imageDesktop": {
+                        "type": "Image",
+                        "value": {
+                          "main": {
+                            "dimensions": {
+                              "width": 1257,
+                              "height": 375
+                            },
+                            "alt": null,
+                            "copyright": null,
+                            "url": "http://ddb-website.cdn.prismic.io/ddb-website/2d01afb7d327169d2c349934dff193104f6cc33c_7d-revealing.jpg"
+                          },
+                          "views": {
+                          }
+                        }
+                      },
+                      "imageMobile": {
+                        "type": "Image",
+                        "value": {
+                          "main": {
+                            "dimensions": {
+                              "width": 1257,
+                              "height": 375
+                            },
+                            "alt": null,
+                            "copyright": null,
+                            "url": "http://ddb-website.cdn.prismic.io/ddb-website/2d01afb7d327169d2c349934dff193104f6cc33c_7d-revealing.jpg"
+                          },
+                          "views": {
+                          }
+                        }
                       }
                     }
                   ]
@@ -225,11 +401,11 @@
                           "main": {
                             "dimensions": {
                               "width": 1920,
-                              "height": 1200
+                              "height": 1080
                             },
                             "alt": null,
                             "copyright": null,
-                            "url": "http://ddb-website.cdn.prismic.io/ddb-website/4f2a8f21f172f73752189c5cbbb6007fd7e3204c_screen-shot-2017-03-08-at-2.50.38-pm-2.png"
+                            "url": "http://ddb-website.cdn.prismic.io/ddb-website/30285d96d6d013ff737d2a2d77f64a0802729f16_9-outro.jpg"
                           },
                           "views": {
                             "desktop": {
@@ -239,7 +415,7 @@
                               },
                               "alt": null,
                               "copyright": null,
-                              "url": "http://ddb-website.cdn.prismic.io/ddb-website/c15c17931e265ef9d6557e7c631657032e1010f8_screen-shot-2017-03-08-at-2.50.38-pm-2.png"
+                              "url": "http://ddb-website.cdn.prismic.io/ddb-website/b1df150e72ccdc98a6a5a77fade4469631c5ebb1_9-outro.jpg"
                             },
                             "mobile": {
                               "dimensions": {
@@ -248,7 +424,7 @@
                               },
                               "alt": null,
                               "copyright": null,
-                              "url": "http://ddb-website.cdn.prismic.io/ddb-website/e6e1b4f5daf2931f687b5a9d9b1813c7d24bea14_screen-shot-2017-03-08-at-2.50.38-pm-2.png"
+                              "url": "http://ddb-website.cdn.prismic.io/ddb-website/5ad7a16f4e15de5ce174b7fb1d30f438bc595371_9-outro.jpg"
                             }
                           }
                         }
@@ -284,7 +460,7 @@
                       "video": {
                         "type": "Link.web",
                         "value": {
-                          "url": "https://vimeo.com/207366577/0ddfce6b59"
+                          "url": "https://player.vimeo.com/video/207242421"
                         }
                       }
                     }
@@ -298,15 +474,16 @@
     },
     {
       "id": "WLjjUx8AAH4IVCL5",
-      "uid": "account-manager",
+      "uid": "job-openings",
       "type": "career-listings",
-      "href": "http://ddb-website.cdn.prismic.io/api/documents/search?ref=WNNN_R4AANhxmbd4&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WLjjUx8AAH4IVCL5%22%29+%5D%5D",
+      "href": "http://ddb-website.cdn.prismic.io/api/documents/search?ref=WNSeZiEAAB4HQtm2&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WLjjUx8AAH4IVCL5%22%29+%5D%5D",
       "tags": [
 
       ],
       "first_publication_date": "2017-03-03T03:30:34+0000",
-      "last_publication_date": "2017-03-15T06:13:59+0000",
+      "last_publication_date": "2017-03-23T06:21:31+0000",
       "slugs": [
+        "careers--ddb",
         "account-manager--careers--ddb",
         "account-manager"
       ],
@@ -317,7 +494,7 @@
         "career-listings": {
           "meta-title": {
             "type": "Text",
-            "value": "Account Manager | Careers | DDB"
+            "value": "Careers | DDB"
           },
           "foregroundColor": {
             "type": "Color",
@@ -394,7 +571,27 @@
                       },
                       "copy": {
                         "type": "Text",
-                        "value": "We are looking for someone who is passionate about getting the job done. You are, in fact, the ultimate project manager, firing on all cylinders all the time. You assist in the execution of all marketing activities and you are able to anticipate the entire process, from who is involved, to what needs to get done, and how it all fits together.<br class=\"all\"><br class=\"all\">\n\nAs an Account Managers you contribute to your client’s business through your strong understanding of the creative product and your role in its creation. You have a thirst for learning and can quickly pick up an in-depth understanding of the client, the client’s business and their consumer. You act and think creatively and strategically, contributing to the team, but also owning your projects and integrating around ideas.<br class=\"all\"><br class=\"all\"><br class=\"all\">"
+                        "value": "DDB Sydney is looking for an Account Manager to join the team.  We are looking for someone who is passionate about getting the job done. You are, in fact, the ultimate project manager, firing on all cylinders all the time. You assist in the execution of all marketing activities and you are able to anticipate the entire process, from who is involved, to what needs to get done, and how it all fits together.  <br><br>As an Account Managers you contribute to your client’s business through your strong understanding of the creative product and your role in its creation. You have a thirst for learning and can quickly pick up an in-depth understanding of the client, the client’s business and their consumer. You act and think creatively and strategically, contributing to the team, but also owning your projects and integrating around ideas. \n<br><br>If you are interested please send your CV to our Talent Director Sarah Crabbe sarah.crabbe@syd.ddb.com"
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "Slice",
+                "slice_type": "career-detail",
+                "slice_label": null,
+                "value": {
+                  "type": "Group",
+                  "value": [
+                    {
+                      "headline": {
+                        "type": "Text",
+                        "value": "Senior Account Manager"
+                      },
+                      "copy": {
+                        "type": "Text",
+                        "value": "DDB is looking for a Senior Account Manager to join the team working on a brilliant integrated account. <br><br>We are looking for a Senior Account Manager with strong integrated experience across everything from TV to Digital/Content and Print. If you are an organised and buttoned down suit with a knack for building exceptionally strong relationships - we would love to hear from you!\n<br><br>If you are interested please send your CV to our Talent Director Sarah Crabbe sarah.crabbe@syd.ddb.com"
                       }
                     }
                   ]
@@ -412,13 +609,29 @@
                         "type": "Text",
                         "value": "Account Director"
                       },
-                      "subline": {
+                      "copy": {
                         "type": "Text",
-                        "value": "blah"
+                        "value": "DDB is looking for an established Account Director to join the team working on an exciting and fast paced account. \nWe are looking for an Account Director with exceptional client service experience across everything from TV to Digital/Content and Print. You are also a strong people manager able to coach and inspire your team. <br><br>Account Directors at DDB are solution-oriented, always thinking about their business, anticipating issues, and implementing their vision to produce superior results. They lead, facilitate and look for opportunities to expand into other disciplines. \n\n<br><br>If you are interested please send your CV to our Talent Director Sarah Crabbe sarah.crabbe@syd.ddb.com"
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "Slice",
+                "slice_type": "career-detail",
+                "slice_label": null,
+                "value": {
+                  "type": "Group",
+                  "value": [
+                    {
+                      "headline": {
+                        "type": "Text",
+                        "value": "Creatives"
                       },
                       "copy": {
                         "type": "Text",
-                        "value": "Description"
+                        "value": "DDB is currently looking for a range of creatives to join DDB on the back of some significant and exciting business growth. We are looking for creatives who have a passion for breakthrough creative ideas, contemporary thinking and execution plus a desire to learn and grow. \n<br><br>If you are interested in exploring these opportunities please send your folio to our Talent Director Sarah Crabbe sarah.crabbe@syd.ddb.com"
                       }
                     }
                   ]
@@ -433,7 +646,7 @@
       "id": "WK4T9ikAAL4opdjb",
       "uid": "streets-talking-ice-cream",
       "type": "case-studies",
-      "href": "http://ddb-website.cdn.prismic.io/api/documents/search?ref=WNNN_R4AANhxmbd4&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WK4T9ikAAL4opdjb%22%29+%5D%5D",
+      "href": "http://ddb-website.cdn.prismic.io/api/documents/search?ref=WNSeZiEAAB4HQtm2&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WK4T9ikAAL4opdjb%22%29+%5D%5D",
       "tags": [
 
       ],
@@ -700,12 +913,12 @@
       "id": "WKEQFSUAAEUiq5ZX",
       "uid": "work",
       "type": "work",
-      "href": "http://ddb-website.cdn.prismic.io/api/documents/search?ref=WNNN_R4AANhxmbd4&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WKEQFSUAAEUiq5ZX%22%29+%5D%5D",
+      "href": "http://ddb-website.cdn.prismic.io/api/documents/search?ref=WNSeZiEAAB4HQtm2&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WKEQFSUAAEUiq5ZX%22%29+%5D%5D",
       "tags": [
 
       ],
       "first_publication_date": "2017-02-13T01:49:07+0000",
-      "last_publication_date": "2017-03-21T04:54:35+0000",
+      "last_publication_date": "2017-03-23T06:17:45+0000",
       "slugs": [
         "work--ddb-sydney",
         "work--ddb",
@@ -1214,22 +1427,13 @@
                           "main": {
                             "dimensions": {
                               "width": 1920,
-                              "height": 1200
+                              "height": 1080
                             },
                             "alt": null,
                             "copyright": null,
-                            "url": "http://ddb-website.cdn.prismic.io/ddb-website/4da05ca19a3bd2dda9cb08b261dad90ce58d3d8a_screen-shot-2017-03-08-at-2.50.03-pm-2.png"
+                            "url": "http://ddb-website.cdn.prismic.io/ddb-website/a262c486dbfb8b969d4954f567e83c29e9d99c6d_8-video.jpg"
                           },
                           "views": {
-                            "mobile": {
-                              "dimensions": {
-                                "width": 800,
-                                "height": 820
-                              },
-                              "alt": null,
-                              "copyright": null,
-                              "url": "http://ddb-website.cdn.prismic.io/ddb-website/d1b268b1ef1c2fd3885072d8d2ad8d9591b8ba5c_screen-shot-2017-03-08-at-2.50.03-pm-2.png"
-                            },
                             "desktop": {
                               "dimensions": {
                                 "width": 1920,
@@ -1237,7 +1441,16 @@
                               },
                               "alt": null,
                               "copyright": null,
-                              "url": "http://ddb-website.cdn.prismic.io/ddb-website/da8999dcb080502b0b19682f873418a0829175ba_screen-shot-2017-03-08-at-2.50.03-pm-2.png"
+                              "url": "http://ddb-website.cdn.prismic.io/ddb-website/c82bcc4c4c667ed76a2a4fb68b45a73447d5e0c5_8-video.jpg"
+                            },
+                            "mobile": {
+                              "dimensions": {
+                                "width": 800,
+                                "height": 820
+                              },
+                              "alt": null,
+                              "copyright": null,
+                              "url": "http://ddb-website.cdn.prismic.io/ddb-website/6529d6a4fb0ce936e32cabde6e9367ed43743d7c_8-video.jpg"
                             }
                           }
                         }
@@ -1647,7 +1860,7 @@
       "id": "WLjnjB8AAH0IVDWZ",
       "uid": "accout-director",
       "type": "career-listings",
-      "href": "http://ddb-website.cdn.prismic.io/api/documents/search?ref=WNNN_R4AANhxmbd4&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WLjnjB8AAH0IVDWZ%22%29+%5D%5D",
+      "href": "http://ddb-website.cdn.prismic.io/api/documents/search?ref=WNSeZiEAAB4HQtm2&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WLjnjB8AAH0IVDWZ%22%29+%5D%5D",
       "tags": [
 
       ],
@@ -1762,7 +1975,7 @@
       "id": "WK0GeCkAACgAoTc8",
       "uid": "volkswagen-tough-sell",
       "type": "case-studies",
-      "href": "http://ddb-website.cdn.prismic.io/api/documents/search?ref=WNNN_R4AANhxmbd4&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WK0GeCkAACgAoTc8%22%29+%5D%5D",
+      "href": "http://ddb-website.cdn.prismic.io/api/documents/search?ref=WNSeZiEAAB4HQtm2&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WK0GeCkAACgAoTc8%22%29+%5D%5D",
       "tags": [
 
       ],
@@ -2091,7 +2304,7 @@
       "id": "WK-uuiEAAGgA2z5I",
       "uid": "intro",
       "type": "intro",
-      "href": "http://ddb-website.cdn.prismic.io/api/documents/search?ref=WNNN_R4AANhxmbd4&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WK-uuiEAAGgA2z5I%22%29+%5D%5D",
+      "href": "http://ddb-website.cdn.prismic.io/api/documents/search?ref=WNSeZiEAAB4HQtm2&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WK-uuiEAAGgA2z5I%22%29+%5D%5D",
       "tags": [
 
       ],
@@ -2240,7 +2453,7 @@
       "id": "WMXzzycAAEgYxqP5",
       "uid": "principles",
       "type": "about-pages",
-      "href": "http://ddb-website.cdn.prismic.io/api/documents/search?ref=WNNN_R4AANhxmbd4&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WMXzzycAAEgYxqP5%22%29+%5D%5D",
+      "href": "http://ddb-website.cdn.prismic.io/api/documents/search?ref=WNSeZiEAAB4HQtm2&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WMXzzycAAEgYxqP5%22%29+%5D%5D",
       "tags": [
 
       ],
@@ -2467,7 +2680,7 @@
       "id": "WL80WCQAAD0bfCS8",
       "uid": "skoda-octavia",
       "type": "case-studies",
-      "href": "http://ddb-website.cdn.prismic.io/api/documents/search?ref=WNNN_R4AANhxmbd4&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WL80WCQAAD0bfCS8%22%29+%5D%5D",
+      "href": "http://ddb-website.cdn.prismic.io/api/documents/search?ref=WNSeZiEAAB4HQtm2&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WL80WCQAAD0bfCS8%22%29+%5D%5D",
       "tags": [
 
       ],
@@ -2784,7 +2997,7 @@
       "id": "WL5JOCQAAC8DeBbk",
       "uid": "westpac-bump",
       "type": "case-studies",
-      "href": "http://ddb-website.cdn.prismic.io/api/documents/search?ref=WNNN_R4AANhxmbd4&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WL5JOCQAAC8DeBbk%22%29+%5D%5D",
+      "href": "http://ddb-website.cdn.prismic.io/api/documents/search?ref=WNSeZiEAAB4HQtm2&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WL5JOCQAAC8DeBbk%22%29+%5D%5D",
       "tags": [
 
       ],
@@ -3167,7 +3380,7 @@
       "id": "WKpzRigAACgAOzbM",
       "uid": "the-sydney-opera-house",
       "type": "case-studies",
-      "href": "http://ddb-website.cdn.prismic.io/api/documents/search?ref=WNNN_R4AANhxmbd4&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WKpzRigAACgAOzbM%22%29+%5D%5D",
+      "href": "http://ddb-website.cdn.prismic.io/api/documents/search?ref=WNSeZiEAAB4HQtm2&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WKpzRigAACgAOzbM%22%29+%5D%5D",
       "tags": [
 
       ],
@@ -3646,7 +3859,7 @@
       "id": "WLdjLysAAO8Dy5W2",
       "uid": "pod-internship",
       "type": "career-listings",
-      "href": "http://ddb-website.cdn.prismic.io/api/documents/search?ref=WNNN_R4AANhxmbd4&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WLdjLysAAO8Dy5W2%22%29+%5D%5D",
+      "href": "http://ddb-website.cdn.prismic.io/api/documents/search?ref=WNSeZiEAAB4HQtm2&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WLdjLysAAO8Dy5W2%22%29+%5D%5D",
       "tags": [
 
       ],
@@ -3773,7 +3986,7 @@
       "id": "WL5LISQAADADeB9R",
       "uid": "westpac-chopper",
       "type": "case-studies",
-      "href": "http://ddb-website.cdn.prismic.io/api/documents/search?ref=WNNN_R4AANhxmbd4&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WL5LISQAADADeB9R%22%29+%5D%5D",
+      "href": "http://ddb-website.cdn.prismic.io/api/documents/search?ref=WNSeZiEAAB4HQtm2&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WL5LISQAADADeB9R%22%29+%5D%5D",
       "tags": [
 
       ],
@@ -4094,7 +4307,7 @@
       "id": "WK0SfSkAACoAoWxH",
       "uid": "volkswagen-brand-love",
       "type": "case-studies",
-      "href": "http://ddb-website.cdn.prismic.io/api/documents/search?ref=WNNN_R4AANhxmbd4&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WK0SfSkAACoAoWxH%22%29+%5D%5D",
+      "href": "http://ddb-website.cdn.prismic.io/api/documents/search?ref=WNSeZiEAAB4HQtm2&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WK0SfSkAACoAoWxH%22%29+%5D%5D",
       "tags": [
 
       ],
@@ -4348,7 +4561,7 @@
       "id": "WLjlpR8AAH0IVC02",
       "uid": "senior-account-manager",
       "type": "career-listings",
-      "href": "http://ddb-website.cdn.prismic.io/api/documents/search?ref=WNNN_R4AANhxmbd4&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WLjlpR8AAH0IVC02%22%29+%5D%5D",
+      "href": "http://ddb-website.cdn.prismic.io/api/documents/search?ref=WNSeZiEAAB4HQtm2&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WLjlpR8AAH0IVC02%22%29+%5D%5D",
       "tags": [
 
       ],
@@ -4459,7 +4672,7 @@
       "id": "WKEQcCUAAKomq5fv",
       "uid": "test",
       "type": "case-studies",
-      "href": "http://ddb-website.cdn.prismic.io/api/documents/search?ref=WNNN_R4AANhxmbd4&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WKEQcCUAAKomq5fv%22%29+%5D%5D",
+      "href": "http://ddb-website.cdn.prismic.io/api/documents/search?ref=WNSeZiEAAB4HQtm2&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WKEQcCUAAKomq5fv%22%29+%5D%5D",
       "tags": [
 
       ],
@@ -5202,10 +5415,300 @@
       }
     },
     {
+      "id": "WNSb7yEAAGYHQs7T",
+      "uid": "news",
+      "type": "news",
+      "href": "http://ddb-website.cdn.prismic.io/api/documents/search?ref=WNSeZiEAAB4HQtm2&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WNSb7yEAAGYHQs7T%22%29+%5D%5D",
+      "tags": [
+
+      ],
+      "first_publication_date": "2017-03-24T04:11:07+0000",
+      "last_publication_date": "2017-03-24T04:19:50+0000",
+      "slugs": [
+        "news--ddb-sydney"
+      ],
+      "linked_documents": [
+
+      ],
+      "data": {
+        "news": {
+          "meta-title": {
+            "type": "Text",
+            "value": "News | DDB Sydney"
+          },
+          "meta-description": {
+            "type": "Text",
+            "value": "News from DDB Sydney."
+          },
+          "foregroundColor": {
+            "type": "Color",
+            "value": "#ffffff"
+          },
+          "sections": {
+            "type": "SliceZone",
+            "value": [
+              {
+                "type": "Slice",
+                "slice_type": "news-tile",
+                "slice_label": null,
+                "value": {
+                  "type": "Group",
+                  "value": [
+                    {
+                      "image": {
+                        "type": "Image",
+                        "value": {
+                          "main": {
+                            "dimensions": {
+                              "width": 960,
+                              "height": 825
+                            },
+                            "alt": null,
+                            "copyright": null,
+                            "url": "http://ddb-website.cdn.prismic.io/ddb-website/8ed2390ae1fde479e0ffbfc60b024200a418f162_960x825_191919_4a4a4a.png"
+                          },
+                          "views": {
+                            "mobile": {
+                              "dimensions": {
+                                "width": 800,
+                                "height": 820
+                              },
+                              "alt": null,
+                              "copyright": null,
+                              "url": "http://ddb-website.cdn.prismic.io/ddb-website/6bc4e8f17398dde9b0b213158613a0d36bc1ae43_800x820_191919_4a4a4a.png"
+                            },
+                            "desktop": {
+                              "dimensions": {
+                                "width": 960,
+                                "height": 825
+                              },
+                              "alt": null,
+                              "copyright": null,
+                              "url": "http://ddb-website.cdn.prismic.io/ddb-website/8ed2390ae1fde479e0ffbfc60b024200a418f162_960x825_191919_4a4a4a.png"
+                            }
+                          }
+                        }
+                      },
+                      "headline": {
+                        "type": "Text",
+                        "value": "News tile headline with text <br><br class=\"mobile\"> align on the right."
+                      },
+                      "linkUrl": {
+                        "type": "Link.web",
+                        "value": {
+                          "url": "http://#"
+                        }
+                      },
+                      "linkText": {
+                        "type": "Text",
+                        "value": "News tile link"
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "Slice",
+                "slice_type": "news-tile",
+                "slice_label": null,
+                "value": {
+                  "type": "Group",
+                  "value": [
+                    {
+                      "image": {
+                        "type": "Image",
+                        "value": {
+                          "main": {
+                            "dimensions": {
+                              "width": 960,
+                              "height": 825
+                            },
+                            "alt": null,
+                            "copyright": null,
+                            "url": "http://ddb-website.cdn.prismic.io/ddb-website/414b8cdc9f7e4e5f75f37ef5d5f3b76f211a6096_960x825_4a4a4a_191919.png"
+                          },
+                          "views": {
+                            "mobile": {
+                              "dimensions": {
+                                "width": 800,
+                                "height": 820
+                              },
+                              "alt": null,
+                              "copyright": null,
+                              "url": "http://ddb-website.cdn.prismic.io/ddb-website/d20a52a2a529a6c6cea53ec20e12b0abcd3bb934_800x820_4a4a4a_191919.png"
+                            },
+                            "desktop": {
+                              "dimensions": {
+                                "width": 960,
+                                "height": 825
+                              },
+                              "alt": null,
+                              "copyright": null,
+                              "url": "http://ddb-website.cdn.prismic.io/ddb-website/414b8cdc9f7e4e5f75f37ef5d5f3b76f211a6096_960x825_4a4a4a_191919.png"
+                            }
+                          }
+                        }
+                      },
+                      "headline": {
+                        "type": "Text",
+                        "value": "News tile headline with text <br><br class=\"mobile\"> align on the left."
+                      },
+                      "linkUrl": {
+                        "type": "Link.web",
+                        "value": {
+                          "url": "http://#"
+                        }
+                      },
+                      "linkText": {
+                        "type": "Text",
+                        "value": "News tile link"
+                      },
+                      "align": {
+                        "type": "Select",
+                        "value": "left"
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "Slice",
+                "slice_type": "news-tile",
+                "slice_label": null,
+                "value": {
+                  "type": "Group",
+                  "value": [
+                    {
+                      "image": {
+                        "type": "Image",
+                        "value": {
+                          "main": {
+                            "dimensions": {
+                              "width": 960,
+                              "height": 825
+                            },
+                            "alt": null,
+                            "copyright": null,
+                            "url": "http://ddb-website.cdn.prismic.io/ddb-website/8ed2390ae1fde479e0ffbfc60b024200a418f162_960x825_191919_4a4a4a.png"
+                          },
+                          "views": {
+                            "mobile": {
+                              "dimensions": {
+                                "width": 800,
+                                "height": 820
+                              },
+                              "alt": null,
+                              "copyright": null,
+                              "url": "http://ddb-website.cdn.prismic.io/ddb-website/6bc4e8f17398dde9b0b213158613a0d36bc1ae43_800x820_191919_4a4a4a.png"
+                            },
+                            "desktop": {
+                              "dimensions": {
+                                "width": 960,
+                                "height": 825
+                              },
+                              "alt": null,
+                              "copyright": null,
+                              "url": "http://ddb-website.cdn.prismic.io/ddb-website/8ed2390ae1fde479e0ffbfc60b024200a418f162_960x825_191919_4a4a4a.png"
+                            }
+                          }
+                        }
+                      },
+                      "headline": {
+                        "type": "Text",
+                        "value": "News tile headline with style <br><br class=\"mobile\"> option set as white."
+                      },
+                      "linkUrl": {
+                        "type": "Link.web",
+                        "value": {
+                          "url": "http://#"
+                        }
+                      },
+                      "linkText": {
+                        "type": "Text",
+                        "value": "News tile link"
+                      },
+                      "style": {
+                        "type": "Select",
+                        "value": "white"
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "Slice",
+                "slice_type": "news-tile",
+                "slice_label": null,
+                "value": {
+                  "type": "Group",
+                  "value": [
+                    {
+                      "image": {
+                        "type": "Image",
+                        "value": {
+                          "main": {
+                            "dimensions": {
+                              "width": 960,
+                              "height": 825
+                            },
+                            "alt": null,
+                            "copyright": null,
+                            "url": "http://ddb-website.cdn.prismic.io/ddb-website/414b8cdc9f7e4e5f75f37ef5d5f3b76f211a6096_960x825_4a4a4a_191919.png"
+                          },
+                          "views": {
+                            "mobile": {
+                              "dimensions": {
+                                "width": 800,
+                                "height": 820
+                              },
+                              "alt": null,
+                              "copyright": null,
+                              "url": "http://ddb-website.cdn.prismic.io/ddb-website/d20a52a2a529a6c6cea53ec20e12b0abcd3bb934_800x820_4a4a4a_191919.png"
+                            },
+                            "desktop": {
+                              "dimensions": {
+                                "width": 960,
+                                "height": 825
+                              },
+                              "alt": null,
+                              "copyright": null,
+                              "url": "http://ddb-website.cdn.prismic.io/ddb-website/414b8cdc9f7e4e5f75f37ef5d5f3b76f211a6096_960x825_4a4a4a_191919.png"
+                            }
+                          }
+                        }
+                      },
+                      "headline": {
+                        "type": "Text",
+                        "value": "News tile headline with style <br><br class=\"mobile\"> option set as yellow."
+                      },
+                      "linkUrl": {
+                        "type": "Link.web",
+                        "value": {
+                          "url": "http://#"
+                        }
+                      },
+                      "linkText": {
+                        "type": "Text",
+                        "value": "News tile link"
+                      },
+                      "style": {
+                        "type": "Select",
+                        "value": "yellow"
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
       "id": "WMX0dScAAMwVxqbV",
       "uid": "people",
       "type": "about-pages",
-      "href": "http://ddb-website.cdn.prismic.io/api/documents/search?ref=WNNN_R4AANhxmbd4&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WMX0dScAAMwVxqbV%22%29+%5D%5D",
+      "href": "http://ddb-website.cdn.prismic.io/api/documents/search?ref=WNSeZiEAAB4HQtm2&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WMX0dScAAMwVxqbV%22%29+%5D%5D",
       "tags": [
 
       ],
@@ -6417,7 +6920,7 @@
       "id": "WK0L2SkAACsAoU7x",
       "uid": "mcdonalds-loaded-fries",
       "type": "case-studies",
-      "href": "http://ddb-website.cdn.prismic.io/api/documents/search?ref=WNNN_R4AANhxmbd4&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WK0L2SkAACsAoU7x%22%29+%5D%5D",
+      "href": "http://ddb-website.cdn.prismic.io/api/documents/search?ref=WNSeZiEAAB4HQtm2&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WK0L2SkAACsAoU7x%22%29+%5D%5D",
       "tags": [
 
       ],
@@ -6771,7 +7274,7 @@
       "id": "WL5FeyQAAMcLeAZr",
       "uid": "mcdonalds-cyt-father-daughter",
       "type": "case-studies",
-      "href": "http://ddb-website.cdn.prismic.io/api/documents/search?ref=WNNN_R4AANhxmbd4&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WL5FeyQAAMcLeAZr%22%29+%5D%5D",
+      "href": "http://ddb-website.cdn.prismic.io/api/documents/search?ref=WNSeZiEAAB4HQtm2&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WL5FeyQAAMcLeAZr%22%29+%5D%5D",
       "tags": [
 
       ],
@@ -7138,7 +7641,7 @@
       "id": "WKoxNCgAACsAOhPa",
       "uid": "about",
       "type": "about",
-      "href": "http://ddb-website.cdn.prismic.io/api/documents/search?ref=WNNN_R4AANhxmbd4&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WKoxNCgAACsAOhPa%22%29+%5D%5D",
+      "href": "http://ddb-website.cdn.prismic.io/api/documents/search?ref=WNSeZiEAAB4HQtm2&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WKoxNCgAACsAOhPa%22%29+%5D%5D",
       "tags": [
 
       ],
@@ -7394,12 +7897,12 @@
       "id": "WKEP8CUAAOgdq5Ww",
       "uid": "latest",
       "type": "latest",
-      "href": "http://ddb-website.cdn.prismic.io/api/documents/search?ref=WNNN_R4AANhxmbd4&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WKEP8CUAAOgdq5Ww%22%29+%5D%5D",
+      "href": "http://ddb-website.cdn.prismic.io/api/documents/search?ref=WNSeZiEAAB4HQtm2&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WKEP8CUAAOgdq5Ww%22%29+%5D%5D",
       "tags": [
 
       ],
       "first_publication_date": "2017-02-13T01:49:26+0000",
-      "last_publication_date": "2017-03-23T04:24:29+0000",
+      "last_publication_date": "2017-03-23T06:04:20+0000",
       "slugs": [
         "latest--ddb-sydney",
         "latest--ddb",
@@ -7422,6 +7925,14 @@
           ],
           "type": "case-studies",
           "slug": "volkswagen-naked-ute--ddb"
+        },
+        {
+          "id": "WLjjUx8AAH4IVCL5",
+          "tags": [
+
+          ],
+          "type": "career-listings",
+          "slug": "careers--ddb"
         },
         {
           "id": "WK0SfSkAACoAoWxH",
@@ -7765,21 +8276,30 @@
                     {
                       "headline": {
                         "type": "Text",
-                        "value": "Creativity"
+                        "value": "Careers"
                       },
                       "copy": {
                         "type": "Text",
-                        "value": "Prototypes over Presentations"
+                        "value": "If you’re talented and nice, click here"
                       },
                       "linkUrl": {
-                        "type": "Link.web",
+                        "type": "Link.document",
                         "value": {
-                          "url": "https://medium.com/ddb-sydney/creative-technology-internship-3ad34b4f8807#.e3swtfp20"
+                          "document": {
+                            "id": "WLjjUx8AAH4IVCL5",
+                            "type": "career-listings",
+                            "tags": [
+
+                            ],
+                            "slug": "careers--ddb",
+                            "uid": "job-openings"
+                          },
+                          "isBroken": false
                         }
                       },
                       "linkText": {
                         "type": "Text",
-                        "value": "Read on Medium"
+                        "value": "Come and work for us"
                       },
                       "foregroundColor": {
                         "type": "Color",
@@ -8362,7 +8882,7 @@
       "id": "WLjpIB8AAH0IVDyO",
       "uid": "creatives",
       "type": "career-listings",
-      "href": "http://ddb-website.cdn.prismic.io/api/documents/search?ref=WNNN_R4AANhxmbd4&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WLjpIB8AAH0IVDyO%22%29+%5D%5D",
+      "href": "http://ddb-website.cdn.prismic.io/api/documents/search?ref=WNSeZiEAAB4HQtm2&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WLjpIB8AAH0IVDyO%22%29+%5D%5D",
       "tags": [
 
       ],
@@ -8471,7 +8991,7 @@
       "id": "WK0ZFykAACsAoYlk",
       "uid": "volkswagen-naked-ute",
       "type": "case-studies",
-      "href": "http://ddb-website.cdn.prismic.io/api/documents/search?ref=WNNN_R4AANhxmbd4&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WK0ZFykAACsAoYlk%22%29+%5D%5D",
+      "href": "http://ddb-website.cdn.prismic.io/api/documents/search?ref=WNSeZiEAAB4HQtm2&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WK0ZFykAACsAoYlk%22%29+%5D%5D",
       "tags": [
 
       ],
@@ -8825,7 +9345,7 @@
       "id": "WKoxZSgAACgAOhS1",
       "uid": "contact",
       "type": "contact",
-      "href": "http://ddb-website.cdn.prismic.io/api/documents/search?ref=WNNN_R4AANhxmbd4&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WKoxZSgAACgAOhS1%22%29+%5D%5D",
+      "href": "http://ddb-website.cdn.prismic.io/api/documents/search?ref=WNSeZiEAAB4HQtm2&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WKoxZSgAACgAOhS1%22%29+%5D%5D",
       "tags": [
 
       ],

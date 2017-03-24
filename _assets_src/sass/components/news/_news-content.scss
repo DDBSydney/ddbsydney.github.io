@@ -1,0 +1,88 @@
+// -------------------------------------
+//   Component - News Content
+// -------------------------------------
+/**
+  * @name news-content
+  * @desc Styles for the news content component.
+**/
+
+.news-content {
+    @extend %section;
+    background-color: transparent;
+    @include section--padding-h;
+    @include section--padding-v("md");
+
+    @include tablet-sm-up {
+        @include section--padding-h("md");
+    }
+}
+
+// -------------------------------------
+//   News Content - Container
+// -------------------------------------
+.news-content {
+    &__container {
+        @include section--padding-h("md");
+    }
+}
+
+// -------------------------------------
+//   News Content - Content
+// -------------------------------------
+$news_quote_padding: 1.35em;
+$news_quote_border: 4px;
+$news_quote_margin: 2em;
+
+.news-content {
+    &__copy,
+    &__quote,
+    &__footer {
+        @include font--style("h5");
+        font-weight: $font_weight_regular;
+    }
+
+    &__quote {
+        @include font--style("h5", 1.12);
+        font-style: italic;
+
+        padding-left: $news_quote_padding;
+        border-left: $news_quote_border solid currentColor;
+
+        margin: $news_quote_margin 0;
+        &:first-child { margin-top: 0; }
+        &:last-child  { margin-bottom: 0; }
+    }
+
+    &__footer {
+        font-weight: $font_weight_bold;
+    }
+}
+
+// -------------------------------------
+//   News Content - Modifiers
+// -------------------------------------
+.news-content {
+    // modifer - style
+    // (page, black)
+    &[data-style="page"],
+    &[data-style="black"] {
+        p { color: white; }
+    }
+
+    // modifer - style
+    // (white yellow)
+    &[data-style="white"],
+    &[data-style="yellow"] {
+        p { color: black; }
+    }
+
+    // modifiers - style
+    // ( page, black )
+    &[data-style="page"]   { background-color: transparent; }
+    &[data-style="black"]  { background-color: black; }
+
+    // modifiers - style
+    // ( white, yellow )
+    &[data-style="white"]  { background-color: white; }
+    &[data-style="yellow"] { background-color: $color_yellow_ddb; }
+}

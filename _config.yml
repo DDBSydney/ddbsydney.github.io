@@ -59,10 +59,10 @@ page_gen:
     template: data_page_gen
     name: uid
     dir: sydney/about
-  - data: prismic.article-pages
+  - data: prismic.news-pages
     template: data_page_gen
     name: uid
-    dir: sydney/articles
+    dir: sydney/news
   - data: prismic.career-listings
     template: data_page_gen
     name: uid

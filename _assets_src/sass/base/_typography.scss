@@ -13,32 +13,32 @@
 // -------------------------------------
 // based on tags
 // font size - h1
-$font_size_h1:     42px; // base 
+$font_size_h1:     42px; // base
 $font_size_h1_tab: 37px; // tablet
 $font_size_h1_mob: 32px; // mobile
 
 // font size - h2
-$font_size_h2:     32px; // base 
+$font_size_h2:     32px; // base
 $font_size_h2_tab: 29px; // tablet
 $font_size_h2_mob: 26px; // mobile
 
 // font size - h3
-$font_size_h3:     28px; // base 
+$font_size_h3:     28px; // base
 $font_size_h3_tab: 25px; // tablet
 $font_size_h3_mob: 22px; // mobile
 
 // font size - h4
-$font_size_h4:     24px; // base 
+$font_size_h4:     24px; // base
 $font_size_h4_tab: 22px; // tablet
 $font_size_h4_mob: 18px; // mobile
 
 // font size - h5
-$font_size_h5:     18px; // base 
+$font_size_h5:     18px; // base
 $font_size_h5_tab: 17px; // tablet
 $font_size_h5_mob: 16px; // mobile
 
 // font size - h6
-$font_size_h6:     16px; // base 
+$font_size_h6:     16px; // base
 $font_size_h6_tab: 15px; // tablet
 $font_size_h6_mob: 14px; // mobile
 
@@ -49,12 +49,12 @@ $font_size_p_mob: 12px; // mobile
 
 // based on size
 // font size - xs
-$font_size_xs:     $font_size_p * 0.85;     // base 
+$font_size_xs:     $font_size_p * 0.85;     // base
 $font_size_xs_tab: $font_size_p_tab * 0.85; // tablet
 $font_size_xs_mob: $font_size_p_mob * 0.85; // mobile
 
 // font size - lg
-$font_size_lg:     $font_size_h1 * 1.285;     // base 
+$font_size_lg:     $font_size_h1 * 1.285;     // base
 $font_size_lg_tab: $font_size_h1_tab * 1.285; // tablet
 $font_size_lg_mob: $font_size_h1_mob * 1.285; // mobile
 
@@ -89,7 +89,7 @@ $font-size: (
   "p":     $font_size_p,     // base
   "p_tab": $font_size_p_tab, // tablet
   "p_mob": $font_size_p_mob, // mobile
-  
+
   // based on size
   "xs":     $font_size_xs,     // base
   "xs_tab": $font_size_xs_tab, // tablet
@@ -107,8 +107,8 @@ $font-size: (
   @if not map-has-key($font-size, $key) {
     @warn "$key not found for @function get-font--size($key)";
     @error "$key not found for @function get-font--size($key)";
-  } 
-  
+  }
+
   // return the correct padding if the key is valid
   @return (map-get($font-size, $key)) * $mult;
 }
@@ -137,7 +137,7 @@ $line-height: (
   "h3": $line_height_h3, "h4": $line_height_h4,
   "h5": $line_height_h5, "h6": $line_height_h6,
   "p" : $line_height_p,
-  
+
   // based on size
   "xs": $line_height_xs, "lg": $line_height_lg
 );
@@ -149,8 +149,8 @@ $line-height: (
   @if not map-has-key($line-height, $key) {
     @warn "$key not found for @function get-line--height($key)";
     @error "$key not found for @function get-line--height($key)";
-  } 
-  
+  }
+
   // return the correct padding if the key is valid
   @return map-get($line-height, $key);
 }
@@ -179,7 +179,7 @@ $font-family: (
   "h3": $font_family_h3, "h4": $font_family_h4,
   "h5": $font_family_h5, "h6": $font_family_h6,
   "p" : $font_family_p,
-  
+
   // based on size
   "xs": $font_family_xs, "lg": $font_family_lg
 );
@@ -191,8 +191,8 @@ $font-family: (
   @if not map-has-key($font-family, $key) {
     @warn "$key not found for @function get-font--family($key)";
     @error "$key not found for @function get-font--family($key)";
-  } 
-  
+  }
+
   // return the correct padding if the key is valid
   @return map-get($font-family, $key);
 }
@@ -228,7 +228,7 @@ $font-weight: (
   "h3": $font_weight_h3, "h4": $font_weight_h4,
   "h5": $font_weight_h5, "h6": $font_weight_h6,
   "p" : $font_weight_p,
-  
+
   // based on size
   "xs": $font_weight_xs, "lg": $font_weight_lg
 );
@@ -240,8 +240,8 @@ $font-weight: (
   @if not map-has-key($font-weight, $key) {
     @warn "$key not found for @function get-font--weight($key)";
     @error "$key not found for @function get-font--weight($key)";
-  } 
-  
+  }
+
   // return the correct padding if the key is valid
   @return map-get($font-weight, $key);
 }
@@ -270,7 +270,7 @@ $letter-spacing: (
   "h3": $letter_spacing_h3, "h4": $letter_spacing_h4,
   "h5": $letter_spacing_h5, "h6": $letter_spacing_h6,
   "p" : $letter_spacing_p,
-  
+
   // based on size
   "xs": $letter_spacing_xs, "lg": $letter_spacing_lg
 );
@@ -282,8 +282,8 @@ $letter-spacing: (
   @if not map-has-key($letter-spacing, $key) {
     @warn "$key not found for @function get-letter--spacing($key)";
     @error "$key not found for @function get-letter--spacing($key)";
-  } 
-  
+  }
+
   // return the correct padding if the key is valid
   @return map-get($letter-spacing, $key);
 }
@@ -380,7 +380,7 @@ a {
 $font_highlight_padding: 0.15em;
 $font_highlight_margin:  0.15em;
 
-// mixin to include styles to 
+// mixin to include styles to
 // highlight the nested span tags
 // ( also used in other components )
 @mixin font--highlight($bgcolor: $color_yellow_ddb, $color: black) {
@@ -395,7 +395,7 @@ $font_highlight_margin:  0.15em;
     @include line--height("h1");
   }
 
-  br + span { 
+  br + span {
     margin: $font_highlight_margin (-$font_highlight_margin) 0;
     @include tablet-sm { margin: 0; }
     @include mobile    { margin: 0; }
@@ -406,11 +406,11 @@ $font_highlight_margin:  0.15em;
     @include mobile    { margin: 0; }
   }
 
-  br.mobile + span { 
+  br.mobile + span {
     @include mobile { margin: $font_highlight_margin (-$font_highlight_margin) 0; }
   }
 
-  br.all + span { 
+  br.all + span {
     margin: 0 -$font_highlight_margin;
     @include tablet-sm { margin: $font_highlight_margin (-$font_highlight_margin) 0; }
     @include mobile    { margin: $font_highlight_margin (-$font_highlight_margin) 0; }

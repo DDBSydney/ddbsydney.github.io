@@ -10,7 +10,7 @@ $news_tile_w: 56.8%;
 
 .news-tile {
     @extend %flex--row;
-    background-color: black;
+    background-color: transparent;
 
     &__image,
     &__content {
@@ -75,12 +75,28 @@ $news_tile_w: 56.8%;
     &[data-align="right"] { flex-direction: row; }
 
     // modifiers - style
+    // ( page, black )
+    &[data-style="page"],
+    &[data-style="black"] {
+        h4 { color: white; }
+        a  { @extend %ulink--white; }
+    }
+
+    // modifiers - style
+    // ( white, yellow )
     &[data-style="white"],
     &[data-style="yellow"] {
         h4 { color: black; }
         a  { @extend %ulink--black; }
     }
 
+    // modifiers - style
+    // ( page, black )
+    &[data-style="page"]   { background-color: transparent; }
+    &[data-style="black"]  { background-color: black; }
+
+    // modifiers - style
+    // ( white, yellow )
     &[data-style="white"]  { background-color: white; }
     &[data-style="yellow"] { background-color: $color_yellow_ddb; }
 }
