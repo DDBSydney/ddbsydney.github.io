@@ -1,0 +1,27 @@
+{% assign tile = include.data[0] %}
+
+<!-- image tile -->
+<div class="image-tile">
+
+    <!-- image -->
+    <div class="image">
+
+        <!-- image layout - desktop -->
+        <img class="image__layout image__layout--desktop" src="{{base}}/assets/images/layout_1920x1440.png" alt="">
+
+        <!-- image layout - mobile -->
+        <img class="image__layout image__layout--mobile" src="{{base}}/assets/images/layout_800x1320.png" alt="">
+
+        <!-- image cover - desktop -->
+        {% if tile.image.value.views.desktop.url %}
+        <div class="image__cover image__cover--desktop" style="background-image: url('{{ tile.image.value.views.desktop.url }}');"></div>
+        {% endif %}
+
+        <!-- image cover - mobile -->
+        {% if tile.image.value.views.mobile.url %}
+        <div class="image__cover image__cover--mobile" style="background-image: url('{{ tile.image.value.views.mobile.url }}');"></div>
+        {% endif %}
+
+    </div><!-- image end -->
+
+</div><!-- image tile end -->

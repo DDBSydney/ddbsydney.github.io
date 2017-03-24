@@ -1,0 +1,237 @@
+{
+  "Page" : {
+    "uid" : {
+      "type" : "UID",
+      "config" : {
+        "placeholder" : "unique-identifier-for-page-url"
+      }
+    },
+    "meta-title" : {
+      "type" : "Text",
+      "config" : {
+        "label" : "Meta: Title",
+        "placeholder" : "Page title"
+      }
+    },
+    "meta-description" : {
+      "type" : "Text",
+      "config" : {
+        "label" : "Meta: Description",
+        "placeholder" : "Page description"
+      }
+    },
+    "foregroundColor": {
+      "type": "Color",
+      "config": {
+        "label": "Foreground Colour"
+      }
+    },
+    "backgroundColor": {
+      "type": "Color",
+      "config": {
+        "label": "Background Colour"
+      }
+    }
+  },
+
+
+
+  "Content" : {
+    "sections" : {
+      "fieldset" : "Sections",
+      "type" : "Slices",
+      "config" : {
+        "choices" : {
+
+
+
+          "news-title" : {
+            "type" : "Group",
+            "config" : {
+              "label" : "News title",
+              "repeat" : false,
+              "fields" : {
+                "date" : {
+                  "type" : "Text",
+                  "config" : {
+                    "label": "Date",
+                    "placeholder" : "Date text"
+                  }
+                },
+                "headline" : {
+                  "type" : "Text",
+                  "config" : {
+                    "label": "Headline",
+                    "placeholder" : "Headline text"
+                  }
+                },
+                "style" : {
+                  "type" : "Select",
+                   "config" : {
+                    "label" : "Style (background)",
+                    "placeholder" : "page",
+                    "options" : [
+                      "black",
+                      "white",
+                      "yellow"
+                    ]
+                  }
+                }
+              }
+            }
+          },
+
+
+
+          "news-content" : {
+            "type" : "Group",
+            "config" : {
+              "label" : "News content",
+              "repeat" : false,
+              "fields" : {
+                "copy" : {
+                  "type" : "Text",
+                  "config" : {
+                    "label": "Copy",
+                    "placeholder" : "Copy text"
+                  }
+                },
+                "quote" : {
+                  "type" : "Text",
+                  "config" : {
+                    "label": "Quote (italic)",
+                    "placeholder" : "Quote text"
+                  }
+                },
+                "footer" : {
+                  "type" : "Text",
+                  "config" : {
+                    "label": "Footer (bold)",
+                    "placeholder" : "Footer text"
+                  }
+                },
+                "style" : {
+                  "type" : "Select",
+                   "config" : {
+                    "label" : "Style (background)",
+                    "placeholder" : "page",
+                    "options" : [
+                      "black",
+                      "white",
+                      "yellow"
+                    ]
+                  }
+                }
+              }
+            }
+          },
+
+
+
+          "image-tile" : {
+            "type" : "Group",
+            "config" : {
+              "label" : "Image tile (default)",
+              "repeat" : false,
+              "fields" : {
+                "image" : {
+                  "type" : "Image",
+                  "config" : {
+                    "label" : "Image",
+                    "constraint" : {
+                      "width" : null,
+                      "height" : null
+                    },
+                    "thumbnails": [
+                      {
+                        "name": "Desktop",
+                        "width": "1920",
+                        "height": "900"
+                      },
+                      {
+                        "name": "Mobile",
+                        "width": "800",
+                        "height": "820"
+                      }
+                    ]
+                  }
+                }
+              }
+            }
+          },
+
+
+
+          "image-tile-small" : {
+            "type" : "Group",
+            "config" : {
+              "label" : "Image tile (small)",
+              "repeat" : false,
+              "fields" : {
+                "image" : {
+                  "type" : "Image",
+                  "config" : {
+                    "label" : "Image",
+                    "constraint" : {
+                      "width" : null,
+                      "height" : null
+                    },
+                    "thumbnails": [
+                      {
+                        "name": "Desktop",
+                        "width": "1920",
+                        "height": "768"
+                      },
+                      {
+                        "name": "Mobile",
+                        "width": "800",
+                        "height": "700"
+                      }
+                    ]
+                  }
+                }
+              }
+            }
+          },
+
+
+
+          "image-tile-large" : {
+            "type" : "Group",
+            "config" : {
+              "label" : "Image tile (large)",
+              "repeat" : false,
+              "fields" : {
+                "image" : {
+                  "type" : "Image",
+                  "config" : {
+                    "label" : "Image",
+                    "constraint" : {
+                      "width" : null,
+                      "height" : null
+                    },
+                    "thumbnails": [
+                      {
+                        "name": "Desktop",
+                        "width": "1920",
+                        "height": "1440"
+                      },
+                      {
+                        "name": "Mobile",
+                        "width": "800",
+                        "height": "1320"
+                      }
+                    ]
+                  }
+                }
+              }
+            }
+          }
+
+
+
+        }
+      }
+    }
+  }
+}

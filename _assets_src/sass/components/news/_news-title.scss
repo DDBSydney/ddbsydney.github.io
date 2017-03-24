@@ -48,3 +48,10 @@
     &[data-style="white"]  { background-color: white; }
     &[data-style="yellow"] { background-color: $color_yellow_ddb; }
 }
+
+// -------------------------------------
+//   News Title - Section - First
+// -------------------------------------
+.section--first > .news-title {
+    @include section--padding-top("lg", 1.5);
+}

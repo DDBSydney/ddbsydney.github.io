@@ -1,0 +1,19 @@
+{% assign component = include.data[0] %}
+
+<!-- news title -->
+<div class="news-title" data-style="{{ component.style.value | default: 'page' }}">
+
+    <!-- container -->
+    <div class="container">
+
+        {% if component.date.value %}
+        <p>{{ component.date.value }}</p>
+        {% endif %}
+
+        {% if component.headline.value %}
+        <h2>{{ component.headline.value}}</h2>
+        {% endif %}
+
+    </div><!-- container end -->
+
+</div><!-- news title end -->
