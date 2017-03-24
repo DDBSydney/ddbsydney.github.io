@@ -8,26 +8,29 @@
 
 // flex
 %flex {
-  display: flex;
-  -ms-flex-negative: 1;  // MS default is 0, spec default is 1
-  flex-wrap: wrap;
-  position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+
+    // ms default is 0,
+    // spec default is 1
+    -ms-flex-negative: 1;
 }
 
 // modifier - row
 %flex--row {
-  @extend %flex;
-  position: relative;
+    @extend %flex;
+    position: relative;
 
-  flex-direction: row;
-  box-sizing: border-box;
+    flex-direction: row;
+    box-sizing: border-box;
 }
 
 // modifier - col
 %flex--col {
-  flex-basis: 100%;
-  position: relative;
+    flex-basis: 100%;
+    position: relative;
 
-  box-sizing: border-box;
-  @include mobile-up { flex: 1; }
+    box-sizing: border-box;
+    @include mobile-up { flex: 1; }
 }

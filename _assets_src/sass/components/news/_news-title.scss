@@ -1,0 +1,50 @@
+// -------------------------------------
+//   Component - News Title
+// -------------------------------------
+/**
+  * @name news-title
+  * @desc Styles for the news title component.
+**/
+
+.news-title {
+    @extend %section;
+    @include section--padding-h;
+    @include section--padding-v("md");
+    background-color: transparent;
+
+    @include tablet-sm-up {
+        @include section--padding-h("md");
+    }
+
+    p  { font-weight: $font_weight_medium; }
+    h2 { margin-top: 0; }
+}
+
+// -------------------------------------
+//   News Title - Modifiers
+// -------------------------------------
+.news-title {
+    // modifer - style
+    // (page, black)
+    &[data-style="page"],
+    &[data-style="black"] {
+        p, h2 { color: white; }
+    }
+
+    // modifer - style
+    // (white yellow)
+    &[data-style="white"],
+    &[data-style="yellow"] {
+        p, h2 { color: black; }
+    }
+
+    // modifiers - style
+    // ( page, black )
+    &[data-style="page"]   { background-color: transparent; }
+    &[data-style="black"]  { background-color: black; }
+
+    // modifiers - style
+    // ( white, yellow )
+    &[data-style="white"]  { background-color: white; }
+    &[data-style="yellow"] { background-color: $color_yellow_ddb; }
+}

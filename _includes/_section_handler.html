@@ -92,6 +92,13 @@
 
 
 
+      {% comment %} <!-- News Page --> {% endcomment %}
+
+      {% when "news-tile" %}
+        {% include components/news/news-tile.html data=section.value %}
+
+
+
     {% endcase %}
 
   </section><!-- section end -->

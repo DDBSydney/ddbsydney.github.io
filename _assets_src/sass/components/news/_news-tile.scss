@@ -1,0 +1,102 @@
+// -------------------------------------
+//   Component - News Tile
+// -------------------------------------
+/**
+  * @name news-tile
+  * @desc Styles for the news tile component.
+**/
+
+$news_tile_w: 56.8%;
+
+.news-tile {
+    @extend %flex--row;
+    background-color: transparent;
+
+    &__image,
+    &__content {
+        @extend %flex--col;
+        position: relative;
+
+        flex-shrink: 0;
+        flex-grow: 0;
+    }
+
+    &__image {
+        flex-basis: $news_tile_w;
+        max-width: $news_tile_w;
+        width: $news_tile_w;
+    }
+
+    &__content {
+        flex-basis: (100% - $news_tile_w);
+        max-width: (100% - $news_tile_w);
+        width: (100% - $news_tile_w);
+    }
+
+    @include mobile {
+        display: block;
+
+        &__image,
+        &__content {
+            display: block;
+            max-width: 100%;
+            width: 100%;
+        }
+    }
+}
+
+// -------------------------------------
+//   News Tile - Content
+// -------------------------------------
+.news-tile__content {
+    @include section--padding-h;
+    @include section--padding-v("md");
+    align-self: center;
+
+    @include tablet-sm-up {
+        @include section--padding-h("md");
+    }
+
+    h4 {
+        margin-bottom: 0;
+        font-weight: $font_weight_medium;
+    }
+
+    a { @extend %ulink; }
+    h4 + a { margin-top: 1.25em; }
+}
+
+// -------------------------------------
+//   News Tile - Modifiers
+// -------------------------------------
+.news-tile {
+    // modifiers - align
+    &[data-align="left"]  { flex-direction: row-reverse; }
+    &[data-align="right"] { flex-direction: row; }
+
+    // modifiers - style
+    // ( page, black )
+    &[data-style="page"],
+    &[data-style="black"] {
+        h4 { color: white; }
+        a  { @extend %ulink--white; }
+    }
+
+    // modifiers - style
+    // ( white, yellow )
+    &[data-style="white"],
+    &[data-style="yellow"] {
+        h4 { color: black; }
+        a  { @extend %ulink--black; }
+    }
+
+    // modifiers - style
+    // ( page, black )
+    &[data-style="page"]   { background-color: transparent; }
+    &[data-style="black"]  { background-color: black; }
+
+    // modifiers - style
+    // ( white, yellow )
+    &[data-style="white"]  { background-color: white; }
+    &[data-style="yellow"] { background-color: $color_yellow_ddb; }
+}
