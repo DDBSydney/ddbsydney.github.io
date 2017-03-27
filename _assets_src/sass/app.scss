@@ -57,25 +57,26 @@
 @import "components/work/case-study-tile";
 @import "components/case-studies/case-study-work-tile";
 
-@import "components/about/about-behaviour-tile";
-@import "components/about/about-content-tile";
-@import "components/about/about-group-tile";
-@import "components/about/about-tile";
-@import "components/about/people-collage";
-
-@import "components/contact/contact-tile";
-@import "components/careers/career-detail";
-@import "components/careers/career-intro";
-
 @import "components/common/content-tile";
-@import "components/common/image-tile";
-@import "components/common/promo-video";
 @import "components/common/quote-tile";
 @import "components/common/title-tile";
+
+@import "components/common/promo-video";
 @import "components/common/video-tile";
+@import "components/common/image-tile";
 
 @import "components/news/news-tile";
 @import "components/news/news-title";
 @import "components/news/news-content";
+
+@import "components/about/about-tile";
+@import "components/about/people-collage";
+@import "components/about/about-group-tile";
+@import "components/about/about-content-tile";
+@import "components/about/about-behaviour-tile";
+
+@import "components/contact/contact-tile";
+@import "components/careers/career-intro";
+@import "components/careers/career-detail";
 
 

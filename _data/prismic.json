@@ -2930,15 +2930,15 @@
       }
     },
     {
-      "uid": "mcdonalds-loaded-fries",
+      "uid": "mcdonalds-people",
       "data": {
         "meta-title": {
           "type": "Text",
-          "value": "McDonalds Loaded Fries | DDB Sydney"
+          "value": "McDonalds People | DDB Sydney"
         },
         "meta-description": {
           "type": "Text",
-          "value": "Case Study McDonalds Loaded Fries"
+          "value": "Case Study McDonalds People"
         },
         "foregroundColor": {
           "type": "Color",
@@ -2946,7 +2946,7 @@
         },
         "backgroundColor": {
           "type": "Color",
-          "value": "#284d5f"
+          "value": "#000000"
         },
         "sections": {
           "type": "SectionList",
@@ -2961,7 +2961,7 @@
                   },
                   "copy": {
                     "type": "Text",
-                    "value": "Macca’s fries are as iconic as the red and yellow packaging they come in."
+                    "value": "Got the appetite?  Macca’s will bring the opportunity."
                   },
                   "image": {
                     "type": "Image",
@@ -2973,7 +2973,7 @@
                         },
                         "alt": null,
                         "copyright": null,
-                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/6a24d0df5a0f7c1fb120282b4fa5e5ead33d4fb5_screen-shot-2017-03-08-at-2.26.44-pm-2.png"
+                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/e94badaf1753fbcc334aee603b95527058bdd8b7_screen-shot-2017-03-08-at-3.06.21-pm-2.png"
                       },
                       "views": {
                         "desktop": {
@@ -2983,7 +2983,7 @@
                           },
                           "alt": null,
                           "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/5d319b543b725680b503022b1f59f56389835bb9_screen-shot-2017-03-08-at-2.26.44-pm-2.png"
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/44333c7ddafa1fc43fbaff694f379e24f6dba9bf_screen-shot-2017-03-08-at-3.06.21-pm-2.png"
                         },
                         "mobile": {
                           "dimensions": {
@@ -2992,7 +2992,7 @@
                           },
                           "alt": null,
                           "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/e06c1922451960f76d9932d48c00520c5c569a6c_screen-shot-2017-03-08-at-2.26.44-pm-2.png"
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/c87fbd2bc04bf81fbd911410fe7a094f98c578b2_screen-shot-2017-03-08-at-3.06.21-pm-2.png"
                         }
                       }
                     }
@@ -3010,7 +3010,7 @@
                 {
                   "copy": {
                     "type": "Text",
-                    "value": "But even the most loved icons must continue to reinvent themselves to remain relevant."
+                    "value": "Working at McDonald’s is typecasted as a role for 15 year olds flipping burgers."
                   }
                 }
               ]
@@ -3029,7 +3029,7 @@
                         },
                         "alt": null,
                         "copyright": null,
-                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/b8c35f84ce30617a336bd4dc9218a7f672e06f12_screen-shot-2017-03-08-at-2.25.53-pm-2.png"
+                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/62a45242bb8e46f95dba10a049ca9df9d27409ff_screen-shot-2017-03-08-at-3.04.52-pm-2.png"
                       },
                       "views": {
                         "mobile": {
@@ -3039,7 +3039,7 @@
                           },
                           "alt": null,
                           "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/864f90f756c44fc8544a9d5549da723d33276ff4_screen-shot-2017-03-08-at-2.25.53-pm-2.png"
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/d2b14b87e90e291bf7cdf01b6d9b263a3650863d_screen-shot-2017-03-08-at-3.04.52-pm-2.png"
                         },
                         "desktop": {
                           "dimensions": {
@@ -3048,7 +3048,7 @@
                           },
                           "alt": null,
                           "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/0b41faf3bf0d4aea389d72b4055cde63a9f55c86_screen-shot-2017-03-08-at-2.25.53-pm-2.png"
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/7c2713aba21eb118c4eb2a09efe39e9e493821f7_screen-shot-2017-03-08-at-3.04.52-pm-2.png"
                         }
                       }
                     }
@@ -3062,7 +3062,7 @@
                 {
                   "copy": {
                     "type": "Text",
-                    "value": "Based on the insight that Aussies like to do things their own way and aren’t afraid to bend the rules, Macca’s personified their fries, showing them to be full of new life and flavour."
+                    "value": "We needed to dispel the ‘McJob’ stereotype by evoking a sense of a sense of pride and admiration for the people who work at Macca’s."
                   }
                 }
               ]
@@ -3081,7 +3081,7 @@
                         },
                         "alt": null,
                         "copyright": null,
-                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/bb4853494cfd6de5b63a926a9fd9fa019087ce90_screen-shot-2017-03-08-at-2.26.25-pm-2.png"
+                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/65c2985cc794e078da1e9e3d8695cae9c43b7fd3_screen-shot-2017-03-08-at-3.04.30-pm-2.png"
                       },
                       "views": {
                         "desktop": {
@@ -3091,7 +3091,7 @@
                           },
                           "alt": null,
                           "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/4473a11bcdd0f1bb84960b511c6e3cd18f2e4f26_screen-shot-2017-03-08-at-2.26.25-pm-2.png"
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/3daf682e34844341a29434cc171018c94ea4193d_screen-shot-2017-03-08-at-3.04.30-pm-2.png"
                         },
                         "mobile": {
                           "dimensions": {
@@ -3100,7 +3100,7 @@
                           },
                           "alt": null,
                           "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/ae4b8e9c752486e152e1629860b5181dd1bdddb7_screen-shot-2017-03-08-at-2.26.25-pm-2.png"
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/527062bcc5548e019c1ef7f66b9df4c7b9422242_screen-shot-2017-03-08-at-3.04.30-pm-2.png"
                         }
                       }
                     }
@@ -3114,11 +3114,119 @@
                 {
                   "headline": {
                     "type": "Text",
-                    "value": "By Bringing Fries to Life"
+                    "value": "Solution:"
                   },
+                  "copy": {
+                    "type": "Text",
+                    "value": "At Macca’s, we believe the desire to work should never be wasted. That everyone has the potential to contribute something great.\nIf you have the desire, passion, zest, appetite…<br>McDonald’s will bring the opportunity."
+                  }
+                }
+              ]
+            },
+            {
+              "type": "image-tile",
+              "value": [
+                {
+                  "image": {
+                    "type": "Image",
+                    "value": {
+                      "main": {
+                        "dimensions": {
+                          "width": 1920,
+                          "height": 1200
+                        },
+                        "alt": null,
+                        "copyright": null,
+                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/98680b1c03f48103a375c202161e5f6428c610b8_screen-shot-2017-03-08-at-3.05.23-pm-2.png"
+                      },
+                      "views": {
+                        "desktop": {
+                          "dimensions": {
+                            "width": 1920,
+                            "height": 900
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/cb6bd826b9b685e0a2980ed330beff6b4ecdbe48_screen-shot-2017-03-08-at-3.05.23-pm-2.png"
+                        },
+                        "mobile": {
+                          "dimensions": {
+                            "width": 800,
+                            "height": 820
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/982c4e7cb134ab7d7247ec1e0a03eec92c237306_screen-shot-2017-03-08-at-3.05.23-pm-2.png"
+                        }
+                      }
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "content-tile",
+              "value": [
+                {
                   "subline": {
                     "type": "Text",
-                    "value": "After a successful launch we had to generate a second burst of conversation, so we created a pop-up ‘Fries Only’ restaurant to celebrate the Macca’s icon and experiment with a few potential new flavours."
+                    "value": ""
+                  },
+                  "copy": {
+                    "type": "Text",
+                    "value": "To bring this to life, we collected the stories of some of Maccas’ most remarkable crew members, shining a light on the way the business backs young Australians for a better future."
+                  }
+                }
+              ]
+            },
+            {
+              "type": "image-tile",
+              "value": [
+                {
+                  "image": {
+                    "type": "Image",
+                    "value": {
+                      "main": {
+                        "dimensions": {
+                          "width": 1920,
+                          "height": 1200
+                        },
+                        "alt": null,
+                        "copyright": null,
+                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/2973566360fff3eaac0711903caf2abd9e04b744_screen-shot-2017-03-08-at-3.07.03-pm-2.png"
+                      },
+                      "views": {
+                        "mobile": {
+                          "dimensions": {
+                            "width": 800,
+                            "height": 820
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/b396bdba6307a5bf49ce155fe2faa7c2a4734c1e_screen-shot-2017-03-08-at-3.07.03-pm-2.png"
+                        },
+                        "desktop": {
+                          "dimensions": {
+                            "width": 1920,
+                            "height": 900
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/66645a470ffdee24ffdf8d4b4e2e5001c6edbff2_screen-shot-2017-03-08-at-3.07.03-pm-2.png"
+                        }
+                      }
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "content-tile",
+              "value": [
+                {
+                  "copy": {
+                    "type": "Text",
+                    "value": "We then created launch film, supported by 5 personal stories that build richer, emotive connections with our crew, inspiring future Macca’s employees to follow in their footsteps."
                   }
                 }
               ]
@@ -3130,82 +3238,7 @@
                   "video": {
                     "type": "Link.web",
                     "value": {
-                      "url": "https://vimeo.com/149074813"
-                    }
-                  }
-                }
-              ]
-            },
-            {
-              "type": "content-tile",
-              "value": [
-                {
-                  "subline": {
-                    "type": "Text",
-                    "value": ""
-                  },
-                  "copy": {
-                    "type": "Text",
-                    "value": "The unanimous fan favourite was Sweet Chilli and Sour Cream. This became the focus of our summer campaign."
-                  }
-                }
-              ]
-            },
-            {
-              "type": "content-tile",
-              "value": [
-                {
-                  "headline": {
-                    "type": "Text",
-                    "value": "Results"
-                  },
-                  "subline": {
-                    "type": "Text",
-                    "value": "The Loaded Fries platform illustrates its ability to remain on the menu long term. Now let’s let the fries do the talking…"
-                  },
-                  "copy": {
-                    "type": "Text",
-                    "value": ""
-                  }
-                }
-              ]
-            },
-            {
-              "type": "image-tile",
-              "value": [
-                {
-                  "image": {
-                    "type": "Image",
-                    "value": {
-                      "main": {
-                        "dimensions": {
-                          "width": 383,
-                          "height": 218
-                        },
-                        "alt": null,
-                        "copyright": null,
-                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/43b223f581db9e804ca5dc8a7971bdd5ad34756f_tgt.png"
-                      },
-                      "views": {
-                        "desktop": {
-                          "dimensions": {
-                            "width": 1920,
-                            "height": 900
-                          },
-                          "alt": null,
-                          "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/e25980f4a04693c2b80004d4c552dd055585dc8b_tgt.png"
-                        },
-                        "mobile": {
-                          "dimensions": {
-                            "width": 800,
-                            "height": 820
-                          },
-                          "alt": null,
-                          "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/7e71c1c93953223a115624bbd73497f59b45f5b2_tgt.png"
-                        }
-                      }
+                      "url": "https://vimeo.com/207242408/81f9810ab2"
                     }
                   }
                 }
@@ -4861,7 +4894,7 @@
                   },
                   "copy": {
                     "type": "Text",
-                    "value": "Macca’s fries are as iconic as the red and yellow packaging <br>they come in."
+                    "value": "Got the appetite?  Macca’s will bring the opportunity."
                   },
                   "image": {
                     "type": "Image",
@@ -4873,18 +4906,9 @@
                         },
                         "alt": null,
                         "copyright": null,
-                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/2431b89301d5c6ee1a2893729ed50ab1448a4f1d_screen-shot-2017-03-08-at-2.26.44-pm-2.png"
+                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/c7720ceb5f441395e2192d67514d776f8fbee72f_screen-shot-2017-03-08-at-3.06.21-pm-2.png"
                       },
                       "views": {
-                        "mobile": {
-                          "dimensions": {
-                            "width": 800,
-                            "height": 820
-                          },
-                          "alt": null,
-                          "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/88096259fa2894302250a31471f093dff7c2550a_screen-shot-2017-03-08-at-2.26.44-pm-2.png"
-                        },
                         "desktop": {
                           "dimensions": {
                             "width": 1920,
@@ -4892,7 +4916,16 @@
                           },
                           "alt": null,
                           "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/d4e92436ac9222256a6ddce4177e33c8f70bf77a_screen-shot-2017-03-08-at-2.26.44-pm-2.png"
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/2ac407ffff284588ca7e9f7381af2c05cdde1402_screen-shot-2017-03-08-at-3.06.21-pm-2.png"
+                        },
+                        "mobile": {
+                          "dimensions": {
+                            "width": 800,
+                            "height": 820
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/ce803faf809f0d7a1b2ac86e2e7f040b24edee4b_screen-shot-2017-03-08-at-3.06.21-pm-2.png"
                         }
                       }
                     }
@@ -4906,8 +4939,8 @@
                         "tags": [
 
                         ],
-                        "slug": "mcdonalds-loaded-fries--ddb-sydney",
-                        "uid": "mcdonalds-loaded-fries"
+                        "slug": "mcdonalds-people--ddb-sydney",
+                        "uid": "mcdonalds-people"
                       },
                       "isBroken": false
                     }
@@ -7099,7 +7132,7 @@
                   },
                   "headline": {
                     "type": "Text",
-                    "value": "Out people & their culture."
+                    "value": "Our people & their culture."
                   },
                   "linkUrl": {
                     "type": "Link.document",
@@ -7816,7 +7849,7 @@
                   },
                   "copy": {
                     "type": "Text",
-                    "value": "Macca’s fries are as iconic as the red and yellow packaging they come in."
+                    "value": "Got the appetite?  Macca’s will bring the opportunity."
                   },
                   "image": {
                     "type": "Image",
@@ -7828,18 +7861,9 @@
                         },
                         "alt": null,
                         "copyright": null,
-                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/a3045241803d1ffe2c63b1f70b1406273ea20abc_screen-shot-2017-03-08-at-2.26.44-pm-2.png"
+                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/7a7588a7916cdb438fe1dcddc6114527b79c5d1a_screen-shot-2017-03-08-at-3.06.21-pm-2.png"
                       },
                       "views": {
-                        "desktop": {
-                          "dimensions": {
-                            "width": 1920,
-                            "height": 900
-                          },
-                          "alt": null,
-                          "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/e96d001a58473ec53ba55aa627f9d12cb9fb6031_screen-shot-2017-03-08-at-2.26.44-pm-2.png"
-                        },
                         "mobile": {
                           "dimensions": {
                             "width": 800,
@@ -7847,7 +7871,16 @@
                           },
                           "alt": null,
                           "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/08368a4570194bfc3ccfe6eaae8e6b13a318e45f_screen-shot-2017-03-08-at-2.26.44-pm-2.png"
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/e56fd0d9ea587eed352e7900ddedbd578537fac6_screen-shot-2017-03-08-at-3.06.21-pm-2.png"
+                        },
+                        "desktop": {
+                          "dimensions": {
+                            "width": 1920,
+                            "height": 900
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/4d89d79ef418060b09fe2ba32531f2859860760a_screen-shot-2017-03-08-at-3.06.21-pm-2.png"
                         }
                       }
                     }
@@ -7861,8 +7894,8 @@
                         "tags": [
 
                         ],
-                        "slug": "mcdonalds-loaded-fries--ddb-sydney",
-                        "uid": "mcdonalds-loaded-fries"
+                        "slug": "mcdonalds-people--ddb-sydney",
+                        "uid": "mcdonalds-people"
                       },
                       "isBroken": false
                     }
@@ -8098,12 +8131,12 @@
                     "value": {
                       "main": {
                         "dimensions": {
-                          "width": 582,
-                          "height": 500
+                          "width": 565,
+                          "height": 486
                         },
                         "alt": null,
                         "copyright": null,
-                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/60d8400fa21d7499d2e960b7738b285762a279f6_contact1.jpg"
+                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/68e987f5e10362b6156cb0db9f62abb2d0d46061_bill_cropped.jpg"
                       },
                       "views": {
                         "mobile": {
@@ -8113,7 +8146,7 @@
                           },
                           "alt": null,
                           "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/8a09c91b6fbb1827a6a1d7f214e8b0ed24f05fc0_contact1.jpg"
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/412a0a032e53ab4194b9a4eee1e4190983767830_bill_cropped.jpg"
                         },
                         "desktop": {
                           "dimensions": {
@@ -8122,7 +8155,7 @@
                           },
                           "alt": null,
                           "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/85dbec0769bd99a0e0d4c0006ef92fd886a49464_contact1.jpg"
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/1b0de59a547c1677cc717d317d2305bd16d55cf7_bill_cropped.jpg"
                         }
                       }
                     }
@@ -8165,12 +8198,12 @@
                     "value": {
                       "main": {
                         "dimensions": {
-                          "width": 960,
-                          "height": 875
+                          "width": 550,
+                          "height": 473
                         },
                         "alt": null,
                         "copyright": null,
-                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/bdd414e24a33ab404ce0955e9e1518fe7ce72305_contact2.jpg"
+                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/9194a744ad060508f320c060707246d2360616c7_award-cage_cropped.jpg"
                       },
                       "views": {
                         "mobile": {
@@ -8180,7 +8213,7 @@
                           },
                           "alt": null,
                           "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/8844033fa6e3b3c62726cc5559a2b45cfecbece6_contact2.jpg"
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/449aa5b2c18a8c4823f7665bcfa5000497c20564_award-cage_cropped.jpg"
                         },
                         "desktop": {
                           "dimensions": {
@@ -8189,7 +8222,7 @@
                           },
                           "alt": null,
                           "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/1fb87f7a6bc35610f7e281996bd4f933db5f7501_contact2.jpg"
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/1663ef13cb06fe4bbbfaa1fb98fdad5007b4c42e_award-cage_cropped.jpg"
                         }
                       }
                     }
@@ -8204,7 +8237,7 @@
                   },
                   "mail1": {
                     "type": "Text",
-                    "value": "nic.taylow@syd.ddb.com"
+                    "value": "nicole.taylor@syd.ddb.com"
                   },
                   "headline2": {
                     "type": "Text",
@@ -8234,23 +8267,14 @@
                     "value": {
                       "main": {
                         "dimensions": {
-                          "width": 582,
-                          "height": 500
+                          "width": 776,
+                          "height": 667
                         },
                         "alt": null,
                         "copyright": null,
-                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/60d8400fa21d7499d2e960b7738b285762a279f6_contact1.jpg"
+                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/8e4cc1ad81b028c18ed0a08492fb75b937eba9f3_bike_cropped.jpg"
                       },
                       "views": {
-                        "mobile": {
-                          "dimensions": {
-                            "width": 800,
-                            "height": 820
-                          },
-                          "alt": null,
-                          "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/8a09c91b6fbb1827a6a1d7f214e8b0ed24f05fc0_contact1.jpg"
-                        },
                         "desktop": {
                           "dimensions": {
                             "width": 960,
@@ -8258,7 +8282,16 @@
                           },
                           "alt": null,
                           "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/85dbec0769bd99a0e0d4c0006ef92fd886a49464_contact1.jpg"
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/cd9220ea739989aad5e111dd8afdb103620d1a29_bike_cropped.jpg"
+                        },
+                        "mobile": {
+                          "dimensions": {
+                            "width": 800,
+                            "height": 820
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/a91a21986b50a8eff195d3d0bf7b1e393844e941_bike_cropped.jpg"
                         }
                       }
                     }

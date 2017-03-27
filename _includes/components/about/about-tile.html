@@ -1,42 +1,39 @@
 {% assign tile = include.data[0] %}
 
 <!-- about tile -->
-<div class="about-tile" data-align="{{ tile.align.value | default: 'right' }}" data-style="{{ tile.style.value | default: 'black' }}">
+<div class="about-tile" data-align="{{ tile.align.value | default: 'right' }}" data-style="{{ tile.style.value | default: 'page' }}">
 
-  <!-- image -->
-  <div class="image about-tile__image">
+    <!-- image -->
+    <div class="image about-tile__image">
+        <!-- image layout - desktop -->
+        <img class="image__layout image__layout--desktop" src="{{base}}/assets/images/layout_960x825.png" alt="">
 
-    <!-- image layout - desktop -->
-    <img class="image__layout image__layout--desktop" src="{{base}}/assets/images/layout_960x825.png" alt="">
+        <!-- image layout - mobile -->
+        <img class="image__layout image__layout--mobile" src="{{base}}/assets/images/layout_800x820.png" alt="">
 
-    <!-- image layout - mobile -->
-    <img class="image__layout image__layout--mobile" src="{{base}}/assets/images/layout_800x820.png" alt="">
+        <!-- image cover - desktop -->
+        {% if tile.image.value.views.desktop.url %}
+        <div class="image__cover image__cover--desktop" style="background-image: url('{{ tile.image.value.views.desktop.url }}');"></div>
+        {% endif %}
 
-    <!-- image cover - desktop -->
-    {% if tile.image.value.views.desktop.url %}
-    <div class="image__cover image__cover--desktop" style="background-image: url('{{ tile.image.value.views.desktop.url }}');"></div>
-    {% endif %}
+        <!-- image cover - mobile -->
+        {% if tile.image.value.views.mobile.url %}
+        <div class="image__cover image__cover--mobile" style="background-image: url('{{ tile.image.value.views.mobile.url }}');"></div>
+        {% endif %}
+    </div><!-- image end -->
 
-    <!-- image cover - mobile -->
-    {% if tile.image.value.views.mobile.url %}
-    <div class="image__cover image__cover--mobile" style="background-image: url('{{ tile.image.value.views.mobile.url }}');"></div>
-    {% endif %}
+    <!-- content -->
+    <div class="about-tile__content">
 
-  </div><!-- image end -->
+        {% if tile.headline.value %}
+        <h4>{{ tile.headline.value }}</h4>
+        {% endif %}
 
-  <!-- content -->
-  <div class="about-tile__content">
-    <div class="about-tile__content__inner"><!-- content inner -->
-
-      {% if tile.headline.value %}
-      <h4>{{ tile.headline.value }}</h4>
-      {% endif %}
-
-      {% if tile.linkUrl.value %}
+        {% if tile.linkUrl.value %}
         {% include modules/link.html link=tile.linkUrl label=tile.linkText.value style="ulink" %}
-      {% endif %}
+        {% endif %}
 
-    </div><!-- content inner end -->
-  </div><!-- content end -->
+    </div><!-- content end -->
 
 </div><!-- about tile end -->
+
