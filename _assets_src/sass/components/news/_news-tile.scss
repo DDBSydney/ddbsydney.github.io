@@ -8,49 +8,54 @@
 
 $news_tile_w: 56.8%;
 
-.news-tile {
+%news-tile {
     @extend %flex--row;
     background-color: transparent;
+    @include mobile { display: block; }
+}
 
-    &__image,
-    &__content {
-        @extend %flex--col;
-        position: relative;
-
-        flex-shrink: 0;
-        flex-grow: 0;
-    }
-
-    &__image {
-        flex-basis: $news_tile_w;
-        max-width: $news_tile_w;
-        width: $news_tile_w;
-    }
-
-    &__content {
-        flex-basis: (100% - $news_tile_w);
-        max-width: (100% - $news_tile_w);
-        width: (100% - $news_tile_w);
-    }
+%news-tile__elem {
+    @extend %flex--col;
+    position: relative;
+    flex-shrink: 0;
+    flex-grow: 0;
 
     @include mobile {
-        display: block;
+        display: block !important;
+        max-width: 100% !important;
+        width: 100% !important;
+    }
+}
 
-        &__image,
-        &__content {
-            display: block;
-            max-width: 100%;
-            width: 100%;
-        }
+.news-tile {
+    @extend %news-tile;
+
+    &__image, &__content {
+        @extend %news-tile__elem
     }
 }
 
 // -------------------------------------
+//   News Tile - Image
+// -------------------------------------
+%news-tile__image {
+    flex-basis: $news_tile_w;
+    max-width: $news_tile_w;
+    width: $news_tile_w;
+}
+
+.news-tile__image { @extend %news-tile__image; }
+
+// -------------------------------------
 //   News Tile - Content
 // -------------------------------------
-.news-tile__content {
+%news-tile__content {
     @include section--padding-h;
     @include section--padding-v("md");
+
+    flex-basis: (100% - $news_tile_w);
+    max-width: (100% - $news_tile_w);
+    width: (100% - $news_tile_w);
     align-self: center;
 
     @include tablet-sm-up {
@@ -66,10 +71,12 @@ $news_tile_w: 56.8%;
     h4 + a { margin-top: 1.25em; }
 }
 
+.news-tile__content { @extend %news-tile__content; }
+
 // -------------------------------------
 //   News Tile - Modifiers
 // -------------------------------------
-.news-tile {
+%news-tile--modifiers {
     // modifiers - align
     &[data-align="left"]  { flex-direction: row-reverse; }
     &[data-align="right"] { flex-direction: row; }
@@ -100,3 +107,5 @@ $news_tile_w: 56.8%;
     &[data-style="white"]  { background-color: white; }
     &[data-style="yellow"] { background-color: $color_yellow_ddb; }
 }
+
+.news-tile { @extend %news-tile--modifiers; }

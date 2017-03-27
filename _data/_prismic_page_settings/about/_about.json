@@ -105,10 +105,11 @@
                   "type" : "Select",
                    "config" : {
                     "label" : "Style (background)",
-                    "placeholder" : "black",
+                    "placeholder" : "page",
                     "options" : [
-                      "yellow",
-                      "grey"
+                      "black",
+                      "white",
+                      "yellow"
                     ]
                   }
                 }
