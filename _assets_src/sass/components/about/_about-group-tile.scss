@@ -54,7 +54,8 @@
         p {
           color: inherit;
           @include font--style("h4");
-          font-weight: $font_weight_medium;
+          font-family: $font_family_medium;
+          /* font-weight: $font_weight_medium; */
           margin-top: 20px;
         }
       }

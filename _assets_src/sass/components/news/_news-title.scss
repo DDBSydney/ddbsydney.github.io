@@ -16,8 +16,8 @@
         @include section--padding-h("md");
     }
 
-    p  { font-weight: $font_weight_medium; }
     h2 { margin-top: 0; }
+    p  { font-family: $font_family_medium; /* font-weight: $font_weight_medium; */ }
 }
 
 // -------------------------------------

@@ -38,7 +38,8 @@ $news_quote_margin: 2em;
     &__quote,
     &__footer {
         @include font--style("h5");
-        font-weight: $font_weight_regular;
+        font-family: $font_family_regular;
+        /* font-weight: $font_weight_regular; */
     }
 
     &__quote {
@@ -54,7 +55,8 @@ $news_quote_margin: 2em;
     }
 
     &__footer {
-        font-weight: $font_weight_bold;
+        font-family: $font_family_bold;
+        /* font-weight: $font_weight_bold; */
     }
 }
 

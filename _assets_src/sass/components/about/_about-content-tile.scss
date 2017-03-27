@@ -36,7 +36,8 @@
 
     &--copy {
       @include font--style("h5");
-      font-weight: $font_weight_medium;
+      font-family: $font_family_medium;
+      /* font-weight: $font_weight_medium; */
     }
 
     &--headline,

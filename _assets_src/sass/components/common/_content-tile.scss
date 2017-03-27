@@ -31,11 +31,13 @@ $content_tile_h_min_mob: 66vw;
 
     &--copy {
       @include font--style("h2");
-      font-weight: $font_weight_medium;
+      font-family: $font_family_medium;
+      /* font-weight: $font_weight_medium; */
     }
 
     &--subline {
-      font-weight: $font_weight_medium;
+      font-family: $font_family_medium;
+      /* font-weight: $font_weight_medium; */
     }
 
     &--headline,
