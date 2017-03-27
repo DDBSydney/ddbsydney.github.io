@@ -33,30 +33,30 @@
 
       {% comment %} <!-- About Page --> {% endcomment %}
 
-      {% when "about-behaviour-tile" %}
-        {% include components/about/about-behaviour-tile.html data=section.value %}
-
-      {% when "about-content-tile" %}
-        {% include components/about/about-content-tile.html data=section.value %}
-
-      {% when "about-group-tile" %}
-        {% include components/about/about-group-tile.html data=section.value %}
-
       {% when "about-tile" %}
         {% include components/about/about-tile.html data=section.value %}
 
       {% when "people-collage" %}
         {% include components/about/people-collage.html data=section.value %}
 
+      {% when "about-group-tile" %}
+        {% include components/about/about-group-tile.html data=section.value %}
+
+      {% when "about-behaviour-tile" %}
+        {% include components/about/about-behaviour-tile.html data=section.value %}
+
+      {% when "about-content-tile" %}
+        {% include components/about/about-content-tile.html data=section.value color=include.color %}
+
 
 
       {% comment %} <!-- Contact Page --> {% endcomment %}
 
-      {% when "contact-tile" %}
-        {% include components/contact/contact-tile.html data=section.value %}
-
       {% when "rules-tile" %}
         {% include components/contact/rules-tile.html data=section.value %}
+
+      {% when "contact-tile" %}
+        {% include components/contact/contact-tile.html data=section.value %}
 
 
 
@@ -72,17 +72,9 @@
 
       {% comment %} <!-- Common Components --> {% endcomment %}
 
-      {% when "content-tile" %}
-        {% include components/common/content-tile.html data=section.value %}
 
       {% when "promo-video" %}
         {% include components/common/promo-video.html data=section.value %}
-
-      {% when "quote-tile" %}
-        {% include components/common/quote-tile.html data=section.value %}
-
-      {% when "title-tile" %}
-        {% include components/common/title-tile.html data=section.value %}
 
       {% when "video-tile" %}
         {% include components/common/video-tile.html data=section.value %}
@@ -96,6 +88,15 @@
       {% when "image-tile-large" %}
         {% include components/common/image-tile/image-tile-large.html data=section.value %}
 
+      {% when "title-tile" %}
+        {% include components/common/title-tile.html data=section.value color=include.color %}
+
+      {% when "quote-tile" %}
+        {% include components/common/quote-tile.html data=section.value color=include.color %}
+
+      {% when "content-tile" %}
+        {% include components/common/content-tile.html data=section.value color=include.color %}
+
 
 
       {% comment %} <!-- News Page --> {% endcomment %}
@@ -104,10 +105,10 @@
         {% include components/news/news-tile.html data=section.value %}
 
       {% when "news-title" %}
-        {% include components/news/news-title.html data=section.value %}
+        {% include components/news/news-title.html data=section.value color=include.color %}
 
       {% when "news-content" %}
-        {% include components/news/news-content.html data=section.value %}
+        {% include components/news/news-content.html data=section.value color=include.color %}
 
 
 

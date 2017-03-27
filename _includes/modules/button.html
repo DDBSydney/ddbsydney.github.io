@@ -10,6 +10,7 @@
   {% endif %}
 
   {% assign isMedium = false %}
+  {% assign isLinkedIn = false %}
 
   {% capture linkUrl %}
     {% case link.type %}
@@ -19,6 +20,9 @@
         {% for seg in segs %}
           {% if seg == "medium.com" %}
             {% assign isMedium = true %}
+          {% endif %}
+          {% if seg == "linkedin.com" %}
+            {% assign isLinkedIn = true %}
           {% endif %}
         {% endfor %}
 
@@ -57,8 +61,10 @@
   {% endcapture %}
 
   <!-- button -->
-  <a class="button" href="{{ linkUrl | normalize_whitespace }}" {{ linkTarget | normalize_whitespace }} {{ linkLabel | normalize_whitespace }} >
-    {% if isMedium %}
+  <a class="button" href="{{ linkUrl | normalize_whitespace }}" {{ linkTarget | normalize_whitespace }} {{ linkLabel | normalize_whitespace }}>
+    {% if isLinkedin %}
+      <span> Apply on <i class="icon icon-linkedin-logo"></i></span>
+    {% else if isMedium %}
       <span> Read on <i class="icon icon-medium"></i> Medium </span>
     {% else %}
       <span> {{ label | default: "View" }} </span>

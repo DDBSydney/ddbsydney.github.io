@@ -45,12 +45,31 @@
 
 
 
-          "careers-list-tile" : {
+          "career-tile" : {
             "type" : "Group",
             "config" : {
-              "label" : "Careers list tile",
-              "repeat" : true,
+              "label" : "News tile",
+              "repeat" : false,
               "fields" : {
+                "image" : {
+                  "type" : "Image",
+                  "config" : {
+                    "label" : "Image",
+                    "constraint" : {
+                      "width" : null,
+                      "height" : null
+                    },
+                    "thumbnails" : [ {
+                      "name" : "Desktop",
+                      "width" : "960",
+                      "height" : "825"
+                    }, {
+                      "name" : "Mobile",
+                      "width" : "800",
+                      "height" : "820"
+                    } ]
+                  }
+                },
                 "headline" : {
                   "type" : "Text",
                   "config" : {
@@ -58,11 +77,40 @@
                     "placeholder" : "Headline text"
                   }
                 },
-                "copy" : {
+                "linkUrl" : {
+                  "type" : "Link",
+                  "config" : {
+                    "label" : "Link URL",
+                    "placeholder" : "Link URL"
+                  }
+                },
+                "linkText" : {
                   "type" : "Text",
                   "config" : {
-                    "label" : "Copy",
-                    "placeholder" : "Copy text"
+                    "label": "Link Text",
+                    "placeholder" : "Link text"
+                  }
+                },
+                "align" : {
+                  "type" : "Select",
+                  "config" : {
+                    "label" : "Alignment (text)",
+                    "placeholder" : "right",
+                    "options" : [
+                      "left"
+                    ]
+                  }
+                },
+                "style" : {
+                  "type" : "Select",
+                   "config" : {
+                    "label" : "Style (background)",
+                    "placeholder" : "page",
+                    "options" : [
+                      "black",
+                      "white",
+                      "yellow"
+                    ]
                   }
                 }
               }

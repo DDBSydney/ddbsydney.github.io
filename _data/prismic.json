@@ -3804,11 +3804,11 @@
         },
         "foregroundColor": {
           "type": "Color",
-          "value": "#000000"
+          "value": "#ffffff"
         },
         "backgroundColor": {
           "type": "Color",
-          "value": "#ffffff"
+          "value": "#000000"
         },
         "sections": {
           "type": "SectionList",
@@ -3923,19 +3923,19 @@
       }
     },
     {
-      "uid": "accout-director",
+      "uid": "account-director",
       "data": {
         "meta-title": {
           "type": "Text",
-          "value": "Accout Director | Careers | DDB"
+          "value": "Account Director | Careers | DDB"
         },
         "foregroundColor": {
           "type": "Color",
-          "value": "#000000"
+          "value": "#ffffff"
         },
         "backgroundColor": {
           "type": "Color",
-          "value": "#ffffff"
+          "value": "#000000"
         },
         "sections": {
           "type": "SectionList",
@@ -4019,11 +4019,11 @@
         },
         "foregroundColor": {
           "type": "Color",
-          "value": "#000000"
+          "value": "#ffffff"
         },
         "backgroundColor": {
           "type": "Color",
-          "value": "#ffffff"
+          "value": "#000000"
         },
         "sections": {
           "type": "SectionList",
@@ -4112,9 +4112,13 @@
           "type": "Text",
           "value": "Senior Account Manager | Careers | DDB"
         },
-        "backgroundColor": {
+        "foregroundColor": {
           "type": "Color",
           "value": "#ffffff"
+        },
+        "backgroundColor": {
+          "type": "Color",
+          "value": "#000000"
         },
         "sections": {
           "type": "SectionList",
@@ -4198,11 +4202,11 @@
         },
         "foregroundColor": {
           "type": "Color",
-          "value": "#000000"
+          "value": "#ffffff"
         },
         "backgroundColor": {
           "type": "Color",
-          "value": "#ffffff"
+          "value": "#000000"
         },
         "sections": {
           "type": "SectionList",
