@@ -95,21 +95,21 @@
                 "headline" : {
                   "type" : "Text",
                   "config" : {
-                    "label" : "Headline (Large)",
+                    "label" : "Headline (large)",
                     "placeholder" : "Headline text"
                   }
                 },
                 "subline" : {
                   "type" : "Text",
                   "config" : {
-                    "label" : "Subline (Medium)",
+                    "label" : "Subline (medium)",
                     "placeholder" : "Subline text"
                   }
                 },
                 "copy" : {
                   "type" : "Text",
                   "config" : {
-                    "label" : "Copy (Small)",
+                    "label" : "Copy (small)",
                     "placeholder" : "Copy text"
                   }
                 },
@@ -118,6 +118,18 @@
                   "config" : {
                     "label" : "LinkedIn",
                     "placeholder" : "https://www.linkedin.com/jobs/view/xxxxxxxxx/"
+                  }
+                },
+                "style" : {
+                  "type" : "Select",
+                   "config" : {
+                    "label" : "Style (background)",
+                    "placeholder" : "page",
+                    "options" : [
+                      "black",
+                      "white",
+                      "yellow"
+                    ]
                   }
                 }
               }

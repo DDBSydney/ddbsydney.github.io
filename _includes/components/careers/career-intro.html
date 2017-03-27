@@ -3,43 +3,43 @@
 <!-- career intro -->
 <div class="career-intro">
 
-  <!-- image -->
-  <div class="image">
+    <!-- image -->
+    <div class="image">
 
-    <!-- image layout - desktop -->
-    <img class="image__layout image__layout--desktop" src="{{base}}/assets/images/layout_1920x1080.png" alt="">
+        <!-- image layout - desktop -->
+        <img class="image__layout image__layout--desktop" src="{{base}}/assets/images/layout_1920x1080.png" alt="">
 
-    <!-- image layout - mobile -->
-    <img class="image__layout image__layout--mobile" src="{{base}}/assets/images/layout_800x820.png" alt="">
+        <!-- image layout - mobile -->
+        <img class="image__layout image__layout--mobile" src="{{base}}/assets/images/layout_800x820.png" alt="">
 
-    <!-- image cover - desktop -->
-    {% if component.image.value.views.desktop.url %}
-    <div class="image__cover image__cover--desktop" style="background-image: url('{{ component.image.value.views.desktop.url }}');"></div>
-    {% endif %}
+        <!-- image cover - desktop -->
+        {% if component.image.value.views.desktop.url %}
+        <div class="image__cover image__cover--desktop" style="background-image: url('{{ component.image.value.views.desktop.url }}');"></div>
+        {% endif %}
 
-    <!-- image cover - mobile -->
-    {% if component.image.value.views.mobile.url %}
-    <div class="image__cover image__cover--mobile" style="background-image: url('{{ component.image.value.views.mobile.url }}');"></div>
-    {% endif %}
-    
-    <!-- image cover - overlay -->
-    <div class="image__cover image__cover--overlay"></div>
+        <!-- image cover - mobile -->
+        {% if component.image.value.views.mobile.url %}
+        <div class="image__cover image__cover--mobile" style="background-image: url('{{ component.image.value.views.mobile.url }}');"></div>
+        {% endif %}
 
-  </div><!-- image end -->
-  
-  <!-- content -->
-  {% if component.copy.value %}
-  <div class="career-intro__content">
+        <!-- image cover - overlay -->
+        <div class="image__cover image__cover--overlay"></div>
 
-    <!-- container -->
-    <div class="container">
-        
-      <h2 class="career-intro__content__copy"> 
-        {{ component.copy.value }} 
-      </h2>
+    </div><!-- image end -->
 
-    </div><!-- container end -->
+    <!-- content -->
+    {% if component.copy.value %}
+    <div class="career-intro__content">
 
-  </div>{% endif %}<!-- content end -->
-  
+        <!-- container -->
+        <div class="container">
+
+            <h2 class="career-intro__content__copy">
+                {{ component.copy.value }}
+            </h2>
+
+        </div><!-- container end -->
+
+    </div>{% endif %}<!-- content end -->
+
 </div><!-- career intro end -->

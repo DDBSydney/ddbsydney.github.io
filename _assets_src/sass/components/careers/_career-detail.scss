@@ -6,36 +6,66 @@
   * @desc Styles for the career detail component.
 **/
 
-.career-detail { 
-  @extend %section; 
-  @include section--padding("lg");
-  @include section--padding-top("md");
+.career-detail {
+    @extend %section;
+    @include section--padding-h;
+    @include section--padding-v("lg");
 
-  @include mobile {
-    @include section--padding-top("lg");
-    @include section--padding-h; 
-  }
+    @include mobile-up {
+        @include section--padding-top("md");
+    }
 }
 
 // -------------------------------------
-//   Career Content - Content
+//   Career Detail - Content
 // -------------------------------------
 .career-detail {
-  h2, h4, p { color: inherit;  }
-  h2, h4 { text-align: center; }
+    h2, h4, p { color: white;  }
+    h2, h4 { text-align: center; }
 
-  p { 
-    @include font--style("h6");
-    text-align: left;
-  }
+    p {
+        @include font--style("h6");
+        text-align: left;
+    }
 
-  h2 + p, h4 + p {
-    @include section--margin-top;
-    @include mobile { @include section--margin-top("md"); }
-  }
+    h2 + p, h4 + p {
+        @include section--margin-top;
+        @include mobile { @include section--margin-top("md"); }
+    }
 
-  .button { 
-    @extend %button--black;
-    margin-top: 1em;
-  }
+    .button {
+        @extend %button--white;
+        margin-top: 1em;
+    }
+}
+
+// -------------------------------------
+//   Career Detail - Modifiers
+// -------------------------------------
+.career-detail {
+    // modifer - style
+    // (page, black)
+    &[data-style="page"],
+    &[data-style="black"] {
+        h2, h4, p { color: white; }
+        .button { @extend %button--white; }
+    }
+
+    // modifer - style
+    // (white yellow)
+    &[data-style="white"],
+    &[data-style="yellow"] {
+        h2, h4, p { color: black; }
+        .button { @extend %button--black; }
+    }
+
+    // modifiers - style
+    // ( page, black )
+    &[data-style="page"]   { background-color: transparent; }
+    &[data-style="black"]  { background-color: black; }
+
+    // modifiers - style
+    // ( white, yellow )
+    &[data-style="white"]  { background-color: white; }
+    &[data-style="yellow"] { background-color: $color_yellow_ddb; }
 }

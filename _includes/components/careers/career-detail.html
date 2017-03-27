@@ -1,30 +1,28 @@
 {% assign component = include.data[0] %}
 
 <!-- career detail -->
-<div class="career-detail"{% if include.color %} style="color: {{ include.color }}"{% endif %}>
-    
-  <!-- container -->
-  {% if component.headline.value or component.subline.value or component.copy.value %}
-  <div class="container">
-    
-    {% if component.headline.value %}
-    <h2> {{component.headline.value}} </h2>
-    {% endif %}
-    
-    {% if component.subline.value %}
-    <h4> {{ component.subline.value }} </h4>
-    {% endif %}
-    
-    {% if component.copy.value %}
-    <p> {{ component.copy.value }} </p>
-    {% endif %}
-    
-    {% if component.linkedin.value.url %}
-    <a class="button" href="{{ component.linkedin.value.url }}" target="_blank" title="Apply on LinkedIn"><span>
-      Apply on <i class="icon icon-linkedin-logo"></i>
-    </span></a>
-    {% endif %}
+<div class="career-detail" data-style="{{ component.style.value | default: 'page' }}">
 
-  </div>{% endif %}<!-- container end -->
+    <!-- container -->
+    {% if component.headline.value or component.subline.value or component.copy.value %}
+    <div class="container">
+
+        {% if component.headline.value %}
+        <h2> {{component.headline.value}} </h2>
+        {% endif %}
+
+        {% if component.subline.value %}
+        <h4> {{ component.subline.value }} </h4>
+        {% endif %}
+
+        {% if component.copy.value %}
+        <p> {{ component.copy.value }} </p>
+        {% endif %}
+
+        {% if component.linkedin.value.url %}
+        {% include modules/button.html link=component.linkedin.value.url label='Apply on LinkedIn' %}
+        {% endif %}
+
+    </div>{% endif %}<!-- container end -->
 
 </div><!-- career detail end -->
