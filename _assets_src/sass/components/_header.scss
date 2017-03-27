@@ -135,7 +135,8 @@
 
     &.link {
       align-self: flex-end;
-      font-weight: $font_weight_bold;
+      font-family: $font_family_bold;
+      /* font-weight: $font_weight_bold; */
       /* &--active { pointer-events: none; } */
       & > span {
         /* @include transitions(padding); */ // used by .section--header-sticky

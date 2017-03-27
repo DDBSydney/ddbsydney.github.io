@@ -36,7 +36,7 @@
 
   <!-- body -->
   <body style="opacity: 0;{% if page_data.backgroundColor.value %} background-color: {{ page_data.backgroundColor.value }}{% endif %}">
-    
+
     <!-- main -->
     <main>
 
@@ -53,7 +53,7 @@
         {% include components/footer.html %}
       </section>
       {% endunless %}
-    
+
     </main><!-- main end -->
 
   </body><!-- body end -->
@@ -65,6 +65,18 @@
   <!-- endinject -->
 
   <!-- custom:js -->
+  <script type="text/javascript">
+    (function() {
+      var path = '//easy.myfonts.net/v2/js?sid=10259(font-family=Helvetica+Neue+55+Roman)&sid=10261(font-family=Helvetica+Neue+75+Bold)&sid=10265(font-family=Helvetica+Neue+65+Medium)&sid=10269(font-family=Helvetica+Neue+25+UltraLight)&key=rnO0aDr3gD',
+      protocol = ('https:' == document.location.protocol ? 'https:' : 'http:'),
+      trial = document.createElement('script');
+      trial.type = 'text/javascript';
+      trial.async = true;
+      trial.src = protocol + path;
+      var head = document.getElementsByTagName("head")[0];
+      head.appendChild(trial);
+    })();
+  </script>
   <script type="text/javascript" src="{{base}}/assets/js/dependencies/dependencies.min.js"></script>
   <script type="text/javascript" src="{{base}}/assets/js/app.min.js"></script>
   <!-- endcustom -->

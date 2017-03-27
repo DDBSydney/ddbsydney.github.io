@@ -64,8 +64,8 @@ $section_padding: (
   @if not map-has-key($section_padding, $key) {
     @warn "$key not found for @function get-section--padding($key)";
     @error "$key not found for @function get-section--padding($key)";
-  } 
-  
+  }
+
   // return the correct padding if the key is valid
   @return (map-get($section_padding, $key) * $mult);
 }
@@ -178,8 +178,8 @@ $section_margin: (
   @if not map-has-key($section_margin, $key) {
     @warn "$key not found for @function get-section--margin($key)";
     @error "$key not found for @function get-section--margin($key)";
-  } 
-  
+  }
+
   // return the correct margin if the key is valid
   @return (map-get($section_margin, $key) * $mult);
 }
@@ -256,7 +256,8 @@ $section_header_opacity: 0.15;
 
 .section {
   @extend %section;
-  
+
+  // modifers - header
   &--header {
     position: fixed;
     z-index: $zi_header;
@@ -274,7 +275,14 @@ $section_header_opacity: 0.15;
     &-sticky { background-color: rgba(black, $section_header_opacity); }
   }
 
+  // modifers - first, last, footer
   &--first  { /* empty block */ }
   &--last   { /* empty block */ }
   &--footer { /* empty block */ }
+
+  // modifers - default, small, medium, large
+  &--default { @include section--padding; }
+  &--small   { @include section--padding("sm"); }
+  &--medium  { @include section--padding("md"); }
+  &--large   { @include section--padding("lg"); }
 }

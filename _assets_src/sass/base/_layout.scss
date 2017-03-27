@@ -4,11 +4,11 @@
 /**
   * @name layout
   * @desc Used for specifying basic layout styles
-          used with common elements that spread 
+          used with common elements that spread
           spread across the entire app.
 **/
 
-// base paths for the url 
+// base paths for the url
 // used in the sass files
 $base_path_images: "../images/";
 $base_html_w_min: 320px;
@@ -26,13 +26,13 @@ html, body {
   overflow: auto;
   -webkit-overflow-scrolling: touch;
 
-  // this will ensure that the page does 
+  // this will ensure that the page does
   // not appear to clip when components are
-  // removed from view ( the clip can be 
+  // removed from view ( the clip can be
   // ignored older browsers )
   min-width: $base_html_w_min;
   min-height: $base_html_h_min;
-  
+
   color: white;
   background-color: black;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
@@ -43,12 +43,12 @@ html, body {
 img {
   display: block;
   position: relative;
-  
+
   width: 100%;
   height: auto;
   max-width: 100%;
   box-sizing: border-box;
-  
+
   // to prevent alt text
   // from displayed while
   // the img is loaded
@@ -59,7 +59,7 @@ img {
 // that do not support tempaltes
 template { display: none !important; }
 
-// br tags are not visible on 
+// br tags are not visible on
 // smaller devices unless
 // explicitly specified
 br {
@@ -76,3 +76,6 @@ br {
       @include mobile-up { display: none; }
   }
 }
+
+// to hide the my fonts preview bar
+#mfPreviewBar { display: none !important; }

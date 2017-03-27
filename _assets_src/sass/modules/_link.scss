@@ -15,7 +15,7 @@ $link_line_h: 2px;
   display: inline-block;
   position: relative;
 
-  span { 
+  span {
     @include transitions(color);
     transition-duration: $trans_time_instant;
 
@@ -59,8 +59,8 @@ $link_line_h: 2px;
 }
 
 // underlined link
-// ( to be used for links which 
-// need a multi-line underline 
+// ( to be used for links which
+// need a multi-line underline
 // without line animations )
 %ulink {
   display: inline-block;
@@ -143,12 +143,16 @@ $link_line_h: 2px;
 //   Link - Classes
 // -------------------------------------
 // link
-.link { 
+.link {
   @extend %link;
+  &--black { @extend %link--black; }
+  &--white { @extend %link--white; }
   &--active { @extend %link--active; }
 }
 
 // link
-.ulink { 
+.ulink {
   @extend %ulink;
+  &--black { @extend %ulink--black; }
+  &--white { @extend %ulink--white; }
 }

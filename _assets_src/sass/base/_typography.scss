@@ -158,18 +158,23 @@ $line-height: (
 // -------------------------------------
 //   Typography - Font Family
 // -------------------------------------
+// based on weight
+$font_family_regular: "Helvetica Neue 55 Roman",  Helvetica, sans-serif;
+$font_family_medium:  "Helvetica Neue 65 Medium", Helvetica, sans-serif;
+$font_family_bold:    "Helvetica Neue 75 Bold",   Helvetica, sans-serif;
+
 // based on tags
-$font_family_h1: "Helvetica Neue", Helvetica, sans-serif;
-$font_family_h2: "Helvetica Neue", Helvetica, sans-serif;
-$font_family_h3: "Helvetica Neue", Helvetica, sans-serif;
-$font_family_h4: "Helvetica Neue", Helvetica, sans-serif;
-$font_family_h5: "Helvetica Neue", Helvetica, sans-serif;
-$font_family_h6: "Helvetica Neue", Helvetica, sans-serif;
-$font_family_p:  "Helvetica Neue", Helvetica, sans-serif;
+$font_family_h1: $font_family_bold;
+$font_family_h2: $font_family_medium;
+$font_family_h3: $font_family_regular;
+$font_family_h4: $font_family_regular;
+$font_family_h5: $font_family_regular;
+$font_family_h6: $font_family_regular;
+$font_family_p:  $font_family_regular;
 
 // based on size
-$font_family_xs: $font_family_p;
-$font_family_lg: $font_family_h1;
+$font_family_xs: $font_family_regular;
+$font_family_lg: $font_family_bold;
 
 // map of available
 // typography families
@@ -200,12 +205,15 @@ $font-family: (
 // -------------------------------------
 //   Typography - Font Weights
 // -------------------------------------
-$font_weight_bold   : 700;
-$font_weight_sbold  : 600;
-$font_weight_medium : 500;
-$font_weight_regular: 400;
-$font_weight_light  : 300;
-$font_weight_thin   : 200;
+// font-weight is no longer used to determine
+// the weight of the font, use the appropriate
+// font-family value instead (as specified above)
+$font_weight_bold   : normal /* 700 */;
+$font_weight_sbold  : normal /* 600 */;
+$font_weight_medium : normal /* 500 */;
+$font_weight_regular: normal /* 400 */;
+$font_weight_light  : normal /* 300 */;
+$font_weight_thin   : normal /* 200 */;
 
 // based on tags
 $font_weight_h1: $font_weight_bold;
@@ -250,13 +258,13 @@ $font-weight: (
 //   Typography - Letter Spacing
 // -------------------------------------
 // based on tags
-$letter_spacing_h1: normal;
-$letter_spacing_h2: normal;
-$letter_spacing_h3: normal;
-$letter_spacing_h4: normal;
-$letter_spacing_h5: normal;
-$letter_spacing_h6: normal;
-$letter_spacing_p : normal;
+$letter_spacing_h1: 1.26px;
+$letter_spacing_h2: 1.26px;
+$letter_spacing_h3: 1px;
+$letter_spacing_h4: 1px;
+$letter_spacing_h5: 1px;
+$letter_spacing_h6: 1px;
+$letter_spacing_p : 1px;
 
 // based on size
 $letter_spacing_xs: $letter_spacing_p;
@@ -343,8 +351,8 @@ html, body, ul, ol, li,
 p, a { @include font--style("p"); }
 
 span, i {
-  font-size: inherit; line-height: inherit;
   font-family: inherit; font-weight: inherit;
+  font-size: inherit; line-height: inherit;
   letter-spacing: inherit; color: inherit;
 }
 
@@ -352,6 +360,15 @@ h1, h2, h3, h4, h5, h6, ul, ol, li, p, a {
   color: white;
   &:first-child { margin-top: 0; }
   &:last-child  { margin-bottom: 0; }
+}
+
+h1, h2, h3, h4, h5,
+h6, ul, ol, li, p {
+  a {
+    font-family: inherit; font-weight: inherit;
+    font-size: inherit; line-height: inherit;
+    letter-spacing: inherit; color: inherit;
+  }
 }
 
 ul, ol {

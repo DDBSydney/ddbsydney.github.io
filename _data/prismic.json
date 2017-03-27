@@ -3931,7 +3931,7 @@
                   },
                   "copy": {
                     "type": "Text",
-                    "value": "DDB is looking for an established Account Director to join the team working on an exciting and fast paced account. \nWe are looking for an Account Director with exceptional client service experience across everything from TV to Digital/Content and Print. You are also a strong people manager able to coach and inspire your team. <br><br>Account Directors at DDB are solution-oriented, always thinking about their business, anticipating issues, and implementing their vision to produce superior results. They lead, facilitate and look for opportunities to expand into other disciplines. \n\n<br><br>If you are interested please send your CV to our Talent Director Sarah Crabbe sarah.crabbe@syd.ddb.com"
+                    "value": "DDB is looking for an established Account Director to join the team working on an exciting and fast paced account. \nWe are looking for an Account Director with exceptional client service experience across everything from TV to Digital/Content and Print. You are also a strong people manager able to coach and inspire your team. <br><br>Account Directors at DDB are solution-oriented, always thinking about their business, anticipating issues, and implementing their vision to produce superior results. They lead, facilitate and look for opportunities to expand into other disciplines. \n\n<br><br>If you are interested please send your CV to our Talent Director Sarah Crabbe <a href=\"mailto:sarah.crabbe@syd.ddb.com\" title=\"sarah.crabbe@syd.ddb.com\">sarah.crabbe@syd.ddb.com</a>"
                   }
                 }
               ]
@@ -7344,9 +7344,14 @@
                     }
                   },
                   "video": {
-                    "type": "Link.web",
+                    "type": "Link.file",
                     "value": {
-                      "url": "http://content.volkswagen-commercial.com.au/Amarok/Content/videos/VW_The_Naked_Reveal_Loop.mp4"
+                      "file": {
+                        "name": "Promo Video.mp4",
+                        "kind": "document",
+                        "url": "http://ddb-website.cdn.prismic.io/ddb-website%2Fbe3ae5dd-b7e0-4657-ae49-295d289c9fbe_promo+video.mp4",
+                        "size": "13717879"
+                      }
                     }
                   },
                   "foregroundColor": {
