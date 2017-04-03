@@ -6,7 +6,7 @@
   * @desc Styles for the promo video component.
 **/
 
-.promo-video { 
+.promo-video {
   @extend %section;
   overflow: hidden;
   max-width: 100%;
@@ -40,6 +40,10 @@ $promov_content_inner_w_max_mob: $cs_tile_content_inner_w_max_mob; // 80%
     display: block;
     span { display: block; }
 
+    font-size: 52px;
+
+    @include mobile    { font-size: 40px; }
+
     color: inherit;
     max-width: $promov_content_inner_w_max;
     @include tablet-sm { max-width: $promov_content_inner_w_max_tab; }
@@ -52,7 +56,7 @@ $promov_content_inner_w_max_mob: $cs_tile_content_inner_w_max_mob; // 80%
   &[data-align="center"] {
     max-width: 100% !important;
 
-    > h1 { 
+    > h1 {
       max-width: 100% !important;
       text-align: center;
 
