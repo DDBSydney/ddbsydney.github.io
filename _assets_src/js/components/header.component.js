@@ -451,4 +451,3 @@ var CONFIG = require("../config");
   module.exports = Header;
 
 })(jQuery);
-
