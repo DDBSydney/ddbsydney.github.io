@@ -20,9 +20,9 @@
   min-width: $base_html_w_min;
 
   @include mobile-up {
-    background-color: transparent;
+    // background-color: transparent;
     @include section--padding-v("sm");
-    transition-property: background-color !important;
+    // transition-property: background-color !important;
     /* @include transitions(padding); */ // used by .section--header-sticky
   }
 
@@ -30,6 +30,8 @@
     color: white;
     @include font--style("h2");
     @include mobile-up { @include font--style("h6"); }
+
+    // font-size: 20px; // TODO update this to use the type style.
   }
 
   a i { @include font--style("h1"); }
@@ -55,20 +57,20 @@
 
   // modifer - closed
   &--closed {
-    @include transitions(padding, height, min-height, background-color);
+    // @include transitions(padding, height, min-height, background-color);
     transition-timing-function: $ease_in_out_quad;
 
-    background-color: transparent;
+    // background-color: transparent;
     @include mobile { height: 85px; min-height: 0; }
   }
 
   // modifer - open
   &--open {
     overflow: auto; // to prevent scrolling on the page
-    @include transitions(padding, height, min-height, background-color);
+    // @include transitions(padding, height, min-height, background-color);
     transition-timing-function: $ease_in_out_quad;
 
-    background-color: black;
+    // background-color: black;
     @include mobile { height: 100vh; min-height: 100vh; }
   }
 
@@ -81,7 +83,9 @@
       }
     }
   }
+
 }
+
 
 // -------------------------------------
 //   Header - Back
