@@ -272,7 +272,7 @@ $section_header_opacity: 0.15;
     @include transitions(transform, background-color);
 
     &-hidden { transform: translateY(-100%); }
-    &-sticky { background-color: rgba(black, $section_header_opacity); }
+    // &-sticky { background-color: rgba(black, $section_header_opacity); }
   }
 
   // modifers - first, last, footer
