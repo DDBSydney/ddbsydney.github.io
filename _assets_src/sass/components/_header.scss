@@ -93,8 +93,10 @@
 .header__back {
   text-align: left;
 
+  top: 10px;
+
   > a   { display: inline-block; }
-  > a i { display: inline-block; }
+  > a i { display: inline-block; font-size: 30px; }
 
   > a {
     /* @include transitions(transform); */ // used by .section--header-sticky
