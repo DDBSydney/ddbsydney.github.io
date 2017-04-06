@@ -1446,12 +1446,17 @@ main, section, .section, .fof-tile, .intro-tile, .case-study-tile, .case-study-w
 
 @media (min-width: 768px) {
   .header {
+    background-color: transparent;
     -webkit-box-sizing: border-box;
        -moz-box-sizing: border-box;
             box-sizing: border-box;
     padding-top: 40px;
     box-sizing: border-box;
     padding-bottom: 40px;
+    -webkit-transition-property: background-color !important;
+    -o-transition-property: background-color !important;
+    -moz-transition-property: background-color !important;
+    transition-property: background-color !important;
     /* @include transitions(padding); */
   }
 }
@@ -1614,10 +1619,15 @@ main, section, .section, .fof-tile, .intro-tile, .case-study-tile, .case-study-w
 }
 
 .header--closed {
+  -webkit-transition: padding 0.3s ease, height 0.3s ease, min-height 0.3s ease, background-color 0.3s ease;
+  -o-transition: padding 0.3s ease, height 0.3s ease, min-height 0.3s ease, background-color 0.3s ease;
+  -moz-transition: padding 0.3s ease, height 0.3s ease, min-height 0.3s ease, background-color 0.3s ease;
+  transition: padding 0.3s ease, height 0.3s ease, min-height 0.3s ease, background-color 0.3s ease;
   -webkit-transition-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955);
      -moz-transition-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955);
        -o-transition-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955);
           transition-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955);
+  background-color: transparent;
 }
 
 @media (max-width: 767px) {
@@ -1629,10 +1639,15 @@ main, section, .section, .fof-tile, .intro-tile, .case-study-tile, .case-study-w
 
 .header--open {
   overflow: auto;
+  -webkit-transition: padding 0.3s ease, height 0.3s ease, min-height 0.3s ease, background-color 0.3s ease;
+  -o-transition: padding 0.3s ease, height 0.3s ease, min-height 0.3s ease, background-color 0.3s ease;
+  -moz-transition: padding 0.3s ease, height 0.3s ease, min-height 0.3s ease, background-color 0.3s ease;
+  transition: padding 0.3s ease, height 0.3s ease, min-height 0.3s ease, background-color 0.3s ease;
   -webkit-transition-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955);
      -moz-transition-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955);
        -o-transition-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955);
           transition-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955);
+  background-color: black;
 }
 
 @media (max-width: 767px) {
@@ -1648,7 +1663,6 @@ main, section, .section, .fof-tile, .intro-tile, .case-study-tile, .case-study-w
 
 .header__back {
   text-align: left;
-  top: 10px;
 }
 
 .header__back > a {
@@ -1657,7 +1671,6 @@ main, section, .section, .fof-tile, .intro-tile, .case-study-tile, .case-study-w
 
 .header__back > a i {
   display: inline-block;
-  font-size: 30px;
 }
 
 .header__back > a {
@@ -1836,48 +1849,38 @@ main, section, .section, .fof-tile, .intro-tile, .case-study-tile, .case-study-w
 /*
 .section--header {
   position: fixed;
-
   @include transitions(transform, background-color);
   background-color: transparent;
   transform: translateY(0);
-
   &-sticky {
     background-color: rgba(black, 0.15);
-
     @include mobile-up {
       .header__nav {
         height: 45px;
-
         > a.link > span:before {
           bottom: 3px;
         }
       }
-
       .header__back > a {
         transform: translateY(5%);
       }
-
       .header__logo {
         margin-top: 0.5em;
       }
-
       .header {
         @include section--padding-v("sm", 0);
       }
     }
-
     @include tablet-up {
       .header__nav {
         > a.link > span {
           padding-bottom: 0.2em;
         }
-
         > a.link > span:before {
           bottom: 0;
         }
       }
     }
-
     @include mobile {
       .header {
         height: 40px;
@@ -1885,7 +1888,6 @@ main, section, .section, .fof-tile, .intro-tile, .case-study-tile, .case-study-w
       }
     }
   }
-
   &-hidden {
     transform: translateY(-100%);
   }
@@ -4337,7 +4339,7 @@ main, section, .section, .fof-tile, .intro-tile, .case-study-tile, .case-study-w
 .about-group-tiles {
   margin-top: -1px;
   color: black;
-  background-color: #ffd107;
+  background-color: #ffffff;
   vertical-align: middle;
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
@@ -4923,6 +4925,11 @@ main, section, .section, .fof-tile, .intro-tile, .case-study-tile, .case-study-w
 .about-behaviour-tile[data-style="yellow"] {
   color: black;
   background-color: #ffd107;
+}
+
+.about-behaviour-tile[data-style="grey"] {
+  color: white;
+  background-color: #404041;
 }
 
 .about-behaviour-tile__image {
