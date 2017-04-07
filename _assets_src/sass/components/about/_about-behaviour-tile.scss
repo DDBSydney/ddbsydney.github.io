@@ -20,7 +20,7 @@ $about_tile_h_min_mob: 66vw;
 
   &[data-style="white"]  { color: black; background-color: white; }
   &[data-style="yellow"] { color: black; background-color: $color_yellow_ddb; }
-  &[data-style="grey"]   { color: white; background-color: $color_grey_warm; }
+  &[data-style="grey"]   { color: white; background-color: #404041; }
 }
 
 .about-behaviour-tile__image {
