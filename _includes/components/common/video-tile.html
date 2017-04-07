@@ -4,7 +4,7 @@
 <div class="video-tile">
 
   {% if tile.video.value.url %}
-  
+
     {% assign segs = tile.video.value.url | split: "/" %}
     {% assign isYoutube = false %}
     {% assign isVimeo = false %}
@@ -36,7 +36,7 @@
       {% assign vimeoUrl = tile.video.value.url | replace_first: "//vimeo.com/", "//player.vimeo.com/video/" %}
       <div class="video-tile__outer">
         <div class="video-tile__inner">
-          <iframe src="{{ vimeoUrl }}" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+          <iframe src="{{ vimeoUrl }}?autopause=true&byline=false&portrait=false&title=false&color=ffffff" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
         </div>
       </div>
 

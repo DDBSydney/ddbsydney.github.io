@@ -629,7 +629,7 @@
                   },
                   "copy": {
                     "type": "Text",
-                    "value": "Can we sell a Golf to town <br>that doesn’t need its city technology?"
+                    "value": "This how we created Facebook’s most successful automotive campaign ever in Australia."
                   },
                   "image": {
                     "type": "Image",
@@ -768,47 +768,6 @@
               ]
             },
             {
-              "type": "image-tile",
-              "value": [
-                {
-                  "image": {
-                    "type": "Image",
-                    "value": {
-                      "main": {
-                        "dimensions": {
-                          "width": 1920,
-                          "height": 1200
-                        },
-                        "alt": null,
-                        "copyright": null,
-                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/fc6d9a61ed98e34886bbb6d26c2b6a8f0574f771_screen-shot-2017-03-08-at-2.33.39-pm-2.png"
-                      },
-                      "views": {
-                        "mobile": {
-                          "dimensions": {
-                            "width": 800,
-                            "height": 820
-                          },
-                          "alt": null,
-                          "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/1982e13425d7d9b3aeb3cb5a9cdbb328e926ab47_screen-shot-2017-03-08-at-2.33.39-pm-2.png"
-                        },
-                        "desktop": {
-                          "dimensions": {
-                            "width": 1920,
-                            "height": 900
-                          },
-                          "alt": null,
-                          "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/98ea660d3965c2330d7f079e36824d363020471d_screen-shot-2017-03-08-at-2.33.39-pm-2.png"
-                        }
-                      }
-                    }
-                  }
-                }
-              ]
-            },
-            {
               "type": "content-tile",
               "value": [
                 {
@@ -819,6 +778,54 @@
                   "subline": {
                     "type": "Text",
                     "value": "We turned Facebook into our broadcast channel, so we could <br>directly target potential buyers with the 6-month series."
+                  }
+                }
+              ]
+            },
+            {
+              "type": "content-tile",
+              "value": [
+                {
+                  "headline": {
+                    "type": "Text",
+                    "value": "Results"
+                  },
+                  "subline": {
+                    "type": "Text",
+                    "value": "The most successful Australian Volkswagen campaign ever."
+                  },
+                  "list": {
+                    "type": "StructuredText",
+                    "value": [
+                      {
+                        "type": "paragraph",
+                        "text": "Website visits +14%",
+                        "spans": [
+
+                        ]
+                      },
+                      {
+                        "type": "paragraph",
+                        "text": "Test Drive booking +23%",
+                        "spans": [
+
+                        ]
+                      },
+                      {
+                        "type": "paragraph",
+                        "text": "The most successful automotive Facebook campaign ever in Australia.",
+                        "spans": [
+
+                        ]
+                      },
+                      {
+                        "type": "paragraph",
+                        "text": "Consideration for the Golf hit an all-time high of 18.2% nationally.",
+                        "spans": [
+
+                        ]
+                      }
+                    ]
                   }
                 }
               ]
@@ -1115,7 +1122,7 @@
                   },
                   "copy": {
                     "type": "Text",
-                    "value": "The next generation of Australians are facing an uncertain financial future.\n<br>See how we are helping them with Bump."
+                    "value": "This is how we are helping next generation Australians financial future with Bump."
                   },
                   "image": {
                     "type": "Image",
@@ -1164,7 +1171,7 @@
                   },
                   "copy": {
                     "type": "Text",
-                    "value": "For 200 years, Westpac has been supporting all Australians. \n<br>To mark the anniversary, Westpac wanted to help Australian families secure their future."
+                    "value": "For 200 years, Westpac has been supporting all Australians. To mark the anniversary, Westpac wanted to help Australian families secure their future."
                   }
                 }
               ]
@@ -1326,7 +1333,11 @@
               "type": "content-tile",
               "value": [
                 {
-                  "copy": {
+                  "headline": {
+                    "type": "Text",
+                    "value": "The Bump Bank Account"
+                  },
+                  "subline": {
                     "type": "Text",
                     "value": "Savings cannot be accessed until the child turns 16, so with small weekly contributions and a modest interest rate, the Bump account could be well past $20,000 by the time it matures!"
                   }
@@ -1434,7 +1445,7 @@
                   },
                   "copy": {
                     "type": "Text",
-                    "value": "Live response social, powered <br>by a smart application of technology."
+                    "value": "We needed to get more people inside the Sydney Opera House during summer"
                   },
                   "image": {
                     "type": "Image",
@@ -1477,78 +1488,13 @@
               "type": "content-tile",
               "value": [
                 {
-                  "copy": {
+                  "headline": {
                     "type": "Text",
-                    "value": "We needed to get more people inside the <br/>Sydney Opera House during summer."
-                  }
-                }
-              ]
-            },
-            {
-              "type": "video-tile",
-              "value": [
-                {
-                  "video": {
-                    "type": "Link.web",
-                    "value": {
-                      "url": "https://vimeo.com/204974886"
-                    }
-                  }
-                }
-              ]
-            },
-            {
-              "type": "content-tile",
-              "value": [
-                {
+                    "value": "Problem"
+                  },
                   "subline": {
                     "type": "Text",
-                    "value": "8.2 million people visit the site of the <br>Sydney Opera House every year."
-                  },
-                  "copy": {
-                    "type": "Text",
-                    "value": "Most take photo if the outside and move on, making it the most <br>Instagrammed icon in Australia. People were a stick away. <br>We selected photos using computer vision, inviting <br>them inside with Instagram."
-                  }
-                }
-              ]
-            },
-            {
-              "type": "image-tile",
-              "value": [
-                {
-                  "image": {
-                    "type": "Image",
-                    "value": {
-                      "main": {
-                        "dimensions": {
-                          "width": 1920,
-                          "height": 1200
-                        },
-                        "alt": null,
-                        "copyright": null,
-                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/88c5915b41a74d5676b7ee819fd1ca963bec0358_screen-shot-2017-03-08-at-3.13.09-pm-2.png"
-                      },
-                      "views": {
-                        "desktop": {
-                          "dimensions": {
-                            "width": 1920,
-                            "height": 900
-                          },
-                          "alt": null,
-                          "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/f533d2aa07c45f737ec4774c1dc53958c33c53a4_screen-shot-2017-03-08-at-3.13.09-pm-2.png"
-                        },
-                        "mobile": {
-                          "dimensions": {
-                            "width": 800,
-                            "height": 820
-                          },
-                          "alt": null,
-                          "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/3cb2894b1e232a4de477ee36483eba22677e5eff_screen-shot-2017-03-08-at-3.13.09-pm-2.png"
-                        }
-                      }
-                    }
+                    "value": "8.2 million people visit the Sydney Opera House every year. Most take photo of the outside and move on, making it the most Instagrammed icon in Australia."
                   }
                 }
               ]
@@ -1563,7 +1509,20 @@
                   },
                   "subline": {
                     "type": "Text",
-                    "value": "Turn photos of the Sydney Opera House on Instagram into <br>incredible experiences inside by inviting users to #comeonin."
+                    "value": "Turn photos of the Sydney Opera House on Instagram into incredible experiences inside by inviting users to #comeonin."
+                  }
+                }
+              ]
+            },
+            {
+              "type": "video-tile",
+              "value": [
+                {
+                  "video": {
+                    "type": "Link.web",
+                    "value": {
+                      "url": "https://vimeo.com/204974886"
+                    }
                   }
                 }
               ]
@@ -1612,13 +1571,41 @@
               ]
             },
             {
-              "type": "video-tile",
+              "type": "image-tile",
               "value": [
                 {
-                  "video": {
-                    "type": "Link.web",
+                  "image": {
+                    "type": "Image",
                     "value": {
-                      "url": "https://player.vimeo.com/video/151847431"
+                      "main": {
+                        "dimensions": {
+                          "width": 1200,
+                          "height": 800
+                        },
+                        "alt": null,
+                        "copyright": null,
+                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/1f4004a943d3b7beec9198e99364c78e8190fa13_comeonin-poster-operahouse.jpg"
+                      },
+                      "views": {
+                        "mobile": {
+                          "dimensions": {
+                            "width": 800,
+                            "height": 820
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/51877c60955fe74f72ddce17efe31c8f58d6c23f_comeonin-poster-operahouse.jpg"
+                        },
+                        "desktop": {
+                          "dimensions": {
+                            "width": 1920,
+                            "height": 900
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/4b33808390b06bab21cf71dba4ff41c9a8ca0169_comeonin-poster-operahouse.jpg"
+                        }
+                      }
                     }
                   }
                 }
@@ -1628,9 +1615,9 @@
               "type": "content-tile",
               "value": [
                 {
-                  "copy": {
+                  "subline": {
                     "type": "Text",
-                    "value": "126 unsuspecting Instagrammers invited to #comeonin."
+                    "value": "126 unsuspecting instagrammers surprised with invites inside. Here are some of them."
                   },
                   "imageDesktop": {
                     "type": "Image",
@@ -1724,81 +1711,40 @@
                   },
                   "subline": {
                     "type": "Text",
-                    "value": "In 4 weeks, over 5 million people saw a new side to the <br>Sydney Opera House: the inside."
+                    "value": "In 4 weeks, over 5 million people saw a new side to the Sydney Opera House: \nthe inside."
                   },
                   "list": {
                     "type": "StructuredText",
                     "value": [
                       {
                         "type": "paragraph",
-                        "text": "126 unsuspecting Instagrammers invited to #comeonin.",
+                        "text": "126 unsuspecting Instagrammers invited to #comeonin. ",
                         "spans": [
 
                         ]
                       },
                       {
                         "type": "paragraph",
-                        "text": "Social engagement up 30% from campaign launch",
+                        "text": "17 million impressions generated. ",
                         "spans": [
 
                         ]
                       },
                       {
                         "type": "paragraph",
-                        "text": "17 million impressions generated.",
+                        "text": "Social engagement up 30% from campaign launch.",
                         "spans": [
 
                         ]
                       },
                       {
                         "type": "paragraph",
-                        "text": "Social engagement up 30% from campaign launch",
+                        "text": "5 million people got to see the magic that goes on inside the Sydney Opera House.",
                         "spans": [
 
                         ]
                       }
                     ]
-                  }
-                }
-              ]
-            },
-            {
-              "type": "image-tile",
-              "value": [
-                {
-                  "image": {
-                    "type": "Image",
-                    "value": {
-                      "main": {
-                        "dimensions": {
-                          "width": 1920,
-                          "height": 1200
-                        },
-                        "alt": null,
-                        "copyright": null,
-                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/a3e9b95bc7310c597ae05e7cf1d387438e479877_screen-shot-2017-03-08-at-3.19.01-pm-2.png"
-                      },
-                      "views": {
-                        "mobile": {
-                          "dimensions": {
-                            "width": 800,
-                            "height": 820
-                          },
-                          "alt": null,
-                          "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/612b073143482c76d46d50f5885d4a2067d39b11_screen-shot-2017-03-08-at-3.19.01-pm-2.png"
-                        },
-                        "desktop": {
-                          "dimensions": {
-                            "width": 1920,
-                            "height": 900
-                          },
-                          "alt": null,
-                          "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/f682c9ad7812b1becaa59950cd1342c4d27b49ae_screen-shot-2017-03-08-at-3.19.01-pm-2.png"
-                        }
-                      }
-                    }
                   }
                 }
               ]
@@ -4345,7 +4291,7 @@
                   },
                   "copy": {
                     "type": "Text",
-                    "value": "Ensuring every bump <br>gets a good start."
+                    "value": "Ensuring every bump <br class=\"all\"/> gets a good start."
                   },
                   "image": {
                     "type": "Image",
@@ -4833,7 +4779,7 @@
                   },
                   "copy": {
                     "type": "Text",
-                    "value": "When is a car more<br>than a car?"
+                    "value": "When is a car more<br class=\"all\"/> than a car?"
                   },
                   "image": {
                     "type": "Image",
@@ -4901,7 +4847,7 @@
                   },
                   "copy": {
                     "type": "Text",
-                    "value": "Got the appetite? <br>We'll bring the opportunity."
+                    "value": "Got the appetite? <br class=\"all\"/> We'll bring the opportunity."
                   },
                   "image": {
                     "type": "Image",
@@ -4969,7 +4915,7 @@
                   },
                   "copy": {
                     "type": "Text",
-                    "value": "Can we sell a Golf to town<br>that doesn’t need its city technology?"
+                    "value": "Can we sell a Golf to town<br class=\"all\"/> that doesn’t need its city technology?"
                   },
                   "image": {
                     "type": "Image",
@@ -5222,6 +5168,244 @@
                           "copyright": null,
                           "url": "http://ddb-website.cdn.prismic.io/ddb-website/51194eb29aebf16b13cf0f73b0cc851630197f2b_website-landing-blank.jpg"
                         }
+                      }
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "intro-group-tile",
+              "value": [
+                {
+                  "linkText": {
+                    "type": "Text",
+                    "value": "DDB Sydney"
+                  },
+                  "linkUrl": {
+                    "type": "Link.document",
+                    "value": {
+                      "document": {
+                        "id": "WKEP8CUAAOgdq5Ww",
+                        "type": "latest",
+                        "tags": [
+
+                        ],
+                        "slug": "latest--ddb-sydney",
+                        "uid": "latest"
+                      },
+                      "isBroken": false
+                    }
+                  },
+                  "linkImage": {
+                    "type": "Image",
+                    "value": {
+                      "main": {
+                        "dimensions": {
+                          "width": 1920,
+                          "height": 1200
+                        },
+                        "alt": null,
+                        "copyright": null,
+                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/36d46373834bbe1d69f09ddbc1982fd3aa911e3e_naked-ute-0.jpg"
+                      },
+                      "views": {
+                      }
+                    }
+                  }
+                },
+                {
+                  "linkText": {
+                    "type": "Text",
+                    "value": "Tribal Sydney"
+                  },
+                  "linkUrl": {
+                    "type": "Link.web",
+                    "value": {
+                      "url": "http://#"
+                    }
+                  },
+                  "linkImage": {
+                    "type": "Image",
+                    "value": {
+                      "main": {
+                        "dimensions": {
+                          "width": 1920,
+                          "height": 1200
+                        },
+                        "alt": null,
+                        "copyright": null,
+                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/36d46373834bbe1d69f09ddbc1982fd3aa911e3e_naked-ute-0.jpg"
+                      },
+                      "views": {
+                      }
+                    }
+                  }
+                },
+                {
+                  "linkText": {
+                    "type": "Text",
+                    "value": "RAPP Sydney"
+                  },
+                  "linkUrl": {
+                    "type": "Link.web",
+                    "value": {
+                      "url": "http://#"
+                    }
+                  },
+                  "linkImage": {
+                    "type": "Image",
+                    "value": {
+                      "main": {
+                        "dimensions": {
+                          "width": 1920,
+                          "height": 1200
+                        },
+                        "alt": null,
+                        "copyright": null,
+                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/36d46373834bbe1d69f09ddbc1982fd3aa911e3e_naked-ute-0.jpg"
+                      },
+                      "views": {
+                      }
+                    }
+                  }
+                },
+                {
+                  "linkText": {
+                    "type": "Text",
+                    "value": "MANGO Sydney"
+                  },
+                  "linkUrl": {
+                    "type": "Link.web",
+                    "value": {
+                      "url": "http://#"
+                    }
+                  },
+                  "linkImage": {
+                    "type": "Image",
+                    "value": {
+                      "main": {
+                        "dimensions": {
+                          "width": 1920,
+                          "height": 1200
+                        },
+                        "alt": null,
+                        "copyright": null,
+                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/36d46373834bbe1d69f09ddbc1982fd3aa911e3e_naked-ute-0.jpg"
+                      },
+                      "views": {
+                      }
+                    }
+                  }
+                },
+                {
+                  "linkText": {
+                    "type": "Text",
+                    "value": "DDB Melbourne"
+                  },
+                  "linkUrl": {
+                    "type": "Link.web",
+                    "value": {
+                      "url": "http://ddbmelbourne.com"
+                    }
+                  },
+                  "linkImage": {
+                    "type": "Image",
+                    "value": {
+                      "main": {
+                        "dimensions": {
+                          "width": 1024,
+                          "height": 500
+                        },
+                        "alt": null,
+                        "copyright": null,
+                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/0bcae21dd9d2812f6385764efa72fe61ac640fe3_melbourne-landing.jpg"
+                      },
+                      "views": {
+                      }
+                    }
+                  }
+                },
+                {
+                  "linkText": {
+                    "type": "Text",
+                    "value": "Tribal Melbourne"
+                  },
+                  "linkUrl": {
+                    "type": "Link.web",
+                    "value": {
+                      "url": "http://#"
+                    }
+                  },
+                  "linkImage": {
+                    "type": "Image",
+                    "value": {
+                      "main": {
+                        "dimensions": {
+                          "width": 1024,
+                          "height": 500
+                        },
+                        "alt": null,
+                        "copyright": null,
+                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/0bcae21dd9d2812f6385764efa72fe61ac640fe3_melbourne-landing.jpg"
+                      },
+                      "views": {
+                      }
+                    }
+                  }
+                },
+                {
+                  "linkText": {
+                    "type": "Text",
+                    "value": "RAPP Melbourne"
+                  },
+                  "linkUrl": {
+                    "type": "Link.web",
+                    "value": {
+                      "url": "http://#"
+                    }
+                  },
+                  "linkImage": {
+                    "type": "Image",
+                    "value": {
+                      "main": {
+                        "dimensions": {
+                          "width": 1024,
+                          "height": 500
+                        },
+                        "alt": null,
+                        "copyright": null,
+                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/0bcae21dd9d2812f6385764efa72fe61ac640fe3_melbourne-landing.jpg"
+                      },
+                      "views": {
+                      }
+                    }
+                  }
+                },
+                {
+                  "linkText": {
+                    "type": "Text",
+                    "value": "MANGO Melbourne"
+                  },
+                  "linkUrl": {
+                    "type": "Link.web",
+                    "value": {
+                      "url": "http://#"
+                    }
+                  },
+                  "linkImage": {
+                    "type": "Image",
+                    "value": {
+                      "main": {
+                        "dimensions": {
+                          "width": 1024,
+                          "height": 500
+                        },
+                        "alt": null,
+                        "copyright": null,
+                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/0bcae21dd9d2812f6385764efa72fe61ac640fe3_melbourne-landing.jpg"
+                      },
+                      "views": {
                       }
                     }
                   }
@@ -6106,12 +6290,12 @@
                     "value": {
                       "main": {
                         "dimensions": {
-                          "width": 1050,
+                          "width": 1250,
                           "height": 900
                         },
                         "alt": null,
                         "copyright": null,
-                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/7d9da56644b5a4d7b7ae8932f0e1f7d0752401b7_principle-1.jpg"
+                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/1efd0d0be2513b0007287a9d7e6c80360fd9949c_principle-1.jpg"
                       },
                       "views": {
                       }
@@ -6141,12 +6325,12 @@
                     "value": {
                       "main": {
                         "dimensions": {
-                          "width": 1050,
+                          "width": 1250,
                           "height": 900
                         },
                         "alt": null,
                         "copyright": null,
-                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/3d865e43e811e06a1a4a9fe7ea6cf10726018573_principle-2.jpg"
+                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/f1235fafdb5c674810cd3cb8f4b63fa0907aa689_principle-2.jpg"
                       },
                       "views": {
                       }
@@ -6176,12 +6360,12 @@
                     "value": {
                       "main": {
                         "dimensions": {
-                          "width": 1050,
+                          "width": 1250,
                           "height": 900
                         },
                         "alt": null,
                         "copyright": null,
-                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/91c924f57bf29d8d1df0734db2f45c9f81d34be2_principle-3.jpg"
+                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/3bb7a6dc37c69e43ba4b1c090273dd276607d4d5_principle-3.jpg"
                       },
                       "views": {
                       }
@@ -6211,12 +6395,12 @@
                     "value": {
                       "main": {
                         "dimensions": {
-                          "width": 1050,
+                          "width": 1250,
                           "height": 900
                         },
                         "alt": null,
                         "copyright": null,
-                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/f0ad0b5e5d633e7374e9812055ac8a83be803184_principle-4.jpg"
+                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/e0a3e54d9d12539c59338c26270627ea23e4bae0_principle-4.jpg"
                       },
                       "views": {
                       }
@@ -6246,12 +6430,12 @@
                     "value": {
                       "main": {
                         "dimensions": {
-                          "width": 1050,
+                          "width": 1250,
                           "height": 900
                         },
                         "alt": null,
                         "copyright": null,
-                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/f4538b01533ff731bd55976b4bf2fdd5fa809643_principle-5.jpg"
+                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/2d12b476cc66c144532b4995dffa8e8be03a3a63_principle-5.jpg"
                       },
                       "views": {
                       }
@@ -6263,7 +6447,7 @@
                   },
                   "copy": {
                     "type": "Text",
-                    "value": "We try to be honest and authentic.\n<br class=\"all\">\n<br class=\"all\">\n\u0003We speak as human beings - \u0003no jargon, no bullshit."
+                    "value": "We try to be honest and authentic.\n<br class=\"all\">\n<br class=\"all\"> \n\u0003We speak as human beings - \u0003no jargon, no bullshit."
                   },
                   "style": {
                     "type": "Select",
@@ -7001,7 +7185,7 @@
                   },
                   "headline": {
                     "type": "Text",
-                    "value": "Our people <br>& their culture."
+                    "value": "Our people<br class=\"all\"/> & their culture."
                   },
                   "linkUrl": {
                     "type": "Link.document",
@@ -7034,23 +7218,14 @@
                     "value": {
                       "main": {
                         "dimensions": {
-                          "width": 1324,
-                          "height": 1000
+                          "width": 835,
+                          "height": 557
                         },
                         "alt": null,
                         "copyright": null,
-                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/1e28e8c15b40437a9de4f21ee93cd04d12d33d67_fff.jpg"
+                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/7fe1d64d2d01fd2bec703f590b88e110ecdf504f_fame-feeling-fluency.jpg"
                       },
                       "views": {
-                        "desktop": {
-                          "dimensions": {
-                            "width": 960,
-                            "height": 825
-                          },
-                          "alt": null,
-                          "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/460655d347de072252e2ad114c3389c1766dd50b_fff.jpg"
-                        },
                         "mobile": {
                           "dimensions": {
                             "width": 800,
@@ -7058,14 +7233,23 @@
                           },
                           "alt": null,
                           "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/6d182411de3ad06662cdd58a5096e3b9562eabf3_fff.jpg"
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/11237bac017de24152af608a27ba900b2f5bde29_fame-feeling-fluency.jpg"
+                        },
+                        "desktop": {
+                          "dimensions": {
+                            "width": 960,
+                            "height": 825
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/97ce14741680b4f0b18c62f8b0cdc6c9634f9e72_fame-feeling-fluency.jpg"
                         }
                       }
                     }
                   },
                   "headline": {
                     "type": "Text",
-                    "value": "Creating <br>Unreasonable <br>Growth"
+                    "value": "Creating <br class=\"all\"/> Unreasonable<br class=\"all\"/> Growth"
                   },
                   "linkUrl": {
                     "type": "Link.document",
@@ -7191,7 +7375,7 @@
                   },
                   "copy": {
                     "type": "Text",
-                    "value": "Ensuring every bump <br>gets a good start."
+                    "value": "Ensuring every bump <br class=\"all\"/> gets a good start."
                   },
                   "image": {
                     "type": "Image",
@@ -7368,7 +7552,7 @@
                   },
                   "copy": {
                     "type": "Text",
-                    "value": "D&AD Designing<br> for mobile"
+                    "value": "D&AD Designing<br class=\"all\"/> for mobile."
                   },
                   "linkUrl": {
                     "type": "Link.web",
@@ -7416,6 +7600,15 @@
                         "url": "http://ddb-website.cdn.prismic.io/ddb-website/a7f1c42ed824f6fa938641be5b1bd491374e59ff_screen-shot-2017-03-08-at-3.01.05-pm-2.png"
                       },
                       "views": {
+                        "mobile": {
+                          "dimensions": {
+                            "width": 800,
+                            "height": 820
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/644ff88f1fb09195a7c90bd5e090860dc6a159dd_screen-shot-2017-03-08-at-3.01.05-pm-2.png"
+                        },
                         "desktop": {
                           "dimensions": {
                             "width": 1920,
@@ -7424,15 +7617,6 @@
                           "alt": null,
                           "copyright": null,
                           "url": "http://ddb-website.cdn.prismic.io/ddb-website/0dedb820befb48f354a46b89322d3398de408d72_screen-shot-2017-03-08-at-3.01.05-pm-2.png"
-                        },
-                        "mobile": {
-                          "dimensions": {
-                            "width": 800,
-                            "height": 820
-                          },
-                          "alt": null,
-                          "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/37598fc4d759b3845eee7f4a5d21c4abdda97a98_screen-shot-2017-03-08-at-3.01.05-pm-2.png"
                         }
                       }
                     }
@@ -7469,7 +7653,7 @@
                   },
                   "copy": {
                     "type": "Text",
-                    "value": "When is a car more<br>than a car?"
+                    "value": "When is a car more<br class=\"all\"/> than a car?"
                   },
                   "image": {
                     "type": "Image",
@@ -7561,7 +7745,7 @@
                   },
                   "copy": {
                     "type": "Text",
-                    "value": "Strategically solid, innovative thinkers wanted"
+                    "value": "Strategically solid, innovative thinkers wanted."
                   },
                   "linkUrl": {
                     "type": "Link.document",
@@ -7667,7 +7851,7 @@
                   },
                   "copy": {
                     "type": "Text",
-                    "value": "Do you think creatively<br>& act strategically?"
+                    "value": "Do you think creatively<br class=\"all\"/> & act strategically?"
                   },
                   "linkUrl": {
                     "type": "Link.document",
@@ -7696,7 +7880,7 @@
                   },
                   "copy": {
                     "type": "Text",
-                    "value": "Culture dwarfs category"
+                    "value": "Culture dwarfs category."
                   },
                   "linkUrl": {
                     "type": "Link.document",
@@ -7734,7 +7918,7 @@
                   },
                   "copy": {
                     "type": "Text",
-                    "value": "Got the appetite? <br>We'll bring the opportunity."
+                    "value": "Got the appetite?<br class=\"all\"/> We'll bring the opportunity."
                   },
                   "image": {
                     "type": "Image",
@@ -7802,7 +7986,7 @@
                   },
                   "copy": {
                     "type": "Text",
-                    "value": "Can we sell a Golf to town <br>that doesn’t need its city technology?"
+                    "value": "Can we sell a Golf to town that doesn’t need its city technology?"
                   },
                   "image": {
                     "type": "Image",

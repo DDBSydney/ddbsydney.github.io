@@ -8,11 +8,17 @@
 
 .about-group-tiles {
   @extend %table;
-
   margin-top: -1px;  // mobile 'line' fix
 
-  color: black;
-  background-color: #ffffff;
+  // component colours
+  &[data-style="white"]  { color: #000000; background-color: #ffffff; }
+  &[data-style="yellow"] { color: #000000; background-color: $color_yellow_ddb; }
+  &[data-style="grey"]   { color: #ffffff; background-color: $color_grey_warm; }
+
+  // diagram line colours
+  &[data-style="white"]  { .middle-col { border-color: #414142 !important; } }
+  &[data-style="yellow"] { .middle-col { border-color: #a08304 !important; } }
+  &[data-style="grey"]   { .middle-col { border-color: #aaaaaa !important; } }
 
   vertical-align: middle;
   @include section--padding-h("lg");
@@ -33,7 +39,7 @@
     justify-content: center;
 
     .group-diagram-tile {
-      @extend %flex--col; 
+      @extend %flex--col;
       flex-basis: 20%;
       width: 20%;
       max-width: 20%;
@@ -147,9 +153,6 @@
     @include mobile    { width: 50%; }
     @include mobile-sm { width: 80%; }
 
-    // $about_group_tile_line_colour: #414142;  // sketch colour
-    $about_group_tile_borders: 1px solid #a08304;
-
     .middle-col {
       height: 20px;
       width: 25%;
@@ -158,23 +161,23 @@
 
     .top-row {
       .middle-col {
-        border-bottom: $about_group_tile_borders;
+        border-bottom: 1px solid;
       }
 
       .middle-col:nth-child(2) {
-        border-right: $about_group_tile_borders;
+        border-right: 1px solid;
       }
 
       .middle-col:nth-child(3) {
-        border-left: $about_group_tile_borders;
+        border-left: 1px solid;
       }
     }
 
     .bottom-row {
       .middle-col {
-        border-right: $about_group_tile_borders;
-        border-left: $about_group_tile_borders;
-        border-top: $about_group_tile_borders;
+        border-right: 1px solid;
+        border-left: 1px solid;
+        border-top: 1px solid;
       }
     }
 
@@ -186,12 +189,12 @@
 
         .middle-col:first-child {
           border-left: none;
-          border-right: $about_group_tile_borders;
+          border-right: 1px solid;
         };
 
         .middle-col:last-child {
           border-right: none;
-          border-left: $about_group_tile_borders;
+          border-left: 1px solid;
         };
       }
 
@@ -202,12 +205,12 @@
 
         .middle-col:first-child {
           border-right: none;
-          border-left: $about_group_tile_borders;
+          border-left: 1px solid;
         };
 
         .middle-col:last-child {
           border-left: none;
-          border-right: $about_group_tile_borders;
+          border-right: 1px solid;
         };
       }
     }

@@ -1,0 +1,56 @@
+{% assign tiles = include.data %}
+
+<!-- intro group tiles -->
+<div id="group" class="intro-group-tile">
+
+  <div class="intro-group-tile__groups">
+    {% for tile in tiles %}
+
+      {% assign link = tile.linkUrl %}
+      {% capture linkUrl %}
+        {% case link.type %}
+
+          {% when "Link.web" %}
+            {{ link.value.url }}
+
+          {% when "Link.document" %}
+            {% if link.value.document.type == "custom-pages" %}
+              {{base}}/sydney/pages/{{link.value.document.uid}}
+            {% elsif link.value.document.type == "case-studies" %}
+              {{base}}/sydney/work/{{link.value.document.uid}}
+            {% elsif link.value.document.type == "about-pages" %}
+              {{base}}/sydney/about/{{link.value.document.uid}}
+            {% elsif link.value.document.type == "article-pages" %}
+              {{base}}/sydney/articles/{{link.value.document.uid}}
+            {% elsif link.value.document.type == "career-listings" %}
+              {{base}}/sydney/careers/{{link.value.document.uid}}
+            {% elsif link.value.document.uid == "latest" %}
+              {{base}}/sydney/
+            {% else %}
+              {{base}}/sydney/{{link.value.document.uid}}
+            {% endif %}
+
+        {% endcase %}
+      {% endcapture %}
+
+      <div class="intro-group-tile__groups__col">
+        <a class="intro-group-tile__link" href="{{ linkUrl | normalize_whitespace }}">
+
+          {% if tile.linkImage.value %}
+          <div class="intro-group-tile__link__image" style="background-image: url('{{ tile.linkImage.value.main.url }}');">
+          </div>
+          {% endif %}
+
+          {% if tile.linkUrl.value %}
+            <span> {{tile.linkText.value}} </span>
+          {% endif %}
+
+        </a>
+      </div>
+
+    {% endfor %}
+
+  </div>
+
+</div>
+<!-- intro group tiles end -->

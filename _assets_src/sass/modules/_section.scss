@@ -269,7 +269,8 @@ $section_header_opacity: 0.15;
 
     transform: translateY(0);
     background-color: transparent;
-    @include transitions(transform, background-color);
+    // @include transitions(transform, background-color);
+    transition: transform 400ms ease;
 
     &-hidden { transform: translateY(-100%); }
     // &-sticky { background-color: rgba(black, $section_header_opacity); }
