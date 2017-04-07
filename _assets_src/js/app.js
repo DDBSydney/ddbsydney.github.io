@@ -112,7 +112,10 @@ console.log(CONFIG);
       _header = new Header({ element: query(".header")[0] });
 
       // create and initialise the intro-tile component
-      _introTile = new IntroTile({ element: query(".intro-tile")[0] });
+      _introTile = new IntroTile({
+        element: query(".intro-tile")[0],
+        group: query(".intro-group-tile")[0]
+      });
 
       // create and intialise the promo video components
       query(".promo-video").forEach(function(element, index){
