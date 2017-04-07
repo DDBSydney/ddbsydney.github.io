@@ -1,0 +1,60 @@
+// -------------------------------------
+//   Component - Intro Group Tile
+// -------------------------------------
+/**
+  * @name intro-group-tile
+  * @desc Styles for the intro group tile component.
+**/
+
+$igt__col_spacing_multi: 0.75;
+
+
+
+.intro-group-tile {
+  @extend %section;
+  width: 100vw;
+  // height: 100vh;
+  min-width: $base_html_w_min;
+  min-height: $base_html_w_min;
+  @include section--padding-v("lg", 1);
+  @include section--padding-h("sm", 2);
+}
+
+
+
+.intro-group-tile__groups {
+  @extend %flex--row;
+  @include section--margin-h("sm", -$igt__col_spacing_multi);
+
+  &__col {
+    flex-basis: (100% / 4);
+    @include mobile { flex-basis: (100% / 2); }
+    @include section--padding-h("sm", $igt__col_spacing_multi/2);
+    box-sizing: border-box;
+  }
+}
+
+
+
+.intro-group-tile__link {
+  display: block;
+  width: 100%;
+  padding-bottom: 10px;
+
+  &__image {
+    width: 100%;
+    height: 0;
+    padding-bottom: 63%;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+
+  span {
+    display: block;
+    padding: 15px 5px;
+    @include font--style("h4");
+    font-family: $font_family_bold;
+  }
+}

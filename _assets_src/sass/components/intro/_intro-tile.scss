@@ -8,7 +8,8 @@
 
 .intro-tile {
   @extend %section;
-  height: 100vh; width: 100vw;
+  width: 100vw;
+  height: 100vh;
   min-width: $base_html_w_min;
   min-height: $base_html_w_min;
 }
