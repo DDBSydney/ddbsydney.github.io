@@ -70,8 +70,9 @@ var CONFIG = require("../../config");
     // ---------------------------------------------
     // check if the promo video has valid options
     // element - should be a valid DOM element
-    if(!options || !options.element
-      || !options.element.nodeName || !options.element.nodeType) {
+    if(!options
+       || !options.element || !options.element.nodeName || !options.element.nodeType
+       || !options.group || !options.group.nodeName || !options.group.nodeType) {
       console.log("intro-tile.component.js: Cannot create intro-tile with invalid options.");
       return null;  // return null if invalid
     }
@@ -84,6 +85,7 @@ var CONFIG = require("../../config");
     _el.anchors.group     = options.element.querySelector("[data-link-anchor=group]");
     _el.anchors.sydney    = options.element.querySelector("[data-link-anchor=sydney]");
     _el.anchors.melbourne = options.element.querySelector("[data-link-anchor=melbourne]");
+
 
     // @name _onAnchorHover
     // @desc function to set up anchor mouseover hooks
@@ -122,10 +124,12 @@ var CONFIG = require("../../config");
     });
 
     // filthy jquery scrolling to #group section
+    $(options.group).hide(0);
     _el.anchors.group.addEventListener("click", function(e) {
       e.preventDefault();
+      $(options.group).show(0);
       $('html, body').animate({
-        scrollTop: $("#group").offset().top
+        scrollTop: $(options.group).offset().top
       }, 400);
     });
 
