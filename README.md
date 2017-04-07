@@ -45,8 +45,11 @@ Everything else should work fine (unless you're on Windows)
 
 Note that GitHub pages will automatically take whatever is in the **master** branch, compile it with Jekyll (if possible/required), and then host it - this means that as a developer:
 
-- You should _never_ be making changes in the **master** branch, ever
-- Once your stuff is feature complete, merge it into the **gh-pages-ci** branch and push it up (this will trigger a rebuild on the site)
+- Make changes in a feature branch, if possible - then merge them into develop when it's at a stable point
+- Only make changes in the **develop** branch if they're urgent/simple
+- You should _never_ make changes in the **master** branch, ever
+- You should also _never_ make changes in the **gh-pages-ci** branch, either
+- Once all your changes are tested and working in the **develop** branch, merge them into the **gh-pages-ci** branch and push it up (this will trigger an automatic rebuild and deployment on the site)
 
 ## Non-Dev Cycle
 
