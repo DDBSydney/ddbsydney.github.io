@@ -174,7 +174,8 @@
                     "placeholder" : "None",
                     "options" : [
                       "white",
-                      "yellow"
+                      "yellow",
+                      "grey"
                     ]
                   }
                 }
@@ -206,6 +207,18 @@
                   "config" : {
                     "label": "Copy",
                     "placeholder" : "Copy text"
+                  }
+                },
+                "style" : {
+                  "type" : "Select",
+                   "config" : {
+                    "label" : "Style (background)",
+                    "placeholder" : "None",
+                    "options" : [
+                      "white",
+                      "yellow",
+                      "grey"
+                    ]
                   }
                 }
               }

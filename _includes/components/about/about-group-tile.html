@@ -1,7 +1,7 @@
 {% assign tiles = include.data %}
 
 <!-- about-group tiles -->
-<div id="group" class="about-group-tiles">
+<div id="group" class="about-group-tiles" data-style="{{ tile.style.value | default: 'white' }}">
 
   {% for tile in tiles %}
 
