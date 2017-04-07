@@ -119,6 +119,43 @@
                 }
               }
             }
+          },
+
+
+
+          "intro-group-tile" : {
+            "type" : "Group",
+            "config" : {
+              "label" : "Intro group tile",
+              "repeat" : true,
+              "fields" : {
+                "linkText" : {
+                  "type" : "Text",
+                  "config" : {
+                    "label": "Link Text",
+                    "placeholder" : "Link text"
+                  }
+                },
+                "linkUrl" : {
+                  "type" : "Link",
+                  "config" : {
+                    "label" : "Link URL",
+                    "placeholder" : "Link URL"
+                  }
+                },
+                "linkImage" : {
+                  "type" : "Image",
+                  "config" : {
+                    "label" : "Image",
+                    "constraint" : {
+                      "width" : null,
+                      "height" : null
+                    },
+                    "thumbnails": [ ]
+                  }
+                }
+              }
+            }
           }
 
 

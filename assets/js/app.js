@@ -1442,6 +1442,14 @@ var CONFIG = require("../../config");
       _el.anchors.sydney.dispatchEvent(eventMouseOver);
     });
 
+    // filthy jquery scrolling to #group section
+    _el.anchors.group.addEventListener("click", function(e) {
+      e.preventDefault();
+      $('html, body').animate({
+        scrollTop: $("#group").offset().top
+      }, 400);
+    });
+
     // ---------------------------------------------
     //   Instance block
     // ---------------------------------------------
