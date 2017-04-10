@@ -50,6 +50,7 @@
 
   a {
     margin-top: 1em;
+    line-height: 2em;  // for multiline spacing
     &:first-child { margin-top: 0; }
     &:last-child  { margin-bottom: 0; }
   }
