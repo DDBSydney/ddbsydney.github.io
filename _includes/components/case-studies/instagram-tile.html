@@ -1,0 +1,73 @@
+{% assign tile = include.data[0] %}
+{% assign fgCol = "" %}
+{% assign bgCol = "" %}
+
+{% if tile.backgroundColor.value %}
+  {% capture bgCol %}
+
+    style="
+    {% if tile.backgroundColor.value %}
+      background-color: {{ tile.backgroundColor.value }};
+    {% endif %}
+    "
+
+  {% endcapture %}
+{% endif %}
+
+{% if tile.foregroundColor.value or page_data.foregroundColor.value %}
+  {% capture fgCol %}
+
+    style="
+    {% if tile.foregroundColor.value %}
+      color: {{ tile.foregroundColor.value }};
+    {% elsif page_data.foregroundColor.value %}
+      color: {{ page_data.foregroundColor.value }};
+    {% endif %}
+    "
+
+  {% endcapture %}
+{% endif %}
+
+
+
+<!-- instagram tile -->
+<div class="instagram-tile" {{ bgCol | normalize_whitespace }}>
+
+  <!-- instagram -->
+  <div class="instagram-tile__content">
+
+    <!-- container -->
+    <div class="container">
+
+      {% if tile.headline.value %}
+      <h5 class="instagram-tile__content--headline" data-align="{{ tile.alignHeadline.value | default: 'center' }}" {{ fgCol | normalize_whitespace }}>{{ tile.headline.value }}</h5>
+      {% endif %}
+
+      {% if tile.subline.value %}
+      <h4 class="instagram-tile__content--subline" data-align="{{ tile.alignSubline.value | default: 'center' }}" {{ fgCol | normalize_whitespace }}>{{ tile.subline.value }}</h4>
+      {% endif %}
+
+      {% if tile.copy.value %}
+      <p class="instagram-tile__content--copy" data-align="{{ tile.alignCopy.value | default: 'center' }}" {{ fgCol | normalize_whitespace }}>{{ tile.copy.value }}</p>
+      {% endif %}
+
+      <!-- Instagram embeds -->
+      {% if tile.embeds.value %}
+      <ul class="instagram-tile__embeds">
+        {% for item in tile.embeds.value %}
+        <li class="instagram-tile__embeds-item"{{ fgCol | normalize_whitespace }}>
+          <blockquote class="instagram-media" data-instgrm-captioned data-instgrm-version="7">
+            <a href="https://www.instagram.com/p/{{item.text}}/"></a>
+          </blockquote>
+        </li>
+        {% endfor %}
+      </ul>
+      <script async defer src="//platform.instagram.com/en_US/embeds.js"></script>
+      {% endif %}
+      <!-- Instagram embeds end -->
+
+    </div><!-- container end -->
+
+  </div><!-- instagram end -->
+
+</div><!-- instagram tile end -->

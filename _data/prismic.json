@@ -16,7 +16,7 @@
                 {
                   "headline": {
                     "type": "Text",
-                    "value": "Volkswagen Amarok - ‘Korama’"
+                    "value": "Volkswagen"
                   },
                   "copy": {
                     "type": "Text",
@@ -32,7 +32,7 @@
                         },
                         "alt": null,
                         "copyright": null,
-                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/62b97b499c87703edf80ca5b83fcb404f70cc96b_8-video.jpg"
+                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/af1323d1ed9567d719199637eede3b0f278b320f_6-video.jpg"
                       },
                       "views": {
                         "desktop": {
@@ -42,7 +42,7 @@
                           },
                           "alt": null,
                           "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/f031dc153fea2ba654f051b57540e8b32b500511_8-video.jpg"
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/45629cd4de3ac701f82e8fc2229a3d4f438fdf2b_6-video.jpg"
                         },
                         "mobile": {
                           "dimensions": {
@@ -51,14 +51,14 @@
                           },
                           "alt": null,
                           "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/3ce88502cc46481bd53166eec3524e680b6e5e83_8-video.jpg"
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/39eeea54628432187f3062d66067c903e4bfad3b_6-video.jpg"
                         }
                       }
                     }
                   },
                   "align": {
                     "type": "Select",
-                    "value": "center"
+                    "value": "right"
                   }
                 }
               ]
@@ -73,7 +73,22 @@
                   },
                   "copy": {
                     "type": "Text",
-                    "value": "The new Volkswagen Amarok V6 is the most powerful pick-up truck in its class. But Aussies blokes couldn’t look past its European styling and see it for the class-leading truck that it was."
+                    "value": "The Amarok V6 is the most powerful pick-up truck in its class. But Aussies blokes couldn’t look past its European styling and see it for the class-leading truck that it was."
+                  }
+                }
+              ]
+            },
+            {
+              "type": "content-tile",
+              "value": [
+                {
+                  "headline": {
+                    "type": "Text",
+                    "value": "The Solution"
+                  },
+                  "subline": {
+                    "type": "Text",
+                    "value": "If Aussie drivers were going to judge our truck by its cover we had to change the cover."
                   }
                 }
               ]
@@ -97,63 +112,15 @@
                 {
                   "headline": {
                     "type": "Text",
-                    "value": "The Solution"
+                    "value": "1. CREATING THE PROTOTYPE"
                   },
                   "subline": {
                     "type": "Text",
-                    "value": "If Aussie drivers were going to judge our truck by its cover we had to change the cover."
-                  }
-                }
-              ]
-            },
-            {
-              "type": "image-tile",
-              "value": [
-                {
-                  "image": {
-                    "type": "Image",
-                    "value": {
-                      "main": {
-                        "dimensions": {
-                          "width": 1920,
-                          "height": 1080
-                        },
-                        "alt": null,
-                        "copyright": null,
-                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/96dcbc1af717fe4d87ca5a7549bf6a735eeb81c7_2-text.jpg"
-                      },
-                      "views": {
-                        "mobile": {
-                          "dimensions": {
-                            "width": 800,
-                            "height": 820
-                          },
-                          "alt": null,
-                          "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/ea550dedf0248f1388c0acbb61b95f9cecc948d3_2-text.jpg"
-                        },
-                        "desktop": {
-                          "dimensions": {
-                            "width": 1920,
-                            "height": 900
-                          },
-                          "alt": null,
-                          "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/3f2fb94c1b6b0f57e163d63bbe6225f54a2a359f_2-text.jpg"
-                        }
-                      }
-                    }
-                  }
-                }
-              ]
-            },
-            {
-              "type": "content-tile",
-              "value": [
-                {
+                    "value": "We built a completely new shell for the Amarok V6 that made it look as mean as the V6 engine that powered it."
+                  },
                   "copy": {
                     "type": "Text",
-                    "value": "1. CREATING THE PROTOTYPE\n<br>So we built a completely new shell for the Amarok V6 that made it look as mean as the V6 engine that powered it."
+                    "value": ""
                   },
                   "imageDesktop": {
                     "type": "Image",
@@ -194,9 +161,13 @@
               "type": "content-tile",
               "value": [
                 {
+                  "headline": {
+                    "type": "Text",
+                    "value": "2. LEAKING THE PROTOTYPE"
+                  },
                   "copy": {
                     "type": "Text",
-                    "value": "2. LEAKING THE PROTOTYPE\n<br>Next, we leaked spy shots of the 'mystery prototype' to editorial media channels, igniting excitement and debate amongst performance enthusiasts."
+                    "value": "Next, we leaked spy shots of the 'mystery prototype' to editorial media channels, igniting excitement and debate amongst performance enthusiasts."
                   },
                   "imageDesktop": {
                     "type": "Image",
@@ -237,9 +208,17 @@
               "type": "content-tile",
               "value": [
                 {
+                  "headline": {
+                    "type": "Text",
+                    "value": "3. TESTING THE PROTOTYPE"
+                  },
+                  "subline": {
+                    "type": "Text",
+                    "value": "While the debate continued, we invited four unsuspecting performance enthusiasts to put the prototype to the test. With no preconceptions holding them back, the drivers were amazed by its raw power."
+                  },
                   "copy": {
                     "type": "Text",
-                    "value": "3. TESTING THE PROTOTYPE\n<br>While the debate continued, we invited four unsuspecting performance enthusiasts to put the prototype to the test. With no preconceptions holding them back, the drivers were amazed by its raw power."
+                    "value": ""
                   },
                   "imageDesktop": {
                     "type": "Image",
@@ -280,9 +259,17 @@
               "type": "content-tile",
               "value": [
                 {
+                  "headline": {
+                    "type": "Text",
+                    "value": "4. REVEALING THE PROTOTYPE"
+                  },
+                  "subline": {
+                    "type": "Text",
+                    "value": "We then revealed the identity of the prototype by retargeting our audience online, changing the conversation from a powerful prototype to the powerful Amarok V6."
+                  },
                   "copy": {
                     "type": "Text",
-                    "value": "4. REVEALING THE PROTOTYPE\n<br>We then revealed the identity of the prototype by retargeting our audience online, changing the conversation from a powerful prototype to the powerful Amarok V6."
+                    "value": ""
                   },
                   "imageDesktop": {
                     "type": "Image",
@@ -320,53 +307,16 @@
               ]
             },
             {
-              "type": "image-tile",
-              "value": [
-                {
-                  "image": {
-                    "type": "Image",
-                    "value": {
-                      "main": {
-                        "dimensions": {
-                          "width": 1920,
-                          "height": 1080
-                        },
-                        "alt": null,
-                        "copyright": null,
-                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/30285d96d6d013ff737d2a2d77f64a0802729f16_9-outro.jpg"
-                      },
-                      "views": {
-                        "desktop": {
-                          "dimensions": {
-                            "width": 1920,
-                            "height": 900
-                          },
-                          "alt": null,
-                          "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/b1df150e72ccdc98a6a5a77fade4469631c5ebb1_9-outro.jpg"
-                        },
-                        "mobile": {
-                          "dimensions": {
-                            "width": 800,
-                            "height": 820
-                          },
-                          "alt": null,
-                          "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/5ad7a16f4e15de5ce174b7fb1d30f438bc595371_9-outro.jpg"
-                        }
-                      }
-                    }
-                  }
-                }
-              ]
-            },
-            {
               "type": "content-tile",
               "value": [
                 {
-                  "copy": {
+                  "headline": {
                     "type": "Text",
-                    "value": "Not only did we announce the launch of the new Amarok V6, generating a significant amount of intrigue and excitement but we also sold some utes. The Amarok V6 model made up 38% of the Amarok sales in the first month and has broken Amarok sales records every month since launch"
+                    "value": "The Results"
+                  },
+                  "subline": {
+                    "type": "Text",
+                    "value": "Not only did we announce the launch of the new Amarok V6, generating a significant amount of intrigue and excitement but we also sold some utes. The Amarok V6 model made up 38% of the Amarok sales in the first month and has broken Amarok sales records every month since launch."
                   }
                 }
               ]
@@ -895,19 +845,19 @@
                   },
                   "copy": {
                     "type": "Text",
-                    "value": "For those that buy the car, not the ad."
+                    "value": "This is how we got car buyers to open their eyes to the ŠKODA Octavia."
                   },
                   "image": {
                     "type": "Image",
                     "value": {
                       "main": {
                         "dimensions": {
-                          "width": 1920,
-                          "height": 1200
+                          "width": 1479,
+                          "height": 613
                         },
                         "alt": null,
                         "copyright": null,
-                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/b4719e616acbfd04a2457228940011cefa1d0c1d_screen-shot-2017-03-08-at-3.21.19-pm-2.png"
+                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/d642cf99bdc8aefd0b8bbb4eaa2cb086cf00975c_screen-shot-2017-03-30-at-3.19.55-pm.png"
                       },
                       "views": {
                         "mobile": {
@@ -917,7 +867,7 @@
                           },
                           "alt": null,
                           "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/aabe4b0c441c4e5ef3d31f6e474fdfef6117acb6_screen-shot-2017-03-08-at-3.21.19-pm-2.png"
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/ab63c22bf45e22f9c6683842624f30eaea59863a_screen-shot-2017-03-30-at-3.19.55-pm.png"
                         },
                         "desktop": {
                           "dimensions": {
@@ -926,7 +876,7 @@
                           },
                           "alt": null,
                           "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/1ef972071d5bec6371dc460d210d714f7747d2dc_screen-shot-2017-03-08-at-3.21.19-pm-2.png"
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/ef45be9b7b17f538ff06cd7303c37e8f0f8c42a3_screen-shot-2017-03-30-at-3.19.55-pm.png"
                         }
                       }
                     }
@@ -950,71 +900,6 @@
               ]
             },
             {
-              "type": "video-tile",
-              "value": [
-                {
-                  "video": {
-                    "type": "Link.web",
-                    "value": {
-                      "url": "https://player.vimeo.com/video/207242410"
-                    }
-                  }
-                }
-              ]
-            },
-            {
-              "type": "content-tile",
-              "value": [
-                {
-                  "copy": {
-                    "type": "Text",
-                    "value": "How could we get car buyers to open their eyes to the ŠKODA Octavia?"
-                  }
-                }
-              ]
-            },
-            {
-              "type": "image-tile",
-              "value": [
-                {
-                  "image": {
-                    "type": "Image",
-                    "value": {
-                      "main": {
-                        "dimensions": {
-                          "width": 1920,
-                          "height": 1200
-                        },
-                        "alt": null,
-                        "copyright": null,
-                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/b99e9b17e65c12677faed157c08c676ea51c0e56_screen-shot-2017-03-08-at-3.22.00-pm-2.png"
-                      },
-                      "views": {
-                        "desktop": {
-                          "dimensions": {
-                            "width": 1920,
-                            "height": 900
-                          },
-                          "alt": null,
-                          "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/fd85dd2d4afbd539b016cb2bd3e7b704d5fa8c2f_screen-shot-2017-03-08-at-3.22.00-pm-2.png"
-                        },
-                        "mobile": {
-                          "dimensions": {
-                            "width": 800,
-                            "height": 820
-                          },
-                          "alt": null,
-                          "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/a825f1360bda847f44cdc7266a1ca47ba161dbc9_screen-shot-2017-03-08-at-3.22.00-pm-2.png"
-                        }
-                      }
-                    }
-                  }
-                }
-              ]
-            },
-            {
               "type": "content-tile",
               "value": [
                 {
@@ -1030,41 +915,13 @@
               ]
             },
             {
-              "type": "image-tile",
+              "type": "video-tile",
               "value": [
                 {
-                  "image": {
-                    "type": "Image",
+                  "video": {
+                    "type": "Link.web",
                     "value": {
-                      "main": {
-                        "dimensions": {
-                          "width": 1920,
-                          "height": 1200
-                        },
-                        "alt": null,
-                        "copyright": null,
-                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/b9603587bdc6c3fd6fe36b9df962091a8404396d_screen-shot-2017-03-08-at-3.24.59-pm-2.png"
-                      },
-                      "views": {
-                        "desktop": {
-                          "dimensions": {
-                            "width": 1920,
-                            "height": 900
-                          },
-                          "alt": null,
-                          "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/2bbabcf64ec0116484e574c4c9d61875f1b73eb9_screen-shot-2017-03-08-at-3.24.59-pm-2.png"
-                        },
-                        "mobile": {
-                          "dimensions": {
-                            "width": 800,
-                            "height": 820
-                          },
-                          "alt": null,
-                          "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/e18f8491242dfaea6a63cce938eb0746e4a85872_screen-shot-2017-03-08-at-3.24.59-pm-2.png"
-                        }
-                      }
+                      "url": "https://player.vimeo.com/video/207242410"
                     }
                   }
                 }
@@ -1084,19 +941,6 @@
                   }
                 }
               ]
-            },
-            {
-              "type": "video-tile",
-              "value": [
-                {
-                  "video": {
-                    "type": "Link.web",
-                    "value": {
-                      "url": "https://player.vimeo.com/video/207242415"
-                    }
-                  }
-                }
-              ]
             }
           ]
         }
@@ -1108,6 +952,14 @@
         "meta-title": {
           "type": "Text",
           "value": "Westpac - Bump | DDB Sydney"
+        },
+        "foregroundColor": {
+          "type": "Color",
+          "value": "#000000"
+        },
+        "backgroundColor": {
+          "type": "Color",
+          "value": "#ffffff"
         },
         "sections": {
           "type": "SectionList",
@@ -1134,7 +986,7 @@
                         },
                         "alt": null,
                         "copyright": null,
-                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/19bd4584721f3660d7f84dbabe7cc45ad972bc1a_screen-shot-2017-03-08-at-3.02.04-pm-2.png"
+                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/7b571bea40204bac3a27575093c6ee18f0bbd9f1_screen-shot-2017-03-08-at-3.02.41-pm-2.png"
                       },
                       "views": {
                         "mobile": {
@@ -1144,7 +996,7 @@
                           },
                           "alt": null,
                           "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/ac35b7c35efdfa283d6d03f4e5a0dda011d16166_screen-shot-2017-03-08-at-3.02.04-pm-2.png"
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/11b44e330b9da7d69b3028a4ade9206ab83abe81_screen-shot-2017-03-08-at-3.02.41-pm-2.png"
                         },
                         "desktop": {
                           "dimensions": {
@@ -1153,7 +1005,7 @@
                           },
                           "alt": null,
                           "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/c71bff61785577c140625991221836e2e13315c0_screen-shot-2017-03-08-at-3.02.04-pm-2.png"
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/bfd60237d7fb6a004c068f91f4568d90d549501b_screen-shot-2017-03-08-at-3.02.41-pm-2.png"
                         }
                       }
                     }
@@ -1289,41 +1141,13 @@
               ]
             },
             {
-              "type": "image-tile",
+              "type": "video-tile",
               "value": [
                 {
-                  "image": {
-                    "type": "Image",
+                  "video": {
+                    "type": "Link.web",
                     "value": {
-                      "main": {
-                        "dimensions": {
-                          "width": 1920,
-                          "height": 1200
-                        },
-                        "alt": null,
-                        "copyright": null,
-                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/00735b849f49bf36e1c997e02628b5e3119d725f_screen-shot-2017-03-08-at-3.03.00-pm-2.png"
-                      },
-                      "views": {
-                        "mobile": {
-                          "dimensions": {
-                            "width": 800,
-                            "height": 820
-                          },
-                          "alt": null,
-                          "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/a6e4e33e424812596a4e92bb3111beb078b3f0ad_screen-shot-2017-03-08-at-3.03.00-pm-2.png"
-                        },
-                        "desktop": {
-                          "dimensions": {
-                            "width": 1920,
-                            "height": 900
-                          },
-                          "alt": null,
-                          "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/1e169fa8e06189fd8b5bb7120417e6e06ffab3ee_screen-shot-2017-03-08-at-3.03.00-pm-2.png"
-                        }
-                      }
+                      "url": "https://vimeo.com/204975716"
                     }
                   }
                 }
@@ -1345,19 +1169,6 @@
               ]
             },
             {
-              "type": "video-tile",
-              "value": [
-                {
-                  "video": {
-                    "type": "Link.web",
-                    "value": {
-                      "url": "https://vimeo.com/204975716"
-                    }
-                  }
-                }
-              ]
-            },
-            {
               "type": "content-tile",
               "value": [
                 {
@@ -1367,48 +1178,26 @@
                   },
                   "copy": {
                     "type": "Text",
-                    "value": "Bump has generated phenomenal interest amongst families across Australia.\n<br>- 16,220 Bump registrations in the first week\n<br>- $1.5M in free PR"
-                  }
-                }
-              ]
-            },
-            {
-              "type": "image-tile",
-              "value": [
-                {
-                  "image": {
-                    "type": "Image",
-                    "value": {
-                      "main": {
-                        "dimensions": {
-                          "width": 1920,
-                          "height": 1200
-                        },
-                        "alt": null,
-                        "copyright": null,
-                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/499cf17ad0d911f9b5950382ae914b9fbc49b691_screen-shot-2017-03-08-at-3.03.27-pm-2.png"
+                    "value": "Bump has generated phenomenal interest amongst families across Australia."
+                  },
+                  "list": {
+                    "type": "StructuredText",
+                    "value": [
+                      {
+                        "type": "paragraph",
+                        "text": "16,220 Bump registrations in the first week.",
+                        "spans": [
+
+                        ]
                       },
-                      "views": {
-                        "desktop": {
-                          "dimensions": {
-                            "width": 1920,
-                            "height": 900
-                          },
-                          "alt": null,
-                          "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/79a02fc79674aaedfb3d5c49aaa23b177d7063ec_screen-shot-2017-03-08-at-3.03.27-pm-2.png"
-                        },
-                        "mobile": {
-                          "dimensions": {
-                            "width": 800,
-                            "height": 820
-                          },
-                          "alt": null,
-                          "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/9d3c9b77dfdca82e5a28a60be54d232c64d7235e_screen-shot-2017-03-08-at-3.03.27-pm-2.png"
-                        }
+                      {
+                        "type": "paragraph",
+                        "text": "$1.5M in free PR.",
+                        "spans": [
+
+                        ]
                       }
-                    }
+                    ]
                   }
                 }
               ]
@@ -1500,6 +1289,47 @@
               ]
             },
             {
+              "type": "image-tile",
+              "value": [
+                {
+                  "image": {
+                    "type": "Image",
+                    "value": {
+                      "main": {
+                        "dimensions": {
+                          "width": 1200,
+                          "height": 800
+                        },
+                        "alt": null,
+                        "copyright": null,
+                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/1f4004a943d3b7beec9198e99364c78e8190fa13_comeonin-poster-operahouse.jpg"
+                      },
+                      "views": {
+                        "mobile": {
+                          "dimensions": {
+                            "width": 800,
+                            "height": 820
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/51877c60955fe74f72ddce17efe31c8f58d6c23f_comeonin-poster-operahouse.jpg"
+                        },
+                        "desktop": {
+                          "dimensions": {
+                            "width": 1920,
+                            "height": 900
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/4b33808390b06bab21cf71dba4ff41c9a8ca0169_comeonin-poster-operahouse.jpg"
+                        }
+                      }
+                    }
+                  }
+                }
+              ]
+            },
+            {
               "type": "content-tile",
               "value": [
                 {
@@ -1571,47 +1401,6 @@
               ]
             },
             {
-              "type": "image-tile",
-              "value": [
-                {
-                  "image": {
-                    "type": "Image",
-                    "value": {
-                      "main": {
-                        "dimensions": {
-                          "width": 1200,
-                          "height": 800
-                        },
-                        "alt": null,
-                        "copyright": null,
-                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/1f4004a943d3b7beec9198e99364c78e8190fa13_comeonin-poster-operahouse.jpg"
-                      },
-                      "views": {
-                        "mobile": {
-                          "dimensions": {
-                            "width": 800,
-                            "height": 820
-                          },
-                          "alt": null,
-                          "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/51877c60955fe74f72ddce17efe31c8f58d6c23f_comeonin-poster-operahouse.jpg"
-                        },
-                        "desktop": {
-                          "dimensions": {
-                            "width": 1920,
-                            "height": 900
-                          },
-                          "alt": null,
-                          "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/4b33808390b06bab21cf71dba4ff41c9a8ca0169_comeonin-poster-operahouse.jpg"
-                        }
-                      }
-                    }
-                  }
-                }
-              ]
-            },
-            {
               "type": "content-tile",
               "value": [
                 {
@@ -1650,6 +1439,43 @@
                       "views": {
                       }
                     }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "instagram-tile",
+              "value": [
+                {
+                  "subline": {
+                    "type": "Text",
+                    "value": "126 unsuspecting instagrammers surprised with invites inside. Here are some of them."
+                  },
+                  "embeds": {
+                    "type": "StructuredText",
+                    "value": [
+                      {
+                        "type": "paragraph",
+                        "text": "BALRohCF9Rm",
+                        "spans": [
+
+                        ]
+                      },
+                      {
+                        "type": "paragraph",
+                        "text": "BSiVDkFhmI7",
+                        "spans": [
+
+                        ]
+                      },
+                      {
+                        "type": "paragraph",
+                        "text": "BALz8cYl9ay",
+                        "spans": [
+
+                        ]
+                      }
+                    ]
                   }
                 }
               ]

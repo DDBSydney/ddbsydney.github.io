@@ -1,0 +1,114 @@
+// -------------------------------------
+//   Component - Instagram tile
+// -------------------------------------
+/**
+  * @name instagram-tile
+  * @desc Styles for the instagram tile component.
+**/
+
+$instagram_tile_h_min: 66vw;
+$instagram_tile_h_min_mob: 66vw;
+
+.instagram-tile {
+  @extend %table;
+  min-height: $instagram_tile_h_min;
+  @include mobile { min-height: $instagram_tile_h_min_mob; }
+
+  .instagram-tile__content {
+   @extend %table--col;
+    display: table-cell;
+    vertical-align: middle;
+    @include section--padding("lg");
+
+    @include mobile {
+      @include section--padding-h;
+
+      &--subline + &--copy {
+        @include section--padding-h("md");
+      }
+    }
+
+    &--copy {
+      @include font--style("h2");
+      font-family: $font_family_medium;
+      /* font-weight: $font_weight_medium; */
+    }
+
+    &--subline {
+      font-family: $font_family_medium;
+      /* font-weight: $font_weight_medium; */
+    }
+
+    &--headline,
+    &--subline,
+    &--copy {
+      margin-top: 0;
+      margin-bottom: 1em;
+      &:last-child { margin-bottom: 0; }
+
+      &[data-align="left"]   { text-align: left;   }
+      &[data-align="right"]  { text-align: right;  }
+      &[data-align="center"] { text-align: center; }
+    }
+
+    .instagram-tile__embeds {
+      @extend %flex--row;
+      @include section--padding-h;
+
+      padding: 0;
+      margin: 0 auto;
+
+      @include section--margin-top("md", 0.5);
+      margin-left:  -(get-section--margin("sm", 0.5));
+      margin-right: -(get-section--margin("sm", 0.5));
+
+      &-item {
+        @extend %flex--col;
+
+        padding: 0;
+        padding-left: get-section--padding("sm", 0.5);
+        padding-right: get-section--padding("sm", 0.5);
+        margin: 0 auto;
+        @include section--margin-top("sm");
+
+        @include font--style("h5");
+        list-style: none;
+        text-align: left;
+        flex-basis: 33%;
+        max-width: 33%;
+
+        iframe {
+          width: 100%;
+        }
+      }
+
+      @include tablet-sm {
+        margin-left:  -(get-section--margin("lg", 1) - get-section--margin("sm", 1));
+        margin-right: -(get-section--margin("lg", 1) - get-section--margin("sm", 1));
+      }
+
+      @include mobile {
+        margin-left:  0;
+        margin-right: 0;
+        @include section--margin-top("md");
+
+        padding-left: 0;
+        padding-right: 0;
+
+        &-item {
+          flex-basis: 100%;
+          max-width: 100%;
+
+          padding-left: 0;
+          padding-right: 0;
+          @include section--margin-top("md");
+          &:first-child { margin-top: 0; }
+
+          & > div {
+            @include section--padding-h("lg");
+          }
+        }
+      }
+    }
+  }
+}

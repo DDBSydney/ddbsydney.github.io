@@ -104,6 +104,91 @@
 
 
 
+          "instagram-tile" : {
+            "type" : "Group",
+            "config" : {
+              "label" : "Instagram tile",
+              "repeat" : false,
+              "fields" : {
+                "headline" : {
+                  "type" : "Text",
+                  "config" : {
+                    "label" : "Headline",
+                    "placeholder" : "Headline text"
+                  }
+                },
+                "subline" : {
+                  "type" : "Text",
+                  "config" : {
+                    "label" : "Subline",
+                    "placeholder" : "Subline text"
+                  }
+                },
+                "copy" : {
+                  "type" : "Text",
+                  "config" : {
+                    "label" : "Copy",
+                    "placeholder" : "Copy text"
+                  }
+                },
+                "embeds": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "Embed list (post ID only)",
+                    "multi": "list-item, o-list-item"
+                  }
+                },
+                "alignHeadline" : {
+                  "type" : "Select",
+                  "config" : {
+                    "label" : "Alignment (headline)",
+                    "placeholder" : "center",
+                    "options" : [
+                      "left",
+                      "right"
+                    ]
+                  }
+                },
+                "alignSubline" : {
+                  "type" : "Select",
+                  "config" : {
+                    "label" : "Alignment (subline)",
+                    "placeholder" : "center",
+                    "options" : [
+                      "left",
+                      "right"
+                    ]
+                  }
+                },
+                "alignCopy" : {
+                  "type" : "Select",
+                  "config" : {
+                    "label" : "Alignment (copy)",
+                    "placeholder" : "center",
+                    "options" : [
+                      "left",
+                      "right"
+                    ]
+                  }
+                },
+                "foregroundColor": {
+                  "type": "Color",
+                  "config": {
+                    "label": "Foreground Colour (optional)"
+                  }
+                },
+                "backgroundColor": {
+                  "type": "Color",
+                  "config": {
+                    "label": "Background Colour (optional)"
+                  }
+                }
+              }
+            }
+          },
+
+
+
 
 
 
