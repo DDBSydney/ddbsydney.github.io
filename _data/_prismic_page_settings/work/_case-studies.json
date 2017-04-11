@@ -189,6 +189,37 @@
 
 
 
+          "facebook-tile" : {
+            "type" : "Group",
+            "config" : {
+              "label" : "Facebook tile",
+              "repeat" : false,
+              "fields" : {
+                "embeds": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "Embed list (post URL only)",
+                    "multi": "list-item, o-list-item"
+                  }
+                },
+                "foregroundColor": {
+                  "type": "Color",
+                  "config": {
+                    "label": "Foreground Colour (optional)"
+                  }
+                },
+                "backgroundColor": {
+                  "type": "Color",
+                  "config": {
+                    "label": "Background Colour (optional)"
+                  }
+                }
+              }
+            }
+          },
+
+
+
 
 
 

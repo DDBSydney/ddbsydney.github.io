@@ -1,0 +1,60 @@
+{% assign tile = include.data[0] %}
+{% assign fgCol = "" %}
+{% assign bgCol = "" %}
+
+{% if tile.backgroundColor.value %}
+  {% capture bgCol %}
+
+    style="
+    {% if tile.backgroundColor.value %}
+      background-color: {{ tile.backgroundColor.value }};
+    {% endif %}
+    "
+
+  {% endcapture %}
+{% endif %}
+
+{% if tile.foregroundColor.value or page_data.foregroundColor.value %}
+  {% capture fgCol %}
+
+    style="
+    {% if tile.foregroundColor.value %}
+      color: {{ tile.foregroundColor.value }};
+    {% elsif page_data.foregroundColor.value %}
+      color: {{ page_data.foregroundColor.value }};
+    {% endif %}
+    "
+
+  {% endcapture %}
+{% endif %}
+
+
+
+<!-- facebook tile -->
+<div class="facebook-tile" {{ bgCol | normalize_whitespace }}>
+
+  <!-- content -->
+  <div class="facebook-tile__content">
+
+    <!-- container -->
+    <div class="container">
+
+      <!-- facebook video embeds -->
+      {% if tile.embeds.value %}
+      <ul class="facebook-tile__embeds">
+        {% for item in tile.embeds.value %}
+        <li class="facebook-tile__embeds-item"{{ fgCol | normalize_whitespace }}>
+          <div class="facebook-responsive">
+            <iframe src="https://www.facebook.com/plugins/video.php?href={{item.text}}" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>
+          </div>
+        </li>
+        {% endfor %}
+      </ul>
+      {% endif %}
+      <!-- facebook video embeds end -->
+
+    </div><!-- container end -->
+
+  </div><!-- content end -->
+
+</div><!-- facebook tile end -->
