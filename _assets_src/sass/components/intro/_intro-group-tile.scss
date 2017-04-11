@@ -54,7 +54,8 @@ $igt__col_spacing_multi: 0.75;
   span {
     display: block;
     padding: 15px 5px;
-    @include font--style("h4");
+    // @include font--style("h5");
+    font-size: 18px;
     font-family: $font_family_bold;
   }
 }
