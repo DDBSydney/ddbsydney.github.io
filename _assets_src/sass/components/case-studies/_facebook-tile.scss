@@ -1,20 +1,20 @@
 // -------------------------------------
-//   Component - Instagram tile
+//   Component - Facebook tile
 // -------------------------------------
 /**
-  * @name instagram-tile
-  * @desc Styles for the instagram tile component.
+  * @name facebook-tile
+  * @desc Styles for the facebook video group tile component.
 **/
 
-$instagram_tile_h_min: 66vw;
-$instagram_tile_h_min_mob: 66vw;
+$facebook_tile_h_min: 66vw;
+$facebook_tile_h_min_mob: 66vw;
 
-.instagram-tile {
+.facebook-tile {
   @extend %table;
-  min-height: $instagram_tile_h_min;
-  @include mobile { min-height: $instagram_tile_h_min_mob; }
+  min-height: $facebook_tile_h_min;
+  @include mobile { min-height: $facebook_tile_h_min_mob; }
 
-  .instagram-tile__content {
+  .facebook-tile__content {
    @extend %table--col;
     display: table-cell;
     vertical-align: middle;
@@ -22,36 +22,9 @@ $instagram_tile_h_min_mob: 66vw;
 
     @include mobile {
       @include section--padding-h;
-
-      &--subline + &--copy {
-        @include section--padding-h("md");
-      }
     }
 
-    &--copy {
-      @include font--style("h2");
-      font-family: $font_family_medium;
-      /* font-weight: $font_weight_medium; */
-    }
-
-    &--subline {
-      font-family: $font_family_medium;
-      /* font-weight: $font_weight_medium; */
-    }
-
-    &--headline,
-    &--subline,
-    &--copy {
-      margin-top: 0;
-      margin-bottom: 1em;
-      &:last-child { margin-bottom: 0; }
-
-      &[data-align="left"]   { text-align: left;   }
-      &[data-align="right"]  { text-align: right;  }
-      &[data-align="center"] { text-align: center; }
-    }
-
-    .instagram-tile__embeds {
+    .facebook-tile__embeds {
       @extend %flex--row;
       @include section--padding-h;
 
@@ -74,11 +47,26 @@ $instagram_tile_h_min_mob: 66vw;
         @include font--style("h5");
         list-style: none;
         text-align: left;
-        flex-basis: 33%;
-        max-width: 33%;
+        flex-basis: 50%;
+        max-width: 50%;
 
-        iframe {
-          width: 100%;
+        .facebook-responsive {
+          height: 0;
+          overflow: hidden;
+          position: relative;
+          padding-bottom: 56.25%;
+
+          iframe {
+            height: 100%;
+            width: 100%;
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            border: none;
+            overflow: hidden;
+          }
         }
       }
 

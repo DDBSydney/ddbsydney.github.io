@@ -1441,16 +1441,16 @@ var CONFIG = require("../../config");
     // create a default mouseover event on load
     var eventMouseOver = new CustomEvent("mouseover");
 
-    // dispatch athedefault mouseover event on load
+    // dispatch the default mouseover event on load
     requestAnimationFrame(function() {
       _el.anchors.sydney.dispatchEvent(eventMouseOver);
     });
 
     // filthy jquery scrolling to #group section
-    $(options.group).hide(0);
+    // $(options.group).hide(0);
     _el.anchors.group.addEventListener("click", function(e) {
       e.preventDefault();
-      $(options.group).show(0);
+      // $(options.group).show(0);
       $('html, body').animate({
         scrollTop: $(options.group).offset().top
       }, 400);
