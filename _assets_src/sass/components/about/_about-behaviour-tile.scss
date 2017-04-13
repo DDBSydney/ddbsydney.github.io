@@ -62,8 +62,12 @@ $about_tile_h_min_mob: 66vw;
     min-height: $about_tile_h_min_mob;
 
     @include mobile-up {
-        max-width: 50%;
+        max-width: 65%;
         min-height: $about_tile_h_min;
+    }
+
+    @include tablet-up {
+        max-width: 50%;
     }
 
     &__inner {
