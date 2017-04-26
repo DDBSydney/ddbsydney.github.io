@@ -24,14 +24,14 @@ $art_tile_h_min_mob: 55vw;
   @include mobile { min-height: $art_tile_h_min_mob; }
   .link { @extend %link--active; }
 
-  &[data-style="yellow"] { 
+  &[data-style="yellow"] {
     color: black; background-color: $color_yellow_ddb;
     .link { @extend %link--active-black; }
     .button { @extend %button--black; }
   }
 
   &[data-style="black"],
-  &[data-style="grey"] { 
+  &[data-style="grey"] {
     color: white;
     .link { @extend %link--active-white; }
     .button { @extend %button--white; }
@@ -54,7 +54,7 @@ $art_tile_content_inner_w_max_mob: 50%;
   position: absolute;
   box-sizing: border-box;
   @include section--padding;
-  
+
   top: 0;
   left: 0;
   width: 100%;
@@ -67,9 +67,9 @@ $art_tile_content_inner_w_max_mob: 50%;
     color: inherit;
     max-width: $art_tile_content_inner_w_max;
     @include tablet-sm { max-width: $art_tile_content_inner_w_max_tab; }
-    @include mobile    { max-width: $art_tile_content_inner_w_max_mob; }
+    // @include mobile    { max-width: $art_tile_content_inner_w_max_mob; }
   }
-  
+
   h4 { margin: 0; }
   h4 + a { margin-top: 1em; }
 }
