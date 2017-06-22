@@ -39,6 +39,8 @@
           {{base}}/sydney/articles/{{link.value.document.uid}}
         {% elsif link.value.document.type == "career-listings" %}
           {{base}}/sydney/careers/{{link.value.document.uid}}
+        {% elsif link.value.document.type == "news-pages" %}
+          {{base}}/sydney/news/{{link.value.document.uid}}
         {% elsif link.value.document.uid == "latest" %}
           {{base}}/sydney/
         {% else %}

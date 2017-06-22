@@ -1,4 +1,661 @@
 {
+  "news-pages": [
+    {
+      "uid": "test-news",
+      "data": {
+        "meta-title": {
+          "type": "Text",
+          "value": "Test News"
+        },
+        "meta-description": {
+          "type": "Text",
+          "value": "SEO meta data"
+        },
+        "foregroundColor": {
+          "type": "Color",
+          "value": "#ffffff"
+        },
+        "backgroundColor": {
+          "type": "Color",
+          "value": "#ffffff"
+        },
+        "sections": {
+          "type": "SectionList",
+          "value": [
+            {
+              "type": "news-title",
+              "value": [
+                {
+                  "date": {
+                    "type": "Text",
+                    "value": "Test News Title"
+                  },
+                  "headline": {
+                    "type": "Text",
+                    "value": "Test headline"
+                  },
+                  "style": {
+                    "type": "Select",
+                    "value": "white"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "news-content",
+              "value": [
+                {
+                  "copy": {
+                    "type": "Text",
+                    "value": "News content copy ipsum dolor sit amet, consectetur adipiscing elit. Proin neque orci, gravida ut semper et, cursus eget sem. Lorem ipsum dolor sit amet, consectetur adipiscing elit. \n\nAenean imperdiet arcu in velit fringilla vulputate. Suspendisse laoreet facilisis orci efficitur tempor. Nullam vel tortor vel ex sollicitudin venenatis."
+                  },
+                  "quote": {
+                    "type": "Text",
+                    "value": "News content copy ipsum dolor sit amet, consectetur adipiscing elit. Proin neque orci, gravida ut semper et, cursus eget sem. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                  },
+                  "style": {
+                    "type": "Select",
+                    "value": "white"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "image-tile-large",
+              "value": [
+                {
+                  "image": {
+                    "type": "Image",
+                    "value": {
+                      "main": {
+                        "dimensions": {
+                          "width": 425,
+                          "height": 268
+                        },
+                        "alt": null,
+                        "copyright": null,
+                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/4b8ab750140e8a89cdc77572d2b4d1e706425a80_ddb-sydney.jpg"
+                      },
+                      "views": {
+                        "desktop": {
+                          "dimensions": {
+                            "width": 1920,
+                            "height": 1440
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/0b2af92e4f0b08396cbf97f92482e1703b76f1f1_ddb-sydney.jpg"
+                        },
+                        "mobile": {
+                          "dimensions": {
+                            "width": 800,
+                            "height": 1320
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/0bdb6f7e31b06073235ca93e2d2abbe76018342e_ddb-sydney.jpg"
+                        }
+                      }
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "news-content",
+              "value": [
+                {
+                  "copy": {
+                    "type": "Text",
+                    "value": "Aenean imperdiet arcu in velit fringilla vulputate. Suspendisse laoreet facilisis orci efficitur tempor. Nullam vel tortor vel ex sollicitudin venenatis."
+                  },
+                  "style": {
+                    "type": "Select",
+                    "value": "white"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "uid": "unreasonable-growth",
+      "data": {
+        "meta-title": {
+          "type": "Text",
+          "value": "unreasonable growth"
+        },
+        "meta-description": {
+          "type": "Text",
+          "value": "New thinking from DDB to create unreasonable growth"
+        },
+        "sections": {
+          "type": "SectionList",
+          "value": [
+            {
+              "type": "news-title",
+              "value": [
+                {
+                  "date": {
+                    "type": "Text",
+                    "value": "18 May 2017"
+                  },
+                  "headline": {
+                    "type": "Text",
+                    "value": "New thinking from DDB Australia & New Zealand to create 'unreasonable growth'"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "news-content",
+              "value": [
+                {
+                  "copy": {
+                    "type": "Text",
+                    "value": "DDB has today, for the first time, released details of its new thinking to create ‘unreasonable growth’ for brands and business. The thinking is significant because it challenges the long-standing business premise that growth is anchored to a consumer who makes reasonable and logical decisions to advance their lifestyle. \n<br>\n<br>\nPioneered by DDB Australia and New Zealand, the thinking is based on the power of unchanging human emotions in a rapidly changing modern world. The central thesis is that we are now, more than ever, living in an “age of unreason.”\n<br>\n<br>\n“The most urgent conversation in business today is growth. Yet we are living in a low to no growth world,” said DDB Australia’s Managing Director of Strategy and Innovation, Leif Stromnes.\n<br>\n<br>\n“The problem for business today is that we are clinging on to old theories. The old theory that marketing and advertising succeeds because people are reasonable is just not true. In fact, we now know that people are highly unreasonable,” he said.\n<br>\n<br>\nStromnes said the evidence of unreasonableness and its centrality to the human condition had been slowly growing prior to this century, however in the last few years the unreasonable snowball has begun to gather momentum.\n<br>\n<br>\nThere used to be three golden rules to grow your business – 1. Win Your Category, 2. Win The Mind of Your Consumer, and 3. Win Today.\n<br>\n<br>\nInstead, DDB Australia proposes three new rules – 1. Culture Dwarfs Category, 2. Feelings Conquer Thinking, and 3. Long Term Beats Short Term.\n<br>\n<br>\nDDB Australia CEO Andrew Little said this represents a paradigm shift in theories of business management.\n<br>\n<br>\n“All the evidence suggests that behaving in a reasonable, rational fashion is possibly the most dangerous thing a business can do,” Little said.\n<br>\n<br>\n“Unreasonable growth – real, tangible, exponential growth – rarely comes from acting reasonably.”\n<br>\n<br>\n“We believe that breakthrough growth is possible using our simple, measurable and actionable approach. We’ve invested more than $1m into the thinking and tools,” he said.\n<br>\n<br>\nDDB Sydney Managing Director Nicole Taylor said DDB has been rolling this thinking out with multiple clients, including Expedia, McDonald’s and Volkswagen, with huge success.\n<br>\n<br>\n“DDB is at the forefront of creative that’s about feeling not thinking; culture, not categories; and the long term, not the urgent,” Taylor said.\n<br>\n<br>\n“And we’re already having success – creating unreasonable growth in an age of unreason,” she said."
+                  }
+                }
+              ]
+            },
+            {
+              "type": "news-title",
+              "value": [
+                {
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "uid": "best-global-talent",
+      "data": {
+        "meta-title": {
+          "type": "Text",
+          "value": "best global talent"
+        },
+        "meta-description": {
+          "type": "Text",
+          "value": "DDB Sydney attracts best global talent"
+        },
+        "sections": {
+          "type": "SectionList",
+          "value": [
+            {
+              "type": "image-tile-small",
+              "value": [
+                {
+                  "image": {
+                    "type": "Image",
+                    "value": {
+                      "main": {
+                        "dimensions": {
+                          "width": 960,
+                          "height": 825
+                        },
+                        "alt": null,
+                        "copyright": null,
+                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/7744c335c2b063b2a1579eb3d68b157b59942757_sian-nico-damian.jpg"
+                      },
+                      "views": {
+                        "mobile": {
+                          "dimensions": {
+                            "width": 800,
+                            "height": 700
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/876ecb68ca053deb5e91d96c1b77406ebfa1a04a_sian-nico-damian.jpg"
+                        },
+                        "desktop": {
+                          "dimensions": {
+                            "width": 1920,
+                            "height": 768
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/de811facf983ebbaa5ac7176c76223fc0eb33a88_sian-nico-damian.jpg"
+                        }
+                      }
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "news-title",
+              "value": [
+                {
+                  "date": {
+                    "type": "Text",
+                    "value": "6 April 2017"
+                  },
+                  "headline": {
+                    "type": "Text",
+                    "value": "DDB Sydney continues to attract the best global talent with new hires"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "news-content",
+              "value": [
+                {
+                  "copy": {
+                    "type": "Text",
+                    "value": "DDB Sydney continues to attract the best talent from all over the globe, with recent hires adding even more weight to their impressive pool of creative talent.\n<br>\n<br>\nArgentina is worldly known for its football, beef and the Tango, but you can also add talented creative minds to that list. Creative duo Nicolas Smith (Senior Art Director) and Damian Martinez (Senior Copywriter) are, as far as they know, the first Argentinian creatives to have crossed the Pacific to Australia.\n<br>\n<br>\nTogether, they've won awards at major creative festivals across the world, including Cannes Lions, D&AD, Clio, London International Awards (LIA) and Effie, most notably for \"Life Signs\". DDB Sydney is their fourth agency together and their biggest move yet.\n<br>\n<br>\n\"We're very excited to work alongside some of the best creatives in Australia and the world,” Nicolas said.\n<br>\n<br>\n\"I'm loving this place. I even enjoy eating Vegemite,” Damian said.\n<br>\n<br>\nCanadian Art Director Alex Newman joins DDB with a swag of international awards under his belt, including Cannes Lions, The AToMiC Awards, The One Show, The New York Festival and London International Awards. In 2014 he was named ‘Top 30 Under 30’ by Marketing Magazine.\n<br>\n<br>\nAlex said he was drawn to DDB’s drive for world class creative and is looking forward to building projects that stretch the boundaries of what is considered ‘advertising’.\n<br>\n<br>\n“Ben (Welsh, CCO) has put together a powerful team, talent from all over the world, which has created this kind of hot bed of creativity. It’s an exciting time to be joining DDB,” Alex said.\n<br>\n<br>\nSian Binder and Dave Govier join DDB as Creative Partners on McDonald’s. They have won a bunch of awards between them, including Cannes Lions, One Show, Clios and D&AD.\n<br>\n<br>\nPreviously Head of Art at Ogilvy Sydney, Sian has worked on impressive award winning campaigns with talented creatives, while globe trotter Dave most recently freelanced at The Monkeys, Leo Burnett and Cummins & Partners after returning to Sydney from the legendary Saatchi’s London.\n<br>\n<br>\nSian said she’s always admired DDB’s work.\n<br>\n<br>\n“I’m excited to join DDB on the Macca’s team. DDB and McDonald’s have a well-established partnership and I’m looking forward to working alongside such collaborative and passionate people. And the opportunity to work on one of Australia’s most loved brands made the decision to move to DDB an easy one,” Sian said.\n<br>\n<br>\nDave’s highlights as Copywriter and Creative Director so far include winning the prestigious Carlsberg European Cup TVC for a small independent agency, helping the people of Ireland have another reason to drink alcohol in moderation by creating the outrageously successful Arthur’s Day annual celebration, along with Guinness’ very first global TVC which picked up a Cannes Lion.\n<br>\n<br>\n“Some things I look forward to doing more of include creating great film, digital, outdoor, print, events, promos, shelf-wobblers and any other ways we haven’t yet thought of to make famous work,” Dave said.\n<br>\n<br>\nDDB Sydney CCO Ben Welsh said he was excited to welcome these outstanding creatives to his team.\n<br>\n<br>\n“DDB Sydney is growing, in a very deliberate way,” Welsh said.\n<br>\n<br>\n“Our focus on diversity across the board, including getting more women into creative and management roles, continues to attract top class international and home grown talent, and means we continue to deliver stand out work for our clients,” Welsh said."
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "uid": "award-awards",
+      "data": {
+        "meta-title": {
+          "type": "Text",
+          "value": "DDB award awards"
+        },
+        "meta-description": {
+          "type": "Text",
+          "value": "DDB award awards"
+        },
+        "sections": {
+          "type": "SectionList",
+          "value": [
+            {
+              "type": "news-title",
+              "value": [
+                {
+                  "date": {
+                    "type": "Text",
+                    "value": "26 May 2017"
+                  },
+                  "headline": {
+                    "type": "Text",
+                    "value": "DDB runner up network of the year at AWARD"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "news-content",
+              "value": [
+                {
+                  "copy": {
+                    "type": "Text",
+                    "value": "DDB won runner up network of the year at the AWARD Awards on 26 May 2017, receiving a whopping 34 Gold, Silver and Bronze pencils.\n<br>\n<br>\nStandout campaigns from DDB in Australia and New Zealand include Volkswagen The Naked Ute, #comeonin for Sydney Opera House, McDonald’s “Anything for Love”, The Unconventional Oven for Kidsafe, Mum’s Wish and the URXXL series for Sky NZ and Lion ‘Welcome to the Other Side’.\n<br>\n<br>\n“Producing creative work that’s about feeling not thinking; culture, not categories; and the long term, not the urgent is the heart of what DDB does. We’re proud to be recognized for work that has delivered brilliant outcomes for our clients,” DDB Sydney CCO Ben Welsh said. \n<br>\n<br>\n“Being the number one New Zealand agency and second overall at AWARD was really pleasing. What was even more pleasing was winning the 16 pencils across a wide range of clients and categories,” DDB New Zealand CCO Damon Stapleton said.\n<br>\n<br>\n“We are extremely proud to pool our disciplines to create powerful campaigns that successfully deliver behaviour change for good,” DDB Managing Director Dion Appel said."
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "uid": "new-skoda-campaign",
+      "data": {
+        "meta-title": {
+          "type": "Text",
+          "value": "new-skoda-campaign"
+        },
+        "meta-description": {
+          "type": "Text",
+          "value": "New Skoda campaign"
+        },
+        "sections": {
+          "type": "SectionList",
+          "value": [
+            {
+              "type": "image-tile-large",
+              "value": [
+                {
+                  "image": {
+                    "type": "Image",
+                    "value": {
+                      "main": {
+                        "dimensions": {
+                          "width": 1920,
+                          "height": 1080
+                        },
+                        "alt": null,
+                        "copyright": null,
+                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/0a3a2e6b23c2463fb7dc839d4a37e6bf807843f3_sko0186t130.00_00_15_04.still0021.jpeg"
+                      },
+                      "views": {
+                        "mobile": {
+                          "dimensions": {
+                            "width": 800,
+                            "height": 1320
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/e7b9c9fc7836ebdbccf9daed0e19c03d458b930b_sko0186t130.00_00_15_04.still0021.jpeg"
+                        },
+                        "desktop": {
+                          "dimensions": {
+                            "width": 1920,
+                            "height": 1440
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/4dc845740fa1c4c234177a04681a71b12eddde0a_sko0186t130.00_00_15_04.still0021.jpeg"
+                        }
+                      }
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "news-title",
+              "value": [
+                {
+                  "date": {
+                    "type": "Text",
+                    "value": "30 May 2017"
+                  },
+                  "headline": {
+                    "type": "Text",
+                    "value": "New ŠKODA campaign via DDB Sydney challenges normal car ad conventions"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "news-content",
+              "value": [
+                {
+                  "copy": {
+                    "type": "Text",
+                    "value": "Škoda today launched a new brand campaign, via DDB Sydney, that centres on the idea that you don’t have to be famous to be brilliant.\n<br>\n<br>\nFeaturing clever Australians doing amazing things, and doing them differently, the campaign challenges the normal car ad conventions.\n<br>\n<br>\nŠkoda Australia Director Michael Irmer said that this innovative brand awareness campaign is unique in that it challenges the buyer to disregard the more obvious choices and, instead, consider Skoda.\n<br>\n<br>\n“Škoda’s tagline, ‘Simply Clever’, encapsulates both the accessibility and the innovation of our cars and SUVs,” Irmer said.\n<br>\n<br>\n“The brand campaign paves the way for an entirely new direction for Škoda in the shape of the Kodiaq. As the first affordable seven-seat SUV from Europe, it is a game changer, one that challenges not only the traditional market leaders in this family vehicle segment, but also far more expensive prestige models,” he said.\n<br>\n<br>\nDDB Sydney Managing Partner Amanda Wheeler said the campaign pushes against category conventions to stand out in a cluttered market.\n<br>\n<br>\n“In an unexpected approach for a car company, this Škoda campaign celebrates people who are brilliant but not famous,” Wheeler said.\n<br>\n<br>\n“The idea of the campaign is to align the brilliance and inventiveness of these people with the brilliance and inventiveness of Škoda, helping to create a greater appreciation of the Škoda brand in Australia,” she said.\n<br>\n<br>\nDDB Chief Creative Officer Ben Welsh said the campaign is sophisticated, subtle and aspirational, and features two Aussies who certainly aren’t household names but are nonetheless exceptional.\n<br>\n<br>\n“In the first spot we meet Dr John O’Sullivan, the leader of the team who invented Wi-Fi, and a second to be launched in July features Aelita Andre, a 10-year-old artist who had her first art exhibition in New York at the age of four,” Welsh said.\n<br>\n<br>\n“Too many people in this world are famous for being famous, while those who really contribute to society are often overlooked; this campaign beautifully highlights the simple genius and different thinking that has gotten our talent where they are today,” he said.\n<br>\n<br>\nThis is the biggest campaign for the Škoda brand this year and will run over three months across TV, outdoor, social, digital and retail nationally."
+                  }
+                }
+              ]
+            },
+            {
+              "type": "news-title",
+              "value": [
+                {
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "uid": "sample",
+      "data": {
+        "meta-title": {
+          "type": "Text",
+          "value": "Sample News | DDB Sydney"
+        },
+        "meta-description": {
+          "type": "Text",
+          "value": "Sample News for DDB Sydney"
+        },
+        "foregroundColor": {
+          "type": "Color",
+          "value": "#ffffff"
+        },
+        "sections": {
+          "type": "SectionList",
+          "value": [
+            {
+              "type": "news-title",
+              "value": [
+                {
+                  "date": {
+                    "type": "Text",
+                    "value": "Mar 24, 2017"
+                  },
+                  "headline": {
+                    "type": "Text",
+                    "value": "News title with style set <br class=\"all\">as default (page), or black."
+                  }
+                }
+              ]
+            },
+            {
+              "type": "news-title",
+              "value": [
+                {
+                  "date": {
+                    "type": "Text",
+                    "value": "Mar 24, 2017"
+                  },
+                  "headline": {
+                    "type": "Text",
+                    "value": "News title with style set <br class=\"all\">as white."
+                  },
+                  "style": {
+                    "type": "Select",
+                    "value": "white"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "news-title",
+              "value": [
+                {
+                  "date": {
+                    "type": "Text",
+                    "value": "Mar 24, 2017"
+                  },
+                  "headline": {
+                    "type": "Text",
+                    "value": "News title with style set <br class=\"all\">as yellow."
+                  },
+                  "style": {
+                    "type": "Select",
+                    "value": "yellow"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "news-content",
+              "value": [
+                {
+                  "copy": {
+                    "type": "Text",
+                    "value": "News content copy ipsum dolor sit amet, consectetur adipiscing elit. Proin neque orci, gravida ut semper et, cursus eget sem. Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br class=\"all\"><br class=\"all\">\nAenean imperdiet arcu in velit fringilla vulputate. Suspendisse laoreet facilisis orci efficitur tempor. Nullam vel tortor vel ex sollicitudin venenatis."
+                  },
+                  "quote": {
+                    "type": "Text",
+                    "value": "News content quote ipsum dolor sit amet, consectetur adipiscing elit. Proin neque orci, gravida ut semper et, cursus eget sem. Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br class=\"all\"><br class=\"all\">\n Aenean imperdiet arcu in velit fringilla vulputate. Suspendisse laoreet facilisis orci efficitur tempor. Nullam vel tortor vel ex sollicitudin venenatis."
+                  },
+                  "footer": {
+                    "type": "Text",
+                    "value": "News content footer ipsum."
+                  },
+                  "style": {
+                    "type": "Select",
+                    "value": "yellow"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "news-content",
+              "value": [
+                {
+                  "copy": {
+                    "type": "Text",
+                    "value": "News content copy ipsum dolor sit amet, consectetur adipiscing elit. Proin neque orci, gravida ut semper et, cursus eget sem. Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br class=\"all\"><br class=\"all\">\nAenean imperdiet arcu in velit fringilla vulputate. Suspendisse laoreet facilisis orci efficitur tempor. Nullam vel tortor vel ex sollicitudin venenatis."
+                  },
+                  "quote": {
+                    "type": "Text",
+                    "value": "News content quote ipsum dolor sit amet, consectetur adipiscing elit. Proin neque orci, gravida ut semper et, cursus eget sem. Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br class=\"all\"><br class=\"all\">\n Aenean imperdiet arcu in velit fringilla vulputate. Suspendisse laoreet facilisis orci efficitur tempor. Nullam vel tortor vel ex sollicitudin venenatis."
+                  },
+                  "footer": {
+                    "type": "Text",
+                    "value": "News content footer ipsum."
+                  }
+                }
+              ]
+            },
+            {
+              "type": "news-content",
+              "value": [
+                {
+                  "copy": {
+                    "type": "Text",
+                    "value": "News content copy ipsum dolor sit amet, consectetur adipiscing elit. Proin neque orci, gravida ut semper et, cursus eget sem. Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br class=\"all\"><br class=\"all\">\nAenean imperdiet arcu in velit fringilla vulputate. Suspendisse laoreet facilisis orci efficitur tempor. Nullam vel tortor vel ex sollicitudin venenatis."
+                  },
+                  "quote": {
+                    "type": "Text",
+                    "value": "News content quote ipsum dolor sit amet, consectetur adipiscing elit. Proin neque orci, gravida ut semper et, cursus eget sem. Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br class=\"all\"><br class=\"all\">\n Aenean imperdiet arcu in velit fringilla vulputate. Suspendisse laoreet facilisis orci efficitur tempor. Nullam vel tortor vel ex sollicitudin venenatis."
+                  },
+                  "footer": {
+                    "type": "Text",
+                    "value": "News content footer ipsum."
+                  },
+                  "style": {
+                    "type": "Select",
+                    "value": "white"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "image-tile-small",
+              "value": [
+                {
+                  "image": {
+                    "type": "Image",
+                    "value": {
+                      "main": {
+                        "dimensions": {
+                          "width": 1920,
+                          "height": 768
+                        },
+                        "alt": null,
+                        "copyright": null,
+                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/bc1412775d9c6806fd64a75ae5d4ee295c9a8278_image-tile-small-desktop.png"
+                      },
+                      "views": {
+                        "mobile": {
+                          "dimensions": {
+                            "width": 800,
+                            "height": 700
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/0d245c2099875d30091d8ffc96d53aa6b5d01405_image-tile-small-mobile.png"
+                        },
+                        "desktop": {
+                          "dimensions": {
+                            "width": 1920,
+                            "height": 768
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/bc1412775d9c6806fd64a75ae5d4ee295c9a8278_image-tile-small-desktop.png"
+                        }
+                      }
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "image-tile",
+              "value": [
+                {
+                  "image": {
+                    "type": "Image",
+                    "value": {
+                      "main": {
+                        "dimensions": {
+                          "width": 1920,
+                          "height": 900
+                        },
+                        "alt": null,
+                        "copyright": null,
+                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/3bd29d12989fcaaa445ce05815dcbfc844651a5e_image-tile-default-desktop.png"
+                      },
+                      "views": {
+                        "desktop": {
+                          "dimensions": {
+                            "width": 1920,
+                            "height": 900
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/3bd29d12989fcaaa445ce05815dcbfc844651a5e_image-tile-default-desktop.png"
+                        },
+                        "mobile": {
+                          "dimensions": {
+                            "width": 800,
+                            "height": 820
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/c375510616fd3c4844fc1cb2d4229f8af5125ef1_image-tile-default-mobile.png"
+                        }
+                      }
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "image-tile-large",
+              "value": [
+                {
+                  "image": {
+                    "type": "Image",
+                    "value": {
+                      "main": {
+                        "dimensions": {
+                          "width": 1920,
+                          "height": 1440
+                        },
+                        "alt": null,
+                        "copyright": null,
+                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/fa343e548233a9be41f5b34a0380751e9ee62ac6_image-tile-large-desktop.png"
+                      },
+                      "views": {
+                        "mobile": {
+                          "dimensions": {
+                            "width": 800,
+                            "height": 1320
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/1393701a5e0d4d6a99f585c7beb3bd126644354c_image-tile-large-mobile.png"
+                        },
+                        "desktop": {
+                          "dimensions": {
+                            "width": 1920,
+                            "height": 1440
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/fa343e548233a9be41f5b34a0380751e9ee62ac6_image-tile-large-desktop.png"
+                        }
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ],
   "work": [
     {
       "uid": "work",
@@ -5559,6 +6216,275 @@
       }
     }
   ],
+  "news": [
+    {
+      "uid": "news",
+      "data": {
+        "meta-title": {
+          "type": "Text",
+          "value": "News | DDB Sydney"
+        },
+        "meta-description": {
+          "type": "Text",
+          "value": "News from DDB Sydney."
+        },
+        "foregroundColor": {
+          "type": "Color",
+          "value": "#ffffff"
+        },
+        "sections": {
+          "type": "SectionList",
+          "value": [
+            {
+              "type": "news-tile",
+              "value": [
+                {
+                  "image": {
+                    "type": "Image",
+                    "value": {
+                      "main": {
+                        "dimensions": {
+                          "width": 960,
+                          "height": 825
+                        },
+                        "alt": null,
+                        "copyright": null,
+                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/4e5afb8a74b4791824a53f1de1dd607257da3876_canva-photo-editor.png"
+                      },
+                      "views": {
+                        "mobile": {
+                          "dimensions": {
+                            "width": 800,
+                            "height": 820
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/d65c4c10e29fc17456b3ca3e1e2867a848a66514_canva-photo-editor.png"
+                        },
+                        "desktop": {
+                          "dimensions": {
+                            "width": 960,
+                            "height": 825
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/4e5afb8a74b4791824a53f1de1dd607257da3876_canva-photo-editor.png"
+                        }
+                      }
+                    }
+                  },
+                  "headline": {
+                    "type": "Text",
+                    "value": "DDB runner up network of the year at AWARD"
+                  },
+                  "linkUrl": {
+                    "type": "Link.document",
+                    "value": {
+                      "document": {
+                        "id": "WUnNOCYAAJQGaq1E",
+                        "type": "news-pages",
+                        "tags": [
+
+                        ],
+                        "slug": "ddb-award-awards",
+                        "uid": "award-awards"
+                      },
+                      "isBroken": false
+                    }
+                  },
+                  "linkText": {
+                    "type": "Text",
+                    "value": "Read more"
+                  },
+                  "style": {
+                    "type": "Select",
+                    "value": "white"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "news-tile",
+              "value": [
+                {
+                  "image": {
+                    "type": "Image",
+                    "value": {
+                      "main": {
+                        "dimensions": {
+                          "width": 1562,
+                          "height": 1562
+                        },
+                        "alt": null,
+                        "copyright": null,
+                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/a18daec562411eaebb9b4b740450180970608b8d_ddb-logo.png"
+                      },
+                      "views": {
+                        "desktop": {
+                          "dimensions": {
+                            "width": 960,
+                            "height": 825
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/64f16190850b780f8129950888043ceca9646fc8_ddb-logo.png"
+                        },
+                        "mobile": {
+                          "dimensions": {
+                            "width": 800,
+                            "height": 820
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/cca1a1a4e89e747e1aeeb7aa95afdef1483aaa43_ddb-logo.png"
+                        }
+                      }
+                    }
+                  },
+                  "headline": {
+                    "type": "Text",
+                    "value": "New thinking from DDB Australia to create 'unreasonable growth'"
+                  },
+                  "linkUrl": {
+                    "type": "Link.web",
+                    "value": {
+                      "url": "https://ddbsydney.github.io/sydney/news/unreasonable-growth"
+                    }
+                  },
+                  "linkText": {
+                    "type": "Text",
+                    "value": "Read more"
+                  },
+                  "align": {
+                    "type": "Select",
+                    "value": "left"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "news-tile",
+              "value": [
+                {
+                  "image": {
+                    "type": "Image",
+                    "value": {
+                      "main": {
+                        "dimensions": {
+                          "width": 1920,
+                          "height": 1080
+                        },
+                        "alt": null,
+                        "copyright": null,
+                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/0a3a2e6b23c2463fb7dc839d4a37e6bf807843f3_sko0186t130.00_00_15_04.still0021.jpeg"
+                      },
+                      "views": {
+                        "desktop": {
+                          "dimensions": {
+                            "width": 960,
+                            "height": 825
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/87cfdd30f3824361f358ea90f338f4cdce7b6653_sko0186t130.00_00_15_04.still0021.jpeg"
+                        },
+                        "mobile": {
+                          "dimensions": {
+                            "width": 800,
+                            "height": 820
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/088981b86e9b60fb55121eee8e8f06aa47872460_sko0186t130.00_00_15_04.still0021.jpeg"
+                        }
+                      }
+                    }
+                  },
+                  "headline": {
+                    "type": "Text",
+                    "value": "New ŠKODA campaign via DDB Sydney challenges normal car ad conventions"
+                  },
+                  "linkUrl": {
+                    "type": "Link.web",
+                    "value": {
+                      "url": "https://ddbsydney.github.io/sydney/news/new-skoda-campaign"
+                    }
+                  },
+                  "linkText": {
+                    "type": "Text",
+                    "value": "Read more"
+                  },
+                  "style": {
+                    "type": "Select",
+                    "value": "white"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "news-tile",
+              "value": [
+                {
+                  "image": {
+                    "type": "Image",
+                    "value": {
+                      "main": {
+                        "dimensions": {
+                          "width": 960,
+                          "height": 825
+                        },
+                        "alt": null,
+                        "copyright": null,
+                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/08ffdfd4ffdd07d55ecdb83ba04e4c35658bb48f_sian-nico-damian.jpg"
+                      },
+                      "views": {
+                        "mobile": {
+                          "dimensions": {
+                            "width": 800,
+                            "height": 820
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/21b5d7be72485adfd62ca636ac01c5d1bb1b45a2_sian-nico-damian.jpg"
+                        },
+                        "desktop": {
+                          "dimensions": {
+                            "width": 960,
+                            "height": 825
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/08ffdfd4ffdd07d55ecdb83ba04e4c35658bb48f_sian-nico-damian.jpg"
+                        }
+                      }
+                    }
+                  },
+                  "headline": {
+                    "type": "Text",
+                    "value": "DDB Sydney continues to attract best global talent"
+                  },
+                  "linkUrl": {
+                    "type": "Link.web",
+                    "value": {
+                      "url": "https://ddbsydney.github.io/sydney/news/best-global-talent"
+                    }
+                  },
+                  "linkText": {
+                    "type": "Text",
+                    "value": "Read more"
+                  },
+                  "style": {
+                    "type": "Select",
+                    "value": "yellow"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ],
   "latest": [
     {
       "uid": "latest",
@@ -6972,527 +7898,6 @@
                   "copy": {
                     "type": "Text",
                     "value": "We are looking for creatives who have a passion for breakthrough creative ideas, contemporary thinking and execution plus a desire to learn and grow.<br class=\"all\"><br class=\"all\">\n\nIf you are interested in exploring these opportunities please send your folio to our Talent Directorb Sarah Crabbe  sarah.crabbe@syd.ddb.com<br class=\"all\"><br class=\"all\"><br class=\"all\">"
-                  }
-                }
-              ]
-            }
-          ]
-        }
-      }
-    }
-  ],
-  "news-pages": [
-    {
-      "uid": "sample",
-      "data": {
-        "meta-title": {
-          "type": "Text",
-          "value": "Sample News | DDB Sydney"
-        },
-        "meta-description": {
-          "type": "Text",
-          "value": "Sample News for DDB Sydney"
-        },
-        "foregroundColor": {
-          "type": "Color",
-          "value": "#ffffff"
-        },
-        "sections": {
-          "type": "SectionList",
-          "value": [
-            {
-              "type": "news-title",
-              "value": [
-                {
-                  "date": {
-                    "type": "Text",
-                    "value": "Mar 24, 2017"
-                  },
-                  "headline": {
-                    "type": "Text",
-                    "value": "News title with style set <br class=\"all\">as default (page), or black."
-                  }
-                }
-              ]
-            },
-            {
-              "type": "news-title",
-              "value": [
-                {
-                  "date": {
-                    "type": "Text",
-                    "value": "Mar 24, 2017"
-                  },
-                  "headline": {
-                    "type": "Text",
-                    "value": "News title with style set <br class=\"all\">as white."
-                  },
-                  "style": {
-                    "type": "Select",
-                    "value": "white"
-                  }
-                }
-              ]
-            },
-            {
-              "type": "news-title",
-              "value": [
-                {
-                  "date": {
-                    "type": "Text",
-                    "value": "Mar 24, 2017"
-                  },
-                  "headline": {
-                    "type": "Text",
-                    "value": "News title with style set <br class=\"all\">as yellow."
-                  },
-                  "style": {
-                    "type": "Select",
-                    "value": "yellow"
-                  }
-                }
-              ]
-            },
-            {
-              "type": "news-content",
-              "value": [
-                {
-                  "copy": {
-                    "type": "Text",
-                    "value": "News content copy ipsum dolor sit amet, consectetur adipiscing elit. Proin neque orci, gravida ut semper et, cursus eget sem. Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br class=\"all\"><br class=\"all\">\nAenean imperdiet arcu in velit fringilla vulputate. Suspendisse laoreet facilisis orci efficitur tempor. Nullam vel tortor vel ex sollicitudin venenatis."
-                  },
-                  "quote": {
-                    "type": "Text",
-                    "value": "News content quote ipsum dolor sit amet, consectetur adipiscing elit. Proin neque orci, gravida ut semper et, cursus eget sem. Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br class=\"all\"><br class=\"all\">\n Aenean imperdiet arcu in velit fringilla vulputate. Suspendisse laoreet facilisis orci efficitur tempor. Nullam vel tortor vel ex sollicitudin venenatis."
-                  },
-                  "footer": {
-                    "type": "Text",
-                    "value": "News content footer ipsum."
-                  },
-                  "style": {
-                    "type": "Select",
-                    "value": "yellow"
-                  }
-                }
-              ]
-            },
-            {
-              "type": "news-content",
-              "value": [
-                {
-                  "copy": {
-                    "type": "Text",
-                    "value": "News content copy ipsum dolor sit amet, consectetur adipiscing elit. Proin neque orci, gravida ut semper et, cursus eget sem. Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br class=\"all\"><br class=\"all\">\nAenean imperdiet arcu in velit fringilla vulputate. Suspendisse laoreet facilisis orci efficitur tempor. Nullam vel tortor vel ex sollicitudin venenatis."
-                  },
-                  "quote": {
-                    "type": "Text",
-                    "value": "News content quote ipsum dolor sit amet, consectetur adipiscing elit. Proin neque orci, gravida ut semper et, cursus eget sem. Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br class=\"all\"><br class=\"all\">\n Aenean imperdiet arcu in velit fringilla vulputate. Suspendisse laoreet facilisis orci efficitur tempor. Nullam vel tortor vel ex sollicitudin venenatis."
-                  },
-                  "footer": {
-                    "type": "Text",
-                    "value": "News content footer ipsum."
-                  }
-                }
-              ]
-            },
-            {
-              "type": "news-content",
-              "value": [
-                {
-                  "copy": {
-                    "type": "Text",
-                    "value": "News content copy ipsum dolor sit amet, consectetur adipiscing elit. Proin neque orci, gravida ut semper et, cursus eget sem. Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br class=\"all\"><br class=\"all\">\nAenean imperdiet arcu in velit fringilla vulputate. Suspendisse laoreet facilisis orci efficitur tempor. Nullam vel tortor vel ex sollicitudin venenatis."
-                  },
-                  "quote": {
-                    "type": "Text",
-                    "value": "News content quote ipsum dolor sit amet, consectetur adipiscing elit. Proin neque orci, gravida ut semper et, cursus eget sem. Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br class=\"all\"><br class=\"all\">\n Aenean imperdiet arcu in velit fringilla vulputate. Suspendisse laoreet facilisis orci efficitur tempor. Nullam vel tortor vel ex sollicitudin venenatis."
-                  },
-                  "footer": {
-                    "type": "Text",
-                    "value": "News content footer ipsum."
-                  },
-                  "style": {
-                    "type": "Select",
-                    "value": "white"
-                  }
-                }
-              ]
-            },
-            {
-              "type": "image-tile-small",
-              "value": [
-                {
-                  "image": {
-                    "type": "Image",
-                    "value": {
-                      "main": {
-                        "dimensions": {
-                          "width": 1920,
-                          "height": 768
-                        },
-                        "alt": null,
-                        "copyright": null,
-                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/bc1412775d9c6806fd64a75ae5d4ee295c9a8278_image-tile-small-desktop.png"
-                      },
-                      "views": {
-                        "mobile": {
-                          "dimensions": {
-                            "width": 800,
-                            "height": 700
-                          },
-                          "alt": null,
-                          "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/0d245c2099875d30091d8ffc96d53aa6b5d01405_image-tile-small-mobile.png"
-                        },
-                        "desktop": {
-                          "dimensions": {
-                            "width": 1920,
-                            "height": 768
-                          },
-                          "alt": null,
-                          "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/bc1412775d9c6806fd64a75ae5d4ee295c9a8278_image-tile-small-desktop.png"
-                        }
-                      }
-                    }
-                  }
-                }
-              ]
-            },
-            {
-              "type": "image-tile",
-              "value": [
-                {
-                  "image": {
-                    "type": "Image",
-                    "value": {
-                      "main": {
-                        "dimensions": {
-                          "width": 1920,
-                          "height": 900
-                        },
-                        "alt": null,
-                        "copyright": null,
-                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/3bd29d12989fcaaa445ce05815dcbfc844651a5e_image-tile-default-desktop.png"
-                      },
-                      "views": {
-                        "desktop": {
-                          "dimensions": {
-                            "width": 1920,
-                            "height": 900
-                          },
-                          "alt": null,
-                          "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/3bd29d12989fcaaa445ce05815dcbfc844651a5e_image-tile-default-desktop.png"
-                        },
-                        "mobile": {
-                          "dimensions": {
-                            "width": 800,
-                            "height": 820
-                          },
-                          "alt": null,
-                          "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/c375510616fd3c4844fc1cb2d4229f8af5125ef1_image-tile-default-mobile.png"
-                        }
-                      }
-                    }
-                  }
-                }
-              ]
-            },
-            {
-              "type": "image-tile-large",
-              "value": [
-                {
-                  "image": {
-                    "type": "Image",
-                    "value": {
-                      "main": {
-                        "dimensions": {
-                          "width": 1920,
-                          "height": 1440
-                        },
-                        "alt": null,
-                        "copyright": null,
-                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/fa343e548233a9be41f5b34a0380751e9ee62ac6_image-tile-large-desktop.png"
-                      },
-                      "views": {
-                        "mobile": {
-                          "dimensions": {
-                            "width": 800,
-                            "height": 1320
-                          },
-                          "alt": null,
-                          "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/1393701a5e0d4d6a99f585c7beb3bd126644354c_image-tile-large-mobile.png"
-                        },
-                        "desktop": {
-                          "dimensions": {
-                            "width": 1920,
-                            "height": 1440
-                          },
-                          "alt": null,
-                          "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/fa343e548233a9be41f5b34a0380751e9ee62ac6_image-tile-large-desktop.png"
-                        }
-                      }
-                    }
-                  }
-                }
-              ]
-            }
-          ]
-        }
-      }
-    }
-  ],
-  "news": [
-    {
-      "uid": "news",
-      "data": {
-        "meta-title": {
-          "type": "Text",
-          "value": "News | DDB Sydney"
-        },
-        "meta-description": {
-          "type": "Text",
-          "value": "News from DDB Sydney."
-        },
-        "foregroundColor": {
-          "type": "Color",
-          "value": "#ffffff"
-        },
-        "sections": {
-          "type": "SectionList",
-          "value": [
-            {
-              "type": "news-tile",
-              "value": [
-                {
-                  "image": {
-                    "type": "Image",
-                    "value": {
-                      "main": {
-                        "dimensions": {
-                          "width": 960,
-                          "height": 825
-                        },
-                        "alt": null,
-                        "copyright": null,
-                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/8ed2390ae1fde479e0ffbfc60b024200a418f162_960x825_191919_4a4a4a.png"
-                      },
-                      "views": {
-                        "mobile": {
-                          "dimensions": {
-                            "width": 800,
-                            "height": 820
-                          },
-                          "alt": null,
-                          "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/6bc4e8f17398dde9b0b213158613a0d36bc1ae43_800x820_191919_4a4a4a.png"
-                        },
-                        "desktop": {
-                          "dimensions": {
-                            "width": 960,
-                            "height": 825
-                          },
-                          "alt": null,
-                          "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/8ed2390ae1fde479e0ffbfc60b024200a418f162_960x825_191919_4a4a4a.png"
-                        }
-                      }
-                    }
-                  },
-                  "headline": {
-                    "type": "Text",
-                    "value": "News tile headline with text <br><br class=\"mobile\"> align on the right."
-                  },
-                  "linkUrl": {
-                    "type": "Link.web",
-                    "value": {
-                      "url": "http://#"
-                    }
-                  },
-                  "linkText": {
-                    "type": "Text",
-                    "value": "News tile link"
-                  }
-                }
-              ]
-            },
-            {
-              "type": "news-tile",
-              "value": [
-                {
-                  "image": {
-                    "type": "Image",
-                    "value": {
-                      "main": {
-                        "dimensions": {
-                          "width": 960,
-                          "height": 825
-                        },
-                        "alt": null,
-                        "copyright": null,
-                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/414b8cdc9f7e4e5f75f37ef5d5f3b76f211a6096_960x825_4a4a4a_191919.png"
-                      },
-                      "views": {
-                        "mobile": {
-                          "dimensions": {
-                            "width": 800,
-                            "height": 820
-                          },
-                          "alt": null,
-                          "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/d20a52a2a529a6c6cea53ec20e12b0abcd3bb934_800x820_4a4a4a_191919.png"
-                        },
-                        "desktop": {
-                          "dimensions": {
-                            "width": 960,
-                            "height": 825
-                          },
-                          "alt": null,
-                          "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/414b8cdc9f7e4e5f75f37ef5d5f3b76f211a6096_960x825_4a4a4a_191919.png"
-                        }
-                      }
-                    }
-                  },
-                  "headline": {
-                    "type": "Text",
-                    "value": "News tile headline with text <br><br class=\"mobile\"> align on the left."
-                  },
-                  "linkUrl": {
-                    "type": "Link.web",
-                    "value": {
-                      "url": "http://#"
-                    }
-                  },
-                  "linkText": {
-                    "type": "Text",
-                    "value": "News tile link"
-                  },
-                  "align": {
-                    "type": "Select",
-                    "value": "left"
-                  }
-                }
-              ]
-            },
-            {
-              "type": "news-tile",
-              "value": [
-                {
-                  "image": {
-                    "type": "Image",
-                    "value": {
-                      "main": {
-                        "dimensions": {
-                          "width": 960,
-                          "height": 825
-                        },
-                        "alt": null,
-                        "copyright": null,
-                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/8ed2390ae1fde479e0ffbfc60b024200a418f162_960x825_191919_4a4a4a.png"
-                      },
-                      "views": {
-                        "mobile": {
-                          "dimensions": {
-                            "width": 800,
-                            "height": 820
-                          },
-                          "alt": null,
-                          "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/6bc4e8f17398dde9b0b213158613a0d36bc1ae43_800x820_191919_4a4a4a.png"
-                        },
-                        "desktop": {
-                          "dimensions": {
-                            "width": 960,
-                            "height": 825
-                          },
-                          "alt": null,
-                          "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/8ed2390ae1fde479e0ffbfc60b024200a418f162_960x825_191919_4a4a4a.png"
-                        }
-                      }
-                    }
-                  },
-                  "headline": {
-                    "type": "Text",
-                    "value": "News tile headline with style <br><br class=\"mobile\"> option set as white."
-                  },
-                  "linkUrl": {
-                    "type": "Link.web",
-                    "value": {
-                      "url": "http://#"
-                    }
-                  },
-                  "linkText": {
-                    "type": "Text",
-                    "value": "News tile link"
-                  },
-                  "style": {
-                    "type": "Select",
-                    "value": "white"
-                  }
-                }
-              ]
-            },
-            {
-              "type": "news-tile",
-              "value": [
-                {
-                  "image": {
-                    "type": "Image",
-                    "value": {
-                      "main": {
-                        "dimensions": {
-                          "width": 960,
-                          "height": 825
-                        },
-                        "alt": null,
-                        "copyright": null,
-                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/414b8cdc9f7e4e5f75f37ef5d5f3b76f211a6096_960x825_4a4a4a_191919.png"
-                      },
-                      "views": {
-                        "mobile": {
-                          "dimensions": {
-                            "width": 800,
-                            "height": 820
-                          },
-                          "alt": null,
-                          "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/d20a52a2a529a6c6cea53ec20e12b0abcd3bb934_800x820_4a4a4a_191919.png"
-                        },
-                        "desktop": {
-                          "dimensions": {
-                            "width": 960,
-                            "height": 825
-                          },
-                          "alt": null,
-                          "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/414b8cdc9f7e4e5f75f37ef5d5f3b76f211a6096_960x825_4a4a4a_191919.png"
-                        }
-                      }
-                    }
-                  },
-                  "headline": {
-                    "type": "Text",
-                    "value": "News tile headline with style <br><br class=\"mobile\"> option set as yellow."
-                  },
-                  "linkUrl": {
-                    "type": "Link.web",
-                    "value": {
-                      "url": "http://#"
-                    }
-                  },
-                  "linkText": {
-                    "type": "Text",
-                    "value": "News tile link"
-                  },
-                  "style": {
-                    "type": "Select",
-                    "value": "yellow"
                   }
                 }
               ]
