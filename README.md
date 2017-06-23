@@ -60,3 +60,7 @@ Note that GitHub pages will automatically take whatever is in the **master** bra
 Note that if you publish many things in quick succession, you will trigger multiple builds that will be queued up and eventually processed over time.
 
 The current round-time for an update is about five minutes.
+
+## Connfiguring Redirects on Production
+
+- Add (or) modify redirects written in the .htaccess file and copy it over to the production server.

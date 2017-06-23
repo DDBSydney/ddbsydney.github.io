@@ -16,8 +16,6 @@ RedirectMatch 301  ^/sydney/about/heritage/$         http://ddb.com.au/sydney/
 RedirectMatch 301  ^/sydney/about/the-group/$        http://ddb.com.au/
 RedirectMatch 301  ^/sydney/about/team/$             http://ddb.com.au/sydney/about/people/
 
-RedirectMatch 301  ^/sydney/news/$                   http://ddb.com.au/sydney/
-
 RedirectMatch 301  ^/sydney/creative/$               http://ddb.com.au/sydney/work/
 RedirectMatch 301  ^/sydney/creative/reel/$          http://ddb.com.au/sydney/work/
 
