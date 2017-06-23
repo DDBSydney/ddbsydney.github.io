@@ -60,7 +60,8 @@ $footer_span_padding: (0.25em / 4);
 
   @include mobile {
     &.footer__col--contact,
-    &.footer__col--empty {
+    &.footer__col--empty,
+    &.footer__col--other {
       flex-basis: 67.5%;
     }
 
@@ -70,6 +71,7 @@ $footer_span_padding: (0.25em / 4);
     }
 
     &.footer__col--empty,
+    &.footer__col--other,
     &.footer__col--ddb {
       @include section--padding-top("md");
       align-self: flex-end;
