@@ -1320,7 +1320,6 @@ var CONFIG = require("../config");
 
 })(jQuery);
 
-
 },{"../base/promise":5,"../base/query":6,"../config":12}],11:[function(require,module,exports){
 "use strict";
 
