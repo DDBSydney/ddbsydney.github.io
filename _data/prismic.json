@@ -1,5 +1,952 @@
 {
+  "latest": [
+    {
+      "uid": "latest",
+      "data": {
+        "meta-title": {
+          "type": "Text",
+          "value": "Latest | DDB Sydney"
+        },
+        "meta-description": {
+          "type": "Text",
+          "value": "Latest news from DDB Sydney."
+        },
+        "foregroundColor": {
+          "type": "Color",
+          "value": "#ffffff"
+        },
+        "backgroundColor": {
+          "type": "Color",
+          "value": "#000000"
+        },
+        "sections": {
+          "type": "SectionList",
+          "value": [
+            {
+              "type": "promo-video",
+              "value": [
+                {
+                  "headline": {
+                    "type": "Text",
+                    "value": "Feeling <br class=\"mobile\"/><span>conquers</span><br class=\"mobile\"/> thinking."
+                  },
+                  "image": {
+                    "type": "Image",
+                    "value": {
+                      "main": {
+                        "dimensions": {
+                          "width": 1023,
+                          "height": 648
+                        },
+                        "alt": null,
+                        "copyright": null,
+                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/23f8d13b254fbb884c5b58d9ac0300028c475958_campaign-naked-ute.jpg"
+                      },
+                      "views": {
+                        "mobile": {
+                          "dimensions": {
+                            "width": 800,
+                            "height": 820
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/61ee0c024ccf42b00a18bb824509dfd55e1d738f_campaign-naked-ute.jpg"
+                        },
+                        "desktop": {
+                          "dimensions": {
+                            "width": 1920,
+                            "height": 900
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/7e32771c32d3250aecd437134860e0db90c73434_campaign-naked-ute.jpg"
+                        }
+                      }
+                    }
+                  },
+                  "video": {
+                    "type": "Link.file",
+                    "value": {
+                      "file": {
+                        "name": "promo-video_desktop.mp4",
+                        "kind": "document",
+                        "url": "http://ddb-website.cdn.prismic.io/ddb-website%2F2cfe77c1-c97e-474b-a975-54bcdbbfdd02_promo-video_desktop.mp4",
+                        "size": "5357344"
+                      }
+                    }
+                  },
+                  "foregroundColor": {
+                    "type": "Color",
+                    "value": "#ffffff"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "case-study-tile",
+              "value": [
+                {
+                  "headline": {
+                    "type": "Text",
+                    "value": "Westpac"
+                  },
+                  "copy": {
+                    "type": "Text",
+                    "value": "Ensuring every bump<br class=\"all\"/> gets a good start."
+                  },
+                  "image": {
+                    "type": "Image",
+                    "value": {
+                      "main": {
+                        "dimensions": {
+                          "width": 1024,
+                          "height": 500
+                        },
+                        "alt": null,
+                        "copyright": null,
+                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/f1e8dd582e0c995818e1923a3c5e28f2ea364914_bump.jpg"
+                      },
+                      "views": {
+                        "mobile": {
+                          "dimensions": {
+                            "width": 800,
+                            "height": 820
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/0cfef87b70fdc0a83cb4e13f41cef159db4ae68a_work_images_crops_800pxw_x_820pxd_0010_westpac_bump.jpg"
+                        },
+                        "desktop": {
+                          "dimensions": {
+                            "width": 1920,
+                            "height": 900
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/ea269037e8238f0c10f01a8a0a389885dd86a937_bump.jpg"
+                        }
+                      }
+                    }
+                  },
+                  "linkUrl": {
+                    "type": "Link.document",
+                    "value": {
+                      "document": {
+                        "id": "WL5JOCQAAC8DeBbk",
+                        "type": "case-studies",
+                        "tags": [
+
+                        ],
+                        "slug": "westpac---bump--ddb-sydney",
+                        "uid": "westpac-bump"
+                      },
+                      "isBroken": false
+                    }
+                  },
+                  "linkText": {
+                    "type": "Text",
+                    "value": "View the work"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "case-study-tile",
+              "value": [
+                {
+                  "headline": {
+                    "type": "Text",
+                    "value": "Volkswagen"
+                  },
+                  "copy": {
+                    "type": "Text",
+                    "value": "Aussie blokes were judging the Amarok by its cover, so we removed it."
+                  },
+                  "image": {
+                    "type": "Image",
+                    "value": {
+                      "main": {
+                        "dimensions": {
+                          "width": 1920,
+                          "height": 1200
+                        },
+                        "alt": null,
+                        "copyright": null,
+                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/36d46373834bbe1d69f09ddbc1982fd3aa911e3e_naked-ute-0.jpg"
+                      },
+                      "views": {
+                        "mobile": {
+                          "dimensions": {
+                            "width": 800,
+                            "height": 820
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/7ef462d5f8b528523a787157c31f5e59995a9c85_work_images_crops_800pxw_x_820pxd_0006_vw_naked_ute.jpg"
+                        },
+                        "desktop": {
+                          "dimensions": {
+                            "width": 1920,
+                            "height": 900
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/69efdbb08044dac5dad037c7facd4ef85dc8d6ff_naked-ute-0.jpg"
+                        }
+                      }
+                    }
+                  },
+                  "linkUrl": {
+                    "type": "Link.document",
+                    "value": {
+                      "document": {
+                        "id": "WK0ZFykAACsAoYlk",
+                        "type": "case-studies",
+                        "tags": [
+
+                        ],
+                        "slug": "volkswagen-naked-ute--ddb",
+                        "uid": "volkswagen-naked-ute"
+                      },
+                      "isBroken": false
+                    }
+                  },
+                  "linkText": {
+                    "type": "Text",
+                    "value": "View the work"
+                  },
+                  "align": {
+                    "type": "Select",
+                    "value": "topRight"
+                  },
+                  "foregroundColor": {
+                    "type": "Color",
+                    "value": "#ffffff"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "article-tile",
+              "value": [
+                {
+                  "headline": {
+                    "type": "Text",
+                    "value": "Culture"
+                  },
+                  "copy": {
+                    "type": "Text",
+                    "value": "Our people <br>& their culture."
+                  },
+                  "linkUrl": {
+                    "type": "Link.document",
+                    "value": {
+                      "document": {
+                        "id": "WMX0dScAAMwVxqbV",
+                        "type": "about-pages",
+                        "tags": [
+
+                        ],
+                        "slug": "about-our-people--ddb-sydney",
+                        "uid": "people"
+                      },
+                      "isBroken": false
+                    }
+                  },
+                  "linkText": {
+                    "type": "Text",
+                    "value": "Meet our team"
+                  },
+                  "foregroundColor": {
+                    "type": "Color",
+                    "value": "#ffffff"
+                  }
+                },
+                {
+                  "headline": {
+                    "type": "Text",
+                    "value": "Creativity"
+                  },
+                  "copy": {
+                    "type": "Text",
+                    "value": "D&AD Designing<br class=\"all\"/> for mobile."
+                  },
+                  "linkUrl": {
+                    "type": "Link.web",
+                    "value": {
+                      "url": "https://medium.com/ddb-sydney/d-ad-sydney-opera-house-6a4d1c2e163c"
+                    }
+                  },
+                  "linkText": {
+                    "type": "Text",
+                    "value": "Read on medium"
+                  },
+                  "style": {
+                    "type": "Select",
+                    "value": "yellow"
+                  },
+                  "foregroundColor": {
+                    "type": "Color",
+                    "value": "#ffffff"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "case-study-tile",
+              "value": [
+                {
+                  "headline": {
+                    "type": "Text",
+                    "value": "Westpac"
+                  },
+                  "copy": {
+                    "type": "Text",
+                    "value": "200 years proudly supporting Australia."
+                  },
+                  "image": {
+                    "type": "Image",
+                    "value": {
+                      "main": {
+                        "dimensions": {
+                          "width": 1920,
+                          "height": 1200
+                        },
+                        "alt": null,
+                        "copyright": null,
+                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/a7f1c42ed824f6fa938641be5b1bd491374e59ff_screen-shot-2017-03-08-at-3.01.05-pm-2.png"
+                      },
+                      "views": {
+                        "mobile": {
+                          "dimensions": {
+                            "width": 800,
+                            "height": 820
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/cffff0386e6c95236a477253ca0b628cac08869b_work_images_crops_800pxw_x_820pxd_0004_westpac_chopper.jpg"
+                        },
+                        "desktop": {
+                          "dimensions": {
+                            "width": 1920,
+                            "height": 900
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/0dedb820befb48f354a46b89322d3398de408d72_screen-shot-2017-03-08-at-3.01.05-pm-2.png"
+                        }
+                      }
+                    }
+                  },
+                  "linkUrl": {
+                    "type": "Link.document",
+                    "value": {
+                      "document": {
+                        "id": "WL5LISQAADADeB9R",
+                        "type": "case-studies",
+                        "tags": [
+
+                        ],
+                        "slug": "westpac-chopper--ddb",
+                        "uid": "westpac-chopper"
+                      },
+                      "isBroken": false
+                    }
+                  },
+                  "linkText": {
+                    "type": "Text",
+                    "value": "View the work"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "article-tile",
+              "value": [
+                {
+                  "headline": {
+                    "type": "Text",
+                    "value": "Creativity"
+                  },
+                  "copy": {
+                    "type": "Text",
+                    "value": "Young creative technology thinkers wanted."
+                  },
+                  "linkUrl": {
+                    "type": "Link.web",
+                    "value": {
+                      "url": "https://medium.com/ddb-sydney/creative-technology-internship-3ad34b4f8807#.e3swtfp20"
+                    }
+                  },
+                  "linkText": {
+                    "type": "Text",
+                    "value": "Read on Medium"
+                  },
+                  "style": {
+                    "type": "Select",
+                    "value": "yellow"
+                  }
+                },
+                {
+                  "headline": {
+                    "type": "Text",
+                    "value": "Careers"
+                  },
+                  "copy": {
+                    "type": "Text",
+                    "value": "Strategically solid, innovative thinkers wanted."
+                  },
+                  "linkUrl": {
+                    "type": "Link.document",
+                    "value": {
+                      "document": {
+                        "id": "WLjpIB8AAH0IVDyO",
+                        "type": "career-listings",
+                        "tags": [
+
+                        ],
+                        "slug": "creatives---careers--ddb",
+                        "uid": "creatives"
+                      },
+                      "isBroken": false
+                    }
+                  },
+                  "linkText": {
+                    "type": "Text",
+                    "value": "Join our team"
+                  },
+                  "style": {
+                    "type": "Select",
+                    "value": "grey"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "case-study-tile",
+              "value": [
+                {
+                  "headline": {
+                    "type": "Text",
+                    "value": "The Sydney Opera House"
+                  },
+                  "copy": {
+                    "type": "Text",
+                    "value": "We needed to get more people inside the Sydney Opera House during summer."
+                  },
+                  "image": {
+                    "type": "Image",
+                    "value": {
+                      "main": {
+                        "dimensions": {
+                          "width": 1920,
+                          "height": 1200
+                        },
+                        "alt": null,
+                        "copyright": null,
+                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/6f53e69aed9f5eed2b4da42b82eaea5c58a495cf_screen-shot-2017-03-08-at-3.13.56-pm-2.png"
+                      },
+                      "views": {
+                        "mobile": {
+                          "dimensions": {
+                            "width": 800,
+                            "height": 820
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/810f8c17f19d24351bd53a74ff4db10084cb4fc8_work_images_crops_800pxw_x_820pxd_0007_opera_house.jpg"
+                        },
+                        "desktop": {
+                          "dimensions": {
+                            "width": 1920,
+                            "height": 900
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/88590585b20bf1fa5563398b3c943dd706d5edeb_screen-shot-2017-03-08-at-3.13.56-pm-2.png"
+                        }
+                      }
+                    }
+                  },
+                  "linkUrl": {
+                    "type": "Link.document",
+                    "value": {
+                      "document": {
+                        "id": "WKpzRigAACgAOzbM",
+                        "type": "case-studies",
+                        "tags": [
+
+                        ],
+                        "slug": "the-sydney-opera-house--ddb",
+                        "uid": "the-sydney-opera-house"
+                      },
+                      "isBroken": false
+                    }
+                  },
+                  "linkText": {
+                    "type": "Text",
+                    "value": "View the work"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "article-tile",
+              "value": [
+                {
+                  "headline": {
+                    "type": "Text",
+                    "value": "Careers"
+                  },
+                  "copy": {
+                    "type": "Text",
+                    "value": "Do you think creatively & act strategically?"
+                  },
+                  "linkUrl": {
+                    "type": "Link.document",
+                    "value": {
+                      "document": {
+                        "id": "WLjjUx8AAH4IVCL5",
+                        "type": "career-listings",
+                        "tags": [
+
+                        ],
+                        "slug": "careers--ddb",
+                        "uid": "job-openings"
+                      },
+                      "isBroken": false
+                    }
+                  },
+                  "linkText": {
+                    "type": "Text",
+                    "value": "Join our team"
+                  }
+                },
+                {
+                  "headline": {
+                    "type": "Text",
+                    "value": "Culture"
+                  },
+                  "copy": {
+                    "type": "Text",
+                    "value": "We talk each other up, never down."
+                  },
+                  "linkUrl": {
+                    "type": "Link.document",
+                    "value": {
+                      "document": {
+                        "id": "WMX0dScAAMwVxqbV",
+                        "type": "about-pages",
+                        "tags": [
+
+                        ],
+                        "slug": "about-our-people--ddb-sydney",
+                        "uid": "people"
+                      },
+                      "isBroken": false
+                    }
+                  },
+                  "linkText": {
+                    "type": "Text",
+                    "value": "Read more"
+                  },
+                  "style": {
+                    "type": "Select",
+                    "value": "yellow"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "case-study-tile",
+              "value": [
+                {
+                  "headline": {
+                    "type": "Text",
+                    "value": "McDonald's"
+                  },
+                  "copy": {
+                    "type": "Text",
+                    "value": "Got the appetite?<br class=\"all\"/> We'll bring the opportunity."
+                  },
+                  "image": {
+                    "type": "Image",
+                    "value": {
+                      "main": {
+                        "dimensions": {
+                          "width": 1920,
+                          "height": 892
+                        },
+                        "alt": null,
+                        "copyright": null,
+                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/c9868fe0bc92a0b04b62266a17bfc30df7b9650a_5a0dd827de54be2162874976489ab149cbab6427_maccas-people-2.jpg"
+                      },
+                      "views": {
+                        "mobile": {
+                          "dimensions": {
+                            "width": 800,
+                            "height": 820
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/67fa86d78f7ca49547032e0390a7f1b8f3ce5846_work_images_crops_800pxw_x_820pxd_0005_maccas_girl.jpg"
+                        },
+                        "desktop": {
+                          "dimensions": {
+                            "width": 1920,
+                            "height": 900
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/cadcfbf5cec52b114674181eb5124cd74803efa4_5a0dd827de54be2162874976489ab149cbab6427_maccas-people-2.jpg"
+                        }
+                      }
+                    }
+                  },
+                  "linkUrl": {
+                    "type": "Link.document",
+                    "value": {
+                      "document": {
+                        "id": "WK0L2SkAACsAoU7x",
+                        "type": "case-studies",
+                        "tags": [
+
+                        ],
+                        "slug": "mcdonalds-people--ddb-sydney",
+                        "uid": "mcdonalds-people"
+                      },
+                      "isBroken": false
+                    }
+                  },
+                  "linkText": {
+                    "type": "Text",
+                    "value": "View the work"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "article-tile",
+              "value": [
+                {
+                  "headline": {
+                    "type": "Text",
+                    "value": "News"
+                  },
+                  "copy": {
+                    "type": "Text",
+                    "value": "DDB runner up network of the year at AWARD"
+                  },
+                  "linkUrl": {
+                    "type": "Link.document",
+                    "value": {
+                      "document": {
+                        "id": "WUnNOCYAAJQGaq1E",
+                        "type": "news-pages",
+                        "tags": [
+
+                        ],
+                        "slug": "ddb-award-awards",
+                        "uid": "award-awards"
+                      },
+                      "isBroken": false
+                    }
+                  },
+                  "linkText": {
+                    "type": "Text",
+                    "value": "Read more"
+                  },
+                  "style": {
+                    "type": "Select",
+                    "value": "yellow"
+                  }
+                },
+                {
+                  "headline": {
+                    "type": "Text",
+                    "value": "News"
+                  },
+                  "copy": {
+                    "type": "Text",
+                    "value": "New ŠKODA campaign via DDB Sydney challenges normal car ad conventions"
+                  },
+                  "linkUrl": {
+                    "type": "Link.document",
+                    "value": {
+                      "document": {
+                        "id": "WUr3QCYAABEab88j",
+                        "type": "news-pages",
+                        "tags": [
+
+                        ],
+                        "slug": "new-skoda-campaign",
+                        "uid": "new-skoda-campaign"
+                      },
+                      "isBroken": false
+                    }
+                  },
+                  "linkText": {
+                    "type": "Text",
+                    "value": "Read more"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "case-study-tile",
+              "value": [
+                {
+                  "headline": {
+                    "type": "Text",
+                    "value": "Volkswagen"
+                  },
+                  "copy": {
+                    "type": "Text",
+                    "value": "Can we sell a Golf to a town that doesn’t need its city technology?"
+                  },
+                  "image": {
+                    "type": "Image",
+                    "value": {
+                      "main": {
+                        "dimensions": {
+                          "width": 1920,
+                          "height": 1200
+                        },
+                        "alt": null,
+                        "copyright": null,
+                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/bf7ea41b139c58df949c1823064a5d12b174b140_screen-shot-2017-03-08-at-2.28.25-pm-2.png"
+                      },
+                      "views": {
+                        "desktop": {
+                          "dimensions": {
+                            "width": 1920,
+                            "height": 900
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/12da6a227dfb0b8ff73e263e322cdeb9ca29de6b_screen-shot-2017-03-08-at-2.28.25-pm-2.png"
+                        },
+                        "mobile": {
+                          "dimensions": {
+                            "width": 800,
+                            "height": 820
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/49c296820bcff6655dda2d3edaa9898d6ac0cfa7_work_images_crops_800pxw_x_820pxd_0008_vw_golf_outback.jpg"
+                        }
+                      }
+                    }
+                  },
+                  "linkUrl": {
+                    "type": "Link.document",
+                    "value": {
+                      "document": {
+                        "id": "WK0GeCkAACgAoTc8",
+                        "type": "case-studies",
+                        "tags": [
+
+                        ],
+                        "slug": "volkswagen-tough-sell--ddb",
+                        "uid": "volkswagen-tough-sell"
+                      },
+                      "isBroken": false
+                    }
+                  },
+                  "linkText": {
+                    "type": "Text",
+                    "value": "View the work"
+                  },
+                  "align": {
+                    "type": "Select",
+                    "value": "topRight"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ],
   "news-pages": [
+    {
+      "uid": "best-global-talent",
+      "data": {
+        "meta-title": {
+          "type": "Text",
+          "value": "DDB Sydney attracts best global talent"
+        },
+        "meta-description": {
+          "type": "Text",
+          "value": "DDB Sydney attracts best global talent"
+        },
+        "sections": {
+          "type": "SectionList",
+          "value": [
+            {
+              "type": "image-tile-small",
+              "value": [
+                {
+                  "image": {
+                    "type": "Image",
+                    "value": {
+                      "main": {
+                        "dimensions": {
+                          "width": 1920,
+                          "height": 1080
+                        },
+                        "alt": null,
+                        "copyright": null,
+                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/78ab4b026292d9a155e99b59653ec479130e492c_sian-nico-damian_2.jpg"
+                      },
+                      "views": {
+                        "mobile": {
+                          "dimensions": {
+                            "width": 800,
+                            "height": 700
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/470cd41ea2257ded9b02c8b3f8d194d1af5f1a37_sian-nico-damian_2.jpg"
+                        },
+                        "desktop": {
+                          "dimensions": {
+                            "width": 1920,
+                            "height": 768
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/aabc38b2e3ad7dbf93d5b7f7494b9146105a8680_sian-nico-damian_2.jpg"
+                        }
+                      }
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "news-title",
+              "value": [
+                {
+                  "date": {
+                    "type": "Text",
+                    "value": "6 April 2017"
+                  },
+                  "headline": {
+                    "type": "Text",
+                    "value": "DDB Sydney continues to attract the best global talent with new hires"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "news-content",
+              "value": [
+                {
+                  "copy": {
+                    "type": "Text",
+                    "value": "DDB Sydney continues to attract the best talent from all over the globe, with recent hires adding even more weight to their impressive pool of creative talent.\n<br>\n<br>\nArgentina is worldly known for its football, beef and the Tango, but you can also add talented creative minds to that list. Creative duo Nicolas Smith (Senior Art Director) and Damian Martinez (Senior Copywriter) are, as far as they know, the first Argentinian creatives to have crossed the Pacific to Australia.\n<br>\n<br>\nTogether, they've won awards at major creative festivals across the world, including Cannes Lions, D&AD, Clio, London International Awards (LIA) and Effie, most notably for \"Life Signs\". DDB Sydney is their fourth agency together and their biggest move yet.\n<br>\n<br>\n\"We're very excited to work alongside some of the best creatives in Australia and the world,” Nicolas said.\n<br>\n<br>\n\"I'm loving this place. I even enjoy eating Vegemite,” Damian said.\n<br>\n<br>\nCanadian Art Director Alex Newman joins DDB with a swag of international awards under his belt, including Cannes Lions, The AToMiC Awards, The One Show, The New York Festival and London International Awards. In 2014 he was named ‘Top 30 Under 30’ by Marketing Magazine.\n<br>\n<br>\nAlex said he was drawn to DDB’s drive for world class creative and is looking forward to building projects that stretch the boundaries of what is considered ‘advertising’.\n<br>\n<br>\n“Ben (Welsh, CCO) has put together a powerful team, talent from all over the world, which has created this kind of hot bed of creativity. It’s an exciting time to be joining DDB,” Alex said.\n<br>\n<br>\nSian Binder and Dave Govier join DDB as Creative Partners on McDonald’s. They have won a bunch of awards between them, including Cannes Lions, One Show, Clios and D&AD.\n<br>\n<br>\nPreviously Head of Art at Ogilvy Sydney, Sian has worked on impressive award winning campaigns with talented creatives, while globe trotter Dave most recently freelanced at The Monkeys, Leo Burnett and Cummins & Partners after returning to Sydney from the legendary Saatchi’s London.\n<br>\n<br>\nSian said she’s always admired DDB’s work.\n<br>\n<br>\n“I’m excited to join DDB on the Macca’s team. DDB and McDonald’s have a well-established partnership and I’m looking forward to working alongside such collaborative and passionate people. And the opportunity to work on one of Australia’s most loved brands made the decision to move to DDB an easy one,” Sian said.\n<br>\n<br>\nDave’s highlights as Copywriter and Creative Director so far include winning the prestigious Carlsberg European Cup TVC for a small independent agency, helping the people of Ireland have another reason to drink alcohol in moderation by creating the outrageously successful Arthur’s Day annual celebration, along with Guinness’ very first global TVC which picked up a Cannes Lion.\n<br>\n<br>\n“Some things I look forward to doing more of include creating great film, digital, outdoor, print, events, promos, shelf-wobblers and any other ways we haven’t yet thought of to make famous work,” Dave said.\n<br>\n<br>\nDDB Sydney CCO Ben Welsh said he was excited to welcome these outstanding creatives to his team.\n<br>\n<br>\n“DDB Sydney is growing, in a very deliberate way,” Welsh said.\n<br>\n<br>\n“Our focus on diversity across the board, including getting more women into creative and management roles, continues to attract top class international and home grown talent, and means we continue to deliver stand out work for our clients,” Welsh said."
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "uid": "new-skoda-campaign",
+      "data": {
+        "meta-title": {
+          "type": "Text",
+          "value": "New Skoda campaign"
+        },
+        "meta-description": {
+          "type": "Text",
+          "value": "New Skoda campaign"
+        },
+        "sections": {
+          "type": "SectionList",
+          "value": [
+            {
+              "type": "image-tile-small",
+              "value": [
+                {
+                  "image": {
+                    "type": "Image",
+                    "value": {
+                      "main": {
+                        "dimensions": {
+                          "width": 1920,
+                          "height": 1080
+                        },
+                        "alt": null,
+                        "copyright": null,
+                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/0a28c253e6b1ad1cd4b83b645be6ec832483c7d5_sko0186t130.00_00_15_04.still0021_2.png"
+                      },
+                      "views": {
+                        "desktop": {
+                          "dimensions": {
+                            "width": 1920,
+                            "height": 768
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/8ce1ecc289248895ade83005ee32942a4a612518_sko0186t130.00_00_15_04.still0021_2.png"
+                        },
+                        "mobile": {
+                          "dimensions": {
+                            "width": 800,
+                            "height": 700
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/cf12ddf21057d4eb39825a2224583aa0edb46030_sko0186t130.00_00_15_04.still0021_2.png"
+                        }
+                      }
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "news-title",
+              "value": [
+                {
+                  "date": {
+                    "type": "Text",
+                    "value": "30 May 2017"
+                  },
+                  "headline": {
+                    "type": "Text",
+                    "value": "New ŠKODA campaign via DDB Sydney challenges normal car ad conventions"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "news-content",
+              "value": [
+                {
+                  "copy": {
+                    "type": "Text",
+                    "value": "Škoda today launched a new brand campaign, via DDB Sydney, that centres on the idea that you don’t have to be famous to be brilliant.\n<br>\n<br>\nFeaturing clever Australians doing amazing things, and doing them differently, the campaign challenges the normal car ad conventions.\n<br>\n<br>\nŠkoda Australia Director Michael Irmer said that this innovative brand awareness campaign is unique in that it challenges the buyer to disregard the more obvious choices and, instead, consider Skoda.\n<br>\n<br>\n“Škoda’s tagline, ‘Simply Clever’, encapsulates both the accessibility and the innovation of our cars and SUVs,” Irmer said.\n<br>\n<br>\n“The brand campaign paves the way for an entirely new direction for Škoda in the shape of the Kodiaq. As the first affordable seven-seat SUV from Europe, it is a game changer, one that challenges not only the traditional market leaders in this family vehicle segment, but also far more expensive prestige models,” he said.\n<br>\n<br>\nDDB Sydney Managing Partner Amanda Wheeler said the campaign pushes against category conventions to stand out in a cluttered market.\n<br>\n<br>\n“In an unexpected approach for a car company, this Škoda campaign celebrates people who are brilliant but not famous,” Wheeler said.\n<br>\n<br>\n“The idea of the campaign is to align the brilliance and inventiveness of these people with the brilliance and inventiveness of Škoda, helping to create a greater appreciation of the Škoda brand in Australia,” she said.\n<br>\n<br>\nDDB Chief Creative Officer Ben Welsh said the campaign is sophisticated, subtle and aspirational, and features two Aussies who certainly aren’t household names but are nonetheless exceptional.\n<br>\n<br>\n“In the first spot we meet Dr John O’Sullivan, the leader of the team who invented Wi-Fi, and a second to be launched in July features Aelita Andre, a 10-year-old artist who had her first art exhibition in New York at the age of four,” Welsh said.\n<br>\n<br>\n“Too many people in this world are famous for being famous, while those who really contribute to society are often overlooked; this campaign beautifully highlights the simple genius and different thinking that has gotten our talent where they are today,” he said.\n<br>\n<br>\nThis is the biggest campaign for the Škoda brand this year and will run over three months across TV, outdoor, social, digital and retail nationally."
+                  }
+                }
+              ]
+            },
+            {
+              "type": "news-title",
+              "value": [
+                {
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
     {
       "uid": "test-news",
       "data": {
@@ -172,91 +1119,6 @@
       }
     },
     {
-      "uid": "best-global-talent",
-      "data": {
-        "meta-title": {
-          "type": "Text",
-          "value": "best global talent"
-        },
-        "meta-description": {
-          "type": "Text",
-          "value": "DDB Sydney attracts best global talent"
-        },
-        "sections": {
-          "type": "SectionList",
-          "value": [
-            {
-              "type": "image-tile-small",
-              "value": [
-                {
-                  "image": {
-                    "type": "Image",
-                    "value": {
-                      "main": {
-                        "dimensions": {
-                          "width": 960,
-                          "height": 825
-                        },
-                        "alt": null,
-                        "copyright": null,
-                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/7744c335c2b063b2a1579eb3d68b157b59942757_sian-nico-damian.jpg"
-                      },
-                      "views": {
-                        "mobile": {
-                          "dimensions": {
-                            "width": 800,
-                            "height": 700
-                          },
-                          "alt": null,
-                          "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/876ecb68ca053deb5e91d96c1b77406ebfa1a04a_sian-nico-damian.jpg"
-                        },
-                        "desktop": {
-                          "dimensions": {
-                            "width": 1920,
-                            "height": 768
-                          },
-                          "alt": null,
-                          "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/de811facf983ebbaa5ac7176c76223fc0eb33a88_sian-nico-damian.jpg"
-                        }
-                      }
-                    }
-                  }
-                }
-              ]
-            },
-            {
-              "type": "news-title",
-              "value": [
-                {
-                  "date": {
-                    "type": "Text",
-                    "value": "6 April 2017"
-                  },
-                  "headline": {
-                    "type": "Text",
-                    "value": "DDB Sydney continues to attract the best global talent with new hires"
-                  }
-                }
-              ]
-            },
-            {
-              "type": "news-content",
-              "value": [
-                {
-                  "copy": {
-                    "type": "Text",
-                    "value": "DDB Sydney continues to attract the best talent from all over the globe, with recent hires adding even more weight to their impressive pool of creative talent.\n<br>\n<br>\nArgentina is worldly known for its football, beef and the Tango, but you can also add talented creative minds to that list. Creative duo Nicolas Smith (Senior Art Director) and Damian Martinez (Senior Copywriter) are, as far as they know, the first Argentinian creatives to have crossed the Pacific to Australia.\n<br>\n<br>\nTogether, they've won awards at major creative festivals across the world, including Cannes Lions, D&AD, Clio, London International Awards (LIA) and Effie, most notably for \"Life Signs\". DDB Sydney is their fourth agency together and their biggest move yet.\n<br>\n<br>\n\"We're very excited to work alongside some of the best creatives in Australia and the world,” Nicolas said.\n<br>\n<br>\n\"I'm loving this place. I even enjoy eating Vegemite,” Damian said.\n<br>\n<br>\nCanadian Art Director Alex Newman joins DDB with a swag of international awards under his belt, including Cannes Lions, The AToMiC Awards, The One Show, The New York Festival and London International Awards. In 2014 he was named ‘Top 30 Under 30’ by Marketing Magazine.\n<br>\n<br>\nAlex said he was drawn to DDB’s drive for world class creative and is looking forward to building projects that stretch the boundaries of what is considered ‘advertising’.\n<br>\n<br>\n“Ben (Welsh, CCO) has put together a powerful team, talent from all over the world, which has created this kind of hot bed of creativity. It’s an exciting time to be joining DDB,” Alex said.\n<br>\n<br>\nSian Binder and Dave Govier join DDB as Creative Partners on McDonald’s. They have won a bunch of awards between them, including Cannes Lions, One Show, Clios and D&AD.\n<br>\n<br>\nPreviously Head of Art at Ogilvy Sydney, Sian has worked on impressive award winning campaigns with talented creatives, while globe trotter Dave most recently freelanced at The Monkeys, Leo Burnett and Cummins & Partners after returning to Sydney from the legendary Saatchi’s London.\n<br>\n<br>\nSian said she’s always admired DDB’s work.\n<br>\n<br>\n“I’m excited to join DDB on the Macca’s team. DDB and McDonald’s have a well-established partnership and I’m looking forward to working alongside such collaborative and passionate people. And the opportunity to work on one of Australia’s most loved brands made the decision to move to DDB an easy one,” Sian said.\n<br>\n<br>\nDave’s highlights as Copywriter and Creative Director so far include winning the prestigious Carlsberg European Cup TVC for a small independent agency, helping the people of Ireland have another reason to drink alcohol in moderation by creating the outrageously successful Arthur’s Day annual celebration, along with Guinness’ very first global TVC which picked up a Cannes Lion.\n<br>\n<br>\n“Some things I look forward to doing more of include creating great film, digital, outdoor, print, events, promos, shelf-wobblers and any other ways we haven’t yet thought of to make famous work,” Dave said.\n<br>\n<br>\nDDB Sydney CCO Ben Welsh said he was excited to welcome these outstanding creatives to his team.\n<br>\n<br>\n“DDB Sydney is growing, in a very deliberate way,” Welsh said.\n<br>\n<br>\n“Our focus on diversity across the board, including getting more women into creative and management roles, continues to attract top class international and home grown talent, and means we continue to deliver stand out work for our clients,” Welsh said."
-                  }
-                }
-              ]
-            }
-          ]
-        }
-      }
-    },
-    {
       "uid": "award-awards",
       "data": {
         "meta-title": {
@@ -293,98 +1155,6 @@
                     "type": "Text",
                     "value": "DDB won runner up network of the year at the AWARD Awards on 26 May 2017, receiving a whopping 34 Gold, Silver and Bronze pencils.\n<br>\n<br>\nStandout campaigns from DDB in Australia and New Zealand include Volkswagen The Naked Ute, #comeonin for Sydney Opera House, McDonald’s “Anything for Love”, The Unconventional Oven for Kidsafe, Mum’s Wish and the URXXL series for Sky NZ and Lion ‘Welcome to the Other Side’.\n<br>\n<br>\n“Producing creative work that’s about feeling not thinking; culture, not categories; and the long term, not the urgent is the heart of what DDB does. We’re proud to be recognized for work that has delivered brilliant outcomes for our clients,” DDB Sydney CCO Ben Welsh said. \n<br>\n<br>\n“Being the number one New Zealand agency and second overall at AWARD was really pleasing. What was even more pleasing was winning the 16 pencils across a wide range of clients and categories,” DDB New Zealand CCO Damon Stapleton said.\n<br>\n<br>\n“We are extremely proud to pool our disciplines to create powerful campaigns that successfully deliver behaviour change for good,” DDB Managing Director Dion Appel said."
                   }
-                }
-              ]
-            }
-          ]
-        }
-      }
-    },
-    {
-      "uid": "new-skoda-campaign",
-      "data": {
-        "meta-title": {
-          "type": "Text",
-          "value": "new-skoda-campaign"
-        },
-        "meta-description": {
-          "type": "Text",
-          "value": "New Skoda campaign"
-        },
-        "sections": {
-          "type": "SectionList",
-          "value": [
-            {
-              "type": "image-tile-large",
-              "value": [
-                {
-                  "image": {
-                    "type": "Image",
-                    "value": {
-                      "main": {
-                        "dimensions": {
-                          "width": 1920,
-                          "height": 1080
-                        },
-                        "alt": null,
-                        "copyright": null,
-                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/0a3a2e6b23c2463fb7dc839d4a37e6bf807843f3_sko0186t130.00_00_15_04.still0021.jpeg"
-                      },
-                      "views": {
-                        "mobile": {
-                          "dimensions": {
-                            "width": 800,
-                            "height": 1320
-                          },
-                          "alt": null,
-                          "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/e7b9c9fc7836ebdbccf9daed0e19c03d458b930b_sko0186t130.00_00_15_04.still0021.jpeg"
-                        },
-                        "desktop": {
-                          "dimensions": {
-                            "width": 1920,
-                            "height": 1440
-                          },
-                          "alt": null,
-                          "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/4dc845740fa1c4c234177a04681a71b12eddde0a_sko0186t130.00_00_15_04.still0021.jpeg"
-                        }
-                      }
-                    }
-                  }
-                }
-              ]
-            },
-            {
-              "type": "news-title",
-              "value": [
-                {
-                  "date": {
-                    "type": "Text",
-                    "value": "30 May 2017"
-                  },
-                  "headline": {
-                    "type": "Text",
-                    "value": "New ŠKODA campaign via DDB Sydney challenges normal car ad conventions"
-                  }
-                }
-              ]
-            },
-            {
-              "type": "news-content",
-              "value": [
-                {
-                  "copy": {
-                    "type": "Text",
-                    "value": "Škoda today launched a new brand campaign, via DDB Sydney, that centres on the idea that you don’t have to be famous to be brilliant.\n<br>\n<br>\nFeaturing clever Australians doing amazing things, and doing them differently, the campaign challenges the normal car ad conventions.\n<br>\n<br>\nŠkoda Australia Director Michael Irmer said that this innovative brand awareness campaign is unique in that it challenges the buyer to disregard the more obvious choices and, instead, consider Skoda.\n<br>\n<br>\n“Škoda’s tagline, ‘Simply Clever’, encapsulates both the accessibility and the innovation of our cars and SUVs,” Irmer said.\n<br>\n<br>\n“The brand campaign paves the way for an entirely new direction for Škoda in the shape of the Kodiaq. As the first affordable seven-seat SUV from Europe, it is a game changer, one that challenges not only the traditional market leaders in this family vehicle segment, but also far more expensive prestige models,” he said.\n<br>\n<br>\nDDB Sydney Managing Partner Amanda Wheeler said the campaign pushes against category conventions to stand out in a cluttered market.\n<br>\n<br>\n“In an unexpected approach for a car company, this Škoda campaign celebrates people who are brilliant but not famous,” Wheeler said.\n<br>\n<br>\n“The idea of the campaign is to align the brilliance and inventiveness of these people with the brilliance and inventiveness of Škoda, helping to create a greater appreciation of the Škoda brand in Australia,” she said.\n<br>\n<br>\nDDB Chief Creative Officer Ben Welsh said the campaign is sophisticated, subtle and aspirational, and features two Aussies who certainly aren’t household names but are nonetheless exceptional.\n<br>\n<br>\n“In the first spot we meet Dr John O’Sullivan, the leader of the team who invented Wi-Fi, and a second to be launched in July features Aelita Andre, a 10-year-old artist who had her first art exhibition in New York at the age of four,” Welsh said.\n<br>\n<br>\n“Too many people in this world are famous for being famous, while those who really contribute to society are often overlooked; this campaign beautifully highlights the simple genius and different thinking that has gotten our talent where they are today,” he said.\n<br>\n<br>\nThis is the biggest campaign for the Škoda brand this year and will run over three months across TV, outdoor, social, digital and retail nationally."
-                  }
-                }
-              ]
-            },
-            {
-              "type": "news-title",
-              "value": [
-                {
                 }
               ]
             }
@@ -647,6 +1417,306 @@
                         }
                       }
                     }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "news": [
+    {
+      "uid": "news",
+      "data": {
+        "meta-title": {
+          "type": "Text",
+          "value": "News | DDB Sydney"
+        },
+        "meta-description": {
+          "type": "Text",
+          "value": "News from DDB Sydney."
+        },
+        "foregroundColor": {
+          "type": "Color",
+          "value": "#ffffff"
+        },
+        "sections": {
+          "type": "SectionList",
+          "value": [
+            {
+              "type": "news-tile",
+              "value": [
+                {
+                  "image": {
+                    "type": "Image",
+                    "value": {
+                      "main": {
+                        "dimensions": {
+                          "width": 1562,
+                          "height": 1562
+                        },
+                        "alt": null,
+                        "copyright": null,
+                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/a18daec562411eaebb9b4b740450180970608b8d_ddb-logo.png"
+                      },
+                      "views": {
+                        "desktop": {
+                          "dimensions": {
+                            "width": 960,
+                            "height": 825
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/64f16190850b780f8129950888043ceca9646fc8_ddb-logo.png"
+                        },
+                        "mobile": {
+                          "dimensions": {
+                            "width": 800,
+                            "height": 820
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/cca1a1a4e89e747e1aeeb7aa95afdef1483aaa43_ddb-logo.png"
+                        }
+                      }
+                    }
+                  },
+                  "headline": {
+                    "type": "Text",
+                    "value": "New thinking from DDB Australia to create 'unreasonable growth'"
+                  },
+                  "linkUrl": {
+                    "type": "Link.document",
+                    "value": {
+                      "document": {
+                        "id": "WUrx-SYAADsab7fg",
+                        "type": "news-pages",
+                        "tags": [
+
+                        ],
+                        "slug": "unreasonable-growth",
+                        "uid": "unreasonable-growth"
+                      },
+                      "isBroken": false
+                    }
+                  },
+                  "linkText": {
+                    "type": "Text",
+                    "value": "Read more"
+                  },
+                  "align": {
+                    "type": "Select",
+                    "value": "left"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "news-tile",
+              "value": [
+                {
+                  "image": {
+                    "type": "Image",
+                    "value": {
+                      "main": {
+                        "dimensions": {
+                          "width": 960,
+                          "height": 825
+                        },
+                        "alt": null,
+                        "copyright": null,
+                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/4e5afb8a74b4791824a53f1de1dd607257da3876_canva-photo-editor.png"
+                      },
+                      "views": {
+                        "mobile": {
+                          "dimensions": {
+                            "width": 800,
+                            "height": 820
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/d65c4c10e29fc17456b3ca3e1e2867a848a66514_canva-photo-editor.png"
+                        },
+                        "desktop": {
+                          "dimensions": {
+                            "width": 960,
+                            "height": 825
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/4e5afb8a74b4791824a53f1de1dd607257da3876_canva-photo-editor.png"
+                        }
+                      }
+                    }
+                  },
+                  "headline": {
+                    "type": "Text",
+                    "value": "DDB runner up network of the year at AWARD"
+                  },
+                  "linkUrl": {
+                    "type": "Link.document",
+                    "value": {
+                      "document": {
+                        "id": "WUnNOCYAAJQGaq1E",
+                        "type": "news-pages",
+                        "tags": [
+
+                        ],
+                        "slug": "ddb-award-awards",
+                        "uid": "award-awards"
+                      },
+                      "isBroken": false
+                    }
+                  },
+                  "linkText": {
+                    "type": "Text",
+                    "value": "Read more"
+                  },
+                  "style": {
+                    "type": "Select",
+                    "value": "white"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "news-tile",
+              "value": [
+                {
+                  "image": {
+                    "type": "Image",
+                    "value": {
+                      "main": {
+                        "dimensions": {
+                          "width": 960,
+                          "height": 825
+                        },
+                        "alt": null,
+                        "copyright": null,
+                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/1ab3e3f326b92b78cbd7e2451e2142d2183bdb8a_sko0186t130.00_00_15_04.still0021_.png"
+                      },
+                      "views": {
+                        "desktop": {
+                          "dimensions": {
+                            "width": 960,
+                            "height": 825
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/1ab3e3f326b92b78cbd7e2451e2142d2183bdb8a_sko0186t130.00_00_15_04.still0021_.png"
+                        },
+                        "mobile": {
+                          "dimensions": {
+                            "width": 800,
+                            "height": 820
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/bf887b425d24ad1f6038860c6f4a0a8bac212e9d_sko0186t130.00_00_15_04.still0021_.png"
+                        }
+                      }
+                    }
+                  },
+                  "headline": {
+                    "type": "Text",
+                    "value": "New ŠKODA campaign via DDB Sydney challenges normal car ad conventions"
+                  },
+                  "linkUrl": {
+                    "type": "Link.document",
+                    "value": {
+                      "document": {
+                        "id": "WUr3QCYAABEab88j",
+                        "type": "news-pages",
+                        "tags": [
+
+                        ],
+                        "slug": "new-skoda-campaign",
+                        "uid": "new-skoda-campaign"
+                      },
+                      "isBroken": false
+                    }
+                  },
+                  "linkText": {
+                    "type": "Text",
+                    "value": "Read more"
+                  },
+                  "align": {
+                    "type": "Select",
+                    "value": "left"
+                  },
+                  "style": {
+                    "type": "Select",
+                    "value": "black"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "news-tile",
+              "value": [
+                {
+                  "image": {
+                    "type": "Image",
+                    "value": {
+                      "main": {
+                        "dimensions": {
+                          "width": 960,
+                          "height": 825
+                        },
+                        "alt": null,
+                        "copyright": null,
+                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/fcad85a37d99e4f2d28067f6e3d40e918ea7fcc1_sian-nico-damian_.png"
+                      },
+                      "views": {
+                        "mobile": {
+                          "dimensions": {
+                            "width": 800,
+                            "height": 820
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/8cb8f01a4772d3ed87caacd4860936a02e2e2701_sian-nico-damian_.png"
+                        },
+                        "desktop": {
+                          "dimensions": {
+                            "width": 960,
+                            "height": 825
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/fcad85a37d99e4f2d28067f6e3d40e918ea7fcc1_sian-nico-damian_.png"
+                        }
+                      }
+                    }
+                  },
+                  "headline": {
+                    "type": "Text",
+                    "value": "DDB Sydney continues to attract best global talent"
+                  },
+                  "linkUrl": {
+                    "type": "Link.document",
+                    "value": {
+                      "document": {
+                        "id": "WUr6wCYAADYab96L",
+                        "type": "news-pages",
+                        "tags": [
+
+                        ],
+                        "slug": "ddb-sydney-attracts-best-global-talent",
+                        "uid": "best-global-talent"
+                      },
+                      "isBroken": false
+                    }
+                  },
+                  "linkText": {
+                    "type": "Text",
+                    "value": "Read more"
+                  },
+                  "style": {
+                    "type": "Select",
+                    "value": "yellow"
                   }
                 }
               ]
@@ -6207,978 +7277,6 @@
                         }
                       }
                     }
-                  }
-                }
-              ]
-            }
-          ]
-        }
-      }
-    }
-  ],
-  "news": [
-    {
-      "uid": "news",
-      "data": {
-        "meta-title": {
-          "type": "Text",
-          "value": "News | DDB Sydney"
-        },
-        "meta-description": {
-          "type": "Text",
-          "value": "News from DDB Sydney."
-        },
-        "foregroundColor": {
-          "type": "Color",
-          "value": "#ffffff"
-        },
-        "sections": {
-          "type": "SectionList",
-          "value": [
-            {
-              "type": "news-tile",
-              "value": [
-                {
-                  "image": {
-                    "type": "Image",
-                    "value": {
-                      "main": {
-                        "dimensions": {
-                          "width": 960,
-                          "height": 825
-                        },
-                        "alt": null,
-                        "copyright": null,
-                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/4e5afb8a74b4791824a53f1de1dd607257da3876_canva-photo-editor.png"
-                      },
-                      "views": {
-                        "mobile": {
-                          "dimensions": {
-                            "width": 800,
-                            "height": 820
-                          },
-                          "alt": null,
-                          "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/d65c4c10e29fc17456b3ca3e1e2867a848a66514_canva-photo-editor.png"
-                        },
-                        "desktop": {
-                          "dimensions": {
-                            "width": 960,
-                            "height": 825
-                          },
-                          "alt": null,
-                          "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/4e5afb8a74b4791824a53f1de1dd607257da3876_canva-photo-editor.png"
-                        }
-                      }
-                    }
-                  },
-                  "headline": {
-                    "type": "Text",
-                    "value": "DDB runner up network of the year at AWARD"
-                  },
-                  "linkUrl": {
-                    "type": "Link.document",
-                    "value": {
-                      "document": {
-                        "id": "WUnNOCYAAJQGaq1E",
-                        "type": "news-pages",
-                        "tags": [
-
-                        ],
-                        "slug": "ddb-award-awards",
-                        "uid": "award-awards"
-                      },
-                      "isBroken": false
-                    }
-                  },
-                  "linkText": {
-                    "type": "Text",
-                    "value": "Read more"
-                  },
-                  "style": {
-                    "type": "Select",
-                    "value": "white"
-                  }
-                }
-              ]
-            },
-            {
-              "type": "news-tile",
-              "value": [
-                {
-                  "image": {
-                    "type": "Image",
-                    "value": {
-                      "main": {
-                        "dimensions": {
-                          "width": 1562,
-                          "height": 1562
-                        },
-                        "alt": null,
-                        "copyright": null,
-                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/a18daec562411eaebb9b4b740450180970608b8d_ddb-logo.png"
-                      },
-                      "views": {
-                        "desktop": {
-                          "dimensions": {
-                            "width": 960,
-                            "height": 825
-                          },
-                          "alt": null,
-                          "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/64f16190850b780f8129950888043ceca9646fc8_ddb-logo.png"
-                        },
-                        "mobile": {
-                          "dimensions": {
-                            "width": 800,
-                            "height": 820
-                          },
-                          "alt": null,
-                          "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/cca1a1a4e89e747e1aeeb7aa95afdef1483aaa43_ddb-logo.png"
-                        }
-                      }
-                    }
-                  },
-                  "headline": {
-                    "type": "Text",
-                    "value": "New thinking from DDB Australia to create 'unreasonable growth'"
-                  },
-                  "linkUrl": {
-                    "type": "Link.web",
-                    "value": {
-                      "url": "https://ddbsydney.github.io/sydney/news/unreasonable-growth"
-                    }
-                  },
-                  "linkText": {
-                    "type": "Text",
-                    "value": "Read more"
-                  },
-                  "align": {
-                    "type": "Select",
-                    "value": "left"
-                  }
-                }
-              ]
-            },
-            {
-              "type": "news-tile",
-              "value": [
-                {
-                  "image": {
-                    "type": "Image",
-                    "value": {
-                      "main": {
-                        "dimensions": {
-                          "width": 1920,
-                          "height": 1080
-                        },
-                        "alt": null,
-                        "copyright": null,
-                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/0a3a2e6b23c2463fb7dc839d4a37e6bf807843f3_sko0186t130.00_00_15_04.still0021.jpeg"
-                      },
-                      "views": {
-                        "desktop": {
-                          "dimensions": {
-                            "width": 960,
-                            "height": 825
-                          },
-                          "alt": null,
-                          "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/87cfdd30f3824361f358ea90f338f4cdce7b6653_sko0186t130.00_00_15_04.still0021.jpeg"
-                        },
-                        "mobile": {
-                          "dimensions": {
-                            "width": 800,
-                            "height": 820
-                          },
-                          "alt": null,
-                          "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/088981b86e9b60fb55121eee8e8f06aa47872460_sko0186t130.00_00_15_04.still0021.jpeg"
-                        }
-                      }
-                    }
-                  },
-                  "headline": {
-                    "type": "Text",
-                    "value": "New ŠKODA campaign via DDB Sydney challenges normal car ad conventions"
-                  },
-                  "linkUrl": {
-                    "type": "Link.web",
-                    "value": {
-                      "url": "https://ddbsydney.github.io/sydney/news/new-skoda-campaign"
-                    }
-                  },
-                  "linkText": {
-                    "type": "Text",
-                    "value": "Read more"
-                  },
-                  "style": {
-                    "type": "Select",
-                    "value": "white"
-                  }
-                }
-              ]
-            },
-            {
-              "type": "news-tile",
-              "value": [
-                {
-                  "image": {
-                    "type": "Image",
-                    "value": {
-                      "main": {
-                        "dimensions": {
-                          "width": 960,
-                          "height": 825
-                        },
-                        "alt": null,
-                        "copyright": null,
-                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/08ffdfd4ffdd07d55ecdb83ba04e4c35658bb48f_sian-nico-damian.jpg"
-                      },
-                      "views": {
-                        "mobile": {
-                          "dimensions": {
-                            "width": 800,
-                            "height": 820
-                          },
-                          "alt": null,
-                          "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/21b5d7be72485adfd62ca636ac01c5d1bb1b45a2_sian-nico-damian.jpg"
-                        },
-                        "desktop": {
-                          "dimensions": {
-                            "width": 960,
-                            "height": 825
-                          },
-                          "alt": null,
-                          "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/08ffdfd4ffdd07d55ecdb83ba04e4c35658bb48f_sian-nico-damian.jpg"
-                        }
-                      }
-                    }
-                  },
-                  "headline": {
-                    "type": "Text",
-                    "value": "DDB Sydney continues to attract best global talent"
-                  },
-                  "linkUrl": {
-                    "type": "Link.web",
-                    "value": {
-                      "url": "https://ddbsydney.github.io/sydney/news/best-global-talent"
-                    }
-                  },
-                  "linkText": {
-                    "type": "Text",
-                    "value": "Read more"
-                  },
-                  "style": {
-                    "type": "Select",
-                    "value": "yellow"
-                  }
-                }
-              ]
-            }
-          ]
-        }
-      }
-    }
-  ],
-  "latest": [
-    {
-      "uid": "latest",
-      "data": {
-        "meta-title": {
-          "type": "Text",
-          "value": "Latest | DDB Sydney"
-        },
-        "meta-description": {
-          "type": "Text",
-          "value": "Latest news from DDB Sydney."
-        },
-        "foregroundColor": {
-          "type": "Color",
-          "value": "#ffffff"
-        },
-        "backgroundColor": {
-          "type": "Color",
-          "value": "#000000"
-        },
-        "sections": {
-          "type": "SectionList",
-          "value": [
-            {
-              "type": "promo-video",
-              "value": [
-                {
-                  "headline": {
-                    "type": "Text",
-                    "value": "Feeling <br class=\"mobile\"/><span>conquers</span><br class=\"mobile\"/> thinking."
-                  },
-                  "image": {
-                    "type": "Image",
-                    "value": {
-                      "main": {
-                        "dimensions": {
-                          "width": 1023,
-                          "height": 648
-                        },
-                        "alt": null,
-                        "copyright": null,
-                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/23f8d13b254fbb884c5b58d9ac0300028c475958_campaign-naked-ute.jpg"
-                      },
-                      "views": {
-                        "mobile": {
-                          "dimensions": {
-                            "width": 800,
-                            "height": 820
-                          },
-                          "alt": null,
-                          "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/61ee0c024ccf42b00a18bb824509dfd55e1d738f_campaign-naked-ute.jpg"
-                        },
-                        "desktop": {
-                          "dimensions": {
-                            "width": 1920,
-                            "height": 900
-                          },
-                          "alt": null,
-                          "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/7e32771c32d3250aecd437134860e0db90c73434_campaign-naked-ute.jpg"
-                        }
-                      }
-                    }
-                  },
-                  "video": {
-                    "type": "Link.file",
-                    "value": {
-                      "file": {
-                        "name": "promo-video_desktop.mp4",
-                        "kind": "document",
-                        "url": "http://ddb-website.cdn.prismic.io/ddb-website%2F2cfe77c1-c97e-474b-a975-54bcdbbfdd02_promo-video_desktop.mp4",
-                        "size": "5357344"
-                      }
-                    }
-                  },
-                  "foregroundColor": {
-                    "type": "Color",
-                    "value": "#ffffff"
-                  }
-                }
-              ]
-            },
-            {
-              "type": "case-study-tile",
-              "value": [
-                {
-                  "headline": {
-                    "type": "Text",
-                    "value": "Westpac"
-                  },
-                  "copy": {
-                    "type": "Text",
-                    "value": "Ensuring every bump<br class=\"all\"/> gets a good start."
-                  },
-                  "image": {
-                    "type": "Image",
-                    "value": {
-                      "main": {
-                        "dimensions": {
-                          "width": 1024,
-                          "height": 500
-                        },
-                        "alt": null,
-                        "copyright": null,
-                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/f1e8dd582e0c995818e1923a3c5e28f2ea364914_bump.jpg"
-                      },
-                      "views": {
-                        "mobile": {
-                          "dimensions": {
-                            "width": 800,
-                            "height": 820
-                          },
-                          "alt": null,
-                          "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/0cfef87b70fdc0a83cb4e13f41cef159db4ae68a_work_images_crops_800pxw_x_820pxd_0010_westpac_bump.jpg"
-                        },
-                        "desktop": {
-                          "dimensions": {
-                            "width": 1920,
-                            "height": 900
-                          },
-                          "alt": null,
-                          "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/ea269037e8238f0c10f01a8a0a389885dd86a937_bump.jpg"
-                        }
-                      }
-                    }
-                  },
-                  "linkUrl": {
-                    "type": "Link.document",
-                    "value": {
-                      "document": {
-                        "id": "WL5JOCQAAC8DeBbk",
-                        "type": "case-studies",
-                        "tags": [
-
-                        ],
-                        "slug": "westpac---bump--ddb-sydney",
-                        "uid": "westpac-bump"
-                      },
-                      "isBroken": false
-                    }
-                  },
-                  "linkText": {
-                    "type": "Text",
-                    "value": "View the work"
-                  }
-                }
-              ]
-            },
-            {
-              "type": "case-study-tile",
-              "value": [
-                {
-                  "headline": {
-                    "type": "Text",
-                    "value": "Volkswagen"
-                  },
-                  "copy": {
-                    "type": "Text",
-                    "value": "Aussie blokes were judging the Amarok by its cover, so we removed it."
-                  },
-                  "image": {
-                    "type": "Image",
-                    "value": {
-                      "main": {
-                        "dimensions": {
-                          "width": 1920,
-                          "height": 1200
-                        },
-                        "alt": null,
-                        "copyright": null,
-                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/36d46373834bbe1d69f09ddbc1982fd3aa911e3e_naked-ute-0.jpg"
-                      },
-                      "views": {
-                        "mobile": {
-                          "dimensions": {
-                            "width": 800,
-                            "height": 820
-                          },
-                          "alt": null,
-                          "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/7ef462d5f8b528523a787157c31f5e59995a9c85_work_images_crops_800pxw_x_820pxd_0006_vw_naked_ute.jpg"
-                        },
-                        "desktop": {
-                          "dimensions": {
-                            "width": 1920,
-                            "height": 900
-                          },
-                          "alt": null,
-                          "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/69efdbb08044dac5dad037c7facd4ef85dc8d6ff_naked-ute-0.jpg"
-                        }
-                      }
-                    }
-                  },
-                  "linkUrl": {
-                    "type": "Link.document",
-                    "value": {
-                      "document": {
-                        "id": "WK0ZFykAACsAoYlk",
-                        "type": "case-studies",
-                        "tags": [
-
-                        ],
-                        "slug": "volkswagen-naked-ute--ddb",
-                        "uid": "volkswagen-naked-ute"
-                      },
-                      "isBroken": false
-                    }
-                  },
-                  "linkText": {
-                    "type": "Text",
-                    "value": "View the work"
-                  },
-                  "align": {
-                    "type": "Select",
-                    "value": "topRight"
-                  },
-                  "foregroundColor": {
-                    "type": "Color",
-                    "value": "#ffffff"
-                  }
-                }
-              ]
-            },
-            {
-              "type": "article-tile",
-              "value": [
-                {
-                  "headline": {
-                    "type": "Text",
-                    "value": "Culture"
-                  },
-                  "copy": {
-                    "type": "Text",
-                    "value": "Our people <br>& their culture."
-                  },
-                  "linkUrl": {
-                    "type": "Link.document",
-                    "value": {
-                      "document": {
-                        "id": "WMX0dScAAMwVxqbV",
-                        "type": "about-pages",
-                        "tags": [
-
-                        ],
-                        "slug": "about-our-people--ddb-sydney",
-                        "uid": "people"
-                      },
-                      "isBroken": false
-                    }
-                  },
-                  "linkText": {
-                    "type": "Text",
-                    "value": "Meet our team"
-                  },
-                  "foregroundColor": {
-                    "type": "Color",
-                    "value": "#ffffff"
-                  }
-                },
-                {
-                  "headline": {
-                    "type": "Text",
-                    "value": "Creativity"
-                  },
-                  "copy": {
-                    "type": "Text",
-                    "value": "D&AD Designing<br class=\"all\"/> for mobile."
-                  },
-                  "linkUrl": {
-                    "type": "Link.web",
-                    "value": {
-                      "url": "https://medium.com/ddb-sydney/d-ad-sydney-opera-house-6a4d1c2e163c"
-                    }
-                  },
-                  "linkText": {
-                    "type": "Text",
-                    "value": "Read on medium"
-                  },
-                  "style": {
-                    "type": "Select",
-                    "value": "yellow"
-                  },
-                  "foregroundColor": {
-                    "type": "Color",
-                    "value": "#ffffff"
-                  }
-                }
-              ]
-            },
-            {
-              "type": "case-study-tile",
-              "value": [
-                {
-                  "headline": {
-                    "type": "Text",
-                    "value": "Westpac"
-                  },
-                  "copy": {
-                    "type": "Text",
-                    "value": "200 years proudly supporting Australia."
-                  },
-                  "image": {
-                    "type": "Image",
-                    "value": {
-                      "main": {
-                        "dimensions": {
-                          "width": 1920,
-                          "height": 1200
-                        },
-                        "alt": null,
-                        "copyright": null,
-                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/a7f1c42ed824f6fa938641be5b1bd491374e59ff_screen-shot-2017-03-08-at-3.01.05-pm-2.png"
-                      },
-                      "views": {
-                        "mobile": {
-                          "dimensions": {
-                            "width": 800,
-                            "height": 820
-                          },
-                          "alt": null,
-                          "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/cffff0386e6c95236a477253ca0b628cac08869b_work_images_crops_800pxw_x_820pxd_0004_westpac_chopper.jpg"
-                        },
-                        "desktop": {
-                          "dimensions": {
-                            "width": 1920,
-                            "height": 900
-                          },
-                          "alt": null,
-                          "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/0dedb820befb48f354a46b89322d3398de408d72_screen-shot-2017-03-08-at-3.01.05-pm-2.png"
-                        }
-                      }
-                    }
-                  },
-                  "linkUrl": {
-                    "type": "Link.document",
-                    "value": {
-                      "document": {
-                        "id": "WL5LISQAADADeB9R",
-                        "type": "case-studies",
-                        "tags": [
-
-                        ],
-                        "slug": "westpac-chopper--ddb",
-                        "uid": "westpac-chopper"
-                      },
-                      "isBroken": false
-                    }
-                  },
-                  "linkText": {
-                    "type": "Text",
-                    "value": "View the work"
-                  }
-                }
-              ]
-            },
-            {
-              "type": "article-tile",
-              "value": [
-                {
-                  "headline": {
-                    "type": "Text",
-                    "value": "Creativity"
-                  },
-                  "copy": {
-                    "type": "Text",
-                    "value": "Young creative technology thinkers wanted."
-                  },
-                  "linkUrl": {
-                    "type": "Link.web",
-                    "value": {
-                      "url": "https://medium.com/ddb-sydney/creative-technology-internship-3ad34b4f8807#.e3swtfp20"
-                    }
-                  },
-                  "linkText": {
-                    "type": "Text",
-                    "value": "Read on Medium"
-                  },
-                  "style": {
-                    "type": "Select",
-                    "value": "yellow"
-                  }
-                },
-                {
-                  "headline": {
-                    "type": "Text",
-                    "value": "Careers"
-                  },
-                  "copy": {
-                    "type": "Text",
-                    "value": "Strategically solid, innovative thinkers wanted."
-                  },
-                  "linkUrl": {
-                    "type": "Link.document",
-                    "value": {
-                      "document": {
-                        "id": "WLjpIB8AAH0IVDyO",
-                        "type": "career-listings",
-                        "tags": [
-
-                        ],
-                        "slug": "creatives---careers--ddb",
-                        "uid": "creatives"
-                      },
-                      "isBroken": false
-                    }
-                  },
-                  "linkText": {
-                    "type": "Text",
-                    "value": "Join our team"
-                  },
-                  "style": {
-                    "type": "Select",
-                    "value": "grey"
-                  }
-                }
-              ]
-            },
-            {
-              "type": "case-study-tile",
-              "value": [
-                {
-                  "headline": {
-                    "type": "Text",
-                    "value": "The Sydney Opera House"
-                  },
-                  "copy": {
-                    "type": "Text",
-                    "value": "We needed to get more people inside the Sydney Opera House during summer."
-                  },
-                  "image": {
-                    "type": "Image",
-                    "value": {
-                      "main": {
-                        "dimensions": {
-                          "width": 1920,
-                          "height": 1200
-                        },
-                        "alt": null,
-                        "copyright": null,
-                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/6f53e69aed9f5eed2b4da42b82eaea5c58a495cf_screen-shot-2017-03-08-at-3.13.56-pm-2.png"
-                      },
-                      "views": {
-                        "mobile": {
-                          "dimensions": {
-                            "width": 800,
-                            "height": 820
-                          },
-                          "alt": null,
-                          "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/810f8c17f19d24351bd53a74ff4db10084cb4fc8_work_images_crops_800pxw_x_820pxd_0007_opera_house.jpg"
-                        },
-                        "desktop": {
-                          "dimensions": {
-                            "width": 1920,
-                            "height": 900
-                          },
-                          "alt": null,
-                          "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/88590585b20bf1fa5563398b3c943dd706d5edeb_screen-shot-2017-03-08-at-3.13.56-pm-2.png"
-                        }
-                      }
-                    }
-                  },
-                  "linkUrl": {
-                    "type": "Link.document",
-                    "value": {
-                      "document": {
-                        "id": "WKpzRigAACgAOzbM",
-                        "type": "case-studies",
-                        "tags": [
-
-                        ],
-                        "slug": "the-sydney-opera-house--ddb",
-                        "uid": "the-sydney-opera-house"
-                      },
-                      "isBroken": false
-                    }
-                  },
-                  "linkText": {
-                    "type": "Text",
-                    "value": "View the work"
-                  }
-                }
-              ]
-            },
-            {
-              "type": "article-tile",
-              "value": [
-                {
-                  "headline": {
-                    "type": "Text",
-                    "value": "Careers"
-                  },
-                  "copy": {
-                    "type": "Text",
-                    "value": "Do you think creatively & act strategically?"
-                  },
-                  "linkUrl": {
-                    "type": "Link.document",
-                    "value": {
-                      "document": {
-                        "id": "WLjjUx8AAH4IVCL5",
-                        "type": "career-listings",
-                        "tags": [
-
-                        ],
-                        "slug": "careers--ddb",
-                        "uid": "job-openings"
-                      },
-                      "isBroken": false
-                    }
-                  },
-                  "linkText": {
-                    "type": "Text",
-                    "value": "Join our team"
-                  }
-                },
-                {
-                  "headline": {
-                    "type": "Text",
-                    "value": "Culture"
-                  },
-                  "copy": {
-                    "type": "Text",
-                    "value": "We talk each other up, never down."
-                  },
-                  "linkUrl": {
-                    "type": "Link.document",
-                    "value": {
-                      "document": {
-                        "id": "WMX0dScAAMwVxqbV",
-                        "type": "about-pages",
-                        "tags": [
-
-                        ],
-                        "slug": "about-our-people--ddb-sydney",
-                        "uid": "people"
-                      },
-                      "isBroken": false
-                    }
-                  },
-                  "linkText": {
-                    "type": "Text",
-                    "value": "Read more"
-                  },
-                  "style": {
-                    "type": "Select",
-                    "value": "yellow"
-                  }
-                }
-              ]
-            },
-            {
-              "type": "case-study-tile",
-              "value": [
-                {
-                  "headline": {
-                    "type": "Text",
-                    "value": "McDonald's"
-                  },
-                  "copy": {
-                    "type": "Text",
-                    "value": "Got the appetite?<br class=\"all\"/> We'll bring the opportunity."
-                  },
-                  "image": {
-                    "type": "Image",
-                    "value": {
-                      "main": {
-                        "dimensions": {
-                          "width": 1920,
-                          "height": 892
-                        },
-                        "alt": null,
-                        "copyright": null,
-                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/c9868fe0bc92a0b04b62266a17bfc30df7b9650a_5a0dd827de54be2162874976489ab149cbab6427_maccas-people-2.jpg"
-                      },
-                      "views": {
-                        "mobile": {
-                          "dimensions": {
-                            "width": 800,
-                            "height": 820
-                          },
-                          "alt": null,
-                          "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/67fa86d78f7ca49547032e0390a7f1b8f3ce5846_work_images_crops_800pxw_x_820pxd_0005_maccas_girl.jpg"
-                        },
-                        "desktop": {
-                          "dimensions": {
-                            "width": 1920,
-                            "height": 900
-                          },
-                          "alt": null,
-                          "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/cadcfbf5cec52b114674181eb5124cd74803efa4_5a0dd827de54be2162874976489ab149cbab6427_maccas-people-2.jpg"
-                        }
-                      }
-                    }
-                  },
-                  "linkUrl": {
-                    "type": "Link.document",
-                    "value": {
-                      "document": {
-                        "id": "WK0L2SkAACsAoU7x",
-                        "type": "case-studies",
-                        "tags": [
-
-                        ],
-                        "slug": "mcdonalds-people--ddb-sydney",
-                        "uid": "mcdonalds-people"
-                      },
-                      "isBroken": false
-                    }
-                  },
-                  "linkText": {
-                    "type": "Text",
-                    "value": "View the work"
-                  }
-                }
-              ]
-            },
-            {
-              "type": "case-study-tile",
-              "value": [
-                {
-                  "headline": {
-                    "type": "Text",
-                    "value": "Volkswagen"
-                  },
-                  "copy": {
-                    "type": "Text",
-                    "value": "Can we sell a Golf to a town that doesn’t need its city technology?"
-                  },
-                  "image": {
-                    "type": "Image",
-                    "value": {
-                      "main": {
-                        "dimensions": {
-                          "width": 1920,
-                          "height": 1200
-                        },
-                        "alt": null,
-                        "copyright": null,
-                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/bf7ea41b139c58df949c1823064a5d12b174b140_screen-shot-2017-03-08-at-2.28.25-pm-2.png"
-                      },
-                      "views": {
-                        "desktop": {
-                          "dimensions": {
-                            "width": 1920,
-                            "height": 900
-                          },
-                          "alt": null,
-                          "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/12da6a227dfb0b8ff73e263e322cdeb9ca29de6b_screen-shot-2017-03-08-at-2.28.25-pm-2.png"
-                        },
-                        "mobile": {
-                          "dimensions": {
-                            "width": 800,
-                            "height": 820
-                          },
-                          "alt": null,
-                          "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/49c296820bcff6655dda2d3edaa9898d6ac0cfa7_work_images_crops_800pxw_x_820pxd_0008_vw_golf_outback.jpg"
-                        }
-                      }
-                    }
-                  },
-                  "linkUrl": {
-                    "type": "Link.document",
-                    "value": {
-                      "document": {
-                        "id": "WK0GeCkAACgAoTc8",
-                        "type": "case-studies",
-                        "tags": [
-
-                        ],
-                        "slug": "volkswagen-tough-sell--ddb",
-                        "uid": "volkswagen-tough-sell"
-                      },
-                      "isBroken": false
-                    }
-                  },
-                  "linkText": {
-                    "type": "Text",
-                    "value": "View the work"
-                  },
-                  "align": {
-                    "type": "Select",
-                    "value": "topRight"
                   }
                 }
               ]
