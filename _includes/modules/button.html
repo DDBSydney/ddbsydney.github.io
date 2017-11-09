@@ -18,10 +18,10 @@
       {% when "Link.web" %}
         {% assign segs = link.value.url | split: "/" %}
         {% for seg in segs %}
-          {% if seg == "medium.com" %}
+          {% if seg == "medium.com" or seg == "www.medium.com" %}
             {% assign isMedium = true %}
           {% endif %}
-          {% if seg == "linkedin.com" %}
+          {% if seg == "linkedin.com" or seg == "www.linkedin.com" %}
             {% assign isLinkedIn = true %}
           {% endif %}
         {% endfor %}
@@ -64,9 +64,9 @@
 
   <!-- button -->
   <a class="button" href="{{ linkUrl | normalize_whitespace }}" {{ linkTarget | normalize_whitespace }} {{ linkLabel | normalize_whitespace }}>
-    {% if isLinkedin %}
+    {% if isLinkedIn %}
       <span> Apply on <i class="icon icon-linkedin-logo"></i></span>
-    {% else if isMedium %}
+    {% elsif isMedium %}
       <span> Read on <i class="icon icon-medium"></i> Medium </span>
     {% else %}
       <span> {{ label | default: "View" }} </span>
