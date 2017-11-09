@@ -11,7 +11,7 @@
 # ==============================
 # 301 REDIRECT OLD PAGES
 # ------------------------------
-RedirectMatch 301  ^/sydney/about/about-us/$         http://ddb.com.au/sydney/about/people/
+RedirectMatch 301  ^/sydney/about/about-us/$         http://ddb.com.au/sydney/about/
 RedirectMatch 301  ^/sydney/about/heritage/$         http://ddb.com.au/sydney/
 RedirectMatch 301  ^/sydney/about/the-group/$        http://ddb.com.au/
 RedirectMatch 301  ^/sydney/about/team/$             http://ddb.com.au/sydney/about/people/
