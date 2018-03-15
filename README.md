@@ -61,6 +61,12 @@ Note that if you publish many things in quick succession, you will trigger multi
 
 The current round-time for an update is about five minutes.
 
+## Deployment
+- It is not enough that this ridiculous build process for a simple brochure site must be adhered to in precise order and execution. One must also the FTP it onto the production environment like a pleb.
+- This will require to then pull Master and upload the /sydney and the /assets and the index.html file on to the FTP server located at:
+    - ftp://tddbsydney@<LOOK ME UP>ftp3.ftptoyoursite.com/www.ddb.com.au/web/content
+- <SARCASM>Thank you Pradeep.</SARCASM>
+
 ## Connfiguring Redirects on Production
 
 - Add (or) modify redirects written in the .htaccess file and copy it over to the production server.
