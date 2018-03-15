@@ -27,7 +27,7 @@ $igt__col_spacing_multi: 0.75;
   @include section--margin-h("sm", -$igt__col_spacing_multi);
 
   &__col {
-    flex-basis: (100% / 4);
+    flex-basis: (100% / 3);
     @include mobile { flex-basis: (100% / 2); }
     @include section--padding-h("sm", $igt__col_spacing_multi/2);
     box-sizing: border-box;

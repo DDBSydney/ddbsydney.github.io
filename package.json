@@ -2,18 +2,15 @@
   "name": "ddb-website",
   "version": "1.0.0",
   "private": true,
-  
   "author": "Pradeep & Chris",
   "description": "DDB Website",
   "license": "ISC",
-
   "ignore": [
     "node_modules",
     "bower_components",
     ".sass-cache/",
     ".tmp/"
   ],
-
   "dependencies": {},
   "devDependencies": {
     "browserify": "^13.0.1",
