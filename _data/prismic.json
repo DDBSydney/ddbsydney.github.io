@@ -1,11 +1,1476 @@
 {
+  "work": [
+    {
+      "uid": "work",
+      "data": {
+        "meta-title": {
+          "type": "Text",
+          "value": "Work | DDB Sydney"
+        },
+        "meta-description": {
+          "type": "Text",
+          "value": "Work from DDB Sydney."
+        },
+        "foregroundColor": {
+          "type": "Color",
+          "value": "#ffffff"
+        },
+        "backgroundColor": {
+          "type": "Color",
+          "value": "#000000"
+        },
+        "sections": {
+          "type": "SectionList",
+          "value": [
+            {
+              "type": "case-study-tile",
+              "value": [
+                {
+                  "headline": {
+                    "type": "Text",
+                    "value": "Westpac"
+                  },
+                  "copy": {
+                    "type": "Text",
+                    "value": "Embracing quintessential Australian spirit of mateship"
+                  },
+                  "image": {
+                    "type": "Image",
+                    "value": {
+                      "main": {
+                        "dimensions": {
+                          "width": 1914,
+                          "height": 686
+                        },
+                        "alt": null,
+                        "copyright": null,
+                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/2c5f4f8bab44667a5dbeffc79a4b82a6c8f21f10_wbc5414t190_sub_boardless.mov.01_00_19_04.still002.jpg"
+                      },
+                      "views": {
+                        "mobile": {
+                          "dimensions": {
+                            "width": 800,
+                            "height": 820
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/35ae45003c0c9599ebfd31b5d35c743864a434a8_wbc5414t190_sub_boardless.mov.01_00_19_04.still002.jpg"
+                        },
+                        "desktop": {
+                          "dimensions": {
+                            "width": 1920,
+                            "height": 900
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/d4695e890313327fcb5c76efdc28d56d11ce3cda_wbc5414t190_sub_boardless.mov.01_00_19_04.still002.jpg"
+                        }
+                      }
+                    }
+                  },
+                  "linkUrl": {
+                    "type": "Link.document",
+                    "value": {
+                      "document": {
+                        "id": "WssvrC4AAK0VMGo8",
+                        "type": "case-studies",
+                        "tags": [
+
+                        ],
+                        "lang": "en-us",
+                        "slug": "westpac---embracing-quintessential-australian-spirit-of-mateship",
+                        "uid": "westpac-brand-90"
+                      },
+                      "isBroken": false
+                    }
+                  },
+                  "linkText": {
+                    "type": "Text",
+                    "value": "View the work"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "case-study-tile",
+              "value": [
+                {
+                  "headline": {
+                    "type": "Text",
+                    "value": "Volkswagen"
+                  },
+                  "copy": {
+                    "type": "Text",
+                    "value": "Tech surprising enough to help mend a relationship"
+                  },
+                  "image": {
+                    "type": "Image",
+                    "value": {
+                      "main": {
+                        "dimensions": {
+                          "width": 1916,
+                          "height": 876
+                        },
+                        "alt": null,
+                        "copyright": null,
+                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/1954813d3049eaf08bc30aae31e9e4e61f944fed_vga5375t130.00_00_17_02.still001.png"
+                      },
+                      "views": {
+                        "mobile": {
+                          "dimensions": {
+                            "width": 800,
+                            "height": 820
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/10e826ff97efa4b2b290fd46fa263d5f97e2a400_vga5375t130.00_00_17_02.still001.png"
+                        },
+                        "desktop": {
+                          "dimensions": {
+                            "width": 1920,
+                            "height": 900
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/86c0829c896f8013944694f82abea682cfb0172d_vga5375t130.00_00_17_02.still001.png"
+                        }
+                      }
+                    }
+                  },
+                  "linkUrl": {
+                    "type": "Link.document",
+                    "value": {
+                      "document": {
+                        "id": "WssteC4AAIwAMGBi",
+                        "type": "case-studies",
+                        "tags": [
+
+                        ],
+                        "lang": "en-us",
+                        "slug": "volkswagen--tech-surprising-enough-to-help-mend-a-relationship",
+                        "uid": "volkswagen-more-than-a-car"
+                      },
+                      "isBroken": false
+                    }
+                  },
+                  "linkText": {
+                    "type": "Text",
+                    "value": "View the work"
+                  },
+                  "align": {
+                    "type": "Select",
+                    "value": "center"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "case-study-tile",
+              "value": [
+                {
+                  "headline": {
+                    "type": "Text",
+                    "value": "Monash Children's Hospital"
+                  },
+                  "copy": {
+                    "type": "Text",
+                    "value": "Imagination is the best medicine"
+                  },
+                  "image": {
+                    "type": "Image",
+                    "value": {
+                      "main": {
+                        "dimensions": {
+                          "width": 2875,
+                          "height": 1318
+                        },
+                        "alt": null,
+                        "copyright": null,
+                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/e38ec175ae37659bda0f219d02d049e059d318ca_monash2.png"
+                      },
+                      "views": {
+                        "mobile": {
+                          "dimensions": {
+                            "width": 800,
+                            "height": 820
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/98c0fcf1307b423f5887e729e1ae1b9d3ffacbee_monash2.png"
+                        },
+                        "desktop": {
+                          "dimensions": {
+                            "width": 1920,
+                            "height": 900
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/4cf05f3eb5018d37334335432b44f55932bc1595_monash2.png"
+                        }
+                      }
+                    }
+                  },
+                  "linkUrl": {
+                    "type": "Link.document",
+                    "value": {
+                      "document": {
+                        "id": "WsspxS4AAIwAME_5",
+                        "type": "case-studies",
+                        "tags": [
+
+                        ],
+                        "lang": "en-us",
+                        "slug": "monash-childrens-hospital---imagination-is-the-best-medicine",
+                        "uid": "monash-childrens-hospital"
+                      },
+                      "isBroken": false
+                    }
+                  },
+                  "linkText": {
+                    "type": "Text",
+                    "value": "View the work"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "case-study-tile",
+              "value": [
+                {
+                  "headline": {
+                    "type": "Text",
+                    "value": "Mobil"
+                  },
+                  "copy": {
+                    "type": "Text",
+                    "value": "Every drive in Australia matters"
+                  },
+                  "image": {
+                    "type": "Image",
+                    "value": {
+                      "main": {
+                        "dimensions": {
+                          "width": 2871,
+                          "height": 940
+                        },
+                        "alt": null,
+                        "copyright": null,
+                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/07dad0af17f0e97ad3ce4913dde6d111dd235cc9_mobil3.png"
+                      },
+                      "views": {
+                        "desktop": {
+                          "dimensions": {
+                            "width": 1920,
+                            "height": 900
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/c5280aa04dfb3ddea4d546ad4bb000f762e4a840_mobil3.png"
+                        },
+                        "mobile": {
+                          "dimensions": {
+                            "width": 800,
+                            "height": 820
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/8e0fafae2e74d31e76e02ba145bbf07cf4c2fbf6_mobil3.png"
+                        }
+                      }
+                    }
+                  },
+                  "linkUrl": {
+                    "type": "Link.document",
+                    "value": {
+                      "document": {
+                        "id": "Wsse-y4AAIyRMCBA",
+                        "type": "case-studies",
+                        "tags": [
+
+                        ],
+                        "lang": "en-us",
+                        "slug": "mobil---every-drive-in-australia-matters",
+                        "uid": "mobil"
+                      },
+                      "isBroken": false
+                    }
+                  },
+                  "linkText": {
+                    "type": "Text",
+                    "value": "View the work"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "case-study-tile",
+              "value": [
+                {
+                  "headline": {
+                    "type": "Text",
+                    "value": "Virgin Australia"
+                  },
+                  "copy": {
+                    "type": "Text",
+                    "value": "We are the Uptimists."
+                  },
+                  "image": {
+                    "type": "Image",
+                    "value": {
+                      "main": {
+                        "dimensions": {
+                          "width": 1920,
+                          "height": 1360
+                        },
+                        "alt": null,
+                        "copyright": null,
+                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/501e038c0d82b718d792c02498d451fea5ecf6ce_wide-virgin.png"
+                      },
+                      "views": {
+                        "desktop": {
+                          "dimensions": {
+                            "width": 1920,
+                            "height": 900
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/3b26bdcd9f14e10f57e69efc9175153af7b7fb94_wide-virgin.png"
+                        },
+                        "mobile": {
+                          "dimensions": {
+                            "width": 800,
+                            "height": 820
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/1e53868e2f002990d7903301ce8d2b2025c9294f_wide-virgin.png"
+                        }
+                      }
+                    }
+                  },
+                  "linkUrl": {
+                    "type": "Link.document",
+                    "value": {
+                      "document": {
+                        "id": "WdQpHisAAJba6mdv",
+                        "type": "case-studies",
+                        "tags": [
+
+                        ],
+                        "lang": "en-us",
+                        "slug": "virgin-australia-we-are-the-uptimists",
+                        "uid": "virgin-australia"
+                      },
+                      "isBroken": false
+                    }
+                  },
+                  "linkText": {
+                    "type": "Text",
+                    "value": "View the work"
+                  },
+                  "align": {
+                    "type": "Select",
+                    "value": "right"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "case-study-tile",
+              "value": [
+                {
+                  "headline": {
+                    "type": "Text",
+                    "value": "Westpac"
+                  },
+                  "copy": {
+                    "type": "Text",
+                    "value": "Ensuring every bump<br class=\"all\"/> gets a good start."
+                  },
+                  "image": {
+                    "type": "Image",
+                    "value": {
+                      "main": {
+                        "dimensions": {
+                          "width": 1024,
+                          "height": 500
+                        },
+                        "alt": null,
+                        "copyright": null,
+                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/f1e8dd582e0c995818e1923a3c5e28f2ea364914_bump.jpg"
+                      },
+                      "views": {
+                        "mobile": {
+                          "dimensions": {
+                            "width": 800,
+                            "height": 820
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/33d7685c2d60c12be0f7d989509cac38bfe56953_work_images_crops_800pxw_x_820pxd_0010_westpac_bump.jpg"
+                        },
+                        "desktop": {
+                          "dimensions": {
+                            "width": 1920,
+                            "height": 900
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/ea269037e8238f0c10f01a8a0a389885dd86a937_bump.jpg"
+                        }
+                      }
+                    }
+                  },
+                  "linkUrl": {
+                    "type": "Link.document",
+                    "value": {
+                      "document": {
+                        "id": "WL5JOCQAAC8DeBbk",
+                        "type": "case-studies",
+                        "tags": [
+
+                        ],
+                        "lang": "en-us",
+                        "slug": "westpac---bump--ddb-sydney",
+                        "uid": "westpac-bump"
+                      },
+                      "isBroken": false
+                    }
+                  },
+                  "linkText": {
+                    "type": "Text",
+                    "value": "View the work"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "case-study-tile",
+              "value": [
+                {
+                  "headline": {
+                    "type": "Text",
+                    "value": "Volkswagen"
+                  },
+                  "copy": {
+                    "type": "Text",
+                    "value": "Aussie blokes were judging the Amarok by its cover, so we removed it."
+                  },
+                  "image": {
+                    "type": "Image",
+                    "value": {
+                      "main": {
+                        "dimensions": {
+                          "width": 1920,
+                          "height": 1200
+                        },
+                        "alt": null,
+                        "copyright": null,
+                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/36d46373834bbe1d69f09ddbc1982fd3aa911e3e_naked-ute-0.jpg"
+                      },
+                      "views": {
+                        "mobile": {
+                          "dimensions": {
+                            "width": 800,
+                            "height": 820
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/d6b72921def821d4b8346d77e2fd6bce24b76d4d_work_images_crops_800pxw_x_820pxd_0006_vw_naked_ute.jpg"
+                        },
+                        "desktop": {
+                          "dimensions": {
+                            "width": 1920,
+                            "height": 900
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/69efdbb08044dac5dad037c7facd4ef85dc8d6ff_naked-ute-0.jpg"
+                        }
+                      }
+                    }
+                  },
+                  "linkUrl": {
+                    "type": "Link.document",
+                    "value": {
+                      "document": {
+                        "id": "WK0ZFykAACsAoYlk",
+                        "type": "case-studies",
+                        "tags": [
+
+                        ],
+                        "lang": "en-us",
+                        "slug": "volkswagen-naked-ute--ddb",
+                        "uid": "volkswagen-naked-ute"
+                      },
+                      "isBroken": false
+                    }
+                  },
+                  "linkText": {
+                    "type": "Text",
+                    "value": "View the work"
+                  },
+                  "align": {
+                    "type": "Select",
+                    "value": "topRight"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "case-study-tile",
+              "value": [
+                {
+                  "headline": {
+                    "type": "Text",
+                    "value": "The Sydney Opera House"
+                  },
+                  "copy": {
+                    "type": "Text",
+                    "value": "We needed to get more people inside the Sydney Opera House during summer."
+                  },
+                  "image": {
+                    "type": "Image",
+                    "value": {
+                      "main": {
+                        "dimensions": {
+                          "width": 1920,
+                          "height": 1200
+                        },
+                        "alt": null,
+                        "copyright": null,
+                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/149fc9b6ebb5d12be35315345cfa94f7ff3e9c85_screen-shot-2017-03-08-at-3.13.56-pm-2.png"
+                      },
+                      "views": {
+                        "desktop": {
+                          "dimensions": {
+                            "width": 1920,
+                            "height": 900
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/003ce2b53a66d491db2e5106d93d192006060a07_screen-shot-2017-03-08-at-3.13.56-pm-2.png"
+                        },
+                        "mobile": {
+                          "dimensions": {
+                            "width": 800,
+                            "height": 820
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/78c7753f31272016582dd9f5406e10050f7a0fb2_work_images_crops_800pxw_x_820pxd_0007_opera_house.jpg"
+                        }
+                      }
+                    }
+                  },
+                  "linkUrl": {
+                    "type": "Link.document",
+                    "value": {
+                      "document": {
+                        "id": "WKpzRigAACgAOzbM",
+                        "type": "case-studies",
+                        "tags": [
+
+                        ],
+                        "lang": "en-us",
+                        "slug": "the-sydney-opera-house--ddb",
+                        "uid": "the-sydney-opera-house"
+                      },
+                      "isBroken": false
+                    }
+                  },
+                  "linkText": {
+                    "type": "Text",
+                    "value": "View the work"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "case-study-tile",
+              "value": [
+                {
+                  "headline": {
+                    "type": "Text",
+                    "value": "ŠKODA Octavia"
+                  },
+                  "copy": {
+                    "type": "Text",
+                    "value": "For those that buy the car, not the ad."
+                  },
+                  "image": {
+                    "type": "Image",
+                    "value": {
+                      "main": {
+                        "dimensions": {
+                          "width": 1024,
+                          "height": 500
+                        },
+                        "alt": null,
+                        "copyright": null,
+                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/e4ac1ded573834fcaef9b52ff8591ded3703a591_skoda-octavia.jpg"
+                      },
+                      "views": {
+                        "mobile": {
+                          "dimensions": {
+                            "width": 800,
+                            "height": 820
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/046bf28e3a44f8da74184592b4c546745196eadd_work_images_crops_800pxw_x_820pxd_0001_skoda_octavia.jpg"
+                        },
+                        "desktop": {
+                          "dimensions": {
+                            "width": 1920,
+                            "height": 900
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/0b3a15d26d76aec77db04ac97cbc0fd7d1e602d2_skoda-octavia.jpg"
+                        }
+                      }
+                    }
+                  },
+                  "linkUrl": {
+                    "type": "Link.document",
+                    "value": {
+                      "document": {
+                        "id": "WL80WCQAAD0bfCS8",
+                        "type": "case-studies",
+                        "tags": [
+
+                        ],
+                        "lang": "en-us",
+                        "slug": "skoda-octavia--ddb",
+                        "uid": "skoda-octavia"
+                      },
+                      "isBroken": false
+                    }
+                  },
+                  "linkText": {
+                    "type": "Text",
+                    "value": "View the work"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "case-study-tile",
+              "value": [
+                {
+                  "headline": {
+                    "type": "Text",
+                    "value": "McDonald's"
+                  },
+                  "copy": {
+                    "type": "Text",
+                    "value": "The family restaurant where parents feel like grown-ups."
+                  },
+                  "image": {
+                    "type": "Image",
+                    "value": {
+                      "main": {
+                        "dimensions": {
+                          "width": 1920,
+                          "height": 697
+                        },
+                        "alt": null,
+                        "copyright": null,
+                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/d8290d54483a9b57176d2aee23d085aad7630b64_maccas-father-daughter.jpg"
+                      },
+                      "views": {
+                        "mobile": {
+                          "dimensions": {
+                            "width": 800,
+                            "height": 820
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/d22058efb6393f4d206e1a974a0e446e8c4609ce_work_images_crops_800pxw_x_820pxd_0000_maccas_father_daughter.jpg"
+                        },
+                        "desktop": {
+                          "dimensions": {
+                            "width": 1920,
+                            "height": 900
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/0a75f5f35f18f3a0c11ba637273ca7cc95fc7c8a_maccas-father-daughter.jpg"
+                        }
+                      }
+                    }
+                  },
+                  "linkUrl": {
+                    "type": "Link.document",
+                    "value": {
+                      "document": {
+                        "id": "WL5FeyQAAMcLeAZr",
+                        "type": "case-studies",
+                        "tags": [
+
+                        ],
+                        "lang": "en-us",
+                        "slug": "mcdonalds-create-your-taste-father-daughter--ddb-sydney",
+                        "uid": "mcdonalds-create-your-taste-father-daughter"
+                      },
+                      "isBroken": false
+                    }
+                  },
+                  "linkText": {
+                    "type": "Text",
+                    "value": "View the work"
+                  },
+                  "align": {
+                    "type": "Select",
+                    "value": "center"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "case-study-tile",
+              "value": [
+                {
+                  "headline": {
+                    "type": "Text",
+                    "value": "Volkswagen"
+                  },
+                  "copy": {
+                    "type": "Text",
+                    "value": "How we got Australia talking about a mystery prototype that didn’t exist."
+                  },
+                  "image": {
+                    "type": "Image",
+                    "value": {
+                      "main": {
+                        "dimensions": {
+                          "width": 1024,
+                          "height": 500
+                        },
+                        "alt": null,
+                        "copyright": null,
+                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/2da875340420ef8f6da41264237cc962ee760606_korama.jpg"
+                      },
+                      "views": {
+                        "desktop": {
+                          "dimensions": {
+                            "width": 1920,
+                            "height": 900
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/61519e96d92f246fb7d09746e8386d8c11b13f8c_korama.jpg"
+                        },
+                        "mobile": {
+                          "dimensions": {
+                            "width": 800,
+                            "height": 820
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/a8ac578e88cba8a5c7cbe7de7580bb0c55ade8ba_work_images_crops_800pxw_x_820pxd_0003_vw_korama.jpg"
+                        }
+                      }
+                    }
+                  },
+                  "linkUrl": {
+                    "type": "Link.document",
+                    "value": {
+                      "document": {
+                        "id": "WL82KSQAACIbfCy4",
+                        "type": "case-studies",
+                        "tags": [
+
+                        ],
+                        "lang": "en-us",
+                        "slug": "volkswagen-amarok---korama--ddb-sydney",
+                        "uid": "volkswagen-amarok-korama"
+                      },
+                      "isBroken": false
+                    }
+                  },
+                  "linkText": {
+                    "type": "Text",
+                    "value": "View the work"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "case-study-tile",
+              "value": [
+                {
+                  "headline": {
+                    "type": "Text",
+                    "value": "Westpac Chopper"
+                  },
+                  "copy": {
+                    "type": "Text",
+                    "value": "200 years proudly supporting Australia."
+                  },
+                  "image": {
+                    "type": "Image",
+                    "value": {
+                      "main": {
+                        "dimensions": {
+                          "width": 1920,
+                          "height": 1200
+                        },
+                        "alt": null,
+                        "copyright": null,
+                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/0c0664e4f16287e750f0158559ca9b16f5b0105d_screen-shot-2017-03-08-at-3.01.05-pm-2.png"
+                      },
+                      "views": {
+                        "desktop": {
+                          "dimensions": {
+                            "width": 1920,
+                            "height": 900
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/513d3f853083e5ee97fb19d7eaeeaffd7ece5ec6_screen-shot-2017-03-08-at-3.01.05-pm-2.png"
+                        },
+                        "mobile": {
+                          "dimensions": {
+                            "width": 800,
+                            "height": 820
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/b105b66b6da8b0b1497bbff1d60e2617c6b36c89_work_images_crops_800pxw_x_820pxd_0004_westpac_chopper.jpg"
+                        }
+                      }
+                    }
+                  },
+                  "linkUrl": {
+                    "type": "Link.document",
+                    "value": {
+                      "document": {
+                        "id": "WL5LISQAADADeB9R",
+                        "type": "case-studies",
+                        "tags": [
+
+                        ],
+                        "lang": "en-us",
+                        "slug": "westpac-chopper--ddb",
+                        "uid": "westpac-chopper"
+                      },
+                      "isBroken": false
+                    }
+                  },
+                  "linkText": {
+                    "type": "Text",
+                    "value": "View the work"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "case-study-tile",
+              "value": [
+                {
+                  "headline": {
+                    "type": "Text",
+                    "value": "McDonald's"
+                  },
+                  "copy": {
+                    "type": "Text",
+                    "value": "Got the appetite? <br class=\"all\"/> We'll bring the opportunity."
+                  },
+                  "image": {
+                    "type": "Image",
+                    "value": {
+                      "main": {
+                        "dimensions": {
+                          "width": 1920,
+                          "height": 892
+                        },
+                        "alt": null,
+                        "copyright": null,
+                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/c9868fe0bc92a0b04b62266a17bfc30df7b9650a_5a0dd827de54be2162874976489ab149cbab6427_maccas-people-2.jpg"
+                      },
+                      "views": {
+                        "mobile": {
+                          "dimensions": {
+                            "width": 800,
+                            "height": 820
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/a56da9423af4d4d1c69ab6674b13d8c150e641b5_work_images_crops_800pxw_x_820pxd_0005_maccas_girl.jpg"
+                        },
+                        "desktop": {
+                          "dimensions": {
+                            "width": 1920,
+                            "height": 900
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/cadcfbf5cec52b114674181eb5124cd74803efa4_5a0dd827de54be2162874976489ab149cbab6427_maccas-people-2.jpg"
+                        }
+                      }
+                    }
+                  },
+                  "linkUrl": {
+                    "type": "Link.document",
+                    "value": {
+                      "document": {
+                        "id": "WK0L2SkAACsAoU7x",
+                        "type": "case-studies",
+                        "tags": [
+
+                        ],
+                        "lang": "en-us",
+                        "slug": "mcdonalds-people--ddb-sydney",
+                        "uid": "mcdonalds-people"
+                      },
+                      "isBroken": false
+                    }
+                  },
+                  "linkText": {
+                    "type": "Text",
+                    "value": "View the work"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "case-study-tile",
+              "value": [
+                {
+                  "headline": {
+                    "type": "Text",
+                    "value": "Volkswagen"
+                  },
+                  "copy": {
+                    "type": "Text",
+                    "value": "Can we sell a Golf to a town that doesn’t need its city technology?"
+                  },
+                  "image": {
+                    "type": "Image",
+                    "value": {
+                      "main": {
+                        "dimensions": {
+                          "width": 1920,
+                          "height": 1200
+                        },
+                        "alt": null,
+                        "copyright": null,
+                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/a9eae2c83dc269257b88e9bd1a2407ccbc40b982_screen-shot-2017-03-08-at-2.28.25-pm-2.png"
+                      },
+                      "views": {
+                        "mobile": {
+                          "dimensions": {
+                            "width": 800,
+                            "height": 820
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/ff7beb46cb141c89ac9e545344dcf16efd3be7c6_work_images_crops_800pxw_x_820pxd_0008_vw_golf_outback.jpg"
+                        },
+                        "desktop": {
+                          "dimensions": {
+                            "width": 1920,
+                            "height": 900
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/511de2ed730d893035d0e252460730e94085c76f_screen-shot-2017-03-08-at-2.28.25-pm-2.png"
+                        }
+                      }
+                    }
+                  },
+                  "linkUrl": {
+                    "type": "Link.document",
+                    "value": {
+                      "document": {
+                        "id": "WK0GeCkAACgAoTc8",
+                        "type": "case-studies",
+                        "tags": [
+
+                        ],
+                        "lang": "en-us",
+                        "slug": "volkswagen-tough-sell--ddb",
+                        "uid": "volkswagen-tough-sell"
+                      },
+                      "isBroken": false
+                    }
+                  },
+                  "linkText": {
+                    "type": "Text",
+                    "value": "View the work"
+                  },
+                  "align": {
+                    "type": "Select",
+                    "value": "topRight"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "case-study-tile",
+              "value": [
+                {
+                  "headline": {
+                    "type": "Text",
+                    "value": "Unilever"
+                  },
+                  "copy": {
+                    "type": "Text",
+                    "value": "Street's once loyal audience seemed to have outgrown them."
+                  },
+                  "image": {
+                    "type": "Image",
+                    "value": {
+                      "main": {
+                        "dimensions": {
+                          "width": 1024,
+                          "height": 500
+                        },
+                        "alt": null,
+                        "copyright": null,
+                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/1d81e22791402fa535d765893c7be37bc968a040_streets-talking.jpg"
+                      },
+                      "views": {
+                        "desktop": {
+                          "dimensions": {
+                            "width": 1920,
+                            "height": 900
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/fd4becc88c880ba424140a8d896caa5ed4e68385_streets-talking.jpg"
+                        },
+                        "mobile": {
+                          "dimensions": {
+                            "width": 800,
+                            "height": 820
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/2fcbd5f5f2b4ac6b7fe22021a3f91b929f7b592f_work_images_crops_800pxw_x_820pxd_0002_streets_unilever.jpg"
+                        }
+                      }
+                    }
+                  },
+                  "linkUrl": {
+                    "type": "Link.document",
+                    "value": {
+                      "document": {
+                        "id": "WK4T9ikAAL4opdjb",
+                        "type": "case-studies",
+                        "tags": [
+
+                        ],
+                        "lang": "en-us",
+                        "slug": "streets-talking-ice-cream--ddb",
+                        "uid": "streets-talking-ice-cream"
+                      },
+                      "isBroken": false
+                    }
+                  },
+                  "linkText": {
+                    "type": "Text",
+                    "value": "View the work"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ],
   "case-studies": [
+    {
+      "uid": "monash-childrens-hospital",
+      "data": {
+        "meta-title": {
+          "type": "Text",
+          "value": "Monash Children’s Hospital - Imagination is the best medicine"
+        },
+        "foregroundColor": {
+          "type": "Color",
+          "value": "#000000"
+        },
+        "backgroundColor": {
+          "type": "Color",
+          "value": "#ffffff"
+        },
+        "sections": {
+          "type": "SectionList",
+          "value": [
+            {
+              "type": "case-study-work-tile",
+              "value": [
+                {
+                  "headline": {
+                    "type": "Text",
+                    "value": "Monash Children's Hospital"
+                  },
+                  "copy": {
+                    "type": "Text",
+                    "value": "Imagination is the best medicine"
+                  },
+                  "image": {
+                    "type": "Image",
+                    "value": {
+                      "main": {
+                        "dimensions": {
+                          "width": 2875,
+                          "height": 1318
+                        },
+                        "alt": null,
+                        "copyright": null,
+                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/e38ec175ae37659bda0f219d02d049e059d318ca_monash2.png"
+                      },
+                      "views": {
+                        "mobile": {
+                          "dimensions": {
+                            "width": 840,
+                            "height": 1350
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/1cf7bbca81ac73995d9893eb90426f75ead9f1bb_monash2.png"
+                        },
+                        "desktop": {
+                          "dimensions": {
+                            "width": 1920,
+                            "height": 900
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/4cf05f3eb5018d37334335432b44f55932bc1595_monash2.png"
+                        }
+                      }
+                    }
+                  },
+                  "align": {
+                    "type": "Select",
+                    "value": "center"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "content-tile",
+              "value": [
+                {
+                  "copy": {
+                    "type": "Text",
+                    "value": "The new Monash Children's Hospital has been designed to capture children's imagination, helping them to cope and recover from their illness more quickly and with better outcomes. We needed a way to launch a fundraising appeal to support the program."
+                  }
+                }
+              ]
+            },
+            {
+              "type": "video-tile",
+              "value": [
+                {
+                  "video": {
+                    "type": "Link.web",
+                    "value": {
+                      "url": "https://www.youtube.com/watch?v=2ZpVSmpCg40"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "content-tile",
+              "value": [
+                {
+                  "copy": {
+                    "type": "Text",
+                    "value": "DDB Melbourne launched the platform, “Imagination is the best medicine”, through an animated film that paints a picture of an intergalactic voyage, demonstrating the power of imagination through an enthusiastic child. And showing that imagination is the best medicine in a child's healing process."
+                  }
+                }
+              ]
+            },
+            {
+              "type": "image-tile",
+              "value": [
+                {
+                  "image": {
+                    "type": "Image",
+                    "value": {
+                      "main": {
+                        "dimensions": {
+                          "width": 2864,
+                          "height": 1147
+                        },
+                        "alt": null,
+                        "copyright": null,
+                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/089ed3e423fc1c413fb726c7452eec1288511a76_monash1.png"
+                      },
+                      "views": {
+                        "desktop": {
+                          "dimensions": {
+                            "width": 1920,
+                            "height": 900
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/e31fd98faeeee57584aa839a9b8f4b92d68a797f_monash1.png"
+                        },
+                        "mobile": {
+                          "dimensions": {
+                            "width": 800,
+                            "height": 820
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/d24dfdcd8849faae90869cb73b5a48ff36bdb1d2_monash1.png"
+                        }
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "uid": "volkswagen-more-than-a-car",
+      "data": {
+        "meta-title": {
+          "type": "Text",
+          "value": "Volkswagen – Tech surprising enough to help mend a relationship"
+        },
+        "foregroundColor": {
+          "type": "Color",
+          "value": "#000000"
+        },
+        "backgroundColor": {
+          "type": "Color",
+          "value": "#ffffff"
+        },
+        "sections": {
+          "type": "SectionList",
+          "value": [
+            {
+              "type": "case-study-work-tile",
+              "value": [
+                {
+                  "headline": {
+                    "type": "Text",
+                    "value": "Volkswagen"
+                  },
+                  "copy": {
+                    "type": "Text",
+                    "value": "Tech surprising enough to help mend a relationship"
+                  },
+                  "image": {
+                    "type": "Image",
+                    "value": {
+                      "main": {
+                        "dimensions": {
+                          "width": 1916,
+                          "height": 876
+                        },
+                        "alt": null,
+                        "copyright": null,
+                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/1954813d3049eaf08bc30aae31e9e4e61f944fed_vga5375t130.00_00_17_02.still001.png"
+                      },
+                      "views": {
+                        "mobile": {
+                          "dimensions": {
+                            "width": 840,
+                            "height": 1350
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/f3fdbf4d279f234428a7e798ca0a3d2326607a3c_vga5375t130.00_00_17_02.still001.png"
+                        },
+                        "desktop": {
+                          "dimensions": {
+                            "width": 1920,
+                            "height": 900
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/86c0829c896f8013944694f82abea682cfb0172d_vga5375t130.00_00_17_02.still001.png"
+                        }
+                      }
+                    }
+                  },
+                  "align": {
+                    "type": "Select",
+                    "value": "center"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "content-tile",
+              "value": [
+                {
+                  "copy": {
+                    "type": "Text",
+                    "value": "When is a car more than a car? When its technology is surprising enough to help mend a relationship.\n\nVolkswagen has built on its successful ‘More than a car’ brand platform, launching a new ad via DDB Sydney that depicts a situation all too familiar for young couples, and how the Volkswagen’s App Connect features can help.\n\nThe new spot by DDB Sydney is part of a series of three to be launched over the coming months."
+                  }
+                }
+              ]
+            },
+            {
+              "type": "content-tile",
+              "value": [
+                {
+                  "copy": {
+                    "type": "Text",
+                    "value": "It’s not technology itself that makes a Volkswagen More Than a Car. It’s the unexpected benefits and the stories that accompany them that makes a Volkswagen a character in our lives, and not just a means of getting from A to B."
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "uid": "westpac-brand-90",
+      "data": {
+        "meta-title": {
+          "type": "Text",
+          "value": "Westpac - Embracing quintessential Australian spirit of mateship"
+        },
+        "foregroundColor": {
+          "type": "Color",
+          "value": "#000000"
+        },
+        "backgroundColor": {
+          "type": "Color",
+          "value": "#ffffff"
+        },
+        "sections": {
+          "type": "SectionList",
+          "value": [
+            {
+              "type": "case-study-work-tile",
+              "value": [
+                {
+                  "headline": {
+                    "type": "Text",
+                    "value": "Westpac"
+                  },
+                  "copy": {
+                    "type": "Text",
+                    "value": "Embracing quintessential Australian spirit of mateship"
+                  },
+                  "image": {
+                    "type": "Image",
+                    "value": {
+                      "main": {
+                        "dimensions": {
+                          "width": 1914,
+                          "height": 686
+                        },
+                        "alt": null,
+                        "copyright": null,
+                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/2c5f4f8bab44667a5dbeffc79a4b82a6c8f21f10_wbc5414t190_sub_boardless.mov.01_00_19_04.still002.jpg"
+                      },
+                      "views": {
+                        "desktop": {
+                          "dimensions": {
+                            "width": 1920,
+                            "height": 900
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/d4695e890313327fcb5c76efdc28d56d11ce3cda_wbc5414t190_sub_boardless.mov.01_00_19_04.still002.jpg"
+                        },
+                        "mobile": {
+                          "dimensions": {
+                            "width": 840,
+                            "height": 1350
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/baf29bfbc2c9a820bedb74b08ad02a6b06693602_wbc5414t190_sub_boardless.mov.01_00_19_04.still002.jpg"
+                        }
+                      }
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "content-tile",
+              "value": [
+                {
+                  "copy": {
+                    "type": "Text",
+                    "value": "Westpac has released its latest work bringing to life Australia’s cultural identity of mate ship and people helping each other.\nCreated by Westpac and DDB Sydney, and directed by award-winning director Mark Molloy, the creative looks at moments in Australian history and how helping in times of need is innate to the Aussie way of life."
+                  }
+                }
+              ]
+            },
+            {
+              "type": "image-tile",
+              "value": [
+                {
+                  "image": {
+                    "type": "Image",
+                    "value": {
+                      "main": {
+                        "dimensions": {
+                          "width": 1912,
+                          "height": 682
+                        },
+                        "alt": null,
+                        "copyright": null,
+                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/bab187c12179b962541f534e4fe6189ad981ddff_wbc5414t190_sub_boardless.mov.01_00_46_06.still003.jpg"
+                      },
+                      "views": {
+                        "desktop": {
+                          "dimensions": {
+                            "width": 1920,
+                            "height": 900
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/c70b9ea2b262e392e9ee41c7943191b70d12979b_wbc5414t190_sub_boardless.mov.01_00_46_06.still003.jpg"
+                        },
+                        "mobile": {
+                          "dimensions": {
+                            "width": 800,
+                            "height": 820
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/e5c59be387dd25c372645eefb0e426947cc52614_wbc5414t190_sub_boardless.mov.01_00_46_06.still003.jpg"
+                        }
+                      }
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "content-tile",
+              "value": [
+                {
+                  "copy": {
+                    "type": "Text",
+                    "value": "The creative drives emotion by depicting a mix of big and intimate scenes inspired by moments in Australian history, DDB Chief Creative Officer Ben Welsh said.\n“Leveraging culture and a truth about Australia, this piece is a perfect example of our belief in emotionally driven work. With this film we want people to feel hopeful, optimistic and proud to be Australian,” he said.\n“As Westpac entered its third century, we want to continue the essence of our Proudly Supporting Australia positioning, while drawing on what makes us truly Australian. For Australians it is this unique spirit of helping one another that makes us special,” Melhuish said."
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
     {
       "uid": "mobil",
       "data": {
         "meta-title": {
           "type": "Text",
-          "value": "Mobile - Every drive in Australia matters"
+          "value": "Mobil - Every drive in Australia matters"
         },
         "foregroundColor": {
           "type": "Color",
@@ -4115,6 +5580,821 @@
       }
     }
   ],
+  "latest": [
+    {
+      "uid": "latest",
+      "data": {
+        "meta-title": {
+          "type": "Text",
+          "value": "Latest | DDB Sydney"
+        },
+        "meta-description": {
+          "type": "Text",
+          "value": "Latest news from DDB Sydney."
+        },
+        "foregroundColor": {
+          "type": "Color",
+          "value": "#ffffff"
+        },
+        "backgroundColor": {
+          "type": "Color",
+          "value": "#000000"
+        },
+        "sections": {
+          "type": "SectionList",
+          "value": [
+            {
+              "type": "promo-video",
+              "value": [
+                {
+                  "image": {
+                    "type": "Image",
+                    "value": {
+                      "main": {
+                        "dimensions": {
+                          "width": 1920,
+                          "height": 1280
+                        },
+                        "alt": null,
+                        "copyright": null,
+                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/e06f87556795b15e0f4efd16efa20d7ed35ad445_pool8037_virgin_up_02_bg_rgb.jpg"
+                      },
+                      "views": {
+                        "desktop": {
+                          "dimensions": {
+                            "width": 1920,
+                            "height": 1080
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/e4e273ae3745b30f2cbc8ab79bf3b10bccdccc6c_pool8037_virgin_up_02_bg_rgb.jpg"
+                        },
+                        "mobile": {
+                          "dimensions": {
+                            "width": 800,
+                            "height": 820
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/29f5c098273f0222145ff2b68b2e68bcc8545ce7_pool8037_virgin_up_02_bg_rgb.jpg"
+                        }
+                      }
+                    }
+                  },
+                  "video": {
+                    "type": "Link.file",
+                    "value": {
+                      "file": {
+                        "name": "VIRAUS3027_The Uptimists_60_1to1_Social_Supers_01_MusicOnly_frk_cropped.mp4",
+                        "kind": "document",
+                        "url": "http://ddb-website.cdn.prismic.io/ddb-website%2Faf7a9fb7-72e7-4d45-a23d-32d59d14ae35_viraus3027_the+uptimists_60_1to1_social_supers_01_musiconly_frk_cropped.mp4",
+                        "size": "75160367"
+                      }
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "case-study-tile",
+              "value": [
+                {
+                  "headline": {
+                    "type": "Text",
+                    "value": "Westpac"
+                  },
+                  "copy": {
+                    "type": "Text",
+                    "value": "Embracing quintessential Australian spirit of mateship"
+                  },
+                  "image": {
+                    "type": "Image",
+                    "value": {
+                      "main": {
+                        "dimensions": {
+                          "width": 1914,
+                          "height": 686
+                        },
+                        "alt": null,
+                        "copyright": null,
+                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/2c5f4f8bab44667a5dbeffc79a4b82a6c8f21f10_wbc5414t190_sub_boardless.mov.01_00_19_04.still002.jpg"
+                      },
+                      "views": {
+                        "mobile": {
+                          "dimensions": {
+                            "width": 800,
+                            "height": 820
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/35ae45003c0c9599ebfd31b5d35c743864a434a8_wbc5414t190_sub_boardless.mov.01_00_19_04.still002.jpg"
+                        },
+                        "desktop": {
+                          "dimensions": {
+                            "width": 1920,
+                            "height": 900
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/d4695e890313327fcb5c76efdc28d56d11ce3cda_wbc5414t190_sub_boardless.mov.01_00_19_04.still002.jpg"
+                        }
+                      }
+                    }
+                  },
+                  "linkUrl": {
+                    "type": "Link.document",
+                    "value": {
+                      "document": {
+                        "id": "WssvrC4AAK0VMGo8",
+                        "type": "case-studies",
+                        "tags": [
+
+                        ],
+                        "lang": "en-us",
+                        "slug": "westpac---embracing-quintessential-australian-spirit-of-mateship",
+                        "uid": "westpac-brand-90"
+                      },
+                      "isBroken": false
+                    }
+                  },
+                  "linkText": {
+                    "type": "Text",
+                    "value": "Read more"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "article-tile",
+              "value": [
+                {
+                  "headline": {
+                    "type": "Text",
+                    "value": "Work"
+                  },
+                  "copy": {
+                    "type": "Text",
+                    "value": "Macca's - The quest to find the world’s most exclusive beef"
+                  },
+                  "linkUrl": {
+                    "type": "Link.web",
+                    "value": {
+                      "url": "https://www.youtube.com/watch?v=XGSKn452xXE"
+                    }
+                  },
+                  "linkText": {
+                    "type": "Text",
+                    "value": "View the work"
+                  }
+                },
+                {
+                  "headline": {
+                    "type": "Text",
+                    "value": "News"
+                  },
+                  "copy": {
+                    "type": "Text",
+                    "value": "Westpac App - For when the unexpected happens"
+                  },
+                  "linkUrl": {
+                    "type": "Link.document",
+                    "value": {
+                      "document": {
+                        "id": "WffvVyoAACcgbVW9",
+                        "type": "case-studies",
+                        "tags": [
+
+                        ],
+                        "lang": "en-us",
+                        "slug": "for-when-the-unexpected-happens",
+                        "uid": "westpac-app"
+                      },
+                      "isBroken": false
+                    }
+                  },
+                  "linkText": {
+                    "type": "Text",
+                    "value": "Read more"
+                  },
+                  "style": {
+                    "type": "Select",
+                    "value": "yellow"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "case-study-tile",
+              "value": [
+                {
+                  "headline": {
+                    "type": "Text",
+                    "value": "Volkswagen"
+                  },
+                  "copy": {
+                    "type": "Text",
+                    "value": "Tech surprising enough to help mend a relationship"
+                  },
+                  "image": {
+                    "type": "Image",
+                    "value": {
+                      "main": {
+                        "dimensions": {
+                          "width": 1916,
+                          "height": 876
+                        },
+                        "alt": null,
+                        "copyright": null,
+                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/1954813d3049eaf08bc30aae31e9e4e61f944fed_vga5375t130.00_00_17_02.still001.png"
+                      },
+                      "views": {
+                        "mobile": {
+                          "dimensions": {
+                            "width": 800,
+                            "height": 820
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/10e826ff97efa4b2b290fd46fa263d5f97e2a400_vga5375t130.00_00_17_02.still001.png"
+                        },
+                        "desktop": {
+                          "dimensions": {
+                            "width": 1920,
+                            "height": 900
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/86c0829c896f8013944694f82abea682cfb0172d_vga5375t130.00_00_17_02.still001.png"
+                        }
+                      }
+                    }
+                  },
+                  "linkUrl": {
+                    "type": "Link.document",
+                    "value": {
+                      "document": {
+                        "id": "WssteC4AAIwAMGBi",
+                        "type": "case-studies",
+                        "tags": [
+
+                        ],
+                        "lang": "en-us",
+                        "slug": "volkswagen--tech-surprising-enough-to-help-mend-a-relationship",
+                        "uid": "volkswagen-more-than-a-car"
+                      },
+                      "isBroken": false
+                    }
+                  },
+                  "linkText": {
+                    "type": "Text",
+                    "value": "Read more"
+                  },
+                  "align": {
+                    "type": "Select",
+                    "value": "center"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "case-study-tile",
+              "value": [
+                {
+                  "headline": {
+                    "type": "Text",
+                    "value": "Virgin Australia"
+                  },
+                  "copy": {
+                    "type": "Text",
+                    "value": "Here's to looking Up."
+                  },
+                  "image": {
+                    "type": "Image",
+                    "value": {
+                      "main": {
+                        "dimensions": {
+                          "width": 1920,
+                          "height": 1280
+                        },
+                        "alt": null,
+                        "copyright": null,
+                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/320e15fbeed59930d30e613834888ef47ccf2f41_wide-virgin.png"
+                      },
+                      "views": {
+                        "mobile": {
+                          "dimensions": {
+                            "width": 800,
+                            "height": 820
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/ca8cc4a5ff38b565fc4d743f15df1c20fd4ac1de_wide-virgin.png"
+                        },
+                        "desktop": {
+                          "dimensions": {
+                            "width": 1920,
+                            "height": 900
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/7002c4cadf28b41786c0943a71802f127a75486f_wide-virgin.png"
+                        }
+                      }
+                    }
+                  },
+                  "linkUrl": {
+                    "type": "Link.document",
+                    "value": {
+                      "document": {
+                        "id": "WdQpHisAAJba6mdv",
+                        "type": "case-studies",
+                        "tags": [
+
+                        ],
+                        "lang": "en-us",
+                        "slug": "virgin-australia-we-are-the-uptimists",
+                        "uid": "virgin-australia"
+                      },
+                      "isBroken": false
+                    }
+                  },
+                  "linkText": {
+                    "type": "Text",
+                    "value": "Read mor"
+                  },
+                  "align": {
+                    "type": "Select",
+                    "value": "right"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "article-tile",
+              "value": [
+                {
+                  "headline": {
+                    "type": "Text",
+                    "value": "News"
+                  },
+                  "copy": {
+                    "type": "Text",
+                    "value": "News and views from our 'talented and nice' DDB crew"
+                  },
+                  "linkUrl": {
+                    "type": "Link.document",
+                    "value": {
+                      "document": {
+                        "id": "WNSb7yEAAGYHQs7T",
+                        "type": "news",
+                        "tags": [
+
+                        ],
+                        "lang": "en-us",
+                        "slug": "news--ddb-sydney",
+                        "uid": "news"
+                      },
+                      "isBroken": false
+                    }
+                  },
+                  "linkText": {
+                    "type": "Text",
+                    "value": "Read more"
+                  },
+                  "style": {
+                    "type": "Select",
+                    "value": "yellow"
+                  }
+                },
+                {
+                  "headline": {
+                    "type": "Text",
+                    "value": "Work"
+                  },
+                  "copy": {
+                    "type": "Text",
+                    "value": "Celebrating all the Dons of Australia"
+                  },
+                  "linkUrl": {
+                    "type": "Link.web",
+                    "value": {
+                      "url": "https://www.youtube.com/watch?v=qrS6Hbk80rg"
+                    }
+                  },
+                  "linkText": {
+                    "type": "Text",
+                    "value": "View the work"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "case-study-tile",
+              "value": [
+                {
+                  "headline": {
+                    "type": "Text",
+                    "value": "McDonald's"
+                  },
+                  "copy": {
+                    "type": "Text",
+                    "value": "Calling on Aussies to ‘Go Full Summer’"
+                  },
+                  "image": {
+                    "type": "Image",
+                    "value": {
+                      "main": {
+                        "dimensions": {
+                          "width": 1920,
+                          "height": 1080
+                        },
+                        "alt": null,
+                        "copyright": null,
+                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/2e7aefddd568af937a85d9cf997ea2441a873022_mcd6040t190.00_01_15_17.still002.jpg"
+                      },
+                      "views": {
+                        "desktop": {
+                          "dimensions": {
+                            "width": 1920,
+                            "height": 900
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/4ffffe016bb1ca6a7ee083a0e3242b70a6aacaa2_mcd6040t190.00_01_15_17.still002.jpg"
+                        },
+                        "mobile": {
+                          "dimensions": {
+                            "width": 800,
+                            "height": 820
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/f8a84d670a54ef6baecf90f9d3ef71802f87d50e_mcd6040t190.00_01_15_17.still002.jpg"
+                        }
+                      }
+                    }
+                  },
+                  "linkUrl": {
+                    "type": "Link.web",
+                    "value": {
+                      "url": "https://www.youtube.com/edit?o=U&video_id=Wyop9-DmR4w"
+                    }
+                  },
+                  "linkText": {
+                    "type": "Text",
+                    "value": "View the work"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "case-study-tile",
+              "value": [
+                {
+                  "headline": {
+                    "type": "Text",
+                    "value": "Virgin Australia AFL Fan Report"
+                  },
+                  "copy": {
+                    "type": "Text",
+                    "value": "Is it just players and coaches who decide the outcome of a footy match?\nMaybe not."
+                  },
+                  "image": {
+                    "type": "Image",
+                    "value": {
+                      "main": {
+                        "dimensions": {
+                          "width": 2969,
+                          "height": 1670
+                        },
+                        "alt": null,
+                        "copyright": null,
+                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/cc15919dc12ce41b64943db977226d34a05820cb_mcg31.jpg"
+                      },
+                      "views": {
+                        "desktop": {
+                          "dimensions": {
+                            "width": 1920,
+                            "height": 900
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/523a117eed93d04a7fb691b3840849fde3185dc3_mcg31.jpg"
+                        },
+                        "mobile": {
+                          "dimensions": {
+                            "width": 800,
+                            "height": 820
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/45096dbd389d7193b14825f2e61babeb134c31c2_mcg31.jpg"
+                        }
+                      }
+                    }
+                  },
+                  "linkUrl": {
+                    "type": "Link.document",
+                    "value": {
+                      "document": {
+                        "id": "WjHt_R0AAGsBQOGL",
+                        "type": "case-studies",
+                        "tags": [
+
+                        ],
+                        "lang": "en-us",
+                        "slug": "afl-fan-report",
+                        "uid": "afl-fan-report"
+                      },
+                      "isBroken": false
+                    }
+                  },
+                  "linkText": {
+                    "type": "Text",
+                    "value": "View the case study"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "article-tile",
+              "value": [
+                {
+                  "headline": {
+                    "type": "Text",
+                    "value": "News"
+                  },
+                  "copy": {
+                    "type": "Text",
+                    "value": "Skoda: You don't have to be famous to be brilliant"
+                  },
+                  "linkUrl": {
+                    "type": "Link.document",
+                    "value": {
+                      "document": {
+                        "id": "WUr3QCYAABEab88j",
+                        "type": "news-pages",
+                        "tags": [
+
+                        ],
+                        "lang": "en-us",
+                        "slug": "new-skoda-campaign",
+                        "uid": "new-skoda-campaign"
+                      },
+                      "isBroken": false
+                    }
+                  },
+                  "linkText": {
+                    "type": "Text",
+                    "value": "Read more"
+                  }
+                },
+                {
+                  "headline": {
+                    "type": "Text",
+                    "value": "Work"
+                  },
+                  "copy": {
+                    "type": "Text",
+                    "value": "Volkswagen Alltrack \nPurpose built for adventure"
+                  },
+                  "linkUrl": {
+                    "type": "Link.web",
+                    "value": {
+                      "url": "https://www.youtube.com/watch?v=VTHOXxxAnhU"
+                    }
+                  },
+                  "linkText": {
+                    "type": "Text",
+                    "value": "View the work"
+                  },
+                  "style": {
+                    "type": "Select",
+                    "value": "yellow"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "case-study-tile",
+              "value": [
+                {
+                  "headline": {
+                    "type": "Text",
+                    "value": "Mobil"
+                  },
+                  "copy": {
+                    "type": "Text",
+                    "value": "Every drive in Australia matters."
+                  },
+                  "image": {
+                    "type": "Image",
+                    "value": {
+                      "main": {
+                        "dimensions": {
+                          "width": 1440,
+                          "height": 675
+                        },
+                        "alt": null,
+                        "copyright": null,
+                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/14db416ee2899a271ed87c3f8612d58df100d604_mobil_1.jpg"
+                      },
+                      "views": {
+                        "desktop": {
+                          "dimensions": {
+                            "width": 1920,
+                            "height": 900
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/78e2cad36b54737e5e01dc0dac602988b53b502d_mobil_1.jpg"
+                        },
+                        "mobile": {
+                          "dimensions": {
+                            "width": 800,
+                            "height": 820
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/5def0aaf377ab765b5cbacd98ea4903f685a5ea1_mobil_1.jpg"
+                        }
+                      }
+                    }
+                  },
+                  "linkUrl": {
+                    "type": "Link.document",
+                    "value": {
+                      "document": {
+                        "id": "Wsse-y4AAIyRMCBA",
+                        "type": "case-studies",
+                        "tags": [
+
+                        ],
+                        "lang": "en-us",
+                        "slug": "mobil---every-drive-in-australia-matters",
+                        "uid": "mobil"
+                      },
+                      "isBroken": false
+                    }
+                  },
+                  "linkText": {
+                    "type": "Text",
+                    "value": "Read More"
+                  },
+                  "align": {
+                    "type": "Select",
+                    "value": "bottomRight"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "case-study-tile",
+              "value": [
+                {
+                  "headline": {
+                    "type": "Text",
+                    "value": "Monash Children's Hospital"
+                  },
+                  "copy": {
+                    "type": "Text",
+                    "value": "Imagination is the best medicine"
+                  },
+                  "image": {
+                    "type": "Image",
+                    "value": {
+                      "main": {
+                        "dimensions": {
+                          "width": 2875,
+                          "height": 1318
+                        },
+                        "alt": null,
+                        "copyright": null,
+                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/e38ec175ae37659bda0f219d02d049e059d318ca_monash2.png"
+                      },
+                      "views": {
+                        "mobile": {
+                          "dimensions": {
+                            "width": 800,
+                            "height": 820
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/98c0fcf1307b423f5887e729e1ae1b9d3ffacbee_monash2.png"
+                        },
+                        "desktop": {
+                          "dimensions": {
+                            "width": 1920,
+                            "height": 900
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/4cf05f3eb5018d37334335432b44f55932bc1595_monash2.png"
+                        }
+                      }
+                    }
+                  },
+                  "linkUrl": {
+                    "type": "Link.document",
+                    "value": {
+                      "document": {
+                        "id": "WsspxS4AAIwAME_5",
+                        "type": "case-studies",
+                        "tags": [
+
+                        ],
+                        "lang": "en-us",
+                        "slug": "monash-childrens-hospital---imagination-is-the-best-medicine",
+                        "uid": "monash-childrens-hospital"
+                      },
+                      "isBroken": false
+                    }
+                  },
+                  "linkText": {
+                    "type": "Text",
+                    "value": "Read more"
+                  },
+                  "align": {
+                    "type": "Select",
+                    "value": "center"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "article-tile",
+              "value": [
+                {
+                  "headline": {
+                    "type": "Text",
+                    "value": "Careers"
+                  },
+                  "copy": {
+                    "type": "Text",
+                    "value": "Do you think creatively & act strategically?"
+                  },
+                  "linkUrl": {
+                    "type": "Link.document",
+                    "value": {
+                      "document": {
+                        "id": "WLjjUx8AAH4IVCL5",
+                        "type": "career-listings",
+                        "tags": [
+
+                        ],
+                        "lang": "en-us",
+                        "slug": "careers--ddb",
+                        "uid": "job-openings"
+                      },
+                      "isBroken": false
+                    }
+                  },
+                  "linkText": {
+                    "type": "Text",
+                    "value": "Join our team"
+                  },
+                  "style": {
+                    "type": "Select",
+                    "value": "yellow"
+                  }
+                },
+                {
+                  "headline": {
+                    "type": "Text",
+                    "value": "Culture"
+                  },
+                  "copy": {
+                    "type": "Text",
+                    "value": "We talk each other up, never down."
+                  },
+                  "linkUrl": {
+                    "type": "Link.document",
+                    "value": {
+                      "document": {
+                        "id": "WMX0dScAAMwVxqbV",
+                        "type": "about-pages",
+                        "tags": [
+
+                        ],
+                        "lang": "en-us",
+                        "slug": "about-us--ddb-australia",
+                        "uid": "people"
+                      },
+                      "isBroken": false
+                    }
+                  },
+                  "linkText": {
+                    "type": "Text",
+                    "value": "Read more"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ],
   "intro": [
     {
       "uid": "intro",
@@ -5505,821 +7785,6 @@
                   "linkText": {
                     "type": "Text",
                     "value": "We look at things a little like this..."
-                  }
-                }
-              ]
-            }
-          ]
-        }
-      }
-    }
-  ],
-  "latest": [
-    {
-      "uid": "latest",
-      "data": {
-        "meta-title": {
-          "type": "Text",
-          "value": "Latest | DDB Sydney"
-        },
-        "meta-description": {
-          "type": "Text",
-          "value": "Latest news from DDB Sydney."
-        },
-        "foregroundColor": {
-          "type": "Color",
-          "value": "#ffffff"
-        },
-        "backgroundColor": {
-          "type": "Color",
-          "value": "#000000"
-        },
-        "sections": {
-          "type": "SectionList",
-          "value": [
-            {
-              "type": "promo-video",
-              "value": [
-                {
-                  "image": {
-                    "type": "Image",
-                    "value": {
-                      "main": {
-                        "dimensions": {
-                          "width": 1920,
-                          "height": 1280
-                        },
-                        "alt": null,
-                        "copyright": null,
-                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/e06f87556795b15e0f4efd16efa20d7ed35ad445_pool8037_virgin_up_02_bg_rgb.jpg"
-                      },
-                      "views": {
-                        "desktop": {
-                          "dimensions": {
-                            "width": 1920,
-                            "height": 1080
-                          },
-                          "alt": null,
-                          "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/e4e273ae3745b30f2cbc8ab79bf3b10bccdccc6c_pool8037_virgin_up_02_bg_rgb.jpg"
-                        },
-                        "mobile": {
-                          "dimensions": {
-                            "width": 800,
-                            "height": 820
-                          },
-                          "alt": null,
-                          "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/29f5c098273f0222145ff2b68b2e68bcc8545ce7_pool8037_virgin_up_02_bg_rgb.jpg"
-                        }
-                      }
-                    }
-                  },
-                  "video": {
-                    "type": "Link.file",
-                    "value": {
-                      "file": {
-                        "name": "VIRAUS3027_The Uptimists_60_1to1_Social_Supers_01_MusicOnly_frk_cropped.mp4",
-                        "kind": "document",
-                        "url": "http://ddb-website.cdn.prismic.io/ddb-website%2Faf7a9fb7-72e7-4d45-a23d-32d59d14ae35_viraus3027_the+uptimists_60_1to1_social_supers_01_musiconly_frk_cropped.mp4",
-                        "size": "75160367"
-                      }
-                    }
-                  }
-                }
-              ]
-            },
-            {
-              "type": "case-study-tile",
-              "value": [
-                {
-                  "headline": {
-                    "type": "Text",
-                    "value": "Virgin Australia"
-                  },
-                  "copy": {
-                    "type": "Text",
-                    "value": "Here's to looking Up."
-                  },
-                  "image": {
-                    "type": "Image",
-                    "value": {
-                      "main": {
-                        "dimensions": {
-                          "width": 1920,
-                          "height": 1280
-                        },
-                        "alt": null,
-                        "copyright": null,
-                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/320e15fbeed59930d30e613834888ef47ccf2f41_wide-virgin.png"
-                      },
-                      "views": {
-                        "mobile": {
-                          "dimensions": {
-                            "width": 800,
-                            "height": 820
-                          },
-                          "alt": null,
-                          "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/ca8cc4a5ff38b565fc4d743f15df1c20fd4ac1de_wide-virgin.png"
-                        },
-                        "desktop": {
-                          "dimensions": {
-                            "width": 1920,
-                            "height": 900
-                          },
-                          "alt": null,
-                          "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/7002c4cadf28b41786c0943a71802f127a75486f_wide-virgin.png"
-                        }
-                      }
-                    }
-                  },
-                  "linkUrl": {
-                    "type": "Link.document",
-                    "value": {
-                      "document": {
-                        "id": "WdQpHisAAJba6mdv",
-                        "type": "case-studies",
-                        "tags": [
-
-                        ],
-                        "lang": "en-us",
-                        "slug": "virgin-australia-we-are-the-uptimists",
-                        "uid": "virgin-australia"
-                      },
-                      "isBroken": false
-                    }
-                  },
-                  "linkText": {
-                    "type": "Text",
-                    "value": "View the work"
-                  },
-                  "align": {
-                    "type": "Select",
-                    "value": "right"
-                  }
-                }
-              ]
-            },
-            {
-              "type": "article-tile",
-              "value": [
-                {
-                  "headline": {
-                    "type": "Text",
-                    "value": "News"
-                  },
-                  "copy": {
-                    "type": "Text",
-                    "value": "Westpac App - For when the unexpected happens"
-                  },
-                  "linkUrl": {
-                    "type": "Link.document",
-                    "value": {
-                      "document": {
-                        "id": "WffvVyoAACcgbVW9",
-                        "type": "case-studies",
-                        "tags": [
-
-                        ],
-                        "lang": "en-us",
-                        "slug": "for-when-the-unexpected-happens",
-                        "uid": "westpac-app"
-                      },
-                      "isBroken": false
-                    }
-                  },
-                  "linkText": {
-                    "type": "Text",
-                    "value": "Read more"
-                  },
-                  "style": {
-                    "type": "Select",
-                    "value": "yellow"
-                  }
-                },
-                {
-                  "headline": {
-                    "type": "Text",
-                    "value": "News"
-                  },
-                  "copy": {
-                    "type": "Text",
-                    "value": "News and views from our 'talented and nice' DDB crew"
-                  },
-                  "linkUrl": {
-                    "type": "Link.document",
-                    "value": {
-                      "document": {
-                        "id": "WNSb7yEAAGYHQs7T",
-                        "type": "news",
-                        "tags": [
-
-                        ],
-                        "lang": "en-us",
-                        "slug": "news--ddb-sydney",
-                        "uid": "news"
-                      },
-                      "isBroken": false
-                    }
-                  },
-                  "linkText": {
-                    "type": "Text",
-                    "value": "Read more"
-                  }
-                }
-              ]
-            },
-            {
-              "type": "case-study-tile",
-              "value": [
-                {
-                  "headline": {
-                    "type": "Text",
-                    "value": "McDonald's"
-                  },
-                  "copy": {
-                    "type": "Text",
-                    "value": "Calling on Aussies to ‘Go Full Summer’"
-                  },
-                  "image": {
-                    "type": "Image",
-                    "value": {
-                      "main": {
-                        "dimensions": {
-                          "width": 1920,
-                          "height": 1080
-                        },
-                        "alt": null,
-                        "copyright": null,
-                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/2e7aefddd568af937a85d9cf997ea2441a873022_mcd6040t190.00_01_15_17.still002.jpg"
-                      },
-                      "views": {
-                        "desktop": {
-                          "dimensions": {
-                            "width": 1920,
-                            "height": 900
-                          },
-                          "alt": null,
-                          "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/4ffffe016bb1ca6a7ee083a0e3242b70a6aacaa2_mcd6040t190.00_01_15_17.still002.jpg"
-                        },
-                        "mobile": {
-                          "dimensions": {
-                            "width": 800,
-                            "height": 820
-                          },
-                          "alt": null,
-                          "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/f8a84d670a54ef6baecf90f9d3ef71802f87d50e_mcd6040t190.00_01_15_17.still002.jpg"
-                        }
-                      }
-                    }
-                  },
-                  "linkUrl": {
-                    "type": "Link.web",
-                    "value": {
-                      "url": "https://www.youtube.com/edit?o=U&video_id=Wyop9-DmR4w"
-                    }
-                  },
-                  "linkText": {
-                    "type": "Text",
-                    "value": "View the work"
-                  }
-                }
-              ]
-            },
-            {
-              "type": "case-study-tile",
-              "value": [
-                {
-                  "headline": {
-                    "type": "Text",
-                    "value": "Volkswagen"
-                  },
-                  "copy": {
-                    "type": "Text",
-                    "value": "In 2016 the Volkswagen Amarok proved its toughness with The Naked Ute.\n<br>\n<br>\nBut Aussie blokes were also looking for something with a bit more grunt."
-                  },
-                  "image": {
-                    "type": "Image",
-                    "value": {
-                      "main": {
-                        "dimensions": {
-                          "width": 3543,
-                          "height": 1993
-                        },
-                        "alt": null,
-                        "copyright": null,
-                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/013a64aedf3ebd8d4e255952dc8a405bca9494b9_korama-4.jpg"
-                      },
-                      "views": {
-                        "desktop": {
-                          "dimensions": {
-                            "width": 1920,
-                            "height": 900
-                          },
-                          "alt": null,
-                          "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/3a214647d4db11f851956dc1fd67dc0cfb4a9445_korama-4.jpg"
-                        },
-                        "mobile": {
-                          "dimensions": {
-                            "width": 800,
-                            "height": 820
-                          },
-                          "alt": null,
-                          "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/6abdc6e938d8a6a60a06fe1657e8f3e192d2a802_korama-4.jpg"
-                        }
-                      }
-                    }
-                  },
-                  "linkUrl": {
-                    "type": "Link.document",
-                    "value": {
-                      "document": {
-                        "id": "WL82KSQAACIbfCy4",
-                        "type": "case-studies",
-                        "tags": [
-
-                        ],
-                        "lang": "en-us",
-                        "slug": "volkswagen-amarok---korama--ddb-sydney",
-                        "uid": "volkswagen-amarok-korama"
-                      },
-                      "isBroken": false
-                    }
-                  },
-                  "linkText": {
-                    "type": "Text",
-                    "value": "View the work"
-                  },
-                  "align": {
-                    "type": "Select",
-                    "value": "topLeft"
-                  },
-                  "foregroundColor": {
-                    "type": "Color",
-                    "value": "#ffffff"
-                  }
-                }
-              ]
-            },
-            {
-              "type": "article-tile",
-              "value": [
-                {
-                  "headline": {
-                    "type": "Text",
-                    "value": "Work"
-                  },
-                  "copy": {
-                    "type": "Text",
-                    "value": "Helping sick kids through the power of imagination"
-                  },
-                  "linkUrl": {
-                    "type": "Link.web",
-                    "value": {
-                      "url": "https://www.youtube.com/watch?v=2ZpVSmpCg40"
-                    }
-                  },
-                  "linkText": {
-                    "type": "Text",
-                    "value": "View the work"
-                  }
-                },
-                {
-                  "headline": {
-                    "type": "Text",
-                    "value": "Work"
-                  },
-                  "copy": {
-                    "type": "Text",
-                    "value": "Volkswagen Alltrack <br class=\"all\"/> Purpose built for adventure"
-                  },
-                  "linkUrl": {
-                    "type": "Link.web",
-                    "value": {
-                      "url": "https://www.youtube.com/watch?v=VTHOXxxAnhU"
-                    }
-                  },
-                  "linkText": {
-                    "type": "Text",
-                    "value": "View the work"
-                  },
-                  "style": {
-                    "type": "Select",
-                    "value": "yellow"
-                  }
-                }
-              ]
-            },
-            {
-              "type": "case-study-tile",
-              "value": [
-                {
-                  "headline": {
-                    "type": "Text",
-                    "value": "Westpac Bump 2.0"
-                  },
-                  "copy": {
-                    "type": "Text",
-                    "value": "Vomit, sleep deprivation, more vomit, \n<br>vomit-inducing nappies.\n<br>\n<br>\nBeing a parent requires unconditional love."
-                  },
-                  "image": {
-                    "type": "Image",
-                    "value": {
-                      "main": {
-                        "dimensions": {
-                          "width": 1920,
-                          "height": 1080
-                        },
-                        "alt": null,
-                        "copyright": null,
-                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/702f30f8f41c1ca6b8cdaaa6c2ffe415813571d6_wbc5278t130_sub.mov.00_00_29_09.still002.jpg"
-                      },
-                      "views": {
-                        "desktop": {
-                          "dimensions": {
-                            "width": 1920,
-                            "height": 900
-                          },
-                          "alt": null,
-                          "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/5117f5b0f18dc07950ec58f849bfaf1cf36fb6a2_wbc5278t130_sub.mov.00_00_29_09.still002.jpg"
-                        },
-                        "mobile": {
-                          "dimensions": {
-                            "width": 800,
-                            "height": 820
-                          },
-                          "alt": null,
-                          "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/6e82aa33658ee9f05b78bd2bf30af273a4ce3ff1_wbc5278t130_sub.mov.00_00_29_09.still002.jpg"
-                        }
-                      }
-                    }
-                  },
-                  "linkUrl": {
-                    "type": "Link.document",
-                    "value": {
-                      "document": {
-                        "id": "WjcJwCkAAAAxc4AH",
-                        "type": "case-studies",
-                        "tags": [
-
-                        ],
-                        "lang": "en-us",
-                        "slug": "bump-2.0",
-                        "uid": "bump-2-case-study"
-                      },
-                      "isBroken": false
-                    }
-                  },
-                  "linkText": {
-                    "type": "Text",
-                    "value": "View the work"
-                  }
-                }
-              ]
-            },
-            {
-              "type": "case-study-tile",
-              "value": [
-                {
-                  "headline": {
-                    "type": "Text",
-                    "value": "Mobil"
-                  },
-                  "copy": {
-                    "type": "Text",
-                    "value": "Every drive in Australia matters."
-                  },
-                  "image": {
-                    "type": "Image",
-                    "value": {
-                      "main": {
-                        "dimensions": {
-                          "width": 1440,
-                          "height": 675
-                        },
-                        "alt": null,
-                        "copyright": null,
-                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/14db416ee2899a271ed87c3f8612d58df100d604_mobil_1.jpg"
-                      },
-                      "views": {
-                        "desktop": {
-                          "dimensions": {
-                            "width": 1920,
-                            "height": 900
-                          },
-                          "alt": null,
-                          "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/78e2cad36b54737e5e01dc0dac602988b53b502d_mobil_1.jpg"
-                        },
-                        "mobile": {
-                          "dimensions": {
-                            "width": 800,
-                            "height": 820
-                          },
-                          "alt": null,
-                          "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/5def0aaf377ab765b5cbacd98ea4903f685a5ea1_mobil_1.jpg"
-                        }
-                      }
-                    }
-                  },
-                  "linkUrl": {
-                    "type": "Link.document",
-                    "value": {
-                      "document": {
-                        "id": "Wsse-y4AAIyRMCBA",
-                        "type": "case-studies",
-                        "tags": [
-
-                        ],
-                        "lang": "en-us",
-                        "slug": "mobile---every-drive-in-australia-matters",
-                        "uid": "mobil"
-                      },
-                      "isBroken": false
-                    }
-                  },
-                  "linkText": {
-                    "type": "Text",
-                    "value": "Read More"
-                  },
-                  "align": {
-                    "type": "Select",
-                    "value": "bottomRight"
-                  }
-                }
-              ]
-            },
-            {
-              "type": "article-tile",
-              "value": [
-                {
-                  "headline": {
-                    "type": "Text",
-                    "value": "News"
-                  },
-                  "copy": {
-                    "type": "Text",
-                    "value": "Skoda: You don't have to be famous to be brilliant"
-                  },
-                  "linkUrl": {
-                    "type": "Link.document",
-                    "value": {
-                      "document": {
-                        "id": "WUr3QCYAABEab88j",
-                        "type": "news-pages",
-                        "tags": [
-
-                        ],
-                        "lang": "en-us",
-                        "slug": "new-skoda-campaign",
-                        "uid": "new-skoda-campaign"
-                      },
-                      "isBroken": false
-                    }
-                  },
-                  "linkText": {
-                    "type": "Text",
-                    "value": "Read more"
-                  },
-                  "style": {
-                    "type": "Select",
-                    "value": "yellow"
-                  }
-                },
-                {
-                  "headline": {
-                    "type": "Text",
-                    "value": "Work"
-                  },
-                  "copy": {
-                    "type": "Text",
-                    "value": "Celebrating all the Dons of Australia"
-                  },
-                  "linkUrl": {
-                    "type": "Link.web",
-                    "value": {
-                      "url": "https://www.youtube.com/watch?v=qrS6Hbk80rg"
-                    }
-                  },
-                  "linkText": {
-                    "type": "Text",
-                    "value": "View the work"
-                  }
-                }
-              ]
-            },
-            {
-              "type": "case-study-tile",
-              "value": [
-                {
-                  "headline": {
-                    "type": "Text",
-                    "value": "The Sydney Opera House"
-                  },
-                  "copy": {
-                    "type": "Text",
-                    "value": "We needed to get more people inside the Sydney Opera House during summer."
-                  },
-                  "image": {
-                    "type": "Image",
-                    "value": {
-                      "main": {
-                        "dimensions": {
-                          "width": 1200,
-                          "height": 800
-                        },
-                        "alt": null,
-                        "copyright": null,
-                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/1f4004a943d3b7beec9198e99364c78e8190fa13_comeonin-poster-operahouse.jpg"
-                      },
-                      "views": {
-                        "mobile": {
-                          "dimensions": {
-                            "width": 800,
-                            "height": 820
-                          },
-                          "alt": null,
-                          "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/386c3ecef3443afb08ac3a5b4ae5f167efaa79bc_comeonin-poster-operahouse.jpg"
-                        },
-                        "desktop": {
-                          "dimensions": {
-                            "width": 1920,
-                            "height": 900
-                          },
-                          "alt": null,
-                          "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/4b33808390b06bab21cf71dba4ff41c9a8ca0169_comeonin-poster-operahouse.jpg"
-                        }
-                      }
-                    }
-                  },
-                  "linkUrl": {
-                    "type": "Link.document",
-                    "value": {
-                      "document": {
-                        "id": "WKpzRigAACgAOzbM",
-                        "type": "case-studies",
-                        "tags": [
-
-                        ],
-                        "lang": "en-us",
-                        "slug": "the-sydney-opera-house--ddb",
-                        "uid": "the-sydney-opera-house"
-                      },
-                      "isBroken": false
-                    }
-                  },
-                  "linkText": {
-                    "type": "Text",
-                    "value": "View the work"
-                  }
-                }
-              ]
-            },
-            {
-              "type": "case-study-tile",
-              "value": [
-                {
-                  "headline": {
-                    "type": "Text",
-                    "value": "Virgin Australia AFL Fan Report"
-                  },
-                  "copy": {
-                    "type": "Text",
-                    "value": "Is it just players and coaches who decide the outcome of a footy match?\nMaybe not."
-                  },
-                  "image": {
-                    "type": "Image",
-                    "value": {
-                      "main": {
-                        "dimensions": {
-                          "width": 2969,
-                          "height": 1670
-                        },
-                        "alt": null,
-                        "copyright": null,
-                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/cc15919dc12ce41b64943db977226d34a05820cb_mcg31.jpg"
-                      },
-                      "views": {
-                        "desktop": {
-                          "dimensions": {
-                            "width": 1920,
-                            "height": 900
-                          },
-                          "alt": null,
-                          "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/523a117eed93d04a7fb691b3840849fde3185dc3_mcg31.jpg"
-                        },
-                        "mobile": {
-                          "dimensions": {
-                            "width": 800,
-                            "height": 820
-                          },
-                          "alt": null,
-                          "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/45096dbd389d7193b14825f2e61babeb134c31c2_mcg31.jpg"
-                        }
-                      }
-                    }
-                  },
-                  "linkUrl": {
-                    "type": "Link.document",
-                    "value": {
-                      "document": {
-                        "id": "WjHt_R0AAGsBQOGL",
-                        "type": "case-studies",
-                        "tags": [
-
-                        ],
-                        "lang": "en-us",
-                        "slug": "afl-fan-report",
-                        "uid": "afl-fan-report"
-                      },
-                      "isBroken": false
-                    }
-                  },
-                  "linkText": {
-                    "type": "Text",
-                    "value": "View the case study"
-                  }
-                }
-              ]
-            },
-            {
-              "type": "article-tile",
-              "value": [
-                {
-                  "headline": {
-                    "type": "Text",
-                    "value": "Careers"
-                  },
-                  "copy": {
-                    "type": "Text",
-                    "value": "Do you think creatively & act strategically?"
-                  },
-                  "linkUrl": {
-                    "type": "Link.document",
-                    "value": {
-                      "document": {
-                        "id": "WLjjUx8AAH4IVCL5",
-                        "type": "career-listings",
-                        "tags": [
-
-                        ],
-                        "lang": "en-us",
-                        "slug": "careers--ddb",
-                        "uid": "job-openings"
-                      },
-                      "isBroken": false
-                    }
-                  },
-                  "linkText": {
-                    "type": "Text",
-                    "value": "Join our team"
-                  }
-                },
-                {
-                  "headline": {
-                    "type": "Text",
-                    "value": "Culture"
-                  },
-                  "copy": {
-                    "type": "Text",
-                    "value": "We talk each other up, never down."
-                  },
-                  "linkUrl": {
-                    "type": "Link.document",
-                    "value": {
-                      "document": {
-                        "id": "WMX0dScAAMwVxqbV",
-                        "type": "about-pages",
-                        "tags": [
-
-                        ],
-                        "lang": "en-us",
-                        "slug": "about-us--ddb-australia",
-                        "uid": "people"
-                      },
-                      "isBroken": false
-                    }
-                  },
-                  "linkText": {
-                    "type": "Text",
-                    "value": "Read more"
-                  },
-                  "style": {
-                    "type": "Select",
-                    "value": "yellow"
                   }
                 }
               ]
@@ -8645,809 +10110,6 @@
               "type": "news-title",
               "value": [
                 {
-                }
-              ]
-            }
-          ]
-        }
-      }
-    }
-  ],
-  "work": [
-    {
-      "uid": "work",
-      "data": {
-        "meta-title": {
-          "type": "Text",
-          "value": "Work | DDB Sydney"
-        },
-        "meta-description": {
-          "type": "Text",
-          "value": "Work from DDB Sydney."
-        },
-        "foregroundColor": {
-          "type": "Color",
-          "value": "#ffffff"
-        },
-        "backgroundColor": {
-          "type": "Color",
-          "value": "#000000"
-        },
-        "sections": {
-          "type": "SectionList",
-          "value": [
-            {
-              "type": "case-study-tile",
-              "value": [
-                {
-                  "headline": {
-                    "type": "Text",
-                    "value": "Virgin Australia"
-                  },
-                  "copy": {
-                    "type": "Text",
-                    "value": "We are the Uptimists."
-                  },
-                  "image": {
-                    "type": "Image",
-                    "value": {
-                      "main": {
-                        "dimensions": {
-                          "width": 1920,
-                          "height": 1360
-                        },
-                        "alt": null,
-                        "copyright": null,
-                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/501e038c0d82b718d792c02498d451fea5ecf6ce_wide-virgin.png"
-                      },
-                      "views": {
-                        "desktop": {
-                          "dimensions": {
-                            "width": 1920,
-                            "height": 900
-                          },
-                          "alt": null,
-                          "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/3b26bdcd9f14e10f57e69efc9175153af7b7fb94_wide-virgin.png"
-                        },
-                        "mobile": {
-                          "dimensions": {
-                            "width": 800,
-                            "height": 820
-                          },
-                          "alt": null,
-                          "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/1e53868e2f002990d7903301ce8d2b2025c9294f_wide-virgin.png"
-                        }
-                      }
-                    }
-                  },
-                  "linkUrl": {
-                    "type": "Link.document",
-                    "value": {
-                      "document": {
-                        "id": "WdQpHisAAJba6mdv",
-                        "type": "case-studies",
-                        "tags": [
-
-                        ],
-                        "lang": "en-us",
-                        "slug": "virgin-australia-we-are-the-uptimists",
-                        "uid": "virgin-australia"
-                      },
-                      "isBroken": false
-                    }
-                  },
-                  "linkText": {
-                    "type": "Text",
-                    "value": "View the work"
-                  },
-                  "align": {
-                    "type": "Select",
-                    "value": "right"
-                  }
-                }
-              ]
-            },
-            {
-              "type": "case-study-tile",
-              "value": [
-                {
-                  "headline": {
-                    "type": "Text",
-                    "value": "Westpac"
-                  },
-                  "copy": {
-                    "type": "Text",
-                    "value": "Ensuring every bump<br class=\"all\"/> gets a good start."
-                  },
-                  "image": {
-                    "type": "Image",
-                    "value": {
-                      "main": {
-                        "dimensions": {
-                          "width": 1024,
-                          "height": 500
-                        },
-                        "alt": null,
-                        "copyright": null,
-                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/f1e8dd582e0c995818e1923a3c5e28f2ea364914_bump.jpg"
-                      },
-                      "views": {
-                        "mobile": {
-                          "dimensions": {
-                            "width": 800,
-                            "height": 820
-                          },
-                          "alt": null,
-                          "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/33d7685c2d60c12be0f7d989509cac38bfe56953_work_images_crops_800pxw_x_820pxd_0010_westpac_bump.jpg"
-                        },
-                        "desktop": {
-                          "dimensions": {
-                            "width": 1920,
-                            "height": 900
-                          },
-                          "alt": null,
-                          "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/ea269037e8238f0c10f01a8a0a389885dd86a937_bump.jpg"
-                        }
-                      }
-                    }
-                  },
-                  "linkUrl": {
-                    "type": "Link.document",
-                    "value": {
-                      "document": {
-                        "id": "WL5JOCQAAC8DeBbk",
-                        "type": "case-studies",
-                        "tags": [
-
-                        ],
-                        "lang": "en-us",
-                        "slug": "westpac---bump--ddb-sydney",
-                        "uid": "westpac-bump"
-                      },
-                      "isBroken": false
-                    }
-                  },
-                  "linkText": {
-                    "type": "Text",
-                    "value": "View the work"
-                  }
-                }
-              ]
-            },
-            {
-              "type": "case-study-tile",
-              "value": [
-                {
-                  "headline": {
-                    "type": "Text",
-                    "value": "Volkswagen"
-                  },
-                  "copy": {
-                    "type": "Text",
-                    "value": "Aussie blokes were judging the Amarok by its cover, so we removed it."
-                  },
-                  "image": {
-                    "type": "Image",
-                    "value": {
-                      "main": {
-                        "dimensions": {
-                          "width": 1920,
-                          "height": 1200
-                        },
-                        "alt": null,
-                        "copyright": null,
-                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/36d46373834bbe1d69f09ddbc1982fd3aa911e3e_naked-ute-0.jpg"
-                      },
-                      "views": {
-                        "mobile": {
-                          "dimensions": {
-                            "width": 800,
-                            "height": 820
-                          },
-                          "alt": null,
-                          "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/d6b72921def821d4b8346d77e2fd6bce24b76d4d_work_images_crops_800pxw_x_820pxd_0006_vw_naked_ute.jpg"
-                        },
-                        "desktop": {
-                          "dimensions": {
-                            "width": 1920,
-                            "height": 900
-                          },
-                          "alt": null,
-                          "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/69efdbb08044dac5dad037c7facd4ef85dc8d6ff_naked-ute-0.jpg"
-                        }
-                      }
-                    }
-                  },
-                  "linkUrl": {
-                    "type": "Link.document",
-                    "value": {
-                      "document": {
-                        "id": "WK0ZFykAACsAoYlk",
-                        "type": "case-studies",
-                        "tags": [
-
-                        ],
-                        "lang": "en-us",
-                        "slug": "volkswagen-naked-ute--ddb",
-                        "uid": "volkswagen-naked-ute"
-                      },
-                      "isBroken": false
-                    }
-                  },
-                  "linkText": {
-                    "type": "Text",
-                    "value": "View the work"
-                  },
-                  "align": {
-                    "type": "Select",
-                    "value": "topRight"
-                  }
-                }
-              ]
-            },
-            {
-              "type": "case-study-tile",
-              "value": [
-                {
-                  "headline": {
-                    "type": "Text",
-                    "value": "The Sydney Opera House"
-                  },
-                  "copy": {
-                    "type": "Text",
-                    "value": "We needed to get more people inside the Sydney Opera House during summer."
-                  },
-                  "image": {
-                    "type": "Image",
-                    "value": {
-                      "main": {
-                        "dimensions": {
-                          "width": 1920,
-                          "height": 1200
-                        },
-                        "alt": null,
-                        "copyright": null,
-                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/149fc9b6ebb5d12be35315345cfa94f7ff3e9c85_screen-shot-2017-03-08-at-3.13.56-pm-2.png"
-                      },
-                      "views": {
-                        "desktop": {
-                          "dimensions": {
-                            "width": 1920,
-                            "height": 900
-                          },
-                          "alt": null,
-                          "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/003ce2b53a66d491db2e5106d93d192006060a07_screen-shot-2017-03-08-at-3.13.56-pm-2.png"
-                        },
-                        "mobile": {
-                          "dimensions": {
-                            "width": 800,
-                            "height": 820
-                          },
-                          "alt": null,
-                          "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/78c7753f31272016582dd9f5406e10050f7a0fb2_work_images_crops_800pxw_x_820pxd_0007_opera_house.jpg"
-                        }
-                      }
-                    }
-                  },
-                  "linkUrl": {
-                    "type": "Link.document",
-                    "value": {
-                      "document": {
-                        "id": "WKpzRigAACgAOzbM",
-                        "type": "case-studies",
-                        "tags": [
-
-                        ],
-                        "lang": "en-us",
-                        "slug": "the-sydney-opera-house--ddb",
-                        "uid": "the-sydney-opera-house"
-                      },
-                      "isBroken": false
-                    }
-                  },
-                  "linkText": {
-                    "type": "Text",
-                    "value": "View the work"
-                  }
-                }
-              ]
-            },
-            {
-              "type": "case-study-tile",
-              "value": [
-                {
-                  "headline": {
-                    "type": "Text",
-                    "value": "ŠKODA Octavia"
-                  },
-                  "copy": {
-                    "type": "Text",
-                    "value": "For those that buy the car, not the ad."
-                  },
-                  "image": {
-                    "type": "Image",
-                    "value": {
-                      "main": {
-                        "dimensions": {
-                          "width": 1024,
-                          "height": 500
-                        },
-                        "alt": null,
-                        "copyright": null,
-                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/e4ac1ded573834fcaef9b52ff8591ded3703a591_skoda-octavia.jpg"
-                      },
-                      "views": {
-                        "mobile": {
-                          "dimensions": {
-                            "width": 800,
-                            "height": 820
-                          },
-                          "alt": null,
-                          "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/046bf28e3a44f8da74184592b4c546745196eadd_work_images_crops_800pxw_x_820pxd_0001_skoda_octavia.jpg"
-                        },
-                        "desktop": {
-                          "dimensions": {
-                            "width": 1920,
-                            "height": 900
-                          },
-                          "alt": null,
-                          "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/0b3a15d26d76aec77db04ac97cbc0fd7d1e602d2_skoda-octavia.jpg"
-                        }
-                      }
-                    }
-                  },
-                  "linkUrl": {
-                    "type": "Link.document",
-                    "value": {
-                      "document": {
-                        "id": "WL80WCQAAD0bfCS8",
-                        "type": "case-studies",
-                        "tags": [
-
-                        ],
-                        "lang": "en-us",
-                        "slug": "skoda-octavia--ddb",
-                        "uid": "skoda-octavia"
-                      },
-                      "isBroken": false
-                    }
-                  },
-                  "linkText": {
-                    "type": "Text",
-                    "value": "View the work"
-                  }
-                }
-              ]
-            },
-            {
-              "type": "case-study-tile",
-              "value": [
-                {
-                  "headline": {
-                    "type": "Text",
-                    "value": "McDonald's"
-                  },
-                  "copy": {
-                    "type": "Text",
-                    "value": "The family restaurant where parents feel like grown-ups."
-                  },
-                  "image": {
-                    "type": "Image",
-                    "value": {
-                      "main": {
-                        "dimensions": {
-                          "width": 1920,
-                          "height": 697
-                        },
-                        "alt": null,
-                        "copyright": null,
-                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/d8290d54483a9b57176d2aee23d085aad7630b64_maccas-father-daughter.jpg"
-                      },
-                      "views": {
-                        "mobile": {
-                          "dimensions": {
-                            "width": 800,
-                            "height": 820
-                          },
-                          "alt": null,
-                          "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/d22058efb6393f4d206e1a974a0e446e8c4609ce_work_images_crops_800pxw_x_820pxd_0000_maccas_father_daughter.jpg"
-                        },
-                        "desktop": {
-                          "dimensions": {
-                            "width": 1920,
-                            "height": 900
-                          },
-                          "alt": null,
-                          "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/0a75f5f35f18f3a0c11ba637273ca7cc95fc7c8a_maccas-father-daughter.jpg"
-                        }
-                      }
-                    }
-                  },
-                  "linkUrl": {
-                    "type": "Link.document",
-                    "value": {
-                      "document": {
-                        "id": "WL5FeyQAAMcLeAZr",
-                        "type": "case-studies",
-                        "tags": [
-
-                        ],
-                        "lang": "en-us",
-                        "slug": "mcdonalds-create-your-taste-father-daughter--ddb-sydney",
-                        "uid": "mcdonalds-create-your-taste-father-daughter"
-                      },
-                      "isBroken": false
-                    }
-                  },
-                  "linkText": {
-                    "type": "Text",
-                    "value": "View the work"
-                  },
-                  "align": {
-                    "type": "Select",
-                    "value": "center"
-                  }
-                }
-              ]
-            },
-            {
-              "type": "case-study-tile",
-              "value": [
-                {
-                  "headline": {
-                    "type": "Text",
-                    "value": "Volkswagen"
-                  },
-                  "copy": {
-                    "type": "Text",
-                    "value": "How we got Australia talking about a mystery prototype that didn’t exist."
-                  },
-                  "image": {
-                    "type": "Image",
-                    "value": {
-                      "main": {
-                        "dimensions": {
-                          "width": 1024,
-                          "height": 500
-                        },
-                        "alt": null,
-                        "copyright": null,
-                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/2da875340420ef8f6da41264237cc962ee760606_korama.jpg"
-                      },
-                      "views": {
-                        "desktop": {
-                          "dimensions": {
-                            "width": 1920,
-                            "height": 900
-                          },
-                          "alt": null,
-                          "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/61519e96d92f246fb7d09746e8386d8c11b13f8c_korama.jpg"
-                        },
-                        "mobile": {
-                          "dimensions": {
-                            "width": 800,
-                            "height": 820
-                          },
-                          "alt": null,
-                          "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/a8ac578e88cba8a5c7cbe7de7580bb0c55ade8ba_work_images_crops_800pxw_x_820pxd_0003_vw_korama.jpg"
-                        }
-                      }
-                    }
-                  },
-                  "linkUrl": {
-                    "type": "Link.document",
-                    "value": {
-                      "document": {
-                        "id": "WL82KSQAACIbfCy4",
-                        "type": "case-studies",
-                        "tags": [
-
-                        ],
-                        "lang": "en-us",
-                        "slug": "volkswagen-amarok---korama--ddb-sydney",
-                        "uid": "volkswagen-amarok-korama"
-                      },
-                      "isBroken": false
-                    }
-                  },
-                  "linkText": {
-                    "type": "Text",
-                    "value": "View the work"
-                  }
-                }
-              ]
-            },
-            {
-              "type": "case-study-tile",
-              "value": [
-                {
-                  "headline": {
-                    "type": "Text",
-                    "value": "Westpac Chopper"
-                  },
-                  "copy": {
-                    "type": "Text",
-                    "value": "200 years proudly supporting Australia."
-                  },
-                  "image": {
-                    "type": "Image",
-                    "value": {
-                      "main": {
-                        "dimensions": {
-                          "width": 1920,
-                          "height": 1200
-                        },
-                        "alt": null,
-                        "copyright": null,
-                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/0c0664e4f16287e750f0158559ca9b16f5b0105d_screen-shot-2017-03-08-at-3.01.05-pm-2.png"
-                      },
-                      "views": {
-                        "desktop": {
-                          "dimensions": {
-                            "width": 1920,
-                            "height": 900
-                          },
-                          "alt": null,
-                          "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/513d3f853083e5ee97fb19d7eaeeaffd7ece5ec6_screen-shot-2017-03-08-at-3.01.05-pm-2.png"
-                        },
-                        "mobile": {
-                          "dimensions": {
-                            "width": 800,
-                            "height": 820
-                          },
-                          "alt": null,
-                          "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/b105b66b6da8b0b1497bbff1d60e2617c6b36c89_work_images_crops_800pxw_x_820pxd_0004_westpac_chopper.jpg"
-                        }
-                      }
-                    }
-                  },
-                  "linkUrl": {
-                    "type": "Link.document",
-                    "value": {
-                      "document": {
-                        "id": "WL5LISQAADADeB9R",
-                        "type": "case-studies",
-                        "tags": [
-
-                        ],
-                        "lang": "en-us",
-                        "slug": "westpac-chopper--ddb",
-                        "uid": "westpac-chopper"
-                      },
-                      "isBroken": false
-                    }
-                  },
-                  "linkText": {
-                    "type": "Text",
-                    "value": "View the work"
-                  }
-                }
-              ]
-            },
-            {
-              "type": "case-study-tile",
-              "value": [
-                {
-                  "headline": {
-                    "type": "Text",
-                    "value": "McDonald's"
-                  },
-                  "copy": {
-                    "type": "Text",
-                    "value": "Got the appetite? <br class=\"all\"/> We'll bring the opportunity."
-                  },
-                  "image": {
-                    "type": "Image",
-                    "value": {
-                      "main": {
-                        "dimensions": {
-                          "width": 1920,
-                          "height": 892
-                        },
-                        "alt": null,
-                        "copyright": null,
-                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/c9868fe0bc92a0b04b62266a17bfc30df7b9650a_5a0dd827de54be2162874976489ab149cbab6427_maccas-people-2.jpg"
-                      },
-                      "views": {
-                        "mobile": {
-                          "dimensions": {
-                            "width": 800,
-                            "height": 820
-                          },
-                          "alt": null,
-                          "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/a56da9423af4d4d1c69ab6674b13d8c150e641b5_work_images_crops_800pxw_x_820pxd_0005_maccas_girl.jpg"
-                        },
-                        "desktop": {
-                          "dimensions": {
-                            "width": 1920,
-                            "height": 900
-                          },
-                          "alt": null,
-                          "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/cadcfbf5cec52b114674181eb5124cd74803efa4_5a0dd827de54be2162874976489ab149cbab6427_maccas-people-2.jpg"
-                        }
-                      }
-                    }
-                  },
-                  "linkUrl": {
-                    "type": "Link.document",
-                    "value": {
-                      "document": {
-                        "id": "WK0L2SkAACsAoU7x",
-                        "type": "case-studies",
-                        "tags": [
-
-                        ],
-                        "lang": "en-us",
-                        "slug": "mcdonalds-people--ddb-sydney",
-                        "uid": "mcdonalds-people"
-                      },
-                      "isBroken": false
-                    }
-                  },
-                  "linkText": {
-                    "type": "Text",
-                    "value": "View the work"
-                  }
-                }
-              ]
-            },
-            {
-              "type": "case-study-tile",
-              "value": [
-                {
-                  "headline": {
-                    "type": "Text",
-                    "value": "Volkswagen"
-                  },
-                  "copy": {
-                    "type": "Text",
-                    "value": "Can we sell a Golf to a town that doesn’t need its city technology?"
-                  },
-                  "image": {
-                    "type": "Image",
-                    "value": {
-                      "main": {
-                        "dimensions": {
-                          "width": 1920,
-                          "height": 1200
-                        },
-                        "alt": null,
-                        "copyright": null,
-                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/a9eae2c83dc269257b88e9bd1a2407ccbc40b982_screen-shot-2017-03-08-at-2.28.25-pm-2.png"
-                      },
-                      "views": {
-                        "mobile": {
-                          "dimensions": {
-                            "width": 800,
-                            "height": 820
-                          },
-                          "alt": null,
-                          "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/ff7beb46cb141c89ac9e545344dcf16efd3be7c6_work_images_crops_800pxw_x_820pxd_0008_vw_golf_outback.jpg"
-                        },
-                        "desktop": {
-                          "dimensions": {
-                            "width": 1920,
-                            "height": 900
-                          },
-                          "alt": null,
-                          "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/511de2ed730d893035d0e252460730e94085c76f_screen-shot-2017-03-08-at-2.28.25-pm-2.png"
-                        }
-                      }
-                    }
-                  },
-                  "linkUrl": {
-                    "type": "Link.document",
-                    "value": {
-                      "document": {
-                        "id": "WK0GeCkAACgAoTc8",
-                        "type": "case-studies",
-                        "tags": [
-
-                        ],
-                        "lang": "en-us",
-                        "slug": "volkswagen-tough-sell--ddb",
-                        "uid": "volkswagen-tough-sell"
-                      },
-                      "isBroken": false
-                    }
-                  },
-                  "linkText": {
-                    "type": "Text",
-                    "value": "View the work"
-                  },
-                  "align": {
-                    "type": "Select",
-                    "value": "topRight"
-                  }
-                }
-              ]
-            },
-            {
-              "type": "case-study-tile",
-              "value": [
-                {
-                  "headline": {
-                    "type": "Text",
-                    "value": "Unilever"
-                  },
-                  "copy": {
-                    "type": "Text",
-                    "value": "Street's once loyal audience seemed to have outgrown them."
-                  },
-                  "image": {
-                    "type": "Image",
-                    "value": {
-                      "main": {
-                        "dimensions": {
-                          "width": 1024,
-                          "height": 500
-                        },
-                        "alt": null,
-                        "copyright": null,
-                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/1d81e22791402fa535d765893c7be37bc968a040_streets-talking.jpg"
-                      },
-                      "views": {
-                        "desktop": {
-                          "dimensions": {
-                            "width": 1920,
-                            "height": 900
-                          },
-                          "alt": null,
-                          "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/fd4becc88c880ba424140a8d896caa5ed4e68385_streets-talking.jpg"
-                        },
-                        "mobile": {
-                          "dimensions": {
-                            "width": 800,
-                            "height": 820
-                          },
-                          "alt": null,
-                          "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/2fcbd5f5f2b4ac6b7fe22021a3f91b929f7b592f_work_images_crops_800pxw_x_820pxd_0002_streets_unilever.jpg"
-                        }
-                      }
-                    }
-                  },
-                  "linkUrl": {
-                    "type": "Link.document",
-                    "value": {
-                      "document": {
-                        "id": "WK4T9ikAAL4opdjb",
-                        "type": "case-studies",
-                        "tags": [
-
-                        ],
-                        "lang": "en-us",
-                        "slug": "streets-talking-ice-cream--ddb",
-                        "uid": "streets-talking-ice-cream"
-                      },
-                      "isBroken": false
-                    }
-                  },
-                  "linkText": {
-                    "type": "Text",
-                    "value": "View the work"
-                  }
                 }
               ]
             }
