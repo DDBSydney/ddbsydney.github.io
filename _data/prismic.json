@@ -1512,23 +1512,14 @@
                     "value": {
                       "main": {
                         "dimensions": {
-                          "width": 1914,
-                          "height": 686
+                          "width": 1907,
+                          "height": 687
                         },
                         "alt": null,
                         "copyright": null,
-                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/2c5f4f8bab44667a5dbeffc79a4b82a6c8f21f10_wbc5414t190_sub_boardless.mov.01_00_19_04.still002.jpg"
+                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/29569f216d287c7ea0c3ab6d57e737bd2301b4d1_wbc5414t190_sub_boardless.mov.01_00_13_10.still001.jpg"
                       },
                       "views": {
-                        "desktop": {
-                          "dimensions": {
-                            "width": 1920,
-                            "height": 900
-                          },
-                          "alt": null,
-                          "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/d4695e890313327fcb5c76efdc28d56d11ce3cda_wbc5414t190_sub_boardless.mov.01_00_19_04.still002.jpg"
-                        },
                         "mobile": {
                           "dimensions": {
                             "width": 840,
@@ -1536,7 +1527,16 @@
                           },
                           "alt": null,
                           "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/baf29bfbc2c9a820bedb74b08ad02a6b06693602_wbc5414t190_sub_boardless.mov.01_00_19_04.still002.jpg"
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/b9a81ee882fc52a7f636c34c886ae302b83226d6_wbc5414t190_sub_boardless.mov.01_00_13_10.still001.jpg"
+                        },
+                        "desktop": {
+                          "dimensions": {
+                            "width": 1920,
+                            "height": 900
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/e95623f3d1d3bf9482e49ef11abcce3bb26d78c9_wbc5414t190_sub_boardless.mov.01_00_13_10.still001.jpg"
                         }
                       }
                     }
@@ -5777,40 +5777,6 @@
               "type": "promo-video",
               "value": [
                 {
-                  "image": {
-                    "type": "Image",
-                    "value": {
-                      "main": {
-                        "dimensions": {
-                          "width": 1914,
-                          "height": 686
-                        },
-                        "alt": null,
-                        "copyright": null,
-                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/2c5f4f8bab44667a5dbeffc79a4b82a6c8f21f10_wbc5414t190_sub_boardless.mov.01_00_19_04.still002.jpg"
-                      },
-                      "views": {
-                        "mobile": {
-                          "dimensions": {
-                            "width": 800,
-                            "height": 820
-                          },
-                          "alt": null,
-                          "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/35ae45003c0c9599ebfd31b5d35c743864a434a8_wbc5414t190_sub_boardless.mov.01_00_19_04.still002.jpg"
-                        },
-                        "desktop": {
-                          "dimensions": {
-                            "width": 1920,
-                            "height": 1080
-                          },
-                          "alt": null,
-                          "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/6e06726236221e1a7eaa162050068432ef8ee657_wbc5414t190_sub_boardless.mov.01_00_19_04.still002.jpg"
-                        }
-                      }
-                    }
-                  },
                   "video": {
                     "type": "Link.web",
                     "value": {
