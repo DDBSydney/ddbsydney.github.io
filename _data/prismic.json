@@ -28,6 +28,217 @@
                 {
                   "headline": {
                     "type": "Text",
+                    "value": "Volkswagen"
+                  },
+                  "copy": {
+                    "type": "Text",
+                    "value": "How we got Australia talking about a mystery prototype that didn’t exist."
+                  },
+                  "image": {
+                    "type": "Image",
+                    "value": {
+                      "main": {
+                        "dimensions": {
+                          "width": 1024,
+                          "height": 500
+                        },
+                        "alt": null,
+                        "copyright": null,
+                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/2da875340420ef8f6da41264237cc962ee760606_korama.jpg"
+                      },
+                      "views": {
+                        "desktop": {
+                          "dimensions": {
+                            "width": 1920,
+                            "height": 900
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/61519e96d92f246fb7d09746e8386d8c11b13f8c_korama.jpg"
+                        },
+                        "mobile": {
+                          "dimensions": {
+                            "width": 800,
+                            "height": 820
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/a8ac578e88cba8a5c7cbe7de7580bb0c55ade8ba_work_images_crops_800pxw_x_820pxd_0003_vw_korama.jpg"
+                        }
+                      }
+                    }
+                  },
+                  "linkUrl": {
+                    "type": "Link.document",
+                    "value": {
+                      "document": {
+                        "id": "WL82KSQAACIbfCy4",
+                        "type": "case-studies",
+                        "tags": [
+
+                        ],
+                        "lang": "en-us",
+                        "slug": "volkswagen-amarok---korama--ddb-sydney",
+                        "uid": "volkswagen-amarok-korama"
+                      },
+                      "isBroken": false
+                    }
+                  },
+                  "linkText": {
+                    "type": "Text",
+                    "value": "View the work"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "case-study-tile",
+              "value": [
+                {
+                  "headline": {
+                    "type": "Text",
+                    "value": "The Westpac App"
+                  },
+                  "copy": {
+                    "type": "Text",
+                    "value": "For when the unexpected happens"
+                  },
+                  "image": {
+                    "type": "Image",
+                    "value": {
+                      "main": {
+                        "dimensions": {
+                          "width": 1426,
+                          "height": 801
+                        },
+                        "alt": null,
+                        "copyright": null,
+                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/cc5ef08ec7046f61ffd568f5ac52c3f9b88d7f03_debit-dog.png"
+                      },
+                      "views": {
+                        "mobile": {
+                          "dimensions": {
+                            "width": 800,
+                            "height": 820
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/529681d78943326feefdaa680518a378fe062b11_debit-dog.png"
+                        },
+                        "desktop": {
+                          "dimensions": {
+                            "width": 1920,
+                            "height": 900
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/278649d2da7c6308fada8422f0372b2b72dbcd41_debit-dog.png"
+                        }
+                      }
+                    }
+                  },
+                  "linkUrl": {
+                    "type": "Link.document",
+                    "value": {
+                      "document": {
+                        "id": "WffvVyoAACcgbVW9",
+                        "type": "case-studies",
+                        "tags": [
+
+                        ],
+                        "lang": "en-us",
+                        "slug": "for-when-the-unexpected-happens",
+                        "uid": "westpac-app"
+                      },
+                      "isBroken": false
+                    }
+                  },
+                  "linkText": {
+                    "type": "Text",
+                    "value": "View the work"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "case-study-tile",
+              "value": [
+                {
+                  "headline": {
+                    "type": "Text",
+                    "value": "Virgin Australia"
+                  },
+                  "copy": {
+                    "type": "Text",
+                    "value": "We are the Uptimists."
+                  },
+                  "image": {
+                    "type": "Image",
+                    "value": {
+                      "main": {
+                        "dimensions": {
+                          "width": 1920,
+                          "height": 1360
+                        },
+                        "alt": null,
+                        "copyright": null,
+                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/501e038c0d82b718d792c02498d451fea5ecf6ce_wide-virgin.png"
+                      },
+                      "views": {
+                        "desktop": {
+                          "dimensions": {
+                            "width": 1920,
+                            "height": 900
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/3b26bdcd9f14e10f57e69efc9175153af7b7fb94_wide-virgin.png"
+                        },
+                        "mobile": {
+                          "dimensions": {
+                            "width": 800,
+                            "height": 820
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/1e53868e2f002990d7903301ce8d2b2025c9294f_wide-virgin.png"
+                        }
+                      }
+                    }
+                  },
+                  "linkUrl": {
+                    "type": "Link.document",
+                    "value": {
+                      "document": {
+                        "id": "WdQpHisAAJba6mdv",
+                        "type": "case-studies",
+                        "tags": [
+
+                        ],
+                        "lang": "en-us",
+                        "slug": "virgin-australia-we-are-the-uptimists",
+                        "uid": "virgin-australia"
+                      },
+                      "isBroken": false
+                    }
+                  },
+                  "linkText": {
+                    "type": "Text",
+                    "value": "View the work"
+                  },
+                  "align": {
+                    "type": "Select",
+                    "value": "right"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "case-study-tile",
+              "value": [
+                {
+                  "headline": {
+                    "type": "Text",
                     "value": "Westpac"
                   },
                   "copy": {
@@ -80,6 +291,79 @@
                         "lang": "en-us",
                         "slug": "westpac---embracing-quintessential-australian-spirit-of-mateship",
                         "uid": "westpac-brand-90"
+                      },
+                      "isBroken": false
+                    }
+                  },
+                  "linkText": {
+                    "type": "Text",
+                    "value": "View the work"
+                  },
+                  "align": {
+                    "type": "Select",
+                    "value": "bottomLeft"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "case-study-tile",
+              "value": [
+                {
+                  "headline": {
+                    "type": "Text",
+                    "value": "Westpac"
+                  },
+                  "copy": {
+                    "type": "Text",
+                    "value": "Ensuring every bump<br class=\"all\"/> gets a good start."
+                  },
+                  "image": {
+                    "type": "Image",
+                    "value": {
+                      "main": {
+                        "dimensions": {
+                          "width": 1024,
+                          "height": 500
+                        },
+                        "alt": null,
+                        "copyright": null,
+                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/f1e8dd582e0c995818e1923a3c5e28f2ea364914_bump.jpg"
+                      },
+                      "views": {
+                        "mobile": {
+                          "dimensions": {
+                            "width": 800,
+                            "height": 820
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/33d7685c2d60c12be0f7d989509cac38bfe56953_work_images_crops_800pxw_x_820pxd_0010_westpac_bump.jpg"
+                        },
+                        "desktop": {
+                          "dimensions": {
+                            "width": 1920,
+                            "height": 900
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/ea269037e8238f0c10f01a8a0a389885dd86a937_bump.jpg"
+                        }
+                      }
+                    }
+                  },
+                  "linkUrl": {
+                    "type": "Link.document",
+                    "value": {
+                      "document": {
+                        "id": "WL5JOCQAAC8DeBbk",
+                        "type": "case-studies",
+                        "tags": [
+
+                        ],
+                        "lang": "en-us",
+                        "slug": "westpac---bump--ddb-sydney",
+                        "uid": "westpac-bump"
                       },
                       "isBroken": false
                     }
@@ -229,6 +513,10 @@
                   "linkText": {
                     "type": "Text",
                     "value": "View the work"
+                  },
+                  "align": {
+                    "type": "Select",
+                    "value": "bottomLeft"
                   }
                 }
               ]
@@ -298,148 +586,10 @@
                   "linkText": {
                     "type": "Text",
                     "value": "View the work"
-                  }
-                }
-              ]
-            },
-            {
-              "type": "case-study-tile",
-              "value": [
-                {
-                  "headline": {
-                    "type": "Text",
-                    "value": "Virgin Australia"
-                  },
-                  "copy": {
-                    "type": "Text",
-                    "value": "We are the Uptimists."
-                  },
-                  "image": {
-                    "type": "Image",
-                    "value": {
-                      "main": {
-                        "dimensions": {
-                          "width": 1920,
-                          "height": 1360
-                        },
-                        "alt": null,
-                        "copyright": null,
-                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/501e038c0d82b718d792c02498d451fea5ecf6ce_wide-virgin.png"
-                      },
-                      "views": {
-                        "desktop": {
-                          "dimensions": {
-                            "width": 1920,
-                            "height": 900
-                          },
-                          "alt": null,
-                          "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/3b26bdcd9f14e10f57e69efc9175153af7b7fb94_wide-virgin.png"
-                        },
-                        "mobile": {
-                          "dimensions": {
-                            "width": 800,
-                            "height": 820
-                          },
-                          "alt": null,
-                          "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/1e53868e2f002990d7903301ce8d2b2025c9294f_wide-virgin.png"
-                        }
-                      }
-                    }
-                  },
-                  "linkUrl": {
-                    "type": "Link.document",
-                    "value": {
-                      "document": {
-                        "id": "WdQpHisAAJba6mdv",
-                        "type": "case-studies",
-                        "tags": [
-
-                        ],
-                        "lang": "en-us",
-                        "slug": "virgin-australia-we-are-the-uptimists",
-                        "uid": "virgin-australia"
-                      },
-                      "isBroken": false
-                    }
-                  },
-                  "linkText": {
-                    "type": "Text",
-                    "value": "View the work"
                   },
                   "align": {
                     "type": "Select",
-                    "value": "right"
-                  }
-                }
-              ]
-            },
-            {
-              "type": "case-study-tile",
-              "value": [
-                {
-                  "headline": {
-                    "type": "Text",
-                    "value": "Westpac"
-                  },
-                  "copy": {
-                    "type": "Text",
-                    "value": "Ensuring every bump<br class=\"all\"/> gets a good start."
-                  },
-                  "image": {
-                    "type": "Image",
-                    "value": {
-                      "main": {
-                        "dimensions": {
-                          "width": 1024,
-                          "height": 500
-                        },
-                        "alt": null,
-                        "copyright": null,
-                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/f1e8dd582e0c995818e1923a3c5e28f2ea364914_bump.jpg"
-                      },
-                      "views": {
-                        "mobile": {
-                          "dimensions": {
-                            "width": 800,
-                            "height": 820
-                          },
-                          "alt": null,
-                          "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/33d7685c2d60c12be0f7d989509cac38bfe56953_work_images_crops_800pxw_x_820pxd_0010_westpac_bump.jpg"
-                        },
-                        "desktop": {
-                          "dimensions": {
-                            "width": 1920,
-                            "height": 900
-                          },
-                          "alt": null,
-                          "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/ea269037e8238f0c10f01a8a0a389885dd86a937_bump.jpg"
-                        }
-                      }
-                    }
-                  },
-                  "linkUrl": {
-                    "type": "Link.document",
-                    "value": {
-                      "document": {
-                        "id": "WL5JOCQAAC8DeBbk",
-                        "type": "case-studies",
-                        "tags": [
-
-                        ],
-                        "lang": "en-us",
-                        "slug": "westpac---bump--ddb-sydney",
-                        "uid": "westpac-bump"
-                      },
-                      "isBroken": false
-                    }
-                  },
-                  "linkText": {
-                    "type": "Text",
-                    "value": "View the work"
+                    "value": "topLeft"
                   }
                 }
               ]
@@ -724,75 +874,6 @@
                   "align": {
                     "type": "Select",
                     "value": "center"
-                  }
-                }
-              ]
-            },
-            {
-              "type": "case-study-tile",
-              "value": [
-                {
-                  "headline": {
-                    "type": "Text",
-                    "value": "Volkswagen"
-                  },
-                  "copy": {
-                    "type": "Text",
-                    "value": "How we got Australia talking about a mystery prototype that didn’t exist."
-                  },
-                  "image": {
-                    "type": "Image",
-                    "value": {
-                      "main": {
-                        "dimensions": {
-                          "width": 1024,
-                          "height": 500
-                        },
-                        "alt": null,
-                        "copyright": null,
-                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/2da875340420ef8f6da41264237cc962ee760606_korama.jpg"
-                      },
-                      "views": {
-                        "desktop": {
-                          "dimensions": {
-                            "width": 1920,
-                            "height": 900
-                          },
-                          "alt": null,
-                          "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/61519e96d92f246fb7d09746e8386d8c11b13f8c_korama.jpg"
-                        },
-                        "mobile": {
-                          "dimensions": {
-                            "width": 800,
-                            "height": 820
-                          },
-                          "alt": null,
-                          "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/a8ac578e88cba8a5c7cbe7de7580bb0c55ade8ba_work_images_crops_800pxw_x_820pxd_0003_vw_korama.jpg"
-                        }
-                      }
-                    }
-                  },
-                  "linkUrl": {
-                    "type": "Link.document",
-                    "value": {
-                      "document": {
-                        "id": "WL82KSQAACIbfCy4",
-                        "type": "case-studies",
-                        "tags": [
-
-                        ],
-                        "lang": "en-us",
-                        "slug": "volkswagen-amarok---korama--ddb-sydney",
-                        "uid": "volkswagen-amarok-korama"
-                      },
-                      "isBroken": false
-                    }
-                  },
-                  "linkText": {
-                    "type": "Text",
-                    "value": "View the work"
                   }
                 }
               ]
@@ -1311,7 +1392,72 @@
                 {
                   "copy": {
                     "type": "Text",
-                    "value": "When is a car more than a car? When its technology is surprising enough to help mend a relationship.\n\nVolkswagen has built on its successful ‘More than a car’ brand platform, launching a new ad via DDB Sydney that depicts a situation all too familiar for young couples, and how the Volkswagen’s App Connect features can help.\n\nThe new spot by DDB Sydney is part of a series of three to be launched over the coming months."
+                    "value": "When is a car more than a car? When its technology is surprising enough to help mend a relationship."
+                  }
+                }
+              ]
+            },
+            {
+              "type": "video-tile",
+              "value": [
+                {
+                  "video": {
+                    "type": "Link.web",
+                    "value": {
+                      "url": "https://youtu.be/GAcad_u_YIc"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "content-tile",
+              "value": [
+                {
+                  "copy": {
+                    "type": "Text",
+                    "value": "Volkswagen has built on its successful ‘More than a car’ brand platform, launching a new ad via DDB Sydney that depicts a situation all too familiar for young couples, and how the Volkswagen’s App Connect features can help. The new spot by DDB Sydney is part of a series of three to be launched over the coming months."
+                  }
+                }
+              ]
+            },
+            {
+              "type": "image-tile",
+              "value": [
+                {
+                  "image": {
+                    "type": "Image",
+                    "value": {
+                      "main": {
+                        "dimensions": {
+                          "width": 1920,
+                          "height": 1080
+                        },
+                        "alt": null,
+                        "copyright": null,
+                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/ad3443eed401f1e8605de288c3bb965f006cc96b_vga5375t130.00_00_29_06.still003.png"
+                      },
+                      "views": {
+                        "desktop": {
+                          "dimensions": {
+                            "width": 1920,
+                            "height": 900
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/5c171ca020db592e7fd61eabf33b1dcc77619b4c_vga5375t130.00_00_29_06.still003.png"
+                        },
+                        "mobile": {
+                          "dimensions": {
+                            "width": 800,
+                            "height": 820
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/76845b287d8bf30f48c003d866faad3f760af245_vga5375t130.00_00_29_06.still003.png"
+                        }
+                      }
+                    }
                   }
                 }
               ]
@@ -1410,6 +1556,30 @@
               ]
             },
             {
+              "type": "video-tile",
+              "value": [
+                {
+                  "video": {
+                    "type": "Link.web",
+                    "value": {
+                      "url": "https://youtu.be/mCBD8CLAiyg"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "content-tile",
+              "value": [
+                {
+                  "copy": {
+                    "type": "Text",
+                    "value": "The creative drives emotion by depicting a mix of big and intimate scenes inspired by moments in Australian history, DDB Chief Creative Officer Ben Welsh said.\n“Leveraging culture and a truth about Australia, this piece is a perfect example of our belief in emotionally driven work. With this film we want people to feel hopeful, optimistic and proud to be Australian,” he said."
+                  }
+                }
+              ]
+            },
+            {
               "type": "image-tile",
               "value": [
                 {
@@ -1456,7 +1626,7 @@
                 {
                   "copy": {
                     "type": "Text",
-                    "value": "The creative drives emotion by depicting a mix of big and intimate scenes inspired by moments in Australian history, DDB Chief Creative Officer Ben Welsh said.\n“Leveraging culture and a truth about Australia, this piece is a perfect example of our belief in emotionally driven work. With this film we want people to feel hopeful, optimistic and proud to be Australian,” he said.\n“As Westpac entered its third century, we want to continue the essence of our Proudly Supporting Australia positioning, while drawing on what makes us truly Australian. For Australians it is this unique spirit of helping one another that makes us special,” Melhuish said."
+                    "value": "“As Westpac entered its third century, we want to continue the essence of our Proudly Supporting Australia positioning, while drawing on what makes us truly Australian. For Australians it is this unique spirit of helping one another that makes us special,” Melhuish said."
                   }
                 }
               ]
@@ -5612,23 +5782,14 @@
                     "value": {
                       "main": {
                         "dimensions": {
-                          "width": 1920,
-                          "height": 1280
+                          "width": 1914,
+                          "height": 686
                         },
                         "alt": null,
                         "copyright": null,
-                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/e06f87556795b15e0f4efd16efa20d7ed35ad445_pool8037_virgin_up_02_bg_rgb.jpg"
+                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/2c5f4f8bab44667a5dbeffc79a4b82a6c8f21f10_wbc5414t190_sub_boardless.mov.01_00_19_04.still002.jpg"
                       },
                       "views": {
-                        "desktop": {
-                          "dimensions": {
-                            "width": 1920,
-                            "height": 1080
-                          },
-                          "alt": null,
-                          "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/e4e273ae3745b30f2cbc8ab79bf3b10bccdccc6c_pool8037_virgin_up_02_bg_rgb.jpg"
-                        },
                         "mobile": {
                           "dimensions": {
                             "width": 800,
@@ -5636,20 +5797,24 @@
                           },
                           "alt": null,
                           "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/29f5c098273f0222145ff2b68b2e68bcc8545ce7_pool8037_virgin_up_02_bg_rgb.jpg"
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/35ae45003c0c9599ebfd31b5d35c743864a434a8_wbc5414t190_sub_boardless.mov.01_00_19_04.still002.jpg"
+                        },
+                        "desktop": {
+                          "dimensions": {
+                            "width": 1920,
+                            "height": 1080
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/6e06726236221e1a7eaa162050068432ef8ee657_wbc5414t190_sub_boardless.mov.01_00_19_04.still002.jpg"
                         }
                       }
                     }
                   },
                   "video": {
-                    "type": "Link.file",
+                    "type": "Link.web",
                     "value": {
-                      "file": {
-                        "name": "VIRAUS3027_The Uptimists_60_1to1_Social_Supers_01_MusicOnly_frk_cropped.mp4",
-                        "kind": "document",
-                        "url": "http://ddb-website.cdn.prismic.io/ddb-website%2Faf7a9fb7-72e7-4d45-a23d-32d59d14ae35_viraus3027_the+uptimists_60_1to1_social_supers_01_musiconly_frk_cropped.mp4",
-                        "size": "75160367"
-                      }
+                      "url": "https://youtu.be/5wCmozrLnKE"
                     }
                   }
                 }
@@ -5720,6 +5885,10 @@
                   "linkText": {
                     "type": "Text",
                     "value": "Read more"
+                  },
+                  "align": {
+                    "type": "Select",
+                    "value": "bottomLeft"
                   }
                 }
               ]
@@ -5920,7 +6089,7 @@
                   },
                   "linkText": {
                     "type": "Text",
-                    "value": "Read mor"
+                    "value": "Read more"
                   },
                   "align": {
                     "type": "Select",
@@ -6156,7 +6325,7 @@
                   },
                   "copy": {
                     "type": "Text",
-                    "value": "Volkswagen Alltrack \nPurpose built for adventure"
+                    "value": "Volkswagen Alltrack - Purpose built for adventure"
                   },
                   "linkUrl": {
                     "type": "Link.web",
@@ -6243,7 +6412,7 @@
                   },
                   "align": {
                     "type": "Select",
-                    "value": "bottomRight"
+                    "value": "bottomCenter"
                   }
                 }
               ]
@@ -6316,7 +6485,7 @@
                   },
                   "align": {
                     "type": "Select",
-                    "value": "center"
+                    "value": "bottomLeft"
                   }
                 }
               ]
