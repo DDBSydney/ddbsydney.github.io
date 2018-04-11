@@ -4786,34 +4786,25 @@
                 {
                   "headline": {
                     "type": "Text",
-                    "value": "Westpac"
+                    "value": "Westpac Bump 2.0"
                   },
                   "copy": {
                     "type": "Text",
-                    "value": "Embracing quintessential Australian spirit of mateship"
+                    "value": "Vomit, sleep deprivation, more vomit,<br class=\"all\"/>vomit-inducing nappies.<br class=\"all\"/><br class=\"all\"/>Being a parent requires unconditional love."
                   },
                   "image": {
                     "type": "Image",
                     "value": {
                       "main": {
                         "dimensions": {
-                          "width": 1914,
-                          "height": 686
+                          "width": 1920,
+                          "height": 1080
                         },
                         "alt": null,
                         "copyright": null,
-                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/2c5f4f8bab44667a5dbeffc79a4b82a6c8f21f10_wbc5414t190_sub_boardless.mov.01_00_19_04.still002.jpg"
+                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/702f30f8f41c1ca6b8cdaaa6c2ffe415813571d6_wbc5278t130_sub.mov.00_00_29_09.still002.jpg"
                       },
                       "views": {
-                        "mobile": {
-                          "dimensions": {
-                            "width": 800,
-                            "height": 820
-                          },
-                          "alt": null,
-                          "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/35ae45003c0c9599ebfd31b5d35c743864a434a8_wbc5414t190_sub_boardless.mov.01_00_19_04.still002.jpg"
-                        },
                         "desktop": {
                           "dimensions": {
                             "width": 1920,
@@ -4821,7 +4812,16 @@
                           },
                           "alt": null,
                           "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/d4695e890313327fcb5c76efdc28d56d11ce3cda_wbc5414t190_sub_boardless.mov.01_00_19_04.still002.jpg"
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/5117f5b0f18dc07950ec58f849bfaf1cf36fb6a2_wbc5278t130_sub.mov.00_00_29_09.still002.jpg"
+                        },
+                        "mobile": {
+                          "dimensions": {
+                            "width": 800,
+                            "height": 820
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/30ebcf56ee328d995560482302880f98f766aa75_wbc5278t130_sub.mov.00_00_29_09.still002.jpg"
                         }
                       }
                     }
@@ -4830,14 +4830,14 @@
                     "type": "Link.document",
                     "value": {
                       "document": {
-                        "id": "WssvrC4AAK0VMGo8",
+                        "id": "WjcJwCkAAAAxc4AH",
                         "type": "case-studies",
                         "tags": [
 
                         ],
                         "lang": "en-us",
-                        "slug": "westpac---embracing-quintessential-australian-spirit-of-mateship",
-                        "uid": "westpac-brand-90"
+                        "slug": "bump-2.0",
+                        "uid": "bump-2-case-study"
                       },
                       "isBroken": false
                     }
@@ -4845,10 +4845,6 @@
                   "linkText": {
                     "type": "Text",
                     "value": "View the work"
-                  },
-                  "align": {
-                    "type": "Select",
-                    "value": "bottomLeft"
                   }
                 }
               ]
@@ -4918,6 +4914,79 @@
                   "linkText": {
                     "type": "Text",
                     "value": "View the work"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "case-study-tile",
+              "value": [
+                {
+                  "headline": {
+                    "type": "Text",
+                    "value": "Westpac"
+                  },
+                  "copy": {
+                    "type": "Text",
+                    "value": "Embracing quintessential Australian spirit of mateship"
+                  },
+                  "image": {
+                    "type": "Image",
+                    "value": {
+                      "main": {
+                        "dimensions": {
+                          "width": 1914,
+                          "height": 686
+                        },
+                        "alt": null,
+                        "copyright": null,
+                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/2c5f4f8bab44667a5dbeffc79a4b82a6c8f21f10_wbc5414t190_sub_boardless.mov.01_00_19_04.still002.jpg"
+                      },
+                      "views": {
+                        "mobile": {
+                          "dimensions": {
+                            "width": 800,
+                            "height": 820
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/35ae45003c0c9599ebfd31b5d35c743864a434a8_wbc5414t190_sub_boardless.mov.01_00_19_04.still002.jpg"
+                        },
+                        "desktop": {
+                          "dimensions": {
+                            "width": 1920,
+                            "height": 900
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/d4695e890313327fcb5c76efdc28d56d11ce3cda_wbc5414t190_sub_boardless.mov.01_00_19_04.still002.jpg"
+                        }
+                      }
+                    }
+                  },
+                  "linkUrl": {
+                    "type": "Link.document",
+                    "value": {
+                      "document": {
+                        "id": "WssvrC4AAK0VMGo8",
+                        "type": "case-studies",
+                        "tags": [
+
+                        ],
+                        "lang": "en-us",
+                        "slug": "westpac---embracing-quintessential-australian-spirit-of-mateship",
+                        "uid": "westpac-brand-90"
+                      },
+                      "isBroken": false
+                    }
+                  },
+                  "linkText": {
+                    "type": "Text",
+                    "value": "View the work"
+                  },
+                  "align": {
+                    "type": "Select",
+                    "value": "bottomLeft"
                   }
                 }
               ]
@@ -5742,12 +5811,12 @@
                     "value": {
                       "main": {
                         "dimensions": {
-                          "width": 1920,
-                          "height": 1280
+                          "width": 1912,
+                          "height": 682
                         },
                         "alt": null,
                         "copyright": null,
-                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/e06f87556795b15e0f4efd16efa20d7ed35ad445_pool8037_virgin_up_02_bg_rgb.jpg"
+                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/bab187c12179b962541f534e4fe6189ad981ddff_wbc5414t190_sub_boardless.mov.01_00_46_06.still003.jpg"
                       },
                       "views": {
                         "desktop": {
@@ -5757,7 +5826,7 @@
                           },
                           "alt": null,
                           "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/e4e273ae3745b30f2cbc8ab79bf3b10bccdccc6c_pool8037_virgin_up_02_bg_rgb.jpg"
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/88e2a65ed4035801955f3bcbedd28bcc8b069fda_wbc5414t190_sub_boardless.mov.01_00_46_06.still003.jpg"
                         },
                         "mobile": {
                           "dimensions": {
@@ -5766,7 +5835,7 @@
                           },
                           "alt": null,
                           "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/29f5c098273f0222145ff2b68b2e68bcc8545ce7_pool8037_virgin_up_02_bg_rgb.jpg"
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/e5c59be387dd25c372645eefb0e426947cc52614_wbc5414t190_sub_boardless.mov.01_00_46_06.still003.jpg"
                         }
                       }
                     }
