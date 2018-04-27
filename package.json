@@ -11,7 +11,9 @@
     ".sass-cache/",
     ".tmp/"
   ],
-  "dependencies": {},
+  "dependencies": {
+    "hoek": "5.0.3"
+  },
   "devDependencies": {
     "browserify": "^13.0.1",
     "color-thief-jimp": "^2.0.2",
