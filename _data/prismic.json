@@ -1,4 +1,547 @@
 {
+  "career-listings": [
+    {
+      "uid": "job-openings",
+      "data": {
+        "meta-title": {
+          "type": "Text",
+          "value": "Careers | DDB"
+        },
+        "foregroundColor": {
+          "type": "Color",
+          "value": "#000000"
+        },
+        "backgroundColor": {
+          "type": "Color",
+          "value": "#ffffff"
+        },
+        "sections": {
+          "type": "SectionList",
+          "value": [
+            {
+              "type": "career-intro",
+              "value": [
+                {
+                  "image": {
+                    "type": "Image",
+                    "value": {
+                      "main": {
+                        "dimensions": {
+                          "width": 5760,
+                          "height": 3840
+                        },
+                        "alt": null,
+                        "copyright": null,
+                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/26ece49331be61e2613f36bdca7475766f00d246_147a0049.jpg"
+                      },
+                      "views": {
+                        "desktop": {
+                          "dimensions": {
+                            "width": 1920,
+                            "height": 1080
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/b71df28be83a7adddb745085e9de384af0b6f480_147a0049.jpg"
+                        },
+                        "mobile": {
+                          "dimensions": {
+                            "width": 800,
+                            "height": 820
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/573fb2606738c1f2c9a0a873c135727ba712b79c_147a0049.jpg"
+                        }
+                      }
+                    }
+                  },
+                  "copy": {
+                    "type": "Text",
+                    "value": "When Bill Bernbach started DDB, he had in mind precisely the kind of people he wanted to work here. \nThere were two requirements: you had to be talented, and you had to be nice.\nIf you were nice but without talent, sorry but you just wouldn’t do. \nIf you were highly talented but not a nice person, Bill had no hesitation saying \"No\".\nThis is still our philosophy today. So if you’re both, get in touch."
+                  }
+                }
+              ]
+            },
+            {
+              "type": "career-detail",
+              "value": [
+                {
+                  "headline": {
+                    "type": "Text",
+                    "value": "Business Manager"
+                  },
+                  "copy": {
+                    "type": "Text",
+                    "value": "As a Business Manager, you contribute to your client’s business through your strong understanding of the creative product and involvement in the creation process. You have a thirst for learning and can quickly pick up an in-depth understanding of the client, the client’s business and their consumer. You are the ultimate project manager, firing on all cylinders all the time. You’re determined, innovative and deadline-driven, with a penchant for getting things done. \n\nBusiness Managers are known by a few titles in the market, often referred to as an Account Manager or Client Relationship Manager. At DDB, we prefer “Business Manager,” because we brainstorm, create, design and offer creative and strategic solutions for our business partners. We treat our clients as more than accounts, they are our colleagues. \n\nIf you feel you are qualified for this opportunity, please send your CV to our Talent Manager Erin Cook\n <a class=\"ulink ulink--black\" href=\"mailto:Erin.Cook@syd.ddb.com\" title=\"Erin.Cook@syd.ddb.com\"><span>Erin.Cook@syd.ddb.com</span></a>"
+                  },
+                  "style": {
+                    "type": "Select",
+                    "value": "white"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "career-detail",
+              "value": [
+                {
+                  "headline": {
+                    "type": "Text",
+                    "value": "Business Coordinator"
+                  },
+                  "copy": {
+                    "type": "Text",
+                    "value": "Business Coordinators are curious, determined and hardworking. They are passionate in their pursuit of knowledge. They quickly get to know our creative and strategic product, work collaboratively with their team and develop strong relationships with client contacts. \n\nWe are looking for candidates that have received an undergraduate degree in Marketing or Advertising. You may have worked as an intern at some stage, but if you haven’t, you must be able to communicate professionally with a diverse range of people. \n\nIf you’re interested in getting your foot in the door at an agency that puts their employees first, send your CV to our Talent Manager Erin Cook <a class=\"ulink\" href=\"mailto:Erin.Cook@syd.ddb.com\" title=\"Erin.Cook@syd.ddb.com\"><span>Erin.Cook@syd.ddb.com</span></a>"
+                  },
+                  "style": {
+                    "type": "Select",
+                    "value": "black"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "career-detail",
+              "value": [
+                {
+                  "headline": {
+                    "type": "Text",
+                    "value": "Business Director"
+                  },
+                  "copy": {
+                    "type": "Text",
+                    "value": "A Business Director is an intelligent, original and impressive leader. Not only do Business Directors drive and mentor their team, but they act as true ambassadors to DDB. They constantly motivate their team to go beyond expectations, encouraging and energizing them to achieve great results. Business Directors are solution-oriented, always thinking about their client, anticipating issues and implementing their vision to product superior results. \n\nWe are looking for someone with six to eight years of experience creating customer relationship marketing programs, some of which should be in an agency environment. As this individual would be leading a team, strong people management skills are a must. We are looking for someone who can craft and direct briefs and strategies that are insightful and inspirational, and can effectively identify, foster and sell world-class creative. \n\nIf you feel you could be a fit for this position, please send your CV to our Talent Manager Erin Cook <a class=\"ulink ulink--black\" href=\"mailto:Erin.Cook@syd.ddb.com\" title=\"Erin.Cook@syd.ddb.com\"><span>Erin.Cook@syd.ddb.com</span></a>"
+                  },
+                  "style": {
+                    "type": "Select",
+                    "value": "white"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "career-detail",
+              "value": [
+                {
+                  "headline": {
+                    "type": "Text",
+                    "value": "Creatives"
+                  },
+                  "copy": {
+                    "type": "Text",
+                    "value": "DDB is currently looking for a range of creatives to join DDB on the back of some significant and exciting business growth. We are looking for creatives who have a passion for breakthrough creative ideas, contemporary thinking and execution plus a desire to learn and grow. \n\nWant to learn more? Send your folio to our Talent Manager Erin Cook <a class=\"ulink\" href=\"mailto:Erin.Cook@syd.ddb.com\" title=\"Erin.Cook@syd.ddb.com\"><span>Erin.Cook@syd.ddb.com</span></a>"
+                  },
+                  "style": {
+                    "type": "Select",
+                    "value": "black"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "career-intro",
+              "value": [
+                {
+                  "image": {
+                    "type": "Image",
+                    "value": {
+                      "main": {
+                        "dimensions": {
+                          "width": 4609,
+                          "height": 4763
+                        },
+                        "alt": null,
+                        "copyright": null,
+                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/cb7a3e1f60d65f8e35a974aa80654be57fc750ad_shutterstock_129553100.jpg"
+                      },
+                      "views": {
+                        "desktop": {
+                          "dimensions": {
+                            "width": 1920,
+                            "height": 1080
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/8027f1f7c95041043892d45b9bc36690d1f8080c_shutterstock_129553100.jpg"
+                        },
+                        "mobile": {
+                          "dimensions": {
+                            "width": 800,
+                            "height": 820
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/4933a42ddedf1a8c092b540cdcbac17dd221fe82_shutterstock_129553100.jpg"
+                        }
+                      }
+                    }
+                  },
+                  "copy": {
+                    "type": "Text",
+                    "value": "Don’t see a position that fits your experience, but you’d love to learn more opportunities about DDB? Reach out to our Talent Manager Erin Cook <a class=\"ulink\" href=\"mailto:Erin.Cook@syd.ddb.com\" title=\"Erin.Cook@syd.ddb.com\"><span>Erin.Cook@syd.ddb.com</span></a>"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "uid": "account-director",
+      "data": {
+        "meta-title": {
+          "type": "Text",
+          "value": "Account Director | Careers | DDB"
+        },
+        "foregroundColor": {
+          "type": "Color",
+          "value": "#ffffff"
+        },
+        "backgroundColor": {
+          "type": "Color",
+          "value": "#000000"
+        },
+        "sections": {
+          "type": "SectionList",
+          "value": [
+            {
+              "type": "career-intro",
+              "value": [
+                {
+                  "image": {
+                    "type": "Image",
+                    "value": {
+                      "main": {
+                        "dimensions": {
+                          "width": 1023,
+                          "height": 575
+                        },
+                        "alt": null,
+                        "copyright": null,
+                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/25f16188163313279d735ab465873aab87c07651_jobs.jpeg"
+                      },
+                      "views": {
+                        "desktop": {
+                          "dimensions": {
+                            "width": 1920,
+                            "height": 1080
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/06e8264c51a66a6f65dfed162cdf4e7f9ea54036_jobs.jpeg"
+                        },
+                        "mobile": {
+                          "dimensions": {
+                            "width": 800,
+                            "height": 820
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/f1df8d64d09b009431f5ee12b32883baa2486779_jobs.jpeg"
+                        }
+                      }
+                    }
+                  },
+                  "copy": {
+                    "type": "Text",
+                    "value": "DDB is looking for an established Account Director to join the team working on an exciting and fast paced account."
+                  }
+                }
+              ]
+            },
+            {
+              "type": "career-detail",
+              "value": [
+                {
+                  "headline": {
+                    "type": "Text",
+                    "value": "Account Director"
+                  },
+                  "copy": {
+                    "type": "Text",
+                    "value": "We are looking for an Account Director with exceptional client service experience across everything from TV to Digital/Content and Print. You are also a strong people manager able to coach and inspire your team.<br class=\"all\"><br class=\"all\">\n\nAccount Directors at DDB are solution-oriented, always thinking about their business, anticipating issues, and implementing their vision to produce superior results. They lead, facilitate and look for opportunities to expand into other disciplines.<br class=\"all\"><br class=\"all\"><br class=\"all\">"
+                  },
+                  "linkedin": {
+                    "type": "Link.web",
+                    "value": {
+                      "url": "http://www.linkedin.com"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "uid": "pod-internship",
+      "data": {
+        "meta-title": {
+          "type": "Text",
+          "value": "POD Internship | Careers | DDB"
+        },
+        "foregroundColor": {
+          "type": "Color",
+          "value": "#ffffff"
+        },
+        "backgroundColor": {
+          "type": "Color",
+          "value": "#000000"
+        },
+        "sections": {
+          "type": "SectionList",
+          "value": [
+            {
+              "type": "career-intro",
+              "value": [
+                {
+                  "image": {
+                    "type": "Image",
+                    "value": {
+                      "main": {
+                        "dimensions": {
+                          "width": 1023,
+                          "height": 575
+                        },
+                        "alt": null,
+                        "copyright": null,
+                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/d08bbd256efaa3bd65cd96b49318b263cddaf414_jobs.jpg"
+                      },
+                      "views": {
+                        "mobile": {
+                          "dimensions": {
+                            "width": 800,
+                            "height": 820
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/5b0250a95f674361eb85c98e16647de198602f4f_jobs.jpg"
+                        },
+                        "desktop": {
+                          "dimensions": {
+                            "width": 1920,
+                            "height": 1080
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/d3da9f38a649980e26299421f1ffbec9f92ddd5d_jobs.jpg"
+                        }
+                      }
+                    }
+                  },
+                  "copy": {
+                    "type": "Text",
+                    "value": "If you are a young creative thinker who wants <br>to solve big problems, with radical technology <br>solutions we have a place for you in POD."
+                  }
+                }
+              ]
+            },
+            {
+              "type": "career-detail",
+              "value": [
+                {
+                  "headline": {
+                    "type": "Text",
+                    "value": "Career detail headline"
+                  },
+                  "copy": {
+                    "type": "Text",
+                    "value": "<b> Career detail copy </b><br class=\"all\"><br class=\"all\">\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec velit ac sapien fermentum blandit a vel tellus. Aliquam varius nulla viverra, tincidunt mauris rhoncus, tincidunt sapien. Curabitur congue velit ut massa aliquam, vel congue purus posuere. Sed a risus eget mi lobortis tincidunt. Pellentesque nec lectus risus. Sed volutpat nulla sed ex consectetur molestie. Etiam ut maximus enim. Etiam quis malesuada orci, in tristique sapien. Maecenas sed cursus leo, vel maximus risus. Donec lobortis a libero non lacinia.<br class=\"all\"><br class=\"all\">\n\nQuisque et mollis dolor. Donec sed bibendum tortor. Quisque pretium aliquam turpis id fringilla. Integer nec efficitur leo, ut pharetra risus. Nam non augue vitae urna condimentum condimentum. Etiam molestie enim sed dui fermentum volutpat. Cras nec augue bibendum, posuere arcu elementum, fringilla erat. Vivamus feugiat eros massa, et porta dolor pharetra ac.<br class=\"all\"><br class=\"all\"><br class=\"all\">\n\n<b> Career detail copy </b><br class=\"all\"><br class=\"all\">\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec velit ac sapien fermentum blandit a vel tellus. Aliquam varius nulla viverra, tincidunt mauris rhoncus, tincidunt sapien. Curabitur congue velit ut massa aliquam, vel congue purus posuere. Sed a risus eget mi lobortis tincidunt. Pellentesque nec lectus risus. Sed volutpat nulla sed ex consectetur molestie. Etiam ut maximus enim. Etiam quis malesuada orci, in tristique sapien. Maecenas sed cursus leo, vel maximus risus. Donec lobortis a libero non lacinia.<br class=\"all\"><br class=\"all\">\n\nQuisque et mollis dolor. Donec sed bibendum tortor. Quisque pretium aliquam turpis id fringilla. Integer nec efficitur leo, ut pharetra risus. Nam non augue vitae urna condimentum condimentum. Etiam molestie enim sed dui fermentum volutpat. Cras nec augue bibendum, posuere arcu elementum, fringilla erat. Vivamus feugiat eros massa, et porta dolor pharetra ac.<br class=\"all\"><br class=\"all\"><br class=\"all\">\n\n<b> Career detail copy </b><br class=\"all\"><br class=\"all\">\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec velit ac sapien fermentum blandit a vel tellus. Aliquam varius nulla viverra, tincidunt mauris rhoncus, tincidunt sapien. Curabitur congue velit ut massa aliquam, vel congue purus posuere. Sed a risus eget mi lobortis tincidunt. Pellentesque nec lectus risus. Sed volutpat nulla sed ex consectetur molestie. Etiam ut maximus enim. Etiam quis malesuada orci, in tristique sapien. Maecenas sed cursus leo, vel maximus risus. Donec lobortis a libero non lacinia.<br class=\"all\"><br class=\"all\">\n\nQuisque et mollis dolor. Donec sed bibendum tortor. Quisque pretium aliquam turpis id fringilla. Integer nec efficitur leo, ut pharetra risus. Nam non augue vitae urna condimentum condimentum. Etiam molestie enim sed dui fermentum volutpat. Cras nec augue bibendum, posuere arcu elementum, fringilla erat. Vivamus feugiat eros massa, et porta dolor pharetra ac."
+                  },
+                  "linkedin": {
+                    "type": "Link.web",
+                    "value": {
+                      "url": "https://www.linkedin.com/company/ddb"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "career-content",
+              "value": [
+                {
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "uid": "senior-account-manager",
+      "data": {
+        "meta-title": {
+          "type": "Text",
+          "value": "Senior Account Manager | Careers | DDB"
+        },
+        "foregroundColor": {
+          "type": "Color",
+          "value": "#ffffff"
+        },
+        "backgroundColor": {
+          "type": "Color",
+          "value": "#000000"
+        },
+        "sections": {
+          "type": "SectionList",
+          "value": [
+            {
+              "type": "career-intro",
+              "value": [
+                {
+                  "image": {
+                    "type": "Image",
+                    "value": {
+                      "main": {
+                        "dimensions": {
+                          "width": 1023,
+                          "height": 575
+                        },
+                        "alt": null,
+                        "copyright": null,
+                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/25f16188163313279d735ab465873aab87c07651_jobs.jpeg"
+                      },
+                      "views": {
+                        "desktop": {
+                          "dimensions": {
+                            "width": 1920,
+                            "height": 1080
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/06e8264c51a66a6f65dfed162cdf4e7f9ea54036_jobs.jpeg"
+                        },
+                        "mobile": {
+                          "dimensions": {
+                            "width": 800,
+                            "height": 820
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/f1df8d64d09b009431f5ee12b32883baa2486779_jobs.jpeg"
+                        }
+                      }
+                    }
+                  },
+                  "copy": {
+                    "type": "Text",
+                    "value": "DDB is looking for a Senior Account Manager to join the team working on a brilliant integrated\n\naccount."
+                  }
+                }
+              ]
+            },
+            {
+              "type": "career-detail",
+              "value": [
+                {
+                  "headline": {
+                    "type": "Text",
+                    "value": "Senior Account Manager"
+                  },
+                  "copy": {
+                    "type": "Text",
+                    "value": "We are looking for a Senior Account Manager with strong integrated experience across everything from TV to Digital/Content and Print.<br class=\"all\"><br class=\"all\">\n\nIf you are an organised and buttoned down suit with a knack for building exceptionally strong relationships - we would love to hear from you!<br class=\"all\"><br class=\"all\"><br class=\"all\">"
+                  },
+                  "linkedin": {
+                    "type": "Link.web",
+                    "value": {
+                      "url": "http://www.linkedin.com"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "uid": "creatives",
+      "data": {
+        "meta-title": {
+          "type": "Text",
+          "value": "Creatives  | Careers | DDB"
+        },
+        "foregroundColor": {
+          "type": "Color",
+          "value": "#ffffff"
+        },
+        "backgroundColor": {
+          "type": "Color",
+          "value": "#000000"
+        },
+        "sections": {
+          "type": "SectionList",
+          "value": [
+            {
+              "type": "career-intro",
+              "value": [
+                {
+                  "image": {
+                    "type": "Image",
+                    "value": {
+                      "main": {
+                        "dimensions": {
+                          "width": 1023,
+                          "height": 575
+                        },
+                        "alt": null,
+                        "copyright": null,
+                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/25f16188163313279d735ab465873aab87c07651_jobs.jpeg"
+                      },
+                      "views": {
+                        "desktop": {
+                          "dimensions": {
+                            "width": 1920,
+                            "height": 1080
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/06e8264c51a66a6f65dfed162cdf4e7f9ea54036_jobs.jpeg"
+                        },
+                        "mobile": {
+                          "dimensions": {
+                            "width": 800,
+                            "height": 820
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/f1df8d64d09b009431f5ee12b32883baa2486779_jobs.jpeg"
+                        }
+                      }
+                    }
+                  },
+                  "copy": {
+                    "type": "Text",
+                    "value": "DDB is currently looking for a range of creatives to join DDB on the back of some significant and exciting business growth."
+                  }
+                }
+              ]
+            },
+            {
+              "type": "career-detail",
+              "value": [
+                {
+                  "headline": {
+                    "type": "Text",
+                    "value": "Creatives"
+                  },
+                  "copy": {
+                    "type": "Text",
+                    "value": "We are looking for creatives who have a passion for breakthrough creative ideas, contemporary thinking and execution plus a desire to learn and grow.<br class=\"all\"><br class=\"all\">\n\nIf you are interested in exploring these opportunities please send your folio to our Talent Directorb Sarah Crabbe  sarah.crabbe@syd.ddb.com<br class=\"all\"><br class=\"all\"><br class=\"all\">"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ],
   "case-studies": [
     {
       "uid": "mobil",
@@ -5779,6 +6322,256 @@
       }
     }
   ],
+  "intro": [
+    {
+      "uid": "intro",
+      "data": {
+        "meta-title": {
+          "type": "Text",
+          "value": "DDB Group Australia"
+        },
+        "meta-description": {
+          "type": "Text",
+          "value": "The landing page for DDB Group Australia."
+        },
+        "sections": {
+          "type": "SectionList",
+          "value": [
+            {
+              "type": "intro-tile",
+              "value": [
+                {
+                  "imageSydney": {
+                    "type": "Image",
+                    "value": {
+                      "main": {
+                        "dimensions": {
+                          "width": 1907,
+                          "height": 687
+                        },
+                        "alt": null,
+                        "copyright": null,
+                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/29569f216d287c7ea0c3ab6d57e737bd2301b4d1_wbc5414t190_sub_boardless.mov.01_00_13_10.still001.jpg"
+                      },
+                      "views": {
+                        "mobile": {
+                          "dimensions": {
+                            "width": 800,
+                            "height": 820
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/9e0cdb135462d09069a9dc4c871fb4dc8107d26b_wbc5414t190_sub_boardless.mov.01_00_13_10.still001.jpg"
+                        },
+                        "desktop": {
+                          "dimensions": {
+                            "width": 1920,
+                            "height": 1080
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/6d4371c6dc1b6e679f10ccd32b540692045eb99d_wbc5414t190_sub_boardless.mov.01_00_13_10.still001.jpg"
+                        }
+                      }
+                    }
+                  },
+                  "imageGroup": {
+                    "type": "Image",
+                    "value": {
+                      "main": {
+                        "dimensions": {
+                          "width": 1024,
+                          "height": 500
+                        },
+                        "alt": null,
+                        "copyright": null,
+                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/2e1ffec339ec4bacfaaab11cb62dd00bf313f792_website-landing-blank.jpg"
+                      },
+                      "views": {
+                        "mobile": {
+                          "dimensions": {
+                            "width": 800,
+                            "height": 820
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/729277928c69a0ce2aef3744de7089dea9579046_website-landing-blank.jpg"
+                        },
+                        "desktop": {
+                          "dimensions": {
+                            "width": 1920,
+                            "height": 1080
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/51194eb29aebf16b13cf0f73b0cc851630197f2b_website-landing-blank.jpg"
+                        }
+                      }
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "intro-group-tile",
+              "value": [
+                {
+                  "linkText": {
+                    "type": "Text",
+                    "value": "DDB Australia"
+                  },
+                  "linkUrl": {
+                    "type": "Link.document",
+                    "value": {
+                      "document": {
+                        "id": "WKEP8CUAAOgdq5Ww",
+                        "type": "latest",
+                        "tags": [
+
+                        ],
+                        "lang": "en-us",
+                        "slug": "latest--ddb-sydney",
+                        "uid": "latest"
+                      },
+                      "isBroken": false
+                    }
+                  },
+                  "linkImage": {
+                    "type": "Image",
+                    "value": {
+                      "main": {
+                        "dimensions": {
+                          "width": 1920,
+                          "height": 1080
+                        },
+                        "alt": null,
+                        "copyright": null,
+                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/2e7aefddd568af937a85d9cf997ea2441a873022_mcd6040t190.00_01_15_17.still002.jpg"
+                      },
+                      "views": {
+                      }
+                    }
+                  }
+                },
+                {
+                  "linkText": {
+                    "type": "Text",
+                    "value": "TRACK Australia"
+                  },
+                  "linkUrl": {
+                    "type": "Link.web",
+                    "value": {
+                      "url": "http://www.track-au.com/"
+                    }
+                  },
+                  "linkImage": {
+                    "type": "Image",
+                    "value": {
+                      "main": {
+                        "dimensions": {
+                          "width": 471,
+                          "height": 296
+                        },
+                        "alt": null,
+                        "copyright": null,
+                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/a434e743906c5e5b9b3e4c45ac909e8760c40e93_track-new-ddb-tile.png"
+                      },
+                      "views": {
+                      }
+                    }
+                  }
+                },
+                {
+                  "linkText": {
+                    "type": "Text",
+                    "value": "Mango Australia"
+                  },
+                  "linkUrl": {
+                    "type": "Link.web",
+                    "value": {
+                      "url": "http://www.thisismango.com.au/"
+                    }
+                  },
+                  "linkImage": {
+                    "type": "Image",
+                    "value": {
+                      "main": {
+                        "dimensions": {
+                          "width": 459,
+                          "height": 331
+                        },
+                        "alt": null,
+                        "copyright": null,
+                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/c2b428358d5fcb47a8bae5ebf94920170b985b0e_mango-website-tile.jpg"
+                      },
+                      "views": {
+                      }
+                    }
+                  }
+                },
+                {
+                  "linkText": {
+                    "type": "Text",
+                    "value": "DDB Remedy"
+                  },
+                  "linkUrl": {
+                    "type": "Link.web",
+                    "value": {
+                      "url": "http://www.ddbremedy.com.au/"
+                    }
+                  },
+                  "linkImage": {
+                    "type": "Image",
+                    "value": {
+                      "main": {
+                        "dimensions": {
+                          "width": 2400,
+                          "height": 1603
+                        },
+                        "alt": null,
+                        "copyright": null,
+                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/76f32a3a6176b3e557253dcbbbd3fc79aad9145f_s26_web_large.jpg"
+                      },
+                      "views": {
+                      }
+                    }
+                  }
+                },
+                {
+                  "linkText": {
+                    "type": "Text",
+                    "value": "Interbrand Australia"
+                  },
+                  "linkUrl": {
+                    "type": "Link.web",
+                    "value": {
+                      "url": "http://interbrand.com/au/"
+                    }
+                  },
+                  "linkImage": {
+                    "type": "Image",
+                    "value": {
+                      "main": {
+                        "dimensions": {
+                          "width": 580,
+                          "height": 387
+                        },
+                        "alt": null,
+                        "copyright": null,
+                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/93954f2e6bee0a68a63890de6453d2227d6e6efe_sydney_opera_house_interbrand_09_c.jpg"
+                      },
+                      "views": {
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ],
   "latest": [
     {
       "uid": "latest",
@@ -6589,256 +7382,6 @@
                   "linkText": {
                     "type": "Text",
                     "value": "Read more"
-                  }
-                }
-              ]
-            }
-          ]
-        }
-      }
-    }
-  ],
-  "intro": [
-    {
-      "uid": "intro",
-      "data": {
-        "meta-title": {
-          "type": "Text",
-          "value": "DDB Group Australia"
-        },
-        "meta-description": {
-          "type": "Text",
-          "value": "The landing page for DDB Group Australia."
-        },
-        "sections": {
-          "type": "SectionList",
-          "value": [
-            {
-              "type": "intro-tile",
-              "value": [
-                {
-                  "imageSydney": {
-                    "type": "Image",
-                    "value": {
-                      "main": {
-                        "dimensions": {
-                          "width": 1920,
-                          "height": 1200
-                        },
-                        "alt": null,
-                        "copyright": null,
-                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/36d46373834bbe1d69f09ddbc1982fd3aa911e3e_naked-ute-0.jpg"
-                      },
-                      "views": {
-                        "desktop": {
-                          "dimensions": {
-                            "width": 1920,
-                            "height": 1080
-                          },
-                          "alt": null,
-                          "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/57110231dd0cace94126e457e753cb2c8427f909_naked-ute-0.jpg"
-                        },
-                        "mobile": {
-                          "dimensions": {
-                            "width": 800,
-                            "height": 820
-                          },
-                          "alt": null,
-                          "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/d31796c04fb2a44ca2bbcb461be2e0fa03c76e2b_naked-ute-0.jpg"
-                        }
-                      }
-                    }
-                  },
-                  "imageGroup": {
-                    "type": "Image",
-                    "value": {
-                      "main": {
-                        "dimensions": {
-                          "width": 1024,
-                          "height": 500
-                        },
-                        "alt": null,
-                        "copyright": null,
-                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/2e1ffec339ec4bacfaaab11cb62dd00bf313f792_website-landing-blank.jpg"
-                      },
-                      "views": {
-                        "mobile": {
-                          "dimensions": {
-                            "width": 800,
-                            "height": 820
-                          },
-                          "alt": null,
-                          "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/729277928c69a0ce2aef3744de7089dea9579046_website-landing-blank.jpg"
-                        },
-                        "desktop": {
-                          "dimensions": {
-                            "width": 1920,
-                            "height": 1080
-                          },
-                          "alt": null,
-                          "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/51194eb29aebf16b13cf0f73b0cc851630197f2b_website-landing-blank.jpg"
-                        }
-                      }
-                    }
-                  }
-                }
-              ]
-            },
-            {
-              "type": "intro-group-tile",
-              "value": [
-                {
-                  "linkText": {
-                    "type": "Text",
-                    "value": "DDB Australia"
-                  },
-                  "linkUrl": {
-                    "type": "Link.document",
-                    "value": {
-                      "document": {
-                        "id": "WKEP8CUAAOgdq5Ww",
-                        "type": "latest",
-                        "tags": [
-
-                        ],
-                        "lang": "en-us",
-                        "slug": "latest--ddb-sydney",
-                        "uid": "latest"
-                      },
-                      "isBroken": false
-                    }
-                  },
-                  "linkImage": {
-                    "type": "Image",
-                    "value": {
-                      "main": {
-                        "dimensions": {
-                          "width": 1920,
-                          "height": 1080
-                        },
-                        "alt": null,
-                        "copyright": null,
-                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/2e7aefddd568af937a85d9cf997ea2441a873022_mcd6040t190.00_01_15_17.still002.jpg"
-                      },
-                      "views": {
-                      }
-                    }
-                  }
-                },
-                {
-                  "linkText": {
-                    "type": "Text",
-                    "value": "TRACK Australia"
-                  },
-                  "linkUrl": {
-                    "type": "Link.web",
-                    "value": {
-                      "url": "http://www.track-au.com/"
-                    }
-                  },
-                  "linkImage": {
-                    "type": "Image",
-                    "value": {
-                      "main": {
-                        "dimensions": {
-                          "width": 471,
-                          "height": 296
-                        },
-                        "alt": null,
-                        "copyright": null,
-                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/a434e743906c5e5b9b3e4c45ac909e8760c40e93_track-new-ddb-tile.png"
-                      },
-                      "views": {
-                      }
-                    }
-                  }
-                },
-                {
-                  "linkText": {
-                    "type": "Text",
-                    "value": "Mango Australia"
-                  },
-                  "linkUrl": {
-                    "type": "Link.web",
-                    "value": {
-                      "url": "http://www.thisismango.com.au/"
-                    }
-                  },
-                  "linkImage": {
-                    "type": "Image",
-                    "value": {
-                      "main": {
-                        "dimensions": {
-                          "width": 459,
-                          "height": 331
-                        },
-                        "alt": null,
-                        "copyright": null,
-                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/c2b428358d5fcb47a8bae5ebf94920170b985b0e_mango-website-tile.jpg"
-                      },
-                      "views": {
-                      }
-                    }
-                  }
-                },
-                {
-                  "linkText": {
-                    "type": "Text",
-                    "value": "DDB Remedy"
-                  },
-                  "linkUrl": {
-                    "type": "Link.web",
-                    "value": {
-                      "url": "http://www.ddbremedy.com.au/"
-                    }
-                  },
-                  "linkImage": {
-                    "type": "Image",
-                    "value": {
-                      "main": {
-                        "dimensions": {
-                          "width": 2400,
-                          "height": 1603
-                        },
-                        "alt": null,
-                        "copyright": null,
-                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/76f32a3a6176b3e557253dcbbbd3fc79aad9145f_s26_web_large.jpg"
-                      },
-                      "views": {
-                      }
-                    }
-                  }
-                },
-                {
-                  "linkText": {
-                    "type": "Text",
-                    "value": "Interbrand Australia"
-                  },
-                  "linkUrl": {
-                    "type": "Link.web",
-                    "value": {
-                      "url": "http://interbrand.com/au/"
-                    }
-                  },
-                  "linkImage": {
-                    "type": "Image",
-                    "value": {
-                      "main": {
-                        "dimensions": {
-                          "width": 580,
-                          "height": 387
-                        },
-                        "alt": null,
-                        "copyright": null,
-                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/93954f2e6bee0a68a63890de6453d2227d6e6efe_sydney_opera_house_interbrand_09_c.jpg"
-                      },
-                      "views": {
-                      }
-                    }
                   }
                 }
               ]
@@ -8280,504 +8823,6 @@
                   "mail1": {
                     "type": "Text",
                     "value": "media@syd.ddb.com"
-                  }
-                }
-              ]
-            }
-          ]
-        }
-      }
-    }
-  ],
-  "career-listings": [
-    {
-      "uid": "job-openings",
-      "data": {
-        "meta-title": {
-          "type": "Text",
-          "value": "Careers | DDB"
-        },
-        "foregroundColor": {
-          "type": "Color",
-          "value": "#000000"
-        },
-        "backgroundColor": {
-          "type": "Color",
-          "value": "#ffffff"
-        },
-        "sections": {
-          "type": "SectionList",
-          "value": [
-            {
-              "type": "career-intro",
-              "value": [
-                {
-                  "image": {
-                    "type": "Image",
-                    "value": {
-                      "main": {
-                        "dimensions": {
-                          "width": 5760,
-                          "height": 3840
-                        },
-                        "alt": null,
-                        "copyright": null,
-                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/26ece49331be61e2613f36bdca7475766f00d246_147a0049.jpg"
-                      },
-                      "views": {
-                        "desktop": {
-                          "dimensions": {
-                            "width": 1920,
-                            "height": 1080
-                          },
-                          "alt": null,
-                          "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/b71df28be83a7adddb745085e9de384af0b6f480_147a0049.jpg"
-                        },
-                        "mobile": {
-                          "dimensions": {
-                            "width": 800,
-                            "height": 820
-                          },
-                          "alt": null,
-                          "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/573fb2606738c1f2c9a0a873c135727ba712b79c_147a0049.jpg"
-                        }
-                      }
-                    }
-                  },
-                  "copy": {
-                    "type": "Text",
-                    "value": "When Bill Bernbach started this agency, he had in mind precisely the kind of people he wanted to work here. \nThere were two requirements: You had to be talented and you had to be nice.\nIf you were nice but without talent, sorry but you just wouldn’t do. \nIf you were a great talent but not a nice person, he had no hesitation in saying ‘No.’\nThis is still our philosopyhy. So if you’re both, get in touch."
-                  }
-                }
-              ]
-            },
-            {
-              "type": "career-detail",
-              "value": [
-                {
-                  "headline": {
-                    "type": "Text",
-                    "value": "Account Manager"
-                  },
-                  "copy": {
-                    "type": "Text",
-                    "value": "DDB Sydney is looking for an Account Manager to join the team.  We are looking for someone who is passionate about getting the job done. You are, in fact, the ultimate project manager, firing on all cylinders all the time. You assist in the execution of all marketing activities and you are able to anticipate the entire process, from who is involved, to what needs to get done, and how it all fits together.  <br><br>As an Account Managers you contribute to your client’s business through your strong understanding of the creative product and your role in its creation. You have a thirst for learning and can quickly pick up an in-depth understanding of the client, the client’s business and their consumer. You act and think creatively and strategically, contributing to the team, but also owning your projects and integrating around ideas. \n<br><br>If you are interested please send your CV to our Talent Director Sarah Crabbe <a class=\"ulink ulink--black\" href=\"mailto:sarah.crabbe@syd.ddb.com\" title=\"sarah.crabbe@syd.ddb.com\"><span>sarah.crabbe@syd.ddb.com</span></a>"
-                  },
-                  "style": {
-                    "type": "Select",
-                    "value": "white"
-                  }
-                }
-              ]
-            },
-            {
-              "type": "career-detail",
-              "value": [
-                {
-                  "headline": {
-                    "type": "Text",
-                    "value": "Senior Account Manager"
-                  },
-                  "copy": {
-                    "type": "Text",
-                    "value": "DDB is looking for a Senior Account Manager to join the team working on a brilliant integrated account. <br><br>We are looking for a Senior Account Manager with strong integrated experience across everything from TV to Digital/Content and Print. If you are an organised and buttoned down suit with a knack for building exceptionally strong relationships - we would love to hear from you!\n<br><br>If you are interested please send your CV to our Talent Director Sarah Crabbe <a class=\"ulink\" href=\"mailto:sarah.crabbe@syd.ddb.com\" title=\"sarah.crabbe@syd.ddb.com\"><span>sarah.crabbe@syd.ddb.com</span></a>"
-                  },
-                  "style": {
-                    "type": "Select",
-                    "value": "black"
-                  }
-                }
-              ]
-            },
-            {
-              "type": "career-detail",
-              "value": [
-                {
-                  "headline": {
-                    "type": "Text",
-                    "value": "Account Director"
-                  },
-                  "copy": {
-                    "type": "Text",
-                    "value": "DDB is looking for an established Account Director to join the team working on an exciting and fast paced account. \nWe are looking for an Account Director with exceptional client service experience across everything from TV to Digital/Content and Print. You are also a strong people manager able to coach and inspire your team. <br><br>Account Directors at DDB are solution-oriented, always thinking about their business, anticipating issues, and implementing their vision to produce superior results. They lead, facilitate and look for opportunities to expand into other disciplines. \n\n<br><br>If you are interested please send your CV to our Talent Director Sarah Crabbe <a class=\"ulink ulink--black\" href=\"mailto:sarah.crabbe@syd.ddb.com\" title=\"sarah.crabbe@syd.ddb.com\"><span>sarah.crabbe@syd.ddb.com</span></a>"
-                  },
-                  "style": {
-                    "type": "Select",
-                    "value": "white"
-                  }
-                }
-              ]
-            },
-            {
-              "type": "career-detail",
-              "value": [
-                {
-                  "headline": {
-                    "type": "Text",
-                    "value": "Creatives"
-                  },
-                  "copy": {
-                    "type": "Text",
-                    "value": "DDB is currently looking for a range of creatives to join DDB on the back of some significant and exciting business growth. We are looking for creatives who have a passion for breakthrough creative ideas, contemporary thinking and execution plus a desire to learn and grow. \n<br><br>If you are interested in exploring these opportunities please send your folio to our Talent Director Sarah Crabbe <a class=\"ulink\" href=\"mailto:sarah.crabbe@syd.ddb.com\" title=\"sarah.crabbe@syd.ddb.com\"><span>sarah.crabbe@syd.ddb.com</span></a>"
-                  },
-                  "style": {
-                    "type": "Select",
-                    "value": "black"
-                  }
-                }
-              ]
-            }
-          ]
-        }
-      }
-    },
-    {
-      "uid": "account-director",
-      "data": {
-        "meta-title": {
-          "type": "Text",
-          "value": "Account Director | Careers | DDB"
-        },
-        "foregroundColor": {
-          "type": "Color",
-          "value": "#ffffff"
-        },
-        "backgroundColor": {
-          "type": "Color",
-          "value": "#000000"
-        },
-        "sections": {
-          "type": "SectionList",
-          "value": [
-            {
-              "type": "career-intro",
-              "value": [
-                {
-                  "image": {
-                    "type": "Image",
-                    "value": {
-                      "main": {
-                        "dimensions": {
-                          "width": 1023,
-                          "height": 575
-                        },
-                        "alt": null,
-                        "copyright": null,
-                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/25f16188163313279d735ab465873aab87c07651_jobs.jpeg"
-                      },
-                      "views": {
-                        "desktop": {
-                          "dimensions": {
-                            "width": 1920,
-                            "height": 1080
-                          },
-                          "alt": null,
-                          "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/06e8264c51a66a6f65dfed162cdf4e7f9ea54036_jobs.jpeg"
-                        },
-                        "mobile": {
-                          "dimensions": {
-                            "width": 800,
-                            "height": 820
-                          },
-                          "alt": null,
-                          "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/f1df8d64d09b009431f5ee12b32883baa2486779_jobs.jpeg"
-                        }
-                      }
-                    }
-                  },
-                  "copy": {
-                    "type": "Text",
-                    "value": "DDB is looking for an established Account Director to join the team working on an exciting and fast paced account."
-                  }
-                }
-              ]
-            },
-            {
-              "type": "career-detail",
-              "value": [
-                {
-                  "headline": {
-                    "type": "Text",
-                    "value": "Account Director"
-                  },
-                  "copy": {
-                    "type": "Text",
-                    "value": "We are looking for an Account Director with exceptional client service experience across everything from TV to Digital/Content and Print. You are also a strong people manager able to coach and inspire your team.<br class=\"all\"><br class=\"all\">\n\nAccount Directors at DDB are solution-oriented, always thinking about their business, anticipating issues, and implementing their vision to produce superior results. They lead, facilitate and look for opportunities to expand into other disciplines.<br class=\"all\"><br class=\"all\"><br class=\"all\">"
-                  },
-                  "linkedin": {
-                    "type": "Link.web",
-                    "value": {
-                      "url": "http://www.linkedin.com"
-                    }
-                  }
-                }
-              ]
-            }
-          ]
-        }
-      }
-    },
-    {
-      "uid": "pod-internship",
-      "data": {
-        "meta-title": {
-          "type": "Text",
-          "value": "POD Internship | Careers | DDB"
-        },
-        "foregroundColor": {
-          "type": "Color",
-          "value": "#ffffff"
-        },
-        "backgroundColor": {
-          "type": "Color",
-          "value": "#000000"
-        },
-        "sections": {
-          "type": "SectionList",
-          "value": [
-            {
-              "type": "career-intro",
-              "value": [
-                {
-                  "image": {
-                    "type": "Image",
-                    "value": {
-                      "main": {
-                        "dimensions": {
-                          "width": 1023,
-                          "height": 575
-                        },
-                        "alt": null,
-                        "copyright": null,
-                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/d08bbd256efaa3bd65cd96b49318b263cddaf414_jobs.jpg"
-                      },
-                      "views": {
-                        "mobile": {
-                          "dimensions": {
-                            "width": 800,
-                            "height": 820
-                          },
-                          "alt": null,
-                          "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/5b0250a95f674361eb85c98e16647de198602f4f_jobs.jpg"
-                        },
-                        "desktop": {
-                          "dimensions": {
-                            "width": 1920,
-                            "height": 1080
-                          },
-                          "alt": null,
-                          "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/d3da9f38a649980e26299421f1ffbec9f92ddd5d_jobs.jpg"
-                        }
-                      }
-                    }
-                  },
-                  "copy": {
-                    "type": "Text",
-                    "value": "If you are a young creative thinker who wants <br>to solve big problems, with radical technology <br>solutions we have a place for you in POD."
-                  }
-                }
-              ]
-            },
-            {
-              "type": "career-detail",
-              "value": [
-                {
-                  "headline": {
-                    "type": "Text",
-                    "value": "Career detail headline"
-                  },
-                  "copy": {
-                    "type": "Text",
-                    "value": "<b> Career detail copy </b><br class=\"all\"><br class=\"all\">\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec velit ac sapien fermentum blandit a vel tellus. Aliquam varius nulla viverra, tincidunt mauris rhoncus, tincidunt sapien. Curabitur congue velit ut massa aliquam, vel congue purus posuere. Sed a risus eget mi lobortis tincidunt. Pellentesque nec lectus risus. Sed volutpat nulla sed ex consectetur molestie. Etiam ut maximus enim. Etiam quis malesuada orci, in tristique sapien. Maecenas sed cursus leo, vel maximus risus. Donec lobortis a libero non lacinia.<br class=\"all\"><br class=\"all\">\n\nQuisque et mollis dolor. Donec sed bibendum tortor. Quisque pretium aliquam turpis id fringilla. Integer nec efficitur leo, ut pharetra risus. Nam non augue vitae urna condimentum condimentum. Etiam molestie enim sed dui fermentum volutpat. Cras nec augue bibendum, posuere arcu elementum, fringilla erat. Vivamus feugiat eros massa, et porta dolor pharetra ac.<br class=\"all\"><br class=\"all\"><br class=\"all\">\n\n<b> Career detail copy </b><br class=\"all\"><br class=\"all\">\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec velit ac sapien fermentum blandit a vel tellus. Aliquam varius nulla viverra, tincidunt mauris rhoncus, tincidunt sapien. Curabitur congue velit ut massa aliquam, vel congue purus posuere. Sed a risus eget mi lobortis tincidunt. Pellentesque nec lectus risus. Sed volutpat nulla sed ex consectetur molestie. Etiam ut maximus enim. Etiam quis malesuada orci, in tristique sapien. Maecenas sed cursus leo, vel maximus risus. Donec lobortis a libero non lacinia.<br class=\"all\"><br class=\"all\">\n\nQuisque et mollis dolor. Donec sed bibendum tortor. Quisque pretium aliquam turpis id fringilla. Integer nec efficitur leo, ut pharetra risus. Nam non augue vitae urna condimentum condimentum. Etiam molestie enim sed dui fermentum volutpat. Cras nec augue bibendum, posuere arcu elementum, fringilla erat. Vivamus feugiat eros massa, et porta dolor pharetra ac.<br class=\"all\"><br class=\"all\"><br class=\"all\">\n\n<b> Career detail copy </b><br class=\"all\"><br class=\"all\">\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec velit ac sapien fermentum blandit a vel tellus. Aliquam varius nulla viverra, tincidunt mauris rhoncus, tincidunt sapien. Curabitur congue velit ut massa aliquam, vel congue purus posuere. Sed a risus eget mi lobortis tincidunt. Pellentesque nec lectus risus. Sed volutpat nulla sed ex consectetur molestie. Etiam ut maximus enim. Etiam quis malesuada orci, in tristique sapien. Maecenas sed cursus leo, vel maximus risus. Donec lobortis a libero non lacinia.<br class=\"all\"><br class=\"all\">\n\nQuisque et mollis dolor. Donec sed bibendum tortor. Quisque pretium aliquam turpis id fringilla. Integer nec efficitur leo, ut pharetra risus. Nam non augue vitae urna condimentum condimentum. Etiam molestie enim sed dui fermentum volutpat. Cras nec augue bibendum, posuere arcu elementum, fringilla erat. Vivamus feugiat eros massa, et porta dolor pharetra ac."
-                  },
-                  "linkedin": {
-                    "type": "Link.web",
-                    "value": {
-                      "url": "https://www.linkedin.com/company/ddb"
-                    }
-                  }
-                }
-              ]
-            },
-            {
-              "type": "career-content",
-              "value": [
-                {
-                }
-              ]
-            }
-          ]
-        }
-      }
-    },
-    {
-      "uid": "senior-account-manager",
-      "data": {
-        "meta-title": {
-          "type": "Text",
-          "value": "Senior Account Manager | Careers | DDB"
-        },
-        "foregroundColor": {
-          "type": "Color",
-          "value": "#ffffff"
-        },
-        "backgroundColor": {
-          "type": "Color",
-          "value": "#000000"
-        },
-        "sections": {
-          "type": "SectionList",
-          "value": [
-            {
-              "type": "career-intro",
-              "value": [
-                {
-                  "image": {
-                    "type": "Image",
-                    "value": {
-                      "main": {
-                        "dimensions": {
-                          "width": 1023,
-                          "height": 575
-                        },
-                        "alt": null,
-                        "copyright": null,
-                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/25f16188163313279d735ab465873aab87c07651_jobs.jpeg"
-                      },
-                      "views": {
-                        "desktop": {
-                          "dimensions": {
-                            "width": 1920,
-                            "height": 1080
-                          },
-                          "alt": null,
-                          "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/06e8264c51a66a6f65dfed162cdf4e7f9ea54036_jobs.jpeg"
-                        },
-                        "mobile": {
-                          "dimensions": {
-                            "width": 800,
-                            "height": 820
-                          },
-                          "alt": null,
-                          "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/f1df8d64d09b009431f5ee12b32883baa2486779_jobs.jpeg"
-                        }
-                      }
-                    }
-                  },
-                  "copy": {
-                    "type": "Text",
-                    "value": "DDB is looking for a Senior Account Manager to join the team working on a brilliant integrated\n\naccount."
-                  }
-                }
-              ]
-            },
-            {
-              "type": "career-detail",
-              "value": [
-                {
-                  "headline": {
-                    "type": "Text",
-                    "value": "Senior Account Manager"
-                  },
-                  "copy": {
-                    "type": "Text",
-                    "value": "We are looking for a Senior Account Manager with strong integrated experience across everything from TV to Digital/Content and Print.<br class=\"all\"><br class=\"all\">\n\nIf you are an organised and buttoned down suit with a knack for building exceptionally strong relationships - we would love to hear from you!<br class=\"all\"><br class=\"all\"><br class=\"all\">"
-                  },
-                  "linkedin": {
-                    "type": "Link.web",
-                    "value": {
-                      "url": "http://www.linkedin.com"
-                    }
-                  }
-                }
-              ]
-            }
-          ]
-        }
-      }
-    },
-    {
-      "uid": "creatives",
-      "data": {
-        "meta-title": {
-          "type": "Text",
-          "value": "Creatives  | Careers | DDB"
-        },
-        "foregroundColor": {
-          "type": "Color",
-          "value": "#ffffff"
-        },
-        "backgroundColor": {
-          "type": "Color",
-          "value": "#000000"
-        },
-        "sections": {
-          "type": "SectionList",
-          "value": [
-            {
-              "type": "career-intro",
-              "value": [
-                {
-                  "image": {
-                    "type": "Image",
-                    "value": {
-                      "main": {
-                        "dimensions": {
-                          "width": 1023,
-                          "height": 575
-                        },
-                        "alt": null,
-                        "copyright": null,
-                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/25f16188163313279d735ab465873aab87c07651_jobs.jpeg"
-                      },
-                      "views": {
-                        "desktop": {
-                          "dimensions": {
-                            "width": 1920,
-                            "height": 1080
-                          },
-                          "alt": null,
-                          "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/06e8264c51a66a6f65dfed162cdf4e7f9ea54036_jobs.jpeg"
-                        },
-                        "mobile": {
-                          "dimensions": {
-                            "width": 800,
-                            "height": 820
-                          },
-                          "alt": null,
-                          "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/f1df8d64d09b009431f5ee12b32883baa2486779_jobs.jpeg"
-                        }
-                      }
-                    }
-                  },
-                  "copy": {
-                    "type": "Text",
-                    "value": "DDB is currently looking for a range of creatives to join DDB on the back of some significant and exciting business growth."
-                  }
-                }
-              ]
-            },
-            {
-              "type": "career-detail",
-              "value": [
-                {
-                  "headline": {
-                    "type": "Text",
-                    "value": "Creatives"
-                  },
-                  "copy": {
-                    "type": "Text",
-                    "value": "We are looking for creatives who have a passion for breakthrough creative ideas, contemporary thinking and execution plus a desire to learn and grow.<br class=\"all\"><br class=\"all\">\n\nIf you are interested in exploring these opportunities please send your folio to our Talent Directorb Sarah Crabbe  sarah.crabbe@syd.ddb.com<br class=\"all\"><br class=\"all\"><br class=\"all\">"
                   }
                 }
               ]

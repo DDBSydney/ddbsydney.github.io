@@ -8,10 +8,250 @@
   "prev_page": null,
   "results": [
     {
+      "id": "WLjjUx8AAH4IVCL5",
+      "uid": "job-openings",
+      "type": "career-listings",
+      "href": "http://ddb-website.cdn.prismic.io/api/v1/documents/search?ref=WvjY_icAAJUxvAvz&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WLjjUx8AAH4IVCL5%22%29+%5D%5D",
+      "tags": [
+
+      ],
+      "first_publication_date": "2017-03-03T03:30:34+0000",
+      "last_publication_date": "2018-05-14T00:31:58+0000",
+      "slugs": [
+        "careers--ddb",
+        "account-manager--careers--ddb",
+        "account-manager"
+      ],
+      "linked_documents": [
+
+      ],
+      "lang": "en-us",
+      "alternate_languages": [
+
+      ],
+      "data": {
+        "career-listings": {
+          "meta-title": {
+            "type": "Text",
+            "value": "Careers | DDB"
+          },
+          "foregroundColor": {
+            "type": "Color",
+            "value": "#000000"
+          },
+          "backgroundColor": {
+            "type": "Color",
+            "value": "#ffffff"
+          },
+          "sections": {
+            "type": "SliceZone",
+            "value": [
+              {
+                "type": "Slice",
+                "slice_type": "career-intro",
+                "slice_label": null,
+                "value": {
+                  "type": "Group",
+                  "value": [
+                    {
+                      "image": {
+                        "type": "Image",
+                        "value": {
+                          "main": {
+                            "dimensions": {
+                              "width": 5760,
+                              "height": 3840
+                            },
+                            "alt": null,
+                            "copyright": null,
+                            "url": "http://ddb-website.cdn.prismic.io/ddb-website/26ece49331be61e2613f36bdca7475766f00d246_147a0049.jpg"
+                          },
+                          "views": {
+                            "desktop": {
+                              "dimensions": {
+                                "width": 1920,
+                                "height": 1080
+                              },
+                              "alt": null,
+                              "copyright": null,
+                              "url": "http://ddb-website.cdn.prismic.io/ddb-website/b71df28be83a7adddb745085e9de384af0b6f480_147a0049.jpg"
+                            },
+                            "mobile": {
+                              "dimensions": {
+                                "width": 800,
+                                "height": 820
+                              },
+                              "alt": null,
+                              "copyright": null,
+                              "url": "http://ddb-website.cdn.prismic.io/ddb-website/573fb2606738c1f2c9a0a873c135727ba712b79c_147a0049.jpg"
+                            }
+                          }
+                        }
+                      },
+                      "copy": {
+                        "type": "Text",
+                        "value": "When Bill Bernbach started DDB, he had in mind precisely the kind of people he wanted to work here. \nThere were two requirements: you had to be talented, and you had to be nice.\nIf you were nice but without talent, sorry but you just wouldn’t do. \nIf you were highly talented but not a nice person, Bill had no hesitation saying \"No\".\nThis is still our philosophy today. So if you’re both, get in touch."
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "Slice",
+                "slice_type": "career-detail",
+                "slice_label": null,
+                "value": {
+                  "type": "Group",
+                  "value": [
+                    {
+                      "headline": {
+                        "type": "Text",
+                        "value": "Business Manager"
+                      },
+                      "copy": {
+                        "type": "Text",
+                        "value": "As a Business Manager, you contribute to your client’s business through your strong understanding of the creative product and involvement in the creation process. You have a thirst for learning and can quickly pick up an in-depth understanding of the client, the client’s business and their consumer. You are the ultimate project manager, firing on all cylinders all the time. You’re determined, innovative and deadline-driven, with a penchant for getting things done. \n\nBusiness Managers are known by a few titles in the market, often referred to as an Account Manager or Client Relationship Manager. At DDB, we prefer “Business Manager,” because we brainstorm, create, design and offer creative and strategic solutions for our business partners. We treat our clients as more than accounts, they are our colleagues. \n\nIf you feel you are qualified for this opportunity, please send your CV to our Talent Manager Erin Cook\n <a class=\"ulink ulink--black\" href=\"mailto:Erin.Cook@syd.ddb.com\" title=\"Erin.Cook@syd.ddb.com\"><span>Erin.Cook@syd.ddb.com</span></a>"
+                      },
+                      "style": {
+                        "type": "Select",
+                        "value": "white"
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "Slice",
+                "slice_type": "career-detail",
+                "slice_label": null,
+                "value": {
+                  "type": "Group",
+                  "value": [
+                    {
+                      "headline": {
+                        "type": "Text",
+                        "value": "Business Coordinator"
+                      },
+                      "copy": {
+                        "type": "Text",
+                        "value": "Business Coordinators are curious, determined and hardworking. They are passionate in their pursuit of knowledge. They quickly get to know our creative and strategic product, work collaboratively with their team and develop strong relationships with client contacts. \n\nWe are looking for candidates that have received an undergraduate degree in Marketing or Advertising. You may have worked as an intern at some stage, but if you haven’t, you must be able to communicate professionally with a diverse range of people. \n\nIf you’re interested in getting your foot in the door at an agency that puts their employees first, send your CV to our Talent Manager Erin Cook <a class=\"ulink\" href=\"mailto:Erin.Cook@syd.ddb.com\" title=\"Erin.Cook@syd.ddb.com\"><span>Erin.Cook@syd.ddb.com</span></a>"
+                      },
+                      "style": {
+                        "type": "Select",
+                        "value": "black"
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "Slice",
+                "slice_type": "career-detail",
+                "slice_label": null,
+                "value": {
+                  "type": "Group",
+                  "value": [
+                    {
+                      "headline": {
+                        "type": "Text",
+                        "value": "Business Director"
+                      },
+                      "copy": {
+                        "type": "Text",
+                        "value": "A Business Director is an intelligent, original and impressive leader. Not only do Business Directors drive and mentor their team, but they act as true ambassadors to DDB. They constantly motivate their team to go beyond expectations, encouraging and energizing them to achieve great results. Business Directors are solution-oriented, always thinking about their client, anticipating issues and implementing their vision to product superior results. \n\nWe are looking for someone with six to eight years of experience creating customer relationship marketing programs, some of which should be in an agency environment. As this individual would be leading a team, strong people management skills are a must. We are looking for someone who can craft and direct briefs and strategies that are insightful and inspirational, and can effectively identify, foster and sell world-class creative. \n\nIf you feel you could be a fit for this position, please send your CV to our Talent Manager Erin Cook <a class=\"ulink ulink--black\" href=\"mailto:Erin.Cook@syd.ddb.com\" title=\"Erin.Cook@syd.ddb.com\"><span>Erin.Cook@syd.ddb.com</span></a>"
+                      },
+                      "style": {
+                        "type": "Select",
+                        "value": "white"
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "Slice",
+                "slice_type": "career-detail",
+                "slice_label": null,
+                "value": {
+                  "type": "Group",
+                  "value": [
+                    {
+                      "headline": {
+                        "type": "Text",
+                        "value": "Creatives"
+                      },
+                      "copy": {
+                        "type": "Text",
+                        "value": "DDB is currently looking for a range of creatives to join DDB on the back of some significant and exciting business growth. We are looking for creatives who have a passion for breakthrough creative ideas, contemporary thinking and execution plus a desire to learn and grow. \n\nWant to learn more? Send your folio to our Talent Manager Erin Cook <a class=\"ulink\" href=\"mailto:Erin.Cook@syd.ddb.com\" title=\"Erin.Cook@syd.ddb.com\"><span>Erin.Cook@syd.ddb.com</span></a>"
+                      },
+                      "style": {
+                        "type": "Select",
+                        "value": "black"
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "Slice",
+                "slice_type": "career-intro",
+                "slice_label": null,
+                "value": {
+                  "type": "Group",
+                  "value": [
+                    {
+                      "image": {
+                        "type": "Image",
+                        "value": {
+                          "main": {
+                            "dimensions": {
+                              "width": 4609,
+                              "height": 4763
+                            },
+                            "alt": null,
+                            "copyright": null,
+                            "url": "http://ddb-website.cdn.prismic.io/ddb-website/cb7a3e1f60d65f8e35a974aa80654be57fc750ad_shutterstock_129553100.jpg"
+                          },
+                          "views": {
+                            "desktop": {
+                              "dimensions": {
+                                "width": 1920,
+                                "height": 1080
+                              },
+                              "alt": null,
+                              "copyright": null,
+                              "url": "http://ddb-website.cdn.prismic.io/ddb-website/8027f1f7c95041043892d45b9bc36690d1f8080c_shutterstock_129553100.jpg"
+                            },
+                            "mobile": {
+                              "dimensions": {
+                                "width": 800,
+                                "height": 820
+                              },
+                              "alt": null,
+                              "copyright": null,
+                              "url": "http://ddb-website.cdn.prismic.io/ddb-website/4933a42ddedf1a8c092b540cdcbac17dd221fe82_shutterstock_129553100.jpg"
+                            }
+                          }
+                        }
+                      },
+                      "copy": {
+                        "type": "Text",
+                        "value": "Don’t see a position that fits your experience, but you’d love to learn more opportunities about DDB? Reach out to our Talent Manager Erin Cook <a class=\"ulink\" href=\"mailto:Erin.Cook@syd.ddb.com\" title=\"Erin.Cook@syd.ddb.com\"><span>Erin.Cook@syd.ddb.com</span></a>"
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
       "id": "Wsse-y4AAIyRMCBA",
       "uid": "mobil",
       "type": "case-studies",
-      "href": "http://ddb-website.cdn.prismic.io/api/v1/documents/search?ref=Ws1XDioAAPoAnetB&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22Wsse-y4AAIyRMCBA%22%29+%5D%5D",
+      "href": "http://ddb-website.cdn.prismic.io/api/v1/documents/search?ref=WvjY_icAAJUxvAvz&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22Wsse-y4AAIyRMCBA%22%29+%5D%5D",
       "tags": [
 
       ],
@@ -196,7 +436,7 @@
       "id": "WKEQFSUAAEUiq5ZX",
       "uid": "work",
       "type": "work",
-      "href": "http://ddb-website.cdn.prismic.io/api/v1/documents/search?ref=Ws1XDioAAPoAnetB&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WKEQFSUAAEUiq5ZX%22%29+%5D%5D",
+      "href": "http://ddb-website.cdn.prismic.io/api/v1/documents/search?ref=WvjY_icAAJUxvAvz&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WKEQFSUAAEUiq5ZX%22%29+%5D%5D",
       "tags": [
 
       ],
@@ -1684,10 +1924,299 @@
       }
     },
     {
+      "id": "WK-uuiEAAGgA2z5I",
+      "uid": "intro",
+      "type": "intro",
+      "href": "http://ddb-website.cdn.prismic.io/api/v1/documents/search?ref=WvjY_icAAJUxvAvz&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WK-uuiEAAGgA2z5I%22%29+%5D%5D",
+      "tags": [
+
+      ],
+      "first_publication_date": "2017-02-24T03:55:41+0000",
+      "last_publication_date": "2018-04-26T00:13:29+0000",
+      "slugs": [
+        "ddb-group-australia",
+        "ddb-group-australia-stupid-fuckery",
+        "ddb-group-australia-woohoo",
+        "ddb-australia"
+      ],
+      "linked_documents": [
+        {
+          "id": "WK-uuiEAAGgA2z5I",
+          "tags": [
+
+          ],
+          "type": "intro",
+          "slug": "ddb-group-australia",
+          "lang": "en-us"
+        }
+      ],
+      "lang": "en-us",
+      "alternate_languages": [
+
+      ],
+      "data": {
+        "intro": {
+          "meta-title": {
+            "type": "Text",
+            "value": "DDB Group Australia"
+          },
+          "meta-description": {
+            "type": "Text",
+            "value": "The landing page for DDB Group Australia."
+          },
+          "sections": {
+            "type": "SliceZone",
+            "value": [
+              {
+                "type": "Slice",
+                "slice_type": "intro-tile",
+                "slice_label": null,
+                "value": {
+                  "type": "Group",
+                  "value": [
+                    {
+                      "imageSydney": {
+                        "type": "Image",
+                        "value": {
+                          "main": {
+                            "dimensions": {
+                              "width": 1907,
+                              "height": 687
+                            },
+                            "alt": null,
+                            "copyright": null,
+                            "url": "http://ddb-website.cdn.prismic.io/ddb-website/29569f216d287c7ea0c3ab6d57e737bd2301b4d1_wbc5414t190_sub_boardless.mov.01_00_13_10.still001.jpg"
+                          },
+                          "views": {
+                            "mobile": {
+                              "dimensions": {
+                                "width": 800,
+                                "height": 820
+                              },
+                              "alt": null,
+                              "copyright": null,
+                              "url": "http://ddb-website.cdn.prismic.io/ddb-website/9e0cdb135462d09069a9dc4c871fb4dc8107d26b_wbc5414t190_sub_boardless.mov.01_00_13_10.still001.jpg"
+                            },
+                            "desktop": {
+                              "dimensions": {
+                                "width": 1920,
+                                "height": 1080
+                              },
+                              "alt": null,
+                              "copyright": null,
+                              "url": "http://ddb-website.cdn.prismic.io/ddb-website/6d4371c6dc1b6e679f10ccd32b540692045eb99d_wbc5414t190_sub_boardless.mov.01_00_13_10.still001.jpg"
+                            }
+                          }
+                        }
+                      },
+                      "imageGroup": {
+                        "type": "Image",
+                        "value": {
+                          "main": {
+                            "dimensions": {
+                              "width": 1024,
+                              "height": 500
+                            },
+                            "alt": null,
+                            "copyright": null,
+                            "url": "http://ddb-website.cdn.prismic.io/ddb-website/2e1ffec339ec4bacfaaab11cb62dd00bf313f792_website-landing-blank.jpg"
+                          },
+                          "views": {
+                            "mobile": {
+                              "dimensions": {
+                                "width": 800,
+                                "height": 820
+                              },
+                              "alt": null,
+                              "copyright": null,
+                              "url": "http://ddb-website.cdn.prismic.io/ddb-website/729277928c69a0ce2aef3744de7089dea9579046_website-landing-blank.jpg"
+                            },
+                            "desktop": {
+                              "dimensions": {
+                                "width": 1920,
+                                "height": 1080
+                              },
+                              "alt": null,
+                              "copyright": null,
+                              "url": "http://ddb-website.cdn.prismic.io/ddb-website/51194eb29aebf16b13cf0f73b0cc851630197f2b_website-landing-blank.jpg"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "Slice",
+                "slice_type": "intro-group-tile",
+                "slice_label": null,
+                "value": {
+                  "type": "Group",
+                  "value": [
+                    {
+                      "linkText": {
+                        "type": "Text",
+                        "value": "DDB Australia"
+                      },
+                      "linkUrl": {
+                        "type": "Link.document",
+                        "value": {
+                          "document": {
+                            "id": "WKEP8CUAAOgdq5Ww",
+                            "type": "latest",
+                            "tags": [
+
+                            ],
+                            "lang": "en-us",
+                            "slug": "latest--ddb-sydney",
+                            "uid": "latest"
+                          },
+                          "isBroken": false
+                        }
+                      },
+                      "linkImage": {
+                        "type": "Image",
+                        "value": {
+                          "main": {
+                            "dimensions": {
+                              "width": 1920,
+                              "height": 1080
+                            },
+                            "alt": null,
+                            "copyright": null,
+                            "url": "http://ddb-website.cdn.prismic.io/ddb-website/2e7aefddd568af937a85d9cf997ea2441a873022_mcd6040t190.00_01_15_17.still002.jpg"
+                          },
+                          "views": {
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "linkText": {
+                        "type": "Text",
+                        "value": "TRACK Australia"
+                      },
+                      "linkUrl": {
+                        "type": "Link.web",
+                        "value": {
+                          "url": "http://www.track-au.com/"
+                        }
+                      },
+                      "linkImage": {
+                        "type": "Image",
+                        "value": {
+                          "main": {
+                            "dimensions": {
+                              "width": 471,
+                              "height": 296
+                            },
+                            "alt": null,
+                            "copyright": null,
+                            "url": "http://ddb-website.cdn.prismic.io/ddb-website/a434e743906c5e5b9b3e4c45ac909e8760c40e93_track-new-ddb-tile.png"
+                          },
+                          "views": {
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "linkText": {
+                        "type": "Text",
+                        "value": "Mango Australia"
+                      },
+                      "linkUrl": {
+                        "type": "Link.web",
+                        "value": {
+                          "url": "http://www.thisismango.com.au/"
+                        }
+                      },
+                      "linkImage": {
+                        "type": "Image",
+                        "value": {
+                          "main": {
+                            "dimensions": {
+                              "width": 459,
+                              "height": 331
+                            },
+                            "alt": null,
+                            "copyright": null,
+                            "url": "http://ddb-website.cdn.prismic.io/ddb-website/c2b428358d5fcb47a8bae5ebf94920170b985b0e_mango-website-tile.jpg"
+                          },
+                          "views": {
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "linkText": {
+                        "type": "Text",
+                        "value": "DDB Remedy"
+                      },
+                      "linkUrl": {
+                        "type": "Link.web",
+                        "value": {
+                          "url": "http://www.ddbremedy.com.au/"
+                        }
+                      },
+                      "linkImage": {
+                        "type": "Image",
+                        "value": {
+                          "main": {
+                            "dimensions": {
+                              "width": 2400,
+                              "height": 1603
+                            },
+                            "alt": null,
+                            "copyright": null,
+                            "url": "http://ddb-website.cdn.prismic.io/ddb-website/76f32a3a6176b3e557253dcbbbd3fc79aad9145f_s26_web_large.jpg"
+                          },
+                          "views": {
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "linkText": {
+                        "type": "Text",
+                        "value": "Interbrand Australia"
+                      },
+                      "linkUrl": {
+                        "type": "Link.web",
+                        "value": {
+                          "url": "http://interbrand.com/au/"
+                        }
+                      },
+                      "linkImage": {
+                        "type": "Image",
+                        "value": {
+                          "main": {
+                            "dimensions": {
+                              "width": 580,
+                              "height": 387
+                            },
+                            "alt": null,
+                            "copyright": null,
+                            "url": "http://ddb-website.cdn.prismic.io/ddb-website/93954f2e6bee0a68a63890de6453d2227d6e6efe_sydney_opera_house_interbrand_09_c.jpg"
+                          },
+                          "views": {
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
       "id": "WsspxS4AAIwAME_5",
       "uid": "monash-childrens-hospital",
       "type": "case-studies",
-      "href": "http://ddb-website.cdn.prismic.io/api/v1/documents/search?ref=Ws1XDioAAPoAnetB&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WsspxS4AAIwAME_5%22%29+%5D%5D",
+      "href": "http://ddb-website.cdn.prismic.io/api/v1/documents/search?ref=WvjY_icAAJUxvAvz&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WsspxS4AAIwAME_5%22%29+%5D%5D",
       "tags": [
 
       ],
@@ -1875,7 +2404,7 @@
       "id": "WffvVyoAACcgbVW9",
       "uid": "westpac-app",
       "type": "case-studies",
-      "href": "http://ddb-website.cdn.prismic.io/api/v1/documents/search?ref=Ws1XDioAAPoAnetB&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WffvVyoAACcgbVW9%22%29+%5D%5D",
+      "href": "http://ddb-website.cdn.prismic.io/api/v1/documents/search?ref=WvjY_icAAJUxvAvz&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WffvVyoAACcgbVW9%22%29+%5D%5D",
       "tags": [
 
       ],
@@ -2124,7 +2653,7 @@
       "id": "WssteC4AAIwAMGBi",
       "uid": "volkswagen-more-than-a-car",
       "type": "case-studies",
-      "href": "http://ddb-website.cdn.prismic.io/api/v1/documents/search?ref=Ws1XDioAAPoAnetB&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WssteC4AAIwAMGBi%22%29+%5D%5D",
+      "href": "http://ddb-website.cdn.prismic.io/api/v1/documents/search?ref=WvjY_icAAJUxvAvz&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WssteC4AAIwAMGBi%22%29+%5D%5D",
       "tags": [
 
       ],
@@ -2328,7 +2857,7 @@
       "id": "WKEP8CUAAOgdq5Ww",
       "uid": "latest",
       "type": "latest",
-      "href": "http://ddb-website.cdn.prismic.io/api/v1/documents/search?ref=Ws1XDioAAPoAnetB&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WKEP8CUAAOgdq5Ww%22%29+%5D%5D",
+      "href": "http://ddb-website.cdn.prismic.io/api/v1/documents/search?ref=WvjY_icAAJUxvAvz&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WKEP8CUAAOgdq5Ww%22%29+%5D%5D",
       "tags": [
 
       ],
@@ -3326,7 +3855,7 @@
       "id": "WssvrC4AAK0VMGo8",
       "uid": "westpac-brand-90",
       "type": "case-studies",
-      "href": "http://ddb-website.cdn.prismic.io/api/v1/documents/search?ref=Ws1XDioAAPoAnetB&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WssvrC4AAK0VMGo8%22%29+%5D%5D",
+      "href": "http://ddb-website.cdn.prismic.io/api/v1/documents/search?ref=WvjY_icAAJUxvAvz&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WssvrC4AAK0VMGo8%22%29+%5D%5D",
       "tags": [
 
       ],
@@ -3523,299 +4052,10 @@
       }
     },
     {
-      "id": "WK-uuiEAAGgA2z5I",
-      "uid": "intro",
-      "type": "intro",
-      "href": "http://ddb-website.cdn.prismic.io/api/v1/documents/search?ref=Ws1XDioAAPoAnetB&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WK-uuiEAAGgA2z5I%22%29+%5D%5D",
-      "tags": [
-
-      ],
-      "first_publication_date": "2017-02-24T03:55:41+0000",
-      "last_publication_date": "2018-04-09T05:29:36+0000",
-      "slugs": [
-        "ddb-group-australia",
-        "ddb-group-australia-stupid-fuckery",
-        "ddb-group-australia-woohoo",
-        "ddb-australia"
-      ],
-      "linked_documents": [
-        {
-          "id": "WK-uuiEAAGgA2z5I",
-          "tags": [
-
-          ],
-          "type": "intro",
-          "slug": "ddb-group-australia",
-          "lang": "en-us"
-        }
-      ],
-      "lang": "en-us",
-      "alternate_languages": [
-
-      ],
-      "data": {
-        "intro": {
-          "meta-title": {
-            "type": "Text",
-            "value": "DDB Group Australia"
-          },
-          "meta-description": {
-            "type": "Text",
-            "value": "The landing page for DDB Group Australia."
-          },
-          "sections": {
-            "type": "SliceZone",
-            "value": [
-              {
-                "type": "Slice",
-                "slice_type": "intro-tile",
-                "slice_label": null,
-                "value": {
-                  "type": "Group",
-                  "value": [
-                    {
-                      "imageSydney": {
-                        "type": "Image",
-                        "value": {
-                          "main": {
-                            "dimensions": {
-                              "width": 1920,
-                              "height": 1200
-                            },
-                            "alt": null,
-                            "copyright": null,
-                            "url": "http://ddb-website.cdn.prismic.io/ddb-website/36d46373834bbe1d69f09ddbc1982fd3aa911e3e_naked-ute-0.jpg"
-                          },
-                          "views": {
-                            "desktop": {
-                              "dimensions": {
-                                "width": 1920,
-                                "height": 1080
-                              },
-                              "alt": null,
-                              "copyright": null,
-                              "url": "http://ddb-website.cdn.prismic.io/ddb-website/57110231dd0cace94126e457e753cb2c8427f909_naked-ute-0.jpg"
-                            },
-                            "mobile": {
-                              "dimensions": {
-                                "width": 800,
-                                "height": 820
-                              },
-                              "alt": null,
-                              "copyright": null,
-                              "url": "http://ddb-website.cdn.prismic.io/ddb-website/d31796c04fb2a44ca2bbcb461be2e0fa03c76e2b_naked-ute-0.jpg"
-                            }
-                          }
-                        }
-                      },
-                      "imageGroup": {
-                        "type": "Image",
-                        "value": {
-                          "main": {
-                            "dimensions": {
-                              "width": 1024,
-                              "height": 500
-                            },
-                            "alt": null,
-                            "copyright": null,
-                            "url": "http://ddb-website.cdn.prismic.io/ddb-website/2e1ffec339ec4bacfaaab11cb62dd00bf313f792_website-landing-blank.jpg"
-                          },
-                          "views": {
-                            "mobile": {
-                              "dimensions": {
-                                "width": 800,
-                                "height": 820
-                              },
-                              "alt": null,
-                              "copyright": null,
-                              "url": "http://ddb-website.cdn.prismic.io/ddb-website/729277928c69a0ce2aef3744de7089dea9579046_website-landing-blank.jpg"
-                            },
-                            "desktop": {
-                              "dimensions": {
-                                "width": 1920,
-                                "height": 1080
-                              },
-                              "alt": null,
-                              "copyright": null,
-                              "url": "http://ddb-website.cdn.prismic.io/ddb-website/51194eb29aebf16b13cf0f73b0cc851630197f2b_website-landing-blank.jpg"
-                            }
-                          }
-                        }
-                      }
-                    }
-                  ]
-                }
-              },
-              {
-                "type": "Slice",
-                "slice_type": "intro-group-tile",
-                "slice_label": null,
-                "value": {
-                  "type": "Group",
-                  "value": [
-                    {
-                      "linkText": {
-                        "type": "Text",
-                        "value": "DDB Australia"
-                      },
-                      "linkUrl": {
-                        "type": "Link.document",
-                        "value": {
-                          "document": {
-                            "id": "WKEP8CUAAOgdq5Ww",
-                            "type": "latest",
-                            "tags": [
-
-                            ],
-                            "lang": "en-us",
-                            "slug": "latest--ddb-sydney",
-                            "uid": "latest"
-                          },
-                          "isBroken": false
-                        }
-                      },
-                      "linkImage": {
-                        "type": "Image",
-                        "value": {
-                          "main": {
-                            "dimensions": {
-                              "width": 1920,
-                              "height": 1080
-                            },
-                            "alt": null,
-                            "copyright": null,
-                            "url": "http://ddb-website.cdn.prismic.io/ddb-website/2e7aefddd568af937a85d9cf997ea2441a873022_mcd6040t190.00_01_15_17.still002.jpg"
-                          },
-                          "views": {
-                          }
-                        }
-                      }
-                    },
-                    {
-                      "linkText": {
-                        "type": "Text",
-                        "value": "TRACK Australia"
-                      },
-                      "linkUrl": {
-                        "type": "Link.web",
-                        "value": {
-                          "url": "http://www.track-au.com/"
-                        }
-                      },
-                      "linkImage": {
-                        "type": "Image",
-                        "value": {
-                          "main": {
-                            "dimensions": {
-                              "width": 471,
-                              "height": 296
-                            },
-                            "alt": null,
-                            "copyright": null,
-                            "url": "http://ddb-website.cdn.prismic.io/ddb-website/a434e743906c5e5b9b3e4c45ac909e8760c40e93_track-new-ddb-tile.png"
-                          },
-                          "views": {
-                          }
-                        }
-                      }
-                    },
-                    {
-                      "linkText": {
-                        "type": "Text",
-                        "value": "Mango Australia"
-                      },
-                      "linkUrl": {
-                        "type": "Link.web",
-                        "value": {
-                          "url": "http://www.thisismango.com.au/"
-                        }
-                      },
-                      "linkImage": {
-                        "type": "Image",
-                        "value": {
-                          "main": {
-                            "dimensions": {
-                              "width": 459,
-                              "height": 331
-                            },
-                            "alt": null,
-                            "copyright": null,
-                            "url": "http://ddb-website.cdn.prismic.io/ddb-website/c2b428358d5fcb47a8bae5ebf94920170b985b0e_mango-website-tile.jpg"
-                          },
-                          "views": {
-                          }
-                        }
-                      }
-                    },
-                    {
-                      "linkText": {
-                        "type": "Text",
-                        "value": "DDB Remedy"
-                      },
-                      "linkUrl": {
-                        "type": "Link.web",
-                        "value": {
-                          "url": "http://www.ddbremedy.com.au/"
-                        }
-                      },
-                      "linkImage": {
-                        "type": "Image",
-                        "value": {
-                          "main": {
-                            "dimensions": {
-                              "width": 2400,
-                              "height": 1603
-                            },
-                            "alt": null,
-                            "copyright": null,
-                            "url": "http://ddb-website.cdn.prismic.io/ddb-website/76f32a3a6176b3e557253dcbbbd3fc79aad9145f_s26_web_large.jpg"
-                          },
-                          "views": {
-                          }
-                        }
-                      }
-                    },
-                    {
-                      "linkText": {
-                        "type": "Text",
-                        "value": "Interbrand Australia"
-                      },
-                      "linkUrl": {
-                        "type": "Link.web",
-                        "value": {
-                          "url": "http://interbrand.com/au/"
-                        }
-                      },
-                      "linkImage": {
-                        "type": "Image",
-                        "value": {
-                          "main": {
-                            "dimensions": {
-                              "width": 580,
-                              "height": 387
-                            },
-                            "alt": null,
-                            "copyright": null,
-                            "url": "http://ddb-website.cdn.prismic.io/ddb-website/93954f2e6bee0a68a63890de6453d2227d6e6efe_sydney_opera_house_interbrand_09_c.jpg"
-                          },
-                          "views": {
-                          }
-                        }
-                      }
-                    }
-                  ]
-                }
-              }
-            ]
-          }
-        }
-      }
-    },
-    {
       "id": "WNSb7yEAAGYHQs7T",
       "uid": "news",
       "type": "news",
-      "href": "http://ddb-website.cdn.prismic.io/api/v1/documents/search?ref=Ws1XDioAAPoAnetB&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WNSb7yEAAGYHQs7T%22%29+%5D%5D",
+      "href": "http://ddb-website.cdn.prismic.io/api/v1/documents/search?ref=WvjY_icAAJUxvAvz&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WNSb7yEAAGYHQs7T%22%29+%5D%5D",
       "tags": [
 
       ],
@@ -4076,7 +4316,7 @@
       "id": "WMX0dScAAMwVxqbV",
       "uid": "people",
       "type": "about-pages",
-      "href": "http://ddb-website.cdn.prismic.io/api/v1/documents/search?ref=Ws1XDioAAPoAnetB&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WMX0dScAAMwVxqbV%22%29+%5D%5D",
+      "href": "http://ddb-website.cdn.prismic.io/api/v1/documents/search?ref=WvjY_icAAJUxvAvz&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WMX0dScAAMwVxqbV%22%29+%5D%5D",
       "tags": [
 
       ],
@@ -4753,7 +4993,7 @@
       "id": "WKoxNCgAACsAOhPa",
       "uid": "about",
       "type": "about",
-      "href": "http://ddb-website.cdn.prismic.io/api/v1/documents/search?ref=Ws1XDioAAPoAnetB&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WKoxNCgAACsAOhPa%22%29+%5D%5D",
+      "href": "http://ddb-website.cdn.prismic.io/api/v1/documents/search?ref=WvjY_icAAJUxvAvz&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WKoxNCgAACsAOhPa%22%29+%5D%5D",
       "tags": [
 
       ],
@@ -4967,7 +5207,7 @@
       "id": "WKoxZSgAACgAOhS1",
       "uid": "contact",
       "type": "contact",
-      "href": "http://ddb-website.cdn.prismic.io/api/v1/documents/search?ref=Ws1XDioAAPoAnetB&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WKoxZSgAACgAOhS1%22%29+%5D%5D",
+      "href": "http://ddb-website.cdn.prismic.io/api/v1/documents/search?ref=WvjY_icAAJUxvAvz&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WKoxZSgAACgAOhS1%22%29+%5D%5D",
       "tags": [
 
       ],
@@ -5300,7 +5540,7 @@
       "id": "WL82KSQAACIbfCy4",
       "uid": "volkswagen-amarok-korama",
       "type": "case-studies",
-      "href": "http://ddb-website.cdn.prismic.io/api/v1/documents/search?ref=Ws1XDioAAPoAnetB&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WL82KSQAACIbfCy4%22%29+%5D%5D",
+      "href": "http://ddb-website.cdn.prismic.io/api/v1/documents/search?ref=WvjY_icAAJUxvAvz&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WL82KSQAACIbfCy4%22%29+%5D%5D",
       "tags": [
 
       ],
@@ -5688,200 +5928,10 @@
       }
     },
     {
-      "id": "WLjjUx8AAH4IVCL5",
-      "uid": "job-openings",
-      "type": "career-listings",
-      "href": "http://ddb-website.cdn.prismic.io/api/v1/documents/search?ref=Ws1XDioAAPoAnetB&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WLjjUx8AAH4IVCL5%22%29+%5D%5D",
-      "tags": [
-
-      ],
-      "first_publication_date": "2017-03-03T03:30:34+0000",
-      "last_publication_date": "2017-03-28T06:16:25+0000",
-      "slugs": [
-        "careers--ddb",
-        "account-manager--careers--ddb",
-        "account-manager"
-      ],
-      "linked_documents": [
-
-      ],
-      "lang": "en-us",
-      "alternate_languages": [
-
-      ],
-      "data": {
-        "career-listings": {
-          "meta-title": {
-            "type": "Text",
-            "value": "Careers | DDB"
-          },
-          "foregroundColor": {
-            "type": "Color",
-            "value": "#000000"
-          },
-          "backgroundColor": {
-            "type": "Color",
-            "value": "#ffffff"
-          },
-          "sections": {
-            "type": "SliceZone",
-            "value": [
-              {
-                "type": "Slice",
-                "slice_type": "career-intro",
-                "slice_label": null,
-                "value": {
-                  "type": "Group",
-                  "value": [
-                    {
-                      "image": {
-                        "type": "Image",
-                        "value": {
-                          "main": {
-                            "dimensions": {
-                              "width": 5760,
-                              "height": 3840
-                            },
-                            "alt": null,
-                            "copyright": null,
-                            "url": "http://ddb-website.cdn.prismic.io/ddb-website/26ece49331be61e2613f36bdca7475766f00d246_147a0049.jpg"
-                          },
-                          "views": {
-                            "desktop": {
-                              "dimensions": {
-                                "width": 1920,
-                                "height": 1080
-                              },
-                              "alt": null,
-                              "copyright": null,
-                              "url": "http://ddb-website.cdn.prismic.io/ddb-website/b71df28be83a7adddb745085e9de384af0b6f480_147a0049.jpg"
-                            },
-                            "mobile": {
-                              "dimensions": {
-                                "width": 800,
-                                "height": 820
-                              },
-                              "alt": null,
-                              "copyright": null,
-                              "url": "http://ddb-website.cdn.prismic.io/ddb-website/573fb2606738c1f2c9a0a873c135727ba712b79c_147a0049.jpg"
-                            }
-                          }
-                        }
-                      },
-                      "copy": {
-                        "type": "Text",
-                        "value": "When Bill Bernbach started this agency, he had in mind precisely the kind of people he wanted to work here. \nThere were two requirements: You had to be talented and you had to be nice.\nIf you were nice but without talent, sorry but you just wouldn’t do. \nIf you were a great talent but not a nice person, he had no hesitation in saying ‘No.’\nThis is still our philosopyhy. So if you’re both, get in touch."
-                      }
-                    }
-                  ]
-                }
-              },
-              {
-                "type": "Slice",
-                "slice_type": "career-detail",
-                "slice_label": null,
-                "value": {
-                  "type": "Group",
-                  "value": [
-                    {
-                      "headline": {
-                        "type": "Text",
-                        "value": "Account Manager"
-                      },
-                      "copy": {
-                        "type": "Text",
-                        "value": "DDB Sydney is looking for an Account Manager to join the team.  We are looking for someone who is passionate about getting the job done. You are, in fact, the ultimate project manager, firing on all cylinders all the time. You assist in the execution of all marketing activities and you are able to anticipate the entire process, from who is involved, to what needs to get done, and how it all fits together.  <br><br>As an Account Managers you contribute to your client’s business through your strong understanding of the creative product and your role in its creation. You have a thirst for learning and can quickly pick up an in-depth understanding of the client, the client’s business and their consumer. You act and think creatively and strategically, contributing to the team, but also owning your projects and integrating around ideas. \n<br><br>If you are interested please send your CV to our Talent Director Sarah Crabbe <a class=\"ulink ulink--black\" href=\"mailto:sarah.crabbe@syd.ddb.com\" title=\"sarah.crabbe@syd.ddb.com\"><span>sarah.crabbe@syd.ddb.com</span></a>"
-                      },
-                      "style": {
-                        "type": "Select",
-                        "value": "white"
-                      }
-                    }
-                  ]
-                }
-              },
-              {
-                "type": "Slice",
-                "slice_type": "career-detail",
-                "slice_label": null,
-                "value": {
-                  "type": "Group",
-                  "value": [
-                    {
-                      "headline": {
-                        "type": "Text",
-                        "value": "Senior Account Manager"
-                      },
-                      "copy": {
-                        "type": "Text",
-                        "value": "DDB is looking for a Senior Account Manager to join the team working on a brilliant integrated account. <br><br>We are looking for a Senior Account Manager with strong integrated experience across everything from TV to Digital/Content and Print. If you are an organised and buttoned down suit with a knack for building exceptionally strong relationships - we would love to hear from you!\n<br><br>If you are interested please send your CV to our Talent Director Sarah Crabbe <a class=\"ulink\" href=\"mailto:sarah.crabbe@syd.ddb.com\" title=\"sarah.crabbe@syd.ddb.com\"><span>sarah.crabbe@syd.ddb.com</span></a>"
-                      },
-                      "style": {
-                        "type": "Select",
-                        "value": "black"
-                      }
-                    }
-                  ]
-                }
-              },
-              {
-                "type": "Slice",
-                "slice_type": "career-detail",
-                "slice_label": null,
-                "value": {
-                  "type": "Group",
-                  "value": [
-                    {
-                      "headline": {
-                        "type": "Text",
-                        "value": "Account Director"
-                      },
-                      "copy": {
-                        "type": "Text",
-                        "value": "DDB is looking for an established Account Director to join the team working on an exciting and fast paced account. \nWe are looking for an Account Director with exceptional client service experience across everything from TV to Digital/Content and Print. You are also a strong people manager able to coach and inspire your team. <br><br>Account Directors at DDB are solution-oriented, always thinking about their business, anticipating issues, and implementing their vision to produce superior results. They lead, facilitate and look for opportunities to expand into other disciplines. \n\n<br><br>If you are interested please send your CV to our Talent Director Sarah Crabbe <a class=\"ulink ulink--black\" href=\"mailto:sarah.crabbe@syd.ddb.com\" title=\"sarah.crabbe@syd.ddb.com\"><span>sarah.crabbe@syd.ddb.com</span></a>"
-                      },
-                      "style": {
-                        "type": "Select",
-                        "value": "white"
-                      }
-                    }
-                  ]
-                }
-              },
-              {
-                "type": "Slice",
-                "slice_type": "career-detail",
-                "slice_label": null,
-                "value": {
-                  "type": "Group",
-                  "value": [
-                    {
-                      "headline": {
-                        "type": "Text",
-                        "value": "Creatives"
-                      },
-                      "copy": {
-                        "type": "Text",
-                        "value": "DDB is currently looking for a range of creatives to join DDB on the back of some significant and exciting business growth. We are looking for creatives who have a passion for breakthrough creative ideas, contemporary thinking and execution plus a desire to learn and grow. \n<br><br>If you are interested in exploring these opportunities please send your folio to our Talent Director Sarah Crabbe <a class=\"ulink\" href=\"mailto:sarah.crabbe@syd.ddb.com\" title=\"sarah.crabbe@syd.ddb.com\"><span>sarah.crabbe@syd.ddb.com</span></a>"
-                      },
-                      "style": {
-                        "type": "Select",
-                        "value": "black"
-                      }
-                    }
-                  ]
-                }
-              }
-            ]
-          }
-        }
-      }
-    },
-    {
       "id": "WdQ7DysAAPnt6rSt",
       "uid": "virgin-uptimism",
       "type": "news-pages",
-      "href": "http://ddb-website.cdn.prismic.io/api/v1/documents/search?ref=Ws1XDioAAPoAnetB&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WdQ7DysAAPnt6rSt%22%29+%5D%5D",
+      "href": "http://ddb-website.cdn.prismic.io/api/v1/documents/search?ref=WvjY_icAAJUxvAvz&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WdQ7DysAAPnt6rSt%22%29+%5D%5D",
       "tags": [
 
       ],
@@ -6117,7 +6167,7 @@
       "id": "WUi1UywAAE8ppfKi",
       "uid": "test-news",
       "type": "news-pages",
-      "href": "http://ddb-website.cdn.prismic.io/api/v1/documents/search?ref=Ws1XDioAAPoAnetB&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WUi1UywAAE8ppfKi%22%29+%5D%5D",
+      "href": "http://ddb-website.cdn.prismic.io/api/v1/documents/search?ref=WvjY_icAAJUxvAvz&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WUi1UywAAE8ppfKi%22%29+%5D%5D",
       "tags": [
 
       ],
@@ -6277,7 +6327,7 @@
       "id": "WK4T9ikAAL4opdjb",
       "uid": "streets-talking-ice-cream",
       "type": "case-studies",
-      "href": "http://ddb-website.cdn.prismic.io/api/v1/documents/search?ref=Ws1XDioAAPoAnetB&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WK4T9ikAAL4opdjb%22%29+%5D%5D",
+      "href": "http://ddb-website.cdn.prismic.io/api/v1/documents/search?ref=WvjY_icAAJUxvAvz&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WK4T9ikAAL4opdjb%22%29+%5D%5D",
       "tags": [
 
       ],
@@ -6548,7 +6598,7 @@
       "id": "WfamxCoAAHLGZ7DL",
       "uid": "lite-credit-card",
       "type": "news-pages",
-      "href": "http://ddb-website.cdn.prismic.io/api/v1/documents/search?ref=Ws1XDioAAPoAnetB&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WfamxCoAAHLGZ7DL%22%29+%5D%5D",
+      "href": "http://ddb-website.cdn.prismic.io/api/v1/documents/search?ref=WvjY_icAAJUxvAvz&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WfamxCoAAHLGZ7DL%22%29+%5D%5D",
       "tags": [
 
       ],
@@ -6668,7 +6718,7 @@
       "id": "WYz3zSUAAGkZS4tS",
       "uid": "say-no-to-no",
       "type": "news-pages",
-      "href": "http://ddb-website.cdn.prismic.io/api/v1/documents/search?ref=Ws1XDioAAPoAnetB&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WYz3zSUAAGkZS4tS%22%29+%5D%5D",
+      "href": "http://ddb-website.cdn.prismic.io/api/v1/documents/search?ref=WvjY_icAAJUxvAvz&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WYz3zSUAAGkZS4tS%22%29+%5D%5D",
       "tags": [
 
       ],
@@ -6789,7 +6839,7 @@
       "id": "WLjnjB8AAH0IVDWZ",
       "uid": "account-director",
       "type": "career-listings",
-      "href": "http://ddb-website.cdn.prismic.io/api/v1/documents/search?ref=Ws1XDioAAPoAnetB&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WLjnjB8AAH0IVDWZ%22%29+%5D%5D",
+      "href": "http://ddb-website.cdn.prismic.io/api/v1/documents/search?ref=WvjY_icAAJUxvAvz&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WLjnjB8AAH0IVDWZ%22%29+%5D%5D",
       "tags": [
 
       ],
@@ -6909,7 +6959,7 @@
       "id": "WK0GeCkAACgAoTc8",
       "uid": "volkswagen-tough-sell",
       "type": "case-studies",
-      "href": "http://ddb-website.cdn.prismic.io/api/v1/documents/search?ref=Ws1XDioAAPoAnetB&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WK0GeCkAACgAoTc8%22%29+%5D%5D",
+      "href": "http://ddb-website.cdn.prismic.io/api/v1/documents/search?ref=WvjY_icAAJUxvAvz&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WK0GeCkAACgAoTc8%22%29+%5D%5D",
       "tags": [
 
       ],
@@ -7248,7 +7298,7 @@
       "id": "WMXzzycAAEgYxqP5",
       "uid": "principles",
       "type": "about-pages",
-      "href": "http://ddb-website.cdn.prismic.io/api/v1/documents/search?ref=Ws1XDioAAPoAnetB&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WMXzzycAAEgYxqP5%22%29+%5D%5D",
+      "href": "http://ddb-website.cdn.prismic.io/api/v1/documents/search?ref=WvjY_icAAJUxvAvz&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WMXzzycAAEgYxqP5%22%29+%5D%5D",
       "tags": [
 
       ],
@@ -7451,7 +7501,7 @@
       "id": "WL80WCQAAD0bfCS8",
       "uid": "skoda-octavia",
       "type": "case-studies",
-      "href": "http://ddb-website.cdn.prismic.io/api/v1/documents/search?ref=Ws1XDioAAPoAnetB&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WL80WCQAAD0bfCS8%22%29+%5D%5D",
+      "href": "http://ddb-website.cdn.prismic.io/api/v1/documents/search?ref=WvjY_icAAJUxvAvz&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WL80WCQAAD0bfCS8%22%29+%5D%5D",
       "tags": [
 
       ],
@@ -7618,7 +7668,7 @@
       "id": "WL5JOCQAAC8DeBbk",
       "uid": "westpac-bump",
       "type": "case-studies",
-      "href": "http://ddb-website.cdn.prismic.io/api/v1/documents/search?ref=Ws1XDioAAPoAnetB&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WL5JOCQAAC8DeBbk%22%29+%5D%5D",
+      "href": "http://ddb-website.cdn.prismic.io/api/v1/documents/search?ref=WvjY_icAAJUxvAvz&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WL5JOCQAAC8DeBbk%22%29+%5D%5D",
       "tags": [
 
       ],
@@ -7926,7 +7976,7 @@
       "id": "WKpzRigAACgAOzbM",
       "uid": "the-sydney-opera-house",
       "type": "case-studies",
-      "href": "http://ddb-website.cdn.prismic.io/api/v1/documents/search?ref=Ws1XDioAAPoAnetB&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WKpzRigAACgAOzbM%22%29+%5D%5D",
+      "href": "http://ddb-website.cdn.prismic.io/api/v1/documents/search?ref=WvjY_icAAJUxvAvz&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WKpzRigAACgAOzbM%22%29+%5D%5D",
       "tags": [
 
       ],
@@ -8323,7 +8373,7 @@
       "id": "WLdjLysAAO8Dy5W2",
       "uid": "pod-internship",
       "type": "career-listings",
-      "href": "http://ddb-website.cdn.prismic.io/api/v1/documents/search?ref=Ws1XDioAAPoAnetB&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WLdjLysAAO8Dy5W2%22%29+%5D%5D",
+      "href": "http://ddb-website.cdn.prismic.io/api/v1/documents/search?ref=WvjY_icAAJUxvAvz&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WLdjLysAAO8Dy5W2%22%29+%5D%5D",
       "tags": [
 
       ],
@@ -8454,7 +8504,7 @@
       "id": "WjcJwCkAAAAxc4AH",
       "uid": "bump-2-case-study",
       "type": "case-studies",
-      "href": "http://ddb-website.cdn.prismic.io/api/v1/documents/search?ref=Ws1XDioAAPoAnetB&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WjcJwCkAAAAxc4AH%22%29+%5D%5D",
+      "href": "http://ddb-website.cdn.prismic.io/api/v1/documents/search?ref=WvjY_icAAJUxvAvz&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WjcJwCkAAAAxc4AH%22%29+%5D%5D",
       "tags": [
 
       ],
@@ -8649,7 +8699,7 @@
       "id": "WL5LISQAADADeB9R",
       "uid": "westpac-chopper",
       "type": "case-studies",
-      "href": "http://ddb-website.cdn.prismic.io/api/v1/documents/search?ref=Ws1XDioAAPoAnetB&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WL5LISQAADADeB9R%22%29+%5D%5D",
+      "href": "http://ddb-website.cdn.prismic.io/api/v1/documents/search?ref=WvjY_icAAJUxvAvz&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WL5LISQAADADeB9R%22%29+%5D%5D",
       "tags": [
 
       ],
@@ -8936,7 +8986,7 @@
       "id": "Wa8IjR8AANNcYXiC",
       "uid": "digital-makes-traditional-advertising-work-harder",
       "type": "news-pages",
-      "href": "http://ddb-website.cdn.prismic.io/api/v1/documents/search?ref=Ws1XDioAAPoAnetB&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22Wa8IjR8AANNcYXiC%22%29+%5D%5D",
+      "href": "http://ddb-website.cdn.prismic.io/api/v1/documents/search?ref=WvjY_icAAJUxvAvz&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22Wa8IjR8AANNcYXiC%22%29+%5D%5D",
       "tags": [
 
       ],
@@ -9102,7 +9152,7 @@
       "id": "WdQpHisAAJba6mdv",
       "uid": "virgin-australia",
       "type": "case-studies",
-      "href": "http://ddb-website.cdn.prismic.io/api/v1/documents/search?ref=Ws1XDioAAPoAnetB&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WdQpHisAAJba6mdv%22%29+%5D%5D",
+      "href": "http://ddb-website.cdn.prismic.io/api/v1/documents/search?ref=WvjY_icAAJUxvAvz&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WdQpHisAAJba6mdv%22%29+%5D%5D",
       "tags": [
 
       ],
@@ -9299,7 +9349,7 @@
       "id": "WLjlpR8AAH0IVC02",
       "uid": "senior-account-manager",
       "type": "career-listings",
-      "href": "http://ddb-website.cdn.prismic.io/api/v1/documents/search?ref=Ws1XDioAAPoAnetB&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WLjlpR8AAH0IVC02%22%29+%5D%5D",
+      "href": "http://ddb-website.cdn.prismic.io/api/v1/documents/search?ref=WvjY_icAAJUxvAvz&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WLjlpR8AAH0IVC02%22%29+%5D%5D",
       "tags": [
 
       ],
@@ -9418,7 +9468,7 @@
       "id": "WNSr2SEAAGQHQxTz",
       "uid": "sample",
       "type": "news-pages",
-      "href": "http://ddb-website.cdn.prismic.io/api/v1/documents/search?ref=Ws1XDioAAPoAnetB&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WNSr2SEAAGQHQxTz%22%29+%5D%5D",
+      "href": "http://ddb-website.cdn.prismic.io/api/v1/documents/search?ref=WvjY_icAAJUxvAvz&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WNSr2SEAAGQHQxTz%22%29+%5D%5D",
       "tags": [
 
       ],
@@ -9746,7 +9796,7 @@
       "id": "WKEQcCUAAKomq5fv",
       "uid": "test",
       "type": "case-studies",
-      "href": "http://ddb-website.cdn.prismic.io/api/v1/documents/search?ref=Ws1XDioAAPoAnetB&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WKEQcCUAAKomq5fv%22%29+%5D%5D",
+      "href": "http://ddb-website.cdn.prismic.io/api/v1/documents/search?ref=WvjY_icAAJUxvAvz&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WKEQcCUAAKomq5fv%22%29+%5D%5D",
       "tags": [
 
       ],
@@ -10496,7 +10546,7 @@
       "id": "WUrx-SYAADsab7fg",
       "uid": "unreasonable-growth",
       "type": "news-pages",
-      "href": "http://ddb-website.cdn.prismic.io/api/v1/documents/search?ref=Ws1XDioAAPoAnetB&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WUrx-SYAADsab7fg%22%29+%5D%5D",
+      "href": "http://ddb-website.cdn.prismic.io/api/v1/documents/search?ref=WvjY_icAAJUxvAvz&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WUrx-SYAADsab7fg%22%29+%5D%5D",
       "tags": [
 
       ],
@@ -10582,7 +10632,7 @@
       "id": "WK0L2SkAACsAoU7x",
       "uid": "mcdonalds-people",
       "type": "case-studies",
-      "href": "http://ddb-website.cdn.prismic.io/api/v1/documents/search?ref=Ws1XDioAAPoAnetB&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WK0L2SkAACsAoU7x%22%29+%5D%5D",
+      "href": "http://ddb-website.cdn.prismic.io/api/v1/documents/search?ref=WvjY_icAAJUxvAvz&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WK0L2SkAACsAoU7x%22%29+%5D%5D",
       "tags": [
 
       ],
@@ -10979,7 +11029,7 @@
       "id": "WL5FeyQAAMcLeAZr",
       "uid": "mcdonalds-create-your-taste-father-daughter",
       "type": "case-studies",
-      "href": "http://ddb-website.cdn.prismic.io/api/v1/documents/search?ref=Ws1XDioAAPoAnetB&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WL5FeyQAAMcLeAZr%22%29+%5D%5D",
+      "href": "http://ddb-website.cdn.prismic.io/api/v1/documents/search?ref=WvjY_icAAJUxvAvz&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WL5FeyQAAMcLeAZr%22%29+%5D%5D",
       "tags": [
 
       ],
@@ -11333,7 +11383,7 @@
       "id": "WffmzSoAACggbTAj",
       "uid": "lock-your-card",
       "type": "news-pages",
-      "href": "http://ddb-website.cdn.prismic.io/api/v1/documents/search?ref=Ws1XDioAAPoAnetB&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WffmzSoAACggbTAj%22%29+%5D%5D",
+      "href": "http://ddb-website.cdn.prismic.io/api/v1/documents/search?ref=WvjY_icAAJUxvAvz&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WffmzSoAACggbTAj%22%29+%5D%5D",
       "tags": [
 
       ],
@@ -11406,7 +11456,7 @@
       "id": "WfZ-2ioAAJexZwD-",
       "uid": "westpac-app",
       "type": "news-pages",
-      "href": "http://ddb-website.cdn.prismic.io/api/v1/documents/search?ref=Ws1XDioAAPoAnetB&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WfZ-2ioAAJexZwD-%22%29+%5D%5D",
+      "href": "http://ddb-website.cdn.prismic.io/api/v1/documents/search?ref=WvjY_icAAJUxvAvz&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WfZ-2ioAAJexZwD-%22%29+%5D%5D",
       "tags": [
 
       ],
@@ -11593,7 +11643,7 @@
       "id": "WfKwESoAABGTVj2r",
       "uid": "rmhc-mcds",
       "type": "news-pages",
-      "href": "http://ddb-website.cdn.prismic.io/api/v1/documents/search?ref=Ws1XDioAAPoAnetB&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WfKwESoAABGTVj2r%22%29+%5D%5D",
+      "href": "http://ddb-website.cdn.prismic.io/api/v1/documents/search?ref=WvjY_icAAJUxvAvz&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WfKwESoAABGTVj2r%22%29+%5D%5D",
       "tags": [
 
       ],
@@ -11739,7 +11789,7 @@
       "id": "WUr6wCYAADYab96L",
       "uid": "best-global-talent",
       "type": "news-pages",
-      "href": "http://ddb-website.cdn.prismic.io/api/v1/documents/search?ref=Ws1XDioAAPoAnetB&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WUr6wCYAADYab96L%22%29+%5D%5D",
+      "href": "http://ddb-website.cdn.prismic.io/api/v1/documents/search?ref=WvjY_icAAJUxvAvz&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WUr6wCYAADYab96L%22%29+%5D%5D",
       "tags": [
 
       ],
@@ -11860,7 +11910,7 @@
       "id": "WWhKUSkAAPpMAZoj",
       "uid": "ddb-appoints-tara-ford",
       "type": "news-pages",
-      "href": "http://ddb-website.cdn.prismic.io/api/v1/documents/search?ref=Ws1XDioAAPoAnetB&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WWhKUSkAAPpMAZoj%22%29+%5D%5D",
+      "href": "http://ddb-website.cdn.prismic.io/api/v1/documents/search?ref=WvjY_icAAJUxvAvz&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WWhKUSkAAPpMAZoj%22%29+%5D%5D",
       "tags": [
 
       ],
@@ -11980,7 +12030,7 @@
       "id": "WLjpIB8AAH0IVDyO",
       "uid": "creatives",
       "type": "career-listings",
-      "href": "http://ddb-website.cdn.prismic.io/api/v1/documents/search?ref=Ws1XDioAAPoAnetB&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WLjpIB8AAH0IVDyO%22%29+%5D%5D",
+      "href": "http://ddb-website.cdn.prismic.io/api/v1/documents/search?ref=WvjY_icAAJUxvAvz&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WLjpIB8AAH0IVDyO%22%29+%5D%5D",
       "tags": [
 
       ],
@@ -12093,7 +12143,7 @@
       "id": "WjHt_R0AAGsBQOGL",
       "uid": "afl-fan-report",
       "type": "case-studies",
-      "href": "http://ddb-website.cdn.prismic.io/api/v1/documents/search?ref=Ws1XDioAAPoAnetB&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WjHt_R0AAGsBQOGL%22%29+%5D%5D",
+      "href": "http://ddb-website.cdn.prismic.io/api/v1/documents/search?ref=WvjY_icAAJUxvAvz&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WjHt_R0AAGsBQOGL%22%29+%5D%5D",
       "tags": [
 
       ],
@@ -12355,7 +12405,7 @@
       "id": "WK0ZFykAACsAoYlk",
       "uid": "volkswagen-naked-ute",
       "type": "case-studies",
-      "href": "http://ddb-website.cdn.prismic.io/api/v1/documents/search?ref=Ws1XDioAAPoAnetB&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WK0ZFykAACsAoYlk%22%29+%5D%5D",
+      "href": "http://ddb-website.cdn.prismic.io/api/v1/documents/search?ref=WvjY_icAAJUxvAvz&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WK0ZFykAACsAoYlk%22%29+%5D%5D",
       "tags": [
 
       ],
@@ -12741,7 +12791,7 @@
       "id": "WUnNOCYAAJQGaq1E",
       "uid": "award-awards",
       "type": "news-pages",
-      "href": "http://ddb-website.cdn.prismic.io/api/v1/documents/search?ref=Ws1XDioAAPoAnetB&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WUnNOCYAAJQGaq1E%22%29+%5D%5D",
+      "href": "http://ddb-website.cdn.prismic.io/api/v1/documents/search?ref=WvjY_icAAJUxvAvz&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WUnNOCYAAJQGaq1E%22%29+%5D%5D",
       "tags": [
 
       ],
@@ -12815,7 +12865,7 @@
       "id": "WUr3QCYAABEab88j",
       "uid": "new-skoda-campaign",
       "type": "news-pages",
-      "href": "http://ddb-website.cdn.prismic.io/api/v1/documents/search?ref=Ws1XDioAAPoAnetB&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WUr3QCYAABEab88j%22%29+%5D%5D",
+      "href": "http://ddb-website.cdn.prismic.io/api/v1/documents/search?ref=WvjY_icAAJUxvAvz&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22WUr3QCYAABEab88j%22%29+%5D%5D",
       "tags": [
 
       ],
@@ -12954,6 +13004,6 @@
       }
     }
   ],
-  "version": "ea02c0d",
+  "version": "577695c",
   "license": "All Rights Reserved"
 }
