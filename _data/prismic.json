@@ -148,23 +148,14 @@
                     "value": {
                       "main": {
                         "dimensions": {
-                          "width": 4609,
-                          "height": 4763
+                          "width": 1024,
+                          "height": 500
                         },
                         "alt": null,
                         "copyright": null,
-                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/cb7a3e1f60d65f8e35a974aa80654be57fc750ad_shutterstock_129553100.jpg"
+                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/2e1ffec339ec4bacfaaab11cb62dd00bf313f792_website-landing-blank.jpg"
                       },
                       "views": {
-                        "desktop": {
-                          "dimensions": {
-                            "width": 1920,
-                            "height": 1080
-                          },
-                          "alt": null,
-                          "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/8027f1f7c95041043892d45b9bc36690d1f8080c_shutterstock_129553100.jpg"
-                        },
                         "mobile": {
                           "dimensions": {
                             "width": 800,
@@ -172,14 +163,23 @@
                           },
                           "alt": null,
                           "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/4933a42ddedf1a8c092b540cdcbac17dd221fe82_shutterstock_129553100.jpg"
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/856315b418e062175d9973210233cf7977439563_website-landing-blank.jpg"
+                        },
+                        "desktop": {
+                          "dimensions": {
+                            "width": 1920,
+                            "height": 1080
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/0331a6218e0bf253c1d163a712fbae3db7fc1408_website-landing-blank.jpg"
                         }
                       }
                     }
                   },
                   "copy": {
                     "type": "Text",
-                    "value": "Don’t see a position that fits your experience, but you’d love to learn more opportunities about DDB? Reach out to our Talent Manager Erin Cook <a class=\"ulink\" href=\"mailto:Erin.Cook@syd.ddb.com\" title=\"Erin.Cook@syd.ddb.com\"><span>Erin.Cook@syd.ddb.com</span></a>"
+                    "value": "Don’t see a position that fits your experience, but you’d love to learn more about opportunities about DDB? Reach out to our Talent Manager Erin Cook <a class=\"ulink\" href=\"mailto:Erin.Cook@syd.ddb.com\" title=\"Erin.Cook@syd.ddb.com\"><span>Erin.Cook@syd.ddb.com</span></a>"
                   }
                 }
               ]
