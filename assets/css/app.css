@@ -105,6 +105,10 @@
   background-color: transparent;
   background-repeat: no-repeat;
   -moz-background-size: cover;
+<<<<<<< HEAD
+=======
+    -o-background-size: cover;
+>>>>>>> develop
        background-size: cover;
 }
 
@@ -2451,6 +2455,10 @@ main, section, .section, .fof-tile, .intro-tile, .intro-group-tile, .case-study-
   padding-bottom: 63%;
   background-repeat: no-repeat;
   -moz-background-size: cover;
+<<<<<<< HEAD
+=======
+    -o-background-size: cover;
+>>>>>>> develop
        background-size: cover;
   background-position: center center;
 }
@@ -5768,6 +5776,10 @@ main, section, .section, .fof-tile, .intro-tile, .intro-group-tile, .case-study-
   right: 0;
   left: auto;
   -moz-background-size: contain;
+<<<<<<< HEAD
+=======
+    -o-background-size: contain;
+>>>>>>> develop
        background-size: contain;
   background-position: right bottom;
 }
