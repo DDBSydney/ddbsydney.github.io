@@ -1512,7 +1512,7 @@ var CONFIG = require("../../config");
     //   Public members
     // ---------------------------------------------
     var bd = this; // to capture the content of this
-    bd.isProd = true; // flag turn dev mode on/off ( will be modified by gulp )
+    bd.isProd = false; // flag turn dev mode on/off ( will be modified by gulp )
     bd.isDeploy = true; // flag turn live mode on/off ( will be modified by gulp )
 
     // ---------------------------------------------

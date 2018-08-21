@@ -683,6 +683,90 @@
       }
     },
     {
+      "uid": "crafter",
+      "data": {
+        "meta-title": {
+          "type": "Text",
+          "value": "Crafter - case study"
+        },
+        "foregroundColor": {
+          "type": "Color",
+          "value": "#030000"
+        },
+        "backgroundColor": {
+          "type": "Color",
+          "value": "#050000"
+        },
+        "sections": {
+          "type": "SectionList",
+          "value": [
+            {
+              "type": "case-study-work-tile",
+              "value": [
+                {
+                  "headline": {
+                    "type": "Text",
+                    "value": "Volkswagen Crafter"
+                  },
+                  "copy": {
+                    "type": "Text",
+                    "value": "More than a white box"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "case-study-work-tile",
+              "value": [
+                {
+                  "copy": {
+                    "type": "Text",
+                    "value": "White boxes on wheels. Mobile toasters with the sex appeal of a loaf of bread. This is the humdrum world of vans. Until now."
+                  }
+                }
+              ]
+            },
+            {
+              "type": "video-tile",
+              "value": [
+                {
+                  "video": {
+                    "type": "Link.file",
+                    "value": {
+                      "file": {
+                        "name": "VGACV0347D1_CrafterReview.mp4",
+                        "kind": "document",
+                        "url": "http://ddb-website.cdn.prismic.io/ddb-website%2F04ad8e42-542b-4310-89f8-21a8537d68fe_vgacv0347d1_crafterreview.mp4",
+                        "size": "94802750"
+                      }
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "case-study-work-tile",
+              "value": [
+                {
+                  "copy": {
+                    "type": "Text",
+                    "value": "Introducing the advanced new Volkswagen Crafter. More than a white box."
+                  }
+                }
+              ]
+            },
+            {
+              "type": "video-tile",
+              "value": [
+                {
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
       "uid": "monash-childrens-hospital",
       "data": {
         "meta-title": {
@@ -1159,6 +1243,121 @@
                   "copy": {
                     "type": "Text",
                     "value": "It’s not technology itself that makes a Volkswagen More Than a Car. It’s the unexpected benefits and the stories that accompany them that makes a Volkswagen a character in our lives, and not just a means of getting from A to B."
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "uid": "frank-lostalovedone",
+      "data": {
+        "meta-title": {
+          "type": "Text",
+          "value": "Frank - case study"
+        },
+        "meta-description": {
+          "type": "Text",
+          "value": "lostalovedone"
+        },
+        "foregroundColor": {
+          "type": "Color",
+          "value": "#050505"
+        },
+        "backgroundColor": {
+          "type": "Color",
+          "value": "#050505"
+        },
+        "sections": {
+          "type": "SectionList",
+          "value": [
+            {
+              "type": "case-study-work-tile",
+              "value": [
+                {
+                  "headline": {
+                    "type": "Text",
+                    "value": "Westpac"
+                  },
+                  "copy": {
+                    "type": "Text",
+                    "value": "If you've lost a loved one...we're here to help"
+                  },
+                  "image": {
+                    "type": "Image",
+                    "value": {
+                      "main": {
+                        "dimensions": {
+                          "width": 1440,
+                          "height": 597
+                        },
+                        "alt": null,
+                        "copyright": null,
+                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/cb1adbd0f1e8a093e46ad13dd535389928d8d32c_hero-frank.png"
+                      },
+                      "views": {
+                        "desktop": {
+                          "dimensions": {
+                            "width": 1920,
+                            "height": 900
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/7985cddd4d02af2c948a7c5276ea8c859669613a_hero-frank.png"
+                        },
+                        "mobile": {
+                          "dimensions": {
+                            "width": 840,
+                            "height": 1350
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/5dac1b86d88cfa181b31e735178f6f3ccb6c6a68_hero-frank.png"
+                        }
+                      }
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "case-study-work-tile",
+              "value": [
+                {
+                  "copy": {
+                    "type": "Text",
+                    "value": "Westpac has launched its latest creative which draws on the brand’s promise of helping in the moments that matter and the Australian spirit of communities coming together when a loved one passes away."
+                  }
+                }
+              ]
+            },
+            {
+              "type": "video-tile",
+              "value": [
+                {
+                  "video": {
+                    "type": "Link.file",
+                    "value": {
+                      "file": {
+                        "name": "WBC5434T160_Huddle_1920x1080.mp4",
+                        "kind": "document",
+                        "url": "http://ddb-website.cdn.prismic.io/ddb-website%2F5ae6e5db-6594-4f80-9260-b0b3cbce0336_wbc5434t160_huddle_1920x1080.mp4",
+                        "size": "95415805"
+                      }
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "case-study-work-tile",
+              "value": [
+                {
+                  "copy": {
+                    "type": "Text",
+                    "value": "Depicted through a series of emotive scenes to the soundtrack of The Seekers’ classic I’ll Never Find Another You remade by Julia Jacklin, the creative tells the story of a man who spends his life helping those around him.\n<br>\n<br>\nThe ad culminates with his funeral service, in which the community gathers to celebrate his life and help his widow."
                   }
                 }
               ]
@@ -6604,23 +6803,14 @@
                     "value": {
                       "main": {
                         "dimensions": {
-                          "width": 1912,
-                          "height": 682
+                          "width": 1440,
+                          "height": 597
                         },
                         "alt": null,
                         "copyright": null,
-                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/bab187c12179b962541f534e4fe6189ad981ddff_wbc5414t190_sub_boardless.mov.01_00_46_06.still003.jpg"
+                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/cb1adbd0f1e8a093e46ad13dd535389928d8d32c_hero-frank.png"
                       },
                       "views": {
-                        "desktop": {
-                          "dimensions": {
-                            "width": 1920,
-                            "height": 1080
-                          },
-                          "alt": null,
-                          "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/88e2a65ed4035801955f3bcbedd28bcc8b069fda_wbc5414t190_sub_boardless.mov.01_00_46_06.still003.jpg"
-                        },
                         "mobile": {
                           "dimensions": {
                             "width": 800,
@@ -6628,7 +6818,16 @@
                           },
                           "alt": null,
                           "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/e5c59be387dd25c372645eefb0e426947cc52614_wbc5414t190_sub_boardless.mov.01_00_46_06.still003.jpg"
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/eaa87a608cbea8d68e0bea7665c120d999d6e616_hero-frank.png"
+                        },
+                        "desktop": {
+                          "dimensions": {
+                            "width": 1920,
+                            "height": 1080
+                          },
+                          "alt": null,
+                          "copyright": null,
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/fc25458edc58bca1c21ae9adef83629a7aabfa9f_hero-frank.png"
                         }
                       }
                     }
@@ -6637,10 +6836,10 @@
                     "type": "Link.file",
                     "value": {
                       "file": {
-                        "name": "Westpac-Brand_60sec-Final.mp4",
+                        "name": "WBC5434T160_Huddle_1920x1080.mp4",
                         "kind": "document",
-                        "url": "http://ddb-website.cdn.prismic.io/ddb-website%2Fa6af139b-7858-4a57-907a-2e3b718ce167_westpac-brand_60sec-final.mp4",
-                        "size": "36493347"
+                        "url": "http://ddb-website.cdn.prismic.io/ddb-website%2F5ae6e5db-6594-4f80-9260-b0b3cbce0336_wbc5434t160_huddle_1920x1080.mp4",
+                        "size": "95415805"
                       }
                     }
                   }
@@ -6785,23 +6984,23 @@
                 {
                   "headline": {
                     "type": "Text",
-                    "value": "Volkswagen"
+                    "value": "Westpac"
                   },
                   "copy": {
                     "type": "Text",
-                    "value": "Tech surprising enough to help mend a relationship"
+                    "value": "If you've lost a loved one..."
                   },
                   "image": {
                     "type": "Image",
                     "value": {
                       "main": {
                         "dimensions": {
-                          "width": 1916,
-                          "height": 876
+                          "width": 1440,
+                          "height": 597
                         },
                         "alt": null,
                         "copyright": null,
-                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/1954813d3049eaf08bc30aae31e9e4e61f944fed_vga5375t130.00_00_17_02.still001.png"
+                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/cb1adbd0f1e8a093e46ad13dd535389928d8d32c_hero-frank.png"
                       },
                       "views": {
                         "mobile": {
@@ -6811,7 +7010,7 @@
                           },
                           "alt": null,
                           "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/10e826ff97efa4b2b290fd46fa263d5f97e2a400_vga5375t130.00_00_17_02.still001.png"
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/eaa87a608cbea8d68e0bea7665c120d999d6e616_hero-frank.png"
                         },
                         "desktop": {
                           "dimensions": {
@@ -6820,7 +7019,7 @@
                           },
                           "alt": null,
                           "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/86c0829c896f8013944694f82abea682cfb0172d_vga5375t130.00_00_17_02.still001.png"
+                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/7985cddd4d02af2c948a7c5276ea8c859669613a_hero-frank.png"
                         }
                       }
                     }
@@ -6829,14 +7028,14 @@
                     "type": "Link.document",
                     "value": {
                       "document": {
-                        "id": "WssteC4AAIwAMGBi",
+                        "id": "W3ub1CkAACcAN5-r",
                         "type": "case-studies",
                         "tags": [
 
                         ],
                         "lang": "en-us",
-                        "slug": "volkswagen--tech-surprising-enough-to-help-mend-a-relationship",
-                        "uid": "volkswagen-more-than-a-car"
+                        "slug": "frank---case-study",
+                        "uid": "frank-lostalovedone"
                       },
                       "isBroken": false
                     }
@@ -6959,12 +7158,12 @@
                   },
                   "copy": {
                     "type": "Text",
-                    "value": "Celebrating all the Dons of Australia"
+                    "value": "Calling on novice painters to fight the 'FOMU'"
                   },
                   "linkUrl": {
                     "type": "Link.web",
                     "value": {
-                      "url": "https://www.youtube.com/watch?v=qrS6Hbk80rg"
+                      "url": "https://www.youtube.com/watch?v=g_5UtGC2u1U"
                     }
                   },
                   "linkText": {
@@ -6980,50 +7179,26 @@
                 {
                   "headline": {
                     "type": "Text",
-                    "value": "McDonald's"
+                    "value": "Volkswagen"
                   },
                   "copy": {
                     "type": "Text",
-                    "value": "Calling on Aussies to ‘Go Full Summer’"
-                  },
-                  "image": {
-                    "type": "Image",
-                    "value": {
-                      "main": {
-                        "dimensions": {
-                          "width": 1920,
-                          "height": 1080
-                        },
-                        "alt": null,
-                        "copyright": null,
-                        "url": "http://ddb-website.cdn.prismic.io/ddb-website/2e7aefddd568af937a85d9cf997ea2441a873022_mcd6040t190.00_01_15_17.still002.jpg"
-                      },
-                      "views": {
-                        "desktop": {
-                          "dimensions": {
-                            "width": 1920,
-                            "height": 900
-                          },
-                          "alt": null,
-                          "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/4ffffe016bb1ca6a7ee083a0e3242b70a6aacaa2_mcd6040t190.00_01_15_17.still002.jpg"
-                        },
-                        "mobile": {
-                          "dimensions": {
-                            "width": 800,
-                            "height": 820
-                          },
-                          "alt": null,
-                          "copyright": null,
-                          "url": "http://ddb-website.cdn.prismic.io/ddb-website/f8a84d670a54ef6baecf90f9d3ef71802f87d50e_mcd6040t190.00_01_15_17.still002.jpg"
-                        }
-                      }
-                    }
+                    "value": "Crafter - More than a white box"
                   },
                   "linkUrl": {
-                    "type": "Link.web",
+                    "type": "Link.document",
                     "value": {
-                      "url": "https://www.youtube.com/edit?o=U&video_id=Wyop9-DmR4w"
+                      "document": {
+                        "id": "W3uefykAACgAN6t-",
+                        "type": "case-studies",
+                        "tags": [
+
+                        ],
+                        "lang": "en-us",
+                        "slug": "crafter---case-study",
+                        "uid": "crafter"
+                      },
+                      "isBroken": false
                     }
                   },
                   "linkText": {
@@ -7108,31 +7283,21 @@
                 {
                   "headline": {
                     "type": "Text",
-                    "value": "News"
+                    "value": "Work"
                   },
                   "copy": {
                     "type": "Text",
-                    "value": "Skoda: You don't have to be famous to be brilliant"
+                    "value": "Maccas 'Baby Drive Thru'"
                   },
                   "linkUrl": {
-                    "type": "Link.document",
+                    "type": "Link.web",
                     "value": {
-                      "document": {
-                        "id": "WUr3QCYAABEab88j",
-                        "type": "news-pages",
-                        "tags": [
-
-                        ],
-                        "lang": "en-us",
-                        "slug": "new-skoda-campaign",
-                        "uid": "new-skoda-campaign"
-                      },
-                      "isBroken": false
+                      "url": "https://www.youtube.com/watch?v=hUPOuXzZ-Tc"
                     }
                   },
                   "linkText": {
                     "type": "Text",
-                    "value": "Read more"
+                    "value": "View the work"
                   }
                 },
                 {
